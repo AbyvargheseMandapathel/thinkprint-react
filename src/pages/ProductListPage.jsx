@@ -1,23 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import FilterComponent from "../components/FilterComponent";
 import MobileFilterButton from "../components/MobileFilterButton";
 import ProductLayout from "../components/ProductLayout";
-import { products } from "../data";
-import { generateBreadcrumbs } from "../utils/breadcrumbUtils";
 import "../index.css";
 
-const ProductListPage = () => {
+const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
   const [filtersVisible, setFiltersVisible] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [filteredProducts, setFilteredProducts] = useState(products);
+  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [priceRange, setPriceRange] = useState([0, 5000]);
 
-  // Handle Filtering Logic
-  const handleFilter = (category, priceRange) => {
-    let filtered = products;
+  // Memoized Filtering Logic
+  const filteredProducts = useMemo(() => {
+    let filtered = allProducts;
 
     // Filter by category
-    if (category !== "All") {
-      filtered = filtered.filter((product) => product.category === category);
+    if (selectedCategory !== "All") {
+      filtered = filtered.filter((product) => product.category === selectedCategory);
     }
 
     // Filter by price range
@@ -25,35 +24,40 @@ const ProductListPage = () => {
       (product) => product.price >= priceRange[0] && product.price <= priceRange[1]
     );
 
-    setFilteredProducts(filtered);
-    setCurrentPage(1); // Reset to first page when filters change
-  };
+    return filtered;
+  }, [allProducts, selectedCategory, priceRange]);
 
-  // Calculate the products to display based on the current page
+  // Pagination Logic
   const itemsPerPage = 9;
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
+  const paginatedProducts = useMemo(() => {
+    return filteredProducts.slice(startIndex, endIndex);
+  }, [filteredProducts, currentPage]);
+
+  // Handle Filtering Logic
+  const handleFilter = (category, range) => {
+    setSelectedCategory(category); // Update the selected category
+    setPriceRange(range); // Update the price range
+    setCurrentPage(1); // Reset to first page when filters change
+  };
+
+  // Dynamically Generate Title
+  const title = selectedCategory === "All" ? "All Products" : `${selectedCategory} Products`;
 
   // Handle Pagination Navigation
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
   };
 
-  // Generate breadcrumbs dynamically
-  const selectedCategory = "Electronics"; // Example: Replace with actual category logic
-  const breadcrumbs = generateBreadcrumbs(selectedCategory);
-
   return (
     <div className="font-[Poppins] bg-gray-50">
-
       {/* Mobile Filter Button */}
       <MobileFilterButton
         filtersVisible={filtersVisible}
         toggleFilters={() => setFiltersVisible(!filtersVisible)}
       />
-
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6">
         {/* Filters (Left Side on Desktop, Below Navbar on Mobile) */}
@@ -67,10 +71,9 @@ const ProductListPage = () => {
             <FilterComponent onFilter={handleFilter} />
           </div>
         )}
-
         {/* Product Layout */}
         <ProductLayout
-          title="Shop Left Sidebar"
+          title={title} // Dynamically update the title
           breadcrumbs={breadcrumbs}
           products={paginatedProducts}
           totalPages={totalPages}

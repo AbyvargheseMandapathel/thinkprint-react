@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { categories } from "../data"; // Import categories from data.js
 
 const FilterComponent = ({ onFilter }) => {
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [priceRange, setPriceRange] = useState([0, 5000]);
 
-  const categories = ["All", "Electronics", "Men", "Women"];
+  // Extract category names and include "All" as the first option
+  const categoryOptions = ["All", ...categories.map((category) => category.name)];
 
   // Trigger Filtering Logic
   const handleApplyFilters = () => {
@@ -17,7 +19,7 @@ const FilterComponent = ({ onFilter }) => {
       <div>
         <h4 className="text-lg font-bold mb-4">Categories</h4>
         <ul className="space-y-2">
-          {categories.map((category) => (
+          {categoryOptions.map((category) => (
             <li key={category}>
               <label className="flex items-center cursor-pointer">
                 <input
@@ -45,8 +47,8 @@ const FilterComponent = ({ onFilter }) => {
         <input
           type="range"
           min="0"
-          max="1000"
-          step="50"
+          max="5000"
+          step="500"
           value={priceRange[1]}
           onChange={(e) => setPriceRange([0, e.target.value])}
           className="w-full"
@@ -66,8 +68,8 @@ const FilterComponent = ({ onFilter }) => {
         className="w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition-colors"
         onClick={() => {
           setSelectedCategory("All");
-          setPriceRange([0, 500]);
-          onFilter("All", [0, 500]); // Reset filters
+          setPriceRange([0, 5000]);
+          onFilter("All", [0, 5000]); // Reset filters
         }}
       >
         Reset Filters

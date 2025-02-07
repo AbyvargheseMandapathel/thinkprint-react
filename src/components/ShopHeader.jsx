@@ -1,6 +1,6 @@
 import React from "react";
 
-const ShopHeader = ({ title, breadcrumbs }) => {
+const ShopHeader = ({ title, breadcrumbs = [] }) => {
   return (
     <div className="bg-white rounded-lg shadow-md p-6 mb-8">
       {/* Title */}
@@ -18,7 +18,6 @@ const ShopHeader = ({ title, breadcrumbs }) => {
             ) : (
               <span>{item.label}</span>
             )}
-
             {/* Separator (if not the last item) */}
             {index < breadcrumbs.length - 1 && <span>/</span>}
           </React.Fragment>

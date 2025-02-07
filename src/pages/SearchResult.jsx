@@ -1,8 +1,8 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import ProductLayout from "../components/ProductLayout";
+import ProductListPage from "./ProductListPage";
 import { generateBreadcrumbs } from "../utils/breadcrumbUtils";
-import { categories, recommendedProducts } from "../data";
+import { categories, products } from "../data"; // Use `products` instead of `recommendedProducts`
 
 const SearchResult = () => {
   // Get the search query from the URL
@@ -15,37 +15,21 @@ const SearchResult = () => {
     category.name.toLowerCase().includes(query.toLowerCase())
   );
 
-  const filteredProducts = recommendedProducts.filter(
+  const filteredProducts = products.filter(
     (product) =>
       product.title.toLowerCase().includes(query.toLowerCase()) ||
       product.description.toLowerCase().includes(query.toLowerCase())
   );
 
-  // Combine results (categories + products)
-  const searchResults = [...filteredCategories, ...filteredProducts];
-
-  // Pagination Logic
-  const itemsPerPage = 9;
-  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
-  const currentPage = 1; // For simplicity, we show only the first page of results
-
-  const paginatedProducts = filteredProducts.slice(0, itemsPerPage);
-
   // Generate breadcrumbs for the search page
   const breadcrumbs = generateBreadcrumbs("search");
 
   return (
-    <div className="font-[Poppins] bg-gray-50">
-      {/* Product Layout */}
-      <ProductLayout
-        title={`Search Results for "${query}"`}
-        breadcrumbs={breadcrumbs}
-        products={paginatedProducts}
-        totalPages={totalPages}
-        currentPage={currentPage}
-        onPageChange={() => {}}
-      />
-    </div>
+    <ProductListPage
+      title={`Search Results for "${query}"`}
+      products={filteredProducts} // Pass the filtered products
+      breadcrumbs={breadcrumbs}
+    />
   );
 };
 

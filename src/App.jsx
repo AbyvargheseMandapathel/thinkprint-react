@@ -12,11 +12,14 @@ import Footer from "./components/Footer";
 import ProductListPage from "./pages/ProductListPage"; // Import the Product List Page
 import CategoryPage from "./pages/CategoryPage"; // Import the Category Page
 import SearchResult from "./pages/SearchResult"; // Import the Search Results Page
-import { banners, categories, recommendedProducts } from "./data";
+import { banners, categories,products } from "./data";
 import "./index.css";
-import { products } from "./data";
+import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
 
 const App = () => {
+
+  const breadcrumbs = generateBreadcrumbs("category", "All Products");
+
   return (
     <Router>
       <div className="font-[Poppins] bg-gray-50">
@@ -55,8 +58,15 @@ const App = () => {
             }
           />
 
-          {/* Product List Page */}
-          <Route path="/products" element={<ProductListPage />} />
+          <Route
+            path="/products"
+            element={
+              <ProductListPage
+                products={products} // Pass all products
+                breadcrumbs={breadcrumbs} // Generate breadcrumbs
+              />
+            }
+          />
 
           {/* Category Page */}
           <Route
