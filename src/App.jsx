@@ -68,14 +68,12 @@ const App = () => {
             }
           />
 
-          {/* Category Page */}
-          <Route
-            path="/category/:categoryName"
-            element={<CategoryPage category="Electronics" />}
-          />
-
           {/* Search Results Page */}
-          <Route path="/search" element={<SearchResult />} />
+          <Route
+            path="/search"
+            element={<SearchResult />} // Use the SearchResult component
+          />
+          
         </Routes>
 
         {/* Mobile Navigation */}

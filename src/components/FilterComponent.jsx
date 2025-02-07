@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { categories } from "../data"; // Import categories from data.js
+import { useNavigate } from "react-router-dom"; // Import useNavigate for URL manipulation
 
 const FilterComponent = ({ onFilter }) => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [priceRange, setPriceRange] = useState([0, 5000]);
+  const navigate = useNavigate(); // Access the navigate function
 
   // Extract category names and include "All" as the first option
   const categoryOptions = ["All", ...categories.map((category) => category.name)];
@@ -12,6 +14,27 @@ const FilterComponent = ({ onFilter }) => {
   const handleApplyFilters = () => {
     onFilter(selectedCategory, priceRange);
   };
+
+  // Reset Filters and Clear URL Parameters
+  const handleResetFilters = () => {
+    setSelectedCategory("All");
+    setPriceRange([0, 5000]);
+    onFilter("All", [0, 5000]); // Reset filters
+
+    // Remove URL parameters
+    navigate("/products", { replace: true }); // Navigate to the base URL without query params
+  };
+
+  // Sync URL parameters with component state on mount
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const category = urlParams.get("category") || "All";
+    const minPrice = parseInt(urlParams.get("minPrice")) || 0;
+    const maxPrice = parseInt(urlParams.get("maxPrice")) || 5000;
+
+    setSelectedCategory(category);
+    setPriceRange([minPrice, maxPrice]);
+  }, []);
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6 space-y-6">
@@ -66,11 +89,7 @@ const FilterComponent = ({ onFilter }) => {
       {/* Reset Filters */}
       <button
         className="w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition-colors"
-        onClick={() => {
-          setSelectedCategory("All");
-          setPriceRange([0, 5000]);
-          onFilter("All", [0, 5000]); // Reset filters
-        }}
+        onClick={handleResetFilters}
       >
         Reset Filters
       </button>

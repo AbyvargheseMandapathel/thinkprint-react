@@ -1,13 +1,18 @@
 import React, { useState, useMemo } from "react";
+import { useLocation } from "react-router-dom";
 import FilterComponent from "../components/FilterComponent";
 import MobileFilterButton from "../components/MobileFilterButton";
 import ProductLayout from "../components/ProductLayout";
 import "../index.css";
 
 const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const initialCategory = queryParams.get("category") || "All"; // Get the category from the query parameter
+
   const [filtersVisible, setFiltersVisible] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState(initialCategory); // Initialize with the query parameter
   const [priceRange, setPriceRange] = useState([0, 5000]);
 
   // Memoized Filtering Logic
