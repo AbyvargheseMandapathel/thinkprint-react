@@ -36,10 +36,10 @@ const App = () => {
                 <CategoryCarousel categories={categories} />
                 {/* Product Sections */}
                 <section className="container mx-auto px-4 py-12">
-                  <ProductSection
+                  {/* <ProductSection
                     title="Recommended Items (Old Design)"
                     products={products}
-                  />
+                  /> */}
                   <ProductSection2
                     title="Recommended Items (New Design)"
                     products={products}
