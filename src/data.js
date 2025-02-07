@@ -27,6 +27,21 @@ export const banners = [
     { id: 8, name: "Custom Stationery", img: "https://picsum.photos/200/200?random=8" },
     { id: 9, name: "Signs, Posters & Marketing Materials", img: "https://picsum.photos/200/200?random=9" },
   ];
+
+  export const products = [
+    { id: 1, title: "HDMI Cable", description: "High-speed HDMI cable", offer: "Min. 50% Off", img: "https://picsum.photos/300/300?random=1", price: 360, ratingCount: 125, bestDeal: true, category: "Electronics", recommended: true },
+    { id: 2, title: "Bluetooth Speaker", description: "Portable Bluetooth speaker", offer: "40% Off", img: "https://picsum.photos/300/300?random=2", price: 1200, ratingCount: 90, bestDeal: false, category: "Electronics", recommended: true },
+    { id: 3, title: "Smartwatch", description: "Fitness tracking smartwatch", offer: "25% Off", img: "https://picsum.photos/300/300?random=3", price: 2999, ratingCount: 150, bestDeal: true, category: "Wearables", recommended: false },
+    { id: 4, title: "Wireless Earbuds", description: "Noise-cancelling earbuds", offer: "30% Off", img: "https://picsum.photos/300/300?random=4", price: 2499, ratingCount: 200, bestDeal: true, category: "Audio", recommended: true },
+    { id: 5, title: "Gaming Mouse", description: "RGB Gaming mouse", offer: "35% Off", img: "https://picsum.photos/300/300?random=5", price: 899, ratingCount: 80, bestDeal: false, category: "Accessories", recommended: false },
+    { id: 6, title: "Mechanical Keyboard", description: "RGB Mechanical Keyboard", offer: "20% Off", img: "https://picsum.photos/300/300?random=6", price: 3499, ratingCount: 120, bestDeal: true, category: "Accessories", recommended: true },
+    { id: 7, title: "Smart TV", description: "4K Ultra HD Smart TV", offer: "15% Off", img: "https://picsum.photos/300/300?random=7", price: 39999, ratingCount: 250, bestDeal: false, category: "Electronics", recommended: true },
+    { id: 8, title: "Laptop Cooling Pad", description: "Laptop cooling stand", offer: "50% Off", img: "https://picsum.photos/300/300?random=8", price: 1199, ratingCount: 75, bestDeal: false, category: "Accessories", recommended: false },
+    { id: 9, title: "External Hard Drive", description: "1TB External HDD", offer: "45% Off", img: "https://picsum.photos/300/300?random=9", price: 4999, ratingCount: 180, bestDeal: true, category: "Storage", recommended: true },
+    { id: 10, title: "Ring Light", description: "Dimmable LED Ring Light", offer: "30% Off", img: "https://picsum.photos/300/300?random=10", price: 1599, ratingCount: 110, bestDeal: false, category: "Accessories", recommended: true },
+];
+
+
   
   export const recommendedProducts = [
     {
@@ -95,5 +110,10 @@ export const banners = [
       bestDeal: false,
       category: "Men",
     },
+  ];
+  // Breadcrumb Data
+  export const breadcrumbs = [
+    { label: "Home", href: "/" },
+    { label: "Shop", href: "/products" }
   ];
   

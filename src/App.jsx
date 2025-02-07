@@ -10,8 +10,11 @@ import MobileNavigation from "./components/MobileNavigation";
 import BenefitsSection from "./components/BenefitsSection";
 import Footer from "./components/Footer";
 import ProductListPage from "./pages/ProductListPage"; // Import the Product List Page
+import CategoryPage from "./pages/CategoryPage"; // Import the Category Page
+import SearchResult from "./pages/SearchResult"; // Import the Search Results Page
 import { banners, categories, recommendedProducts } from "./data";
 import "./index.css";
+import { products } from "./data";
 
 const App = () => {
   return (
@@ -35,15 +38,15 @@ const App = () => {
                 <section className="container mx-auto px-4 py-12">
                   <ProductSection
                     title="Recommended Items (Old Design)"
-                    products={recommendedProducts}
+                    products={products}
                   />
                   <ProductSection2
                     title="Recommended Items (New Design)"
-                    products={recommendedProducts}
+                    products={products}
                   />
                   <ProductListing
                     title="Man & Women Fashion"
-                    products={recommendedProducts}
+                    products={products}
                   />
                 </section>
                 {/* Benefits Section */}
@@ -54,6 +57,15 @@ const App = () => {
 
           {/* Product List Page */}
           <Route path="/products" element={<ProductListPage />} />
+
+          {/* Category Page */}
+          <Route
+            path="/category/:categoryName"
+            element={<CategoryPage category="Electronics" />}
+          />
+
+          {/* Search Results Page */}
+          <Route path="/search" element={<SearchResult />} />
         </Routes>
 
         {/* Mobile Navigation */}
