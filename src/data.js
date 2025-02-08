@@ -38,7 +38,7 @@ export const banners = [
         price: 360,
         ratingCount: 125,
         bestDeal: true,
-        category: "Visiting Cards",
+        category: "Custom Polo T-shirts",
         recommended: true,
         thumbnailImages: [
             "https://picsum.photos/150/150?random=1-1",
@@ -76,7 +76,7 @@ export const banners = [
         price: 2999,
         ratingCount: 150,
         bestDeal: true,
-        category: "Wearables",
+        category: "Custom Polo T-shirts",
         recommended: false,
         thumbnailImages: [
             "https://picsum.photos/150/150?random=3-1",
@@ -114,7 +114,7 @@ export const banners = [
         price: 899,
         ratingCount: 80,
         bestDeal: false,
-        category: "Accessories",
+        category: "Custom Polo T-shirts",
         recommended: false,
         thumbnailImages: [
             "https://picsum.photos/150/150?random=5-1",

@@ -4,6 +4,7 @@ import ProductImageGallery from '../components/ProductImageGallery';
 import ContactForm from '../components/ContactForm';
 import { products } from '../data';
 import parse from 'html-react-parser';
+import ProductSection2 from '../components/ProductSection2';
 
 const ProductDetailPage = () => {
     const { id } = useParams();
@@ -21,6 +22,11 @@ const ProductDetailPage = () => {
     if (!product) {
         return <p className="text-center text-gray-600">Loading...</p>;
     }
+
+    // ✅ Get products from the same category (excluding the current product)
+    const relatedProducts = products.filter(
+        (p) => p.category === product.category && p.id !== product.id
+    );
 
     const renderDescription = (description) => {
         const hasListItems = description.includes('<li>');
@@ -74,6 +80,14 @@ const ProductDetailPage = () => {
                     />
                 </div>
             </div>
+
+            {/* ✅ Show related products from the same category */}
+            {relatedProducts.length > 0 && (
+                <ProductSection2
+                    title={`More from ${product.category}`}
+                    products={relatedProducts}
+                />
+            )}
         </div>
     );
 };

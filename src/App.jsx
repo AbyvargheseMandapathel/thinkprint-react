@@ -1,58 +1,40 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop"; // Import the new component
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import CategoryCarousel from "./components/CategoryCarousel";
-import ProductSection from "./components/ProductSection";
 import ProductSection2 from "./components/ProductSection2";
 import ProductListing from "./components/ProductListing";
 import MobileNavigation from "./components/MobileNavigation";
 import BenefitsSection from "./components/BenefitsSection";
 import Footer from "./components/Footer";
-import ProductListPage from "./pages/ProductListPage"; // Import the Product List Page
-import SearchResult from "./pages/SearchResult"; // Import the Search Results Page
-import { banners, categories,products } from "./data";
-import "./index.css";
+import ProductListPage from "./pages/ProductListPage";
+import SearchResult from "./pages/SearchResult";
+import { banners, categories, products } from "./data";
 import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
-import ProductDetailPage from './pages/ProductDetailPage';
+import ProductDetailPage from "./pages/ProductDetailPage";
 
 const App = () => {
-
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
 
   return (
     <Router>
+      <ScrollToTop /> {/* ✅ This ensures scrolling to top on route change */}
       <div className="font-[Poppins] bg-gray-50">
-        {/* Navbar */}
         <Navbar />
 
-        {/* Define Routes */}
         <Routes>
-          {/* Home Page */}
           <Route
             path="/"
             element={
               <>
-                {/* Hero Banner */}
                 <Banner banners={banners} />
-                {/* Category Carousel */}
                 <CategoryCarousel categories={categories} />
-                {/* Product Sections */}
                 <section className="container mx-auto px-4 py-12">
-                  {/* <ProductSection
-                    title="Recommended Items (Old Design)"
-                    products={products}
-                  /> */}
-                  <ProductSection2
-                    title="Recommended Items (New Design)"
-                    products={products}
-                  />
-                  <ProductListing
-                    title="Man & Women Fashion"
-                    products={products}
-                  />
+                  <ProductSection2 title="Recommended Items (New Design)" products={products} />
+                  <ProductListing title="Man & Women Fashion" products={products} />
                 </section>
-                {/* Benefits Section */}
                 <BenefitsSection />
               </>
             }
@@ -60,28 +42,15 @@ const App = () => {
 
           <Route
             path="/products"
-            element={
-              <ProductListPage
-                products={products} // Pass all products
-                breadcrumbs={breadcrumbs} // Generate breadcrumbs
-              />
-            }
+            element={<ProductListPage products={products} breadcrumbs={breadcrumbs} />}
           />
 
-                <Route path="/product/:id" element={<ProductDetailPage />} />
+          <Route path="/product/:id" element={<ProductDetailPage />} />
 
-          {/* Search Results Page */}
-          <Route
-            path="/search"
-            element={<SearchResult />} // Use the SearchResult component
-          />
-          
+          <Route path="/search" element={<SearchResult />} />
         </Routes>
 
-        {/* Mobile Navigation */}
         <MobileNavigation />
-
-        {/* Footer */}
         <Footer />
       </div>
     </Router>
