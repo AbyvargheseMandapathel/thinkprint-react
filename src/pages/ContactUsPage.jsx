@@ -13,45 +13,42 @@ const ContactUsPage = () => {
             <div className="container mx-auto px-4 py-12">
 
                 {/* Single Container with Two Sections (Form Left, Info Right) */}
-                <div className="bg-white shadow-lg p-6 rounded-md grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="bg-[var(--contactuspage-container-bg-color)] shadow-[var(--contactuspage-container-shadow)] p-[var(--contactuspage-container-padding)] rounded-[var(--contactuspage-container-border-radius)] grid grid-cols-1 md:grid-cols-2 gap-8">
                     
                     {/* Left Section - Contact Form */}
                     <div className="p-4">
-                        {/* <h2 className="text-2xl font-semibold text-[var(--primary-color)] mb-4">
-                            Contact Us
-                        </h2> */}
                         <ContactUsForm />
                     </div>
 
                     {/* Right Section - Contact Info */}
-                    <div className="p-4 border-l border-gray-300">
-                        <h2 className="text-2xl font-semibold text-[var(--primary-color)] mb-4">
+                    <div className="p-4 border-l border-[var(--contactuspage-border-color)] md:mt-6">  {/* Adjusted margin-top */}
+                        <h2 className="text-2xl font-semibold text-[var(--contactuspage-primary-color)] mb-4">
                             Information
                         </h2>
 
                         {/* Phone */}
                         <div className="mb-4">
-                            <h3 className="text-lg font-medium text-gray-800">Phone:</h3>
-                            <p className="text-gray-600">{contactInfo.phone}</p>
+                            <h3 className="text-lg font-medium text-[var(--contactuspage-primary-color)]">Phone:</h3>
+                            <p className="text-[var(--contactuspage-secondary-color)]">{contactInfo.phone}</p>
                         </div>
 
                         {/* Email */}
                         <div className="mb-4">
-                            <h3 className="text-lg font-medium text-gray-800">Email:</h3>
-                            <p className="text-gray-600">{contactInfo.email}</p>
+                            <h3 className="text-lg font-medium text-[var(--contactuspage-primary-color)]">Email:</h3>
+                            <p className="text-[var(--contactuspage-secondary-color)]">{contactInfo.email}</p>
                         </div>
 
                         {/* Address */}
                         <div className="mb-4">
-                            <h3 className="text-lg font-medium text-gray-800">Address:</h3>
-                            <p className="text-gray-600">{contactInfo.address}</p>
+                            <h3 className="text-lg font-medium text-[var(--contactuspage-primary-color)]">Address:</h3>
+                            <p className="text-[var(--contactuspage-secondary-color)]">{contactInfo.address}</p>
                         </div>
 
                         {/* Open Time */}
                         <div>
-                            <h3 className="text-lg font-medium text-gray-800">Open Time:</h3>
+                            <h3 className="text-lg font-medium text-[var(--contactuspage-primary-color)]">Open Time:</h3>
                             {contactInfo.openTime.map((entry, index) => (
-                                <p key={index} className="text-gray-600">{entry.day}: {entry.time}</p>
+                                <p key={index} className="text-[var(--contactuspage-secondary-color)]">{entry.day}: {entry.time}</p>
                             ))}
                         </div>
                     </div>
