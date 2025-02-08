@@ -19,6 +19,7 @@ import ContactUsPage from "./pages/ContactUsPage";
 import './theme.css'; 
 import { categories } from "./input/categories";
 import { products } from "./input/products";
+import AboutUsPage from "./pages/AboutUsPage";
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
@@ -64,6 +65,7 @@ const App = () => {
           />
 
           <Route path="/contact" element={<ContactUsPage />} /> {/* New Contact Us Route */}
+          <Route path="/about" element={<AboutUsPage />} />
 
         </Routes>
 

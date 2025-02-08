@@ -353,7 +353,8 @@ export const banners = [
   export const breadcrumbs = [
     { label: "Home", href: "/" },
     { label: "Search", href: "/search" },
-    { label: "Shop", href: "/products" }
+    { label: "Shop", href: "/products" },
+    { label: "About Us", href: "/about" }
   ];
 
   export const announcementMessage = "🎉 Free Shipping on Orders Over $50.00";
@@ -367,5 +368,22 @@ export const banners = [
         { day: "Sunday", time: "9:00am - 5:00pm PST" },
     ],
 };
+
+
+export const aboutData = {
+  title: "About Us",
+  intro: "Welcome to MyShop, your premier online destination for high-quality products. Founded in 2020, we strive to provide our customers with the best shopping experience possible.",
+  sections: [
+    {
+      heading: "Our Mission",
+      content: "We offer a wide range of products at competitive prices, ensuring customer satisfaction and loyalty. Our goal is to deliver excellence in every purchase."
+    },
+    {
+      heading: "Why Choose Us?",
+      content: "With a focus on quality and customer service, MyShop ensures a seamless shopping experience. Whether you need fashion, gadgets, or home essentials, we've got you covered."
+    }
+  ]
+};
+
 
   
