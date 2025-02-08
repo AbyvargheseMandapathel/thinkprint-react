@@ -8,12 +8,12 @@ const BenefitsSection = () => {
             description: 'We ensure your products are delivered quickly and efficiently, no matter where you are.'
         },
         {
-            icon: 'https://img.icons8.com/ios-filled/50/000000/dress.png',
+            icon: 'https://img.icons8.com/ios-filled/50/000000/checkmark.png',
             title: 'Best Quality',
             description: 'Crafted with the highest standards, our products guarantee durability and style.'
         },
         {
-            icon: 'https://img.icons8.com/ios-filled/50/000000/tag-price.png',
+            icon: 'https://img.icons8.com/ios-filled/50/000000/headset.png',
             title: 'Customer Support',
             description: 'Our dedicated support team is always here to assist you with any questions or concerns.'
         },
