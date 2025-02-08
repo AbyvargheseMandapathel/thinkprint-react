@@ -1,18 +1,16 @@
 import React, { useState, useMemo } from "react";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import FilterComponent from "../components/FilterComponent";
 import MobileFilterButton from "../components/MobileFilterButton";
 import ProductLayout from "../components/ProductLayout";
 import "../index.css";
 
 const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
-  const location = useLocation();
-  const queryParams = new URLSearchParams(location.search);
-  const initialCategory = queryParams.get("category") || "All"; // Get the category from the query parameter
-
+  const { categoryName } = useParams(); // ✅ Get category from URL params
   const [filtersVisible, setFiltersVisible] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [selectedCategory, setSelectedCategory] = useState(initialCategory); // Initialize with the query parameter
+  const [selectedCategory, setSelectedCategory] = useState(categoryName || "All"); // ✅ Updated
+  
   const [priceRange, setPriceRange] = useState([0, 5000]);
 
   // Memoized Filtering Logic
@@ -43,12 +41,12 @@ const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
 
   // Handle Filtering Logic
   const handleFilter = (category, range) => {
-    setSelectedCategory(category); // Update the selected category
-    setPriceRange(range); // Update the price range
+    setSelectedCategory(category); // ✅ Update category
+    setPriceRange(range); // ✅ Update price range
     setCurrentPage(1); // Reset to first page when filters change
   };
 
-  // Dynamically Generate Title
+  // Generate Title
   const title = selectedCategory === "All" ? "All Products" : `${selectedCategory} Products`;
 
   // Handle Pagination Navigation
@@ -65,7 +63,7 @@ const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
       />
       {/* Main Content */}
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6">
-        {/* Filters (Left Side on Desktop, Below Navbar on Mobile) */}
+        {/* Filters Section */}
         {(filtersVisible || window.innerWidth >= 768) && (
           <div className="hidden md:block">
             <FilterComponent onFilter={handleFilter} />
@@ -78,8 +76,14 @@ const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
         )}
         {/* Product Layout */}
         <ProductLayout
-          title={title} // Dynamically update the title
-          breadcrumbs={breadcrumbs}
+          title={title} 
+          breadcrumbs={[
+            { label: "Home", href: "/" },
+            { label: "Products", href: "/products" },
+            ...(selectedCategory !== "All"
+              ? [{ label: selectedCategory, href: `/category/${encodeURIComponent(selectedCategory)}` }]
+              : []),
+          ]} // ✅ Update breadcrumbs dynamically
           products={paginatedProducts}
           totalPages={totalPages}
           currentPage={currentPage}

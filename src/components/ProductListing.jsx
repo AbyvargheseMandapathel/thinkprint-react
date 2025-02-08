@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // ✅ Import useNavigate
 import { categories } from "../data"; // Import categories from data.js
 
 const ProductListing = ({ products, title }) => {
   const [activeTab, setActiveTab] = useState("All Products");
+  const navigate = useNavigate(); // ✅ Initialize useNavigate
 
   // Filter products based on the active tab
   const filteredProducts = products.filter(
@@ -49,10 +51,11 @@ const ProductListing = ({ products, title }) => {
 
       {/* Product Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
-        {limitedProducts.map((product, index) => (
+        {limitedProducts.map((product) => (
           <div
-            key={index}
-            className="bg-white rounded-lg shadow-md p-4 overflow-hidden transition duration-300 hover:bg-gray-100"
+            key={product.id}
+            className="bg-white rounded-lg shadow-md p-4 overflow-hidden transition duration-300 hover:bg-gray-100 cursor-pointer"
+            onClick={() => navigate(`/product/${product.id}`)} // ✅ Navigate to Product Detail Page
           >
             {/* Product Image */}
             <div className="relative mb-4 overflow-hidden">

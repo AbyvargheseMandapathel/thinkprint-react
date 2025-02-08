@@ -1,10 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductGrid = ({ products }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {products.map((product) => (
-        <div key={product.id} className="bg-white rounded-lg shadow-md p-4 overflow-hidden transition-transform duration-300 hover:scale-105">
+        <Link 
+          key={product.id} 
+          to={`/product/${product.id}`} // ✅ Navigates to the product page
+          className="bg-white rounded-lg shadow-md p-4 overflow-hidden transition-transform duration-300 hover:scale-105 block"
+        >
           {/* Product Image */}
           <img
             src={product.img}
@@ -17,7 +22,7 @@ const ProductGrid = ({ products }) => {
           <p className="text-gray-600 mb-2">${product.price}</p>
           {/* Product Description */}
           <p className="text-sm text-gray-500">{product.description}</p>
-        </div>
+        </Link>
       ))}
     </div>
   );

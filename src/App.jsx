@@ -48,6 +48,12 @@ const App = () => {
           <Route path="/product/:id" element={<ProductDetailPage />} />
 
           <Route path="/search" element={<SearchResult />} />
+
+          <Route
+            path="/category/:categoryName"
+            element={<ProductListPage products={products} />}
+          />
+
         </Routes>
 
         <MobileNavigation />
