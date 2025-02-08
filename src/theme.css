@@ -86,5 +86,19 @@
   --footer-border-color: #374151;
   --footer-copyright-text-color: #9ca3af;
 
+
+  --contactusform-background-color: #ffffff;
+  --contactusform-text-color: #333333;
+  --contactusform-padding: 2rem;
+  --contactusform-border-color: #d1d5db;
+  --contactusform-focus-border-color: #3b82f6;
+  --contactusform-button-bg-color: #000000;
+  --contactusform-button-hover-bg-color: #4b5563;
+  --contactusform-button-text-color: #ffffff;
+  --contactusform-submitting-spinner-color: #3b82f6;
+  --contactusform-success-checkmark-color: #10b981;
+  --contactusform-success-text-color: #333333;
+  --contactusform-success-subtext-color: #6b7280;
+
   
 }

@@ -299,4 +299,15 @@ export const banners = [
   ];
 
   export const announcementMessage = "🎉 Free Shipping on Orders Over $50.00";
+
+  export const contactInfo = {
+    phone: "+1 666 234 8888",
+    email: "themesflat@gmail.com",
+    address: "2163 Phillips Gap Rd, West Jefferson, North Carolina, United States",
+    openTime: [
+        { day: "Mon - Sat", time: "7:30am - 8:00pm PST" },
+        { day: "Sunday", time: "9:00am - 5:00pm PST" },
+    ],
+};
+
   

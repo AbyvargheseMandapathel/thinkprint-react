@@ -15,6 +15,7 @@ import SearchResult from "./pages/SearchResult";
 import { banners, categories, products,announcementMessage } from "./data";
 import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
 import ProductDetailPage from "./pages/ProductDetailPage";
+import ContactUsPage from "./pages/ContactUsPage";
 import './theme.css'; // Import the theme.css file
 
 const App = () => {
@@ -59,6 +60,8 @@ const App = () => {
             path="/category/:categoryName"
             element={<ProductListPage products={products} />}
           />
+
+          <Route path="/contact" element={<ContactUsPage />} /> {/* New Contact Us Route */}
 
         </Routes>
 
