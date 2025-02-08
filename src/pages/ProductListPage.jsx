@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import FilterComponent from "../components/FilterComponent";
 import MobileFilterButton from "../components/MobileFilterButton";
 import ProductLayout from "../components/ProductLayout";
@@ -7,18 +7,28 @@ import "../index.css";
 
 const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
   const { categoryName } = useParams(); // ✅ Get category from URL params
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const query = searchParams.get("query") || ""; // ✅ Get search query from URL
+
   const [filtersVisible, setFiltersVisible] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [selectedCategory, setSelectedCategory] = useState(categoryName || "All"); // ✅ Updated
-  
+  const [selectedCategory, setSelectedCategory] = useState(categoryName || "All");
   const [priceRange, setPriceRange] = useState([0, 5000]);
 
   // Memoized Filtering Logic
   const filteredProducts = useMemo(() => {
     let filtered = allProducts;
 
+    // If searching, filter by search query
+    if (query) {
+      filtered = filtered.filter((product) =>
+        product.title.toLowerCase().includes(query.toLowerCase())
+      );
+    }
+
     // Filter by category
-    if (selectedCategory !== "All") {
+    if (!query && selectedCategory !== "All") {
       filtered = filtered.filter((product) => product.category === selectedCategory);
     }
 
@@ -28,7 +38,7 @@ const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
     );
 
     return filtered;
-  }, [allProducts, selectedCategory, priceRange]);
+  }, [allProducts, selectedCategory, priceRange, query]);
 
   // Pagination Logic
   const itemsPerPage = 9;
@@ -41,13 +51,17 @@ const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
 
   // Handle Filtering Logic
   const handleFilter = (category, range) => {
-    setSelectedCategory(category); // ✅ Update category
-    setPriceRange(range); // ✅ Update price range
-    setCurrentPage(1); // Reset to first page when filters change
+    setSelectedCategory(category);
+    setPriceRange(range);
+    setCurrentPage(1);
   };
 
-  // Generate Title
-  const title = selectedCategory === "All" ? "All Products" : `${selectedCategory} Products`;
+  // ✅ Update Title based on Search or Category
+  const title = query
+    ? `Search Results for "${query}"`
+    : selectedCategory === "All"
+    ? "All Products"
+    : `${selectedCategory} Products`;
 
   // Handle Pagination Navigation
   const handlePageChange = (newPage) => {
@@ -76,14 +90,14 @@ const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
         )}
         {/* Product Layout */}
         <ProductLayout
-          title={title} 
+          title={title} // ✅ Updated Title
           breadcrumbs={[
             { label: "Home", href: "/" },
             { label: "Products", href: "/products" },
-            ...(selectedCategory !== "All"
+            ...(selectedCategory !== "All" && !query
               ? [{ label: selectedCategory, href: `/category/${encodeURIComponent(selectedCategory)}` }]
               : []),
-          ]} // ✅ Update breadcrumbs dynamically
+          ]}
           products={paginatedProducts}
           totalPages={totalPages}
           currentPage={currentPage}

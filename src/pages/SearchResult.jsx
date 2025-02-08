@@ -19,7 +19,8 @@ const SearchResult = () => {
   const filteredProducts = products.filter(
     (product) =>
       product.title.toLowerCase().includes(query.toLowerCase()) ||
-      product.description.toLowerCase().includes(query.toLowerCase())
+      product.shortDescription.toLowerCase().includes(query.toLowerCase()) ||
+      product.longDescription.toLowerCase().includes(query.toLowerCase())
   );
 
   // Generate breadcrumbs for the search page
