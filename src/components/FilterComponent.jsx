@@ -77,7 +77,7 @@ const FilterComponent = ({ onFilter }) => {
       </div>
 
       {/* Price Range Filter */}
-      <div>
+      {/* <div>
         <h4 className="text-lg font-bold mb-4">Price Range</h4>
         <div className="flex items-center justify-between">
           <span>${priceRange[0]}</span>
@@ -92,7 +92,7 @@ const FilterComponent = ({ onFilter }) => {
           onChange={(e) => setPriceRange([0, e.target.value])}
           className="w-full"
         />
-      </div>
+      </div> */}
 
       {/* Apply Filters */}
       <button

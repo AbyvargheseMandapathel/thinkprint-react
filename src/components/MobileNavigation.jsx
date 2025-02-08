@@ -93,7 +93,7 @@ const MobileNavigation = () => {
       <nav className="fixed bottom-0 w-full bg-white border-t shadow-lg md:hidden z-50">
         <div className="flex justify-around py-4">
           {/* Home Icon */}
-          <a href="#" className="text-gray-600 flex flex-col items-center hover:text-blue-600 transition-colors">
+          <a href="/" className="text-gray-600 flex flex-col items-center hover:text-blue-600 transition-colors">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

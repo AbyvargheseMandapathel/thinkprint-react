@@ -21,9 +21,9 @@ const CategoryCarousel = ({ categories }) => {
 
   // Handle Carousel Item Click
   const handleCategoryClick = (categoryName) => {
-    // Navigate to /products with the selected category as a query parameter
-    navigate(`/products?category=${encodeURIComponent(categoryName)}`);
+    navigate(`/category/${encodeURIComponent(categoryName)}`);
   };
+  
 
   // Handle Next Button Click
   const handleNext = () => {

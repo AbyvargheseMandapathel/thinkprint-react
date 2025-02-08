@@ -14,8 +14,7 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') {
-    // Handle preflight request
-    return res.status(200).end();
+    return res.status(200).end(); // Handle preflight request
   }
 
   if (req.method !== 'POST') {
@@ -24,24 +23,25 @@ export default async function handler(req, res) {
 
   const { name, email, phone, message } = req.body;
 
-  // Ensure required fields are provided
   if (!name || !email || !phone || !message) {
     return res.status(400).json({ error: 'All fields are required.' });
   }
 
   try {
-    // Create a transporter using your email service
+    // Create a transporter using Hostinger SMTP
     let transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: 'smtp.hostinger.com', // Hostinger SMTP server
+      port: 465, // Use 465 for SSL or 587 for TLS
+      secure: true, // true for 465, false for 587
       auth: {
-        user: "edxfr3q@gmail.com",// Use environment variables
-        pass: "mkzdmckbuujxvemm"
+        user: "sales@thinkprint.shop", // Use environment variables in Vercel
+        pass: "MaxHost@9266",
       },
     });
 
     // Setup email data
     let mailOptions = {
-      from: process.env.EMAIL_USER,
+      from: 'sales@thinkprint.shop',
       to: 'edxfr3q@gmail.com', // Replace with your email
       subject: 'New Contact Form Submission',
       text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,

@@ -1,17 +1,20 @@
+import banner1 from './assets/banner/banner1.png';
+import banner2 from './assets/banner/banner2.png';
+
 export const banners = [
     {
-      imageUrl: "https://picsum.photos/1200/600?random=1",
-      title: "My Name, My Pride",
-      description: "100 Visiting Cards at Rs 200",
+      imageUrl: banner1,
+      title: "Designed for Success",
+      description: "Elegant & Personalized Office Essentials.",
       buttons: [{ text: "Shop Now", color: "blue" }],
     },
     {
-      imageUrl: "https://picsum.photos/1200/600?random=2",
+      imageUrl: banner2,
       title: "Wear Your Brand",
-      description: "Starting at Rs. 550",
+      description: "Dress the Part, Impress the World.",
       buttons: [
-        { text: "Custom Polo T-shirts", color: "blue" },
-        { text: "Custom T-shirts", color: "white" },
+        { text: "Custom T-shirts", color: "blue" },
+        { text: "Custom Caps", color: "white" },
       ],
     },
   ];
@@ -221,76 +224,6 @@ export const banners = [
     },
 ];
 
-
-  
-  // export const recommendedProducts = [
-  //   {
-  //     id: 1,
-  //     title: "Basics High-Speed HDMI Cable",
-  //     description: "High-speed HDMI cable",
-  //     offer: "Min. 50% Off",
-  //     img: "https://picsum.photos/300/300?random=1",
-  //     price: 360,
-  //     ratingCount: 125,
-  //     bestDeal: true,
-  //     category: "Electronics",
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Custom Polo T-shirt",
-  //     description: "Customizable polo t-shirt",
-  //     offer: "Min. 50% Off",
-  //     img: "https://picsum.photos/300/300?random=2",
-  //     price: 250,
-  //     ratingCount: 100,
-  //     bestDeal: false,
-  //     category: "Men",
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Photo Frame",
-  //     description: "High-quality photo frame",
-  //     offer: "Min. 50% Off",
-  //     img: "https://picsum.photos/300/300?random=3",
-  //     price: 150,
-  //     ratingCount: 80,
-  //     bestDeal: true,
-  //     category: "Women",
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Wall Art",
-  //     description: "Beautiful wall art",
-  //     offer: "Min. 50% Off",
-  //     img: "https://picsum.photos/300/300?random=4",
-  //     price: 200,
-  //     ratingCount: 90,
-  //     bestDeal: false,
-  //     category: "Electronics",
-  //   },
-  //   {
-  //     id: 5,
-  //     title: "Decorative Pillow",
-  //     description: "Soft and stylish pillow",
-  //     offer: "Min. 50% Off",
-  //     img: "https://picsum.photos/300/300?random=5",
-  //     price: 100,
-  //     ratingCount: 70,
-  //     bestDeal: true,
-  //     category: "Women",
-  //   },
-  //   {
-  //     id: 6,
-  //     title: "Canvas Print",
-  //     description: "Artistic canvas print",
-  //     offer: "Min. 50% Off",
-  //     img: "https://picsum.photos/300/300?random=6",
-  //     price: 180,
-  //     ratingCount: 110,
-  //     bestDeal: false,
-  //     category: "Men",
-  //   },
-  // ];
   // Breadcrumb Data
   export const breadcrumbs = [
     { label: "Home", href: "/" },
@@ -302,7 +235,7 @@ export const banners = [
 
   export const contactInfo = {
     phone: "+1 666 234 8888",
-    email: "themesflat@gmail.com",
+    email: "sales@thinkprint.shop",
     address: "2163 Phillips Gap Rd, West Jefferson, North Carolina, United States",
     openTime: [
         { day: "Mon - Sat", time: "7:30am - 8:00pm PST" },
