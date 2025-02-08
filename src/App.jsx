@@ -10,11 +10,11 @@ import MobileNavigation from "./components/MobileNavigation";
 import BenefitsSection from "./components/BenefitsSection";
 import Footer from "./components/Footer";
 import ProductListPage from "./pages/ProductListPage"; // Import the Product List Page
-import CategoryPage from "./pages/CategoryPage"; // Import the Category Page
 import SearchResult from "./pages/SearchResult"; // Import the Search Results Page
 import { banners, categories,products } from "./data";
 import "./index.css";
 import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
+import ProductDetailPage from './pages/ProductDetailPage';
 
 const App = () => {
 
@@ -67,6 +67,8 @@ const App = () => {
               />
             }
           />
+
+                <Route path="/product/:id" element={<ProductDetailPage />} />
 
           {/* Search Results Page */}
           <Route

@@ -13,6 +13,14 @@ const FilterComponent = ({ onFilter }) => {
   // Trigger Filtering Logic
   const handleApplyFilters = () => {
     onFilter(selectedCategory, priceRange);
+
+    // Update URL parameters
+    const queryParams = new URLSearchParams();
+    if (selectedCategory !== "All") queryParams.set("category", selectedCategory);
+    queryParams.set("minPrice", priceRange[0]);
+    queryParams.set("maxPrice", priceRange[1]);
+
+    navigate(`/products?${queryParams.toString()}`, { replace: true });
   };
 
   // Reset Filters and Clear URL Parameters
@@ -36,10 +44,15 @@ const FilterComponent = ({ onFilter }) => {
     setPriceRange([minPrice, maxPrice]);
   }, []);
 
+  // Debugging logs for state updates
+  useEffect(() => {
+    console.log("Selected Category Updated:", selectedCategory);
+  }, [selectedCategory]);
+
   return (
     <div className="bg-white rounded-lg shadow-md p-6 space-y-6">
       {/* Category Filter */}
-      <div>
+      <div key={selectedCategory}> {/* Force re-render */}
         <h4 className="text-lg font-bold mb-4">Categories</h4>
         <ul className="space-y-2">
           {categoryOptions.map((category) => (
@@ -49,8 +62,11 @@ const FilterComponent = ({ onFilter }) => {
                   type="radio"
                   name="category"
                   value={category}
-                  checked={selectedCategory === category}
-                  onChange={() => setSelectedCategory(category)}
+                  checked={selectedCategory === category} // Ensure this reflects the current state
+                  onClick={() => {
+                    console.log("Selected Category:", category); // Debugging log
+                    setSelectedCategory(category);
+                  }}
                   className="mr-2"
                 />
                 <span>{category}</span>

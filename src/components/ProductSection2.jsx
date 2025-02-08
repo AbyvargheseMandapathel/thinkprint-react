@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { Link } from 'react-router-dom'; // Import Link for navigation
 
 const ProductSection2 = ({ title, products }) => {
     const [sliderRef, setSliderRef] = useState(null);
@@ -86,37 +87,43 @@ const ProductSection2 = ({ title, products }) => {
             <Slider ref={setSliderRef} {...settings}>
                 {products.map((product, index) => (
                     <div key={index} className="px-2">
-                        <div
-                            className="bg-white rounded-2xl shadow-lg overflow-hidden p-4 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
-                            style={{ height: '100%' }}
+                        {/* Wrap the entire product card with Link */}
+                        <Link
+                            to={`/product/${product.id}`} // Navigate to the product detail page
+                            className="block"
                         >
-                            {/* Product Image */}
-                            <div className="relative mb-4 overflow-hidden rounded-lg">
-                                <img
-                                    src={product.img}
-                                    alt={product.title}
-                                    className="w-full h-56 object-cover transition-transform duration-300 hover:scale-110"
-                                    onError={(e) => {
-                                        console.error(`Image failed to load: ${product.img}`);
-                                        e.target.onerror = null;
-                                        e.target.src = 'https://via.placeholder.com/300'; // Fallback image
-                                    }}
-                                />
-                                <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
-                                    {product.offer}
+                            <div
+                                className="bg-white rounded-2xl shadow-lg overflow-hidden p-4 transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+                                style={{ height: '100%' }}
+                            >
+                                {/* Product Image */}
+                                <div className="relative mb-4 overflow-hidden rounded-lg">
+                                    <img
+                                        src={product.img}
+                                        alt={product.title}
+                                        className="w-full h-56 object-cover transition-transform duration-300 hover:scale-110"
+                                        onError={(e) => {
+                                            console.error(`Image failed to load: ${product.img}`);
+                                            e.target.onerror = null;
+                                            e.target.src = 'https://via.placeholder.com/300'; // Fallback image
+                                        }}
+                                    />
+                                    <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                        {product.offer}
+                                    </div>
                                 </div>
-                            </div>
 
-                            {/* Product Details */}
-                            <div className="flex flex-col justify-between h-full">
-                                <h3 className="text-lg font-bold text-gray-800">{product.title}</h3>
-                                <p className="text-sm text-gray-500 mt-2">{product.description}</p>
-                                {/* Replaced "View Details" Button */}
-                                <div className="mt-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white py-2 rounded-lg text-center font-semibold hover:from-blue-700 hover:to-blue-800 transition-all">
-                                    Shop Now
+                                {/* Product Details */}
+                                <div className="flex flex-col justify-between h-full">
+                                    <h3 className="text-lg font-bold text-gray-800">{product.title}</h3>
+                                    <p className="text-sm text-gray-500 mt-2">{product.description}</p>
+                                    {/* Replaced "View Details" Button */}
+                                    <div className="mt-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white py-2 rounded-lg text-center font-semibold hover:from-blue-700 hover:to-blue-800 transition-all">
+                                        Shop Now
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 ))}
             </Slider>

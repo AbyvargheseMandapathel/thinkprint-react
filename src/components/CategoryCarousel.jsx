@@ -3,23 +3,38 @@ import { useNavigate } from "react-router-dom";
 
 const CategoryCarousel = ({ categories }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAutoPlay, setIsAutoPlay] = useState(true);
   const navigate = useNavigate();
 
   // Ensure categories are provided; if not, use a fallback empty array
   const items = categories || [];
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
-    }, 3000);
+    if (isAutoPlay) {
+      const interval = setInterval(() => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
+      }, 3000);
 
-    return () => clearInterval(interval);
-  }, [items.length]);
+      return () => clearInterval(interval);
+    }
+  }, [items.length, isAutoPlay]);
 
   // Handle Carousel Item Click
   const handleCategoryClick = (categoryName) => {
     // Navigate to /products with the selected category as a query parameter
     navigate(`/products?category=${encodeURIComponent(categoryName)}`);
+  };
+
+  // Handle Next Button Click
+  const handleNext = () => {
+    setIsAutoPlay(false);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
+  };
+
+  // Handle Previous Button Click
+  const handlePrev = () => {
+    setIsAutoPlay(false);
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + items.length) % items.length);
   };
 
   return (
@@ -47,6 +62,19 @@ const CategoryCarousel = ({ categories }) => {
             </div>
           ))}
         </div>
+        {/* Control Buttons */}
+        <button
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md"
+          onClick={handlePrev}
+        >
+          &lt;
+        </button>
+        <button
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md"
+          onClick={handleNext}
+        >
+          &gt;
+        </button>
       </div>
     </main>
   );
