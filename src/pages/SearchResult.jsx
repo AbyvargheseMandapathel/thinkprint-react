@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import ProductListPage from "./ProductListPage";
 import { generateBreadcrumbs } from "../utils/breadcrumbUtils";
 import { categories } from "../input/categories"; 
-import { products } from "../input/data";
+import { products } from "../input/products";
 
 const SearchResult = () => {
   // Get the search query from the URL

@@ -12,12 +12,13 @@ import BenefitsSection from "./components/BenefitsSection";
 import Footer from "./components/Footer";
 import ProductListPage from "./pages/ProductListPage";
 import SearchResult from "./pages/SearchResult";
-import { banners, products,announcementMessage } from "./input/data";
+import { banners,announcementMessage } from "./input/data";
 import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import './theme.css'; 
 import { categories } from "./input/categories";
+import { products } from "./input/products";
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
@@ -40,7 +41,7 @@ const App = () => {
                 <Banner banners={banners} />
                 <CategoryCarousel categories={categories} />
                 <section className="container mx-auto px-4 py-12">
-                  <ProductSection2 title="Recommended Items (New Design)" products={products} />
+                  <ProductSection2 title="Trending Products" products={products} />
                   <ProductListing title="Man & Women Fashion" products={products} />
                 </section>
                 <BenefitsSection />

@@ -1,13 +1,13 @@
-import VisitingCards from "../assets/categories/Visiting Cards.png";
-import CustomTShirts from "../assets/categories/Custom T-shirts.png";
-import CustomStampsInk from "../assets/categories/Custom Stamps & Ink.png";
-import PhotoGifts from "../assets/categories/Photo Gifts.png";
-import LabelsStickersPackaging from "../assets/categories/Labels, Stickers & Packaging.png";
-import CustomStationery from "../assets/categories/Custom Stationery.png";
-import SignsPostersMarketing from "../assets/categories/Signs, Posters & Marketing Materials.png";
-import CustomCaps from "../assets/categories/Custom Caps.png";
-import CustomDrinkware from "../assets/categories/Custom Drinkware.png";
-import CustomBags from "../assets/categories/Custom Bags.png";
+import VisitingCards from "/src/assets/categories/Visiting-Cards.png";
+import CustomTShirts from "/src/assets/categories/Custom-T-shirts.png";
+import CustomStampsInk from "/src/assets/categories/Custom-Stamps-And-Ink.png";
+import PhotoGifts from "/src/assets/categories/Photo-Gifts.png";
+import LabelsStickersPackaging from "/src/assets/categories/Labels-Stickers-Packaging.png";
+import CustomStationery from "/src/assets/categories/Custom-Stationery.png";
+import SignsPostersMarketing from "/src/assets/categories/Signs-Posters-Marketing-Materials.png";
+import CustomCaps from "/src/assets/categories/Custom-Caps.png";
+import CustomDrinkware from "/src/assets/categories/Custom-Drinkware.png";
+import CustomBags from "/src/assets/categories/Custom-Bags.png";
 
 export const categories = [
   { id: 1, name: "Visiting Cards", img: VisitingCards },
@@ -21,4 +21,3 @@ export const categories = [
   { id: 9, name: "Custom Drinkware", img: CustomDrinkware },
   { id: 10, name: "Custom Bags", img: CustomBags },
 ];
-
