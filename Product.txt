@@ -5,6 +5,7 @@ import ContactForm from '../components/ContactForm';
 import { products } from '../data';
 import parse from 'html-react-parser';
 import ProductSection2 from '../components/ProductSection2';
+import ShopHeader from '../components/ShopHeader'; // ✅ Import ShopHeader
 
 const ProductDetailPage = () => {
     const { id } = useParams();
@@ -35,13 +36,15 @@ const ProductDetailPage = () => {
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <nav className="flex items-center space-x-2 mb-4">
-                <a href="/" className="text-gray-500 hover:text-blue-600">Home</a>
-                <span>`{'>'}`</span>
-                <a href={`/category/${product.category}`} className="text-gray-500 hover:text-blue-600">{product.category}</a>
-                <span>`{'>'}`</span>
-                <span className="text-gray-500">{product.title}</span>
-            </nav>
+            {/* ✅ Use ShopHeader for Breadcrumbs */}
+            <ShopHeader
+                title={product.title}
+                breadcrumbs={[
+                    { label: "Home", href: "/" },
+                    { label: product.category, href: `/category/${product.category}` },
+                    { label: product.title }
+                ]}
+            />
 
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0">
                 <div className="w-full md:w-1/2">
