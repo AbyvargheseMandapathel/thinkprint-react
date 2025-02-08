@@ -4,55 +4,55 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [isSearchOpen, setIsSearchOpen] = useState(false); // State for search box visibility
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const navigate = useNavigate();
 
-  // Toggle mobile menu
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
-  // Handle search input change
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value);
   };
 
-  // Handle "Enter" key press for search
   const handleKeyPress = (e) => {
     if (e.key === "Enter" && searchQuery.trim()) {
       navigate(`/search?query=${encodeURIComponent(searchQuery.trim())}`);
-      setSearchQuery(""); // Clear the search input after navigation
-      setIsSearchOpen(false); // Close the search box after navigation
+      setSearchQuery("");
+      setIsSearchOpen(false);
     }
   };
 
-  // Toggle search box visibility
   const toggleSearchBox = () => {
     setIsSearchOpen((prevState) => !prevState);
   };
 
   return (
-    <header className="sticky top-0 bg-white/90 backdrop-blur-sm z-50 shadow-sm">
+    <header className="sticky top-0 bg-[var(--navbar-background-color)] backdrop-blur-sm z-50 shadow-sm">
       <nav className="container mx-auto px-4 py-4 max-w-7xl flex items-center justify-between">
         {/* Logo */}
         <div className="custom-font text-2xl text-blue-600">Thinkprint</div>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
-          {["Home", "Products", "Pricing", "Blog", "Support"].map((item) => (
+          {[
+            { name: "Home", link: "/" },
+            { name: "Products", link: "/products" },
+            { name: "About", link: "/about" },
+            { name: "Contact Us", link: "/contact-us" },
+          ].map((item) => (
             <a
-              key={item}
-              href="#"
-              className="text-gray-700 hover:text-blue-600 transition-colors"
+              key={item.name}
+              href={item.link}
+              className="text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)] transition-colors"
             >
-              {item}
+              {item.name}
             </a>
           ))}
         </div>
 
         {/* Search Icon and Input */}
         <div className="flex items-center gap-4 relative">
-          {/* Search Box with Icon */}
           {isSearchOpen ? (
             <div className="relative hidden md:flex items-center">
               <input
@@ -61,12 +61,11 @@ const Navbar = () => {
                 onChange={handleSearchChange}
                 onKeyPress={handleKeyPress}
                 placeholder="Search..."
-                className="w-48 px-4 py-2 border-b-2 border-gray-300 focus:w-64 focus:border-blue-500 transition-all duration-300 outline-none"
+                className="w-48 px-4 py-2 border-b-2 border-[var(--navbar-search-border-color)] focus:w-64 focus:border-[var(--navbar-search-focus-border-color)] transition-all duration-300 outline-none"
               />
-              {/* Search Button (Icon) */}
               <button
                 onClick={toggleSearchBox}
-                className="absolute right-0 text-gray-700 hover:text-blue-600"
+                className="absolute right-0 text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,10 +84,9 @@ const Navbar = () => {
               </button>
             </div>
           ) : (
-            // Search Icon (Collapsed)
             <button
               onClick={toggleSearchBox}
-              className="hidden md:block text-gray-700 hover:text-blue-600"
+              className="hidden md:block text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +108,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMobileMenu}
-            className="md:hidden text-gray-700 hover:text-blue-600"
+            className="md:hidden text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)]"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
@@ -125,14 +123,19 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden absolute top-16 right-4 bg-white shadow-lg rounded-lg p-4 w-48">
-            {["Home", "Products", "Pricing", "Blog", "Support"].map((item) => (
+          <div className="md:hidden absolute top-16 right-4 bg-[var(--navbar-mobile-menu-bg-color)] shadow-lg rounded-lg p-4 w-48">
+            {[
+              { name: "Home", link: "/" },
+              { name: "Products", link: "/products" },
+              { name: "About", link: "/about" },
+              { name: "Contact Us", link: "/contact-us" },
+            ].map((item) => (
               <a
-                key={item}
-                href="#"
-                className="block text-gray-700 hover:text-blue-600 mb-2"
+                key={item.name}
+                href={item.link}
+                className="block text-[var(--navbar-mobile-menu-text-color)] hover:text-[var(--navbar-mobile-menu-hover-color)] mb-2"
               >
-                {item}
+                {item.name}
               </a>
             ))}
           </div>

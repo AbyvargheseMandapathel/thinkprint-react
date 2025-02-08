@@ -55,7 +55,7 @@ const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
   };
 
   return (
-    <div className="font-[Poppins] bg-gray-50">
+    <div className="font-[var(--font-primary)] bg-[var(--productlistpage-background-color)]">
       {/* Mobile Filter Button */}
       <MobileFilterButton
         filtersVisible={filtersVisible}

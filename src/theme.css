@@ -1,0 +1,90 @@
+/* Theme Variables */
+:root {
+  /* Colors */
+  --primary-color: #3b82f6;
+  --secondary-color: #6c757d;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --white: #ffffff;
+  --black: #000000;
+  --danger-color: #e50000;
+  --highlight-color: #ffbb00;
+  --text-color-primary: #4a4a4a;
+  --text-color-secondary: #6b7280;
+  --text-color-link: #3b82f6;
+  --text-color-link-hover: #2563eb;
+  --button-bg-color: #000000;
+  --button-bg-hover-color: #4b5563;
+  --button-text-color: #ffffff;
+  --offer-bg-color: #ef4444;
+  --offer-text-color: #ffffff;
+
+  /* Font */
+  --font-primary: 'Poppins', sans-serif;
+  --font-size-base: 16px;
+  --font-size-lg: 20px;
+  --font-size-sm: 14px;
+
+  /* Spacing */
+  --padding-sm: 8px;
+  --padding-md: 16px;
+  --padding-lg: 24px;
+
+  /* Borders */
+  --border-radius: 8px;
+
+  --categorypage-background-color: #f9fafb;
+  --categorypage-text-color: #333333;
+
+  --productlistpage-background-color: #f9fafb;
+  --productlistpage-text-color: #333333;
+
+
+  --navbar-background-color: rgba(255, 255, 255, 0.9);
+  --navbar-text-color: #333333;
+  --navbar-link-color: #4a4a4a;
+  --navbar-link-hover-color: #2563eb;
+  --navbar-shadow-color: rgba(0, 0, 0, 0.1);
+  --navbar-search-border-color: #d1d5db;
+  --navbar-search-focus-border-color: #3b82f6;
+  --navbar-mobile-menu-bg-color: #ffffff;
+  --navbar-mobile-menu-text-color: #4a4a4a;
+  --navbar-mobile-menu-hover-color: #2563eb;
+
+  --announcementbar-background-color: #000000;
+  --announcementbar-text-color: #ffffff;
+  --announcementbar-shadow-color: rgba(23, 22, 22, 0.1);
+
+
+  --banner-container-padding: 2rem;
+  --banner-item-height: 16rem;
+  --banner-item-md-height: 24rem;
+  --banner-item-border-radius: 0.75rem;
+  --banner-item-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --banner-image-brightness: 0.9;
+  --banner-gradient-from: rgba(0, 0, 0, 0.6);
+  --banner-title-font-size: 1.5rem;
+  --banner-title-md-font-size: 1.875rem;
+  --banner-title-color: #ffffff;
+  --banner-description-color: rgba(255, 255, 255, 0.9);
+  --banner-button-text-color: #ffffff;
+  --banner-button-border-radius: 0.5rem;
+  --banner-button-padding: 1.5rem;
+
+  --footer-background-color: #1f2937;
+  --footer-text-color: #ffffff;
+  --footer-padding: 3rem;
+  --footer-section-title-font-size: 1.125rem;
+  --footer-section-title-font-weight: 700;
+  --footer-section-title-margin-bottom: 1rem;
+  --footer-section-text-color: #9ca3af;
+  --footer-section-text-font-size: 0.875rem;
+  --footer-link-hover-color: #3b82f6;
+  --footer-social-icon-color: #9ca3af;
+  --footer-social-icon-hover-facebook: #3b82f6;
+  --footer-social-icon-hover-instagram: #ec4899;
+  --footer-border-color: #374151;
+  --footer-copyright-text-color: #9ca3af;
+
+  
+}

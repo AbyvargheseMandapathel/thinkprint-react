@@ -1,10 +1,10 @@
-/* src/index.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 @import "tailwindcss";
+@import "./theme.css"; 
 
 /* Custom Font */
 .custom-font {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-primary);
     font-weight: 700;
     font-style: italic;
 }
@@ -37,18 +37,18 @@
     transition: transform 0.5s ease-in-out;
 }
 .category-item {
-    min-width: 120px; /* Reduced size */
+    min-width: 120px;
     text-align: center;
     margin-right: 1rem;
 }
 .category-item img {
-    width: 80px; /* Reduced size */
+    width: 80px;
     height: 80px;
     border-radius: 50%;
     margin: 0 auto;
 }
 .category-item h3 {
-    font-size: 0.9rem; /* Reduced font size */
+    font-size: var(--font-size-sm);
     margin-top: 0.5rem;
 }
 
@@ -59,7 +59,7 @@
     margin-top: 1rem;
 }
 .carousel-nav button {
-    background-color: #ccc;
+    background-color: var(--secondary-color);
     border: none;
     width: 10px;
     height: 10px;
@@ -68,15 +68,15 @@
     cursor: pointer;
 }
 .carousel-nav button.active {
-    background-color: #3b82f6;
+    background-color: var(--primary-color);
 }
 
 /* Product Card Styles */
 .product-card {
     width: calc(25% - 1rem);
     margin: 0.5rem;
-    background-color: #fff;
-    border-radius: 0.5rem;
+    background-color: var(--white);
+    border-radius: var(--border-radius);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -86,7 +86,7 @@
 }
 .product-image {
     position: relative;
-    padding-top: 100%; /* Aspect ratio of 1:1 */
+    padding-top: 100%;
 }
 .product-image img {
     position: absolute;
@@ -100,8 +100,8 @@
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
-    background-color: #3b82f6;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--white);
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
 }
@@ -109,12 +109,12 @@
     padding: 1rem;
 }
 .product-title {
-    font-size: 1rem;
+    font-size: var(--font-size-base);
     margin-bottom: 0.5rem;
 }
 .product-price {
     font-size: 1.25rem;
-    color: #3b82f6;
+    color: var(--primary-color);
     margin-top: 0.5rem;
 }
 .rating {
@@ -123,14 +123,30 @@
     margin-bottom: 0.5rem;
 }
 .rating-star {
-    color: #ffbb00;
+    color: var(--highlight-color);
 }
 .discount-badge {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
-    background-color: #e50000;
-    color: white;
+    background-color: var(--danger-color);
+    color: var(--white);
     padding: 0.25rem 0.5rem;
     border-radius: 0.25rem;
 }
+
+/* Announcement Bar Animation */
+.announcement-bar-message {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

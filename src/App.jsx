@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop"; // Import the new component
+import ScrollToTop from "./components/ScrollToTop";
+import AnnouncementBar from "./components/AnnouncementBar";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import CategoryCarousel from "./components/CategoryCarousel";
@@ -11,18 +12,23 @@ import BenefitsSection from "./components/BenefitsSection";
 import Footer from "./components/Footer";
 import ProductListPage from "./pages/ProductListPage";
 import SearchResult from "./pages/SearchResult";
-import { banners, categories, products } from "./data";
+import { banners, categories, products,announcementMessage } from "./data";
 import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
 import ProductDetailPage from "./pages/ProductDetailPage";
+import './theme.css'; // Import the theme.css file
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
 
   return (
     <Router>
-      <ScrollToTop /> {/* ✅ This ensures scrolling to top on route change */}
-      <div className="font-[Poppins] bg-gray-50">
+      <ScrollToTop />
+      <div className="font-[var(--font-primary)] bg-[var(--background-color)]">
+        {/* Announcement Bar */}
+        <AnnouncementBar message={announcementMessage} />
+
         <Navbar />
+        {/* <NavMenu /> */}
 
         <Routes>
           <Route

@@ -297,4 +297,6 @@ export const banners = [
     { label: "Search", href: "/search" },
     { label: "Shop", href: "/products" }
   ];
+
+  export const announcementMessage = "🎉 Free Shipping on Orders Over $50.00";
   
