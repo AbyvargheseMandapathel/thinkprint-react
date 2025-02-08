@@ -65,9 +65,6 @@ export const banners = [
           "https://picsum.photos/150/150?random=2-3",
           "https://picsum.photos/150/150?random=2-4",
           "https://picsum.photos/150/150?random=2-5",
-          "https://picsum.photos/150/150?random=2-6",
-          "https://picsum.photos/150/150?random=2-7",
-          "https://picsum.photos/150/150?random=2-8",
       ],
   },
     {

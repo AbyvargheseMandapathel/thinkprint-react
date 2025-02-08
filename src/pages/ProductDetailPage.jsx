@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ProductImageGallery from '../components/ProductImageGallery';
+import ContactForm from '../components/ContactForm';
 import { products } from '../data'; // Import the products array from data.js
 import parse from 'html-react-parser';
 
 const ProductDetailPage = () => {
     const { id } = useParams(); // Extract the product ID from the URL
     const [product, setProduct] = useState(null);
+    const [isContactFormOpen, setContactFormOpen] = useState(false);
 
     useEffect(() => {
         // Find the product with the matching ID
@@ -65,12 +67,19 @@ const ProductDetailPage = () => {
                         {renderDescription(product.description)}
                     </div>
 
-                    {/* Add to Cart Button */}
+                    {/* Enquire Now Button */}
                     <button
                         className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors mt-4"
+                        onClick={() => setContactFormOpen(true)}
                     >
-                        Add to Cart
+                        Enquire Now
                     </button>
+
+                    {/* Contact Form Modal */}
+                    <ContactForm
+                        isOpen={isContactFormOpen}
+                        onClose={() => setContactFormOpen(false)}
+                    />
                 </div>
             </div>
         </div>
