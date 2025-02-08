@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { categories } from "../data"; // Import categories from data.js
+import { categories } from "../input/categories"; // Import categories from data.js
 import { useNavigate } from "react-router-dom"; // Import useNavigate for URL manipulation
 
 const FilterComponent = ({ onFilter }) => {

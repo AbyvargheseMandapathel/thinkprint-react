@@ -13,12 +13,13 @@ const Banner = ({ banners }) => {
                             {banner.buttons && (
                                 <div className="flex flex-col md:flex-row gap-3">
                                     {banner.buttons.map((button, idx) => (
+                                    <a key={idx} href={button.link}>
                                         <button
-                                            key={idx}
-                                            className={`bg-${button.color}-600 hover:bg-${button.color}-700 text-white px-6 py-3 rounded-lg transition-colors w-full md:w-auto`}
+                                        className={`bg-${button.color}-600 hover:bg-${button.color}-700 text-white px-6 py-3 rounded-lg transition-colors w-full md:w-auto`}
                                         >
-                                            {button.text}
+                                        {button.text}
                                         </button>
+                                    </a>
                                     ))}
                                 </div>
                             )}

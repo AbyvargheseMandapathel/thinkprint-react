@@ -1,34 +1,24 @@
-import banner1 from './assets/banner/banner1.png';
-import banner2 from './assets/banner/banner2.png';
+import banner1 from '../assets/banner/banner1.png';
+import banner2 from '../assets/banner/banner2.png';
 
 export const banners = [
     {
       imageUrl: banner1,
       title: "Designed for Success",
       description: "Elegant & Personalized Office Essentials.",
-      buttons: [{ text: "Shop Now", color: "blue" }],
+      buttons: [
+        { text: "Shop Now", color: "blue", link: "/category/Custom%20Stationery" }, // Add link
+      ],
     },
     {
       imageUrl: banner2,
       title: "Wear Your Brand",
       description: "Dress the Part, Impress the World.",
       buttons: [
-        { text: "Custom T-shirts", color: "blue" },
-        { text: "Custom Caps", color: "white" },
+        { text: "Custom T-shirts", color: "blue", link: "/category/Custom%20T-shirts" },
+        { text: "Custom Caps", color: "white", link: "/category/Custom%20caps" },
       ],
     },
-  ];
-  
-  export const categories = [
-    { id: 1, name: "Visiting Cards", img: "https://picsum.photos/200/200?random=1" },
-    { id: 2, name: "Custom Polo T-shirts", img: "https://picsum.photos/200/200?random=2" },
-    { id: 3, name: "Office Shirts", img: "https://picsum.photos/200/200?random=3" },
-    { id: 4, name: "Custom T-shirts", img: "https://picsum.photos/200/200?random=4" },
-    { id: 5, name: "Custom Stamps & Ink", img: "https://picsum.photos/200/200?random=5" },
-    { id: 6, name: "Photo Gifts", img: "https://picsum.photos/200/200?random=6" },
-    { id: 7, name: "Labels, Stickers & Packaging", img: "https://picsum.photos/200/200?random=7" },
-    { id: 8, name: "Custom Stationery", img: "https://picsum.photos/200/200?random=8" },
-    { id: 9, name: "Signs, Posters & Marketing Materials", img: "https://picsum.photos/200/200?random=9" },
   ];
 
   export const products = [

@@ -12,11 +12,12 @@ import BenefitsSection from "./components/BenefitsSection";
 import Footer from "./components/Footer";
 import ProductListPage from "./pages/ProductListPage";
 import SearchResult from "./pages/SearchResult";
-import { banners, categories, products,announcementMessage } from "./data";
+import { banners, products,announcementMessage } from "./input/data";
 import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import ContactUsPage from "./pages/ContactUsPage";
-import './theme.css'; // Import the theme.css file
+import './theme.css'; 
+import { categories } from "./input/categories";
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");

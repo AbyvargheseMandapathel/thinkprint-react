@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ProductImageGallery from '../components/ProductImageGallery';
 import ContactForm from '../components/ContactForm';
-import { products } from '../data';
+import { products } from '../input/data';
 import parse from 'html-react-parser';
 import ProductSection2 from '../components/ProductSection2';
 

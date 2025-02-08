@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // ✅ Import useNavigate
-import { categories } from "../data"; // Import categories from data.js
+import { categories } from "../input/categories"; // Import categories from data.js
 
 const ProductListing = ({ products, title }) => {
   const [activeTab, setActiveTab] = useState("All Products");

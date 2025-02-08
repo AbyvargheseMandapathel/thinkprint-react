@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ContactUsForm from "../components/ContactUsForm";
 import { generateBreadcrumbs } from "../utils/breadcrumbUtils";
-import { contactInfo } from "../data"; // Import contact info
+import { contactInfo } from "../input/data"; // Import contact info
 
 const ContactUsPage = () => {
     const breadcrumbs = generateBreadcrumbs("contact");

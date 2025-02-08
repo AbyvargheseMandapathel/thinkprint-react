@@ -2,7 +2,8 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import ProductListPage from "./ProductListPage";
 import { generateBreadcrumbs } from "../utils/breadcrumbUtils";
-import { categories, products } from "../data"; // Use `products` instead of `recommendedProducts`
+import { categories } from "../input/categories"; 
+import { products } from "../input/data";
 
 const SearchResult = () => {
   // Get the search query from the URL
