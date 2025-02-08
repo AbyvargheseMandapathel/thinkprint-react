@@ -134,7 +134,7 @@ const MobileNavigation = () => {
           </button>
 
           {/* Contact Us Icon */}
-          <a href="#" className="text-gray-600 flex flex-col items-center hover:text-blue-600 transition-colors">
+          <a href="/contact" className="text-gray-600 flex flex-col items-center hover:text-blue-600 transition-colors">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"

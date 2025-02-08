@@ -9,6 +9,7 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
+    const [error, setError] = useState(null);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -18,24 +19,39 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
+        setError(null);
 
-        setTimeout(() => {
-            setIsSubmitting(false);
-            setIsSuccess(true);
-
-            console.log('Form Submitted:', {
-                ...formData,
-                product: productName,
+        try {
+            const response = await fetch('/api/product-enquiry', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    ...formData,
+                    product: productName,
+                }),
             });
 
-            setTimeout(() => {
-                setIsSuccess(false);
-                onClose();
-            }, 3000);
-        }, 1500);
+            if (response.ok) {
+                setIsSuccess(true);
+                setTimeout(() => {
+                    setIsSuccess(false);
+                    onClose();
+                }, 3000);
+            } else {
+                const result = await response.json();
+                setError(result.error || 'Failed to submit enquiry.');
+                setIsSubmitting(false);
+            }
+        } catch (error) {
+            console.error('Error submitting enquiry:', error);
+            setError('An unexpected error occurred. Please try again.');
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -66,8 +82,6 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
                 {!isSubmitting && !isSuccess && (
                     <form onSubmit={handleSubmit}>
                         <h2 className="text-2xl font-bold text-gray-800 mb-4">Enquire Now</h2>
-
-                        <input type="hidden" name="productName" value={productName} />
 
                         {/* Name */}
                         <div className="mb-4">
@@ -149,6 +163,12 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
 
                         <p className="mt-4 text-gray-700">Form Submitted!</p>
                         <p className="text-gray-600">You will be contacted by an executive very shortly.</p>
+                    </div>
+                )}
+
+                {error && (
+                    <div className="flex flex-col items-center justify-center text-red-500">
+                        <p className="mt-4">{error}</p>
                     </div>
                 )}
             </div>

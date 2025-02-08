@@ -18,16 +18,30 @@ const ContactUsForm = () => {
         });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Simulate form submission
-        setTimeout(() => {
-            setIsSubmitting(false);
-            setIsSuccess(true);
-            console.log('Form Submitted:', formData);
-        }, 1500); // Simulate a 1.5-second submission time
+        try {
+            const response = await fetch('/api/contact-form', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                setIsSuccess(true);
+                console.log('Form Submitted:', formData);
+            } else {
+                console.error('Error submitting form:', await response.json());
+            }
+        } catch (error) {
+            console.error('Network error:', error);
+        }
+
+        setIsSubmitting(false);
 
         // Reset form after submission
         setTimeout(() => {
