@@ -4,7 +4,7 @@ import visitingcard3 from '../assets/products/visiting-cards/visitingcard-3.png'
 import visitingcard4 from '../assets/products/visiting-cards/visitingcard-4.png';
 
 
-[
+export const products = [
     {
         "id": 1,
         "title": "Visiting Cards",
@@ -20,16 +20,14 @@ import visitingcard4 from '../assets/products/visiting-cards/visitingcard-4.png'
             "Note: Please do not print designs belonging to Government/Quasi Government bodies"
         ],
         "offer": "Min. 50% Off",
-        "img": "https://picsum.photos/300/300?random=1",
+        "img": visitingcard1,
         "price": 250,
         "ratingCount": 150,
         "bestDeal": true,
         "category": "Visiting Cards",
         "recommended": true,
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=1-1",
-            "https://picsum.photos/300/300?random=1-2",
-            "https://picsum.photos/300/300?random=1-3"
+            visitingcard2,visitingcard3,visitingcard4
         ]
     },
     {
