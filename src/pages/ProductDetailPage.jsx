@@ -5,6 +5,8 @@ import ContactForm from '../components/ContactForm';
 import { products } from '../input/products';
 import parse from 'html-react-parser';
 import ProductSection2 from '../components/ProductSection2';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
 const ProductDetailPage = () => {
     const { id } = useParams();
@@ -95,7 +97,16 @@ const ProductDetailPage = () => {
                             ))}
                         </ul>
                     </div>
-
+                    {/* New Variants Section */}
+                    <div className="mt-4">
+                        <h5 className="text-[var(--text-color-primary)] font-semibold">Variants</h5>
+                        <div className="mt-2">
+                            <a href={product.pdf} target="_blank" rel="noopener noreferrer" className="flex items-center">
+                                <FontAwesomeIcon icon={faFilePdf} className="mr-2 text-red-500" />
+                                Download PDF
+                            </a>
+                        </div>
+                    </div>
                     {/* Keep Enquire Now button */}
                     <button
                         className="mt-4 bg-[var(--button-bg-color)] text-[var(--button-text-color)] px-6 py-3 rounded-lg hover:bg-[var(--button-bg-hover-color)] transition-colors"

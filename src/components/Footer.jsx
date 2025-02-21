@@ -29,7 +29,7 @@ const Footer = () => {
                             <a href="/about" className="hover:text-[var(--footer-link-hover-color)] transition-colors">About</a>
                         </li>
                         <li>
-                            <a href="/contact-us" className="hover:text-[var(--footer-link-hover-color)] transition-colors">Contact Us</a>
+                            <a href="/contact" className="hover:text-[var(--footer-link-hover-color)] transition-colors">Contact Us</a>
                         </li>
                     </ul>
                 </div>

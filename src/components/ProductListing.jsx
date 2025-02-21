@@ -70,12 +70,18 @@ const ProductListing = ({ products, title }) => {
                 </div>
               )}
             </div>
+
             {/* Product Title */}
             <h3 className="text-lg font-bold mb-2">{product.title}</h3>
+
+            {/* Free Delivery Text */}
+            <p className="text-sm text-gray-600 mb-2">Free Delivery on Bulk Orders</p>
+
             {/* Product Price */}
-            <p className="text-gray-600 mb-2">${product.price}</p>
-            {/* Product Rating */}
-            <div className="flex items-center mb-2">
+            {/* <p className="text-gray-600 mb-2">${product.price}</p> */}
+
+            {/* Commented out Product Rating */}
+            {/* <div className="flex items-center mb-2">
               {[...Array(5)].map((_, i) => (
                 <svg
                   key={i}
@@ -89,7 +95,8 @@ const ProductListing = ({ products, title }) => {
               <span className="text-sm text-gray-500 ml-1">
                 ({product.ratingCount})
               </span>
-            </div>
+            </div> */}
+
           </div>
         ))}
 

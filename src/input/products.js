@@ -2,6 +2,18 @@ import visitingcard1 from '../assets/products/visiting-cards/visitingcard-1.png'
 import visitingcard2 from '../assets/products/visiting-cards/visitingcard-2.png';
 import visitingcard3 from '../assets/products/visiting-cards/visitingcard-3.png';
 import visitingcard4 from '../assets/products/visiting-cards/visitingcard-4.png';
+import PRANAVRESUME2 from  '../assets/pdf/PRANAVRESUME2.pdf';
+import mentshirt1 from '../assets/products/tshirt-men/men-tshirt-1.png';
+import mentshirt2 from '../assets/products/tshirt-men/men-tshirt-2.png';
+import mentshirt3 from '../assets/products/tshirt-men/men-tshirt-3.png';
+import womentshirt1 from '../assets/products/tshirt-women/women-tshirt-1.png';
+import womentshirt2 from '../assets/products/tshirt-women/women-tshirt-2.png';
+import womentshirt3 from '../assets/products/tshirt-women/women-tshirt-3.png';
+import womentshirt4 from '../assets/products/tshirt-women/women-tshirt-4.png';
+import paperembosser1 from '../assets/products/paperembosser/paperembosser-1.png';
+import paperembosser2 from '../assets/products/paperembosser/paperembosser-2.png';
+import paperembosser3 from '../assets/products/paperembosser/paperembosser-3.png';
+import paperembosser4 from '../assets/products/paperembosser/paperembosser-4.png';
 
 
 export const products = [
@@ -22,6 +34,7 @@ export const products = [
         "offer": "Min. 50% Off",
         "img": visitingcard1,
         "price": 250,
+        "pdf":PRANAVRESUME2,
         "ratingCount": 150,
         "bestDeal": true,
         "category": "Visiting Cards",
@@ -32,13 +45,14 @@ export const products = [
     },
     {
         "id": 2,
-        "title": "Men’s Polyester T-shirts",
-        "shortDescription": "Lightweight and comfortable polyester custom T-shirts for men",
-        "longDescription": "Design your own custom polyester T-shirt, perfect for active wear and casual outings. Available in a variety of colors.",
+        "title": "Men’s  T-shirts",
+        "shortDescription": "Lightweight and comfortable custom T-shirts for men",
+        "longDescription": "Design your own custom mens T-shirt, perfect for active wear and casual outings. Available in a variety of colors.",
         "price": 399,
+        "pdf":PRANAVRESUME2,
         "ratingCount": 150,
         "category": "Custom T-shirts",
-        "img": "https://picsum.photos/300/300?random=2",
+        "img": mentshirt1,
         "designSpecifications": [
             "Available in sizes S to XXL",
             "Made from breathable, quick-drying polyester fabric",
@@ -46,20 +60,18 @@ export const products = [
             "Ideal for sports or casual wear"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=2-1",
-            "https://picsum.photos/300/300?random=2-2",
-            "https://picsum.photos/300/300?random=2-3"
+            mentshirt2,mentshirt3
         ]
     },
     {
         "id": 3,
-        "title": "Premium Men's Cotton T-Shirt",
-        "shortDescription": "Soft and breathable premium cotton T-shirt for men",
-        "longDescription": "Customize your own premium cotton T-shirt. Designed for comfort and durability, perfect for daily wear.",
+        "title": "Womens Tshirts",
+        "shortDescription": "Stylish custom T-shirt for women",
+        "longDescription": "Our women's T-shirt is designed for all-day comfort with a flattering, tailored fit that complements every body type. Its breathable, durable fabric ensures long-lasting wear while maintaining its shape and color. Versatile and effortlessly stylish, it pairs seamlessly with any outfit for casual or layered looks. Available in a variety of colors and sizes, it’s a must-have wardrobe essential.",
         "price": 599,
         "ratingCount": 200,
         "category": "Custom T-shirts",
-        "img": "https://picsum.photos/300/300?random=3",
+        "img": womentshirt1,
         "designSpecifications": [
             "Made with 100% premium cotton",
             "Available in sizes S to XXL",
@@ -67,30 +79,25 @@ export const products = [
             "Great for personalization with vibrant prints"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=3-1",
-            "https://picsum.photos/300/300?random=3-2",
-            "https://picsum.photos/300/300?random=3-3"
+            womentshirt2,womentshirt3,womentshirt4
         ]
     },
     {
         "id": 4,
-        "title": "Women’s Full Sleeves T-Shirts",
-        "shortDescription": "Stylish full sleeves custom T-shirt for women",
-        "longDescription": "Create a chic look with your own design on this full sleeves T-shirt for women. Perfect for colder weather.",
+        "title": "Paper Embosser",
+        "shortDescription": "Create a professional and elegant touch with a custom paper embosser featuring your brand logo, design, or signature. Perfect for certificates, official documents, and personal stationery.",
+        "longDescription": "Customize your documents with a premium paper embosser featuring your logo, design, or signature for a professional and elegant finish. Ideal for branding, official use, and personal stationery, it creates a crisp, raised impression. The 41 mm (4.1 cm) diameter ensures clear detailing, while the final output may vary from the preview. Ensure compliance with legal guidelines, as unauthorized designs are not permitted.",
         "price": 499,
         "ratingCount": 180,
-        "category": "Custom T-shirts",
-        "img": "https://picsum.photos/300/300?random=4",
+        "category": "Custom Stamps & Ink",
+        "img": paperembosser1,
         "designSpecifications": [
-            "Available in sizes XS to XL",
-            "Made with soft and comfortable cotton fabric",
-            "Perfect for customization with custom prints or logos",
-            "Great for layering or casual wear"
+            "Size: 41 mm (4.1 cm) diameter for precise and clear embossing.",
+            "Preview: Black output shown is for representation.",
+            "Compliance: Government-related designs are not allowed; users are responsible for proper usage."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=4-1",
-            "https://picsum.photos/300/300?random=4-2",
-            "https://picsum.photos/300/300?random=4-3"
+            paperembosser2,paperembosser3,paperembosser4
         ]
     },
     {
