@@ -61,7 +61,7 @@ export const products = [
         "price": 399,
         "pdf":PRANAVRESUME2,
         "ratingCount": 150,
-        "category": "Custom T-shirts",
+        "category": "Personalized Clothing",
         "img": mentshirt1,
         "designSpecifications": [
             "Available in sizes S to XXL",
@@ -80,7 +80,7 @@ export const products = [
         "longDescription": "Our women's T-shirt is designed for all-day comfort with a flattering, tailored fit that complements every body type. Its breathable, durable fabric ensures long-lasting wear while maintaining its shape and color. Versatile and effortlessly stylish, it pairs seamlessly with any outfit for casual or layered looks. Available in a variety of colors and sizes, it’s a must-have wardrobe essential.",
         "price": 599,
         "ratingCount": 200,
-        "category": "Custom T-shirts",
+        "category": "Personalized Clothing",
         "img": womentshirt1,
         "designSpecifications": [
             "Made with 100% premium cotton",
@@ -814,6 +814,90 @@ export const products = [
             "https://picsum.photos/300/300?random=38-1",
             "https://picsum.photos/300/300?random=38-2",
             "https://picsum.photos/300/300?random=38-3"
+        ]
+    },
+    {
+        "id": 39,
+        "title": "Men's Slim Fit Office Shirt",
+        "shortDescription": "Tailored slim-fit office shirt for men.",
+        "longDescription": "Crafted from high-quality cotton, this slim-fit shirt offers comfort and style for daily office wear.",
+        "price": 1299,
+        "ratingCount": 250,
+        "category": "Personalized Clothing",
+        "img": "https://picsum.photos/300/300?random=1",
+        "designSpecifications": [
+            "100% Cotton",
+            "Slim Fit",
+            "Machine Washable",
+            "Wrinkle Resistant"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=1-1",
+            "https://picsum.photos/300/300?random=1-2",
+            "https://picsum.photos/300/300?random=1-3"
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Women's Formal Office Shirt",
+        "shortDescription": "Elegant and professional office wear for women.",
+        "longDescription": "Designed for a perfect fit, this formal office shirt for women blends comfort with style.",
+        "price": 1499,
+        "ratingCount": 180,
+        "category": "Personalized Clothing",
+        "img": "https://picsum.photos/300/300?random=2",
+        "designSpecifications": [
+            "Premium Polyester Blend",
+            "Stretchable & Breathable Fabric",
+            "Easy to Iron",
+            "Regular Fit"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=2-1",
+            "https://picsum.photos/300/300?random=2-2",
+            "https://picsum.photos/300/300?random=2-3"
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Cozy Winter Hoodie",
+        "shortDescription": "Warm and stylish hoodie for winter comfort.",
+        "longDescription": "Made with fleece-lined fabric, this hoodie keeps you cozy and warm during chilly days.",
+        "price": 1599,
+        "ratingCount": 350,
+        "category": "Personalized Clothing",
+        "img": "https://picsum.photos/300/300?random=5",
+        "designSpecifications": [
+            "Fleece-Lined for Warmth",
+            "Adjustable Hood",
+            "Front Pouch Pocket",
+            "Durable Stitching"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=5-1",
+            "https://picsum.photos/300/300?random=5-2",
+            "https://picsum.photos/300/300?random=5-3"
+        ]
+    },
+    {
+        "id": 42,
+        "title": "Classic Knit Sweater",
+        "shortDescription": "Soft and cozy knit sweater for chilly days.",
+        "longDescription": "This stylish knit sweater provides warmth and comfort while maintaining a classy look.",
+        "price": 1899,
+        "ratingCount": 270,
+        "category": "Personalized Clothing",
+        "img": "https://picsum.photos/300/300?random=6",
+        "designSpecifications": [
+            "Soft Wool Blend",
+            "Ribbed Cuffs & Hem",
+            "Classic Design",
+            "Easy to Layer"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=6-1",
+            "https://picsum.photos/300/300?random=6-2",
+            "https://picsum.photos/300/300?random=6-3"
         ]
     }
 ]

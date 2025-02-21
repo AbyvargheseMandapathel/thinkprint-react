@@ -11,7 +11,7 @@ import CustomBags from "/src/assets/categories/Custom-Bags.png";
 
 export const categories = [
   { id: 1, name: "Visiting Cards", img: VisitingCards },
-  { id: 2, name: "Custom T-shirts", img: CustomTShirts },
+  { id: 2, name: "Personalized Clothing", img: CustomTShirts },
   { id: 3, name: "Custom Stamps & Ink", img: CustomStampsInk },
   { id: 4, name: "Photo Gifts", img: PhotoGifts },
   { id: 5, name: "Labels, Stickers & Packaging", img: LabelsStickersPackaging },
