@@ -11,6 +11,7 @@ const ProductSection2 = ({ title, products }) => {
         dots: false,
         infinite: true,
         speed: 500,
+        adaptiveHeight: true, 
         slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
