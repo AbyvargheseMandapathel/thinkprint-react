@@ -25,6 +25,27 @@ import mugs3 from '../assets/products/mugs/mugs-3.png';
 import bottles1 from '../assets/products/bottles/bottles-1.png';
 import bottles2 from '../assets/products/bottles/bottles-2.png'; 
 import bottles3 from '../assets/products/bottles/bottles-3.png';
+import canvasprint1 from '../assets/products/canvasprint/canvasprint-1.png';
+import canvasprint2 from '../assets/products/canvasprint/canvasprint-2.png';
+import photoframe1 from '../assets/products/photoframe/photoframe1.png';
+import photoframe2 from '../assets/products/photoframe/photoframe2.png';
+import fridgemagnet1 from '../assets/products/fridgemagnet/fridgemagnet1.png';
+import fridgemagnet2 from '../assets/products/fridgemagnet/fridgemagnet2.png';
+import fridgemagnet3 from '../assets/products/fridgemagnet/fridgemagnet3.png';
+import calenders1 from '../assets/products/calenders/calenders1.png';
+import calenders2 from '../assets/products/calenders/calenders2.png';
+import pendrive1 from '../assets/products/pendrive/pendrive1.png';
+import pendrive2 from '../assets/products/pendrive/pendrive2.png';
+import powerbank1 from '../assets/products/powerbank/powerbank1.png';
+import powerbank2 from '../assets/products/powerbank/powerbank2.png';
+import playingcards1 from '../assets/products/playingcards/playingcards1.png';
+import playingcards2 from  '../assets/products/playingcards/playingcards2.png';
+import packinglabels1 from '../assets/products/packinglabels/packinglabels1.png';
+import packinglabels2 from '../assets/products/packinglabels/packinglabels2.png';
+import qrcode1 from '../assets/products/qrcode/qrcodestickers1.png';
+import qrcode2 from '../assets/products/qrcode/qrcodestickers2.png';
+import cricketbat1 from '../assets/products/cricketbat/cricketbat1.png';
+import cricketbat2 from '../assets/products/cricketbat/cricketbat2.png';
 
 export const products = [
     {
@@ -193,7 +214,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Photo Gifts",
-        "img": "https://picsum.photos/300/300?random=9",
+        "img": canvasprint1,
         "designSpecifications": [
             "Cotton/Polyester canvas",
             "Stretched on a wooden frame",
@@ -201,9 +222,7 @@ export const products = [
             "Sizes: 8x8,12x12,16x20,24x36."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=9-1",
-            "https://picsum.photos/300/300?random=9-2",
-            "https://picsum.photos/300/300?random=9-3"
+            canvasprint2
         ]
     },
     {
@@ -214,7 +233,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Photo Gifts",
-        "img": "https://picsum.photos/300/300?random=10",
+        "img": photoframe1,
         "designSpecifications": [
             "Wood/Metal/Acrylic",
             "Multiple sizes & orientations",
@@ -222,9 +241,7 @@ export const products = [
             "Protective glass."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=10-1",
-            "https://picsum.photos/300/300?random=10-2",
-            "https://picsum.photos/300/300?random=10-3"
+            photoframe2
         ]
     },
     {
@@ -235,7 +252,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Photo Gifts",
-        "img": "https://picsum.photos/300/300?random=11",
+        "img": fridgemagnet1,
         "designSpecifications": [
             "High-quality magnetic material",
             "Glossy/Matte finish",
@@ -243,9 +260,7 @@ export const products = [
             "Sizes: 2x2,3x3,4x4 inches."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=11-1",
-            "https://picsum.photos/300/300?random=11-2",
-            "https://picsum.photos/300/300?random=11-3"
+            fridgemagnet2,fridgemagnet3
         ]
     },
     {
@@ -256,7 +271,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Photo Gifts",
-        "img": "https://picsum.photos/300/300?random=12",
+        "img": calenders1,
         "designSpecifications": [
             "Wall",
             "Desk",
@@ -266,9 +281,7 @@ export const products = [
             "Custom start month/year."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=12-1",
-            "https://picsum.photos/300/300?random=12-2",
-            "https://picsum.photos/300/300?random=12-3"
+            calenders2
         ]
     },
     {
@@ -278,8 +291,8 @@ export const products = [
         "longDescription": "Personalized USB flash drives with branding, logo, or photo printing. Available in various storage capacities.",
         "price": 399,
         "ratingCount": 130,
-        "category": "Photo Gifts",
-        "img": "https://picsum.photos/300/300?random=13",
+        "category": "Electronics & Accessories",
+        "img": pendrive1,
         "designSpecifications": [
             "8GB-128GB",
             "Metal/Plastic/Wood casing",
@@ -287,9 +300,7 @@ export const products = [
             "Custom engraving & printing."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=13-1",
-            "https://picsum.photos/300/300?random=13-2",
-            "https://picsum.photos/300/300?random=13-3"
+            pendrive2
         ]
     },
     {
@@ -299,8 +310,8 @@ export const products = [
         "longDescription": "Sleek, fast-charging power banks for on-the-go use. Perfect for travel or corporate gifts.",
         "price": 399,
         "ratingCount": 130,
-        "category": "Photo Gifts",
-        "img": "https://picsum.photos/300/300?random=14",
+        "category": "Electronics & Accessories",
+        "img": powerbank1,
         "designSpecifications": [
             "5000mAh-20000mAh",
             "Fast-charging",
@@ -308,9 +319,7 @@ export const products = [
             "Custom logo printing."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=14-1",
-            "https://picsum.photos/300/300?random=14-2",
-            "https://picsum.photos/300/300?random=14-3"
+            powerbank2
         ]
     },
     {
@@ -321,7 +330,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Photo Gifts",
-        "img": "https://picsum.photos/300/300?random=15",
+        "img": playingcards1,
         "designSpecifications": [
             "54-card deck",
             "Glossy/Matte finish",
@@ -329,9 +338,7 @@ export const products = [
             "Premium cardstock."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=15-1",
-            "https://picsum.photos/300/300?random=15-2",
-            "https://picsum.photos/300/300?random=15-3"
+            playingcards2
         ]
     },
     {
@@ -342,7 +349,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Labels, Stickers & Packaging",
-        "img": "https://picsum.photos/300/300?random=16",
+        "img": packinglabels1,
         "designSpecifications": [
             "Paper/Vinyl material",
             "Glossy/Matte finish",
@@ -351,30 +358,7 @@ export const products = [
             "Custom sizes."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=16-1",
-            "https://picsum.photos/300/300?random=16-2",
-            "https://picsum.photos/300/300?random=16-3"
-        ]
-    },
-    {
-        "id": 17,
-        "title": "Transparent Labels",
-        "shortDescription": "Sleek, clear labels for a premium look.",
-        "longDescription": "Transparent stickers with a no-label look, ideal for bottles, cosmetics, and luxury packaging. Waterproof and durable.",
-        "price": 399,
-        "ratingCount": 130,
-        "category": "Labels, Stickers & Packaging",
-        "img": "https://picsum.photos/300/300?random=17",
-        "designSpecifications": [
-            "Clear vinyl/PET material",
-            "UV-resistant",
-            "Glossy/Matte",
-            "Custom shapes & sizes."
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=17-1",
-            "https://picsum.photos/300/300?random=17-2",
-            "https://picsum.photos/300/300?random=17-3"
+            packinglabels2
         ]
     },
     {
@@ -385,7 +369,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Labels, Stickers & Packaging",
-        "img": "https://picsum.photos/300/300?random=18",
+        "img": qrcode1,
         "designSpecifications": [
             "Vinyl/Paper material",
             "Waterproof",
@@ -393,9 +377,7 @@ export const products = [
             "High-resolution QR printing."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=18-1",
-            "https://picsum.photos/300/300?random=18-2",
-            "https://picsum.photos/300/300?random=18-3"
+            qrcode2
         ]
     },
     {
@@ -406,7 +388,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Labels, Stickers & Packaging",
-        "img": "https://picsum.photos/300/300?random=19",
+        "img": cricketbat1,
         "designSpecifications": [
             "Vinyl material",
             "Waterproof & scratch-resistant",
@@ -414,30 +396,7 @@ export const products = [
             "Glossy finish."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=19-1",
-            "https://picsum.photos/300/300?random=19-2",
-            "https://picsum.photos/300/300?random=19-3"
-        ]
-    },
-    {
-        "id": 20,
-        "title": "Custom Car Stickers",
-        "shortDescription": "Personalize your vehicle with high-quality car decals.",
-        "longDescription": "Weatherproof car stickers with custom graphics, text, or logos. Perfect for branding, promotions, or personal styling.",
-        "price": 399,
-        "ratingCount": 130,
-        "category": "Labels, Stickers & Packaging",
-        "img": "https://picsum.photos/300/300?random=20",
-        "designSpecifications": [
-            "Vinyl material",
-            "Waterproof & UV-resistant",
-            "Easy peel & stick",
-            "Custom sizes & shapes."
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=20-1",
-            "https://picsum.photos/300/300?random=20-2",
-            "https://picsum.photos/300/300?random=20-3"
+            cricketbat2
         ]
     },
     {
@@ -898,6 +857,462 @@ export const products = [
             "https://picsum.photos/300/300?random=6-1",
             "https://picsum.photos/300/300?random=6-2",
             "https://picsum.photos/300/300?random=6-3"
+        ]
+    },
+    {
+        "id": 43,
+        "title": "Custom Speakers",
+        "shortDescription": "Personalized portable speakers with high-quality sound.",
+        "longDescription": "Enjoy crisp, powerful audio with custom-designed speakers. Ideal for personal use or promotional branding.",
+        "price": 2999,
+        "ratingCount": 350,
+        "category": "Electronics & Accessories",
+        "img": "https://picsum.photos/300/300?random=45",
+        "customDesignOptions": [
+            "Engraved logo customization",
+            "Full-color branding",
+            "Custom text or initials",
+            "Variety of casing colors"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=45-1",
+            "https://picsum.photos/300/300?random=45-2",
+            "https://picsum.photos/300/300?random=45-3"
+        ]
+    },
+    {
+        "id": 44,
+        "title": "Custom Headphones",
+        "shortDescription": "Personalized over-ear headphones with premium sound.",
+        "longDescription": "Experience immersive audio while showcasing your style with custom-designed headphones. Perfect for gifts, branding, or personal use.",
+        "price": 3599,
+        "ratingCount": 400,
+        "category": "Electronics & Accessories",
+        "img": "https://picsum.photos/300/300?random=46",
+        "customDesignOptions": [
+            "Engraved logo customization",
+            "Full-color branding",
+            "Custom text or initials",
+            "Choice of different ear pad colors"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=46-1",
+            "https://picsum.photos/300/300?random=46-2",
+            "https://picsum.photos/300/300?random=46-3"
+        ]
+    },
+    {
+        "id": 45,
+        "title": "Custom Travel Adaptors",
+        "shortDescription": "Universal travel adaptors with custom branding.",
+        "longDescription": "Stay connected anywhere in the world with custom travel adaptors featuring your unique design or brand logo.",
+        "price": 1299,
+        "ratingCount": 220,
+        "category": "Electronics & Accessories",
+        "img": "https://picsum.photos/300/300?random=47",
+        "customDesignOptions": [
+            "Engraved branding",
+            "Custom color options",
+            "Personalized packaging"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=47-1",
+            "https://picsum.photos/300/300?random=47-2",
+            "https://picsum.photos/300/300?random=47-3"
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Custom USB Hubs",
+        "shortDescription": "Multi-port USB hubs with personalized branding.",
+        "longDescription": "Expand connectivity with a stylish and functional custom USB hub, perfect for home and office use.",
+        "price": 1599,
+        "ratingCount": 280,
+        "category": "Electronics & Accessories",
+        "img": "https://picsum.photos/300/300?random=48",
+        "customDesignOptions": [
+            "Company logo engraving",
+            "Custom color options",
+            "Custom text printing"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=48-1",
+            "https://picsum.photos/300/300?random=48-2",
+            "https://picsum.photos/300/300?random=48-3"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "Custom Charging Cables",
+        "shortDescription": "Durable charging cables with custom branding.",
+        "longDescription": "Charge in style with personalized charging cables, perfect for promotional giveaways and personal use.",
+        "price": 899,
+        "ratingCount": 320,
+        "category": "Electronics & Accessories",
+        "img": "https://picsum.photos/300/300?random=49",
+        "customDesignOptions": [
+            "Printed brand name",
+            "Multiple color options",
+            "Custom packaging"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=49-1",
+            "https://picsum.photos/300/300?random=49-2",
+            "https://picsum.photos/300/300?random=49-3"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Custom Power Banks",
+        "shortDescription": "High-capacity power banks with personalized designs.",
+        "longDescription": "Keep your devices powered with custom-printed power banks, a perfect mix of utility and branding.",
+        "price": 2499,
+        "ratingCount": 450,
+        "category": "Electronics & Accessories",
+        "img": "https://picsum.photos/300/300?random=50",
+        "customDesignOptions": [
+            "Logo printing",
+            "Multiple color choices",
+            "Engraved personalization"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=50-1",
+            "https://picsum.photos/300/300?random=50-2",
+            "https://picsum.photos/300/300?random=50-3"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Custom Lights",
+        "shortDescription": "Personalized LED lights with various customization options.",
+        "longDescription": "Illuminate your space with custom LED lights, perfect for home decor and promotional gifts.",
+        "price": 1999,
+        "ratingCount": 390,
+        "category": "Electronics & Accessories",
+        "img": "https://picsum.photos/300/300?random=51",
+        "customDesignOptions": [
+            "Engraved names or logos",
+            "Custom LED colors",
+            "Adjustable brightness settings"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=51-1",
+            "https://picsum.photos/300/300?random=51-2",
+            "https://picsum.photos/300/300?random=51-3"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Custom Car Chargers",
+        "shortDescription": "Fast-charging car chargers with custom branding.",
+        "longDescription": "Charge your devices on the go with personalized car chargers, featuring your own text, logo, or brand design.",
+        "price": 1299,
+        "ratingCount": 310,
+        "category": "Electronics & Accessories",
+        "img": "https://picsum.photos/300/300?random=52",
+        "customDesignOptions": [
+            "Logo engraving",
+            "Custom text printing",
+            "Various color options"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=52-1",
+            "https://picsum.photos/300/300?random=52-2",
+            "https://picsum.photos/300/300?random=52-3"
+        ]
+    },
+    {
+        "id": 51,
+        "title": "Custom Hot & Cold Flask",
+        "shortDescription": "Insulated flask for hot and cold beverages with custom branding.",
+        "longDescription": "Keep your drinks at the perfect temperature with a personalized hot & cold flask. Ideal for corporate gifts or personal use.",
+        "price": 1499,
+        "ratingCount": 320,
+        "category": "Custom Drinkware",
+        "img": "https://picsum.photos/300/300?random=51",
+        "customDesignOptions": [
+            "Engraved name or logo",
+            "Full-color print design",
+            "Matte or glossy finish",
+            "Custom packaging"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=51-1",
+            "https://picsum.photos/300/300?random=51-2",
+            "https://picsum.photos/300/300?random=51-3"
+        ]
+    },
+    {
+        "id": 52,
+        "title": "Custom Stainless Steel Bottle",
+        "shortDescription": "Durable stainless steel bottle with personalized design.",
+        "longDescription": "Stay hydrated in style with a customized stainless steel bottle. Perfect for outdoor activities, travel, or branding.",
+        "price": 1799,
+        "ratingCount": 280,
+        "category": "Custom Drinkware",
+        "img": "https://picsum.photos/300/300?random=52",
+        "customDesignOptions": [
+            "Laser-engraved logo",
+            "Various color choices",
+            "Custom text or initials",
+            "Eco-friendly packaging"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=52-1",
+            "https://picsum.photos/300/300?random=52-2",
+            "https://picsum.photos/300/300?random=52-3"
+        ]
+    },
+    {
+        "id": 53,
+        "title": "Custom Metal & Copper Bottle",
+        "shortDescription": "Premium copper and metal bottle with personalized touch.",
+        "longDescription": "Experience health benefits with a stylish, personalized copper or metal bottle. Ideal for daily use and gifting.",
+        "price": 1999,
+        "ratingCount": 340,
+        "category": "Custom Drinkware",
+        "img": "https://picsum.photos/300/300?random=53",
+        "customDesignOptions": [
+            "Embossed logo or name",
+            "Traditional or modern designs",
+            "Hammered or smooth finish",
+            "Custom box packaging"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=53-1",
+            "https://picsum.photos/300/300?random=53-2",
+            "https://picsum.photos/300/300?random=53-3"
+        ]
+    },
+    {
+        "id": 54,
+        "title": "Custom Tritan Sports Bottle",
+        "shortDescription": "Lightweight, durable sports bottle with customizable design.",
+        "longDescription": "Stay active and hydrated with a personalized Tritan sports bottle. Designed for athletes, travelers, and gym-goers.",
+        "price": 1299,
+        "ratingCount": 290,
+        "category": "Custom Drinkware",
+        "img": "https://picsum.photos/300/300?random=54",
+        "customDesignOptions": [
+            "Printed name or logo",
+            "Variety of color options",
+            "Custom grip and lid styles",
+            "BPA-free material"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=54-1",
+            "https://picsum.photos/300/300?random=54-2",
+            "https://picsum.photos/300/300?random=54-3"
+        ]
+    },
+    {
+        "id": 55,
+        "title": "Custom Travel Mugs",
+        "shortDescription": "Insulated travel mugs with personalized branding.",
+        "longDescription": "Take your coffee on the go with a stylish, customized travel mug. Perfect for daily commuters and coffee lovers.",
+        "price": 1599,
+        "ratingCount": 330,
+        "category": "Custom Drinkware",
+        "img": "https://picsum.photos/300/300?random=55",
+        "customDesignOptions": [
+            "Engraved name or quote",
+            "Custom printed logo",
+            "Choice of lid styles",
+            "Thermal insulation options"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=55-1",
+            "https://picsum.photos/300/300?random=55-2",
+            "https://picsum.photos/300/300?random=55-3"
+        ]
+    },
+    {
+        "id": 56,
+        "title": "Custom Eco Bamboo Mugs",
+        "shortDescription": "Sustainable bamboo mugs with custom personalization.",
+        "longDescription": "Drink sustainably with personalized bamboo mugs, a perfect eco-friendly alternative to plastic or ceramic cups.",
+        "price": 1399,
+        "ratingCount": 310,
+        "category": "Custom Drinkware",
+        "img": "https://picsum.photos/300/300?random=56",
+        "customDesignOptions": [
+            "Engraved eco-friendly logo",
+            "Custom text or initials",
+            "Handcrafted design options",
+            "Recyclable and reusable material"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=56-1",
+            "https://picsum.photos/300/300?random=56-2",
+            "https://picsum.photos/300/300?random=56-3"
+        ]
+    },
+    {
+        "id": 57,
+        "title": "Custom Globet",
+        "shortDescription": "Elegant Globet with personalized engraving.",
+        "longDescription": "Enjoy your favorite drinks in a beautifully designed custom Globet. Perfect for gifting or personal collection.",
+        "price": 2199,
+        "ratingCount": 350,
+        "category": "Custom Drinkware",
+        "img": "https://picsum.photos/300/300?random=57",
+        "customDesignOptions": [
+            "Engraved monograms",
+            "Gold or silver detailing",
+            "Custom shape and size",
+            "Luxury gift packaging"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=57-1",
+            "https://picsum.photos/300/300?random=57-2",
+            "https://picsum.photos/300/300?random=57-3"
+        ]
+    },
+    {
+        "id": 58,
+        "title": "Custom Desktop Gifts",
+        "shortDescription": "Personalized desktop accessories for office branding.",
+        "longDescription": "Enhance your workspace with premium custom desktop gifts, including organizers, clocks, and pen stands.",
+        "price": 2499,
+        "ratingCount": 280,
+        "category": "Promotional Gifts",
+        "img": "https://picsum.photos/300/300?random=58",
+        "customDesignOptions": [
+            "Engraved company logo",
+            "Custom name printing",
+            "Premium wood or metal finish",
+            "Custom gift packaging"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=58-1",
+            "https://picsum.photos/300/300?random=58-2",
+            "https://picsum.photos/300/300?random=58-3"
+        ]
+    },
+    {
+        "id": 59,
+        "title": "Custom Promotional Pens",
+        "shortDescription": "Branded pens for promotional and corporate gifting.",
+        "longDescription": "Market your brand with high-quality custom promotional pens. Ideal for events, offices, and giveaways.",
+        "price": 499,
+        "ratingCount": 350,
+        "category": "Promotional Gifts",
+        "img": "https://picsum.photos/300/300?random=59",
+        "customDesignOptions": [
+            "Printed company logo",
+            "Variety of ink colors",
+            "Eco-friendly material options",
+            "Custom grip and finish"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=59-1",
+            "https://picsum.photos/300/300?random=59-2",
+            "https://picsum.photos/300/300?random=59-3"
+        ]
+    },
+    {
+        "id": 60,
+        "title": "Custom Executive Metal Pen",
+        "shortDescription": "Luxurious metal pens with engraved branding.",
+        "longDescription": "A high-end executive metal pen with custom engraving, perfect for professionals and corporate gifting.",
+        "price": 1299,
+        "ratingCount": 320,
+        "category": "Promotional Gifts",
+        "img": "https://picsum.photos/300/300?random=60",
+        "customDesignOptions": [
+            "Engraved initials or logo",
+            "Gold or silver accents",
+            "Premium matte or glossy finish",
+            "Luxury gift box packaging"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=60-1",
+            "https://picsum.photos/300/300?random=60-2",
+            "https://picsum.photos/300/300?random=60-3"
+        ]
+    },
+    {
+        "id": 61,
+        "title": "Custom Business Card Holders",
+        "shortDescription": "Stylish business card holders with personalization.",
+        "longDescription": "Keep your business cards in a sleek, customized holder. Available in leather, metal, and eco-friendly materials.",
+        "price": 999,
+        "ratingCount": 290,
+        "category": "Promotional Gifts",
+        "img": "https://picsum.photos/300/300?random=61",
+        "customDesignOptions": [
+            "Laser-engraved name or logo",
+            "Metal, leather, or bamboo options",
+            "Compact and stylish designs",
+            "Customizable compartments"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=61-1",
+            "https://picsum.photos/300/300?random=61-2",
+            "https://picsum.photos/300/300?random=61-3"
+        ]
+    },
+    {
+        "id": 62,
+        "title": "Custom Lights",
+        "shortDescription": "Branded LED and desk lights with personalized engraving.",
+        "longDescription": "Illuminate your workspace with customized LED desk lights, night lamps, and branded lighting solutions.",
+        "price": 1799,
+        "ratingCount": 310,
+        "category": "Promotional Gifts",
+        "img": "https://picsum.photos/300/300?random=62",
+        "customDesignOptions": [
+            "Custom light engraving",
+            "Adjustable LED brightness",
+            "USB-powered options",
+            "Personalized shapes and colors"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=62-1",
+            "https://picsum.photos/300/300?random=62-2",
+            "https://picsum.photos/300/300?random=62-3"
+        ]
+    },
+    {
+        "id": 63,
+        "title": "Custom Utility Key Chains & Tool Kit",
+        "shortDescription": "Multi-purpose keychains and tool kits with custom branding.",
+        "longDescription": "A perfect combination of utility and branding, these customized keychains and mini toolkits are great for promotions.",
+        "price": 899,
+        "ratingCount": 280,
+        "category": "Promotional Gifts",
+        "img": "https://picsum.photos/300/300?random=63",
+        "customDesignOptions": [
+            "Laser-engraved company logo",
+            "Multi-tool keychain options",
+            "Durable stainless steel material",
+            "Compact and lightweight design"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=63-1",
+            "https://picsum.photos/300/300?random=63-2",
+            "https://picsum.photos/300/300?random=63-3"
+        ]
+    },
+    {
+        "id": 64,
+        "title": "Custom Mobile Accessories",
+        "shortDescription": "Personalized mobile accessories for corporate gifting.",
+        "longDescription": "From phone stands to wireless chargers, customize mobile accessories with your brand for stylish promotions.",
+        "price": 1599,
+        "ratingCount": 300,
+        "category": "Promotional Gifts",
+        "img": "https://picsum.photos/300/300?random=64",
+        "customDesignOptions": [
+            "Printed or engraved branding",
+            "Wireless charging options",
+            "Custom grip and stand designs",
+            "Compatible with all devices"
+        ],
+        "thumbnailImages": [
+            "https://picsum.photos/300/300?random=64-1",
+            "https://picsum.photos/300/300?random=64-2",
+            "https://picsum.photos/300/300?random=64-3"
         ]
     }
 ]

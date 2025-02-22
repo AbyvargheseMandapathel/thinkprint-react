@@ -8,6 +8,8 @@ import SignsPostersMarketing from "/src/assets/categories/Signs-Posters-Marketin
 import CustomCaps from "/src/assets/categories/Custom-Caps.png";
 import CustomDrinkware from "/src/assets/categories/Custom-Drinkware.png";
 import CustomBags from "/src/assets/categories/Custom-Bags.png";
+import electronics from "/src/assets/categories/ElectronicsAndAccessories.png";
+import promotional from "/src/assets/categories/Promotional-Gifts.png";
 
 export const categories = [
   { id: 1, name: "Visiting Cards", img: VisitingCards },
@@ -20,4 +22,6 @@ export const categories = [
   { id: 8, name: "Custom Caps", img: CustomCaps },
   { id: 9, name: "Custom Drinkware", img: CustomDrinkware },
   { id: 10, name: "Custom Bags", img: CustomBags },
+  { id: 11, name: "Electronics & Accessories", img: electronics },
+  { id: 11, name: "Promotional Gifts", img: promotional },
 ];
