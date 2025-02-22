@@ -65,6 +65,49 @@ import banner1 from '../assets/products/banners/banner1.png';
 import banner2 from '../assets/products/banners/banner2.png';
 import poster1 from '../assets/products/poster/poster1.png';
 import poster2 from '../assets/products/poster/poster2.png';
+import backpack1 from '../assets/products/backpack/backpack1.png';
+import backpack2 from '../assets/products/backpack/backpack2.png';
+import booklet1 from '../assets/products/booklet/booklets1.png';
+import booklet2 from '../assets/products/booklet/booklets2.png';
+import brouchure1 from '../assets/products/brouchure/brouchure1.png';
+import brouchure2 from '../assets/products/brouchure/brouchure2.png';
+import brouchure3 from '../assets/products/brouchure/brouchure3.png';
+import caps1 from '../assets/products/caps/caps1.png';
+import caps2 from '../assets/products/caps/caps2.png';
+import caps3 from '../assets/products/caps/caps3.png';
+import duffel1 from '../assets/products/duffel/duffel1.png';
+import duffel2 from '../assets/products/duffel/duffel2.png';
+import duffel3 from '../assets/products/duffel/duffel3.png';
+import luggage1 from '../assets/products/luggage/luggage1.png';
+import luggage2 from '../assets/products/luggage/luggage2.png';
+import luggage3 from '../assets/products/luggage/luggage3.png';
+import menshirt1 from '../assets/products/menshirt/menshirt1.png';
+import menshirt2 from '../assets/products/menshirt/menshirt2.png';
+import pouch1 from '../assets/products/pouch/pouch1.png';
+import pouch2 from '../assets/products/pouch/pouch2.png';
+import tote1 from '../assets/products/tote/tote1.png';
+import tote2 from '../assets/products/tote/tote2.png';
+import chargingcable1 from '../assets/products/chargingcable/chargingcables1.png';
+import chargingcable2 from '../assets/products/chargingcable/chargingcables2.png';
+import sweater1 from '../assets/products/sweater/sweater1.png';
+import sweater2 from '../assets/products/sweater/sweater2.png';
+import sweater3 from '../assets/products/sweater/sweater3.png';
+import hoodie1 from '../assets/products/hoodie/hoodie1.png';
+import hoodie2 from '../assets/products/hoodie/hoodie2.png';
+import hoodie3 from '../assets/products/hoodie/hoodie3.png';
+import hoodie4 from '../assets/products/hoodie/hoodie4.png';
+import headphone1 from '../assets/products/headphone/headphone1.png';
+import headphone2 from '../assets/products/headphone/headphone2.png';
+import lights1 from '../assets/products/lights/lights1.png';
+import lights2 from '../assets/products/lights/lights2.png';
+import speaker1 from '../assets/products/speaker/speaker1.png';
+import speaker2 from '../assets/products/speaker/speaker2.png';
+import traveladaptor1 from '../assets/products/traveladaptor/traveladaptors1.png';
+import usb1 from '../assets/products/usb/usb1.png';
+import usb2 from '../assets/products/usb/usb2.png';
+import womenshirt1 from '../assets/products/womenshirt/womenshirt1.png';
+import womenshirt2 from '../assets/products/womenshirt/womenshirt2.png';
+
 
 export const products = [
     {
@@ -595,7 +638,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Signs, Posters & Marketing Materials",
-        "img": "https://picsum.photos/300/300?random=30",
+        "img": brouchure1,
         "designSpecifications": [
             "Premium paper",
             "Various fold styles",
@@ -603,9 +646,7 @@ export const products = [
             "Custom branding."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=30-1",
-            "https://picsum.photos/300/300?random=30-2",
-            "https://picsum.photos/300/300?random=30-3"
+            brouchure2,brouchure3
         ]
     },
     {
@@ -616,7 +657,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Signs, Posters & Marketing Materials",
-        "img": "https://picsum.photos/300/300?random=31",
+        "img": booklet1,
         "designSpecifications": [
             "Saddle-stitched or perfect bound",
             "Custom sizes",
@@ -624,9 +665,7 @@ export const products = [
             "Matte or glossy finish."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=31-1",
-            "https://picsum.photos/300/300?random=31-2",
-            "https://picsum.photos/300/300?random=31-3"
+            booklet2
         ]
     },
     {
@@ -637,7 +676,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Caps",
-        "img": "https://picsum.photos/300/300?random=32",
+        "img": caps1,
         "designSpecifications": [
             "Adjustable strap",
             "Cotton/Polyester blend",
@@ -645,9 +684,7 @@ export const products = [
             "One-size-fits-most design."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=32-1",
-            "https://picsum.photos/300/300?random=32-2",
-            "https://picsum.photos/300/300?random=32-3"
+            caps2,caps3
         ]
     },
     {
@@ -658,7 +695,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Bags",
-        "img": "https://picsum.photos/300/300?random=33",
+        "img": duffel1,
         "designSpecifications": [
             "Large compartments",
             "adjustable straps",
@@ -666,9 +703,7 @@ export const products = [
             "water-resistant material options."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=33-1",
-            "https://picsum.photos/300/300?random=33-2",
-            "https://picsum.photos/300/300?random=33-3"
+            duffel2,duffel3
         ]
     },
     {
@@ -679,7 +714,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Bags",
-        "img": "https://picsum.photos/300/300?random=34",
+        "img": tote1,
         "designSpecifications": [
             "Sturdy handles",
             "spacious design",
@@ -687,9 +722,7 @@ export const products = [
             "eco-friendly materials."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=34-1",
-            "https://picsum.photos/300/300?random=34-2",
-            "https://picsum.photos/300/300?random=34-3"
+            tote2
         ]
     },
     {
@@ -700,7 +733,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Bags",
-        "img": "https://picsum.photos/300/300?random=35",
+        "img": pouch1,
         "designSpecifications": [
             "Zipper closure",
             "portable size",
@@ -708,30 +741,7 @@ export const products = [
             "customizable prints."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=35-1",
-            "https://picsum.photos/300/300?random=35-2",
-            "https://picsum.photos/300/300?random=35-3"
-        ]
-    },
-    {
-        "id": 36,
-        "title": "Laptop Bags",
-        "shortDescription": "Protective and stylish laptop carriers.",
-        "longDescription": "Designed for professionals and students, these laptop bags provide padded protection, multiple compartments, and a sleek design. Can be customized with logos or prints.",
-        "price": 399,
-        "ratingCount": 130,
-        "category": "Custom Bags",
-        "img": "https://picsum.photos/300/300?random=36",
-        "designSpecifications": [
-            "Padded laptop compartment",
-            "adjustable straps",
-            "water-resistant fabric",
-            "USB charging port (optional)."
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=36-1",
-            "https://picsum.photos/300/300?random=36-2",
-            "https://picsum.photos/300/300?random=36-3"
+            pouch2
         ]
     },
     {
@@ -742,7 +752,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Bags",
-        "img": "https://picsum.photos/300/300?random=37",
+        "img": luggage1,
         "designSpecifications": [
             "TSA lock",
             "expandable compartments",
@@ -750,9 +760,7 @@ export const products = [
             "retractable handle."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=37-1",
-            "https://picsum.photos/300/300?random=37-2",
-            "https://picsum.photos/300/300?random=37-3"
+            luggage2,luggage3
         ]
     },
     {
@@ -763,7 +771,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Bags",
-        "img": "https://picsum.photos/300/300?random=38",
+        "img": backpack1,
         "designSpecifications": [
             "Padded shoulder straps",
             "laptop compartment",
@@ -771,9 +779,7 @@ export const products = [
             "ergonomic back support."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=38-1",
-            "https://picsum.photos/300/300?random=38-2",
-            "https://picsum.photos/300/300?random=38-3"
+            backpack2
         ]
     },
     {
@@ -784,7 +790,7 @@ export const products = [
         "price": 1299,
         "ratingCount": 250,
         "category": "Personalized Clothing",
-        "img": "https://picsum.photos/300/300?random=1",
+        "img": menshirt1,
         "designSpecifications": [
             "100% Cotton",
             "Slim Fit",
@@ -792,9 +798,7 @@ export const products = [
             "Wrinkle Resistant"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=1-1",
-            "https://picsum.photos/300/300?random=1-2",
-            "https://picsum.photos/300/300?random=1-3"
+            menshirt2
         ]
     },
     {
@@ -805,7 +809,7 @@ export const products = [
         "price": 1499,
         "ratingCount": 180,
         "category": "Personalized Clothing",
-        "img": "https://picsum.photos/300/300?random=2",
+        "img": womenshirt1,
         "designSpecifications": [
             "Premium Polyester Blend",
             "Stretchable & Breathable Fabric",
@@ -813,9 +817,7 @@ export const products = [
             "Regular Fit"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=2-1",
-            "https://picsum.photos/300/300?random=2-2",
-            "https://picsum.photos/300/300?random=2-3"
+           womenshirt2
         ]
     },
     {
@@ -826,7 +828,7 @@ export const products = [
         "price": 1599,
         "ratingCount": 350,
         "category": "Personalized Clothing",
-        "img": "https://picsum.photos/300/300?random=5",
+        "img":hoodie1,
         "designSpecifications": [
             "Fleece-Lined for Warmth",
             "Adjustable Hood",
@@ -834,9 +836,7 @@ export const products = [
             "Durable Stitching"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=5-1",
-            "https://picsum.photos/300/300?random=5-2",
-            "https://picsum.photos/300/300?random=5-3"
+            hoodie2,hoodie3,hoodie4
         ]
     },
     {
@@ -847,7 +847,7 @@ export const products = [
         "price": 1899,
         "ratingCount": 270,
         "category": "Personalized Clothing",
-        "img": "https://picsum.photos/300/300?random=6",
+        "img": sweater1,
         "designSpecifications": [
             "Soft Wool Blend",
             "Ribbed Cuffs & Hem",
@@ -855,9 +855,7 @@ export const products = [
             "Easy to Layer"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=6-1",
-            "https://picsum.photos/300/300?random=6-2",
-            "https://picsum.photos/300/300?random=6-3"
+            sweater2,sweater3
         ]
     },
     {
@@ -868,7 +866,7 @@ export const products = [
         "price": 2999,
         "ratingCount": 350,
         "category": "Electronics & Accessories",
-        "img": "https://picsum.photos/300/300?random=45",
+        "img": speaker1,
         "customDesignOptions": [
             "Engraved logo customization",
             "Full-color branding",
@@ -876,9 +874,7 @@ export const products = [
             "Variety of casing colors"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=45-1",
-            "https://picsum.photos/300/300?random=45-2",
-            "https://picsum.photos/300/300?random=45-3"
+            speaker2
         ]
     },
     {
@@ -889,7 +885,7 @@ export const products = [
         "price": 3599,
         "ratingCount": 400,
         "category": "Electronics & Accessories",
-        "img": "https://picsum.photos/300/300?random=46",
+        "img": headphone1,
         "customDesignOptions": [
             "Engraved logo customization",
             "Full-color branding",
@@ -897,9 +893,7 @@ export const products = [
             "Choice of different ear pad colors"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=46-1",
-            "https://picsum.photos/300/300?random=46-2",
-            "https://picsum.photos/300/300?random=46-3"
+            headphone2
         ]
     },
     {
@@ -910,16 +904,14 @@ export const products = [
         "price": 1299,
         "ratingCount": 220,
         "category": "Electronics & Accessories",
-        "img": "https://picsum.photos/300/300?random=47",
+        "img": traveladaptor1,
         "customDesignOptions": [
             "Engraved branding",
             "Custom color options",
             "Personalized packaging"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=47-1",
-            "https://picsum.photos/300/300?random=47-2",
-            "https://picsum.photos/300/300?random=47-3"
+            
         ]
     },
     {
@@ -930,16 +922,14 @@ export const products = [
         "price": 1599,
         "ratingCount": 280,
         "category": "Electronics & Accessories",
-        "img": "https://picsum.photos/300/300?random=48",
+        "img": usb1,
         "customDesignOptions": [
             "Company logo engraving",
             "Custom color options",
             "Custom text printing"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=48-1",
-            "https://picsum.photos/300/300?random=48-2",
-            "https://picsum.photos/300/300?random=48-3"
+            usb2
         ]
     },
     {
@@ -950,36 +940,14 @@ export const products = [
         "price": 899,
         "ratingCount": 320,
         "category": "Electronics & Accessories",
-        "img": "https://picsum.photos/300/300?random=49",
+        "img": chargingcable1,
         "customDesignOptions": [
             "Printed brand name",
             "Multiple color options",
             "Custom packaging"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=49-1",
-            "https://picsum.photos/300/300?random=49-2",
-            "https://picsum.photos/300/300?random=49-3"
-        ]
-    },
-    {
-        "id": 48,
-        "title": "Custom Power Banks",
-        "shortDescription": "High-capacity power banks with personalized designs.",
-        "longDescription": "Keep your devices powered with custom-printed power banks, a perfect mix of utility and branding.",
-        "price": 2499,
-        "ratingCount": 450,
-        "category": "Electronics & Accessories",
-        "img": "https://picsum.photos/300/300?random=50",
-        "customDesignOptions": [
-            "Logo printing",
-            "Multiple color choices",
-            "Engraved personalization"
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=50-1",
-            "https://picsum.photos/300/300?random=50-2",
-            "https://picsum.photos/300/300?random=50-3"
+            chargingcable2
         ]
     },
     {
@@ -990,36 +958,14 @@ export const products = [
         "price": 1999,
         "ratingCount": 390,
         "category": "Electronics & Accessories",
-        "img": "https://picsum.photos/300/300?random=51",
+        "img": lights1,
         "customDesignOptions": [
             "Engraved names or logos",
             "Custom LED colors",
             "Adjustable brightness settings"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=51-1",
-            "https://picsum.photos/300/300?random=51-2",
-            "https://picsum.photos/300/300?random=51-3"
-        ]
-    },
-    {
-        "id": 50,
-        "title": "Custom Car Chargers",
-        "shortDescription": "Fast-charging car chargers with custom branding.",
-        "longDescription": "Charge your devices on the go with personalized car chargers, featuring your own text, logo, or brand design.",
-        "price": 1299,
-        "ratingCount": 310,
-        "category": "Electronics & Accessories",
-        "img": "https://picsum.photos/300/300?random=52",
-        "customDesignOptions": [
-            "Logo engraving",
-            "Custom text printing",
-            "Various color options"
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=52-1",
-            "https://picsum.photos/300/300?random=52-2",
-            "https://picsum.photos/300/300?random=52-3"
+            lights2
         ]
     },
     {
