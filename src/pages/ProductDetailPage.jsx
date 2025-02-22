@@ -96,9 +96,12 @@ const ProductDetailPage = () => {
                                 <li key={index}>{spec}</li>
                             ))}
                         </ul>
+                        <p className="text-sm italic text-gray-500 mt-2">
+                            Note: Images shown are for reference purposes only.
+                        </p>
                     </div>
                     {/* New Variants Section */}
-                    <div className="mt-4">
+                    {/* <div className="mt-4">
                         <h5 className="text-[var(--text-color-primary)] font-semibold">Variants</h5>
                         <div className="mt-2">
                             <a href={product.pdf} target="_blank" rel="noopener noreferrer" className="flex items-center">
@@ -106,7 +109,7 @@ const ProductDetailPage = () => {
                                 Download PDF
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                     {/* Keep Enquire Now button */}
                     <button
                         className="mt-4 bg-[var(--button-bg-color)] text-[var(--button-text-color)] px-6 py-3 rounded-lg hover:bg-[var(--button-bg-hover-color)] transition-colors"

@@ -2,7 +2,6 @@ import visitingcard1 from '../assets/products/visiting-cards/visitingcard-1.png'
 import visitingcard2 from '../assets/products/visiting-cards/visitingcard-2.png';
 import visitingcard3 from '../assets/products/visiting-cards/visitingcard-3.png';
 import visitingcard4 from '../assets/products/visiting-cards/visitingcard-4.png';
-import PRANAVRESUME2 from  '../assets/pdf/PRANAVRESUME2.pdf';
 import mentshirt1 from '../assets/products/tshirt-men/men-tshirt-1.png';
 import mentshirt2 from '../assets/products/tshirt-men/men-tshirt-2.png';
 import mentshirt3 from '../assets/products/tshirt-men/men-tshirt-3.png';
@@ -149,7 +148,6 @@ export const products = [
         "offer": "Min. 50% Off",
         "img": visitingcard1,
         "price": 250,
-        "pdf":PRANAVRESUME2,
         "ratingCount": 150,
         "bestDeal": true,
         "category": "Visiting Cards",
@@ -164,7 +162,6 @@ export const products = [
         "shortDescription": "Lightweight and comfortable custom T-shirts for men",
         "longDescription": "Design your own custom mens T-shirt, perfect for active wear and casual outings. Available in a variety of colors.",
         "price": 399,
-        "pdf":PRANAVRESUME2,
         "ratingCount": 150,
         "category": "Personalized Clothing",
         "img": mentshirt1,
