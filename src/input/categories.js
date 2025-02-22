@@ -23,5 +23,5 @@ export const categories = [
   { id: 9, name: "Custom Drinkware", img: CustomDrinkware },
   { id: 10, name: "Custom Bags", img: CustomBags },
   { id: 11, name: "Electronics & Accessories", img: electronics },
-  { id: 11, name: "Promotional Gifts", img: promotional },
+  { id: 12, name: "Promotional Gifts", img: promotional },
 ];
