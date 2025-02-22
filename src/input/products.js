@@ -46,6 +46,25 @@ import qrcode1 from '../assets/products/qrcode/qrcodestickers1.png';
 import qrcode2 from '../assets/products/qrcode/qrcodestickers2.png';
 import cricketbat1 from '../assets/products/cricketbat/cricketbat1.png';
 import cricketbat2 from '../assets/products/cricketbat/cricketbat2.png';
+import letterhead1 from '../assets/products/letterhead/letterhead1.png';
+import letterhead2 from '../assets/products/letterhead/letterhead2.png';
+import letterhead3 from '../assets/products/letterhead/letterhead3.png';
+import mousepad1 from '../assets/products/mousepad/mousepad1.png';
+import mousepad2 from '../assets/products/mousepad/mousepad2.png';
+import notebook1 from '../assets/products/notebook/notebook1.png';
+import notebook2 from '../assets/products/notebook/notebook2.png';
+import envelope1 from '../assets/products/envelope/envelope1.png';
+import envelope2 from '../assets/products/envelope/envelope2.png';
+import thankyou1 from '../assets/products/thankyou/thankyou1.png';
+import thankyou2 from '../assets/products/thankyou/thankyou2.png';
+import stationery1 from '../assets/products/stationery/stationery1.png';
+import stationery2 from '../assets/products/stationery/stationery2.png';
+import flyer1 from '../assets/products/flyers/flyers1.png';
+import flyer2 from '../assets/products/flyers/flyers2.png';
+import banner1 from '../assets/products/banners/banner1.png';
+import banner2 from '../assets/products/banners/banner2.png';
+import poster1 from '../assets/products/poster/poster1.png';
+import poster2 from '../assets/products/poster/poster2.png';
 
 export const products = [
     {
@@ -407,16 +426,14 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Stationery",
-        "img": "https://picsum.photos/300/300?random=21",
+        "img": letterhead1,
         "designSpecifications": [
             "High-quality paper (90-120 GSM),A4 size",
             "Single/Double-sided print",
             "Matte/Glossy finish."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=21-1",
-            "https://picsum.photos/300/300?random=21-2",
-            "https://picsum.photos/300/300?random=21-3"
+            letterhead2,letterhead3
         ]
     },
     {
@@ -427,7 +444,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Stationery",
-        "img": "https://picsum.photos/300/300?random=22",
+        "img": mousepad1,
         "designSpecifications": [
             "Rubber base",
             "Fabric top",
@@ -436,9 +453,7 @@ export const products = [
             "Full-color printing."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=22-1",
-            "https://picsum.photos/300/300?random=22-2",
-            "https://picsum.photos/300/300?random=22-3"
+            mousepad2
         ]
     },
     {
@@ -449,7 +464,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Stationery",
-        "img": "https://picsum.photos/300/300?random=23",
+        "img": notebook1,
         "designSpecifications": [
             "A5/B5/A4 sizes",
             "80-200 pages",
@@ -457,9 +472,7 @@ export const products = [
             "Spiral or Bound options."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=23-1",
-            "https://picsum.photos/300/300?random=23-2",
-            "https://picsum.photos/300/300?random=23-3"
+            notebook2
         ]
     },
     {
@@ -470,7 +483,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Stationery",
-        "img": "https://picsum.photos/300/300?random=24",
+        "img": envelope1,
         "designSpecifications": [
             "Paper (100-150 GSM)",
             "Standard & custom sizes",
@@ -478,9 +491,7 @@ export const products = [
             "Adhesive strip option."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=24-1",
-            "https://picsum.photos/300/300?random=24-2",
-            "https://picsum.photos/300/300?random=24-3"
+            envelope2
         ]
     },
     {
@@ -491,7 +502,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Stationery",
-        "img": "https://picsum.photos/300/300?random=25",
+        "img": thankyou1,
         "designSpecifications": [
             "Premium cardstock (250-350 GSM)",
             "Folded or Flat",
@@ -499,9 +510,7 @@ export const products = [
             "Custom sizes & envelopes."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=25-1",
-            "https://picsum.photos/300/300?random=25-2",
-            "https://picsum.photos/300/300?random=25-3"
+            thankyou2
         ]
     },
     {
@@ -512,7 +521,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Custom Stationery",
-        "img": "https://picsum.photos/300/300?random=26",
+        "img": stationery1,
         "designSpecifications": [
             "Customizable branding",
             "High-quality materials",
@@ -520,9 +529,7 @@ export const products = [
             "Packaging in a premium box."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=26-1",
-            "https://picsum.photos/300/300?random=26-2",
-            "https://picsum.photos/300/300?random=26-3"
+            stationery2
         ]
     },
     {
@@ -533,7 +540,7 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Signs, Posters & Marketing Materials",
-        "img": "https://picsum.photos/300/300?random=27",
+        "img": flyer1,
         "designSpecifications": [
             "Custom sizes",
             "Glossy/matte finish",
@@ -541,9 +548,7 @@ export const products = [
             "Vibrant color options."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=27-1",
-            "https://picsum.photos/300/300?random=27-2",
-            "https://picsum.photos/300/300?random=27-3"
+            flyer2
         ]
     },
     {
@@ -554,16 +559,14 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Signs, Posters & Marketing Materials",
-        "img": "https://picsum.photos/300/300?random=28",
+        "img": poster1,
         "designSpecifications": [
             "Available in A3,A2,A1 sizes",
             "High-resolution printing",
             "Tear-resistant material."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=28-1",
-            "https://picsum.photos/300/300?random=28-2",
-            "https://picsum.photos/300/300?random=28-3"
+            poster2
         ]
     },
     {
@@ -574,16 +577,14 @@ export const products = [
         "price": 399,
         "ratingCount": 130,
         "category": "Signs, Posters & Marketing Materials",
-        "img": "https://picsum.photos/300/300?random=29",
+        "img": banner1,
         "designSpecifications": [
             "Vinyl/Fabric options",
             "Grommets for easy hanging",
             "UV-resistant print."
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=29-1",
-            "https://picsum.photos/300/300?random=29-2",
-            "https://picsum.photos/300/300?random=29-3"
+            banner2
         ]
     },
     {
