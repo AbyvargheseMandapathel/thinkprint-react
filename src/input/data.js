@@ -357,7 +357,7 @@ export const banners = [
     { label: "About Us", href: "/about" }
   ];
 
-  export const announcementMessage = "🎉 Free Shipping on Orders Over $50.00";
+  export const announcementMessage = "🎉 Free Shipping on Bulk Orders";
 
   export const contactInfo = {
     phone: "+1 666 234 8888",
