@@ -1,15 +1,15 @@
-import VisitingCards from "/src/assets/categories/Visiting-Cards.png";
-import CustomTShirts from "/src/assets/categories/Custom-T-shirts.png";
-import CustomStampsInk from "/src/assets/categories/Custom-Stamps-And-Ink.png";
-import PhotoGifts from "/src/assets/categories/Photo-Gifts.png";
-import LabelsStickersPackaging from "/src/assets/categories/Labels-Stickers-Packaging.png";
-import CustomStationery from "/src/assets/categories/Custom-Stationery.png";
-import SignsPostersMarketing from "/src/assets/categories/Signs-Posters-Marketing-Materials.png";
-import CustomCaps from "/src/assets/categories/Custom-Caps.png";
-import CustomDrinkware from "/src/assets/categories/Custom-Drinkware.png";
-import CustomBags from "/src/assets/categories/Custom-Bags.png";
-import electronics from "/src/assets/categories/ElectronicsAndAccessories.png";
-import promotional from "/src/assets/categories/Promotional-Gifts.png";
+import VisitingCards from "/src/assets/categories/Visiting-Cards.webp";
+import CustomTShirts from "/src/assets/categories/Custom-T-shirts.webp";
+import CustomStampsInk from "/src/assets/categories/Custom-Stamps-And-Ink.webp";
+import PhotoGifts from "/src/assets/categories/Photo-Gifts.webp";
+import LabelsStickersPackaging from "/src/assets/categories/Labels-Stickers-Packaging.webp";
+import CustomStationery from "/src/assets/categories/Custom-Stationery.webp";
+import SignsPostersMarketing from "/src/assets/categories/Signs-Posters-Marketing-Materials.webp";
+import CustomCaps from "/src/assets/categories/Custom-Caps.webp";
+import CustomDrinkware from "/src/assets/categories/Custom-Drinkware.webp";
+import CustomBags from "/src/assets/categories/Custom-Bags.webp";
+import electronics from "/src/assets/categories/ElectronicsAndAccessories.webp";
+import promotional from "/src/assets/categories/Promotional-Gifts.webp";
 
 export const categories = [
   { id: 1, name: "Visiting Cards", img: VisitingCards },

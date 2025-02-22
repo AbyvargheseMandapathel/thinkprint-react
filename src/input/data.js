@@ -1,5 +1,5 @@
-import banner1 from '../assets/banner/banner1.png';
-import banner2 from '../assets/banner/banner2.png';
+import banner1 from '../assets/banner/banner1.webp';
+import banner2 from '../assets/banner/banner2.webp';
 
 export const banners = [
     {
