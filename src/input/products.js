@@ -107,6 +107,28 @@ import usb1 from '../assets/products/usb/usb1.png';
 import usb2 from '../assets/products/usb/usb2.png';
 import womenshirt1 from '../assets/products/womenshirt/womenshirt1.png';
 import womenshirt2 from '../assets/products/womenshirt/womenshirt2.png';
+import desktopset1 from '../assets/products/desktopset/desktopset1.png';
+import desktopset2 from '../assets/products/desktopset/desktopset2.png';
+import desktopset3 from '../assets/products/desktopset/desktopset3.png';
+import flask1 from '../assets/products/flask/flask1.png';
+import flask2 from '../assets/products/flask/flask2.png';
+import keychain1 from '../assets/products/keychain/keychain1.png';
+import keychain2 from '../assets/products/keychain/keychain2.png';
+import mobileaccessories1 from '../assets/products/mobileaccessories/mobileacc1.png';
+import mobileaccessories2 from '../assets/products/mobileaccessories/mobileacc2.png';
+import pens1 from '../assets/products/pens/pens1.png';
+import pens2 from '../assets/products/pens/pens2.png';
+import pens3 from '../assets/products/pens/pens3.png';
+import pens4 from '../assets/products/pens/pens4.png';
+import sportsbottle1 from '../assets/products/sportsbottle/sportsbottle1.png';
+import sportsbottle2 from '../assets/products/sportsbottle/sportsbottle2.png';
+import stainless1 from '../assets/products/stainless/stainless1.png';
+import stainless2 from '../assets/products/stainless/stainless2.png';
+import businesscard1 from '../assets/products/businesscard/businesscard1.png';
+import businesscard2 from '../assets/products/businesscard/businesscard2.png';
+
+
+
 
 
 export const products = [
@@ -976,7 +998,7 @@ export const products = [
         "price": 1499,
         "ratingCount": 320,
         "category": "Custom Drinkware",
-        "img": "https://picsum.photos/300/300?random=51",
+        "img": flask1,
         "customDesignOptions": [
             "Engraved name or logo",
             "Full-color print design",
@@ -984,9 +1006,7 @@ export const products = [
             "Custom packaging"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=51-1",
-            "https://picsum.photos/300/300?random=51-2",
-            "https://picsum.photos/300/300?random=51-3"
+            flask2
         ]
     },
     {
@@ -997,7 +1017,7 @@ export const products = [
         "price": 1799,
         "ratingCount": 280,
         "category": "Custom Drinkware",
-        "img": "https://picsum.photos/300/300?random=52",
+        "img": stainless1,
         "customDesignOptions": [
             "Laser-engraved logo",
             "Various color choices",
@@ -1005,30 +1025,7 @@ export const products = [
             "Eco-friendly packaging"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=52-1",
-            "https://picsum.photos/300/300?random=52-2",
-            "https://picsum.photos/300/300?random=52-3"
-        ]
-    },
-    {
-        "id": 53,
-        "title": "Custom Metal & Copper Bottle",
-        "shortDescription": "Premium copper and metal bottle with personalized touch.",
-        "longDescription": "Experience health benefits with a stylish, personalized copper or metal bottle. Ideal for daily use and gifting.",
-        "price": 1999,
-        "ratingCount": 340,
-        "category": "Custom Drinkware",
-        "img": "https://picsum.photos/300/300?random=53",
-        "customDesignOptions": [
-            "Embossed logo or name",
-            "Traditional or modern designs",
-            "Hammered or smooth finish",
-            "Custom box packaging"
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=53-1",
-            "https://picsum.photos/300/300?random=53-2",
-            "https://picsum.photos/300/300?random=53-3"
+            stainless2
         ]
     },
     {
@@ -1039,7 +1036,7 @@ export const products = [
         "price": 1299,
         "ratingCount": 290,
         "category": "Custom Drinkware",
-        "img": "https://picsum.photos/300/300?random=54",
+        "img": sportsbottle1,
         "customDesignOptions": [
             "Printed name or logo",
             "Variety of color options",
@@ -1047,20 +1044,18 @@ export const products = [
             "BPA-free material"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=54-1",
-            "https://picsum.photos/300/300?random=54-2",
-            "https://picsum.photos/300/300?random=54-3"
+            sportsbottle2
         ]
     },
     {
         "id": 55,
-        "title": "Custom Travel Mugs",
-        "shortDescription": "Insulated travel mugs with personalized branding.",
-        "longDescription": "Take your coffee on the go with a stylish, customized travel mug. Perfect for daily commuters and coffee lovers.",
+        "title": "Custom  Mugs",
+        "shortDescription": "Insulated  mugs with personalized branding.",
+        "longDescription": "Take your coffee on the go with a stylish, customized  mug. Perfect for daily commuters and coffee lovers.",
         "price": 1599,
         "ratingCount": 330,
         "category": "Custom Drinkware",
-        "img": "https://picsum.photos/300/300?random=55",
+        "img": mugs1,
         "customDesignOptions": [
             "Engraved name or quote",
             "Custom printed logo",
@@ -1068,51 +1063,7 @@ export const products = [
             "Thermal insulation options"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=55-1",
-            "https://picsum.photos/300/300?random=55-2",
-            "https://picsum.photos/300/300?random=55-3"
-        ]
-    },
-    {
-        "id": 56,
-        "title": "Custom Eco Bamboo Mugs",
-        "shortDescription": "Sustainable bamboo mugs with custom personalization.",
-        "longDescription": "Drink sustainably with personalized bamboo mugs, a perfect eco-friendly alternative to plastic or ceramic cups.",
-        "price": 1399,
-        "ratingCount": 310,
-        "category": "Custom Drinkware",
-        "img": "https://picsum.photos/300/300?random=56",
-        "customDesignOptions": [
-            "Engraved eco-friendly logo",
-            "Custom text or initials",
-            "Handcrafted design options",
-            "Recyclable and reusable material"
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=56-1",
-            "https://picsum.photos/300/300?random=56-2",
-            "https://picsum.photos/300/300?random=56-3"
-        ]
-    },
-    {
-        "id": 57,
-        "title": "Custom Globet",
-        "shortDescription": "Elegant Globet with personalized engraving.",
-        "longDescription": "Enjoy your favorite drinks in a beautifully designed custom Globet. Perfect for gifting or personal collection.",
-        "price": 2199,
-        "ratingCount": 350,
-        "category": "Custom Drinkware",
-        "img": "https://picsum.photos/300/300?random=57",
-        "customDesignOptions": [
-            "Engraved monograms",
-            "Gold or silver detailing",
-            "Custom shape and size",
-            "Luxury gift packaging"
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=57-1",
-            "https://picsum.photos/300/300?random=57-2",
-            "https://picsum.photos/300/300?random=57-3"
+            mugs2
         ]
     },
     {
@@ -1123,7 +1074,7 @@ export const products = [
         "price": 2499,
         "ratingCount": 280,
         "category": "Promotional Gifts",
-        "img": "https://picsum.photos/300/300?random=58",
+        "img": desktopset1,
         "customDesignOptions": [
             "Engraved company logo",
             "Custom name printing",
@@ -1131,9 +1082,7 @@ export const products = [
             "Custom gift packaging"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=58-1",
-            "https://picsum.photos/300/300?random=58-2",
-            "https://picsum.photos/300/300?random=58-3"
+            desktopset2,desktopset3
         ]
     },
     {
@@ -1144,7 +1093,7 @@ export const products = [
         "price": 499,
         "ratingCount": 350,
         "category": "Promotional Gifts",
-        "img": "https://picsum.photos/300/300?random=59",
+        "img": pens1,
         "customDesignOptions": [
             "Printed company logo",
             "Variety of ink colors",
@@ -1152,30 +1101,7 @@ export const products = [
             "Custom grip and finish"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=59-1",
-            "https://picsum.photos/300/300?random=59-2",
-            "https://picsum.photos/300/300?random=59-3"
-        ]
-    },
-    {
-        "id": 60,
-        "title": "Custom Executive Metal Pen",
-        "shortDescription": "Luxurious metal pens with engraved branding.",
-        "longDescription": "A high-end executive metal pen with custom engraving, perfect for professionals and corporate gifting.",
-        "price": 1299,
-        "ratingCount": 320,
-        "category": "Promotional Gifts",
-        "img": "https://picsum.photos/300/300?random=60",
-        "customDesignOptions": [
-            "Engraved initials or logo",
-            "Gold or silver accents",
-            "Premium matte or glossy finish",
-            "Luxury gift box packaging"
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=60-1",
-            "https://picsum.photos/300/300?random=60-2",
-            "https://picsum.photos/300/300?random=60-3"
+            pens2,pens3,pens4
         ]
     },
     {
@@ -1186,7 +1112,7 @@ export const products = [
         "price": 999,
         "ratingCount": 290,
         "category": "Promotional Gifts",
-        "img": "https://picsum.photos/300/300?random=61",
+        "img": businesscard1,
         "customDesignOptions": [
             "Laser-engraved name or logo",
             "Metal, leather, or bamboo options",
@@ -1194,30 +1120,7 @@ export const products = [
             "Customizable compartments"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=61-1",
-            "https://picsum.photos/300/300?random=61-2",
-            "https://picsum.photos/300/300?random=61-3"
-        ]
-    },
-    {
-        "id": 62,
-        "title": "Custom Lights",
-        "shortDescription": "Branded LED and desk lights with personalized engraving.",
-        "longDescription": "Illuminate your workspace with customized LED desk lights, night lamps, and branded lighting solutions.",
-        "price": 1799,
-        "ratingCount": 310,
-        "category": "Promotional Gifts",
-        "img": "https://picsum.photos/300/300?random=62",
-        "customDesignOptions": [
-            "Custom light engraving",
-            "Adjustable LED brightness",
-            "USB-powered options",
-            "Personalized shapes and colors"
-        ],
-        "thumbnailImages": [
-            "https://picsum.photos/300/300?random=62-1",
-            "https://picsum.photos/300/300?random=62-2",
-            "https://picsum.photos/300/300?random=62-3"
+            businesscard2
         ]
     },
     {
@@ -1228,7 +1131,7 @@ export const products = [
         "price": 899,
         "ratingCount": 280,
         "category": "Promotional Gifts",
-        "img": "https://picsum.photos/300/300?random=63",
+        "img": keychain1,
         "customDesignOptions": [
             "Laser-engraved company logo",
             "Multi-tool keychain options",
@@ -1236,9 +1139,7 @@ export const products = [
             "Compact and lightweight design"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=63-1",
-            "https://picsum.photos/300/300?random=63-2",
-            "https://picsum.photos/300/300?random=63-3"
+            keychain2
         ]
     },
     {
@@ -1249,7 +1150,7 @@ export const products = [
         "price": 1599,
         "ratingCount": 300,
         "category": "Promotional Gifts",
-        "img": "https://picsum.photos/300/300?random=64",
+        "img": mobileaccessories1,
         "customDesignOptions": [
             "Printed or engraved branding",
             "Wireless charging options",
@@ -1257,9 +1158,7 @@ export const products = [
             "Compatible with all devices"
         ],
         "thumbnailImages": [
-            "https://picsum.photos/300/300?random=64-1",
-            "https://picsum.photos/300/300?random=64-2",
-            "https://picsum.photos/300/300?random=64-3"
+            mobileaccessories2
         ]
     }
 ]
