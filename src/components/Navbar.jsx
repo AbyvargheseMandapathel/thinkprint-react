@@ -65,6 +65,7 @@ const Navbar = () => {
               />
               <button
                 onClick={toggleSearchBox}
+                aria-label="Toggle Search Box"
                 className="absolute right-0 text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)]"
               >
                 <svg

@@ -50,6 +50,7 @@ const ProductSection2 = ({ title, products }) => {
                 <div className="flex space-x-4">
                     <button
                         onClick={previous}
+                        aria-label="Previous Item"
                         className="bg-gray-900 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 transition-all"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -58,6 +59,7 @@ const ProductSection2 = ({ title, products }) => {
                     </button>
                     <button
                         onClick={next}
+                        aria-label="Next Item"
                         className="bg-gray-900 text-white p-2 rounded-full shadow-lg hover:bg-gray-700 transition-all"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
