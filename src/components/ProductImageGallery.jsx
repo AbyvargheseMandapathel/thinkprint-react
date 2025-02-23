@@ -31,7 +31,7 @@ const ProductImageGallery = ({ product }) => {
                             src={image}
                             alt={`Thumbnail ${index}`}
                             className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110"
-                            loading={index < 3 ? "eager" : "lazy"}
+                            loading={index < 1 ? "eager" : "lazy"}
                             fetchpriority={index === 0 ? "high" : "auto"}
                             decoding="async"
                             width={400}  // Set actual rendered width
