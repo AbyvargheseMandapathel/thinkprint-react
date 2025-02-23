@@ -65,7 +65,7 @@ const ProductListing = ({ products, title }) => {
                 className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105"
               />
               {product.bestDeal && (
-                <div className="absolute top-2 right-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                <div className="absolute top-2 right-2 bg-blue-700 text-white px-2 py-1 rounded-full text-xs font-semibold">
                   BEST DEALS
                 </div>
               )}
