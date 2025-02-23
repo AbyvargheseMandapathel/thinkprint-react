@@ -69,42 +69,52 @@ const ProductSection2 = ({ title, products }) => {
                 </div>
             </div>
 
-            {/* Slider */}
             <Slider ref={setSliderRef} {...settings}>
-                {products.map((product, index) => (
-                    <div key={index} className="px-2">
-                        <Link
-                            to={`/product/${product.id}`}
-                            className="block hover:shadow-xl transition-transform duration-300 hover:scale-105"
-                        >
-                            <div className="overflow-hidden p-4 flex flex-col h-full">
-                                {/* Product Image */}
-                                <div className="relative mb-3 overflow-hidden rounded-lg">
-                                    <img
-                                        src={product.img}
-                                        alt={product.title}
-                                        className="w-full h-72 object-cover transition-transform duration-300 hover:scale-110"
-                                        onError={(e) => {
-                                            e.target.onerror = null;
-                                            e.target.src = 'https://via.placeholder.com/300'; 
-                                        }}
-                                    />
-                                    {product.offer && (
-                                        <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
-                                            {product.offer}
-                                        </div>
-                                    )}
-                                </div>
+                {products.map((product, index) => {
+                    const isHidden = index < 0; // Check if slide is hidden (adjust logic as needed)
 
-                                {/* Product Details */}
-                                <div className="flex flex-col flex-grow">
-                                    <h3 className="text-lg font-bold text-gray-800 mb-1">{product.title}</h3>
-                                    <p className="text-sm text-gray-500 truncate">{product.shortDescription}</p>
+                    return (
+                        <div
+                            key={index}
+                            className="px-2"
+                            aria-hidden={isHidden} // Only apply when necessary
+                            tabIndex={isHidden ? -1 : 0} // Prevent focus on hidden elements
+                        >
+                            <Link
+                                to={`/product/${product.id}`}
+                                className="block hover:shadow-xl transition-transform duration-300 hover:scale-105"
+                                aria-hidden={isHidden ? "true" : "false"} // Allow assistive tech to access visible slides
+                                tabIndex={isHidden ? -1 : 0} // Remove focus from hidden elements
+                            >
+                                <div className="overflow-hidden p-4 flex flex-col h-full">
+                                    {/* Product Image */}
+                                    <div className="relative mb-3 overflow-hidden rounded-lg">
+                                        <img
+                                            src={product.img}
+                                            alt={product.title}
+                                            className="w-full h-72 object-cover transition-transform duration-300 hover:scale-110"
+                                            onError={(e) => {
+                                                e.target.onerror = null;
+                                                e.target.src = 'https://via.placeholder.com/300'; 
+                                            }}
+                                        />
+                                        {product.offer && (
+                                            <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                                {product.offer}
+                                            </div>
+                                        )}
+                                    </div>
+
+                                    {/* Product Details */}
+                                    <div className="flex flex-col flex-grow">
+                                        <h3 className="text-lg font-bold text-gray-800 mb-1">{product.title}</h3>
+                                        <p className="text-sm text-gray-500 truncate">{product.shortDescription}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </Link>
-                    </div>
-                ))}
+                            </Link>
+                        </div>
+                    );
+                })}
             </Slider>
         </div>
     );
