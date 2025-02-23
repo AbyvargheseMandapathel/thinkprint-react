@@ -22,11 +22,31 @@ const ProductImageGallery = ({ product }) => {
                         }`}
                         onClick={() => handleThumbnailClick(image)}
                     >
+                        {/* <img
+                            src={image}
+                            alt={`Thumbnail ${index}`}
+                            className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110"
+                        /> */}
                         <img
                             src={image}
                             alt={`Thumbnail ${index}`}
                             className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110"
-                        />
+                            loading={index < 3 ? "eager" : "lazy"}
+                            fetchpriority={index === 0 ? "high" : "auto"}
+                            decoding="async"
+                            width={400}  // Set actual rendered width
+                            height={300} // Set actual rendered height
+                            srcSet={`
+                                ${image}?w=400&h=300&q=80&fm=webp 400w,
+                                ${image}?w=800&h=600&q=70&fm=webp 800w,
+                                ${image}?w=1200&h=900&q=60&fm=webp 1200w
+                            `}
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
+                            style={{
+                                background: "linear-gradient(45deg, #f0f0f0 25%, #ffffff 50%, #f0f0f0 75%)",
+                                contentVisibility: "auto"
+                            }}
+                            />
                     </div>
                 ))}
             </div>

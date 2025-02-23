@@ -360,7 +360,7 @@ export const banners = [
   export const announcementMessage = "🎉 Free Shipping on Bulk Orders";
 
   export const contactInfo = {
-    phone: "+1 666 234 8888",
+    phone: "+91 99538 63364",
     email: "sales@thinkprint.shop",
     address: "2163 Phillips Gap Rd, West Jefferson, North Carolina, United States",
     openTime: [
