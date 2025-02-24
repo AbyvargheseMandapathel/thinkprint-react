@@ -362,7 +362,7 @@ export const banners = [
   export const contactInfo = {
     phone: "+91 99538 63364",
     email: "sales@thinkprint.shop",
-    address: "2163 Phillips Gap Rd, West Jefferson, North Carolina, United States",
+    address: "Jammu and Kashmir,India",
     openTime: [
         { day: "Mon - Sat", time: "7:30am - 8:00pm PST" },
         { day: "Sunday", time: "9:00am - 5:00pm PST" },
