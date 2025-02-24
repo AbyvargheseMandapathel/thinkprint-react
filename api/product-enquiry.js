@@ -43,7 +43,7 @@ export default async function handler(req, res) {
     // Setup email data
     let mailOptions = {
         from: 'sales@thinkprint.shop',
-      to: 'edxfr3q@gmail.com', // Replace with your email
+        to: ['edxfr3q@gmail.com', 'sales@thinkprint.shop'], // Replace with your email
       subject: `New Product Enquiry for ${product}`,
       text: `Name: ${name}\nEmail: ${email}\nPhone: ${phoneNumber}\nMessage: ${message}\nProduct: ${product}`,
     };
