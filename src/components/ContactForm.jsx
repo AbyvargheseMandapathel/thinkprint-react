@@ -1,15 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
 
 const ContactForm = ({ isOpen, onClose, productName }) => {
     const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        phoneNumber: '',
-        message: '',
+        name: "",
+        email: "",
+        phoneNumber: "",
+        message: "",
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSuccess, setIsSuccess] = useState(false);
     const [error, setError] = useState(null);
+
+    // Reset form when modal opens
+    useEffect(() => {
+        if (isOpen) {
+            setFormData({
+                name: "",
+                email: "",
+                phoneNumber: "",
+                message: "",
+            });
+            setIsSubmitting(false);
+            setIsSuccess(false);
+            setError(null);
+        }
+    }, [isOpen]);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -23,7 +38,7 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
         e.preventDefault();
         setIsSubmitting(true);
         setError(null);
-
+    
         try {
             const response = await fetch('/api/product-enquiry', {
                 method: 'POST',
@@ -35,16 +50,19 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
                     product: productName,
                 }),
             });
-
+    
             if (response.ok) {
                 setIsSuccess(true);
                 setTimeout(() => {
                     setIsSuccess(false);
                     onClose();
+                    setFormData({ name: '', email: '', phoneNumber: '', message: '' });
+                    setIsSubmitting(false);
                 }, 3000);
             } else {
-                const result = await response.json();
-                setError(result.error || 'Failed to submit enquiry.');
+                const text = await response.text();
+                const result = text ? JSON.parse(text) : { error: 'Failed to submit enquiry.' }; // ✅ Handle empty response safely
+                setError(result.error);
                 setIsSubmitting(false);
             }
         } catch (error) {
@@ -53,9 +71,14 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
             setIsSubmitting(false);
         }
     };
+    
 
     return (
-        <div className={`fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 ${isOpen ? 'block' : 'hidden'}`}>
+        <div
+            className={`fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 ${
+                isOpen ? "block" : "hidden"
+            }`}
+        >
             <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md relative">
                 {!isSubmitting && !isSuccess && (
                     <button
@@ -81,11 +104,18 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
 
                 {!isSubmitting && !isSuccess && (
                     <form onSubmit={handleSubmit}>
-                        <h2 className="text-2xl font-bold text-gray-800 mb-4">Enquire Now</h2>
+                        <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                            Enquire Now
+                        </h2>
 
                         {/* Name */}
                         <div className="mb-4">
-                            <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Name:</label>
+                            <label
+                                htmlFor="name"
+                                className="block text-gray-700 font-medium mb-2"
+                            >
+                                Name:
+                            </label>
                             <input
                                 type="text"
                                 id="name"
@@ -99,7 +129,12 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
 
                         {/* Phone Number */}
                         <div className="mb-4">
-                            <label htmlFor="phoneNumber" className="block text-gray-700 font-medium mb-2">Phone Number:</label>
+                            <label
+                                htmlFor="phoneNumber"
+                                className="block text-gray-700 font-medium mb-2"
+                            >
+                                Phone Number:
+                            </label>
                             <input
                                 type="tel"
                                 id="phoneNumber"
@@ -113,7 +148,12 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
 
                         {/* Email */}
                         <div className="mb-4">
-                            <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email:</label>
+                            <label
+                                htmlFor="email"
+                                className="block text-gray-700 font-medium mb-2"
+                            >
+                                Email:
+                            </label>
                             <input
                                 type="email"
                                 id="email"
@@ -127,7 +167,12 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
 
                         {/* Message */}
                         <div className="mb-4">
-                            <label htmlFor="message" className="block text-gray-700 font-medium mb-2">Message:</label>
+                            <label
+                                htmlFor="message"
+                                className="block text-gray-700 font-medium mb-2"
+                            >
+                                Message:
+                            </label>
                             <textarea
                                 id="message"
                                 name="message"
@@ -157,12 +202,24 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
                 {isSuccess && (
                     <div className="flex flex-col items-center justify-center">
                         {/* ✅ Animated Tick */}
-                        <svg className="h-16 w-16 text-green-500 animate-scale-in" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                        <svg
+                            className="h-16 w-16 text-green-500 animate-scale-in"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M5 13l4 4L19 7"
+                            />
                         </svg>
 
                         <p className="mt-4 text-gray-700">Form Submitted!</p>
-                        <p className="text-gray-600">You will be contacted by an executive very shortly.</p>
+                        <p className="text-gray-600">
+                            You will be contacted by an executive very shortly.
+                        </p>
                     </div>
                 )}
 
