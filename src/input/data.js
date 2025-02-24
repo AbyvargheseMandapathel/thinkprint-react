@@ -364,8 +364,8 @@ export const banners = [
     email: "sales@thinkprint.shop",
     address: "Jammu and Kashmir,India",
     openTime: [
-        { day: "Mon - Sat", time: "7:30am - 8:00pm PST" },
-        { day: "Sunday", time: "9:00am - 5:00pm PST" },
+        { day: "Mon - Sat", time: "7:30am - 8:00pm IST" },
+        { day: "Sunday", time: "9:00am - 5:00pm IST" },
     ],
 };
 
