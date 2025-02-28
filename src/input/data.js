@@ -1,5 +1,36 @@
 import banner1 from '../assets/banner/banner1.webp';
 import banner2 from '../assets/banner/banner2.webp';
+import herobanner1 from '../assets/herobanner/herobanner1.webp';
+import herobanner2 from '../assets/herobanner/herobanner2.webp';
+import herobanner3 from '../assets/herobanner/herobanner3.webp';
+
+
+// data.js
+export const heroBanner = [
+  {
+    id: 1,
+    image: herobanner1,
+    title: 'Electronics',
+    description: 'Explore our latest tech gadgets and accessories.',
+    buttonText: 'Shop Now',
+    link: '/category/Visiting%20Cards'
+  },
+  {
+    id: 2,
+    image: herobanner2,
+    title: 'Fashion',
+    description: 'Discover the latest fashion trends.',
+    buttonText: 'Shop Now',
+    link: '/category/Visiting%20Cards'
+  },
+  {
+    id: 3,
+    image: herobanner3,
+    title: 'Home & Kitchen',
+    description: 'Find everything for your home and kitchen.',
+    buttonText: 'Shop Now',
+    link: '/category/Visiting%20Cards'},
+];
 
 export const banners = [
     {

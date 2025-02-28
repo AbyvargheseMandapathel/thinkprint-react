@@ -48,7 +48,7 @@ const Navbar = () => {
             { name: "Contact Us", link: "/contact" },
             { name: "Categories", link: "#", isDropdown: true },
           ].map((item) => (
-            <div key={item.name} onClick={() => item.isDropdown && toggleDropdown()}>
+            <div key={item.name} onMouseEnter={() => item.isDropdown && toggleDropdown()}>
               {item.isDropdown ? (
                 <button
                   className="text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)] transition-colors"
