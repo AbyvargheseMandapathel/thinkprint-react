@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import { categories } from '../input/categories';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const navigate = useNavigate();
 
   const toggleMobileMenu = () => {
@@ -27,6 +29,10 @@ const Navbar = () => {
     setIsSearchOpen((prevState) => !prevState);
   };
 
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
   return (
     <header className="sticky top-0 bg-[var(--navbar-background-color)] backdrop-blur-sm z-50 shadow-sm">
       <nav className="container mx-auto px-4 py-4 max-w-7xl flex items-center justify-between">
@@ -40,14 +46,45 @@ const Navbar = () => {
             { name: "Products", link: "/products" },
             { name: "About", link: "/about" },
             { name: "Contact Us", link: "/contact" },
+            { name: "Categories", link: "#", isDropdown: true },
           ].map((item) => (
-            <a
-              key={item.name}
-              href={item.link}
-              className="text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)] transition-colors"
-            >
-              {item.name}
-            </a>
+            <div key={item.name} onClick={() => item.isDropdown && toggleDropdown()}>
+              {item.isDropdown ? (
+                <button
+                  className="text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)] transition-colors"
+                >
+                  {item.name}
+                </button>
+              ) : (
+                <Link
+                  to={item.link}
+                  className="text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)] transition-colors"
+                >
+                  {item.name}
+                </Link>
+              )}
+              {item.isDropdown && isDropdownOpen && (
+                <div className="absolute left-0 right-0 bg-white shadow-lg rounded-lg p-4 mt-2 mx-auto max-w-7xl">
+                  <div className="flex flex-wrap gap-8 justify-start">
+                    {categories.map((category) => (
+                      <Link
+                        key={category.id}
+                        to={`/category/${encodeURIComponent(category.name)}`}
+                        className="flex flex-col items-center min-w-[120px]"
+                        onClick={() => setIsDropdownOpen(false)}
+                      >
+                        <img 
+                          src={category.img} 
+                          alt={category.name} 
+                          className="w-20 h-20 mb-2 object-cover"
+                        />
+                        <span className="text-sm text-center">{category.name}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
           ))}
         </div>
 
@@ -131,13 +168,13 @@ const Navbar = () => {
               { name: "About", link: "/about" },
               { name: "Contact Us", link: "/contact" },
             ].map((item) => (
-              <a
+              <Link
                 key={item.name}
-                href={item.link}
+                to={item.link}
                 className="block text-[var(--navbar-mobile-menu-text-color)] hover:text-[var(--navbar-mobile-menu-hover-color)] mb-2"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
         )}
