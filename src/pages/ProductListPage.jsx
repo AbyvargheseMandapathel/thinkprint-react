@@ -1,103 +1,127 @@
-import React, { useState, useMemo } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import React, { useState, useMemo, useEffect } from "react";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
 import FilterComponent from "../components/FilterComponent";
 import MobileFilterButton from "../components/MobileFilterButton";
 import ProductLayout from "../components/ProductLayout";
 import "../index.css";
 
-const ProductListPage = ({ products: allProducts = [], breadcrumbs = [] }) => {
-  const { categoryName } = useParams(); // ✅ Get category from URL params
+const ProductListPage = ({ products: allProducts = [] }) => {
+  const { categoryName } = useParams();
   const location = useLocation();
+  const navigate = useNavigate();
   const searchParams = new URLSearchParams(location.search);
-  const query = searchParams.get("query") || ""; // ✅ Get search query from URL
+  const query = searchParams.get("query") || "";
 
   const [filtersVisible, setFiltersVisible] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [selectedCategory, setSelectedCategory] = useState(categoryName || "All");
   const [priceRange, setPriceRange] = useState([0, 5000]);
+  const [selectedCategory, setSelectedCategory] = useState(
+    categoryName ? decodeURIComponent(categoryName) : "All"
+  );
+
+  // Update category state when URL changes
+  useEffect(() => {
+    setSelectedCategory(categoryName ? decodeURIComponent(categoryName) : "All");
+  }, [categoryName]);
+
+  // Reset pagination when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedCategory, query, priceRange]);
 
   // Memoized Filtering Logic
   const filteredProducts = useMemo(() => {
     let filtered = allProducts;
 
-    // If searching, filter by search query
+    // Filter by category first
+    if (selectedCategory !== "All") {
+      filtered = filtered.filter(
+        (product) => product.category.toLowerCase() === selectedCategory.toLowerCase()
+      );
+    }
+
+    // Then filter by search query
     if (query) {
       filtered = filtered.filter((product) =>
         product.title.toLowerCase().includes(query.toLowerCase())
       );
     }
 
-    // Filter by category
-    if (!query && selectedCategory !== "All") {
-      filtered = filtered.filter((product) => product.category === selectedCategory);
-    }
-
-    // Filter by price range
-    filtered = filtered.filter(
+    // Finally filter by price range
+    return filtered.filter(
       (product) => product.price >= priceRange[0] && product.price <= priceRange[1]
     );
-
-    return filtered;
-  }, [allProducts, selectedCategory, priceRange, query]);
+  }, [allProducts, selectedCategory, query, priceRange]);
 
   // Pagination Logic
   const itemsPerPage = 9;
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
+
   const paginatedProducts = useMemo(() => {
     return filteredProducts.slice(startIndex, endIndex);
   }, [filteredProducts, currentPage]);
 
-  // Handle Filtering Logic
+  // Handle Filter Changes
   const handleFilter = (category, range) => {
-    setSelectedCategory(category);
     setPriceRange(range);
-    setCurrentPage(1);
+
+    if (category !== selectedCategory) {
+      setSelectedCategory(category);
+      navigate(category === "All" ? "/products" : `/category/${encodeURIComponent(category)}`);
+    }
   };
 
-  // ✅ Update Title based on Search or Category
+  // Dynamic Title
   const title = query
     ? `Search Results for "${query}"`
     : selectedCategory === "All"
     ? "All Products"
     : `${selectedCategory} Products`;
 
-  // Handle Pagination Navigation
+  // Breadcrumbs
+  const breadcrumbs = useMemo(
+    () => [
+      { label: "Home", href: "/" },
+      { label: "Products", href: "/products" },
+      ...(selectedCategory !== "All"
+        ? [{ label: selectedCategory, href: `/category/${encodeURIComponent(selectedCategory)}` }]
+        : []),
+    ],
+    [selectedCategory]
+  );
+
+  // Handle Pagination
   const handlePageChange = (newPage) => {
-    setCurrentPage(newPage);
+    setCurrentPage(Math.max(1, Math.min(newPage, totalPages)));
   };
 
   return (
     <div className="font-[var(--font-primary)] bg-[var(--productlistpage-background-color)]">
-      {/* Mobile Filter Button */}
       <MobileFilterButton
         filtersVisible={filtersVisible}
         toggleFilters={() => setFiltersVisible(!filtersVisible)}
       />
-      {/* Main Content */}
+
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6">
         {/* Filters Section */}
         {(filtersVisible || window.innerWidth >= 768) && (
           <div className="hidden md:block">
-            <FilterComponent onFilter={handleFilter} />
+            <FilterComponent onFilter={handleFilter} initialCategory={selectedCategory} />
           </div>
         )}
+
         {filtersVisible && window.innerWidth < 768 && (
           <div className="block md:hidden">
-            <FilterComponent onFilter={handleFilter} />
+            <FilterComponent onFilter={handleFilter} initialCategory={selectedCategory} />
           </div>
         )}
+
         {/* Product Layout */}
         <ProductLayout
-          title={title} // ✅ Updated Title
-          breadcrumbs={[
-            { label: "Home", href: "/" },
-            { label: "Products", href: "/products" },
-            ...(selectedCategory !== "All" && !query
-              ? [{ label: selectedCategory, href: `/category/${encodeURIComponent(selectedCategory)}` }]
-              : []),
-          ]}
+          title={title}
+          breadcrumbs={breadcrumbs}
           products={paginatedProducts}
           totalPages={totalPages}
           currentPage={currentPage}
