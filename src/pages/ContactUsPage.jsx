@@ -33,16 +33,20 @@ const ContactUsPage = () => {
                         </div>
 
                         {/* Email */}
-                        <div className="mb-4">
-                            <h3 className="text-lg font-medium text-[var(--contactuspage-primary-color)]">Email:</h3>
-                            <p className="text-[var(--contactuspage-secondary-color)]">{contactInfo.email}</p>
-                        </div>
+                            <div className="mb-4">
+                                <h3 className="text-lg font-medium text-[var(--contactuspage-primary-color)]">Email:</h3>
+                                <p 
+                                    className="text-[var(--contactuspage-secondary-color)]" 
+                                    dangerouslySetInnerHTML={{ __html: contactInfo.email.replace(/\n/g, "<br />") }}
+                                />
+                            </div>
+
 
                         {/* Address */}
-                        <div className="mb-4">
+                        {/* <div className="mb-4">
                             <h3 className="text-lg font-medium text-[var(--contactuspage-primary-color)]">Address:</h3>
                             <p className="text-[var(--contactuspage-secondary-color)]">{contactInfo.address}</p>
-                        </div>
+                        </div> */}
 
                         {/* Open Time */}
                         <div>

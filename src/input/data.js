@@ -360,14 +360,16 @@ export const banners = [
   export const announcementMessage = "🎉 Free Shipping on Bulk Orders";
 
   export const contactInfo = {
-    phone: "+91 99538 63364",
-    email: "sales@thinkprint.shop",
-    address: "Jammu and Kashmir,India",
-    openTime: [
-        { day: "Mon - Sat", time: "7:30am - 8:00pm IST" },
-        { day: "Sunday", time: "9:00am - 5:00pm IST" },
-    ],
+    "phone": "+91 99538 63364",
+    "email": "Customer service specialists respond to emails from Monday – Saturday.\n\nOur email is <strong>sales@thinkprint.shop</strong> or you can email us directly here.",
+    "address": "Jammu and Kashmir, India",
+    "openTime": [
+        { "day": "Mon - Sat", "time": "7:30am - 8:00pm IST" },
+        { "day": "Sunday", "time": "9:00am - 5:00pm IST" }
+    ]
 };
+
+
 
 
 export const aboutData = {

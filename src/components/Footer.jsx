@@ -61,7 +61,7 @@ const Footer = () => {
 
             {/* Copyright Section */}
             <div className="mt-8 border-t border-[var(--footer-border-color)] pt-6 text-center text-sm text-[var(--footer-copyright-text-color)]">
-                &copy; {new Date().getFullYear()} Thinkprint. All rights reserved.
+            A Brand Buildup Private Limited Company &copy; {new Date().getFullYear()} Thinkprint. All rights reserved.
             </div>
         </footer>
     );
