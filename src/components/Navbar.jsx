@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { categories } from '../input/categories';
 
@@ -8,6 +8,8 @@ const Navbar = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const navigate = useNavigate();
+  const dropdownRef = useRef(null);
+  const dropdownTimeout = useRef(null);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -29,9 +31,30 @@ const Navbar = () => {
     setIsSearchOpen((prevState) => !prevState);
   };
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
+  const handleDropdownMouseEnter = () => {
+    clearTimeout(dropdownTimeout.current);
+    setIsDropdownOpen(true);
   };
+
+  const handleDropdownMouseLeave = () => {
+    dropdownTimeout.current = setTimeout(() => {
+      setIsDropdownOpen(false);
+    }, 300); // Adjust the delay time as needed
+  };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      clearTimeout(dropdownTimeout.current);
+    };
+  }, []);
 
   return (
     <header className="sticky top-0 bg-[var(--navbar-background-color)] backdrop-blur-sm z-50 shadow-sm">
@@ -48,7 +71,12 @@ const Navbar = () => {
             { name: "Contact Us", link: "/contact" },
             { name: "Categories", link: "#", isDropdown: true },
           ].map((item) => (
-            <div key={item.name} onMouseEnter={() => item.isDropdown && toggleDropdown()}>
+            <div
+              key={item.name}
+              onMouseOver={item.isDropdown ? handleDropdownMouseEnter : undefined}
+              onMouseLeave={item.isDropdown ? handleDropdownMouseLeave : undefined}
+              ref={item.isDropdown ? dropdownRef : null}
+            >
               {item.isDropdown ? (
                 <button
                   className="text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)] transition-colors"
@@ -64,7 +92,11 @@ const Navbar = () => {
                 </Link>
               )}
               {item.isDropdown && isDropdownOpen && (
-                <div className="absolute left-0 right-0 bg-white shadow-lg rounded-lg p-4 mt-2 mx-auto max-w-7xl">
+                <div
+                  className="absolute left-0 right-0 bg-white shadow-lg rounded-lg p-4 mt-2 mx-auto max-w-7xl"
+                  onMouseEnter={handleDropdownMouseEnter}
+                  onMouseLeave={handleDropdownMouseLeave}
+                >
                   <div className="flex flex-wrap gap-8 justify-start">
                     {categories.map((category) => (
                       <Link
@@ -73,9 +105,9 @@ const Navbar = () => {
                         className="flex flex-col items-center min-w-[120px]"
                         onClick={() => setIsDropdownOpen(false)}
                       >
-                        <img 
-                          src={category.img} 
-                          alt={category.name} 
+                        <img
+                          src={category.img}
+                          alt={category.name}
                           className="w-20 h-20 mb-2 object-cover"
                         />
                         <span className="text-sm text-center">{category.name}</span>
