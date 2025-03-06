@@ -130,8 +130,10 @@ import stainless1 from '../assets/products/stainless/stainless1.webp';
 import stainless2 from '../assets/products/stainless/stainless2.webp';
 import businesscard1 from '../assets/products/businesscard/businesscard1.webp';
 import businesscard2 from '../assets/products/businesscard/businesscard2.webp';
-
-
+import multiyearcalendar1 from '../assets/products/multiyearcalendar/multiyearcalendar1.png';
+import idcard1 from "../assets/products/idcards/idcards1.webp";
+import idcard2 from "../assets/products/idcards/idcards2.webp";
+import idcard3 from "../assets/products/idcards/idcards3.webp";
 
 
 
@@ -1167,27 +1169,42 @@ export const products = [
     },
     {
         "id": 65,
-        "title": "Subtle White Canvas Bag",
-        "shortDescription": "Eco-friendly canvas tote bag with stylish print.",
-        "longDescription": "This subtle white canvas bag is not only eco-friendly but also incredibly versatile. Made from high-quality canvas material, it features a shoulder sling and button loop design, making it perfect for everyday use. The bag includes a sublimation print that adds a touch of style to your daily routine. With dimensions of 13\" x 14.25\", this bag offers ample space for all your essentials while maintaining a sleek and modern look.",
+        "title": "Multiyear Calendar",
+        "shortDescription": "Stay organized for years with our premium multiyear calendars.",
+        "longDescription": "Our multiyear calendars provide a stylish and practical way to keep track of important dates over several years. Designed with durability in mind, these calendars are available in multiple formats and sizes. Featuring high-quality printing, customizable layouts, and sturdy binding, they are perfect for home, office, or gifting.",
+        "price": 999,
+        "ratingCount": 180,
+        "category": "Stationery & Calendars",
+        "img": multiyearcalendar1,
         "designSpecifications": [
-            "Fabric: Canvas Eco Friendly (Subtle White)",
-            "Type: Shoulder Sling & Button Loop",
-            "Printing: Sublimation",
-            "Size: 13\" x 14.25\"",
-            "Ideal for shopping, travel, or everyday use"
+            "Covers up to 5 years of planning",
+            "High-quality paper with a glossy/matte finish",
+            "Customizable with personal events and images",
+            "Sturdy spiral binding for durability"
         ],
-        "offer": null,
-        "img": "subtlewhitecanvasbag1",
-        "price": 199,
-        "ratingCount": 75,
-        "bestDeal": false,
-        "category": "Custom Bags",
-        "recommended": true,
         "thumbnailImages": [
-            "subtlewhitecanvasbag2",
-            "subtlewhitecanvasbag3",
-            "subtlewhitecanvasbag4"
+        ]
+    },
+    {
+        "id": 66,
+        "title": "ID Cards",
+        "shortDescription": "Crafting unique ID cards to reflect your identity.",
+        "longDescription": "Our premium ID cards are made from durable PVC material with a sleek semi-gloss finish. Designed for both personal and professional use, these cards feature high-quality digital printing, ensuring vibrant colors and sharp details. Available with double-sided printing, they are perfect for corporate, educational, and personal identification purposes.",
+        "price": 299,
+        "ratingCount": 120,
+        "category": "Custom Stationery",
+        "img": idcard1,
+        "designSpecifications": [
+            "Material: PVC 0.8 mm thickness",
+            "Finish: Semi-Gloss",
+            "Size: 8.5 cm x 5.4 cm",
+            "Both-side printing available",
+            "Decoration Technology: Digital Printing"
+        ],
+        "thumbnailImages": [
+            idcard2,idcard3
         ]
     }
+    
+    
 ]
