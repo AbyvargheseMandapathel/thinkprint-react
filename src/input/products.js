@@ -5,6 +5,9 @@ import visitingcard4 from '../assets/products/visiting-cards/visitingcard-4.webp
 import mentshirt1 from '../assets/products/tshirt-men/men-tshirt-1.webp';
 import mentshirt2 from '../assets/products/tshirt-men/men-tshirt-2.webp';
 import mentshirt3 from '../assets/products/tshirt-men/men-tshirt-3.webp';
+import mentshirt4 from '../assets/products/tshirt-men/men-tshirt-4.webp';
+import mentshirt5 from '../assets/products/tshirt-men/men-tshirt-5.webp';
+import mentshirt6 from '../assets/products/tshirt-men/men-tshirt-6.webp';
 import womentshirt1 from '../assets/products/tshirt-women/women-tshirt-1.webp';
 import womentshirt2 from '../assets/products/tshirt-women/women-tshirt-2.webp';
 import womentshirt3 from '../assets/products/tshirt-women/women-tshirt-3.webp';
@@ -50,6 +53,8 @@ import letterhead2 from '../assets/products/letterhead/letterhead2.webp';
 import letterhead3 from '../assets/products/letterhead/letterhead3.webp';
 import mousepad1 from '../assets/products/mousepad/mousepad1.webp';
 import mousepad2 from '../assets/products/mousepad/mousepad2.webp';
+import mousepad3 from '../assets/products/mousepad/mousepad3.webp';
+import mousepad4 from '../assets/products/mousepad/mousepad4.webp';
 import notebook1 from '../assets/products/notebook/notebook1.webp';
 import notebook2 from '../assets/products/notebook/notebook2.webp';
 import envelope1 from '../assets/products/envelope/envelope1.webp';
@@ -172,7 +177,7 @@ export const products = [
             "Ideal for sports or casual wear"
         ],
         "thumbnailImages": [
-            mentshirt2,mentshirt3
+            mentshirt2,mentshirt3,mentshirt4,mentshirt5,mentshirt6
         ]
     },
     {
@@ -515,7 +520,9 @@ export const products = [
             "Full-color printing."
         ],
         "thumbnailImages": [
-            mousepad2
+            mousepad2,
+            mousepad3,
+            mousepad4
         ]
     },
     {
