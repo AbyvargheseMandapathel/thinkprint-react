@@ -1157,5 +1157,30 @@ export const products = [
         "thumbnailImages": [
             mobileaccessories2
         ]
+    },
+    {
+        "id": 65,
+        "title": "Subtle White Canvas Bag",
+        "shortDescription": "Eco-friendly canvas tote bag with stylish print.",
+        "longDescription": "This subtle white canvas bag is not only eco-friendly but also incredibly versatile. Made from high-quality canvas material, it features a shoulder sling and button loop design, making it perfect for everyday use. The bag includes a sublimation print that adds a touch of style to your daily routine. With dimensions of 13\" x 14.25\", this bag offers ample space for all your essentials while maintaining a sleek and modern look.",
+        "designSpecifications": [
+            "Fabric: Canvas Eco Friendly (Subtle White)",
+            "Type: Shoulder Sling & Button Loop",
+            "Printing: Sublimation",
+            "Size: 13\" x 14.25\"",
+            "Ideal for shopping, travel, or everyday use"
+        ],
+        "offer": null,
+        "img": "subtlewhitecanvasbag1",
+        "price": 199,
+        "ratingCount": 75,
+        "bestDeal": false,
+        "category": "Custom Bags",
+        "recommended": true,
+        "thumbnailImages": [
+            "subtlewhitecanvasbag2",
+            "subtlewhitecanvasbag3",
+            "subtlewhitecanvasbag4"
+        ]
     }
 ]

@@ -3,6 +3,7 @@ import banner2 from '../assets/banner/banner2.webp';
 import herobanner1 from '../assets/herobanner/herobanner1.webp';
 import herobanner2 from '../assets/herobanner/herobanner2.webp';
 import herobanner3 from '../assets/herobanner/herobanner3.webp';
+import herobanner4 from '../assets/herobanner/herobanner4.webp';
 
 
 // data.js
@@ -10,10 +11,10 @@ export const heroBanner = [
   {
     id: 1,
     image: herobanner1,
-    title: 'Electronics',
+    title: 'Custom Caps',
     description: 'Explore our latest tech gadgets and accessories.',
     buttonText: 'Shop Now',
-    link: '/category/Visiting%20Cards'
+    link: '/category/Custom%20Caps'
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ export const heroBanner = [
     title: 'Fashion',
     description: 'Discover the latest fashion trends.',
     buttonText: 'Shop Now',
-    link: '/category/Visiting%20Cards'
+    link: '/category/Custom%20Bags'
   },
   {
     id: 3,
@@ -29,7 +30,16 @@ export const heroBanner = [
     title: 'Home & Kitchen',
     description: 'Find everything for your home and kitchen.',
     buttonText: 'Shop Now',
-    link: '/category/Visiting%20Cards'},
+    link: '/category/Personalized%20Clothing'
+  },
+  {
+    id: 4,
+    image: herobanner4,
+    title: 'Fashion',
+    description: 'Discover the latest fashion trends.',
+    buttonText: 'Shop Now',
+    link: '/category/Custom%20Drinkware'
+  },
 ];
 
 export const banners = [
