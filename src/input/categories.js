@@ -24,4 +24,7 @@ export const categories = [
   { id: 10, name: "Custom Bags", img: CustomBags },
   { id: 11, name: "Electronics & Accessories", img: electronics },
   { id: 12, name: "Promotional Gifts", img: promotional },
+  { id: 13, name: "EcoGifts", img: promotional },
+  { id: 14, name: "NOTEPADS & DIARIES", img: promotional },
+  { id: 15, name: "Giftsets", img: promotional },
 ];
