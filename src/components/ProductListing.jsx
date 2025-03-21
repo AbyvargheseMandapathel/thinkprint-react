@@ -74,8 +74,12 @@ const ProductListing = ({ products, title }) => {
             {/* Product Title */}
             <h3 className="text-lg font-bold mb-2">{product.title}</h3>
 
-            {/* Free Delivery Text */}
-            <p className="text-sm text-gray-600 mb-2">Free Delivery on Bulk Orders</p>
+            {/* Short Description Text */}
+            <p className="text-sm text-gray-600 mb-2">
+              {product.shortDescription.length > 50 
+                ? product.shortDescription.slice(0, 50) + "..." 
+                : product.shortDescription}
+            </p>
 
             {/* Product Price */}
             {/* <p className="text-gray-600 mb-2">${product.price}</p> */}

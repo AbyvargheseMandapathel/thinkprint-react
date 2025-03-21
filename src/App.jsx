@@ -44,7 +44,7 @@ const App = () => {
                 <CategoryCarousel categories={categories} />
                 <section className="container mx-auto px-4 py-12">
                   <ProductSection2 title="Trending Products" products={products} />
-                  <ProductListing title="Man & Women Fashion" products={products} />
+                  <ProductListing title="All Products" products={products} />
                 </section>
                 <BenefitsSection />
               </>
