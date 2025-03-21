@@ -418,7 +418,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on3.webp",
             "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on4.webp",
             "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on5.webp",
             "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on6.webp"
@@ -432,16 +431,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "/products/webcam_cover/webcam_cover1.webp",
+        "img": "/products/webcam_cover/webcam_cover6.webp",
         "designSpecifications": [
             "WEBCAM COVER, thinkPrint, 39269099, Black, 4.3 x 1.6 cm, ABS Plastic, 2g, 2.5 x 1 cm, Screen Printing",
             ""
         ],
         "thumbnailImages": [
-            "/products/webcam_cover/webcam_cover3.webp",
             "/products/webcam_cover/webcam_cover4.webp",
             "/products/webcam_cover/webcam_cover5.webp",
-            "/products/webcam_cover/webcam_cover6.webp"
         ]
     },
     {
@@ -458,7 +455,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/cdo/cdo3.webp",
             "/products/cdo/cdo4.webp",
             "/products/cdo/cdo5.webp",
             "/products/cdo/cdo6.webp"
@@ -478,7 +474,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/hubpad/hubpad3.webp",
             "/products/hubpad/hubpad4.webp",
             "/products/hubpad/hubpad5.webp",
             "/products/hubpad/hubpad6.webp"
@@ -796,7 +791,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro2.webp",
             "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro3.webp",
             "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro4.webp",
             "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro5.webp",
@@ -817,7 +811,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg2.webp",
             "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg3.webp",
             "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg4.webp",
             "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg5.webp",
@@ -838,7 +831,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal2.webp",
             "/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal3.webp",
             "/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal4.webp"
         ]
@@ -857,7 +849,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg2.webp",
             "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg3.webp",
             "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg4.webp",
             "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg5.webp",
@@ -878,7 +869,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky2.webp",
             "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky3.webp",
             "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky4.webp",
             "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky5.webp"
@@ -898,7 +888,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c2.webp",
             "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c3.webp",
             "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c4.webp",
             "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c5.webp"
@@ -918,7 +907,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c2.webp",
             "/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c3.webp",
             "/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c4.webp"
         ]
@@ -937,7 +925,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/charge-x/charge-x2.webp",
             "/products/charge-x/charge-x3.webp"
         ]
     },
@@ -956,8 +943,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display2.webp",
-            "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display3.webp",
             "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display4.webp",
             "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display5.webp",
             "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display6.webp"
@@ -977,8 +962,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display2.webp",
-            "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display3.webp",
             "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display4.webp",
             "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display5.webp",
             "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display6.webp"
@@ -998,8 +981,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_102.webp",
-            "/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_103.webp",
             "/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_104.webp"
         ]
     },
@@ -1016,8 +997,6 @@ export const products = [
             "Palm 5, thinkPrint, 850790, White, 130mm x 65mm x 10mm, ABS Plastic, 120g, 50mm x 30mm, Pad Printing, None, 5000mAh Lithium Polymer"
         ],
         "thumbnailImages": [
-            "/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_52.webp",
-            "/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_53.webp",
             "/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_54.webp"
         ]
     },
@@ -1035,7 +1014,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/webcam_cover/webcam_cover2.webp",
             "/products/webcam_cover/webcam_cover3.webp",
             "/products/webcam_cover/webcam_cover4.webp"
         ]
@@ -1054,7 +1032,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/dazzle/dazzle2.webp",
             "/products/dazzle/dazzle3.webp",
             "/products/dazzle/dazzle4.webp"
         ]
@@ -1073,7 +1050,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/smiley/smiley2.webp",
             "/products/smiley/smiley3.webp",
             "/products/smiley/smiley4.webp"
         ]
@@ -1092,8 +1068,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/laplite/laplite2.webp",
-            "/products/laplite/laplite3.webp",
             "/products/laplite/laplite4.webp",
             "/products/laplite/laplite5.webp",
             "/products/laplite/laplite6.webp"
@@ -1113,8 +1087,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass2.webp",
-            "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass3.webp",
             "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass4.webp",
             "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass5.webp",
             "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass6.webp"
@@ -1134,7 +1106,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/shades_fashion_sunglasses/shades_fashion_sunglasses2.webp"
         ]
     },
     {
@@ -1170,7 +1141,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi2.webp",
             "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi3.webp",
             "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi4.webp",
             "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi5.webp",
@@ -1191,7 +1161,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan2.webp",
             "/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan3.webp",
             "/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan4.webp"
         ]
@@ -1210,7 +1179,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/usb_metal_pen/usb_metal_pen2.webp",
             "/products/usb_metal_pen/usb_metal_pen3.webp",
             "/products/usb_metal_pen/usb_metal_pen4.webp",
             "/products/usb_metal_pen/usb_metal_pen5.webp",
@@ -1231,7 +1199,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/key_finder_-trackfast/key_finder_-trackfast2.webp",
             "/products/key_finder_-trackfast/key_finder_-trackfast3.webp",
             "/products/key_finder_-trackfast/key_finder_-trackfast4.webp",
             "/products/key_finder_-trackfast/key_finder_-trackfast5.webp"
@@ -1254,7 +1221,6 @@ export const products = [
             "Not applicable"
         ],
         "thumbnailImages": [
-            "/products/tornado/tornado2.webp",
             "/products/tornado/tornado3.webp",
             "/products/tornado/tornado4.webp",
             "/products/tornado/tornado5.webp",
@@ -1275,7 +1241,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/glo_beats_pro/glo_beats_pro2.webp",
             "/products/glo_beats_pro/glo_beats_pro3.webp",
             "/products/glo_beats_pro/glo_beats_pro4.webp",
             "/products/glo_beats_pro/glo_beats_pro5.webp",
@@ -1296,7 +1261,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder2.webp",
             "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder3.webp",
             "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder4.webp",
             "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder5.webp",
@@ -1317,7 +1281,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt2.webp",
             "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt3.webp",
             "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt4.webp",
             "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt5.webp",
@@ -1338,7 +1301,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite2.webp",
             "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite3.webp",
             "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite4.webp",
             "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite5.webp",
@@ -1359,7 +1321,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom2.webp",
             "/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom3.webp"
         ]
     },
