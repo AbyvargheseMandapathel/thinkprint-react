@@ -4,8 +4,8 @@ export const products = [
     {
         "id": 1,
         "title": "Samba",
-        "shortDescription": "The Urban Gear Samba is a customizable Bluetooth speaker with RGB lighting, multiple playback options, and ample branding space, offering 4 hours of playtime.\n",
-        "longDescription": "Experience SAMBA by Urban Gear: a customizable Bluetooth speaker with vibrant RGB lights! Enjoy 4 hours of playtime, built-in mic, FM radio, TF card/USB support, and 5W output. Brand with ENGRAVE, SCREEN PRINTING, UV, or DTF. Compact size: 9.8x5x9.9cm. Black. HSN Code: 85182200.\n",
+        "shortDescription": "The Think Print Samba is a customizable Bluetooth speaker with RGB lighting, multiple playback options, and ample branding space, offering 4 hours of playtime.\n",
+        "longDescription": "Experience SAMBA by Think Print: a customizable Bluetooth speaker with vibrant RGB lights! Enjoy 4 hours of playtime, built-in mic, FM radio, TF card/USB support, and 5W output. Brand with ENGRAVE, SCREEN PRINTING, UV, or DTF. Compact size: 9.8x5x9.9cm. Black. HSN Code: 85182200.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -19,8 +19,8 @@ export const products = [
     {
         "id": 2,
         "title": "Samba",
-        "shortDescription": "Urban Gear Samba: Professional audio speaker (HSN 85182200).\n",
-        "longDescription": "Urban Gear Samba: Experience crystal-clear audio with this portable speaker. Perfect for on-the-go listening, the Samba delivers rich bass and balanced sound. HSN Code 85182200.\n",
+        "shortDescription": "Think Print Samba: Professional audio speaker (HSN 85182200).\n",
+        "longDescription": "Think Print Samba: Experience crystal-clear audio with this portable speaker. Perfect for on-the-go listening, the Samba delivers rich bass and balanced sound. HSN Code 85182200.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -35,8 +35,8 @@ export const products = [
     {
         "id": 3,
         "title": "Tango",
-        "shortDescription": "Urban Gear Tango: Compact 5W Bluetooth speaker with IPX4 water resistance, multi-color lights, built-in mic, TWS connectivity, and ample branding options for engraving, screen printing, UV printing, or DTF stickers.\n",
-        "longDescription": "Urban Gear Tango speaker delivers powerful 5W audio in a compact, water-resistant (IPX4) design. Enjoy 4 hours of playtime, Bluetooth connectivity up to 10m, built-in mic, TWS pairing, and multicolor lights. 10x4.1cm. Ample branding space via engraving, screen print, UV print & DTF.\n",
+        "shortDescription": "Think Print Tango: Compact 5W Bluetooth speaker with IPX4 water resistance, multi-color lights, built-in mic, TWS connectivity, and ample branding options for engraving, screen printing, UV printing, or DTF stickers.\n",
+        "longDescription": "Think Print Tango speaker delivers powerful 5W audio in a compact, water-resistant (IPX4) design. Enjoy 4 hours of playtime, Bluetooth connectivity up to 10m, built-in mic, TWS pairing, and multicolor lights. 10x4.1cm. Ample branding space via engraving, screen print, UV print & DTF.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -51,8 +51,8 @@ export const products = [
     {
         "id": 4,
         "title": "BUZZ",
-        "shortDescription": "Urban Gear Buzz: A loud, dual-alarm Bluetooth speaker with auto-sync time, ample branding space, and 8-hour playtime.\n",
-        "longDescription": "Urban Gear BUZZ: Wake up & rock! This Bluetooth 5.3 speaker boasts a loud dual alarm, auto-time sync, & 8hr playtime. Features a large LED screen, TF card slot, USB-C power, & customizable branding options. Compact size: 10.5x5.5x7.5cm. 5W output.\n",
+        "shortDescription": "Think Print Buzz: A loud, dual-alarm Bluetooth speaker with auto-sync time, ample branding space, and 8-hour playtime.\n",
+        "longDescription": "Think Print BUZZ: Wake up & rock! This Bluetooth 5.3 speaker boasts a loud dual alarm, auto-time sync, & 8hr playtime. Features a large LED screen, TF card slot, USB-C power, & customizable branding options. Compact size: 10.5x5.5x7.5cm. 5W output.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -67,8 +67,8 @@ export const products = [
     {
         "id": 5,
         "title": "TIC-TOC Alarm Clock With Mobile Stand",
-        "shortDescription": "Urban Gear TIC-TOC: Digital alarm clock with snooze, mobile holder, calendar, temperature display, and 12/24 hour format.\n",
-        "longDescription": "Urban Gear Tic-Toc: More than just a clock! Digital alarm with snooze, mobile holder, calendar, & temperature display (C/F). Choose 12/24 hour format. HSN 48201090.\n",
+        "shortDescription": "Think Print TIC-TOC: Digital alarm clock with snooze, mobile holder, calendar, temperature display, and 12/24 hour format.\n",
+        "longDescription": "Think Print Tic-Toc: More than just a clock! Digital alarm with snooze, mobile holder, calendar, & temperature display (C/F). Choose 12/24 hour format. HSN 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -87,8 +87,8 @@ export const products = [
     {
         "id": 6,
         "title": "NANO- Pocket Bluetooth Speaker",
-        "shortDescription": "Urban Gear Nano: A barbed wire-fronted, faux leather-backed, pocket-sized Bluetooth speaker with TF card reader, mic, and necklace strap offering 4 hours of playback.\n",
-        "longDescription": "Urban Gear NANO: Pocket-sized Bluetooth speaker with a unique design. Featuring a barbed wire front, faux leather back, and aluminum housing, this 5W speaker boasts a TF card reader, built-in mic, wearable strap, 4-hour playback, and 10m range.\n",
+        "shortDescription": "Think Print Nano: A barbed wire-fronted, faux leather-backed, pocket-sized Bluetooth speaker with TF card reader, mic, and necklace strap offering 4 hours of playback.\n",
+        "longDescription": "Think Print NANO: Pocket-sized Bluetooth speaker with a unique design. Featuring a barbed wire front, faux leather back, and aluminum housing, this 5W speaker boasts a TF card reader, built-in mic, wearable strap, 4-hour playback, and 10m range.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -107,8 +107,8 @@ export const products = [
     {
         "id": 7,
         "title": "Bluetooth Speaker - DRUM",
-        "shortDescription": "Urban Gear DRUM: Portable 3W speaker with TF card reader, USB port, mic, 10m range, and 3-4 hour playtime.\n",
-        "longDescription": "Experience rich sound with Urban Gear DRUM. This portable speaker packs a 3W output, TF card reader, USB port, and built-in mic. Enjoy 3-4 hours playtime with a 10m range. Compact 6x6x9cm size. HSNCode 85189000.\n",
+        "shortDescription": "Think Print DRUM: Portable 3W speaker with TF card reader, USB port, mic, 10m range, and 3-4 hour playtime.\n",
+        "longDescription": "Experience rich sound with Think Print DRUM. This portable speaker packs a 3W output, TF card reader, USB port, and built-in mic. Enjoy 3-4 hours playtime with a 10m range. Compact 6x6x9cm size. HSNCode 85189000.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -127,8 +127,8 @@ export const products = [
     {
         "id": 8,
         "title": "Bluetooth Speaker With Alarm Clock",
-        "shortDescription": "Urban Gear KRONO: a compact (9.5x7.5x6.5cm) 5W Bluetooth V5.0 speaker with night light, TF card reader, built-in mic, and up to 4-hour playback, reaching 10m.\n",
-        "longDescription": "Urban Gear KRONO delivers big sound in a compact package (9.5x7.5x6.5cm). Enjoy wireless V5.0 audio up to 10m for 4 hrs. Features a TF card reader, built-in mic, 5W output & night light. HSN 85182100.\n",
+        "shortDescription": "Think Print KRONO: a compact (9.5x7.5x6.5cm) 5W Bluetooth V5.0 speaker with night light, TF card reader, built-in mic, and up to 4-hour playback, reaching 10m.\n",
+        "longDescription": "Think Print KRONO delivers big sound in a compact package (9.5x7.5x6.5cm). Enjoy wireless V5.0 audio up to 10m for 4 hrs. Features a TF card reader, built-in mic, 5W output & night light. HSN 85182100.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -147,8 +147,8 @@ export const products = [
     {
         "id": 9,
         "title": "Bluetooth Speaker & Mirrored Alarm Clock - CLOCKY",
-        "shortDescription": "Urban Gear Clocky: Compact 5W Bluetooth V5.0 speaker with alarm clock, FM radio, TF card player, aux-in, built-in mic, and mirrored LED display in a premium rubber finish.\n",
-        "longDescription": "Urban Gear CLOCKY: Compact powerhouse with 5W sound, Bluetooth 5.0 (10m range), & 6hr playback. Enjoy FM radio, TF card, Aux-in, built-in mic. Features a mirrored alarm clock, LED display, brightness control & premium rubber finish. 12.8*4.6*6.3cm. Black. HSN 851821\n",
+        "shortDescription": "Think Print Clocky: Compact 5W Bluetooth V5.0 speaker with alarm clock, FM radio, TF card player, aux-in, built-in mic, and mirrored LED display in a premium rubber finish.\n",
+        "longDescription": "Think Print CLOCKY: Compact powerhouse with 5W sound, Bluetooth 5.0 (10m range), & 6hr playback. Enjoy FM radio, TF card, Aux-in, built-in mic. Features a mirrored alarm clock, LED display, brightness control & premium rubber finish. 12.8*4.6*6.3cm. Black. HSN 851821\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -166,8 +166,8 @@ export const products = [
     {
         "id": 10,
         "title": "Splash Proof Bluetooth Speaker - AQUA BEATS",
-        "shortDescription": "Urban Gear Aqua Beats: Splash-proof, metallic finish Bluetooth speaker with 3W output, 3-4 hour playback, built-in mic, TF card support, and ample branding space.\n",
-        "longDescription": "Urban Gear Aqua Beats delivers crisp audio with its 3W output. Enjoy 3-4 hours of playback via Bluetooth (up to 10m) or TF card. Splash-proof design, built-in mic for calls, and a premium metallic finish. 400mAh battery. HSNCode 851821. Ample branding space.\n",
+        "shortDescription": "Think Print Aqua Beats: Splash-proof, metallic finish Bluetooth speaker with 3W output, 3-4 hour playback, built-in mic, TF card support, and ample branding space.\n",
+        "longDescription": "Think Print Aqua Beats delivers crisp audio with its 3W output. Enjoy 3-4 hours of playback via Bluetooth (up to 10m) or TF card. Splash-proof design, built-in mic for calls, and a premium metallic finish. 400mAh battery. HSNCode 851821. Ample branding space.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -185,8 +185,8 @@ export const products = [
     {
         "id": 11,
         "title": "Bluetooth Speaker - BUNNY",
-        "shortDescription": "Urban Gear Bunny: 3W Bluetooth speaker with cotton mesh, 4-hour playback, built-in mic, and 10m range.\n",
-        "longDescription": "Urban Gear Bunny speaker delivers 3W sound via Bluetooth V4.2 (10m range). Its 400mAh battery provides 3-4 hours playback. Features a built-in mic & premium cotton cloth mesh. Ample branding space. See it: https://youtu.be/dE7HWRB3Qmw. HSN 851829\n",
+        "shortDescription": "Think Print Bunny: 3W Bluetooth speaker with cotton mesh, 4-hour playback, built-in mic, and 10m range.\n",
+        "longDescription": "Think Print Bunny speaker delivers 3W sound via Bluetooth V4.2 (10m range). Its 400mAh battery provides 3-4 hours playback. Features a built-in mic & premium cotton cloth mesh. Ample branding space. See it: https://youtu.be/dE7HWRB3Qmw. HSN 851829\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -204,8 +204,8 @@ export const products = [
     {
         "id": 12,
         "title": "Waterproof Bluetooth Shower Speaker - MIST 2.0",
-        "shortDescription": "Urban Gear MIST 2.0: 3W Bluetooth speaker with suction cup, built-in mic, IPX4 water resistance, 3-4 hour playback, and ample branding space.\n",
-        "longDescription": "The Urban Gear MIST 2.0 speaker delivers 3W sound. Enjoy wireless audio within a 10m range via Bluetooth. The 400mAh battery provides 3-4 hours of playback. Features a built-in mic, IPX4 water resistance, and a suction cup for easy attachment. Ample branding space. See it in action: youtu.be/w-9CwB5",
+        "shortDescription": "Think Print MIST 2.0: 3W Bluetooth speaker with suction cup, built-in mic, IPX4 water resistance, 3-4 hour playback, and ample branding space.\n",
+        "longDescription": "The Think Print MIST 2.0 speaker delivers 3W sound. Enjoy wireless audio within a 10m range via Bluetooth. The 400mAh battery provides 3-4 hours of playback. Features a built-in mic, IPX4 water resistance, and a suction cup for easy attachment. Ample branding space. See it in action: youtu.be/w-9CwB5",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -224,8 +224,8 @@ export const products = [
     {
         "id": 13,
         "title": "BLITZ Bluetooth Stereo HeadPhones",
-        "shortDescription": "Urban Gear Blitz: Foldable, extra bass headphones with mic, TF/AUX support, long battery life, and cushioned comfort.\n",
-        "longDescription": "Experience deep bass on the go with Urban Gear Blitz foldable headphones. Enjoy calls with the built-in mic, TF card & Aux support. 200mAh battery, 100h standby. Cushioned comfort. HSN 851830.\n",
+        "shortDescription": "Think Print Blitz: Foldable, extra bass headphones with mic, TF/AUX support, long battery life, and cushioned comfort.\n",
+        "longDescription": "Experience deep bass on the go with Think Print Blitz foldable headphones. Enjoy calls with the built-in mic, TF card & Aux support. 200mAh battery, 100h standby. Cushioned comfort. HSN 851830.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -244,8 +244,8 @@ export const products = [
     {
         "id": 14,
         "title": "Bluetooth Sports Neckband - LOOP 2.0",
-        "shortDescription": "Urban Gear LOOP 2.0: Bluetooth 5.0 neckband earphones with 30-hour playback, magnetic earbuds, and built-in mic.\n",
-        "longDescription": "Urban Gear Loop 2.0: Flexible neckband earphones with a massive 400mAh battery for 30 hours of playback. Bluetooth 5.0 ensures a stable connection. Magnetic earbuds, built-in mic, in-line remote, and a wide 2-20kHz frequency range deliver premium audio. Black.\n",
+        "shortDescription": "Think Print LOOP 2.0: Bluetooth 5.0 neckband earphones with 30-hour playback, magnetic earbuds, and built-in mic.\n",
+        "longDescription": "Think Print Loop 2.0: Flexible neckband earphones with a massive 400mAh battery for 30 hours of playback. Bluetooth 5.0 ensures a stable connection. Magnetic earbuds, built-in mic, in-line remote, and a wide 2-20kHz frequency range deliver premium audio. Black.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -264,18 +264,18 @@ export const products = [
     {
         "id": 15,
         "title": "True Wireless Stereo Headset - TWINS",
-        "shortDescription": "Urban Gear TWINS: Ergonomic Bluetooth 5.0 earbuds with inductive charging, single/double wear, power display, and long standby time.\n",
-        "longDescription": "Urban Gear TWINS: Experience seamless audio with inductive magnetic charging. Enjoy ergonomic comfort in single or double wear. Features a power display, BT 5.0, built-in mic, & 2.5-3hr playback. 35mAh headset/300mAh base. 1hr charge. Black.\n",
+        "shortDescription": "Think Print TWINS: Ergonomic Bluetooth 5.0 earbuds with inductive charging, single/double wear, power display, and long standby time.\n",
+        "longDescription": "Think Print TWINS: Experience seamless audio with inductive magnetic charging. Enjoy ergonomic comfort in single or double wear. Features a power display, BT 5.0, built-in mic, & 2.5-3hr playback. 35mAh headset/300mAh base. 1hr charge. Black.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
         "img": "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins1.webp",
         "designSpecifications": [
-            "UG NAME TWINS, thinkPrint, 851830, Black, 60mm x 40mm x 25mm, ABS Plastic, 40g, 20mm x 10mm, Pad Printing, None, 3mW, Headset: 35mAh, Charge Base: 300mAh",
-            "UG NAME TWINS, thinkPrint, 851830, Black, Playback: 2.5-3 hrs, Standby: 100 hrs, Charging Time: 1 hour",
-            "UG NAME TWINS, thinkPrint, 851830, Black, Bluetooth 5.0, Frequency: 20Hz-20kHz",
-            "UG NAME TWINS, thinkPrint, 851830, Black,  Inductive Magnet Charging",
-            "UG NAME TWINS, thinkPrint, 851830, Black,  Ergonomic Earbud Design"
+            "TP NAME TWINS, thinkPrint, 851830, Black, 60mm x 40mm x 25mm, ABS Plastic, 40g, 20mm x 10mm, Pad Printing, None, 3mW, Headset: 35mAh, Charge Base: 300mAh",
+            "TP NAME TWINS, thinkPrint, 851830, Black, Playback: 2.5-3 hrs, Standby: 100 hrs, Charging Time: 1 hour",
+            "TP NAME TWINS, thinkPrint, 851830, Black, Bluetooth 5.0, Frequency: 20Hz-20kHz",
+            "TP NAME TWINS, thinkPrint, 851830, Black,  Inductive Magnet Charging",
+            "TP NAME TWINS, thinkPrint, 851830, Black,  Ergonomic Earbud Design"
         ],
         "thumbnailImages": [
             "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins3.webp",
@@ -287,8 +287,8 @@ export const products = [
     {
         "id": 16,
         "title": "Bluetooth Stereo Headphones - BLAZE",
-        "shortDescription": "Urban Gear Blaze: Bluetooth stereo headphones with extra bass, folding design, TF/FM support, and extended battery life.\n",
-        "longDescription": "Experience powerful sound with Urban Gear Blaze headphones. Extra bass, cushioned comfort, & foldable design for easy portability. Enjoy TF card, FM radio, Aux, built-in mic & 18hr standby. 20Hz-20kHz, 10m range.\n",
+        "shortDescription": "Think Print Blaze: Bluetooth stereo headphones with extra bass, folding design, TF/FM support, and extended battery life.\n",
+        "longDescription": "Experience powerful sound with Think Print Blaze headphones. Extra bass, cushioned comfort, & foldable design for easy portability. Enjoy TF card, FM radio, Aux, built-in mic & 18hr standby. 20Hz-20kHz, 10m range.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -306,8 +306,8 @@ export const products = [
     {
         "id": 17,
         "title": "Stereo Headphones - BASS PRO",
-        "shortDescription": "Urban Gear Bass Pro: Deep bass stereo headphones with cushioned comfort, foldable design, and built-in mic.\n",
-        "longDescription": "Experience deep sound with Urban Gear Bass Pro headphones. Enjoy cushioned comfort, a foldable design for portability, and a built-in mic. 50mW output, 12Hz-22kHz range, 40mm drivers, and a 1.2m cord. HSN 851830.\n",
+        "shortDescription": "Think Print Bass Pro: Deep bass stereo headphones with cushioned comfort, foldable design, and built-in mic.\n",
+        "longDescription": "Experience deep sound with Think Print Bass Pro headphones. Enjoy cushioned comfort, a foldable design for portability, and a built-in mic. 50mW output, 12Hz-22kHz range, 40mm drivers, and a 1.2m cord. HSN 851830.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -326,8 +326,8 @@ export const products = [
     {
         "id": 18,
         "title": "Stereo Headphones - BASS 2.0",
-        "shortDescription": "Urban Gear BASS 2.0: Folding, cushioned, extra-bass stereo headphones with titanium-coated diaphragms, built-in mic, and high-resolution audio.\n",
-        "longDescription": "Immerse yourself in rich sound with Urban Gear BASS 2.0 headphones. Experience deep bass, cushioned comfort, and high-resolution audio via 40mm HD drive units and titanium-coated diaphragms. Folds for easy portability. Built-in mic. 20Hz-20kHz. 1.2m cord.\n",
+        "shortDescription": "Think Print BASS 2.0: Folding, cushioned, extra-bass stereo headphones with titanium-coated diaphragms, built-in mic, and high-resolution audio.\n",
+        "longDescription": "Immerse yourself in rich sound with Think Print BASS 2.0 headphones. Experience deep bass, cushioned comfort, and high-resolution audio via 40mm HD drive units and titanium-coated diaphragms. Folds for easy portability. Built-in mic. 20Hz-20kHz. 1.2m cord.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -349,8 +349,8 @@ export const products = [
     {
         "id": 19,
         "title": "Cube Pro",
-        "shortDescription": "Urban Gear Cube Pro: Compact universal travel adapter with dual USB, Type-C, and multi-country plugs, perfect for charging devices in over 150 countries.\n",
-        "longDescription": "Urban Gear's Cube Pro is your ultimate travel companion! This compact (4.5x5.6x5cm) universal adaptor works in 150+ countries (US/EU/UK/Aus). Features 2 USB (2.4A max) & Type-C (3A) ports for charging multiple devices. AC 6-240Vac. Ideal for indoor use. HSN 39269099.\n",
+        "shortDescription": "Think Print Cube Pro: Compact universal travel adapter with dual USB, Type-C, and multi-country plTPs, perfect for charging devices in over 150 countries.\n",
+        "longDescription": "Think Print's Cube Pro is your ultimate travel companion! This compact (4.5x5.6x5cm) universal adaptor works in 150+ countries (US/EU/UK/Aus). Features 2 USB (2.4A max) & Type-C (3A) ports for charging multiple devices. AC 6-240Vac. Ideal for indoor use. HSN 39269099.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -369,8 +369,8 @@ export const products = [
     {
         "id": 20,
         "title": "2 In 1 Car And Home Charger With 2 USB Ports - DUO",
-        "shortDescription": "Urban Gear DUO: 2-in-1 car & home charger with dual USB ports, LED status, and 2.0A AC output.\n",
-        "longDescription": "Urban Gear DUO: 2-in-1 car & home charger. Dual USB ports for simultaneous charging. LED indicators display charging status. 2.0A AC output ensures fast & efficient power. HSNCode 853690. See it in action: youtube.com/watch?v=BeMj7cXZeUY\n",
+        "shortDescription": "Think Print DUO: 2-in-1 car & home charger with dual USB ports, LED status, and 2.0A AC output.\n",
+        "longDescription": "Think Print DUO: 2-in-1 car & home charger. Dual USB ports for simultaneous charging. LED indicators display charging status. 2.0A AC output ensures fast & efficient power. HSNCode 853690. See it in action: youtube.com/watch?v=BeMj7cXZeUY\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -388,8 +388,8 @@ export const products = [
     {
         "id": 21,
         "title": "Universal Travel Adapter With USB - CUBE",
-        "shortDescription": "Urban Gear Cube: Universal travel adapter with dual USB ports, 2.1A AC output, UK/US/EU plugs, compatible in 150 countries, and includes a protective case.\n",
-        "longDescription": "Travel smarter with the Urban Gear CUBE! This compact adapter powers your devices in 150 countries. Features UK/US/EU plugs, 2 USB ports (2.1A output), and a protective case. HSNCode 853669. See it in action: youtu.be/yTiYiO34RRA\n",
+        "shortDescription": "Think Print Cube: Universal travel adapter with dual USB ports, 2.1A AC output, UK/US/EU plTPs, compatible in 150 countries, and includes a protective case.\n",
+        "longDescription": "Travel smarter with the Think Print CUBE! This compact adapter powers your devices in 150 countries. Features UK/US/EU plTPs, 2 USB ports (2.1A output), and a protective case. HSNCode 853669. See it in action: youtu.be/yTiYiO34RRA\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -407,8 +407,8 @@ export const products = [
     {
         "id": 22,
         "title": "Universal Travel Adapter With Case - ON",
-        "shortDescription": "Urban Gear World Travel Adapter: Power up in 150 countries with UK/US/EU plugs and a protective case (HSNCode 853669, UG NAME ON).\n",
-        "longDescription": "Urban Gear ON World Travel Adapter. Compatible in 150 countries with UK/US/EU plugs. Includes protective case. HSNCode 853669. Perfect travel companion.\n",
+        "shortDescription": "Think Print World Travel Adapter: Power up in 150 countries with UK/US/EU plTPs and a protective case (HSNCode 853669, TP NAME ON).\n",
+        "longDescription": "Think Print ON World Travel Adapter. Compatible in 150 countries with UK/US/EU plTPs. Includes protective case. HSNCode 853669. Perfect travel companion.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -426,8 +426,8 @@ export const products = [
     {
         "id": 23,
         "title": "WEBCAM COVER",
-        "shortDescription": "Urban Gear webcam cover: Slim, slide-to-hide camera cover for laptops, phones, and more, featuring screen printing, UV printing, or DTF sticker options.\n",
-        "longDescription": "Urban Gear Webcam Cover (4.3x1.6cm) protects your privacy. Slides open/closed. Super slim design easily adheres to laptops, phones, etc. Offers screen printing, UV printing or DTF sticker branding options. HSNCode 39269099\n",
+        "shortDescription": "Think Print webcam cover: Slim, slide-to-hide camera cover for laptops, phones, and more, featuring screen printing, UV printing, or DTF sticker options.\n",
+        "longDescription": "Think Print Webcam Cover (4.3x1.6cm) protects your privacy. Slides open/closed. Super slim design easily adheres to laptops, phones, etc. Offers screen printing, UV printing or DTF sticker branding options. HSNCode 39269099\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -444,8 +444,8 @@ export const products = [
     {
         "id": 25,
         "title": "CDO",
-        "shortDescription": "Urban Gear Charger Desk Organizer: Wheat fiber, 15W wireless charger, 3 drawers, adjustable stand, notepad, ample branding space, customizable with various print methods.\n",
-        "longDescription": "Urban Gear's CDO: Charger Desk Organizer (8.5x8.5x7cm). Wheat fiber, 15W wireless charger, 3 drawers, adjustable mobile stand & notepad. Ample branding space for your logo: Engrave, Screen, UV, or DTF Sticker. HSN 39269099.\n",
+        "shortDescription": "Think Print Charger Desk Organizer: Wheat fiber, 15W wireless charger, 3 drawers, adjustable stand, notepad, ample branding space, customizable with various print methods.\n",
+        "longDescription": "Think Print's CDO: Charger Desk Organizer (8.5x8.5x7cm). Wheat fiber, 15W wireless charger, 3 drawers, adjustable mobile stand & notepad. Ample branding space for your logo: Engrave, Screen, UV, or DTF Sticker. HSN 39269099.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -463,8 +463,8 @@ export const products = [
     {
         "id": 26,
         "title": "HUBPAD",
-        "shortDescription": "Urban Gear HUBPAD: A 3-in-1 USB hub with a mobile stand, notepad, and ample branding space, crafted from bamboo with multiple printing options.\n",
-        "longDescription": "Urban Gear's HUBPAD is a 3-in-1 USB hub with eholder, built-in mobile stand & notepad. Compact (12.8x8.5x1.8cm), it features 4 ports(2xUSB, 2xType-C). USB-A & Type-C input. Made of bamboo, it offers ample branding space via engrave, screen print, UV print or DTF sticker. HSN 39269099.\n",
+        "shortDescription": "Think Print HUBPAD: A 3-in-1 USB hub with a mobile stand, notepad, and ample branding space, crafted from bamboo with multiple printing options.\n",
+        "longDescription": "Think Print's HUBPAD is a 3-in-1 USB hub with eholder, built-in mobile stand & notepad. Compact (12.8x8.5x1.8cm), it features 4 ports(2xUSB, 2xType-C). USB-A & Type-C input. Made of bamboo, it offers ample branding space via engrave, screen print, UV print or DTF sticker. HSN 39269099.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -481,13 +481,13 @@ export const products = [
     },
     {
         "id": 27,
-        "title": "UG-CC33",
-        "shortDescription": "Urban Gear iCharge: 15W fast wireless charging station with customizable branding options and blue charging indicator.\n",
-        "longDescription": "The Urban Gear iCharge is a sleek, 9.5 x 0.5cm fast wireless charging station. This 15W charger boasts 75% efficiency and features a blue light indicator. Offers ample branding space via engraving, screen/UV printing, DTF stickers or bamboo. HSN 39269099.\n",
+        "title": "TP-CC33",
+        "shortDescription": "Think Print iCharge: 15W fast wireless charging station with customizable branding options and blue charging indicator.\n",
+        "longDescription": "The Think Print iCharge is a sleek, 9.5 x 0.5cm fast wireless charging station. This 15W charger boasts 75% efficiency and features a blue light indicator. Offers ample branding space via engraving, screen/UV printing, DTF stickers or bamboo. HSN 39269099.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "/products/ug-cc33/ug-cc331.webp",
+        "img": "/products/TP-cc33/TP-cc331.webp",
         "designSpecifications": [
             "iCharge, thinkPrint, 39269099, Bamboo, 9.5 x 0.5cm",
             "Branding Area, Engrave, Screen Printing",
@@ -496,17 +496,17 @@ export const products = [
             "75% Charge"
         ],
         "thumbnailImages": [
-            "/products/ug-cc33/ug-cc333.webp",
-            "/products/ug-cc33/ug-cc334.webp",
-            "/products/ug-cc33/ug-cc335.webp",
-            "/products/ug-cc33/ug-cc336.webp"
+            "/products/TP-cc33/TP-cc333.webp",
+            "/products/TP-cc33/TP-cc334.webp",
+            "/products/TP-cc33/TP-cc335.webp",
+            "/products/TP-cc33/TP-cc336.webp"
         ]
     },
     {
         "id": 28,
         "title": "Multi-Utility USB Hub - USB MEMO",
-        "shortDescription": "Urban Gear's USB MEMO: Multi-port USB hub with memo pad, eco pen, and sticky notes for organized productivity and ample branding.\n",
-        "longDescription": "Urban Gear's USB Memo expands your connectivity. This multi-utility hub converts one USB port into three, plus a memo pad, eco-pen, and 5 colorful sticky notes. Features ample branding space. HSNCode 482190.\n",
+        "shortDescription": "Think Print's USB MEMO: Multi-port USB hub with memo pad, eco pen, and sticky notes for organized productivity and ample branding.\n",
+        "longDescription": "Think Print's USB Memo expands your connectivity. This multi-utility hub converts one USB port into three, plus a memo pad, eco-pen, and 5 colorful sticky notes. Features ample branding space. HSNCode 482190.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -525,8 +525,8 @@ export const products = [
     {
         "id": 29,
         "title": "USB Hub With Mobile Holder - MOBIHUB",
-        "shortDescription": "Urban Gear MOBIHUB: Black 3-port USB hub with phone holder, stationery compartment, charging support, and ample branding space.\n",
-        "longDescription": "Urban Gear's MOBIHUB is a multi-utility 3-port USB hub doubling as a mobile holder. It includes a stationery compartment & supports phone charging. Black. HSNCode 8473. Ample branding space.\n",
+        "shortDescription": "Think Print MOBIHUB: Black 3-port USB hub with phone holder, stationery compartment, charging support, and ample branding space.\n",
+        "longDescription": "Think Print's MOBIHUB is a multi-utility 3-port USB hub doubling as a mobile holder. It includes a stationery compartment & supports phone charging. Black. HSNCode 8473. Ample branding space.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -544,8 +544,8 @@ export const products = [
     {
         "id": 30,
         "title": "USB Hub With Stationery & Mobile Holder - E-TUB 2.0",
-        "shortDescription": "Urban Gear E-TUB 2.0: A multi-functional white USB hub with pen holder, phone stand, dual lights, charging support, and ample branding space.\n",
-        "longDescription": "Urban Gear's E-TUB 2.0 is a multi-utility white hub with 4 USB ports, pen/stationery holder & phone stand. It features 2-level lights, supports phone charging, & has ample branding space. HSN Code: 8473. Your desk's ultimate organizer!\n",
+        "shortDescription": "Think Print E-TUB 2.0: A multi-functional white USB hub with pen holder, phone stand, dual lights, charging support, and ample branding space.\n",
+        "longDescription": "Think Print's E-TUB 2.0 is a multi-utility white hub with 4 USB ports, pen/stationery holder & phone stand. It features 2-level lights, supports phone charging, & has ample branding space. HSN Code: 8473. Your desk's ultimate organizer!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -562,8 +562,8 @@ export const products = [
     {
         "id": 31,
         "title": "USB Hub With Stationery & Mobile Holder - E-TUB",
-        "shortDescription": "Urban Gear E-TUB: Blue multi-port USB hub with mobile stand, sound amplifier, stationery holder, and branding space (9x7x9cm).\n",
-        "longDescription": "Urban Gear E-TUB is a multi-utility 3-port USB hub that also holds your mobile & stationery. It amplifies sound when your phone is placed inside. Features ample branding space. Size: 9*7*9CM. Color: Blue. HSN Code: 8473. See it in action: https://youtu.be/wC2FR5gRxOs\n",
+        "shortDescription": "Think Print E-TUB: Blue multi-port USB hub with mobile stand, sound amplifier, stationery holder, and branding space (9x7x9cm).\n",
+        "longDescription": "Think Print E-TUB is a multi-utility 3-port USB hub that also holds your mobile & stationery. It amplifies sound when your phone is placed inside. Features ample branding space. Size: 9*7*9CM. Color: Blue. HSN Code: 8473. See it in action: https://youtu.be/wC2FR5gRxOs\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -582,8 +582,8 @@ export const products = [
     {
         "id": 32,
         "title": "JIGGLE",
-        "shortDescription": "Urban Gear Jiggle: A magnetic, bamboo stress reliever with a built-in 60W fast charging cable (Type-C, USB, Lightning/Micro dual output) and ample branding space.\n",
-        "longDescription": "Urban Gear's Jiggle: bamboo magnetic toy & 60W fast charging cable. Type-C & USB input, Type-C & Lightning/Micro output. Compact (6.5x3x1cm), stress relief, ample branding space. HSN 85444299.\n",
+        "shortDescription": "Think Print Jiggle: A magnetic, bamboo stress reliever with a built-in 60W fast charging cable (Type-C, USB, Lightning/Micro dual output) and ample branding space.\n",
+        "longDescription": "Think Print's Jiggle: bamboo magnetic toy & 60W fast charging cable. Type-C & USB input, Type-C & Lightning/Micro output. Compact (6.5x3x1cm), stress relief, ample branding space. HSN 85444299.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -602,8 +602,8 @@ export const products = [
     {
         "id": 33,
         "title": "Yoyo Bolt",
-        "shortDescription": "Urban Gear Yoyo Bolt: 100W, 3-in-1 retractable fast charging cable (Lightning, Micro, Type-C) with durable build, ideal for customized branding.\n",
-        "longDescription": "The Urban Gear YOYO-BOLT: a 3-in-1 retractable fast charging cable (1.2M). Supports Lightning, Micro, & Type-C. 100W/5A output for iPhone & Android. Durable TPE+Copper/Aluminum. Perfect for engraving or printing. HSNCode 85444299.\n",
+        "shortDescription": "Think Print Yoyo Bolt: 100W, 3-in-1 retractable fast charging cable (Lightning, Micro, Type-C) with durable build, ideal for customized branding.\n",
+        "longDescription": "The Think Print YOYO-BOLT: a 3-in-1 retractable fast charging cable (1.2M). Supports Lightning, Micro, & Type-C. 100W/5A output for iPhone & Android. Durable TPE+Copper/Aluminum. Perfect for engraving or printing. HSNCode 85444299.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -621,8 +621,8 @@ export const products = [
     {
         "id": 34,
         "title": "SONIC",
-        "shortDescription": "Urban Gear Sonic: Gray, 1.2M, 100W, 3-in-1 nylon charging cable with luminous chip for easy location in the dark.\n",
-        "longDescription": "Urban Gear Sonic cable: 3-in-1 fast charging (100W). 1.2M nylon wire, flexible & tear-resistant. Features a luminous chip for easy location in the dark. Safe charging with built-in chip. Gray. HSN 85444299.\n",
+        "shortDescription": "Think Print Sonic: Gray, 1.2M, 100W, 3-in-1 nylon charging cable with luminous chip for easy location in the dark.\n",
+        "longDescription": "Think Print Sonic cable: 3-in-1 fast charging (100W). 1.2M nylon wire, flexible & tear-resistant. Features a luminous chip for easy location in the dark. Safe charging with built-in chip. Gray. HSN 85444299.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -720,8 +720,8 @@ export const products = [
     {
         "id": 38,
         "title": "Retractable 3-in-1 Charging Cable - YOYO PRO PASTEL",
-        "shortDescription": "Urban Gear YOYO PRO PASTEL is a retractable 3-in-1 charging cable (Android, C-type, Lightning) with a 120mm copper wire and TPE cord, supporting 5V-2.1A for multiple device charging.\n",
-        "longDescription": "Urban Gear YOYO PRO PASTEL: Charge all your devices with one compact cable! This 3-in-1 cable (Android, Type-C, Lightning) features a retractable 120mm TPE cord with copper wiring. Supports 5V/2.1A charging. Extends/retracts easily. 5x1.5x21.5cm. HSN 854442.\n",
+        "shortDescription": "Think Print YOYO PRO PASTEL is a retractable 3-in-1 charging cable (Android, C-type, Lightning) with a 120mm copper wire and TPE cord, supporting 5V-2.1A for multiple device charging.\n",
+        "longDescription": "Think Print YOYO PRO PASTEL: Charge all your devices with one compact cable! This 3-in-1 cable (Android, Type-C, Lightning) features a retractable 120mm TPE cord with copper wiring. Supports 5V/2.1A charging. Extends/retracts easily. 5x1.5x21.5cm. HSN 854442.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -742,8 +742,8 @@ export const products = [
     {
         "id": 39,
         "title": "Wireless Charger - BOLT",
-        "shortDescription": "Urban Gear BOLT: Compact, white Qi-compatible wireless charger with LED charging status, ample branding space, and over 70% conversion efficiency.\n",
-        "longDescription": "Charge effortlessly with the Urban Gear BOLT wireless charger. Compact (7x7x1cm), it supports Qi-enabled devices. LED indicates charging status: Red (standby/full), Blue (charging). Input: 5V/1500mA, Output: 5V/900mA. >70% efficiency. White, ample branding space.\n",
+        "shortDescription": "Think Print BOLT: Compact, white Qi-compatible wireless charger with LED charging status, ample branding space, and over 70% conversion efficiency.\n",
+        "longDescription": "Charge effortlessly with the Think Print BOLT wireless charger. Compact (7x7x1cm), it supports Qi-enabled devices. LED indicates charging status: Red (standby/full), Blue (charging). Input: 5V/1500mA, Output: 5V/900mA. >70% efficiency. White, ample branding space.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -761,8 +761,8 @@ export const products = [
     {
         "id": 40,
         "title": "3-IN-1 CHARGING CABLE - YOYO C+",
-        "shortDescription": "Urban Gear Yoyo C+ is a retractable 90cm 3-in-1 charging cable (Android, C-Type, Lightning) that can charge two devices simultaneously.\n",
-        "longDescription": "Tired of multiple chargers? Urban Gear's Yoyo C+ is your solution! This retractable 3-in-1 cable (Android, C-Type, Lighting) powers all your devices. Extends to 90cm, retracts easily. Charge two devices simultaneously. Compact size: 13x1.5x4cm. See it in action: https://youtu.be/7R4ZgvjHKqg. HSN 854",
+        "shortDescription": "Think Print Yoyo C+ is a retractable 90cm 3-in-1 charging cable (Android, C-Type, Lightning) that can charge two devices simultaneously.\n",
+        "longDescription": "Tired of multiple chargers? Think Print's Yoyo C+ is your solution! This retractable 3-in-1 cable (Android, C-Type, Lighting) powers all your devices. Extends to 90cm, retracts easily. Charge two devices simultaneously. Compact size: 13x1.5x4cm. See it in action: https://youtu.be/7R4ZgvjHKqg. HSN 854",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -780,8 +780,8 @@ export const products = [
     {
         "id": 42,
         "title": "Retractable 3-in-1 Charging Cable - YOYO PRO",
-        "shortDescription": "Urban Gear YOYO PRO: Retractable 3-in-1 (Android, Type-C, Lightning) charging cable made with copper wire + TPE, 1200mm long, for simultaneous multi-device charging.\n",
-        "longDescription": "Urban Gear's YOYO PRO is your ultimate charging solution. This 3-in-1 retractable cable (Android, Type-C, Lightning) made with copper wire & TPE reaches 1200mm. Charge multiple devices simultaneously. Expand/retract by pulling both ends. HSNCode: 854442\n",
+        "shortDescription": "Think Print YOYO PRO: Retractable 3-in-1 (Android, Type-C, Lightning) charging cable made with copper wire + TPE, 1200mm long, for simultaneous multi-device charging.\n",
+        "longDescription": "Think Print's YOYO PRO is your ultimate charging solution. This 3-in-1 retractable cable (Android, Type-C, Lightning) made with copper wire & TPE reaches 1200mm. Charge multiple devices simultaneously. Expand/retract by pulling both ends. HSNCode: 854442\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -800,8 +800,8 @@ export const products = [
     {
         "id": 43,
         "title": "3-In-1 Charging Cable - M CHRG",
-        "shortDescription": "Urban Gear's 3-in-1 charging cable provides power and transforms into a mobile stand with ample branding space.\n",
-        "longDescription": "Urban Gear's M CHRG is a 3-in-1 charging cable & mobile stand. Charge various devices while using it as a stand. Ample branding space. HSN Code: 854442. See it in action: https://youtu.be/7zvCEc5CpuE.\n",
+        "shortDescription": "Think Print's 3-in-1 charging cable provides power and transforms into a mobile stand with ample branding space.\n",
+        "longDescription": "Think Print's M CHRG is a 3-in-1 charging cable & mobile stand. Charge various devices while using it as a stand. Ample branding space. HSN Code: 854442. See it in action: https://youtu.be/7zvCEc5CpuE.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -820,8 +820,8 @@ export const products = [
     {
         "id": 44,
         "title": "Retractable 3-In-1 Charging Cable - YOYO METAL",
-        "shortDescription": "Urban Gear YOYO METAL: 95cm retractable 3-in-1 (Android, Type-C, Lightning) charging cable for simultaneous multi-device charging.\n",
-        "longDescription": "Urban Gear's YOYO METAL is a 3-in-1 retractable charging cable (Android, Type-C, Lightning) for versatile charging. Extends to 95cm by pulling both ends; retract by pulling again. Charge multiple devices simultaneously. HSNCode 854442. See it in action: https://youtu.be/Q8D8iQsojUo\n",
+        "shortDescription": "Think Print YOYO METAL: 95cm retractable 3-in-1 (Android, Type-C, Lightning) charging cable for simultaneous multi-device charging.\n",
+        "longDescription": "Think Print's YOYO METAL is a 3-in-1 retractable charging cable (Android, Type-C, Lightning) for versatile charging. Extends to 95cm by pulling both ends; retract by pulling again. Charge multiple devices simultaneously. HSNCode 854442. See it in action: https://youtu.be/Q8D8iQsojUo\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -838,8 +838,8 @@ export const products = [
     {
         "id": 45,
         "title": "3-In-1 Charging Cable - CLIP N CHRG",
-        "shortDescription": "Urban Gear Clip N Chrg: 3-in-1 charging cable with carabiner, simultaneous dual-phone charging, and ample branding space.\n",
-        "longDescription": "Urban Gear's CLIP N CHRG is the ultimate charging solution! This 3-in-1 cable (Android, C-type, Lightning) powers your devices with ease. Charge two phones simultaneously & clip it anywhere with the built-in carabiner. Ample branding space included. HSNCode 854442.\n",
+        "shortDescription": "Think Print Clip N Chrg: 3-in-1 charging cable with carabiner, simultaneous dual-phone charging, and ample branding space.\n",
+        "longDescription": "Think Print's CLIP N CHRG is the ultimate charging solution! This 3-in-1 cable (Android, C-type, Lightning) powers your devices with ease. Charge two phones simultaneously & clip it anywhere with the built-in carabiner. Ample branding space included. HSNCode 854442.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -858,8 +858,8 @@ export const products = [
     {
         "id": 46,
         "title": "3-In-1 Charging Cable - KIKY",
-        "shortDescription": "Urban Gear KIKY: A fashionable black keychain with a 3-in-1 charging cable (Android, C-type, Lightning) for on-the-go power.\n",
-        "longDescription": "Urban Gear's KIKY is the ultimate charge-on-the-go solution! This sleek black 3-in-1 cable (Android, C-type, Lightning) ensures all your devices stay powered. Its stylish keychain with a silicon band adds a fashionable touch. HSN 854442. Watch it in action: [https://youtu.be/XYKMHb3AQtU]\n",
+        "shortDescription": "Think Print KIKY: A fashionable black keychain with a 3-in-1 charging cable (Android, C-type, Lightning) for on-the-go power.\n",
+        "longDescription": "Think Print's KIKY is the ultimate charge-on-the-go solution! This sleek black 3-in-1 cable (Android, C-type, Lightning) ensures all your devices stay powered. Its stylish keychain with a silicon band adds a fashionable touch. HSN 854442. Watch it in action: [https://youtu.be/XYKMHb3AQtU]\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -877,8 +877,8 @@ export const products = [
     {
         "id": 47,
         "title": "3-In-1 Charging Cable With Lanyard - LAN-C",
-        "shortDescription": "Urban Gear LAN-C: A 3-in-1 charging cable lanyard for Android, Type-C, and Lightning devices, offering tangle-free charging on the go.\n",
-        "longDescription": "Urban Gear LAN-C: 3-in-1 charging cable (Android, Type-C, Lightning) for all your charging needs. Wear it as an ID card lanyard! 1Mtr flexible TPU, compact, tangle-free design. HSNCode 854449. See it in action: [https://youtu.be/YqoJ2gNgthY](https://youtu.be/YqoJ2gNgthY)\n",
+        "shortDescription": "Think Print LAN-C: A 3-in-1 charging cable lanyard for Android, Type-C, and Lightning devices, offering tangle-free charging on the go.\n",
+        "longDescription": "Think Print LAN-C: 3-in-1 charging cable (Android, Type-C, Lightning) for all your charging needs. Wear it as an ID card lanyard! 1Mtr flexible TPU, compact, tangle-free design. HSNCode 854449. See it in action: [https://youtu.be/YqoJ2gNgthY](https://youtu.be/YqoJ2gNgthY)\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -896,8 +896,8 @@ export const products = [
     {
         "id": 48,
         "title": "3-In-1 Charging Cable - KORD-C",
-        "shortDescription": "Urban Gear KORD-C: A Swiss knife-inspired, white 3-in-1 charging cable with a push-switch connector selection.\n",
-        "longDescription": "Urban Gear KORD-C: The ultimate 3-in-1 charging solution! This Swiss knife-style cable offers Micro USB, Type-C, and Lightning connectors for all your devices. Simply push the switch to select the right one. White, HSN 854442. See it in action: https://youtu.be/JdYna3k2fvo.\n",
+        "shortDescription": "Think Print KORD-C: A Swiss knife-inspired, white 3-in-1 charging cable with a push-switch connector selection.\n",
+        "longDescription": "Think Print KORD-C: The ultimate 3-in-1 charging solution! This Swiss knife-style cable offers Micro USB, Type-C, and Lightning connectors for all your devices. Simply push the switch to select the right one. White, HSN 854442. See it in action: https://youtu.be/JdYna3k2fvo.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -914,8 +914,8 @@ export const products = [
     {
         "id": 49,
         "title": "CHARGE-X",
-        "shortDescription": "Urban Gear Charge-X: Slim 10000mAh Li-Polymer power bank with Micro/Type-C input, 2USB/Type-C output, and LED indicator.\n",
-        "longDescription": "Urban Gear Charge-X powerbank. Slim 10000mAh Li-Polymer battery. Input: Micro & Type-C. Output: 2USB & Type-C. LED indicator. Size: 7 x 13.5 x 1cm. HSN 8507. Power on the go!\n",
+        "shortDescription": "Think Print Charge-X: Slim 10000mAh Li-Polymer power bank with Micro/Type-C input, 2USB/Type-C output, and LED indicator.\n",
+        "longDescription": "Think Print Charge-X powerbank. Slim 10000mAh Li-Polymer battery. Input: Micro & Type-C. Output: 2USB & Type-C. LED indicator. Size: 7 x 13.5 x 1cm. HSN 8507. Power on the go!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -931,8 +931,8 @@ export const products = [
     {
         "id": 50,
         "title": "4-IN-1 Power Bank With Mobile Stand & Built-IN Cables - POWER 10 DISPLAY",
-        "shortDescription": "Urban Gear Power 10 Display: 10,000mAh power bank with built-in cables, mobile stand, and digital display in a compact design.\n",
-        "longDescription": "Urban Gear POWER 10 DISPLAY power bank packs 10000mAh in a 14.5x1.8x6.7cm frame. Features built-in cables (USB, Micro, Type-C, Lightning), digital display, & mobile stand. Lithium Polymer battery, Type-C & Micro USB input (5V/2.1A), 5V/2.1A output. HSN 85076000.\n",
+        "shortDescription": "Think Print Power 10 Display: 10,000mAh power bank with built-in cables, mobile stand, and digital display in a compact design.\n",
+        "longDescription": "Think Print POWER 10 DISPLAY power bank packs 10000mAh in a 14.5x1.8x6.7cm frame. Features built-in cables (USB, Micro, Type-C, Lightning), digital display, & mobile stand. Lithium Polymer battery, Type-C & Micro USB input (5V/2.1A), 5V/2.1A output. HSN 85076000.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -951,8 +951,8 @@ export const products = [
     {
         "id": 51,
         "title": "Slim Power Bank - PALM 5 DISPLAY",
-        "shortDescription": "Urban Gear Palm 5 Display: Slim 5000mAh power bank with dual USB output, digital display, and versatile charging.\n",
-        "longDescription": "Urban Gear PALM 5 DISPLAY power bank: 5000mAh, slim design with digital display. Lithium polymer battery, dual USB 5V/2A output. Type-C & Micro USB input. LED battery indicator & branding space. HSN 850790\n",
+        "shortDescription": "Think Print Palm 5 Display: Slim 5000mAh power bank with dual USB output, digital display, and versatile charging.\n",
+        "longDescription": "Think Print PALM 5 DISPLAY power bank: 5000mAh, slim design with digital display. Lithium polymer battery, dual USB 5V/2A output. Type-C & Micro USB input. LED battery indicator & branding space. HSN 850790\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -970,8 +970,8 @@ export const products = [
     {
         "id": 52,
         "title": "Slim Power Bank - PALM 10",
-        "shortDescription": "Urban Gear Palm 10: Slim 10000mAh power bank with dual USB output, LED indicator, and ample branding space.\n",
-        "longDescription": "Urban Gear PALM 10 power bank,white.10000mAh,slim design. Li-Polymer. Output: 2 USB 5.1V/2.1A. Input: Micro USB. LED indicator. Branding space. HSN 8507.\n",
+        "shortDescription": "Think Print Palm 10: Slim 10000mAh power bank with dual USB output, LED indicator, and ample branding space.\n",
+        "longDescription": "Think Print PALM 10 power bank,white.10000mAh,slim design. Li-Polymer. Output: 2 USB 5.1V/2.1A. Input: Micro USB. LED indicator. Branding space. HSN 8507.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -987,8 +987,8 @@ export const products = [
     {
         "id": 53,
         "title": "Slim Power Bank - PALM 5",
-        "shortDescription": "Urban Gear Palm 5: Slim, sleek 5000mAh power bank with dual USB output and LED indicator, perfect for branding.\n",
-        "longDescription": "Urban Gear PALM 5 power bank. 5000mAh lithium polymer battery in a slim, sleek white design. Dual 5.1V/2.1A USB output, Micro USB input. LED battery indicator & ample branding space. HSNCode 850790.\n",
+        "shortDescription": "Think Print Palm 5: Slim, sleek 5000mAh power bank with dual USB output and LED indicator, perfect for branding.\n",
+        "longDescription": "Think Print PALM 5 power bank. 5000mAh lithium polymer battery in a slim, sleek white design. Dual 5.1V/2.1A USB output, Micro USB input. LED battery indicator & ample branding space. HSNCode 850790.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1003,14 +1003,14 @@ export const products = [
     {
         "id": 54,
         "title": "WEBCAM COVER",
-        "shortDescription": "Urban Gear Webcam Cover: Slim slide-to-hide camera cover for laptops and phones, customizable with logo options.\n",
-        "longDescription": "Urban Gear Webcam Cover: Safeguard your privacy with this super slim 4.3x1.6cm cover. Easy to install, slide to hide/reveal your webcam. Options for LOGO: Screen, UV or DTF printing. UG NAME WEBCAM COVER.\n",
+        "shortDescription": "Think Print Webcam Cover: Slim slide-to-hide camera cover for laptops and phones, customizable with logo options.\n",
+        "longDescription": "Think Print Webcam Cover: Safeguard your privacy with this super slim 4.3x1.6cm cover. Easy to install, slide to hide/reveal your webcam. Options for LOGO: Screen, UV or DTF printing. TP NAME WEBCAM COVER.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
         "img": "/products/webcam_cover/webcam_cover1.webp",
         "designSpecifications": [
-            "UG NAME WEBCAM COVER, thinkPrint, 85299090, Black, 4.3 x 1.6 cm, ABS Plastic, 2g, 2 x 0.5 cm, Screen Printing,",
+            "TP NAME WEBCAM COVER, thinkPrint, 85299090, Black, 4.3 x 1.6 cm, ABS Plastic, 2g, 2 x 0.5 cm, Screen Printing,",
             ""
         ],
         "thumbnailImages": [
@@ -1021,8 +1021,8 @@ export const products = [
     {
         "id": 55,
         "title": "Dazzle",
-        "shortDescription": "Urban Gear Dazzle: Touch-controlled LED desk lamp with wireless charging, phone holder, and ample branding space.\n",
-        "longDescription": "Urban Gear Dazzle: LED desk lamp with a 15W fast wireless charger, built-in phone stand, and adjustable neck. Features ample branding space for DTF stickers. Size: 11x1.5x21cm. HSN Code: 94051090. Touch LED controls.\n",
+        "shortDescription": "Think Print Dazzle: Touch-controlled LED desk lamp with wireless charging, phone holder, and ample branding space.\n",
+        "longDescription": "Think Print Dazzle: LED desk lamp with a 15W fast wireless charger, built-in phone stand, and adjustable neck. Features ample branding space for DTF stickers. Size: 11x1.5x21cm. HSN Code: 94051090. Touch LED controls.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1039,8 +1039,8 @@ export const products = [
     {
         "id": 56,
         "title": "Smiley",
-        "shortDescription": "Urban Gear Smiley: Table clock with 15W wireless charger, mobile stand, and ample branding options (engrave, UV print, screen print, DTF sticker).\n",
-        "longDescription": "The Urban Gear Smiley table clock blends functionality and style. This compact 12.5cm clock boasts a built-in 15W wireless charger and mobile stand. Customize it with your logo via engraving, UV printing, screen printing or DTF sticker. HSN 91099990.\n",
+        "shortDescription": "Think Print Smiley: Table clock with 15W wireless charger, mobile stand, and ample branding options (engrave, UV print, screen print, DTF sticker).\n",
+        "longDescription": "The Think Print Smiley table clock blends functionality and style. This compact 12.5cm clock boasts a built-in 15W wireless charger and mobile stand. Customize it with your logo via engraving, UV printing, screen printing or DTF sticker. HSN 91099990.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1057,8 +1057,8 @@ export const products = [
     {
         "id": 57,
         "title": "LAPLITE",
-        "shortDescription": "Urban Gear LAPLITE: Portable laptop light for on-the-go illumination.\n",
-        "longDescription": "Urban Gear Laplite: Your portable, lightweight desk solution! Comfortably work or browse anywhere. Durable, stable design. Perfect for laptops, tablets, and books. Enhances posture and productivity.\n",
+        "shortDescription": "Think Print LAPLITE: Portable laptop light for on-the-go illumination.\n",
+        "longDescription": "Think Print Laplite: Your portable, lightweight desk solution! Comfortably work or browse anywhere. Durable, stable design. Perfect for laptops, tablets, and books. Enhances posture and productivity.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1076,8 +1076,8 @@ export const products = [
     {
         "id": 58,
         "title": "BLEU Mirror Lens Bamboo Sunglass",
-        "shortDescription": "Urban Gear BLEU: Stylish black sunglasses with UV400 lenses, impact-resistant frame, bamboo arms, and pouch.\n",
-        "longDescription": "Urban Gear BLEU sunglasses: sleek black frames with stylish bamboo arms. Fitted with 100% UV400 lenses (Intertek tested), impact-resistant polycarbonate frame. Includes pouch. Elevate your style!\n",
+        "shortDescription": "Think Print BLEU: Stylish black sunglasses with UV400 lenses, impact-resistant frame, bamboo arms, and pouch.\n",
+        "longDescription": "Think Print BLEU sunglasses: sleek black frames with stylish bamboo arms. Fitted with 100% UV400 lenses (Intertek tested), impact-resistant polycarbonate frame. Includes pouch. Elevate your style!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1095,8 +1095,8 @@ export const products = [
     {
         "id": 59,
         "title": "SHADES Fashion Sunglasses",
-        "shortDescription": "Urban Gear SHADES: Stylish black sunglasses with 100% UV400 lenses, Intertek tested, and includes a stylish pouch.\n",
-        "longDescription": "Urban Gear SHADES offer quality fashion & eye protection. Fitted with 100% UV400 lenses (Intertek tested). Black frame. Includes stylish pouch. HSNCode 42023290.\n",
+        "shortDescription": "Think Print SHADES: Stylish black sunglasses with 100% UV400 lenses, Intertek tested, and includes a stylish pouch.\n",
+        "longDescription": "Think Print SHADES offer quality fashion & eye protection. Fitted with 100% UV400 lenses (Intertek tested). Black frame. Includes stylish pouch. HSNCode 42023290.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1111,8 +1111,8 @@ export const products = [
     {
         "id": 60,
         "title": "BAMBOO PHONE HOLDER KEYCHAIN",
-        "shortDescription": "Urban Gear Bamboo Phone Holder Keychain in natural color.\n",
-        "longDescription": "Urban Gear's BAMBOO PHONE HOLDER KEYCHAIN. Natural wood offers a unique, compact, and eco-friendly way to prop your phone. A stylish and functional everyday essential.\n",
+        "shortDescription": "Think Print Bamboo Phone Holder Keychain in natural color.\n",
+        "longDescription": "Think Print's BAMBOO PHONE HOLDER KEYCHAIN. Natural wood offers a unique, compact, and eco-friendly way to prop your phone. A stylish and functional everyday essential.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1130,8 +1130,8 @@ export const products = [
     {
         "id": 61,
         "title": "2-In-1 Night Lamp With 2 USB Charger - LUMI",
-        "shortDescription": "Urban Gear LUMI: Compact LED night lamp with dual USB charging ports, ideal for most USB devices and ample branding.\n",
-        "longDescription": "Urban Gear LUMI: Compact LED night lamp with switch and dual USB charging ports. Size: 5.5*3.5*9cm. Charges most USB devices. Features ample branding space. HSNCode: 853669.\n",
+        "shortDescription": "Think Print LUMI: Compact LED night lamp with dual USB charging ports, ideal for most USB devices and ample branding.\n",
+        "longDescription": "Think Print LUMI: Compact LED night lamp with switch and dual USB charging ports. Size: 5.5*3.5*9cm. Charges most USB devices. Features ample branding space. HSNCode: 853669.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1150,8 +1150,8 @@ export const products = [
     {
         "id": 62,
         "title": "2-In-1 Portable Fan & Power Bank - POWRFAN",
-        "shortDescription": "Urban Gear POWRFAN: Ergonomic desktop fan with a built-in 2200mAh power bank for convenient cooling and charging.\n",
-        "longDescription": "Stay cool & charged with the Urban Gear POWRFAN! This ergonomic desktop fan features a built-in 2200mAh power bank for on-the-go charging (5V/1A input/output). White finish, ample branding space. HSN Code: 841415. See it in action: [https://youtu.be/dKj4B0kmW5I](https://youtu.be/dKj4B0kmW5I)\n",
+        "shortDescription": "Think Print POWRFAN: Ergonomic desktop fan with a built-in 2200mAh power bank for convenient cooling and charging.\n",
+        "longDescription": "Stay cool & charged with the Think Print POWRFAN! This ergonomic desktop fan features a built-in 2200mAh power bank for on-the-go charging (5V/1A input/output). White finish, ample branding space. HSN Code: 841415. See it in action: [https://youtu.be/dKj4B0kmW5I](https://youtu.be/dKj4B0kmW5I)\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1168,8 +1168,8 @@ export const products = [
     {
         "id": 63,
         "title": "USB Metal Pen",
-        "shortDescription": "Urban Gear Black Executive Twist Ballpoint Pen with Integrated 16GB USB Drive (Box Not Included).\n",
-        "longDescription": "Urban Gear's USB Pen (16 GB) blends executive style with functionality. This sleek black metallic ballpoint pen features a twist design and a built-in 16GB pen drive for seamless data storage. HSN Code 9608. (Box not included).\n",
+        "shortDescription": "Think Print Black Executive Twist Ballpoint Pen with Integrated 16GB USB Drive (Box Not Included).\n",
+        "longDescription": "Think Print's USB Pen (16 GB) blends executive style with functionality. This sleek black metallic ballpoint pen features a twist design and a built-in 16GB pen drive for seamless data storage. HSN Code 9608. (Box not included).\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1188,8 +1188,8 @@ export const products = [
     {
         "id": 64,
         "title": "Key Finder -TRACKFAST",
-        "shortDescription": "Urban Gear TrackFast: Track keys, phone, and belongings up to 50m with anti-lost alarm, location tracking, selfie button, and ample branding space.\n",
-        "longDescription": "Never lose keys, phone, or valuables again with Urban Gear TrackFast! This key/item finder boasts a 50m range, anti-lost alarm, location tracking, & mobile finder. Plus, snap selfies easily. Ample branding space.\n",
+        "shortDescription": "Think Print TrackFast: Track keys, phone, and belongings up to 50m with anti-lost alarm, location tracking, selfie button, and ample branding space.\n",
+        "longDescription": "Never lose keys, phone, or valuables again with Think Print TrackFast! This key/item finder boasts a 50m range, anti-lost alarm, location tracking, & mobile finder. Plus, snap selfies easily. Ample branding space.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1207,8 +1207,8 @@ export const products = [
     {
         "id": 65,
         "title": "TORNADO",
-        "shortDescription": "Urban Gear Tornado: Multi-functional LED desk lamp with fan, wireless charger, pen holder, and adjustable neck, in black or white.\n",
-        "longDescription": "Urban Gear Tornado desk lamp: LED touch control, integrated fan, mobile stand, pen holder, adjustable gooseneck, & 15W wireless charger. Compact design (12x7.5x39.5cm). Sleek black/white. HSN 94051090.\n",
+        "shortDescription": "Think Print Tornado: Multi-functional LED desk lamp with fan, wireless charger, pen holder, and adjustable neck, in black or white.\n",
+        "longDescription": "Think Print Tornado desk lamp: LED touch control, integrated fan, mobile stand, pen holder, adjustable gooseneck, & 15W wireless charger. Compact design (12x7.5x39.5cm). Sleek black/white. HSN 94051090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1231,7 +1231,7 @@ export const products = [
         "id": 66,
         "title": "Glo Beats Pro",
         "shortDescription": "Glo Beats Pro: Multi-function LED desk lamp with Bluetooth speaker, adjustable neck, and mobile stand.\n",
-        "longDescription": "The Urban Gear Glo Beats Pro (UG-GL19) is a multi-function LED desk lamp with a 3W Bluetooth speaker, built-in mobile stand, and stationery/pen holder. Its adjustable gooseneck and touch controls offer customizable lighting. Dimensions: 11x11x44cm. HSN Code: 96089910.\n",
+        "longDescription": "The Think Print Glo Beats Pro (TP-GL19) is a multi-function LED desk lamp with a 3W Bluetooth speaker, built-in mobile stand, and stationery/pen holder. Its adjustable gooseneck and touch controls offer customizable lighting. Dimensions: 11x11x44cm. HSN Code: 96089910.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1250,8 +1250,8 @@ export const products = [
     {
         "id": 67,
         "title": "15W SUPER QUICK CHARGE-THUNDER",
-        "shortDescription": "Urban Gear Thunder: Multifunctional 15W quick-charging desk lamp with pen holder and mobile stand.\n",
-        "longDescription": "Urban Gear Thunder: A multi-function desktop marvel! This 16x7.7x42.5cm device features a touch LED lamp, built-in mobile stand, pen holder, adjustable goose neck, and 15W quick charge. See it in action: youtu.be/jmWQciNOmJI\n",
+        "shortDescription": "Think Print Thunder: Multifunctional 15W quick-charging desk lamp with pen holder and mobile stand.\n",
+        "longDescription": "Think Print Thunder: A multi-function desktop marvel! This 16x7.7x42.5cm device features a touch LED lamp, built-in mobile stand, pen holder, adjustable goose neck, and 15W quick charge. See it in action: youtu.be/jmWQciNOmJI\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1270,8 +1270,8 @@ export const products = [
     {
         "id": 68,
         "title": "15W SUPER QUICK CHARGE-BOLT",
-        "shortDescription": "Urban Gear BOLT: 15W quick-charging touch LED desk lamp with mobile stand, pen holder, and adjustable gooseneck, sized 11x6.5x42.5cm.\n",
-        "longDescription": "Urban Gear Bolt: The ultimate multi-function desktop solution! This 11x6.5x42.5cm device features a touch LED lamp with adjustable gooseneck, built-in mobile stand, pen holder, and 15W quick charging. HSN 94054900.\n",
+        "shortDescription": "Think Print BOLT: 15W quick-charging touch LED desk lamp with mobile stand, pen holder, and adjustable gooseneck, sized 11x6.5x42.5cm.\n",
+        "longDescription": "Think Print Bolt: The ultimate multi-function desktop solution! This 11x6.5x42.5cm device features a touch LED lamp with adjustable gooseneck, built-in mobile stand, pen holder, and 15W quick charging. HSN 94054900.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1290,8 +1290,8 @@ export const products = [
     {
         "id": 69,
         "title": "4-in-1 Desk Lamp With Stationery Holder - DESKLITE",
-        "shortDescription": "Urban Gear DESKLITE: White touch LED desk lamp with mobile stand, pen holder, adjustable neck, and built-in battery (11.5x11.5x34.5 cm).\n",
-        "longDescription": "Illuminate your workspace with Urban Gear DESKLITE. This touch-LED lamp boasts a mobile stand, pen holder, & adjustable gooseneck. Cordless, white, & measures 11.5x11.5x34.5cm. Built-in battery for portability.\n",
+        "shortDescription": "Think Print DESKLITE: White touch LED desk lamp with mobile stand, pen holder, adjustable neck, and built-in battery (11.5x11.5x34.5 cm).\n",
+        "longDescription": "Illuminate your workspace with Think Print DESKLITE. This touch-LED lamp boasts a mobile stand, pen holder, & adjustable gooseneck. Cordless, white, & measures 11.5x11.5x34.5cm. Built-in battery for portability.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1310,8 +1310,8 @@ export const products = [
     {
         "id": 70,
         "title": "COB LED FLASH LIGHT - ZOOM",
-        "shortDescription": "Urban Gear Zoom: Compact, durable black aluminum COB LED flashlight with adjustable focus, four modes, and a convenient clip.\n",
-        "longDescription": "Urban Gear's ZOOM is a pocket-sized powerhouse. This COB LED flashlight features adjustable focus, 4 modes (High, Low, Beam, Flash), and a durable aluminum body. Clips easily. Uses 1 AA battery (not included). Black. 9x2x2 cm.\n",
+        "shortDescription": "Think Print Zoom: Compact, durable black aluminum COB LED flashlight with adjustable focus, four modes, and a convenient clip.\n",
+        "longDescription": "Think Print's ZOOM is a pocket-sized powerhouse. This COB LED flashlight features adjustable focus, 4 modes (High, Low, Beam, Flash), and a durable aluminum body. Clips easily. Uses 1 AA battery (not included). Black. 9x2x2 cm.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1327,8 +1327,8 @@ export const products = [
     {
         "id": 71,
         "title": "5-In-1 Desk Lampu - LAMPU",
-        "shortDescription": "Urban Gear LAMPU: 5-in-1 touch LED desk lamp with mobile stand, pen holder, adjustable neck, USB charging, memo pad, and 3 color modes.\n",
-        "longDescription": "Urban Gear LAMPU is a 5-in-1 marvel! This white Touch LED desk lamp boasts a phone stand, pen holder, & erasable memo pad. Features a flexible gooseneck, USB charging, & 3 light modes (white, warm, mixed). HSNCode 940520.\n",
+        "shortDescription": "Think Print LAMPU: 5-in-1 touch LED desk lamp with mobile stand, pen holder, adjustable neck, USB charging, memo pad, and 3 color modes.\n",
+        "longDescription": "Think Print LAMPU is a 5-in-1 marvel! This white Touch LED desk lamp boasts a phone stand, pen holder, & erasable memo pad. Features a flexible gooseneck, USB charging, & 3 light modes (white, warm, mixed). HSNCode 940520.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1347,8 +1347,8 @@ export const products = [
     {
         "id": 72,
         "title": "LED Flash Light - ZOOM PRO",
-        "shortDescription": "Urban Gear Zoom Pro: Durable, rechargeable, pocket LED flashlight with adjustable focus, COB, multiple modes, and protective case, perfect for on-the-go illumination.\n",
-        "longDescription": "Urban Gear Zoom Pro: Your rugged & reliable pocket light. Features COB, telephonic zoom, 3 modes (high, blink, beam), pocket clip & tough aluminum body. Rechargeable. Incl. case. Black. HSN: 851310\n",
+        "shortDescription": "Think Print Zoom Pro: Durable, rechargeable, pocket LED flashlight with adjustable focus, COB, multiple modes, and protective case, perfect for on-the-go illumination.\n",
+        "longDescription": "Think Print Zoom Pro: Your rTPged & reliable pocket light. Features COB, telephonic zoom, 3 modes (high, blink, beam), pocket clip & toTPh aluminum body. Rechargeable. Incl. case. Black. HSN: 851310\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1366,8 +1366,8 @@ export const products = [
     {
         "id": 73,
         "title": "2-In-1 Torch With Table Lamp - GLOWY",
-        "shortDescription": "Urban Gear GLOWY: A versatile torch, table lamp, reading light, and emergency phone charger with included rechargeable batteries.\n",
-        "longDescription": "Urban Gear's Glowy: Your versatile companion! Torch, table & reading lamp illuminate any space. Rechargeable. Doubles as emergency phone charger. HSN 851310.\n",
+        "shortDescription": "Think Print GLOWY: A versatile torch, table lamp, reading light, and emergency phone charger with included rechargeable batteries.\n",
+        "longDescription": "Think Print's Glowy: Your versatile companion! Torch, table & reading lamp illuminate any space. Rechargeable. Doubles as emergency phone charger. HSN 851310.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1385,8 +1385,8 @@ export const products = [
     {
         "id": 74,
         "title": "2-In-1 Torch With Table Lamp - DUOLITE",
-        "shortDescription": "Urban Gear DUOLITE: a versatile 2-in-1 black torch and adjustable angle table/reading lamp powered by 2xAA batteries (not included).\n",
-        "longDescription": "Urban Gear DUOLITE: Your versatile lighting solution. This black torch easily converts to a table or reading lamp. Angle adjustable for focused light. Requires 2xAA batteries (not included). HSN 9405.\n",
+        "shortDescription": "Think Print DUOLITE: a versatile 2-in-1 black torch and adjustable angle table/reading lamp powered by 2xAA batteries (not included).\n",
+        "longDescription": "Think Print DUOLITE: Your versatile lighting solution. This black torch easily converts to a table or reading lamp. Angle adjustable for focused light. Requires 2xAA batteries (not included). HSN 9405.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1403,8 +1403,8 @@ export const products = [
     {
         "id": 75,
         "title": "Desk Lamp With Mobile Stand - BRYTO 2.0",
-        "shortDescription": "Urban Gear BRYTO 2.0: White, rechargeable LED desk lamp with touch controls, 3 light modes, flexible goose-neck, and integrated mobile/stationary stand.\n",
-        "longDescription": "Illuminate your workspace with the Urban Gear Bryto 2.0 LED desk lamp. Featuring touch sensor control, 3 light modes, and a flexible gooseneck adjustable to 360\u00b0. It doubles as a stationary and mobile stand. Rechargeable batteries included. Color: White. HSN 8513.\n",
+        "shortDescription": "Think Print BRYTO 2.0: White, rechargeable LED desk lamp with touch controls, 3 light modes, flexible goose-neck, and integrated mobile/stationary stand.\n",
+        "longDescription": "Illuminate your workspace with the Think Print Bryto 2.0 LED desk lamp. Featuring touch sensor control, 3 light modes, and a flexible gooseneck adjustable to 360\u00b0. It doubles as a stationary and mobile stand. Rechargeable batteries included. Color: White. HSN 8513.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1422,8 +1422,8 @@ export const products = [
     {
         "id": 76,
         "title": "2-In-1 USB Car Charger With Window Breaker - KAR-3",
-        "shortDescription": "Urban Gear KAR-3 travel car charger with dual USB ports and emergency window breaker charges two devices simultaneously.\n",
-        "longDescription": "Urban Gear KAR-3 travel car charger. Charge 2 devices simultaneously via USB (1A & 2.1A). Compatible with smartphones, tablets, MP3 players. Features an emergency window breaker for safety. HSN 850490.\n",
+        "shortDescription": "Think Print KAR-3 travel car charger with dual USB ports and emergency window breaker charges two devices simultaneously.\n",
+        "longDescription": "Think Print KAR-3 travel car charger. Charge 2 devices simultaneously via USB (1A & 2.1A). Compatible with smartphones, tablets, MP3 players. Features an emergency window breaker for safety. HSN 850490.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1442,8 +1442,8 @@ export const products = [
     {
         "id": 77,
         "title": "USB Car Charger (2 Ports) - KAR-2",
-        "shortDescription": "Urban Gear KAR-2 travel car charger with dual USB ports (1A & 2.1A) simultaneously charges smartphones, tablets, and MP3 players, featuring illuminated connection and ample branding space.\n",
-        "longDescription": "Urban Gear KAR-2 travel car charger. Dual USB ports (1A & 2.1A) for simultaneous charging of smartphones, tablets, MP3 players. Lights up when connected. HSNCode 8504. Ample branding space.\n",
+        "shortDescription": "Think Print KAR-2 travel car charger with dual USB ports (1A & 2.1A) simultaneously charges smartphones, tablets, and MP3 players, featuring illuminated connection and ample branding space.\n",
+        "longDescription": "Think Print KAR-2 travel car charger. Dual USB ports (1A & 2.1A) for simultaneous charging of smartphones, tablets, MP3 players. Lights up when connected. HSNCode 8504. Ample branding space.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
@@ -1461,8 +1461,8 @@ export const products = [
     {
         "id": 78,
         "title": "Folding Duffel Bag - DUFL PRO",
-        "shortDescription": "Urban Gear DUFL PRO: Water-resistant, sporty duffel bag expands from compact (20x20cm) to spacious (37x43x17cm).\n",
-        "longDescription": "The Urban Gear DUFL PRO boasts water-resistant material and a sporty design. Compact at 20x20cm (closed), it expands to 37x43x17cm. Ideal for gym or travel. HSN Code: 42029900.\n",
+        "shortDescription": "Think Print DUFL PRO: Water-resistant, sporty duffel bag expands from compact (20x20cm) to spacious (37x43x17cm).\n",
+        "longDescription": "The Think Print DUFL PRO boasts water-resistant material and a sporty design. Compact at 20x20cm (closed), it expands to 37x43x17cm. Ideal for gym or travel. HSN Code: 42029900.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1481,8 +1481,8 @@ export const products = [
     {
         "id": 79,
         "title": "Ipacy Pro",
-        "shortDescription": "Urban Gear Ipacy Pro: a foldable, water-resistant 15L backpack with bottle pockets and a sporty design.\n",
-        "longDescription": "Ipacy Pro Foldable Backpack by Urban Gear. Compact (16x22cm closed), expands to 42x27x13cm (15L). Water-resistant, sporty design with bottle pockets. HSN 420232. Perfect for travel & everyday use.\n",
+        "shortDescription": "Think Print Ipacy Pro: a foldable, water-resistant 15L backpack with bottle pockets and a sporty design.\n",
+        "longDescription": "Ipacy Pro Foldable Backpack by Think Print. Compact (16x22cm closed), expands to 42x27x13cm (15L). Water-resistant, sporty design with bottle pockets. HSN 420232. Perfect for travel & everyday use.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1501,8 +1501,8 @@ export const products = [
     {
         "id": 80,
         "title": "Foldable Duffel Bag - DUFLPAC (SPORT)",
-        "shortDescription": "Urban Gear DUFLPAC (SPORT): Lightweight, water-resistant, foldable travel duffel bag with premium nylon and a sporty design, perfect for unisex use and trolley compatibility.\n",
-        "longDescription": "Urban Gear DUFLPAC (SPORT): Foldable travel duffel bag crafted from premium, water-resistant nylon. Sporty look with front zip. Lightweight yet high-volume. Supports trolley handle. Adjustable straps. Unisex design. HSN Code 420222.\n",
+        "shortDescription": "Think Print DUFLPAC (SPORT): Lightweight, water-resistant, foldable travel duffel bag with premium nylon and a sporty design, perfect for unisex use and trolley compatibility.\n",
+        "longDescription": "Think Print DUFLPAC (SPORT): Foldable travel duffel bag crafted from premium, water-resistant nylon. Sporty look with front zip. Lightweight yet high-volume. Supports trolley handle. Adjustable straps. Unisex design. HSN Code 420222.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1519,8 +1519,8 @@ export const products = [
     {
         "id": 81,
         "title": "Foldable Duffel Bag - DUFLPAC",
-        "shortDescription": "Urban Gear DUFLPAC: Foldable, water-resistant denim travel duffel bag, offering lightweight heavy volume with front zipper convenience.\n",
-        "longDescription": "Urban Gear DUFLPAC: The ultimate travel companion. Premium denim, folds to 19x20x3cm. Water-resistant, lightweight yet high-volume. Features a front zipper. Unisex. HSN 420232. See it in action: youtu.be/RMKBPfEWF6U\n",
+        "shortDescription": "Think Print DUFLPAC: Foldable, water-resistant denim travel duffel bag, offering lightweight heavy volume with front zipper convenience.\n",
+        "longDescription": "Think Print DUFLPAC: The ultimate travel companion. Premium denim, folds to 19x20x3cm. Water-resistant, lightweight yet high-volume. Features a front zipper. Unisex. HSN 420232. See it in action: youtu.be/RMKBPfEWF6U\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1539,8 +1539,8 @@ export const products = [
     {
         "id": 82,
         "title": "Foldable Backpack - IPACY 2.0",
-        "shortDescription": "Urban Gear iPACY 2.0: A lightweight, unisex, water-resistant, fold-able denim travel backpack with multi-pockets, trolley support, and adjustable straps.\n",
-        "longDescription": "Urban Gear iPACY 2.0: The ultimate travel companion. This fold-able backpack features a premium denim finish, water resistance, adjustable straps & multiple pockets. Lightweight yet high-volume, it includes side pouches, trolley support & suits all genders. HSN 420232. See it in action: youtu.be/DT9",
+        "shortDescription": "Think Print iPACY 2.0: A lightweight, unisex, water-resistant, fold-able denim travel backpack with multi-pockets, trolley support, and adjustable straps.\n",
+        "longDescription": "Think Print iPACY 2.0: The ultimate travel companion. This fold-able backpack features a premium denim finish, water resistance, adjustable straps & multiple pockets. Lightweight yet high-volume, it includes side pouches, trolley support & suits all genders. HSN 420232. See it in action: youtu.be/DT9",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1625,7 +1625,7 @@ export const products = [
         "id": 86,
         "title": "OFFICE BAG Computer Bag",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear Office Bag: 39*28*2cm, velour. Features many zippered front pockets, velcro back pockets & extra components front/back. Includes a trolley strap. HSNCode 42029900.\n",
+        "longDescription": "Think Print Office Bag: 39*28*2cm, velour. Features many zippered front pockets, velcro back pockets & extra components front/back. Includes a trolley strap. HSNCode 42029900.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1643,8 +1643,8 @@ export const products = [
     {
         "id": 87,
         "title": "Travel Toiletry Pouch CAREPAC PRO",
-        "shortDescription": "Urban Gear CAREPAC PRO: Water-resistant bag with back zipper pocket, hanging hook, mesh pockets, and multiple compartments for easy organization.\n",
-        "longDescription": "Urban Gear's CAREPAC PRO is water-resistant with multiple compartments, easy-open zipper pullers, and mesh pockets. Features a back zipper pocket and hanging hook. HSNCode 42029900.\n",
+        "shortDescription": "Think Print CAREPAC PRO: Water-resistant bag with back zipper pocket, hanging hook, mesh pockets, and multiple compartments for easy organization.\n",
+        "longDescription": "Think Print's CAREPAC PRO is water-resistant with multiple compartments, easy-open zipper pullers, and mesh pockets. Features a back zipper pocket and hanging hook. HSNCode 42029900.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1662,8 +1662,8 @@ export const products = [
     {
         "id": 88,
         "title": "DIGIPOUCH 2.0",
-        "shortDescription": "Urban Gear DigiPouch 2.0: Premium denim, water-resistant travel case with elastic bands, wrist strap, and easy-open zippers for organized gadget storage (24*17.5*3cm closed).\n",
-        "longDescription": "Urban Gear's DIGIPOUCH 2.0: The perfect travel companion! Premium denim case (24x17.5x3cm closed). Water-resistant, with elastic bands to secure gadgets. Expands to 24x37.5x1.5cm when open. Unisex design with wrist strap & easy-grip zipper pullers. HSN 4202.\n",
+        "shortDescription": "Think Print DigiPouch 2.0: Premium denim, water-resistant travel case with elastic bands, wrist strap, and easy-open zippers for organized gadget storage (24*17.5*3cm closed).\n",
+        "longDescription": "Think Print's DIGIPOUCH 2.0: The perfect travel companion! Premium denim case (24x17.5x3cm closed). Water-resistant, with elastic bands to secure gadgets. Expands to 24x37.5x1.5cm when open. Unisex design with wrist strap & easy-grip zipper pullers. HSN 4202.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1681,8 +1681,8 @@ export const products = [
     {
         "id": 89,
         "title": "LAPPY",
-        "shortDescription": "Urban Gear LAPPY: A 14\" cushioned vegan leather and canvas laptop sleeve for stylish protection.\n",
-        "longDescription": "Protect your laptop in style with Urban Gear's LAPPY sleeve. Crafted from vegan leather and canvas, this 40x28cm cushioned sleeve fits laptops up to 14\" securely. Features a button closure for easy access and a touch of elegance.\n",
+        "shortDescription": "Think Print LAPPY: A 14\" cushioned vegan leather and canvas laptop sleeve for stylish protection.\n",
+        "longDescription": "Protect your laptop in style with Think Print's LAPPY sleeve. Crafted from vegan leather and canvas, this 40x28cm cushioned sleeve fits laptops up to 14\" securely. Features a button closure for easy access and a touch of elegance.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1701,8 +1701,8 @@ export const products = [
     {
         "id": 90,
         "title": "Travel Toiletry Pouch - CAREPAC 2.0",
-        "shortDescription": "Urban Gear CAREPAC 2.0: Premium denim, water-resistant travel toiletry case with multiple compartments, hanging hook, and wrist strap, suitable for all.\n",
-        "longDescription": "Urban Gear CAREPAC 2.0: A stylish & practical denim toiletry case in blue. Water-resistant with multiple pockets, breathable mesh, & a hanging hook. Features easy-pull zippers & a wrist strap. Unisex. HSNCode 420232.\n",
+        "shortDescription": "Think Print CAREPAC 2.0: Premium denim, water-resistant travel toiletry case with multiple compartments, hanging hook, and wrist strap, suitable for all.\n",
+        "longDescription": "Think Print CAREPAC 2.0: A stylish & practical denim toiletry case in blue. Water-resistant with multiple pockets, breathable mesh, & a hanging hook. Features easy-pull zippers & a wrist strap. Unisex. HSNCode 420232.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1719,8 +1719,8 @@ export const products = [
     {
         "id": 91,
         "title": "Travel Digital Pouch - DIGIPOUCH COMPACT",
-        "shortDescription": "Urban Gear Digipouch Compact: Premium denim, water-resistant travel case with multiple compartments for organizing digital accessories.\n",
-        "longDescription": "Urban Gear's DIGIPOUCH COMPACT: Denim-finish travel case (19*13*2cm closed). Water-resistant, unisex design. Features zipped mesh, Velcro band for HDD/mobile, & extra mesh compartments. Easy-grip zipper pulls. HSN 420232.\n",
+        "shortDescription": "Think Print Digipouch Compact: Premium denim, water-resistant travel case with multiple compartments for organizing digital accessories.\n",
+        "longDescription": "Think Print's DIGIPOUCH COMPACT: Denim-finish travel case (19*13*2cm closed). Water-resistant, unisex design. Features zipped mesh, Velcro band for HDD/mobile, & extra mesh compartments. Easy-grip zipper pulls. HSN 420232.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1833,7 +1833,7 @@ export const products = [
         "id": 97,
         "title": "Travel Mobile & Passport Cover - AVIATOR",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear's Aviator travel pouch. Sleek & stylish faux leather. Holds travel/money essentials. Features card & passport slots. Unisex design. Closed: 9.8*17.8*0.7cm. Open: 20*17.8*0.2cm. HSNCode: 420212\n",
+        "longDescription": "Think Print's Aviator travel pouch. Sleek & stylish faux leather. Holds travel/money essentials. Features card & passport slots. Unisex design. Closed: 9.8*17.8*0.7cm. Open: 20*17.8*0.2cm. HSNCode: 420212\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1851,8 +1851,8 @@ export const products = [
     {
         "id": 98,
         "title": "Travel Passport Cover - AVION JR.",
-        "shortDescription": "Urban Gear Avion Jr.: Sleek faux leather passport cover with card and cash slots for stylish, unisex travel essentials.\n",
-        "longDescription": "Urban Gear's AVION JR. passport cover. Sleek & stylish in high-quality faux leather. Unisex design with card & passport slots for travel essentials. Keep documents and currency secure on the go. HSNCode 420212.\n",
+        "shortDescription": "Think Print Avion Jr.: Sleek faux leather passport cover with card and cash slots for stylish, unisex travel essentials.\n",
+        "longDescription": "Think Print's AVION JR. passport cover. Sleek & stylish in high-quality faux leather. Unisex design with card & passport slots for travel essentials. Keep documents and currency secure on the go. HSNCode 420212.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1870,8 +1870,8 @@ export const products = [
     {
         "id": 99,
         "title": "Travel Passport Cover - AVION",
-        "shortDescription": "Urban Gear Avion: Stylish faux leather passport cover with card, ticket, and passport slots for organized, unisex travel essentials.\n",
-        "longDescription": "Travel smart with Urban Gear's AVION passport cover. Crafted from high-quality faux leather, its sleek design protects your passport. Unisex, stylish, and functional with card, ticket & passport slots for travel essentials. HSN 420299.\n",
+        "shortDescription": "Think Print Avion: Stylish faux leather passport cover with card, ticket, and passport slots for organized, unisex travel essentials.\n",
+        "longDescription": "Travel smart with Think Print's AVION passport cover. Crafted from high-quality faux leather, its sleek design protects your passport. Unisex, stylish, and functional with card, ticket & passport slots for travel essentials. HSN 420299.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1889,8 +1889,8 @@ export const products = [
     {
         "id": 100,
         "title": "MULTI POUCH Travel Multi Purpose Pouch",
-        "shortDescription": "Urban Gear Black Multi Pouch, a portable polyester utility bag with handle, sized 18.5x7.5x11cm.\n",
-        "longDescription": "Urban Gear MULTI POUCH: Your go-to organizer! Compact & durable polyester bag (18.5x7.5x11cm). Black. Ideal as a digital bag or for everyday essentials. Portable handle for easy carry. HSNCode 42029900.\n",
+        "shortDescription": "Think Print Black Multi Pouch, a portable polyester utility bag with handle, sized 18.5x7.5x11cm.\n",
+        "longDescription": "Think Print MULTI POUCH: Your go-to organizer! Compact & durable polyester bag (18.5x7.5x11cm). Black. Ideal as a digital bag or for everyday essentials. Portable handle for easy carry. HSNCode 42029900.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1908,8 +1908,8 @@ export const products = [
     {
         "id": 101,
         "title": "TECHIE DUAL POUCH Travel Digital Bag Organizer",
-        "shortDescription": "Urban Gear Techie Dual Pouch: Polyester and faux leather tech organizer with dual compartments, adjustable partitions, and multiple pockets for portable storage.\n",
-        "longDescription": "Urban Gear Techie Dual Pouch (28x21x9cm). Polyester+Faux Leather. 2 zippered compartments, 3-layer organizer. Front zip pocket, cable bands, mesh/zip bags, adjustable velcro partition & tablet compartment. Portable handle. HSN 39269099.\n",
+        "shortDescription": "Think Print Techie Dual Pouch: Polyester and faux leather tech organizer with dual compartments, adjustable partitions, and multiple pockets for portable storage.\n",
+        "longDescription": "Think Print Techie Dual Pouch (28x21x9cm). Polyester+Faux Leather. 2 zippered compartments, 3-layer organizer. Front zip pocket, cable bands, mesh/zip bags, adjustable velcro partition & tablet compartment. Portable handle. HSN 39269099.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -1929,7 +1929,7 @@ export const products = [
     {
         "id": 102,
         "title": "TECHIE POUCH PRO Travel Digital Bag Organizer",
-        "shortDescription": "Urban Gear Techie Pouch Pro: A portable polyester & faux leather gadget organizer with adjustable partitions and multiple pockets, perfect for cables and electronics.\n",
+        "shortDescription": "Think Print Techie Pouch Pro: A portable polyester & faux leather gadget organizer with adjustable partitions and multiple pockets, perfect for cables and electronics.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -1949,7 +1949,7 @@ export const products = [
     {
         "id": 103,
         "title": "TECHIE POUCH COMPACT Travel Digital Organizer",
-        "shortDescription": "Urban Gear Techie Pouch Compact: A portable polyester and faux leather pouch with front pocket and secure storage for your HDD or mobile.\n",
+        "shortDescription": "Think Print Techie Pouch Compact: A portable polyester and faux leather pouch with front pocket and secure storage for your HDD or mobile.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -1969,7 +1969,7 @@ export const products = [
     {
         "id": 104,
         "title": "TECHIE POUCH Travel Digital Organizer",
-        "shortDescription": "Urban Gear Techie Pouch: Portable polyester/faux leather organizer (28x20x3cm) with zipper pocket, elastic bands, and mesh compartments for cables and tablets.\n",
+        "shortDescription": "Think Print Techie Pouch: Portable polyester/faux leather organizer (28x20x3cm) with zipper pocket, elastic bands, and mesh compartments for cables and tablets.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -2122,8 +2122,8 @@ export const products = [
     {
         "id": 112,
         "title": "Foldable Memory Foam Neck Pillow - BUDDY 2.0",
-        "shortDescription": "Urban Gear Buddy 2.0: A foldable, memory foam travel pillow with a raised back, removable washable cover, and ample branding space, perfect for any journey.\n",
-        "longDescription": "Urban Gear Buddy 2.0: Space-saving foldable pillow (28x30x8cm) with memory foam for enhanced relaxation. Raised back supports the neck. Removable, washable cover. Perfect for travel. HSN 392113. See it in action: https://youtu.be/B4yBkPYLnes\n",
+        "shortDescription": "Think Print Buddy 2.0: A foldable, memory foam travel pillow with a raised back, removable washable cover, and ample branding space, perfect for any journey.\n",
+        "longDescription": "Think Print Buddy 2.0: Space-saving foldable pillow (28x30x8cm) with memory foam for enhanced relaxation. Raised back supports the neck. Removable, washable cover. Perfect for travel. HSN 392113. See it in action: https://youtu.be/B4yBkPYLnes\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2143,8 +2143,8 @@ export const products = [
     {
         "id": 113,
         "title": "Torchella",
-        "shortDescription": "Urban Gear Torchella: Automatic open-close umbrella with UV protection, windproof/waterproof design, built-in torch, and customizable print options.\n",
-        "longDescription": "Brave rainy days with Urban Gear Torchella. Auto open/close, built-in torch lights the way. 99% UV protection, windproof & waterproof. Customizable with screen, UV, or DTF print. HSN 66019900.\n",
+        "shortDescription": "Think Print Torchella: Automatic open-close umbrella with UV protection, windproof/waterproof design, built-in torch, and customizable print options.\n",
+        "longDescription": "Brave rainy days with Think Print Torchella. Auto open/close, built-in torch lights the way. 99% UV protection, windproof & waterproof. Customizable with screen, UV, or DTF print. HSN 66019900.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2164,8 +2164,8 @@ export const products = [
     {
         "id": 114,
         "title": "KLIPP",
-        "shortDescription": "Urban Gear KLIPP: Automatic open-close umbrella with a carabiner handle for easy clipping and UV/wind/water protection.\n",
-        "longDescription": "Urban Gear KLIPP: Auto open-close, 3-fold umbrella. 99% UV protection. Windproof, waterproof. Carabiner handle clips to luggage/bikes for hands-free carry. Comfortable grip. Ideal for travel. HSN 66019900. UV/DTF print options.\n",
+        "shortDescription": "Think Print KLIPP: Automatic open-close umbrella with a carabiner handle for easy clipping and UV/wind/water protection.\n",
+        "longDescription": "Think Print KLIPP: Auto open-close, 3-fold umbrella. 99% UV protection. Windproof, waterproof. Carabiner handle clips to lTPgage/bikes for hands-free carry. Comfortable grip. Ideal for travel. HSN 66019900. UV/DTF print options.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2185,8 +2185,8 @@ export const products = [
     {
         "id": 115,
         "title": "CHATRI UV PRO Pocket Travel Umbrella With Case",
-        "shortDescription": "Urban Gear CHATRI UV PRO: Pocket-sized, flat, black travel umbrella with UPF 50+ protection, EVA case, and 99% UV ray blockage.\n",
-        "longDescription": "Urban Gear CHATRI UV PRO. Compact travel umbrella with UPF 50+ protection blocking 99% UV rays. 50cm radius, folds to 15cm. Includes EVA case. Flat, slim, 5-fold design. Black. HSN 66019900\n",
+        "shortDescription": "Think Print CHATRI UV PRO: Pocket-sized, flat, black travel umbrella with UPF 50+ protection, EVA case, and 99% UV ray blockage.\n",
+        "longDescription": "Think Print CHATRI UV PRO. Compact travel umbrella with UPF 50+ protection blocking 99% UV rays. 50cm radius, folds to 15cm. Includes EVA case. Flat, slim, 5-fold design. Black. HSN 66019900\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2206,8 +2206,8 @@ export const products = [
     {
         "id": 116,
         "title": "MATIC Automatic Open-Close Umbrella",
-        "shortDescription": "Urban Gear MATIC automatic black umbrella: 55cm, UPF 50+, windproof, 99% UV protection, compact 3-fold design.\n",
-        "longDescription": "Urban Gear's MATIC umbrella offers automatic open/close functionality in a compact size. It's 55cm radius when open, folds to 28cm. UPF 50+ protects from 99% of UV rays. Windproof design. Black. HSN 66019900.\n",
+        "shortDescription": "Think Print MATIC automatic black umbrella: 55cm, UPF 50+, windproof, 99% UV protection, compact 3-fold design.\n",
+        "longDescription": "Think Print's MATIC umbrella offers automatic open/close functionality in a compact size. It's 55cm radius when open, folds to 28cm. UPF 50+ protects from 99% of UV rays. Windproof design. Black. HSN 66019900.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2423,8 +2423,8 @@ export const products = [
     {
         "id": 127,
         "title": "Business Bag With Overnighter - TRAVELLO",
-        "shortDescription": "Urban Gear Travello: A versatile 32L, 3-way convertible backpack/duffel/gym bag with padded tech compartments, USB charging, and dedicated pockets for all your essentials.\n",
-        "longDescription": "Urban Gear's TRAVELLO is your ultimate 3-way convertible bag! Use it as a backpack, duffel, or gym bag. Features a padded laptop compartment (up to 15.4\"), adjustable straps, bottle holder, USB charging, multi-use pockets, a shoe/wet clothes pocket, & is hand-washable. Size: 47x29x24cm, 32L. HSN 420",
+        "shortDescription": "Think Print Travello: A versatile 32L, 3-way convertible backpack/duffel/gym bag with padded tech compartments, USB charging, and dedicated pockets for all your essentials.\n",
+        "longDescription": "Think Print's TRAVELLO is your ultimate 3-way convertible bag! Use it as a backpack, duffel, or gym bag. Features a padded laptop compartment (up to 15.4\"), adjustable straps, bottle holder, USB charging, multi-use pockets, a shoe/wet clothes pocket, & is hand-washable. Size: 47x29x24cm, 32L. HSN 420",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2444,8 +2444,8 @@ export const products = [
     {
         "id": 128,
         "title": "Slim Backpack-PRIME",
-        "shortDescription": "Urban Gear PRIME Black 15L backpack with padded laptop compartment, smart organization, and easy-clean hand-wash material.\n",
-        "longDescription": "Urban Gear PRIME backpack in black. Compact 16x11x4.5cm size with 15L capacity. Features a padded laptop compartment, adjustable straps, bottle holder, smart organizer, and hand-washable material for easy care.\n",
+        "shortDescription": "Think Print PRIME Black 15L backpack with padded laptop compartment, smart organization, and easy-clean hand-wash material.\n",
+        "longDescription": "Think Print PRIME backpack in black. Compact 16x11x4.5cm size with 15L capacity. Features a padded laptop compartment, adjustable straps, bottle holder, smart organizer, and hand-washable material for easy care.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2464,8 +2464,8 @@ export const products = [
     {
         "id": 129,
         "title": "Classic Backpack-GYPSY",
-        "shortDescription": "Urban Gear Gypsy backpack (Grey/Dark Grey) with 17L capacity, padded laptop compartment, adjustable straps, dual bottle holders, smart organizer, and hand-washable bottom pads.\n",
-        "longDescription": "Urban Gear's GYPSY backpack in grey/dark grey boasts a 17L capacity, padded laptop compartment, and adjustable shoulder straps. Stay organized with dual side bottle holders and a smart organizer. Features 2 bottom pads and hand-washable material for easy cleaning.\n",
+        "shortDescription": "Think Print Gypsy backpack (Grey/Dark Grey) with 17L capacity, padded laptop compartment, adjustable straps, dual bottle holders, smart organizer, and hand-washable bottom pads.\n",
+        "longDescription": "Think Print's GYPSY backpack in grey/dark grey boasts a 17L capacity, padded laptop compartment, and adjustable shoulder straps. Stay organized with dual side bottle holders and a smart organizer. Features 2 bottom pads and hand-washable material for easy cleaning.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2485,8 +2485,8 @@ export const products = [
     {
         "id": 130,
         "title": "Business Bag With Overnighter-WEEKENDER",
-        "shortDescription": "Urban Gear WEEKENDER: Convertible 18L business bag with padded laptop compartment, USB charging, and trolley holder for versatile travel.\n",
-        "longDescription": "Urban Gear Weekender business bag. 43x31x12cm, 18L capacity. Converts 3 ways: messenger, backpack, sling. Padded laptop compartment, USB charging, power bank pocket, luggage trolley holder, adjustable straps. Hand-washable. HSN 42029900.\n",
+        "shortDescription": "Think Print WEEKENDER: Convertible 18L business bag with padded laptop compartment, USB charging, and trolley holder for versatile travel.\n",
+        "longDescription": "Think Print Weekender business bag. 43x31x12cm, 18L capacity. Converts 3 ways: messenger, backpack, sling. Padded laptop compartment, USB charging, power bank pocket, lTPgage trolley holder, adjustable straps. Hand-washable. HSN 42029900.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2506,8 +2506,8 @@ export const products = [
     {
         "id": 131,
         "title": "Slim BackPack -SLIMM",
-        "shortDescription": "Urban Gear SLIMM: Slim 15L laptop backpack with USB charging, durable polyester, and comfortable, hand-washable design.\n",
-        "longDescription": "Urban Gear SLIMM backpack: Slim, durable polyester. Padded laptop compartment (41x29x12cm), 15L capacity. Aluminium handle, adjustable straps, USB charging, power bank pocket, bottom pads. Hand-washable. HSN: 420299.\n",
+        "shortDescription": "Think Print SLIMM: Slim 15L laptop backpack with USB charging, durable polyester, and comfortable, hand-washable design.\n",
+        "longDescription": "Think Print SLIMM backpack: Slim, durable polyester. Padded laptop compartment (41x29x12cm), 15L capacity. Aluminium handle, adjustable straps, USB charging, power bank pocket, bottom pads. Hand-washable. HSN: 420299.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
@@ -2567,14 +2567,14 @@ export const products = [
     {
         "id": 134,
         "title": "CARD HOLDER-CARDY 3",
-        "shortDescription": "Urban Gear NAME CARDY 3: Premium faux leather business card holder with magnetic closure, sized 9.5x1.3x6CM.\n",
-        "longDescription": "Elevate networking with Urban Gear's CARDY 3. This faux leather business card holder (9.5x1.3x6cm) secures your cards with a magnetic closure. Boasting a premium finish, it's a sleek, professional accessory. (HSN 42023110)\n",
+        "shortDescription": "Think Print NAME CARDY 3: Premium faux leather business card holder with magnetic closure, sized 9.5x1.3x6CM.\n",
+        "longDescription": "Elevate networking with Think Print's CARDY 3. This faux leather business card holder (9.5x1.3x6cm) secures your cards with a magnetic closure. Boasting a premium finish, it's a sleek, professional accessory. (HSN 42023110)\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
         "img": "/products/card_holder-cardy_3/card_holder-cardy_31.webp",
         "designSpecifications": [
-            "UG NAME CARDY 3, thinkPrint, 42023110, Black, 9.5*1.3*6CM, Faux Leather, 50g, 5*2CM, Debossing, None, None, None",
+            "TP NAME CARDY 3, thinkPrint, 42023110, Black, 9.5*1.3*6CM, Faux Leather, 50g, 5*2CM, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
@@ -2588,8 +2588,8 @@ export const products = [
     {
         "id": 135,
         "title": "Anti - Skid Desk Mat - DESK PLAY",
-        "shortDescription": "Urban Gear Desk Play: 74x36cm felt desk mat with anti-skid backing, phone, pen, and card holders.\n",
-        "longDescription": "Urban Gear's Desk Play is your workspace upgrade! This 74x36cm felt desk mat features anti-skid backing, a mobile & pen holder, plus card storage. Stay organized and stylish with UG Desk Play!\n",
+        "shortDescription": "Think Print Desk Play: 74x36cm felt desk mat with anti-skid backing, phone, pen, and card holders.\n",
+        "longDescription": "Think Print's Desk Play is your workspace upgrade! This 74x36cm felt desk mat features anti-skid backing, a mobile & pen holder, plus card storage. Stay organized and stylish with TP Desk Play!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -2606,8 +2606,8 @@ export const products = [
     {
         "id": 136,
         "title": "Metal Pens - FLYNN",
-        "shortDescription": "Urban Gear FLYNN: A sleek metallic ballpoint pen with a built-in stylus and a logo that color-matches the stylus tip.\n",
-        "longDescription": "Urban Gear FLYNN: A cool metallic ballpoint pen (1*1.5*14.3cm) with a built-in stylus. Features a click design and engraved logo that changes color to match the stylus. HSNCode 960810.\n",
+        "shortDescription": "Think Print FLYNN: A sleek metallic ballpoint pen with a built-in stylus and a logo that color-matches the stylus tip.\n",
+        "longDescription": "Think Print FLYNN: A cool metallic ballpoint pen (1*1.5*14.3cm) with a built-in stylus. Features a click design and engraved logo that changes color to match the stylus. HSNCode 960810.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -2627,8 +2627,8 @@ export const products = [
     {
         "id": 137,
         "title": "Photo Frame Clock - TIME FRAME 2.0",
-        "shortDescription": "Urban Gear Time Frame 2.0: Elegant brushed silver 4x4 photo frame with multi-function LCD clock displaying day, date, time, and temperature, plus alarm/snooze and 90-degree rotation.\n",
-        "longDescription": "Urban Gear's TIME FRAME 2.0. This elegant 4x4 brushed silver aluminum photo frame features a multi-function LCD digital clock. LCD 1 displays day/date, LCD 2 shows time & temperature. Alarm & snooze included. Rotates 90\u00b0. Video: https://youtu.be/ie5O8YPwMjU. HSN: 392690\n",
+        "shortDescription": "Think Print Time Frame 2.0: Elegant brushed silver 4x4 photo frame with multi-function LCD clock displaying day, date, time, and temperature, plus alarm/snooze and 90-degree rotation.\n",
+        "longDescription": "Think Print's TIME FRAME 2.0. This elegant 4x4 brushed silver aluminum photo frame features a multi-function LCD digital clock. LCD 1 displays day/date, LCD 2 shows time & temperature. Alarm & snooze included. Rotates 90\u00b0. Video: https://youtu.be/ie5O8YPwMjU. HSN: 392690\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -2647,8 +2647,8 @@ export const products = [
     {
         "id": 138,
         "title": "Photo Frame Clock - TIME FRAME",
-        "shortDescription": "Urban Gear Time Frame: Elegant 5x3.5 brushed silver photo frame with rotating display, LCD clock showing date, time, temperature, alarm & snooze.\n",
-        "longDescription": "Urban Gear Time Frame: A sleek 5x3.5 brushed silver aluminium photo frame with a multi-function LCD. Displays day, date, time, temperature. Features alarm & snooze. Rotates 90\u00b0. HSN 851821. See it in action: youtu.be/gOzT4zQhCpY\n",
+        "shortDescription": "Think Print Time Frame: Elegant 5x3.5 brushed silver photo frame with rotating display, LCD clock showing date, time, temperature, alarm & snooze.\n",
+        "longDescription": "Think Print Time Frame: A sleek 5x3.5 brushed silver aluminium photo frame with a multi-function LCD. Displays day, date, time, temperature. Features alarm & snooze. Rotates 90\u00b0. HSN 851821. See it in action: youtu.be/gOzT4zQhCpY\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -2667,7 +2667,7 @@ export const products = [
     {
         "id": 139,
         "title": "Photo Frame With White Board - MARK & PIX",
-        "shortDescription": "Urban Gear Mark & Pix: Elegant 4x6 brushed silver aluminum photo frame with memo board, pen, and magnets.\n",
+        "shortDescription": "Think Print Mark & Pix: Elegant 4x6 brushed silver aluminum photo frame with memo board, pen, and magnets.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -2722,8 +2722,8 @@ export const products = [
     {
         "id": 142,
         "title": "VALENCIA METAL PEN",
-        "shortDescription": "Urban Gear Valencia Metal Pen: Sleek, twist-design metal pen (1*1.2*13) with engraving and printing options.\n",
-        "longDescription": "The Urban Gear Valencia Metal Pen boasts a sleek, twist-action design. Its slender 1*1.2*13 metal body offers premium feel and is ideal for engraving or printing. Perfect for everyday use and gifting. HSN Code 960810.\n",
+        "shortDescription": "Think Print Valencia Metal Pen: Sleek, twist-design metal pen (1*1.2*13) with engraving and printing options.\n",
+        "longDescription": "The Think Print Valencia Metal Pen boasts a sleek, twist-action design. Its slender 1*1.2*13 metal body offers premium feel and is ideal for engraving or printing. Perfect for everyday use and gifting. HSN Code 960810.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -2743,8 +2743,8 @@ export const products = [
     {
         "id": 143,
         "title": "BAMBOO PEN",
-        "shortDescription": "Urban Gear bamboo pen with stylus, click design, metal accents, and ample branding space.\n",
-        "longDescription": "Urban Gear's Bamboo Pen Stylus combines style & function. Crafted with a bamboo body, metal accents, & stylus tip. Click design, ample branding space. 14*1*1.5cm. HSN: 960810. UG NAME: BAMBOO PEN STYLUS METAL PENS.\n",
+        "shortDescription": "Think Print bamboo pen with stylus, click design, metal accents, and ample branding space.\n",
+        "longDescription": "Think Print's Bamboo Pen Stylus combines style & function. Crafted with a bamboo body, metal accents, & stylus tip. Click design, ample branding space. 14*1*1.5cm. HSN: 960810. TP NAME: BAMBOO PEN STYLUS METAL PENS.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -2764,8 +2764,8 @@ export const products = [
     {
         "id": 144,
         "title": "Premium Metal Pen-TURIN",
-        "shortDescription": "Urban Gear Turin twist-design pen, 1x1.5x13.7cm, HSNCode 96081019.\n",
-        "longDescription": "The Urban Gear Turin is a sleek, twist-design pen. Compact at 1x1.5x13.7cm, it's perfect for on-the-go use. Reliable performance in a stylish package. HSNCode 96081019.\n",
+        "shortDescription": "Think Print Turin twist-design pen, 1x1.5x13.7cm, HSNCode 96081019.\n",
+        "longDescription": "The Think Print Turin is a sleek, twist-design pen. Compact at 1x1.5x13.7cm, it's perfect for on-the-go use. Reliable performance in a stylish package. HSNCode 96081019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -2785,8 +2785,8 @@ export const products = [
     {
         "id": 145,
         "title": "Metal Pens - GRIPPER",
-        "shortDescription": "Urban Gear GRIPPER: Click-design metal pen, engravable and printable, with dimensions 1 x 1.5 x 13.8 cm.\n",
-        "longDescription": "Urban Gear GRIPPER: Sleek click-design pen with a durable metal body, ideal for engraving or printing. Compact dimensions: 1 x 1.5 x 13.8 cm. HSNCode 96081019. A stylish & functional writing tool.\n",
+        "shortDescription": "Think Print GRIPPER: Click-design metal pen, engravable and printable, with dimensions 1 x 1.5 x 13.8 cm.\n",
+        "longDescription": "Think Print GRIPPER: Sleek click-design pen with a durable metal body, ideal for engraving or printing. Compact dimensions: 1 x 1.5 x 13.8 cm. HSNCode 96081019. A stylish & functional writing tool.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -2806,8 +2806,8 @@ export const products = [
     {
         "id": 146,
         "title": "Premium Velvetta Finish With Satin Parts - BRIO VELVETTA",
-        "shortDescription": "Urban Gear Brio Velvetta pen with click design, blue Jotter refill, and compact 1 x 1.3 x 13.5 cms size.\n",
-        "longDescription": "Urban Gear BRIO VELVETTA: Sleek click-design pen with a smooth blue jotter refill. Compact size: 1 x 1.3 x 13.5 cms. Perfect for everyday use. HSN Code: 96081019.\n",
+        "shortDescription": "Think Print Brio Velvetta pen with click design, blue Jotter refill, and compact 1 x 1.3 x 13.5 cms size.\n",
+        "longDescription": "Think Print BRIO VELVETTA: Sleek click-design pen with a smooth blue jotter refill. Compact size: 1 x 1.3 x 13.5 cms. Perfect for everyday use. HSN Code: 96081019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3001,7 +3001,7 @@ export const products = [
         "id": 156,
         "title": "PASTELLO Metal Pen",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear's PASTELLO metal pen: sleek click design in pastel shades. Size: 1x1.2x13.7cm. Perfect for engraving/printing. HSNCode: 96081019.\n",
+        "longDescription": "Think Print's PASTELLO metal pen: sleek click design in pastel shades. Size: 1x1.2x13.7cm. Perfect for engraving/printing. HSNCode: 96081019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3021,8 +3021,8 @@ export const products = [
     {
         "id": 157,
         "title": "PASTELLO Metal Pen",
-        "shortDescription": "Urban Gear Pastello: Sleek, pastel metal pen with click design, engravable/printable, 1x1.2x13.7cm.\n",
-        "longDescription": "Urban Gear's PASTELLO: A sleek metal pen (1x1.2x13.7cm) in calming pastel shades. Features a convenient click design and offers ample space for engraving or printing, perfect for personalization. HSNCode 96081019.\n",
+        "shortDescription": "Think Print Pastello: Sleek, pastel metal pen with click design, engravable/printable, 1x1.2x13.7cm.\n",
+        "longDescription": "Think Print's PASTELLO: A sleek metal pen (1x1.2x13.7cm) in calming pastel shades. Features a convenient click design and offers ample space for engraving or printing, perfect for personalization. HSNCode 96081019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3042,8 +3042,8 @@ export const products = [
     {
         "id": 158,
         "title": "DUET METAL PEN SET",
-        "shortDescription": "Urban Gear DUET: Compact metal pens (set of 2) with engraving/printing options and optional faux leather case.\n",
-        "longDescription": "Urban Gear DUET: Sleek metal pens (1x1.5x13.2cm). Set of 2. Ballpoint. Engrave/print possible. Optional faux leather case. HSN 96081019.\n",
+        "shortDescription": "Think Print DUET: Compact metal pens (set of 2) with engraving/printing options and optional faux leather case.\n",
+        "longDescription": "Think Print DUET: Sleek metal pens (1x1.5x13.2cm). Set of 2. Ballpoint. Engrave/print possible. Optional faux leather case. HSN 96081019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3063,8 +3063,8 @@ export const products = [
     {
         "id": 159,
         "title": "LATINA METAL PEN WITH STYLUS",
-        "shortDescription": "Urban Gear Latina: Sleek metal pen with stylus, push closure, rubberized body, metallic cap, engravable, 1x1.2x13.7cm.\n",
-        "longDescription": "Urban Gear Latina: Sleek metal pen with a rubberized body & stylus. Metallic cap allows engraving/printing. Push closure. Size: 1x1.2x13.7cm. HSN Code: 96081019.\n",
+        "shortDescription": "Think Print Latina: Sleek metal pen with stylus, push closure, rubberized body, metallic cap, engravable, 1x1.2x13.7cm.\n",
+        "longDescription": "Think Print Latina: Sleek metal pen with a rubberized body & stylus. Metallic cap allows engraving/printing. Push closure. Size: 1x1.2x13.7cm. HSN Code: 96081019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3087,8 +3087,8 @@ export const products = [
     {
         "id": 160,
         "title": "PISA METAL PEN",
-        "shortDescription": "Urban Gear PISA: Sleek, engravable click pen with stylus in a compact 1x1.2x14.5cm design.\n",
-        "longDescription": "Urban Gear's PISA stylus. Sleek click design in a compact 1x1.2x14.5cm size. Personalize it with a custom engrave or print. HSNCode 96081019. The perfect on-the-go accessory.\n",
+        "shortDescription": "Think Print PISA: Sleek, engravable click pen with stylus in a compact 1x1.2x14.5cm design.\n",
+        "longDescription": "Think Print's PISA stylus. Sleek click design in a compact 1x1.2x14.5cm size. Personalize it with a custom engrave or print. HSNCode 96081019. The perfect on-the-go accessory.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3111,8 +3111,8 @@ export const products = [
     {
         "id": 161,
         "title": "Premium Metal Pen-TURIN",
-        "shortDescription": "Urban Gear Turin twist-design pen, 1x1.5x13.7cm (HSN 96081019).\n",
-        "longDescription": "The Urban Gear TURIN pen features a sleek twist design in a compact 1x1.5x13.7cm size. Ideal for on-the-go use, this stylish pen boasts the quality expected from Urban Gear. HSNCode: 96081019.\n",
+        "shortDescription": "Think Print Turin twist-design pen, 1x1.5x13.7cm (HSN 96081019).\n",
+        "longDescription": "The Think Print TURIN pen features a sleek twist design in a compact 1x1.5x13.7cm size. Ideal for on-the-go use, this stylish pen boasts the quality expected from Think Print. HSNCode: 96081019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3279,7 +3279,7 @@ export const products = [
         "id": 170,
         "title": "Smart Wallet With RFID Blocking - GUARD",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear GUARD: Sleek, multi-function smart wallet. Premium faux leather, RFID blocking, metal card case (up to 6 cards). Smart switch for easy card access, staggered pop-out. Currency note provision, 2 inner pockets, photo ID slot. Ultra-slim design (10.3*6.7*1.9cm). Button closure. HSNCode 42023",
+        "longDescription": "Think Print GUARD: Sleek, multi-function smart wallet. Premium faux leather, RFID blocking, metal card case (up to 6 cards). Smart switch for easy card access, staggered pop-out. Currency note provision, 2 inner pockets, photo ID slot. Ultra-slim design (10.3*6.7*1.9cm). Button closure. HSNCode 42023",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3299,14 +3299,14 @@ export const products = [
     {
         "id": 171,
         "title": "2-In-1 Desktop Card Holder - CARDUO",
-        "shortDescription": "Urban Gear CardUo: Elegant black faux leather card holder with magnetic closure transforms into a sleek desktop display.\n",
-        "longDescription": "Elevate your networking with Urban Gear's CARDUO. This elegant, black, faux leather card holder boasts a sleek design and magnetic closure. It transforms into a desktop display for ultimate convenience. HSN 830630.\nhttps://youtu.be/Uh4Nsbc_he4\n",
+        "shortDescription": "Think Print CardUo: Elegant black faux leather card holder with magnetic closure transforms into a sleek desktop display.\n",
+        "longDescription": "Elevate your networking with Think Print's CARDUO. This elegant, black, faux leather card holder boasts a sleek design and magnetic closure. It transforms into a desktop display for ultimate convenience. HSN 830630.\nhttps://youtu.be/Uh4Nsbc_he4\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
         "img": "/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo1.webp",
         "designSpecifications": [
-            "UG NAME CARDUO, thinkPrint, 830630, Black, 10cm x 7cm x 1cm, Premium Faux Leather, 50g, 4cm x 2cm, Debossing, None, None, None",
+            "TP NAME CARDUO, thinkPrint, 830630, Black, 10cm x 7cm x 1cm, Premium Faux Leather, 50g, 4cm x 2cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
@@ -3319,8 +3319,8 @@ export const products = [
     {
         "id": 172,
         "title": "Metal Torch",
-        "shortDescription": "Urban Gear Metal Torch: Pocket-sized black LED flashlight with premium metal casing, one-button operation, wrist strap, and AAA battery power (batteries not included).\n",
-        "longDescription": "Urban Gear Metal Torch. Compact & powerful pocket LED flashlight with one-button on/off. Premium black metal casing for durability. Includes wrist strap. Uses 3 AAA batteries (not included). HSN 851310.\n",
+        "shortDescription": "Think Print Metal Torch: Pocket-sized black LED flashlight with premium metal casing, one-button operation, wrist strap, and AAA battery power (batteries not included).\n",
+        "longDescription": "Think Print Metal Torch. Compact & powerful pocket LED flashlight with one-button on/off. Premium black metal casing for durability. Includes wrist strap. Uses 3 AAA batteries (not included). HSN 851310.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3340,8 +3340,8 @@ export const products = [
     {
         "id": 173,
         "title": "LED Book Light -Retro Lite",
-        "shortDescription": "Urban Gear Retro Lite: A versatile, retro-style mini book light that clips on, adjusts, and doubles as a desk lamp for reading in the dark, powered by included button batteries.\n",
-        "longDescription": "Urban Gear's Retro Lite lets you read in the dark with its mini book light. The retro-style lamp clips easily onto books, adjusts to different angles, and doubles as a mini desk lamp. Button batteries included. HSNCode 8513.\n",
+        "shortDescription": "Think Print Retro Lite: A versatile, retro-style mini book light that clips on, adjusts, and doubles as a desk lamp for reading in the dark, powered by included button batteries.\n",
+        "longDescription": "Think Print's Retro Lite lets you read in the dark with its mini book light. The retro-style lamp clips easily onto books, adjusts to different angles, and doubles as a mini desk lamp. Button batteries included. HSNCode 8513.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3360,8 +3360,8 @@ export const products = [
     {
         "id": 174,
         "title": "LED Book Light",
-        "shortDescription": "Urban Gear LED Book Light: Clip-on, adjustable mini light lets you read in the dark with included batteries.\n",
-        "longDescription": "Urban Gear's LED Book Light lets you read comfortably in the dark. This mini light clips easily onto books and adjusts to different angles. Uses button batteries (included). Black. HSNCode 9405.\n",
+        "shortDescription": "Think Print LED Book Light: Clip-on, adjustable mini light lets you read in the dark with included batteries.\n",
+        "longDescription": "Think Print's LED Book Light lets you read comfortably in the dark. This mini light clips easily onto books and adjusts to different angles. Uses button batteries (included). Black. HSNCode 9405.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3379,8 +3379,8 @@ export const products = [
     {
         "id": 175,
         "title": "Flexible LED Book Light - FLEXILITE",
-        "shortDescription": "Urban Gear Flexilite: Flexible LED book light clips on, marks your page, doubles as a desk lamp, and is powered by included button cells.\n",
-        "longDescription": "The Urban Gear FlexiLite is a flexible LED book light that easily clips into books and doubles as a bookmark. It features a simple on/off switch and can be fixed as a desk light. Button cells included. Black. HSNCode 940560.\n",
+        "shortDescription": "Think Print Flexilite: Flexible LED book light clips on, marks your page, doubles as a desk lamp, and is powered by included button cells.\n",
+        "longDescription": "The Think Print FlexiLite is a flexible LED book light that easily clips into books and doubles as a bookmark. It features a simple on/off switch and can be fixed as a desk light. Button cells included. Black. HSNCode 940560.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3543,7 +3543,7 @@ export const products = [
         "id": 184,
         "title": "PU KEYCHAINS",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear PU Keychains. Stylish and durable accessories to keep your keys organized. Made with high-quality PU leather, these keychains offer a sleek and modern look. HSNCode 78269099.\n",
+        "longDescription": "Think Print PU Keychains. Stylish and durable accessories to keep your keys organized. Made with high-quality PU leather, these keychains offer a sleek and modern look. HSNCode 78269099.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3563,8 +3563,8 @@ export const products = [
     {
         "id": 185,
         "title": "Key Finder - WHISTLE KEY FINDER",
-        "shortDescription": "Urban Gear Whistle Key Finder: Whistle to locate your keys, which beep and flash, and easily switch it off \u2013 a fun and practical novelty gift.\n",
-        "longDescription": "Never lose keys again! Urban Gear Whistle Key Finder beeps & flashes when you whistle. Simple on/off switch silences it. Includes keychain. Great novelty gift. Button cells included. HSN 732690. See how: youtu.be/IkeMv5bmbAE\n",
+        "shortDescription": "Think Print Whistle Key Finder: Whistle to locate your keys, which beep and flash, and easily switch it off \u2013 a fun and practical novelty gift.\n",
+        "longDescription": "Never lose keys again! Think Print Whistle Key Finder beeps & flashes when you whistle. Simple on/off switch silences it. Includes keychain. Great novelty gift. Button cells included. HSN 732690. See how: youtu.be/IkeMv5bmbAE\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3583,8 +3583,8 @@ export const products = [
     {
         "id": 186,
         "title": "Key Finder - WHISTLE KEY FINDER (CAR)",
-        "shortDescription": "Urban Gear Whistle Key Finder: Whistle-activated key locator with LED, keychain, and on/off switch - a fun and practical gift.\n",
-        "longDescription": "Never lose keys again! Urban Gear Whistle Key Finder responds to your whistle with beeps & flashing light. Simply whistle, it beeps and flashes, switch off to silence. Features a built-in red LED torch and keychain. On/off switch. Button cells included. Great gift! White. HSN 392690\n",
+        "shortDescription": "Think Print Whistle Key Finder: Whistle-activated key locator with LED, keychain, and on/off switch - a fun and practical gift.\n",
+        "longDescription": "Never lose keys again! Think Print Whistle Key Finder responds to your whistle with beeps & flashing light. Simply whistle, it beeps and flashes, switch off to silence. Features a built-in red LED torch and keychain. On/off switch. Button cells included. Great gift! White. HSN 392690\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3603,8 +3603,8 @@ export const products = [
     {
         "id": 187,
         "title": "Mini COB LED Flashlight - COBY",
-        "shortDescription": "Urban Gear COBY: Mini COB keychain flashlight with 3 modes and ample branding space, powered by 3 AAA batteries (not included).\n",
-        "longDescription": "The Urban Gear COBY mini COB flashlight offers bright light with high, low, and blinking modes. Its keychain design ensures portability, and ample branding space makes it ideal for promotional use. Uses 3xAAA batteries (not included). HSN: 732690\n",
+        "shortDescription": "Think Print COBY: Mini COB keychain flashlight with 3 modes and ample branding space, powered by 3 AAA batteries (not included).\n",
+        "longDescription": "The Think Print COBY mini COB flashlight offers bright light with high, low, and blinking modes. Its keychain design ensures portability, and ample branding space makes it ideal for promotional use. Uses 3xAAA batteries (not included). HSN: 732690\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3623,8 +3623,8 @@ export const products = [
     {
         "id": 188,
         "title": "3-In-1 Torch With Mobile Stand - HOLDEY",
-        "shortDescription": "Urban Gear HOLDEY: Multi-utility keychain with a built-in torch, mobile stand, ample branding space, and button cell power.\n",
-        "longDescription": "Urban Gear's Holdey: A multi-utility key chain with a built-in torch and mobile stand. Features ample branding space. Powered by included button cells. HSN Code: 392690\n",
+        "shortDescription": "Think Print HOLDEY: Multi-utility keychain with a built-in torch, mobile stand, ample branding space, and button cell power.\n",
+        "longDescription": "Think Print's Holdey: A multi-utility key chain with a built-in torch and mobile stand. Features ample branding space. Powered by included button cells. HSN Code: 392690\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3641,8 +3641,8 @@ export const products = [
     {
         "id": 189,
         "title": "Car Tool Kit - TYRE",
-        "shortDescription": "Urban Gear Tyre: A 20-piece black, tyre-shaped toolkit (HSN 8205) perfect for home or outdoor use with ample branding space.\n",
-        "longDescription": "Urban Gear TYRE toolkit: 20-piece set in a unique tyre-shaped case. Black, HSN 8205. Ideal for home or outdoor use. Ample branding space. Video: https://youtu.be/WaWMwOvniBQ. A must-have for every car and home.\n",
+        "shortDescription": "Think Print Tyre: A 20-piece black, tyre-shaped toolkit (HSN 8205) perfect for home or outdoor use with ample branding space.\n",
+        "longDescription": "Think Print TYRE toolkit: 20-piece set in a unique tyre-shaped case. Black, HSN 8205. Ideal for home or outdoor use. Ample branding space. Video: https://youtu.be/WaWMwOvniBQ. A must-have for every car and home.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
@@ -3773,8 +3773,8 @@ export const products = [
     {
         "id": 196,
         "title": "SLANT",
-        "shortDescription": "Urban Gear SLANT A5 faux leather hardbound notebook with ruled, planner, grid, and plain pages, customizable with printing and deboss options.\n",
-        "longDescription": "Urban Gear's SLANT notebook: A5 faux leather, hard bound journal. Features 192 pages (96 sheets) of 80gsm paper. Inside: 175 ruled, 12 planner, 16 grid & 16 plain pages. Customize with screen/DTF print/deboss. Optional box. Perfect with the Pastello Metal Pen. HSN 48201090.\n",
+        "shortDescription": "Think Print SLANT A5 faux leather hardbound notebook with ruled, planner, grid, and plain pages, customizable with printing and deboss options.\n",
+        "longDescription": "Think Print's SLANT notebook: A5 faux leather, hard bound journal. Features 192 pages (96 sheets) of 80gsm paper. Inside: 175 ruled, 12 planner, 16 grid & 16 plain pages. Customize with screen/DTF print/deboss. Optional box. Perfect with the Pastello Metal Pen. HSN 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -3794,8 +3794,8 @@ export const products = [
     {
         "id": 197,
         "title": "CREST",
-        "shortDescription": "Urban Gear A5 refillable spiral diary with magnetic closure, faux leather cover, mixed page layouts, and optional gift box, ideal for executive organization.\n",
-        "longDescription": "Urban Gear's CREST Executive Organizer Diary. A5 faux leather, refillable spiral diary with magnetic closure. 17x23cm, 192 pages (80gsm) including planner, ruled, grid & plain sections. Black. Screen/DTF printing option. Pair with Bilbao pen. Optional box.\n",
+        "shortDescription": "Think Print A5 refillable spiral diary with magnetic closure, faux leather cover, mixed page layouts, and optional gift box, ideal for executive organization.\n",
+        "longDescription": "Think Print's CREST Executive Organizer Diary. A5 faux leather, refillable spiral diary with magnetic closure. 17x23cm, 192 pages (80gsm) including planner, ruled, grid & plain sections. Black. Screen/DTF printing option. Pair with Bilbao pen. Optional box.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -3818,8 +3818,8 @@ export const products = [
     {
         "id": 198,
         "title": "VOGUE",
-        "shortDescription": "Urban Gear Vogue A5 refillable spiral faux leather diary with magnetic closure, card holder, mobile pocket, and logo-ready metal plate, available in black and grey, ideal for pairing with Naples Premium metal pens.\n",
-        "longDescription": "Urban Gear Vogue A5 refillable spiral diary. Faux leather (17.5x23cm), 160 pages (80gsm). Features magnetic closure, card holder, mobile pocket, & logo plate. Available in black/grey. HSN 48201090. Pair with Naples pen. Optional box. Screen/DTF/Deboss imprint.\n",
+        "shortDescription": "Think Print Vogue A5 refillable spiral faux leather diary with magnetic closure, card holder, mobile pocket, and logo-ready metal plate, available in black and grey, ideal for pairing with Naples Premium metal pens.\n",
+        "longDescription": "Think Print Vogue A5 refillable spiral diary. Faux leather (17.5x23cm), 160 pages (80gsm). Features magnetic closure, card holder, mobile pocket, & logo plate. Available in black/grey. HSN 48201090. Pair with Naples pen. Optional box. Screen/DTF/Deboss imprint.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -3838,8 +3838,8 @@ export const products = [
     {
         "id": 199,
         "title": "ZIGY PRO",
-        "shortDescription": "Urban Gear ZIGY PRO A5 faux leather hardbound notebook with pen loop, elastic closure, mixed paper formats, and customizable branding options.\n",
-        "longDescription": "Urban Gear ZIGY PRO notebook. A5 size (14.5x21cm) hard bound faux leather. 192 pages (96 sheets) of 80gsm paper. Includes elastic closure, pen loop & mixed pages: Planner, Ruled, Grid, Plain. Available in Black, Brown, Blue. Optional box. HSN 48201090. Pair with Styliter pen.\n",
+        "shortDescription": "Think Print ZIGY PRO A5 faux leather hardbound notebook with pen loop, elastic closure, mixed paper formats, and customizable branding options.\n",
+        "longDescription": "Think Print ZIGY PRO notebook. A5 size (14.5x21cm) hard bound faux leather. 192 pages (96 sheets) of 80gsm paper. Includes elastic closure, pen loop & mixed pages: Planner, Ruled, Grid, Plain. Available in Black, Brown, Blue. Optional box. HSN 48201090. Pair with Styliter pen.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -3859,8 +3859,8 @@ export const products = [
     {
         "id": 200,
         "title": "POLYGON Executive Organizer Dairy",
-        "shortDescription": "Urban Gear POLYGON: A5 faux leather, refillable spiral diary with 196 pages (80gsm), magnetic closure, and card holder (17.5x23cm).\n",
-        "longDescription": "Urban Gear POLYGON refillable A5 spiral diary. Faux leather (17.5*23cm), 196 pages of 80gsm paper, magnetic closure & card holder. HSNCode 48202000\n",
+        "shortDescription": "Think Print POLYGON: A5 faux leather, refillable spiral diary with 196 pages (80gsm), magnetic closure, and card holder (17.5x23cm).\n",
+        "longDescription": "Think Print POLYGON refillable A5 spiral diary. Faux leather (17.5*23cm), 196 pages of 80gsm paper, magnetic closure & card holder. HSNCode 48202000\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -3880,8 +3880,8 @@ export const products = [
     {
         "id": 201,
         "title": "Executive Organizer Diary-QUEST",
-        "shortDescription": "Urban Gear QUEST: A5 vegan leather, hardbound journal with 200 pages, card holder, and pen loop.\n",
-        "longDescription": "Urban Gear Quest A5 journal. Vegan leather cover. Hard bound with 200 pages of 80gsm paper. Features a card holder & pen loop. Size: 23x17x1.7cm. HSN: 48201010.\n",
+        "shortDescription": "Think Print QUEST: A5 vegan leather, hardbound journal with 200 pages, card holder, and pen loop.\n",
+        "longDescription": "Think Print Quest A5 journal. Vegan leather cover. Hard bound with 200 pages of 80gsm paper. Features a card holder & pen loop. Size: 23x17x1.7cm. HSN: 48201010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -3901,8 +3901,8 @@ export const products = [
     {
         "id": 202,
         "title": "Executive Organizer Diary - HERITAGE",
-        "shortDescription": "Urban Gear Heritage: A5 refillable black faux leather spiral diary with magnetic closure and engravable metal plate.\n",
-        "longDescription": "Urban Gear Heritage Diary. Black, A5 refillable spiral diary with high-quality faux leather cover. Features a magnetic closure, metal engraving plate, and 96 sheets of 80gsm paper. HSNCode 482090.\n",
+        "shortDescription": "Think Print Heritage: A5 refillable black faux leather spiral diary with magnetic closure and engravable metal plate.\n",
+        "longDescription": "Think Print Heritage Diary. Black, A5 refillable spiral diary with high-quality faux leather cover. Features a magnetic closure, metal engraving plate, and 96 sheets of 80gsm paper. HSNCode 482090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4102,7 +4102,7 @@ export const products = [
         "id": 212,
         "title": "Premium Notebook - STYLO",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear Stylo: Experience refined writing with this A5 hardbound journal. High-quality faux leather, elastic closure, pen holder, ribbon bookmark, back slide pocket & 96 sheets of 80gsm paper. HSN 482090\n",
+        "longDescription": "Think Print Stylo: Experience refined writing with this A5 hardbound journal. High-quality faux leather, elastic closure, pen holder, ribbon bookmark, back slide pocket & 96 sheets of 80gsm paper. HSN 482090\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4122,8 +4122,8 @@ export const products = [
     {
         "id": 213,
         "title": "Premium Notebook - PRIMO",
-        "shortDescription": "Urban Gear Primo: A5 cushioned faux leather journal with pen holder, elastic closure, ribbon bookmark, and 96 sheets of 80gsm paper.\n",
-        "longDescription": "Urban Gear Primo A5 journal. High-quality faux leather, hardbound with cushiony feel. Features elastic band, pen holder (pen not included), ribbon bookmark. 15*22*2cm, 80gsm- 96 sheets. HSN 482010.\n",
+        "shortDescription": "Think Print Primo: A5 cushioned faux leather journal with pen holder, elastic closure, ribbon bookmark, and 96 sheets of 80gsm paper.\n",
+        "longDescription": "Think Print Primo A5 journal. High-quality faux leather, hardbound with cushiony feel. Features elastic band, pen holder (pen not included), ribbon bookmark. 15*22*2cm, 80gsm- 96 sheets. HSN 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4146,8 +4146,8 @@ export const products = [
     {
         "id": 214,
         "title": "Premium Notebook - ZIGY",
-        "shortDescription": "Urban Gear ZIGY: A5 hardbound notebook with elastic closure, ribbon bookmark, back pocket, and 96 sheets of 80gsm paper.\n",
-        "longDescription": "The Urban Gear ZIGY notebook is your perfect companion. Its hard bound cover, elastic band, & ribbon bookmark offer durability & convenience. It features a slide pocket, 96 sheets of 80gsm paper, and is A5 sized. HSNCode 482090.\n",
+        "shortDescription": "Think Print ZIGY: A5 hardbound notebook with elastic closure, ribbon bookmark, back pocket, and 96 sheets of 80gsm paper.\n",
+        "longDescription": "The Think Print ZIGY notebook is your perfect companion. Its hard bound cover, elastic band, & ribbon bookmark offer durability & convenience. It features a slide pocket, 96 sheets of 80gsm paper, and is A5 sized. HSNCode 482090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4167,8 +4167,8 @@ export const products = [
     {
         "id": 215,
         "title": "MILKY SPIRAL",
-        "shortDescription": "Urban Gear Milky Spiral: A5 recycled milk carton notebook with pen loop, elastic closure, and branding options.\n",
-        "longDescription": "Urban Gear Milky Spiral: A5, eco-friendly notebook made from recycled milk cartons. Features a hard bound white cover, elastic closure, pen loop, 80 sheets (160 pages) of 70gsm paper. Ideal for screen printing, DTF printing, or deboss branding. 14.5 x 21 cm. HSN Code 48201090.\n",
+        "shortDescription": "Think Print Milky Spiral: A5 recycled milk carton notebook with pen loop, elastic closure, and branding options.\n",
+        "longDescription": "Think Print Milky Spiral: A5, eco-friendly notebook made from recycled milk cartons. Features a hard bound white cover, elastic closure, pen loop, 80 sheets (160 pages) of 70gsm paper. Ideal for screen printing, DTF printing, or deboss branding. 14.5 x 21 cm. HSN Code 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4187,7 +4187,7 @@ export const products = [
         "id": 216,
         "title": "STRAP-CORK",
         "shortDescription": "Premium A5 cork-bound notebook with elastic closure, featuring ruled, grid, and plain pages, ideal for planning and note-taking, with optional box and custom branding options.\n",
-        "longDescription": "Urban Gear STRAP-CORK premium A5 notebook. Features a hard-bound cork cover, elastic band closure, and 96 sheets (192 pages) of 80gsm paper. Inside: planner (12p), ruled (175p), grid (16p), and plain (16p) sections. Size: 14.5 x 21 cm. Box optional. Pair with Bilbao pen. Ideal for screen, DTF printi",
+        "longDescription": "Think Print STRAP-CORK premium A5 notebook. Features a hard-bound cork cover, elastic band closure, and 96 sheets (192 pages) of 80gsm paper. Inside: planner (12p), ruled (175p), grid (16p), and plain (16p) sections. Size: 14.5 x 21 cm. Box optional. Pair with Bilbao pen. Ideal for screen, DTF printi",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4205,8 +4205,8 @@ export const products = [
     {
         "id": 217,
         "title": "Rpet - Spiral",
-        "shortDescription": "Urban Gear A5 RPET spiral notebook with recycled paper, elastic closure, pen loop, and a unique RPP mobile stand.\n",
-        "longDescription": "Urban Gear RPET-Spiral notebook. A5 size (14.5 x 20.5cm) with a recycled RPET cover & sheets. Features a handy mobile stand, pen loop, & elastic closure. 80 sheets (160 pages) of 70gsm paper. Ideal for screen print, DTF print, or deboss. Available in Black & Blue.\n",
+        "shortDescription": "Think Print A5 RPET spiral notebook with recycled paper, elastic closure, pen loop, and a unique RPP mobile stand.\n",
+        "longDescription": "Think Print RPET-Spiral notebook. A5 size (14.5 x 20.5cm) with a recycled RPET cover & sheets. Features a handy mobile stand, pen loop, & elastic closure. 80 sheets (160 pages) of 70gsm paper. Ideal for screen print, DTF print, or deboss. Available in Black & Blue.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4263,22 +4263,22 @@ export const products = [
     },
     {
         "id": 220,
-        "title": "SUGAR",
+        "title": "STPAR",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "/products/sugar/sugar1.webp",
+        "img": "/products/sTPar/sTPar1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/sugar/sugar2.webp",
-            "/products/sugar/sugar3.webp",
-            "/products/sugar/sugar4.webp",
-            "/products/sugar/sugar5.webp",
-            "/products/sugar/sugar6.webp"
+            "/products/sTPar/sTPar2.webp",
+            "/products/sTPar/sTPar3.webp",
+            "/products/sTPar/sTPar4.webp",
+            "/products/sTPar/sTPar5.webp",
+            "/products/sTPar/sTPar6.webp"
         ]
     },
     {
@@ -4361,7 +4361,7 @@ export const products = [
         "id": 225,
         "title": "ZIGY PRO",
         "shortDescription": "N/A",
-        "longDescription": "ZIGY PRO by Urban Gear: A5 faux leather, hard bound notebook (14.5x21cm). Features pen loop, elastic closure, 96 sheets (192 pages, 80gsm). Includes planner, ruled, grid & plain sections. Customizable with screen print, DTF, or deboss. Black, brown, blue. HSN 48201090. Pairs with Styliter pen.\n",
+        "longDescription": "ZIGY PRO by Think Print: A5 faux leather, hard bound notebook (14.5x21cm). Features pen loop, elastic closure, 96 sheets (192 pages, 80gsm). Includes planner, ruled, grid & plain sections. Customizable with screen print, DTF, or deboss. Black, brown, blue. HSN 48201090. Pairs with Styliter pen.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4381,8 +4381,8 @@ export const products = [
     {
         "id": 226,
         "title": "KORSA 2.0",
-        "shortDescription": "Urban Gear KORSA 2.0 is a premium A5 faux leather notebook with pen loop, magnetic closure, and versatile page layouts, ideal for promotional use and pairing with Pisa Metal Pens.\n",
-        "longDescription": "KORSA 2.0 Premium Notebook by Urban Gear. Faux Leather, cushioned hard bound, A5 (14.5x21cm). Pen loop, magnetic closure. 192 pages (80gsm): Planner (12pp), Ruled (175pp), Grid/Plain (16pp each). Deboss/Screen/DTF print options. Box optional. HSN 48202000. Pair with Pisa Metal Pen!\n",
+        "shortDescription": "Think Print KORSA 2.0 is a premium A5 faux leather notebook with pen loop, magnetic closure, and versatile page layouts, ideal for promotional use and pairing with Pisa Metal Pens.\n",
+        "longDescription": "KORSA 2.0 Premium Notebook by Think Print. Faux Leather, cushioned hard bound, A5 (14.5x21cm). Pen loop, magnetic closure. 192 pages (80gsm): Planner (12pp), Ruled (175pp), Grid/Plain (16pp each). Deboss/Screen/DTF print options. Box optional. HSN 48202000. Pair with Pisa Metal Pen!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4402,8 +4402,8 @@ export const products = [
     {
         "id": 227,
         "title": "PRIMUS",
-        "shortDescription": "Urban Gear Primus: A5 faux leather, cushioned hardbound notebook with 96 sheets/192 pages of 80gsm paper, customizable with printing options and an optional pen, available in black and brown.\n",
-        "longDescription": "Urban Gear Primus notebook: A5 size (14.5 x 21 cm), faux leather, cushioned hard bound with 192 pages (96 sheets) of 80gsm paper. Features ruled, grid, plain & planner pages. Available in black or brown. Optional box & Brio pen. Screen/DTF/Deboss printing. HSN 48201090.\n",
+        "shortDescription": "Think Print Primus: A5 faux leather, cushioned hardbound notebook with 96 sheets/192 pages of 80gsm paper, customizable with printing options and an optional pen, available in black and brown.\n",
+        "longDescription": "Think Print Primus notebook: A5 size (14.5 x 21 cm), faux leather, cushioned hard bound with 192 pages (96 sheets) of 80gsm paper. Features ruled, grid, plain & planner pages. Available in black or brown. Optional box & Brio pen. Screen/DTF/Deboss printing. HSN 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4438,8 +4438,8 @@ export const products = [
     {
         "id": 229,
         "title": "FLIP Premium Traveller Notebook",
-        "shortDescription": "Urban Gear FLIP: A5 faux leather notebook with 196 pages of 80gsm paper and magnetic closure.\n",
-        "longDescription": "Urban Gear FLIP journal: A5 faux leather notebook (14.5x21cm). Features 196 pages of 80gsm paper and a secure magnetic closure. Ideal for notes & ideas. HSN Code 48202000.\n",
+        "shortDescription": "Think Print FLIP: A5 faux leather notebook with 196 pages of 80gsm paper and magnetic closure.\n",
+        "longDescription": "Think Print FLIP journal: A5 faux leather notebook (14.5x21cm). Features 196 pages of 80gsm paper and a secure magnetic closure. Ideal for notes & ideas. HSN Code 48202000.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4459,8 +4459,8 @@ export const products = [
     {
         "id": 230,
         "title": "POCKET Premium Traveller Notebook",
-        "shortDescription": "Urban Gear UG POCKET: A5 faux leather notebook with pen/mobile holder, 196 pages (80gsm), 14.5*21cm.\n",
-        "longDescription": "Urban Gear POCKET is a stylish A5 notebook (14.5x21cm) with a faux leather cover. It features 196 pages of 80gsm paper, plus pen & mobile holders, perfect for on-the-go note-taking.\n",
+        "shortDescription": "Think Print TP POCKET: A5 faux leather notebook with pen/mobile holder, 196 pages (80gsm), 14.5*21cm.\n",
+        "longDescription": "Think Print POCKET is a stylish A5 notebook (14.5x21cm) with a faux leather cover. It features 196 pages of 80gsm paper, plus pen & mobile holders, perfect for on-the-go note-taking.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4639,8 +4639,8 @@ export const products = [
     {
         "id": 239,
         "title": "DUAL PREMIUM NOTEBOOK",
-        "shortDescription": "Urban Gear Dual Premium A5 notebook with a faux leather soft cover, 196 pages of 80gsm paper.\n",
-        "longDescription": "Urban Gear Dual Premium Notebook.A5 faux leather softbound notebook. Size: 15.2*21*1.5cm. Featuring 196 pages of 80gsm paper, perfect for notes. HSNCode 48201010.\n",
+        "shortDescription": "Think Print Dual Premium A5 notebook with a faux leather soft cover, 196 pages of 80gsm paper.\n",
+        "longDescription": "Think Print Dual Premium Notebook.A5 faux leather softbound notebook. Size: 15.2*21*1.5cm. Featuring 196 pages of 80gsm paper, perfect for notes. HSNCode 48201010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4660,8 +4660,8 @@ export const products = [
     {
         "id": 240,
         "title": "Premium Notebook - BELT",
-        "shortDescription": "Urban Gear A5 vegan leather notebook with belt closure, 196 pages of 80gsm paper, sized 14.7x21.5x1.7cm.\n",
-        "longDescription": "Urban Gear BELT: A5 vegan leather journal (14.7x21.5x1.7cm). Features a secure belt closure, 196 pages of smooth 80gsm paper, perfect for writing. HSN: 48201090.\n",
+        "shortDescription": "Think Print A5 vegan leather notebook with belt closure, 196 pages of 80gsm paper, sized 14.7x21.5x1.7cm.\n",
+        "longDescription": "Think Print BELT: A5 vegan leather journal (14.7x21.5x1.7cm). Features a secure belt closure, 196 pages of smooth 80gsm paper, perfect for writing. HSN: 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4681,8 +4681,8 @@ export const products = [
     {
         "id": 241,
         "title": "Premium Notebook-ATHENA",
-        "shortDescription": "Urban Gear ATHENA A5 vegan leather soft bound notebook with pen holder, 196 pages of 80GSM paper (15.5x21x1.5cm).\n",
-        "longDescription": "Urban Gear ATHENA A5 notebook. Vegan leather cover, soft bound. 15.5x21x1.5cm. Features 196 pages of 80GSM paper & a pen holder. HSNCode 48201010. Perfect for daily use.\n",
+        "shortDescription": "Think Print ATHENA A5 vegan leather soft bound notebook with pen holder, 196 pages of 80GSM paper (15.5x21x1.5cm).\n",
+        "longDescription": "Think Print ATHENA A5 notebook. Vegan leather cover, soft bound. 15.5x21x1.5cm. Features 196 pages of 80GSM paper & a pen holder. HSNCode 48201010. Perfect for daily use.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4702,8 +4702,8 @@ export const products = [
     {
         "id": 242,
         "title": "Premium Notebook-VECTOR",
-        "shortDescription": "Urban Gear VECTOR A5 vegan leather journal with 196 pages of 80GSM paper, a cushiony feel, mobile pocket, and pen loop.\n",
-        "longDescription": "Urban Gear VECTOR notebook: A5 size (14.5x21x1.5cm) with 196 pages of 80GSM paper. Features a soft, vegan leather cover for a cushiony feel. Includes a mobile pocket and pen loop. HSNCode 48201090.\n",
+        "shortDescription": "Think Print VECTOR A5 vegan leather journal with 196 pages of 80GSM paper, a cushiony feel, mobile pocket, and pen loop.\n",
+        "longDescription": "Think Print VECTOR notebook: A5 size (14.5x21x1.5cm) with 196 pages of 80GSM paper. Features a soft, vegan leather cover for a cushiony feel. Includes a mobile pocket and pen loop. HSNCode 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4723,8 +4723,8 @@ export const products = [
     {
         "id": 243,
         "title": "Premium Notebook-BOXY",
-        "shortDescription": "Urban Gear BOXY A5 hardbound vegan leather journal with 196 pages and a card pocket.\n",
-        "longDescription": "Urban Gear BOXY is a sleek A5 notebook. Its 14.5x21x1.5cm hard bound vegan leather cover protects 196 pages of 80gsm paper. Features a handy card pocket. HSN Code 48201090.\n",
+        "shortDescription": "Think Print BOXY A5 hardbound vegan leather journal with 196 pages and a card pocket.\n",
+        "longDescription": "Think Print BOXY is a sleek A5 notebook. Its 14.5x21x1.5cm hard bound vegan leather cover protects 196 pages of 80gsm paper. Features a handy card pocket. HSN Code 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4747,8 +4747,8 @@ export const products = [
     {
         "id": 244,
         "title": "Premium Notebook - CYRUS",
-        "shortDescription": "Urban Gear Cyrus A5 faux leather soft-bound notebook with pen holder, 196 pages of 80GSM paper.\n",
-        "longDescription": "Urban Gear Cyrus A5 notebook. Faux leather, soft bound. Perfect for notes, sketches. 15.2x21x1.5cm, 196 pages of 80GSM paper. Includes pen holder. HSN 48201010.\n",
+        "shortDescription": "Think Print Cyrus A5 faux leather soft-bound notebook with pen holder, 196 pages of 80GSM paper.\n",
+        "longDescription": "Think Print Cyrus A5 notebook. Faux leather, soft bound. Perfect for notes, sketches. 15.2x21x1.5cm, 196 pages of 80GSM paper. Includes pen holder. HSN 48201010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4928,8 +4928,8 @@ export const products = [
     {
         "id": 253,
         "title": "Premium Notebook - SOFTY",
-        "shortDescription": "Urban Gear SOFTY: A5 faux leather soft bound notebook with 96 sheets of 80gsm paper.\n",
-        "longDescription": "Urban Gear SOFTY A5 notebook. Compact 14.9x20.6x1.4cm, faux leather soft bound cover. Contains 96 sheets of smooth 80gsm paper, perfect for everyday writing. HSN 48201090.\n",
+        "shortDescription": "Think Print SOFTY: A5 faux leather soft bound notebook with 96 sheets of 80gsm paper.\n",
+        "longDescription": "Think Print SOFTY A5 notebook. Compact 14.9x20.6x1.4cm, faux leather soft bound cover. Contains 96 sheets of smooth 80gsm paper, perfect for everyday writing. HSN 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4949,8 +4949,8 @@ export const products = [
     {
         "id": 254,
         "title": "Premium Notebook - EDGE",
-        "shortDescription": "Urban Gear EDGE: Premium faux leather notebook with pen holder, elastic closure, and 96 ruled pages in a convenient 14.5x21.5cm size.\n",
-        "longDescription": "Urban Gear EDGE notebook. Premium faux leather, 14.5x21.5x1.5cm. 96 ruled sheets, elastic closure, pen holder (pen not included), and a spongy hard cover.\n",
+        "shortDescription": "Think Print EDGE: Premium faux leather notebook with pen holder, elastic closure, and 96 ruled pages in a convenient 14.5x21.5cm size.\n",
+        "longDescription": "Think Print EDGE notebook. Premium faux leather, 14.5x21.5x1.5cm. 96 ruled sheets, elastic closure, pen holder (pen not included), and a spongy hard cover.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4970,8 +4970,8 @@ export const products = [
     {
         "id": 255,
         "title": "Premium Notebook - COLOR",
-        "shortDescription": "Urban Gear journal featuring a color-coordinated logo, premium leatherette cover, natural paper, and 96 sheets.\n",
-        "longDescription": "Urban Gear notebook boasts a premium Italian leatherette cover and 96 sheets of imported natural shade paper. The engraved logo matches the elastic band's color, adding a touch of subtle sophistication. HSN Code: 482010. UG NAME COLOR.\n",
+        "shortDescription": "Think Print journal featuring a color-coordinated logo, premium leatherette cover, natural paper, and 96 sheets.\n",
+        "longDescription": "Think Print notebook boasts a premium Italian leatherette cover and 96 sheets of imported natural shade paper. The engraved logo matches the elastic band's color, adding a touch of subtle sophistication. HSN Code: 482010. TP NAME COLOR.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -4992,8 +4992,8 @@ export const products = [
     {
         "id": 256,
         "title": "Premium Notebook - ELEMENT",
-        "shortDescription": "Urban Gear Element A5 faux leather magnetic notebook with name card holder, 96 sheets of 80gsm paper.\n",
-        "longDescription": "Urban Gear Element A5 Notebook. Crafted with high-quality faux leather and a durable, double PU hard bound cover. Features a secure magnetic closure, name card holder, and 96 sheets of 80gsm paper. Size: 15.5*21*1.7cm. HSN 482090.\n",
+        "shortDescription": "Think Print Element A5 faux leather magnetic notebook with name card holder, 96 sheets of 80gsm paper.\n",
+        "longDescription": "Think Print Element A5 Notebook. Crafted with high-quality faux leather and a durable, double PU hard bound cover. Features a secure magnetic closure, name card holder, and 96 sheets of 80gsm paper. Size: 15.5*21*1.7cm. HSN 482090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -5013,14 +5013,14 @@ export const products = [
     {
         "id": 257,
         "title": "Premium Notebook - WRINKLE",
-        "shortDescription": "Urban Gear Wrinkle: A5 faux leather, color-changing, replaceable diary with pen loop, card slots, document slit, and elastic closure.\n",
-        "longDescription": "Urban Gear's Wrinkle diary: A5 soft bound faux leather (16x22x1.5cm) journal. Features color-changing engraving, elastic closure with metal detail, pen loop, ribbon bookmark, card slots, & document slit. Replaceable A5 insert (80gsm, 100 sheets). HSN 482090.\n",
+        "shortDescription": "Think Print Wrinkle: A5 faux leather, color-changing, replaceable diary with pen loop, card slots, document slit, and elastic closure.\n",
+        "longDescription": "Think Print's Wrinkle diary: A5 soft bound faux leather (16x22x1.5cm) journal. Features color-changing engraving, elastic closure with metal detail, pen loop, ribbon bookmark, card slots, & document slit. Replaceable A5 insert (80gsm, 100 sheets). HSN 482090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
         "img": "/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle1.webp",
         "designSpecifications": [
-            "UG NAME WRINKLE, thinkPrint, 482090, Brown, 16*22*1.5cm, High Quality Faux Leather, A5 Size Replaceable Diary, Laser Engraving, Elastic Band Closure",
+            "TP NAME WRINKLE, thinkPrint, 482090, Brown, 16*22*1.5cm, High Quality Faux Leather, A5 Size Replaceable Diary, Laser Engraving, Elastic Band Closure",
             ""
         ],
         "thumbnailImages": [
@@ -5033,7 +5033,7 @@ export const products = [
     {
         "id": 258,
         "title": "Premium Notebook - DOUBLE DECK",
-        "shortDescription": "Urban Gear Double Deck: A5 soft-bound, black faux leather notebook featuring twin project sections, double elastic closure, ribbon bookmark, and 2x74 sheets of 80gsm paper.\n",
+        "shortDescription": "Think Print Double Deck: A5 soft-bound, black faux leather notebook featuring twin project sections, double elastic closure, ribbon bookmark, and 2x74 sheets of 80gsm paper.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -5251,8 +5251,8 @@ export const products = [
     {
         "id": 269,
         "title": "Notebook - HARDY",
-        "shortDescription": "Urban Gear Hardy A5 black hardbound notebook with elastic band, ribbon bookmark, and 70 sheets.\n",
-        "longDescription": "Urban Gear's HARDY notebook is a sleek A5 companion. Its durable hard bound cover, secure elastic band, and ribbon bookmark offer refined functionality. 70 sheets of quality paper await your ideas. In classic black. HSNCode 482010.\n",
+        "shortDescription": "Think Print Hardy A5 black hardbound notebook with elastic band, ribbon bookmark, and 70 sheets.\n",
+        "longDescription": "Think Print's HARDY notebook is a sleek A5 companion. Its durable hard bound cover, secure elastic band, and ribbon bookmark offer refined functionality. 70 sheets of quality paper await your ideas. In classic black. HSNCode 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -5275,8 +5275,8 @@ export const products = [
     {
         "id": 270,
         "title": "STRIPES",
-        "shortDescription": "Urban Gear STRIPES: A5 soft-bound faux leather notebook with 196 pages of 80gsm paper.\n",
-        "longDescription": "STRIPES Premium Notebook by Urban Gear. A5 size (14.5 x 21 cm) with a soft faux leather cover, metal tag detail, and 196 pages of 80gsm paper. HSN Code: 48202000. Perfect for everyday use.\n",
+        "shortDescription": "Think Print STRIPES: A5 soft-bound faux leather notebook with 196 pages of 80gsm paper.\n",
+        "longDescription": "STRIPES Premium Notebook by Think Print. A5 size (14.5 x 21 cm) with a soft faux leather cover, metal tag detail, and 196 pages of 80gsm paper. HSN Code: 48202000. Perfect for everyday use.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -5296,8 +5296,8 @@ export const products = [
     {
         "id": 271,
         "title": "KRISS Premium Note Books",
-        "shortDescription": "Urban Gear KRISS A5 premium soft-bound notebook with unique elastic closure, colored edges, ribbon bookmark, back pocket, and 82 sheets of 80GSM paper.\n",
-        "longDescription": "Urban Gear KRISS notebook. A5 size (15.2x21x1.2cm) premium notebook with soft PU cover and modern look. Features unique coloured edges, elastic band, ribbon bookmark, & back pocket. 82 sheets (80GSM). HSN 48201090.\n",
+        "shortDescription": "Think Print KRISS A5 premium soft-bound notebook with unique elastic closure, colored edges, ribbon bookmark, back pocket, and 82 sheets of 80GSM paper.\n",
+        "longDescription": "Think Print KRISS notebook. A5 size (15.2x21x1.2cm) premium notebook with soft PU cover and modern look. Features unique coloured edges, elastic band, ribbon bookmark, & back pocket. 82 sheets (80GSM). HSN 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -5317,8 +5317,8 @@ export const products = [
     {
         "id": 272,
         "title": "Premium Notebook-ATHENA",
-        "shortDescription": "Urban Gear Athena A5 soft-bound vegan leather journal with pen holder, 196 pages of 80GSM paper (15.5x21x1.5cm).\n",
-        "longDescription": "Urban Gear's Athena A5 notebook. Crafted with vegan leather, this soft-bound journal is sized at 15.5x21x1.5cm, boasts 196 pages of 80GSM paper, and includes a pen holder. HSNCode 48201010. Perfect for everyday use.\n",
+        "shortDescription": "Think Print Athena A5 soft-bound vegan leather journal with pen holder, 196 pages of 80GSM paper (15.5x21x1.5cm).\n",
+        "longDescription": "Think Print's Athena A5 notebook. Crafted with vegan leather, this soft-bound journal is sized at 15.5x21x1.5cm, boasts 196 pages of 80GSM paper, and includes a pen holder. HSNCode 48201010. Perfect for everyday use.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -5338,8 +5338,8 @@ export const products = [
     {
         "id": 273,
         "title": "Premium Notebook - CYRUS",
-        "shortDescription": "Urban Gear CYRUS: A5 faux leather, soft-bound notebook with 196 pages of 80GSM paper and a pen holder.\n",
-        "longDescription": "Urban Gear CYRUS A5 notebook. Faux leather cover, soft bound. Contains 196 pages of 80GSM paper. Includes a pen holder. Size: 15.2x21x1.5cm. HSNCode 48201010.\n",
+        "shortDescription": "Think Print CYRUS: A5 faux leather, soft-bound notebook with 196 pages of 80GSM paper and a pen holder.\n",
+        "longDescription": "Think Print CYRUS A5 notebook. Faux leather cover, soft bound. Contains 196 pages of 80GSM paper. Includes a pen holder. Size: 15.2x21x1.5cm. HSNCode 48201010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
@@ -5359,7 +5359,7 @@ export const products = [
     {
         "id": 274,
         "title": "ECO NOTES- Premium Eco-Friendly Notebook",
-        "shortDescription": "Urban Gear ECO NOTES: A5 ethically-made, soft-bound notebook with a cork cover, 196 recycled, unbleached pages.\n",
+        "shortDescription": "Think Print ECO NOTES: A5 ethically-made, soft-bound notebook with a cork cover, 196 recycled, unbleached pages.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -5514,8 +5514,8 @@ export const products = [
     {
         "id": 282,
         "title": "Digital Kit",
-        "shortDescription": "Urban Gear Digital Kit: Travel-ready tech set with headphones, pouch, charging cable, and Bluetooth speaker.\n",
-        "longDescription": "The Urban Gear Digital Kit is the perfect travel companion. It includes Blitz headphones, a Digi Pouch Pro, a Sonic 3-in-1 charging cable, and a Tango Bluetooth speaker for all your tech essentials on the go. HSNCode 48201090\n",
+        "shortDescription": "Think Print Digital Kit: Travel-ready tech set with headphones, pouch, charging cable, and Bluetooth speaker.\n",
+        "longDescription": "The Think Print Digital Kit is the perfect travel companion. It includes Blitz headphones, a Digi Pouch Pro, a Sonic 3-in-1 charging cable, and a Tango Bluetooth speaker for all your tech essentials on the go. HSNCode 48201090\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -5531,8 +5531,8 @@ export const products = [
     {
         "id": 283,
         "title": "TRAVEL GIFT SET",
-        "shortDescription": "Urban Gear's Digi Pro travel kit keeps your tech charged and organized on the go.\n",
-        "longDescription": "Urban Gear's Digi Pro travel kit equips you for any journey. Includes the Buzz Bluetooth speaker, Bolt 3-in-1 cable, On travel adaptor, and Charge-X 10k mAh powerbank, all housed in a Tech Pouch. Stay connected and powered, anywhere.\n",
+        "shortDescription": "Think Print's Digi Pro travel kit keeps your tech charged and organized on the go.\n",
+        "longDescription": "Think Print's Digi Pro travel kit equips you for any journey. Includes the Buzz Bluetooth speaker, Bolt 3-in-1 cable, On travel adaptor, and Charge-X 10k mAh powerbank, all housed in a Tech Pouch. Stay connected and powered, anywhere.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -5551,8 +5551,8 @@ export const products = [
     {
         "id": 284,
         "title": "TRAVEL GIFT SET",
-        "shortDescription": "Urban Gear Travel Gift Set: Dazzle lamp, reading light, chargers, and charging cable, all in a tech pouch.\n",
-        "longDescription": "Urban Gear's Travel Gift Set: Dazzle Lamp & Charger, Digi Pouch tech organizer, Reading Lamp with 15W Dazzle charger, and Sonic 3-in-1 charging cable. Everything you need for organized, powered-up travel in one compact kit.\n",
+        "shortDescription": "Think Print Travel Gift Set: Dazzle lamp, reading light, chargers, and charging cable, all in a tech pouch.\n",
+        "longDescription": "Think Print's Travel Gift Set: Dazzle Lamp & Charger, Digi Pouch tech organizer, Reading Lamp with 15W Dazzle charger, and Sonic 3-in-1 charging cable. Everything you need for organized, powered-up travel in one compact kit.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -5569,8 +5569,8 @@ export const products = [
     {
         "id": 285,
         "title": "Rose Bottle",
-        "shortDescription": "Urban Gear Rose Bottle, Hardy Series Notebook, and Pisa Metal Pen set (HSNCode 48201090).\n",
-        "longDescription": "Urban Gear's Rose Bottle paired with a Hardy Series notebook and Pisa metal pen. Capture ideas in style with durable design and smooth writing. HSNCode 48201090.\n",
+        "shortDescription": "Think Print Rose Bottle, Hardy Series Notebook, and Pisa Metal Pen set (HSNCode 48201090).\n",
+        "longDescription": "Think Print's Rose Bottle paired with a Hardy Series notebook and Pisa metal pen. Capture ideas in style with durable design and smooth writing. HSNCode 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -5593,17 +5593,17 @@ export const products = [
     {
         "id": 286,
         "title": "ZETA DRI N KWAR E SET",
-        "shortDescription": "Urban Gear Zeta Drinkware Set: Includes Zeta Bottle and two Mini Mugs.\n",
-        "longDescription": "Urban Gear Zeta Drinkware Set: Includes a Zeta Bottle and two Mini Mugs. Perfect for on-the-go hydration and sharing your favorite beverages. Compact, durable and stylish.\n",
+        "shortDescription": "Think Print Zeta Drinkware Set: Includes Zeta Bottle and two Mini MTPs.\n",
+        "longDescription": "Think Print Zeta Drinkware Set: Includes a Zeta Bottle and two Mini MTPs. Perfect for on-the-go hydration and sharing your favorite beverages. Compact, durable and stylish.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set1.webp",
         "designSpecifications": [
             "Zeta Bottle, thinkPrint, 39241010, Charcoal Grey, 250mm x 75mm, Tritan Plastic, 300g, 50mm x 30mm, Laser Engraving, None, None, None",
-            "Mini Mug, thinkPrint, 69111000, Matte Black, 80mm x 60mm, Ceramic, 150g, 30mm x 20mm, Pad Printing, None, None, None",
+            "Mini MTP, thinkPrint, 69111000, Matte Black, 80mm x 60mm, Ceramic, 150g, 30mm x 20mm, Pad Printing, None, None, None",
             "Zeta Bottle, thinkPrint, 39241010, Arctic White, 250mm x 75mm, Stainless Steel, 350g, 50mm x 30mm, Screen Printing, None, None, None",
-            "Mini Mug, thinkPrint, 69111000, Ocean Blue, 80mm x 60mm, Porcelain, 140g, 30mm x 20mm, Dye Sublimation, None, None, None",
+            "Mini MTP, thinkPrint, 69111000, Ocean Blue, 80mm x 60mm, Porcelain, 140g, 30mm x 20mm, Dye Sublimation, None, None, None",
             "Zeta Dri N Kwar E Set, thinkPrint, 73239100, Slate Grey, 280mm x 160mm x 80mm, Cardboard, 800g, 60mm x 40mm, Full Color Print, None, None, None"
         ],
         "thumbnailImages": [
@@ -5617,15 +5617,15 @@ export const products = [
     {
         "id": 287,
         "title": "ZETA GIFT SET",
-        "shortDescription": "Urban Gear's Zeta Gift Set (GS07) includes a Zeta Bottle, Kone Mug, Tic-Toe Clock, Softy I Notebook, and Venice Pen.\n",
-        "longDescription": "The Urban Gear ZETA GIFT SET (GS07) offers a stylish & functional collection. Includes the Zeta Bottle, Kone Mug, Tic-Toe Desk Clock, Softy I Basic Notebook, and Venice Pen, perfect for gifting or personal use.\n",
+        "shortDescription": "Think Print's Zeta Gift Set (GS07) includes a Zeta Bottle, Kone MTP, Tic-Toe Clock, Softy I Notebook, and Venice Pen.\n",
+        "longDescription": "The Think Print ZETA GIFT SET (GS07) offers a stylish & functional collection. Includes the Zeta Bottle, Kone MTP, Tic-Toe Desk Clock, Softy I Basic Notebook, and Venice Pen, perfect for gifting or personal use.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/zeta_gift_set/zeta_gift_set1.webp",
         "designSpecifications": [
             "Zeta Bottle, thinkPrint, GS07, Matte Black, 250mm Height, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
-            "Kone Mug, thinkPrint, GS07, Ceramic White, 95mm Height, Ceramic, 350g, 40mm x 40mm, Pad Printing, N/A, N/A, N/A",
+            "Kone MTP, thinkPrint, GS07, Ceramic White, 95mm Height, Ceramic, 350g, 40mm x 40mm, Pad Printing, N/A, N/A, N/A",
             "Tic-Toe Desk Clock, thinkPrint, GS07, Silver, 100mm x 100mm x 30mm, ABS Plastic, 150g, 20mm x 20mm, Screen Printing, N/A, N/A, Button Cell",
             "Softy I Basic Notebook, thinkPrint, GS07, Charcoal Gray, A5, Cardboard, 200g, 70mm x 30mm, Debossing, N/A, N/A, N/A",
             "Venice Pen, thinkPrint, GS07, Gunmetal, 140mm Length, Aluminum, 25g, 40mm x 5mm, Laser Engraving, N/A, N/A, N/A"
@@ -5680,21 +5680,21 @@ export const products = [
     },
     {
         "id": 290,
-        "title": "CORKY MUG HAMPER",
+        "title": "CORKY MTP HAMPER",
         "shortDescription": "N/A",
-        "longDescription": "The Urban Gear Corky Mug Hamper (UG-EG07) is an eco-friendly gift set featuring a Corky Mug, Cork Keychain, E-Cork Notebook, and Bamboo Pen. HSNCode: 48201090.\n",
+        "longDescription": "The Think Print Corky MTP Hamper (TP-EG07) is an eco-friendly gift set featuring a Corky MTP, Cork Keychain, E-Cork Notebook, and Bamboo Pen. HSNCode: 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "/products/corky_mug_hamper/corky_mug_hamper1.webp",
+        "img": "/products/corky_mTP_hamper/corky_mTP_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/corky_mug_hamper/corky_mug_hamper2.webp",
-            "/products/corky_mug_hamper/corky_mug_hamper3.webp",
-            "/products/corky_mug_hamper/corky_mug_hamper4.webp",
-            "/products/corky_mug_hamper/corky_mug_hamper5.webp"
+            "/products/corky_mTP_hamper/corky_mTP_hamper2.webp",
+            "/products/corky_mTP_hamper/corky_mTP_hamper3.webp",
+            "/products/corky_mTP_hamper/corky_mTP_hamper4.webp",
+            "/products/corky_mTP_hamper/corky_mTP_hamper5.webp"
         ]
     },
     {
@@ -5748,7 +5748,7 @@ export const products = [
             "Eco Tees T Shirt, thinkPrint, N/A, Forest Green, Varies by Size (S-XXL), Organic Cotton, 150-200g, 4\" x 4\", Screen Printing, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, N/A, Natural Bamboo, 14cm Length, Bamboo, 15g, 2\" x 0.5\", Laser Engraving, N/A, N/A, N/A",
             "Eco Notes Book, thinkPrint, 48201090, Kraft Brown, A5 (148 x 210 mm), Recycled Paper, 200g, 3\" x 2\", Screen Printing, N/A, N/A, N/A",
-            "iBamboo Mug, thinkPrint, N/A, Natural Bamboo, 12cm Height, Bamboo, 300g, 2\" x 2\", Laser Engraving, N/A, N/A, N/A",
+            "iBamboo MTP, thinkPrint, N/A, Natural Bamboo, 12cm Height, Bamboo, 300g, 2\" x 2\", Laser Engraving, N/A, N/A, N/A",
             "Eco Tees Hamper, thinkPrint, N/A, Natural Kraft, 25cm x 20cm x 10cm, Recycled Cardboard, 800g, 6\" x 4\", Pad Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
@@ -5761,8 +5761,8 @@ export const products = [
     {
         "id": 294,
         "title": "Eco Korki Hamper",
-        "shortDescription": "Urban Gear's Eco Korki Hamper: Sustainable set featuring a grain bottle, bamboo pen & keychain, Korki notes, and natural mug.\n",
-        "longDescription": "The Urban Gear Eco Korki Hamper: a sustainable set featuring a Grain Eco Bottle, Bamboo Pen, Korki Notes (HSNCode 48201090), Natural Eco Mug, and Bamboo Keychain. Embrace eco-friendly essentials with UG.\n",
+        "shortDescription": "Think Print's Eco Korki Hamper: Sustainable set featuring a grain bottle, bamboo pen & keychain, Korki notes, and natural mTP.\n",
+        "longDescription": "The Think Print Eco Korki Hamper: a sustainable set featuring a Grain Eco Bottle, Bamboo Pen, Korki Notes (HSNCode 48201090), Natural Eco MTP, and Bamboo Keychain. Embrace eco-friendly essentials with TP.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -5771,7 +5771,7 @@ export const products = [
             "Grain Eco Bottle, thinkPrint, N/A, Natural, 25cm x 7cm, Stainless Steel/Bamboo, 300g, 5cm x 5cm, Laser Engraving, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, N/A, Natural, 15cm x 1cm, Bamboo, 20g, 3cm x 0.5cm, Laser Engraving, N/A, N/A, N/A",
             "Korki Notes, thinkPrint, 48201090, Brown, 15cm x 10cm x 2cm, Cork/Recycled Paper, 150g, 8cm x 5cm, Screen Printing, N/A, N/A, N/A",
-            "Natural Eco Mug, thinkPrint, N/A, Beige, 10cm x 8cm, Bamboo Fiber, 250g, 4cm x 4cm, Pad Printing, N/A, N/A, N/A",
+            "Natural Eco MTP, thinkPrint, N/A, Beige, 10cm x 8cm, Bamboo Fiber, 250g, 4cm x 4cm, Pad Printing, N/A, N/A, N/A",
             "Bamboo Keychain, thinkPrint, N/A, Natural, 8cm x 2cm, Bamboo, 15g, 2cm x 1cm, Laser Engraving, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
@@ -5784,8 +5784,8 @@ export const products = [
     {
         "id": 295,
         "title": "Eco Rpet Hamper",
-        "shortDescription": "Urban Gear Eco Rpet Hamper: Sustainable set with ebony flask, rpet book, iBamboo mug, and bamboo pen (HSN 48201090).\n",
-        "longDescription": "The Urban Gear Eco Rpet Hamper: a sustainable set featuring an Ebony Flask, Rpet Book, iBamboo Mug, and Bamboo Pen. This eco-friendly gift is perfect for conscious individuals. HSNCode 48201090.\n",
+        "shortDescription": "Think Print Eco Rpet Hamper: Sustainable set with ebony flask, rpet book, iBamboo mTP, and bamboo pen (HSN 48201090).\n",
+        "longDescription": "The Think Print Eco Rpet Hamper: a sustainable set featuring an Ebony Flask, Rpet Book, iBamboo MTP, and Bamboo Pen. This eco-friendly gift is perfect for conscious individuals. HSNCode 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -5793,7 +5793,7 @@ export const products = [
         "designSpecifications": [
             "Ebony Flask, thinkPrint, 73239990, Ebony Black, 250mm x 70mm, Stainless Steel, 350g, 50mm x 30mm, Laser Engraving, None, None, None",
             "Rpet Book, thinkPrint, 48201090, Light Grey, A5 (210mm x 148mm), Recycled PET Fabric, 200g, 80mm x 40mm, Screen Printing, None, None, None",
-            "iBamboo Mug, thinkPrint, 44191900, Natural Bamboo, 120mm x 80mm, Bamboo, 250g, 40mm x 20mm, Laser Engraving, None, None, None",
+            "iBamboo MTP, thinkPrint, 44191900, Natural Bamboo, 120mm x 80mm, Bamboo, 250g, 40mm x 20mm, Laser Engraving, None, None, None",
             "Bamboo Pen, thinkPrint, 96082000, Natural Bamboo, 140mm x 12mm, Bamboo, 20g, 30mm x 5mm, Laser Engraving, None, None, None",
             "Eco Rpet Hamper, thinkPrint, 48201090, Charcoal Grey, 300mm x 200mm x 100mm, Recycled PET Fabric, 500g, 100mm x 50mm, Embroidery, None, None, None"
         ],
@@ -5804,29 +5804,29 @@ export const products = [
     },
     {
         "id": 296,
-        "title": "WHEAT MUG HAMPER",
-        "shortDescription": "Urban Gear's Wheat Mug Hamper features sustainable bamboo, cork, and wheat-based accessories.\n",
-        "longDescription": "The Urban Gear Wheat Mug Hamper: includes a bamboo pen, E-Cork book, wheat eco mug, bamboo keychain & cork card holder. Eco-friendly essentials for everyday use. HSN Code 48201090.\n",
+        "title": "WHEAT MTP HAMPER",
+        "shortDescription": "Think Print's Wheat MTP Hamper features sustainable bamboo, cork, and wheat-based accessories.\n",
+        "longDescription": "The Think Print Wheat MTP Hamper: includes a bamboo pen, E-Cork book, wheat eco mTP, bamboo keychain & cork card holder. Eco-friendly essentials for everyday use. HSN Code 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "/products/wheat_mug_hamper/wheat_mug_hamper1.webp",
+        "img": "/products/wheat_mTP_hamper/wheat_mTP_hamper1.webp",
         "designSpecifications": [
-            "Wheat Eco Mug, thinkPrint, 48201090, Natural Wheat, 90mm x 120mm, Wheat Fiber Composite, 150g, 50mm x 50mm, Pad Printing, None, None, None",
+            "Wheat Eco MTP, thinkPrint, 48201090, Natural Wheat, 90mm x 120mm, Wheat Fiber Composite, 150g, 50mm x 50mm, Pad Printing, None, None, None",
             "Bamboo Pen, thinkPrint, 48201090, Natural Bamboo, 140mm x 12mm, Bamboo, 20g, 30mm x 6mm, Laser Engraving, None, None, None",
             "E-Cork Book, thinkPrint, 48201090, Natural Cork, 148mm x 210mm, Cork & Recycled Paper, 250g, 80mm x 40mm, Screen Printing, None, None, None",
             "Bamboo Keychain, thinkPrint, 48201090, Natural Bamboo, 60mm x 30mm, Bamboo, 15g, 20mm x 10mm, Laser Engraving, None, None, None",
             "Cork Card Holder, thinkPrint, 48201090, Natural Cork, 100mm x 70mm, Cork, 40g, 40mm x 20mm, Debossing, None, None, None"
         ],
         "thumbnailImages": [
-            "/products/wheat_mug_hamper/wheat_mug_hamper2.webp"
+            "/products/wheat_mTP_hamper/wheat_mTP_hamper2.webp"
         ]
     },
     {
         "id": 297,
         "title": "ORION GIFT SET",
-        "shortDescription": "Urban Gear Orion Gift Set: A sophisticated collection of flask, book, pen, card holder, and travel mug.\n",
-        "longDescription": "The Urban Gear Orion Gift Set: Elevate your everyday. Includes Orion flask, Flap/Fusion book, Pisa pen, card holder & Vento mug. Stylish essentials for on-the-go professionals. UG ORION GIFT SET.\n",
+        "shortDescription": "Think Print Orion Gift Set: A sophisticated collection of flask, book, pen, card holder, and travel mTP.\n",
+        "longDescription": "The Think Print Orion Gift Set: Elevate your everyday. Includes Orion flask, Flap/Fusion book, Pisa pen, card holder & Vento mTP. Stylish essentials for on-the-go professionals. TP ORION GIFT SET.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -5836,7 +5836,7 @@ export const products = [
             "Flap / Fusion Book, thinkPrint, 48201090, Navy Blue, A5 (21cm x 14.8cm), PU Leather, 300g, 8cm x 3cm, Debossing, None, None, None",
             "Pisa Metal Pen, thinkPrint, 96081010, Silver, 14cm Length, Aluminum, 25g, 4cm x 0.7cm, Laser Engraving, None, None, None",
             "Card Holder, thinkPrint, 42023200, Brown, 10cm x 7cm, Genuine Leather, 80g, 3cm x 3cm, Embossing, None, None, None",
-            "Vento Travel Mug, thinkPrint, 73239390, Gunmetal Grey, 18cm x 8cm diameter, 304 Stainless Steel, 280g, 5cm x 4cm, Pad Printing, None, None, None"
+            "Vento Travel MTP, thinkPrint, 73239390, Gunmetal Grey, 18cm x 8cm diameter, 304 Stainless Steel, 280g, 5cm x 4cm, Pad Printing, None, None, None"
         ],
         "thumbnailImages": [
             "/products/orion_gift_set/orion_gift_set2.webp",
@@ -5849,8 +5849,8 @@ export const products = [
     {
         "id": 298,
         "title": "ELECTRA FLIP GIFT SET",
-        "shortDescription": "Urban Gear Electra Flip Gift Set with bottle, notebook, pen, charging cable, and travel mug.\n",
-        "longDescription": "The Urban Gear Electra Flip Gift Set: Includes Electra Flip SS Bottle, Dual Book, Styliter Metal Pen, Yoyo Pro Charging Cable, and Toby Travel Mug. Stylish & functional essentials for daily adventures. HSNCode 48201090\n",
+        "shortDescription": "Think Print Electra Flip Gift Set with bottle, notebook, pen, charging cable, and travel mTP.\n",
+        "longDescription": "The Think Print Electra Flip Gift Set: Includes Electra Flip SS Bottle, Dual Book, Styliter Metal Pen, Yoyo Pro Charging Cable, and Toby Travel MTP. Stylish & functional essentials for daily adventures. HSNCode 48201090\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -5860,7 +5860,7 @@ export const products = [
             "Dual Book, thinkPrint, 48201090, Gray, 6\" x 8.5\", Cardboard, 8 oz, 4\" x 1\", Screen Printing, None, None, None",
             "Styliter Metal Pen, thinkPrint, 96081000, Black, 0.5\" x 5.5\", Aluminum, 1 oz, 1\" x 0.25\", Laser Engraving, None, None, None",
             "Yoyo Pro Charging Cable, thinkPrint, 85444290, White, 3 ft, TPE, 1 oz, 0.5\" x 0.5\", Pad Printing, None, None, None",
-            "Toby Travel Mug, thinkPrint, 73239390, Blue, 3.5\" x 7\", Stainless Steel, 10 oz, 2\" x 2\", Laser Engraving, None, None, None"
+            "Toby Travel MTP, thinkPrint, 73239390, Blue, 3.5\" x 7\", Stainless Steel, 10 oz, 2\" x 2\", Laser Engraving, None, None, None"
         ],
         "thumbnailImages": [
             "/products/electra_flip_gift_set/electra_flip_gift_set2.webp",
@@ -5941,7 +5941,7 @@ export const products = [
     {
         "id": 303,
         "title": "EXECUTIVE HAMPERS",
-        "shortDescription": "Urban Gear Executive Hampers: A natural-toned gift set featuring eco-friendly grain bottle, mug, bamboo accessories, RFID card holder, wrinkle book, and bamboo pen.\n",
+        "shortDescription": "Think Print Executive Hampers: A natural-toned gift set featuring eco-friendly grain bottle, mTP, bamboo accessories, RFID card holder, wrinkle book, and bamboo pen.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -5957,36 +5957,36 @@ export const products = [
     },
     {
         "id": 304,
-        "title": "UG HM07",
+        "title": "TP HM07",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "/products/ug_hm07/ug_hm071.webp",
+        "img": "/products/TP_hm07/TP_hm071.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/ug_hm07/ug_hm072.webp",
-            "/products/ug_hm07/ug_hm073.webp",
-            "/products/ug_hm07/ug_hm074.webp",
-            "/products/ug_hm07/ug_hm075.webp",
-            "/products/ug_hm07/ug_hm076.webp"
+            "/products/TP_hm07/TP_hm072.webp",
+            "/products/TP_hm07/TP_hm073.webp",
+            "/products/TP_hm07/TP_hm074.webp",
+            "/products/TP_hm07/TP_hm075.webp",
+            "/products/TP_hm07/TP_hm076.webp"
         ]
     },
     {
         "id": 305,
         "title": "EXECUTIVE HAMPERS",
         "shortDescription": "N/A",
-        "longDescription": "Elevate gifting with the Executive Hamper. Features a Chill Bottle, Cookie Mug, Tic Tac Clock, Wytbook, and Stypen, all neatly arranged in a stylish white hamper. Urban Gear quality, HSN Code 48201090.\n",
+        "longDescription": "Elevate gifting with the Executive Hamper. Features a Chill Bottle, Cookie MTP, Tic Tac Clock, Wytbook, and Stypen, all neatly arranged in a stylish white hamper. Think Print quality, HSN Code 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "Chill Bottle, thinkPrint, 48201090, White, 25cm Height x 7cm Diameter, Stainless Steel, 350g, 5cm x 5cm, Laser Engraving, None, None, None",
-            "Cookie Mug, thinkPrint, 48201090, White, 12cm Height x 9cm Diameter, Ceramic, 400g, 4cm x 4cm, Pad Printing, None, None, None",
+            "Cookie MTP, thinkPrint, 48201090, White, 12cm Height x 9cm Diameter, Ceramic, 400g, 4cm x 4cm, Pad Printing, None, None, None",
             "Tic Tac Clock, thinkPrint, 48201090, White, 8cm Height x 6cm Width x 3cm Depth, ABS Plastic, 100g, 2cm x 2cm, Screen Printing, None, None, AAA Battery",
             "Wytbook, thinkPrint, 48201090, White, A5 Size (21cm x 14.8cm), Faux Leather Cover, 250g, 8cm x 3cm, Debossing, None, None, None",
             "Stypen, thinkPrint, 48201090, White, 14cm Length x 1cm Diameter, Aluminum, 30g, 4cm x 0.5cm, Laser Engraving, None, None, None"
@@ -5998,26 +5998,26 @@ export const products = [
     },
     {
         "id": 306,
-        "title": "UG-HM02",
-        "shortDescription": "Urban Gear Executive Hamper: Grey hamper containing a Degree Smart Bottle, Wrinkle Book, and Pisa Metal Pen (HSNCode 48201090).\n",
-        "longDescription": "Urban Gear Executive Hamper: Grey hamper includes Degree Smart Bottle, Wrinkle Book, and Pisa Metal Pen. HSNCode 48201090. The perfect gift for the discerning professional.\n",
+        "title": "TP-HM02",
+        "shortDescription": "Think Print Executive Hamper: Grey hamper containing a Degree Smart Bottle, Wrinkle Book, and Pisa Metal Pen (HSNCode 48201090).\n",
+        "longDescription": "Think Print Executive Hamper: Grey hamper includes Degree Smart Bottle, Wrinkle Book, and Pisa Metal Pen. HSNCode 48201090. The perfect gift for the discerning professional.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "/products/ug-hm02/ug-hm021.webp",
+        "img": "/products/TP-hm02/TP-hm021.webp",
         "designSpecifications": [
             "GREY HAMPER, thinkPrint, 48201090, Grey, 18\" x 14\" x 24\", Canvas, 2 lbs, 4\" x 6\", Silkscreen, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "/products/ug-hm02/ug-hm022.webp"
+            "/products/TP-hm02/TP-hm022.webp"
         ]
     },
     {
         "id": 307,
         "title": "ORION GIFT SET",
-        "shortDescription": "Urban Gear Orion Gift Set: Featuring an Orion bottle, Mini Mug, and Yoyo Pro Multi Charging Cable (HSNCode 96170019).\n",
-        "longDescription": "The Orion Gift Set by Urban Gear is the perfect present. It includes the stylish Orion bottle, a cute Mini Mug, and the practical Yoyo Pro Multi Charging Cable. HSN Code: 96170019.\n",
+        "shortDescription": "Think Print Orion Gift Set: Featuring an Orion bottle, Mini MTP, and Yoyo Pro Multi Charging Cable (HSNCode 96170019).\n",
+        "longDescription": "The Orion Gift Set by Think Print is the perfect present. It includes the stylish Orion bottle, a cute Mini MTP, and the practical Yoyo Pro Multi Charging Cable. HSN Code: 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6036,14 +6036,14 @@ export const products = [
     {
         "id": 308,
         "title": "ORION DRINKWARE SET",
-        "shortDescription": "Urban Gear Orion Drinkware Set with Bottle and 2 Mini Mugs (HSNCode 96170019).\n",
-        "longDescription": "The Urban Gear Orion Drinkware Set includes a sleek Orion Bottle & two Mini Mugs. Perfect for on-the-go hydration and sharing a cozy drink. HSNCode 96170019. UG Name: Orion Drinkware Set.\n",
+        "shortDescription": "Think Print Orion Drinkware Set with Bottle and 2 Mini MTPs (HSNCode 96170019).\n",
+        "longDescription": "The Think Print Orion Drinkware Set includes a sleek Orion Bottle & two Mini MTPs. Perfect for on-the-go hydration and sharing a cozy drink. HSNCode 96170019. TP Name: Orion Drinkware Set.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/orion_drinkware_set/orion_drinkware_set1.webp",
         "designSpecifications": [
-            "Orion Drinkware Set, thinkPrint, 96170019, Matte Black, Bottle: 25cm height x 7cm diameter, Mug: 8cm height x 6cm diameter, Stainless Steel, Bottle: 350g, Mug: 150g, Bottle: 5cm x 3cm, Mug: 3cm x 2cm, Laser Engraving, Not Applicable, Not Applicable.",
+            "Orion Drinkware Set, thinkPrint, 96170019, Matte Black, Bottle: 25cm height x 7cm diameter, MTP: 8cm height x 6cm diameter, Stainless Steel, Bottle: 350g, MTP: 150g, Bottle: 5cm x 3cm, MTP: 3cm x 2cm, Laser Engraving, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
@@ -6057,8 +6057,8 @@ export const products = [
     {
         "id": 309,
         "title": "JUNIOR ECO GIFT SET",
-        "shortDescription": "Urban Gear Junior Eco Gift Set: Eco-friendly book, bamboo pen, and walnut bottle, HSNCode 96170019.\n",
-        "longDescription": "The Junior Eco Gift Set by Urban Gear is a sustainable choice! It includes the \"Eco Boo00\" book, a smooth-writing Bamboo Pen, and a durable Walnut Bottle. HSNCode 96170019.\n",
+        "shortDescription": "Think Print Junior Eco Gift Set: Eco-friendly book, bamboo pen, and walnut bottle, HSNCode 96170019.\n",
+        "longDescription": "The Junior Eco Gift Set by Think Print is a sustainable choice! It includes the \"Eco Boo00\" book, a smooth-writing Bamboo Pen, and a durable Walnut Bottle. HSNCode 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6075,8 +6075,8 @@ export const products = [
     {
         "id": 310,
         "title": "ECO GIFT SET",
-        "shortDescription": "Urban Gear ECO Gift Set with walnut bottle, eco book, bamboo pen, cork keychain, and bamboo mug 2.0 (HSNCode 96170019).\n",
-        "longDescription": "The Urban Gear ECO Gift Set offers sustainable style. It includes a Walnut bottle, Eco Book, Bamboo pen, Cork keychain, and Bamboo 2.0 mug. Perfect for eco-conscious individuals. HSN Code: 96170019.\n",
+        "shortDescription": "Think Print ECO Gift Set with walnut bottle, eco book, bamboo pen, cork keychain, and bamboo mTP 2.0 (HSNCode 96170019).\n",
+        "longDescription": "The Think Print ECO Gift Set offers sustainable style. It includes a Walnut bottle, Eco Book, Bamboo pen, Cork keychain, and Bamboo 2.0 mTP. Perfect for eco-conscious individuals. HSN Code: 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6159,7 +6159,7 @@ export const products = [
         "category": "Giftsets",
         "img": "/products/clint_gift_set/clint_gift_set1.webp",
         "designSpecifications": [
-            "CLINT Gift Set, thinkPrint, 96170019, Black, Bottle: 25cm height, Mug: 7cm height, Speaker: 8cm diameter, Stainless Steel (Bottle & Mug), ABS Plastic (Speaker), 800g (total set), 5cm x 5cm (Speaker), Laser Engraving/Pad Printing, Single color indicator, 3W, 1200mAh",
+            "CLINT Gift Set, thinkPrint, 96170019, Black, Bottle: 25cm height, MTP: 7cm height, Speaker: 8cm diameter, Stainless Steel (Bottle & MTP), ABS Plastic (Speaker), 800g (total set), 5cm x 5cm (Speaker), Laser Engraving/Pad Printing, Single color indicator, 3W, 1200mAh",
             ""
         ],
         "thumbnailImages": [
@@ -6170,15 +6170,15 @@ export const products = [
     {
         "id": 315,
         "title": "CLINT DRINKWARE SET",
-        "shortDescription": "Urban Gear CLINT Drinkware set: Clint Bottle with two Mini Mugs in Black (HSNCode 96170019).\n",
-        "longDescription": "The Urban Gear CLINT Drinkware set in black. Includes the Clint Bottle and two Mini Mugs. Perfect for staying hydrated and enjoying your favorite beverages on the go. HSNCode 96170019.\n",
+        "shortDescription": "Think Print CLINT Drinkware set: Clint Bottle with two Mini MTPs in Black (HSNCode 96170019).\n",
+        "longDescription": "The Think Print CLINT Drinkware set in black. Includes the Clint Bottle and two Mini MTPs. Perfect for staying hydrated and enjoying your favorite beverages on the go. HSNCode 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/clint_drinkware_set/clint_drinkware_set1.webp",
         "designSpecifications": [
             "CLINT Bottle, thinkPrint, 96170019, Black, 28cm x 8cm, Stainless Steel, 450g, 5cm x 5cm, Laser Engraving, No RGB Lighting Effects",
-            "Mini Mug, thinkPrint, 96170019, Black, 8cm x 6cm, Ceramic, 250g, 3cm x 3cm, Pad Printing, No RGB Lighting Effects",
+            "Mini MTP, thinkPrint, 96170019, Black, 8cm x 6cm, Ceramic, 250g, 3cm x 3cm, Pad Printing, No RGB Lighting Effects",
             ""
         ],
         "thumbnailImages": [
@@ -6189,18 +6189,18 @@ export const products = [
     {
         "id": 316,
         "title": "ZEN DRINKWARE SET",
-        "shortDescription": "Urban Gear ZEN Drinkware Set (Zen 500 bottle, Lisbon Mug 2) HSNCode 96170019.\n",
-        "longDescription": "Elevate hydration with the Urban Gear ZEN Drinkware Set. Features the Zen 500 bottle and Lisbon Mug 2. Perfect for on-the-go or home use. Stylish design meets practical function. HSNCode 96170019.\n",
+        "shortDescription": "Think Print ZEN Drinkware Set (Zen 500 bottle, Lisbon MTP 2) HSNCode 96170019.\n",
+        "longDescription": "Elevate hydration with the Think Print ZEN Drinkware Set. Features the Zen 500 bottle and Lisbon MTP 2. Perfect for on-the-go or home use. Stylish design meets practical function. HSNCode 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/zen_drinkware_set/zen_drinkware_set1.webp",
         "designSpecifications": [
             "ZEN 500 Bottle, thinkPrint, 96170019, Matte Black, 73mm diameter x 215mm height, Stainless Steel 304, 300g, 50mm x 50mm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
-            "Lisbon Mug 2, thinkPrint, 96170019, Gloss White, 85mm diameter x 95mm height, Ceramic, 350g, 40mm x 60mm, Pad Printing, Not Applicable, Not Applicable, Not Applicable",
+            "Lisbon MTP 2, thinkPrint, 96170019, Gloss White, 85mm diameter x 95mm height, Ceramic, 350g, 40mm x 60mm, Pad Printing, Not Applicable, Not Applicable, Not Applicable",
             "ZEN Drinkware Set, thinkPrint, 96170019, Gift Box - Natural Kraft, 250mm x 250mm x 100mm, Cardboard, 150g, 100mm x 100mm, Screen Printing, Not Applicable, Not Applicable, Not Applicable",
             "ZEN 500 Bottle, thinkPrint, 96170019, Interior - Silver, 73mm diameter x 215mm height, Stainless Steel 304, 300g, Not Applicable, Not Applicable, Not Applicable, Not Applicable, Not Applicable",
-            "Lisbon Mug 2, thinkPrint, 96170019, Interior - White, 85mm diameter x 95mm height, Ceramic, 350g, Not Applicable, Not Applicable, Not Applicable, Not Applicable, Not Applicable"
+            "Lisbon MTP 2, thinkPrint, 96170019, Interior - White, 85mm diameter x 95mm height, Ceramic, 350g, Not Applicable, Not Applicable, Not Applicable, Not Applicable, Not Applicable"
         ],
         "thumbnailImages": [
             "/products/zen_drinkware_set/zen_drinkware_set2.webp",
@@ -6213,8 +6213,8 @@ export const products = [
     {
         "id": 317,
         "title": "ZEN GIFT SET",
-        "shortDescription": "Urban Gear ZEN Gift Set: Zen 500 bottle, Lisbon mug, and Krono Bluetooth speaker with clock, HSNCode 96170019.\n",
-        "longDescription": "Unwind with the ZEN Gift Set by Urban Gear. Features the Zen 500 bottle, Lisbon mug, & Krono Bluetooth speaker with clock. A perfect blend of tranquility and tech. HSNCode 96170019.\n",
+        "shortDescription": "Think Print ZEN Gift Set: Zen 500 bottle, Lisbon mTP, and Krono Bluetooth speaker with clock, HSNCode 96170019.\n",
+        "longDescription": "Unwind with the ZEN Gift Set by Think Print. Features the Zen 500 bottle, Lisbon mTP, & Krono Bluetooth speaker with clock. A perfect blend of tranquility and tech. HSNCode 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6234,8 +6234,8 @@ export const products = [
     {
         "id": 318,
         "title": "EMPLOYEE ESSENTIAL KIT ORION COLLECTION (GIFT SET)",
-        "shortDescription": "Urban Gear's Employee Essential Kit Orion Collection features Orion bottle, Vento mug, Cardy3 card holder, Stylus metal pen, and Flap/Fusion dairy.\n",
-        "longDescription": "The Urban Gear Employee Essential Kit Orion Collection offers premium tools for success. It features the sleek Orion bottle, Vento mug, Cardy3 card holder, Stylus Metal Pen, and Flap/Fusion dairy. HSN Code 48201090. Elevate your workday!\n",
+        "shortDescription": "Think Print's Employee Essential Kit Orion Collection features Orion bottle, Vento mTP, Cardy3 card holder, Stylus metal pen, and Flap/Fusion dairy.\n",
+        "longDescription": "The Think Print Employee Essential Kit Orion Collection offers premium tools for success. It features the sleek Orion bottle, Vento mTP, Cardy3 card holder, Stylus Metal Pen, and Flap/Fusion dairy. HSN Code 48201090. Elevate your workday!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6255,8 +6255,8 @@ export const products = [
     {
         "id": 319,
         "title": "EMPLOYEE ESSENTIAL KIT DUAL COLLECTION (GIFT SET)",
-        "shortDescription": "Urban Gear Employee Essential Kit Dual Collection: a curated set of workspace essentials, including a dual diary, Electra Flip bottle, Styliter pen, Toby mug, and Yoyo Pro charging cable.\n",
-        "longDescription": "The Urban Gear Employee Essential Kit Dual Collection. Features: Dual Dairy, Electra Flip Bottle, Styliter Pen, Toby Mug, & Yoyo Pro Charging Cable. HSN Code: 48201090. UG NAME: EMPLOYEE ESSENTIAL KIT.\n",
+        "shortDescription": "Think Print Employee Essential Kit Dual Collection: a curated set of workspace essentials, including a dual diary, Electra Flip bottle, Styliter pen, Toby mTP, and Yoyo Pro charging cable.\n",
+        "longDescription": "The Think Print Employee Essential Kit Dual Collection. Features: Dual Dairy, Electra Flip Bottle, Styliter Pen, Toby MTP, & Yoyo Pro Charging Cable. HSN Code: 48201090. TP NAME: EMPLOYEE ESSENTIAL KIT.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6276,7 +6276,7 @@ export const products = [
     {
         "id": 320,
         "title": "DRINKWARE GIFT SET-CAMPER",
-        "shortDescription": "Urban Gear Camper gift set: 500ml stainless steel bottle & 100ml mug, keeps drinks hot/cold for 12-18 hours.\n",
+        "shortDescription": "Think Print Camper gift set: 500ml stainless steel bottle & 100ml mTP, keeps drinks hot/cold for 12-18 hours.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -6392,8 +6392,8 @@ export const products = [
     {
         "id": 326,
         "title": "3-IN-1 GIFT SET",
-        "shortDescription": "Urban Gear 3-IN-1 GIFT SET: Bottle-Sigma Pro, Diary-Primo, Pen-Gripper (HSNCode 482010).\n",
-        "longDescription": "Urban Gear 3-IN-1 GIFT SET: Sigma Pro bottle, Primo diary (HSNCode 482010), and Gripper pen. The perfect everyday carry essentials.\n",
+        "shortDescription": "Think Print 3-IN-1 GIFT SET: Bottle-Sigma Pro, Diary-Primo, Pen-Gripper (HSNCode 482010).\n",
+        "longDescription": "Think Print 3-IN-1 GIFT SET: Sigma Pro bottle, Primo diary (HSNCode 482010), and Gripper pen. The perfect everyday carry essentials.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6415,8 +6415,8 @@ export const products = [
     {
         "id": 327,
         "title": "7-IN-1 GIFT SET",
-        "shortDescription": "Urban Gear 7-in-1 Gift Set featuring Bottle-Orion, Diary-Hardy Plus, Pen-Stypen, Mug-Toby, Bluetooth Speaker-Drum, PU Key Chain, and Yoyo Drops (HSNCode 482010).\n",
-        "longDescription": "The Urban Gear 7-in-1 Gift Set: Orion bottle, Hardy Plus diary, Stypen pen, Toby mug, Drum Bluetooth speaker, PU keychain, and Yoyo Drops. Perfect for gifting! HSN Code: 482010\n",
+        "shortDescription": "Think Print 7-in-1 Gift Set featuring Bottle-Orion, Diary-Hardy Plus, Pen-Stypen, MTP-Toby, Bluetooth Speaker-Drum, PU Key Chain, and Yoyo Drops (HSNCode 482010).\n",
+        "longDescription": "The Think Print 7-in-1 Gift Set: Orion bottle, Hardy Plus diary, Stypen pen, Toby mTP, Drum Bluetooth speaker, PU keychain, and Yoyo Drops. Perfect for gifting! HSN Code: 482010\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6439,8 +6439,8 @@ export const products = [
     {
         "id": 328,
         "title": "3-IN-1 GIFT SET",
-        "shortDescription": "Urban Gear 3-in-1 gift set featuring Orion bottle, Softy diary, and Styliter pen (HSNCode 482010).\n",
-        "longDescription": "Urban Gear's 3-IN-1 GIFT SET. Includes Orion bottle, Softy diary (HSNCode 482010), and Styliter pen. Perfect for everyday use and gifting. A stylish & practical essential.\n",
+        "shortDescription": "Think Print 3-in-1 gift set featuring Orion bottle, Softy diary, and Styliter pen (HSNCode 482010).\n",
+        "longDescription": "Think Print's 3-IN-1 GIFT SET. Includes Orion bottle, Softy diary (HSNCode 482010), and Styliter pen. Perfect for everyday use and gifting. A stylish & practical essential.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6463,8 +6463,8 @@ export const products = [
     {
         "id": 329,
         "title": "7-IN-1 GIFT SET",
-        "shortDescription": "Urban Gear 7-in-1 Gift Set featuring Silica Bottle, Capri Diary, Flynn Pen, Bamboo 2.0 Mug, Nano Bluetooth Speaker, PU Key Chain, and Guard Card Holder.\n",
-        "longDescription": "Urban Gear's 7-in-1 gift set: Silica bottle, Capri diary, Flynn pen, Bamboo 2.0 mug, Nano Bluetooth speaker, PU key chain, & Guard card holder. HSNCode 482010.\n",
+        "shortDescription": "Think Print 7-in-1 Gift Set featuring Silica Bottle, Capri Diary, Flynn Pen, Bamboo 2.0 MTP, Nano Bluetooth Speaker, PU Key Chain, and Guard Card Holder.\n",
+        "longDescription": "Think Print's 7-in-1 gift set: Silica bottle, Capri diary, Flynn pen, Bamboo 2.0 mTP, Nano Bluetooth speaker, PU key chain, & Guard card holder. HSNCode 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6473,7 +6473,7 @@ export const products = [
             "Bottle-Silica, thinkPrint, 482010, Transparent, 250mm x 70mm, Silica Glass, 350g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Capri, thinkPrint, 482010, Navy Blue, A5 (210mm x 148mm), Faux Leather, 250g, 80mm x 40mm, Debossing, N/A, N/A, N/A",
             "Pen-Flynn, thinkPrint, 482010, Silver, 140mm x 12mm, Stainless Steel, 30g, 40mm x 6mm, Laser Engraving, N/A, N/A, N/A",
-            "Mug-Bamboo 2.0, thinkPrint, 482010, Natural Bamboo, 110mm x 85mm, Bamboo Fiber, 300g, 60mm x 40mm, Screen Printing, N/A, N/A, N/A",
+            "MTP-Bamboo 2.0, thinkPrint, 482010, Natural Bamboo, 110mm x 85mm, Bamboo Fiber, 300g, 60mm x 40mm, Screen Printing, N/A, N/A, N/A",
             "Bluetooth Speaker-Nano, thinkPrint, 482010, Matte Black, 50mm x 50mm x 30mm, ABS Plastic, 80g, 20mm x 10mm, Pad Printing, Red, 3W, 400mAh"
         ],
         "thumbnailImages": [
@@ -6487,8 +6487,8 @@ export const products = [
     {
         "id": 330,
         "title": "CALYPSO -DRINKWARE GIFT SET",
-        "shortDescription": "Urban Gear Calypso Drinkware Gift Set.\n",
-        "longDescription": "Urban Gear CALYPSO drinkware gift set. Elegant and practical, perfect for gifting. HSNCode 96170090.\n",
+        "shortDescription": "Think Print Calypso Drinkware Gift Set.\n",
+        "longDescription": "Think Print CALYPSO drinkware gift set. Elegant and practical, perfect for gifting. HSNCode 96170090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6507,7 +6507,7 @@ export const products = [
     {
         "id": 331,
         "title": "SOFTY GIFT SET",
-        "shortDescription": "Urban Gear SOFTY GIFT SET: A soft-bound notebook diary and pen set for comfortable writing.\n",
+        "shortDescription": "Think Print SOFTY GIFT SET: A soft-bound notebook diary and pen set for comfortable writing.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -6578,7 +6578,7 @@ export const products = [
     {
         "id": 335,
         "title": "Joining Kit December Collection",
-        "shortDescription": "Urban Gear's December Collection Joining Kit welcomes new employees with a Degree bottle, Element Colors book, Venice Roma pen, Steelo Tork-450 mug, Palm 5 Display power bank, Yoyo Pro Lan-c charging cable, and Mobistand Pop stand mobile stand (HSNCode 48201090).\n",
+        "shortDescription": "Think Print's December Collection Joining Kit welcomes new employees with a Degree bottle, Element Colors book, Venice Roma pen, Steelo Tork-450 mTP, Palm 5 Display power bank, Yoyo Pro Lan-c charging cable, and Mobistand Pop stand mobile stand (HSNCode 48201090).\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -6598,13 +6598,13 @@ export const products = [
         "id": 336,
         "title": "MINI WELCOME KIT",
         "shortDescription": "N/A",
-        "longDescription": "The Urban Gear Mini Welcome Kit helps new hires feel valued. Includes a branded notebook, pen, water bottle and optional t-shirt to boost confidence and belonging from day one.\n",
+        "longDescription": "The Think Print Mini Welcome Kit helps new hires feel valued. Includes a branded notebook, pen, water bottle and optional t-shirt to boost confidence and belonging from day one.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/mini_welcome_kit/mini_welcome_kit1.webp",
         "designSpecifications": [
-            "UG MINI WELCOME KIT, thinkPrint, 490700, Black, 250mm x 200mm x 80mm, Cardboard, 500g, 80mm x 50mm, Screen Printing, None.",
+            "TP MINI WELCOME KIT, thinkPrint, 490700, Black, 250mm x 200mm x 80mm, Cardboard, 500g, 80mm x 50mm, Screen Printing, None.",
             ""
         ],
         "thumbnailImages": [
@@ -6616,8 +6616,8 @@ export const products = [
     {
         "id": 337,
         "title": "Junior Joining Kits",
-        "shortDescription": "Urban Gear UG NAME Set -2 Employee Welcome Kit combos (Grey, Red, White, Green) ensure a warm welcome for new hires.\n",
-        "longDescription": "Urban Gear's UG NAME Set-2 Employee Welcome Kit makes new hires feel valued! Available in Grey, Red, White, and Green combos, each set includes stylish & useful items: Tulip/Matte/Electra Flip/Trans Bottle, Flynn/Styliter/Reva Pen, and Trika/Element/Wytbook/Basic Plus Notebook. A thoughtful gift!\n",
+        "shortDescription": "Think Print TP NAME Set -2 Employee Welcome Kit combos (Grey, Red, White, Green) ensure a warm welcome for new hires.\n",
+        "longDescription": "Think Print's TP NAME Set-2 Employee Welcome Kit makes new hires feel valued! Available in Grey, Red, White, and Green combos, each set includes stylish & useful items: Tulip/Matte/Electra Flip/Trans Bottle, Flynn/Styliter/Reva Pen, and Trika/Element/Wytbook/Basic Plus Notebook. A thoTPhtful gift!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6627,7 +6627,7 @@ export const products = [
             "Matte, thinkPrint, 39269099, Red, 18cm x 12cm x 4cm, Plastic, 250g, 4cm x 4cm, Pad Printing, No, N/A, N/A",
             "Electra Flip, thinkPrint, 85171300, White, 15cm x 10cm x 3cm, ABS Plastic, 200g, 3cm x 3cm, Laser Engraving, No, N/A, N/A",
             "Trans, thinkPrint, 42029200, Green, 22cm x 16cm x 6cm, Cardboard, 350g, 6cm x 6cm, Digital Printing, No, N/A, N/A",
-            "UG NAME Set -2, thinkPrint, 49111000, Assorted, 25cm x 18cm x 7cm, Varies, 400g, 7cm x 7cm, Varies, No, N/A, N/A"
+            "TP NAME Set -2, thinkPrint, 49111000, Assorted, 25cm x 18cm x 7cm, Varies, 400g, 7cm x 7cm, Varies, No, N/A, N/A"
         ],
         "thumbnailImages": [
             "/products/junior_joining_kits/junior_joining_kits2.webp",
@@ -6639,8 +6639,8 @@ export const products = [
     {
         "id": 338,
         "title": "Junior Joining Kits",
-        "shortDescription": "Urban Gear's UG NAME Set-1 Employee Welcome Kit: Available in Black, Yellow, Blue, and Brown combos to make new hires feel valued.\n",
-        "longDescription": "Welcome your new team member with the Urban Gear UG NAME Set-1 Employee Welcome Kit! Available in Black, Yellow, Blue, and Brown combos, each kit includes a curated selection of pens and stationary, like Sigma, Elite, Mobilo, or Curvy, to make them feel valued and prepared.\n",
+        "shortDescription": "Think Print's TP NAME Set-1 Employee Welcome Kit: Available in Black, Yellow, Blue, and Brown combos to make new hires feel valued.\n",
+        "longDescription": "Welcome your new team member with the Think Print TP NAME Set-1 Employee Welcome Kit! Available in Black, Yellow, Blue, and Brown combos, each kit includes a curated selection of pens and stationary, like Sigma, Elite, Mobilo, or Curvy, to make them feel valued and prepared.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6662,8 +6662,8 @@ export const products = [
     {
         "id": 339,
         "title": "Joining Kit Gift Set - 7B",
-        "shortDescription": "Urban Gear Joining Kit Gift Set - 7B: Grey combo of Elite bottle, Trika book, Recoil pen, Trendy mug, Duflpac Sports duffel bag, and Skinta t-shirt to welcome new hires with happiness and confidence.\n",
-        "longDescription": "Make new hires feel welcome! This Urban Gear \"Joining Kit Gift Set - 7B\" includes an Elite bottle, Trika book, Recoil pen, Trendy mug, Duflpac Sports duffel, and Skinta T-shirt. A stylish grey combo to boost confidence. HSN 482010.\n",
+        "shortDescription": "Think Print Joining Kit Gift Set - 7B: Grey combo of Elite bottle, Trika book, Recoil pen, Trendy mTP, Duflpac Sports duffel bag, and Skinta t-shirt to welcome new hires with happiness and confidence.\n",
+        "longDescription": "Make new hires feel welcome! This Think Print \"Joining Kit Gift Set - 7B\" includes an Elite bottle, Trika book, Recoil pen, Trendy mTP, Duflpac Sports duffel, and Skinta T-shirt. A stylish grey combo to boost confidence. HSN 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6672,7 +6672,7 @@ export const products = [
             "Bottle, Elite, N/A, Grey, 250mm x 70mm, Stainless Steel, 250g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Book, Trika, 482010, Grey, 210mm x 148mm, Hardcover, 400g, 80mm x 20mm, Screen Printing, N/A, N/A, N/A",
             "Pen, Recoil, N/A, Grey, 140mm x 12mm, Metal, 30g, 40mm x 5mm, Laser Engraving, N/A, N/A, N/A",
-            "Mug, Trendy, N/A, Grey, 95mm x 80mm, Ceramic, 350g, 60mm x 40mm, Sublimation, N/A, N/A, N/A",
+            "MTP, Trendy, N/A, Grey, 95mm x 80mm, Ceramic, 350g, 60mm x 40mm, Sublimation, N/A, N/A, N/A",
             "Folding Duffel Bag, Duflpac Sports, N/A, Grey, 500mm x 250mm x 250mm, Polyester, 300g, 100mm x 50mm, Screen Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
@@ -6684,8 +6684,8 @@ export const products = [
     {
         "id": 340,
         "title": "Joining Kit Gift Set - 7A",
-        "shortDescription": "Urban Gear Joining Kit Gift Set 7A: Grey combo of silica bottle, Korsa book, Roma pen, Steelo mug, Aquabeats speaker, Carduo card holder, and Kiky charging cable to welcome new employees with happiness and confidence.\n",
-        "longDescription": "Welcome new hires with the Urban Gear Joining Kit Gift Set - 7A. This grey combo includes a Silica bottle, Korsa Premium book, Roma pen, Steelo mug, Aquabeats speaker, Carduo card holder, and Kiky charging cable. HSNCode 482010.\n",
+        "shortDescription": "Think Print Joining Kit Gift Set 7A: Grey combo of silica bottle, Korsa book, Roma pen, Steelo mTP, Aquabeats speaker, Carduo card holder, and Kiky charging cable to welcome new employees with happiness and confidence.\n",
+        "longDescription": "Welcome new hires with the Think Print Joining Kit Gift Set - 7A. This grey combo includes a Silica bottle, Korsa Premium book, Roma pen, Steelo mTP, Aquabeats speaker, Carduo card holder, and Kiky charging cable. HSNCode 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6694,7 +6694,7 @@ export const products = [
             "Bottle, thinkPrint, 482010, Grey, 250mm height, Silica, 300g, 50mm x 50mm, Laser Engraving, None, N/A, N/A",
             "Book, thinkPrint, 482010, Grey, A5 size, Korsa Premium, 400g, 80mm x 30mm, Screen Printing, None, N/A, N/A",
             "Pen, thinkPrint, 482010, Grey, 140mm length, Roma, 20g, 30mm x 5mm, Pad Printing, None, N/A, N/A",
-            "Mug, thinkPrint, 482010, Grey, 95mm height, Steelo, 250g, 40mm x 40mm, Laser Engraving, None, N/A, N/A",
+            "MTP, thinkPrint, 482010, Grey, 95mm height, Steelo, 250g, 40mm x 40mm, Laser Engraving, None, N/A, N/A",
             "Speaker, thinkPrint, 482010, Grey, 70mm diameter, Aquabeats, 150g, 30mm x 20mm, Pad Printing, Yes, 3W, 500mAh"
         ],
         "thumbnailImages": [
@@ -6706,8 +6706,8 @@ export const products = [
     {
         "id": 341,
         "title": "Joining Kit Gift Set - 5B",
-        "shortDescription": "Urban Gear's Orange Combo Joining Kit Gift Set - 5B, including Thanda Garam bottle/mug, Stylo book, Brio pen, Twins Bluetooth TWS, adjustable pop stand, and Tycoon travel organizer, welcomes new employees with happiness and confidence.\n",
-        "longDescription": "Urban Gear's Joining Kit Gift Set 5B boosts new employee confidence! Includes Thanda Garam bottle/mug, Stylo book, Brio pen, Twins Bluetooth TWS, adjustable pop stand, & Tycoon travel organizer. Orange Combo. HSN Code 482010.\n",
+        "shortDescription": "Think Print's Orange Combo Joining Kit Gift Set - 5B, including Thanda Garam bottle/mTP, Stylo book, Brio pen, Twins Bluetooth TWS, adjustable pop stand, and Tycoon travel organizer, welcomes new employees with happiness and confidence.\n",
+        "longDescription": "Think Print's Joining Kit Gift Set 5B boosts new employee confidence! Includes Thanda Garam bottle/mTP, Stylo book, Brio pen, Twins Bluetooth TWS, adjustable pop stand, & Tycoon travel organizer. Orange Combo. HSN Code 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6796,8 +6796,8 @@ export const products = [
     {
         "id": 346,
         "title": "Joining Kit Gift Set - 6B",
-        "shortDescription": "Urban Gear's White Combo Joining Kit Gift Set boosts employee confidence with a Mobilo bottle, Hardy Plus book, Reva pen, Mark & pix photo frame, and Acti-Go T-shirt (HSNCode 482010).\n",
-        "longDescription": "Welcome new hires with the Urban Gear Joining Kit! Featuring a Mobilo bottle, Hardy Plus notebook, Reva pen, Mark & pix frame, and Acti-Go t-shirt in a stylish white combo. HSNCode 482010, UG NAME Joining Kit Gift Set - 6B.\n",
+        "shortDescription": "Think Print's White Combo Joining Kit Gift Set boosts employee confidence with a Mobilo bottle, Hardy Plus book, Reva pen, Mark & pix photo frame, and Acti-Go T-shirt (HSNCode 482010).\n",
+        "longDescription": "Welcome new hires with the Think Print Joining Kit! Featuring a Mobilo bottle, Hardy Plus notebook, Reva pen, Mark & pix frame, and Acti-Go t-shirt in a stylish white combo. HSNCode 482010, TP NAME Joining Kit Gift Set - 6B.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6818,8 +6818,8 @@ export const products = [
     {
         "id": 347,
         "title": "Joining Kit Gift Set - 6A",
-        "shortDescription": "Urban Gear Joining Kit Gift Set: A white combo of 7 items (Cola, Wytbook, Verona pen, Bamboo mug, Glowy lamp, Palm 5 Power Book, & Clip & Chrg cable) to welcome new employees.\n",
-        "longDescription": "Welcome new hires with the Urban Gear Joining Kit Gift Set - 6A. This white combo includes a 500ml Cola bottle, Wytbook, Verona pen, Bamboo mug, Glowy lamp, Palm 5 Power Book, and clip & Chrg cable. HSNCode 482010. Make them feel confident!\n",
+        "shortDescription": "Think Print Joining Kit Gift Set: A white combo of 7 items (Cola, Wytbook, Verona pen, Bamboo mTP, Glowy lamp, Palm 5 Power Book, & Clip & Chrg cable) to welcome new employees.\n",
+        "longDescription": "Welcome new hires with the Think Print Joining Kit Gift Set - 6A. This white combo includes a 500ml Cola bottle, Wytbook, Verona pen, Bamboo mTP, Glowy lamp, Palm 5 Power Book, and clip & Chrg cable. HSNCode 482010. Make them feel confident!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6827,7 +6827,7 @@ export const products = [
         "designSpecifications": [
             "Bottle, thinkPrint, N/A, White, 220mm height x 70mm diameter, Stainless Steel, 200g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Book, thinkPrint, 482010, White, A5 (148mm x 210mm), Hardcover, 300g, 100mm x 50mm, Screen Printing, N/A, N/A, N/A",
-            "Mug, thinkPrint, N/A, White, 95mm height x 80mm diameter, Bamboo Fiber, 250g, 40mm x 40mm, Pad Printing, N/A, N/A, N/A",
+            "MTP, thinkPrint, N/A, White, 95mm height x 80mm diameter, Bamboo Fiber, 250g, 40mm x 40mm, Pad Printing, N/A, N/A, N/A",
             "Lamp, thinkPrint, N/A, White, 150mm height x 100mm diameter, ABS Plastic, 150g, 30mm x 20mm, UV Printing, Adjustable Brightness, N/A, N/A",
             "Charging Cable, thinkPrint, N/A, White, 1m length, TPE, 30g, 10mm x 5mm, Pad Printing, N/A, N/A, N/A"
         ],
@@ -6840,8 +6840,8 @@ export const products = [
     {
         "id": 348,
         "title": "Joining Kit Gift Set -3A",
-        "shortDescription": "Urban Gear's Blue Combo Joining Kit -3A welcomes new employees with a curated set of essential and branded items.\n",
-        "longDescription": "Boost employee morale with our Urban Gear Joining Kit -3A. The Blue Combo includes a Trans bottle, Zigy book, Recoil pen, Steelo mug, Coby Torch keychain, Duflpac Sports folding bag, and optional Skinta Round neck T-shirt. HSNCode 482010.\n",
+        "shortDescription": "Think Print's Blue Combo Joining Kit -3A welcomes new employees with a curated set of essential and branded items.\n",
+        "longDescription": "Boost employee morale with our Think Print Joining Kit -3A. The Blue Combo includes a Trans bottle, Zigy book, Recoil pen, Steelo mTP, Coby Torch keychain, Duflpac Sports folding bag, and optional Skinta Round neck T-shirt. HSNCode 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6850,7 +6850,7 @@ export const products = [
             "Bottle, thinkPrint, 482010, Translucent, 25cm height x 7cm diameter, Tritan, 150g, 5cm x 5cm, Screen Printing, None, N/A, N/A",
             "Book, thinkPrint, 482010, Zigy Pattern, A5, Paper, 200g, 10cm x 5cm, Foil Stamping, None, N/A, N/A",
             "Pen, thinkPrint, 482010, Blue, 14cm length x 1cm diameter, Metal, 30g, 4cm x 0.5cm, Laser Engraving, None, N/A, N/A",
-            "Mug, thinkPrint, 482010, Silver, 9.5cm height x 8cm diameter, Stainless Steel, 250g, 6cm x 4cm, Laser Engraving, None, N/A, N/A",
+            "MTP, thinkPrint, 482010, Silver, 9.5cm height x 8cm diameter, Stainless Steel, 250g, 6cm x 4cm, Laser Engraving, None, N/A, N/A",
             "Key chain, thinkPrint, 482010, Blue, 7cm length x 3cm width, Metal Alloy, 50g, 2cm x 1cm, Epoxy Dome, None, N/A, N/A"
         ],
         "thumbnailImages": [
@@ -6862,8 +6862,8 @@ export const products = [
     {
         "id": 349,
         "title": "Joining Kit Gift Set -4A",
-        "shortDescription": "Urban Gear Green Combo Joining Kit Gift Set -4A welcomes new employees with a bottle, book, pen, t-shirt, mug, and lamp for a happy and confident start.\n",
-        "longDescription": "Make new hires feel valued with the Urban Gear Green Combo Joining Kit. Features a translucent bottle, Edge notebook, Reva pen, Highline Collar t-shirt, Toby mug, and Glowy lamp. HSNCode 482010. UG NAME Joining Kit Gift Set -4A.\n",
+        "shortDescription": "Think Print Green Combo Joining Kit Gift Set -4A welcomes new employees with a bottle, book, pen, t-shirt, mTP, and lamp for a happy and confident start.\n",
+        "longDescription": "Make new hires feel valued with the Think Print Green Combo Joining Kit. Features a translucent bottle, Edge notebook, Reva pen, Highline Collar t-shirt, Toby mTP, and Glowy lamp. HSNCode 482010. TP NAME Joining Kit Gift Set -4A.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6872,7 +6872,7 @@ export const products = [
             "Bottle, thinkPrint, 482010, Green Combo, 25cm Height, Tritan, 200g, 5cm x 5cm, Screen Printing, None, None, None",
             "Book, thinkPrint, 482010, Green Combo, A5, Cardboard, 300g, 8cm x 3cm, Debossing, None, None, None",
             "T-shirt, thinkPrint, 482010, Green Combo, XS-XXL, Cotton Blend, 150g, 10cm x 10cm, DTG Printing, None, None, None",
-            "Mug, thinkPrint, 482010, Green Combo, 9.5cm Height, Ceramic, 350g, 6cm x 6cm, Sublimation, None, None, None",
+            "MTP, thinkPrint, 482010, Green Combo, 9.5cm Height, Ceramic, 350g, 6cm x 6cm, Sublimation, None, None, None",
             "Lamp, thinkPrint, 482010, Green Combo, 15cm Height, ABS Plastic, 180g, 4cm x 2cm, Pad Printing, Warm White, None, None"
         ],
         "thumbnailImages": [
@@ -6884,8 +6884,8 @@ export const products = [
     {
         "id": 350,
         "title": "Joining Kit Gift Set - 5A",
-        "shortDescription": "Urban Gear Orange Combo Joining Kit: A curated gift set to welcome new employees with branded essentials.\n",
-        "longDescription": "Welcome new hires with the Urban Gear Orange Combo Joining Kit! This set includes a Silica bottle, Roca notebook, Brio pen, Acti-Play Polo T-shirt, Toby mug, and Guard RFID card holder. HSNCode 482010. UG NAME Joining Kit Gift Set - 5A.\n",
+        "shortDescription": "Think Print Orange Combo Joining Kit: A curated gift set to welcome new employees with branded essentials.\n",
+        "longDescription": "Welcome new hires with the Think Print Orange Combo Joining Kit! This set includes a Silica bottle, Roca notebook, Brio pen, Acti-Play Polo T-shirt, Toby mTP, and Guard RFID card holder. HSNCode 482010. TP NAME Joining Kit Gift Set - 5A.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -6906,7 +6906,7 @@ export const products = [
     {
         "id": 351,
         "title": "3- In-1- Gift Set",
-        "shortDescription": "Urban Gear 3-in-1 gift set: a slim faux leather RFID wallet with a 6-card metal case, smart switch, billfold, ID slots, plus a premium metal click pen and keychain.\n",
+        "shortDescription": "Think Print 3-in-1 gift set: a slim faux leather RFID wallet with a 6-card metal case, smart switch, billfold, ID slots, plus a premium metal click pen and keychain.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -7055,14 +7055,14 @@ export const products = [
     {
         "id": 359,
         "title": "Regal Gift Set",
-        "shortDescription": "Urban Gear Regal Gift Set: Executive faux leather refillable vintage journal with pen, accessories, and premium packaging.\n",
+        "shortDescription": "Think Print Regal Gift Set: Executive faux leather refillable vintage journal with pen, accessories, and premium packaging.\n",
         "longDescription": "Unleash your inner writer with the Regal Gift Set. This vintage-look refillable journal features high-quality faux leather, a pen loop closure, and a matching Turin metallic pen. Includes ruled & plain paper packs, name card holder, a zipper wallet, and a premium gift box. The Turin pen boasts a twi",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/regal_gift_set/regal_gift_set1.webp",
         "designSpecifications": [
-            "UG REGAL GIFT SET (PEN - TURIN), thinkPrint, 48201000, Deep Brown, 8.5\" x 6.5\" x 1.5\", Faux Leather, 1.5 lbs, 2\" x 2\", Debossing, No, N/A, N/A",
+            "TP REGAL GIFT SET (PEN - TURIN), thinkPrint, 48201000, Deep Brown, 8.5\" x 6.5\" x 1.5\", Faux Leather, 1.5 lbs, 2\" x 2\", Debossing, No, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
@@ -7076,8 +7076,8 @@ export const products = [
     {
         "id": 360,
         "title": "Traveller 2.0 Gift Set",
-        "shortDescription": "Urban Gear Traveller 2.0 gift set: Vintage-look faux leather refillable journal with button closure, name card holder, zipper wallet, and Turin metallic twist ballpoint pen.\n",
-        "longDescription": "Elevate your style with the Urban Gear Traveller 2.0 Gift Set. This vintage-look refillable journal features high-quality faux leather, button closure, a name card holder, and an extra zipper wallet. Includes the executive-look Turin metallic ballpoint pen with a twist design.\n",
+        "shortDescription": "Think Print Traveller 2.0 gift set: Vintage-look faux leather refillable journal with button closure, name card holder, zipper wallet, and Turin metallic twist ballpoint pen.\n",
+        "longDescription": "Elevate your style with the Think Print Traveller 2.0 Gift Set. This vintage-look refillable journal features high-quality faux leather, button closure, a name card holder, and an extra zipper wallet. Includes the executive-look Turin metallic ballpoint pen with a twist design.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -7100,14 +7100,14 @@ export const products = [
     {
         "id": 361,
         "title": "Traveller Gift Set",
-        "shortDescription": "Urban Gear Traveller Gift Set: Vintage-look faux leather refillable journal with name card holder, zipper wallet, elastic closure, and 2 paper packs.\n",
-        "longDescription": "Urban Gear Traveller Gift Set: Vintage-look refillable faux leather journal with elastic closure, name card holder & zipper wallet. Includes 2 paper packs + Verona pen. HSNCode 482010.\n",
+        "shortDescription": "Think Print Traveller Gift Set: Vintage-look faux leather refillable journal with name card holder, zipper wallet, elastic closure, and 2 paper packs.\n",
+        "longDescription": "Think Print Traveller Gift Set: Vintage-look refillable faux leather journal with elastic closure, name card holder & zipper wallet. Includes 2 paper packs + Verona pen. HSNCode 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/traveller_gift_set/traveller_gift_set1.webp",
         "designSpecifications": [
-            "UG NAME TRAVELLER GIFT SET (PEN - VERONA), thinkPrint, 482010, Brown, 8.5 x 6.25 x 1.25 inches, Faux Leather, 1.2 lbs, 2 x 2 inches, Debossing, N/A, N/A, N/A",
+            "TP NAME TRAVELLER GIFT SET (PEN - VERONA), thinkPrint, 482010, Brown, 8.5 x 6.25 x 1.25 inches, Faux Leather, 1.2 lbs, 2 x 2 inches, Debossing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
@@ -7121,14 +7121,14 @@ export const products = [
     {
         "id": 362,
         "title": "Color Gift Set",
-        "shortDescription": "Urban Gear gift set with a premium leatherette notebook, imported paper, and a color-coordinated metallic stylus pen that matches the engraved logo.\n",
-        "longDescription": "Urban Gear Gift Set (Pen-Flynn): Premium Italian leatherette cover notebook with 96 natural shade sheets & Flynn metallic ballpoint pen. Cool look, built-in stylus. Logo & engrave color match stylus color. Elastic band color matches logo. HSN 482010.\n",
+        "shortDescription": "Think Print gift set with a premium leatherette notebook, imported paper, and a color-coordinated metallic stylus pen that matches the engraved logo.\n",
+        "longDescription": "Think Print Gift Set (Pen-Flynn): Premium Italian leatherette cover notebook with 96 natural shade sheets & Flynn metallic ballpoint pen. Cool look, built-in stylus. Logo & engrave color match stylus color. Elastic band color matches logo. HSN 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/color_gift_set/color_gift_set1.webp",
         "designSpecifications": [
-            "UG NAME COLOR GIFT SET (PEN - FLYNN), thinkPrint, 482010, Natural Shade, 6\" x 8\" x 0.75\", Premium Italian Leatherette, 350g, 2\" x 2\", Engrave & Color Fill, N/A, N/A, N/A",
+            "TP NAME COLOR GIFT SET (PEN - FLYNN), thinkPrint, 482010, Natural Shade, 6\" x 8\" x 0.75\", Premium Italian Leatherette, 350g, 2\" x 2\", Engrave & Color Fill, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
@@ -7142,14 +7142,14 @@ export const products = [
     {
         "id": 363,
         "title": "Element Gift Set",
-        "shortDescription": "Urban Gear's UG NAME ELEMENT GIFT SET: A stylish A5 faux leather notebook with magnetic closure, name card holder, and a metallic twist pen featuring a stylus, highlighter, and ballpoint.\n",
-        "longDescription": "Urban Gear's UG NAME ELEMENT GIFT SET: A5 hardbound notebook with high-quality faux leather, double PU cover, magnetic closure, & name card holder. Includes a metallic Styliter pen with built-in stylus, highlighter, and ballpoint, all in a cool twist design. 96 sheets of 80gsm paper.\n",
+        "shortDescription": "Think Print's TP NAME ELEMENT GIFT SET: A stylish A5 faux leather notebook with magnetic closure, name card holder, and a metallic twist pen featuring a stylus, highlighter, and ballpoint.\n",
+        "longDescription": "Think Print's TP NAME ELEMENT GIFT SET: A5 hardbound notebook with high-quality faux leather, double PU cover, magnetic closure, & name card holder. Includes a metallic Styliter pen with built-in stylus, highlighter, and ballpoint, all in a cool twist design. 96 sheets of 80gsm paper.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
         "img": "/products/element_gift_set/element_gift_set1.webp",
         "designSpecifications": [
-            "UG NAME ELEMENT GIFT SET (PEN - STYLITER), thinkPrint, 48201090, Charcoal Black, A5 (148 x 210 mm), High Quality Faux Leather, 400g, 50 x 30mm, Debossing",
+            "TP NAME ELEMENT GIFT SET (PEN - STYLITER), thinkPrint, 48201090, Charcoal Black, A5 (148 x 210 mm), High Quality Faux Leather, 400g, 50 x 30mm, Debossing",
             ""
         ],
         "thumbnailImages": [
@@ -7161,7 +7161,7 @@ export const products = [
     {
         "id": 364,
         "title": "Roca Gift Set",
-        "shortDescription": "Urban Gear Roca Gift Set: A5 faux leather journal with magnetic closure, pen holder, ribbon bookmark, and a cool metallic recoil ballpoint pen.\n",
+        "shortDescription": "Think Print Roca Gift Set: A5 faux leather journal with magnetic closure, pen holder, ribbon bookmark, and a cool metallic recoil ballpoint pen.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -7179,7 +7179,7 @@ export const products = [
     {
         "id": 365,
         "title": "Korsa Premium Gift Set",
-        "shortDescription": "Urban Gear Korsa Premium A5 gift set: faux leather, jute-feel notebook with customizable metallic pen/stylus and engraving.\n",
+        "shortDescription": "Think Print Korsa Premium A5 gift set: faux leather, jute-feel notebook with customizable metallic pen/stylus and engraving.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -7339,8 +7339,8 @@ export const products = [
     {
         "id": 373,
         "title": "Hardy Gift Set",
-        "shortDescription": "Urban Gear Hardy Gift Set: A5 notebook with recoil metallic pen, featuring a hard cover, elastic closure, ribbon bookmark, and stylish design.\n",
-        "longDescription": "Urban Gear's Hardy Gift Set: a cool, A5-sized, hardbound notebook with 70 sheets, elastic band, and ribbon bookmark. Includes a black, metallic Recoil pen with a flexible spring coil body, ballpoint tip, and click design. HSNCode 482010.\n",
+        "shortDescription": "Think Print Hardy Gift Set: A5 notebook with recoil metallic pen, featuring a hard cover, elastic closure, ribbon bookmark, and stylish design.\n",
+        "longDescription": "Think Print's Hardy Gift Set: a cool, A5-sized, hardbound notebook with 70 sheets, elastic band, and ribbon bookmark. Includes a black, metallic Recoil pen with a flexible spring coil body, ballpoint tip, and click design. HSNCode 482010.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -7361,8 +7361,8 @@ export const products = [
     {
         "id": 374,
         "title": "Basic Gift Set",
-        "shortDescription": "Urban Gear Basic Gift Set: A5 faux leather journal with ribbon bookmark, 96 sheets of 80gsm paper, and a cool-look Reva click-design ballpoint pen.\n",
-        "longDescription": "Urban Gear Basic Gift Set includes an A5 soft-bound faux leather journal (80gsm, 96 sheets, ribbon bookmark) and a Reva fancy ballpoint pen with a cool click design. Perfect for everyday use. HSNCode 482090.\n",
+        "shortDescription": "Think Print Basic Gift Set: A5 faux leather journal with ribbon bookmark, 96 sheets of 80gsm paper, and a cool-look Reva click-design ballpoint pen.\n",
+        "longDescription": "Think Print Basic Gift Set includes an A5 soft-bound faux leather journal (80gsm, 96 sheets, ribbon bookmark) and a Reva fancy ballpoint pen with a cool click design. Perfect for everyday use. HSNCode 482090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -7382,8 +7382,8 @@ export const products = [
     {
         "id": 375,
         "title": "Capri Gift Set",
-        "shortDescription": "Urban Gear Capri Gift Set: A5 faux leather notebook with magnetic closure, engraving plate, pen loop, and Turin metallic pen for an executive touch.\n",
-        "longDescription": "Elevate your style with the Urban Gear Capri Gift Set. This A5 notebook features a hard bound, high-quality faux leather cover, magnetic closure, & engraving plate. Includes a pen loop, ribbon bookmark, & 96 sheets of 80gsm paper. Paired with the Turin metallic ballpoint pen. HSN 482090\n",
+        "shortDescription": "Think Print Capri Gift Set: A5 faux leather notebook with magnetic closure, engraving plate, pen loop, and Turin metallic pen for an executive touch.\n",
+        "longDescription": "Elevate your style with the Think Print Capri Gift Set. This A5 notebook features a hard bound, high-quality faux leather cover, magnetic closure, & engraving plate. Includes a pen loop, ribbon bookmark, & 96 sheets of 80gsm paper. Paired with the Turin metallic ballpoint pen. HSN 482090\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
@@ -7438,7 +7438,7 @@ export const products = [
         "id": 378,
         "title": "6-In-1 Travel Out Door Prop Kit",
         "shortDescription": "Pikmee Travel Out Door Prop Kit for safe and convenient on-the-go protection.\n",
-        "longDescription": "Pikmee's Travel OutDoor Prop Kit ensures safe travels! Includes a Covid Key, mask, pouch, 60ml sanitizer, gloves & wipes - all reusable. HSNCode 630790. UG NAME TRAVEL OUT DOOR PROP KIT.\n",
+        "longDescription": "Pikmee's Travel OutDoor Prop Kit ensures safe travels! Includes a Covid Key, mask, pouch, 60ml sanitizer, gloves & wipes - all reusable. HSNCode 630790. TP NAME TRAVEL OUT DOOR PROP KIT.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7456,8 +7456,8 @@ export const products = [
     {
         "id": 379,
         "title": "10 IN 1 Suraksha COVID Kit",
-        "shortDescription": "Urban Gear Suraksha COVID Kit provides comprehensive protection with essential sanitization, safety, and convenience items in a portable pouch.\n",
-        "longDescription": "The Urban Gear Suraksha COVID Kit equips you with essentials for on-the-go protection. Includes emergency light, pop stand, 25ml antiviral spray & 30ml germ kill gel, metal COVID key, 250ml germ kill spray, 75ml surface spray, 25 wipes, RN95 mask, & pouch. HSNCode 340220.\n",
+        "shortDescription": "Think Print Suraksha COVID Kit provides comprehensive protection with essential sanitization, safety, and convenience items in a portable pouch.\n",
+        "longDescription": "The Think Print Suraksha COVID Kit equips you with essentials for on-the-go protection. Includes emergency light, pop stand, 25ml antiviral spray & 30ml germ kill gel, metal COVID key, 250ml germ kill spray, 75ml surface spray, 25 wipes, RN95 mask, & pouch. HSNCode 340220.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7476,7 +7476,7 @@ export const products = [
         "id": 380,
         "title": "COVID Safety Kit 2.0 (UPGRADE)",
         "shortDescription": "Hearttex COVID Safety Kit 2.0 upgrade: comprehensive protection with pop stand, COVID key, wipes, sanitizer, mask, pouch, and germ kill spray.\n",
-        "longDescription": "Hearttex COVID Safety Kit 2.0 (Upgrade) equips you for on-the-go protection. Includes pop stand, COVID key, 25N Wet wipes, 100ml sanitizer, RN95 mask, travel pouch, and 20ml Germ Kill spray. HSNCode 340220. UG NAME: COVID Safety Kit 2.0 (UPGRADE).\n",
+        "longDescription": "Hearttex COVID Safety Kit 2.0 (Upgrade) equips you for on-the-go protection. Includes pop stand, COVID key, 25N Wet wipes, 100ml sanitizer, RN95 mask, travel pouch, and 20ml Germ Kill spray. HSNCode 340220. TP NAME: COVID Safety Kit 2.0 (UPGRADE).\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7495,7 +7495,7 @@ export const products = [
         "id": 381,
         "title": "Pro COVID Kit (UPGRADED)",
         "shortDescription": "Hearttex Pro COVID Kit: Complete on-the-go protection with sanitizers, wipes, mask, and COVID key in a travel pouch.\n",
-        "longDescription": "Hearttex Pro COVID Kit: Your on-the-go defense. Includes Pop Stand, 75ml Surface/Gadget spray, COVID key, 25N Wet Wipes, 250ml Germs Kill spray, RN95 mask, Travel Pouch & 30ml Germ kill gel. HSNCode 340220. UG NAME HEARTTEX.\n",
+        "longDescription": "Hearttex Pro COVID Kit: Your on-the-go defense. Includes Pop Stand, 75ml Surface/Gadget spray, COVID key, 25N Wet Wipes, 250ml Germs Kill spray, RN95 mask, Travel Pouch & 30ml Germ kill gel. HSNCode 340220. TP NAME HEARTTEX.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7513,8 +7513,8 @@ export const products = [
     {
         "id": 382,
         "title": "Hanging Germ Kill Gel 30ml",
-        "shortDescription": "Urban Gear Hanging Germ Kill Gel 30ml sanitizes on-the-go.\n",
-        "longDescription": "Urban Gear Hanging Germ Kill Gel 30ml. Kills germs on the go. Convenient hanging loop for bags, keys, or strollers. HSNCode 340220 provides effective sanitization.\n",
+        "shortDescription": "Think Print Hanging Germ Kill Gel 30ml sanitizes on-the-go.\n",
+        "longDescription": "Think Print Hanging Germ Kill Gel 30ml. Kills germs on the go. Convenient hanging loop for bags, keys, or strollers. HSNCode 340220 provides effective sanitization.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7532,8 +7532,8 @@ export const products = [
     {
         "id": 383,
         "title": "Sanitizer Spray 25ml",
-        "shortDescription": "Urban Gear Sanitizer Spray, 25ml, HSN 340220.\n",
-        "longDescription": "Urban Gear Sanitizer Spray 25ml. Kills 99.9% germs. Perfect for on-the-go hygiene. Small, portable, and effective. Stay safe with Urban Gear. (HSNCode: 340220)\n",
+        "shortDescription": "Think Print Sanitizer Spray, 25ml, HSN 340220.\n",
+        "longDescription": "Think Print Sanitizer Spray 25ml. Kills 99.9% germs. Perfect for on-the-go hygiene. Small, portable, and effective. Stay safe with Think Print. (HSNCode: 340220)\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7551,8 +7551,8 @@ export const products = [
     {
         "id": 384,
         "title": "COVID Prop Kit 2.0",
-        "shortDescription": "Urban Gear's COVID Prop Kit 2.0: Your outdoor safety partner with RN95 mask, wipes, sanitizer, COVID key, and reusable pouch.\n",
-        "longDescription": "Urban Gear's COVID Prop Kit 2.0, your outdoor safety partner. Includes RN95 Mask, 10N Wet wipes, 100ml Sanitizer, COVID key & Reusable String pouch. HSNCode 340220. UG NAME COVID Prop Kit 2.0.\n",
+        "shortDescription": "Think Print's COVID Prop Kit 2.0: Your outdoor safety partner with RN95 mask, wipes, sanitizer, COVID key, and reusable pouch.\n",
+        "longDescription": "Think Print's COVID Prop Kit 2.0, your outdoor safety partner. Includes RN95 Mask, 10N Wet wipes, 100ml Sanitizer, COVID key & Reusable String pouch. HSNCode 340220. TP NAME COVID Prop Kit 2.0.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7570,8 +7570,8 @@ export const products = [
     {
         "id": 385,
         "title": "COVID Safety Kit 2.0",
-        "shortDescription": "Urban Gear COVID Safety Kit 2.0 provides essential on-the-go protection with sanitizer, mask, wipes, and touch-free tools in a travel pouch.\n",
-        "longDescription": "Urban Gear's COVID Safety Kit 2.0 equips you with essential protection. Includes a sanitizer pen, pop stand, COVID key, 25N wet wipes, 100ml sanitizer, RN95 face mask, and a travel safety pouch. Stay safe on the go. HSNCode 3402.\n",
+        "shortDescription": "Think Print COVID Safety Kit 2.0 provides essential on-the-go protection with sanitizer, mask, wipes, and touch-free tools in a travel pouch.\n",
+        "longDescription": "Think Print's COVID Safety Kit 2.0 equips you with essential protection. Includes a sanitizer pen, pop stand, COVID key, 25N wet wipes, 100ml sanitizer, RN95 face mask, and a travel safety pouch. Stay safe on the go. HSNCode 3402.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7589,8 +7589,8 @@ export const products = [
     {
         "id": 386,
         "title": "Medical Infrared Forehead Thermometer",
-        "shortDescription": "Urban Gear Thermometer: Instant-read thermometer with advanced sensors, auto-off, and color-coded temperature display.\n",
-        "longDescription": "Urban Gear Thermometer: Get quick, accurate temperature readings with advanced sensor technology. Instant read display changes color to indicate temperature range at a glance. Auto power-off after 30-40 seconds saves battery. White. HSNCode 9025.\n",
+        "shortDescription": "Think Print Thermometer: Instant-read thermometer with advanced sensors, auto-off, and color-coded temperature display.\n",
+        "longDescription": "Think Print Thermometer: Get quick, accurate temperature readings with advanced sensor technology. Instant read display changes color to indicate temperature range at a glance. Auto power-off after 30-40 seconds saves battery. White. HSNCode 9025.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7836,7 +7836,7 @@ export const products = [
         "id": 400,
         "title": "Advanced Car Disinfectant & Deodorize",
         "shortDescription": "Hearttex Advanced Car Disinfectant & Deodorizer Spray, 500ml, keeps your car fresh and germ-free.\n",
-        "longDescription": "HEARTTEX Advanced Car Disinfectant & Deodorize spray (500ml) eliminates odors and disinfects your car's interior. HSNCode 3402. UG NAME HEARTTEX. See how: https://youtu.be/prjje8kLcfA\n",
+        "longDescription": "HEARTTEX Advanced Car Disinfectant & Deodorize spray (500ml) eliminates odors and disinfects your car's interior. HSNCode 3402. TP NAME HEARTTEX. See how: https://youtu.be/prjje8kLcfA\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7854,7 +7854,7 @@ export const products = [
         "id": 401,
         "title": "Metal COVID Key",
         "shortDescription": "Hearttex: Lightweight, sterile, virgin metal product (HSN 8302), pocket-friendly & robust.\n",
-        "longDescription": "Hearttex, robust & lightweight accessory made of virgin metal ensuring durability. Sterilized for hygiene. Pocket-friendly design & cost. HSN 8302. UG Name HEARTTEX.\n",
+        "longDescription": "Hearttex, robust & lightweight accessory made of virgin metal ensuring durability. Sterilized for hygiene. Pocket-friendly design & cost. HSN 8302. TP Name HEARTTEX.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7876,7 +7876,7 @@ export const products = [
         "id": 402,
         "title": "Hand Sanitizer",
         "shortDescription": "Hearttex hand sanitizer kills 99.9% of germs and comes in 3 fragrances and 4 sizes.\n",
-        "longDescription": "Hearttex hand sanitizer kills 99.9% of germs. Available in Pomegranate, Lemon, and Green Apple fragrances. Choose from 100ml, 200ml, 500ml, and 5000ml sizes. UG NAME HEARTTEX. HSN Code 340220. See it in action: https://youtu.be/DLStCdLo7f0\n",
+        "longDescription": "Hearttex hand sanitizer kills 99.9% of germs. Available in Pomegranate, Lemon, and Green Apple fragrances. Choose from 100ml, 200ml, 500ml, and 5000ml sizes. TP NAME HEARTTEX. HSN Code 340220. See it in action: https://youtu.be/DLStCdLo7f0\n",
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
@@ -7948,8 +7948,8 @@ export const products = [
     {
         "id": 406,
         "title": "SLENDR GIFT SET",
-        "shortDescription": "Urban Gear Slendr Gift Set: A junior-friendly set featuring a Slendr bottle, Laplite laptop stand, RPET Eco Book, and Pisa metal pen.\n",
-        "longDescription": "Urban Gear's SLENDR GIFT SET: Includes a Slendr Bottle, Laplite Laptop Stand, RPET Eco Book, and Pisa Metal Pen. Perfect junior gift. HSNCode 48201090.\n",
+        "shortDescription": "Think Print Slendr Gift Set: A junior-friendly set featuring a Slendr bottle, Laplite laptop stand, RPET Eco Book, and Pisa metal pen.\n",
+        "longDescription": "Think Print's SLENDR GIFT SET: Includes a Slendr Bottle, Laplite Laptop Stand, RPET Eco Book, and Pisa Metal Pen. Perfect junior gift. HSNCode 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
@@ -7970,8 +7970,8 @@ export const products = [
     {
         "id": 407,
         "title": "LUMBER HAMPER",
-        "shortDescription": "Urban Gear's Lumber Hamper gift set includes a Tritan bottle, Willow travel mug, Lumber Eco book, and Malaga Eco pen.\n",
-        "longDescription": "The Urban Gear Lumber Hamper set: Tritan bottle, Willow travel mug, Lumber Eco Book, and Malaga Eco Pen. HSNCode 48201090. The Lumber Hamper, an eco-conscious collection for the modern individual. Perfect for work, travel, or everyday use.\n",
+        "shortDescription": "Think Print's Lumber Hamper gift set includes a Tritan bottle, Willow travel mTP, Lumber Eco book, and Malaga Eco pen.\n",
+        "longDescription": "The Think Print Lumber Hamper set: Tritan bottle, Willow travel mTP, Lumber Eco Book, and Malaga Eco Pen. HSNCode 48201090. The Lumber Hamper, an eco-conscious collection for the modern individual. Perfect for work, travel, or everyday use.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
@@ -7991,15 +7991,15 @@ export const products = [
     {
         "id": 408,
         "title": "ECO CORK HAMPER",
-        "shortDescription": "Urban Gear Eco Cork Hamper: Sustainable essentials including a mug, keychain, book, and pen, all crafted from eco-friendly cork.\n",
-        "longDescription": "Urban Gear's Eco Cork Hamper: A sustainable gift set featuring an Eco Cork Mug, Cork Keychain, strapped Eco Book, and Bilbao Eco Pen. Perfect for the eco-conscious. UG NAME ECO CORK HAMPER.\n",
+        "shortDescription": "Think Print Eco Cork Hamper: Sustainable essentials including a mTP, keychain, book, and pen, all crafted from eco-friendly cork.\n",
+        "longDescription": "Think Print's Eco Cork Hamper: A sustainable gift set featuring an Eco Cork MTP, Cork Keychain, strapped Eco Book, and Bilbao Eco Pen. Perfect for the eco-conscious. TP NAME ECO CORK HAMPER.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
         "img": "/products/eco_cork_hamper/eco_cork_hamper1.webp",
         "designSpecifications": [
             "ECO CORK HAMPER, thinkPrint, 42029200, Natural Cork, 30cm x 40cm x 25cm, Cork, 1.5kg, 10cm x 5cm, Laser Engraving, None, N/A, N/A",
-            "ECO CORK MUG, thinkPrint, 39241010, Natural Cork/White Ceramic, 9cm Height x 8cm Diameter, Cork Sleeve/Ceramic Mug, 0.3kg, 4cm x 3cm, Pad Printing, None, N/A, N/A",
+            "ECO CORK MTP, thinkPrint, 39241010, Natural Cork/White Ceramic, 9cm Height x 8cm Diameter, Cork Sleeve/Ceramic MTP, 0.3kg, 4cm x 3cm, Pad Printing, None, N/A, N/A",
             "CORK KEYCHAIN, thinkPrint, 39269099, Natural Cork, 7cm x 3cm x 1cm, Cork, 0.02kg, 2cm x 1cm, Screen Printing, None, N/A, N/A",
             "ECO BOOK, thinkPrint, 49011000, Natural Cork/Recycled Paper, A5 Size (14.8cm x 21cm), Cork Cover/Recycled Paper, 0.25kg, 8cm x 3cm, Debossing, None, N/A, N/A",
             "BILBAO ECO PEN, thinkPrint, 96081010, Natural Cork/Silver Trim, 14cm Length x 1cm Diameter, Cork Barrel/Metal Clip, 0.01kg, 5cm x 0.5cm, Laser Engraving, None, N/A, N/A"
@@ -8013,8 +8013,8 @@ export const products = [
     {
         "id": 409,
         "title": "BLACK BOOK GIFT SET",
-        "shortDescription": "Urban Gear Black Book Gift Set: Orion Flask, WytBook, Pisa Pen, HSN 48201090.\n",
-        "longDescription": "The Urban Gear Black Book Gift Set: Includes an Orion Bravo Flask, a WytBook Black Book, and a Pisa Styliter Pen. HSNCode 48201090. A stylish and functional gift for the modern individual.\n",
+        "shortDescription": "Think Print Black Book Gift Set: Orion Flask, WytBook, Pisa Pen, HSN 48201090.\n",
+        "longDescription": "The Think Print Black Book Gift Set: Includes an Orion Bravo Flask, a WytBook Black Book, and a Pisa Styliter Pen. HSNCode 48201090. A stylish and functional gift for the modern individual.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
@@ -8023,7 +8023,7 @@ export const products = [
             "Orion Bravo Flask, thinkPrint, 48201090, Black, 250mm x 75mm x 75mm, Stainless Steel, 350g, 50mm x 50mm, Laser Engraving, None, None, None",
             "Pisa Styliter Pen, thinkPrint, 48201090, Black, 150mm x 15mm x 15mm, ABS Plastic, 20g, 30mm x 5mm, Pad Printing, None, None, None",
             "Black Book WytBook, thinkPrint, 48201090, Black, 210mm x 148mm x 15mm, Faux Leather, 400g, 100mm x 30mm, Debossing, None, None, None",
-            "UG NAME BLACK BOOK GIFT SET, thinkPrint, 48201090, Black, 250mm x 200mm x 80mm, Cardboard, 900g, 150mm x 75mm, Silk Screen Printing, None, None, None",
+            "TP NAME BLACK BOOK GIFT SET, thinkPrint, 48201090, Black, 250mm x 200mm x 80mm, Cardboard, 900g, 150mm x 75mm, Silk Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
@@ -8037,8 +8037,8 @@ export const products = [
     {
         "id": 410,
         "title": "CAPRI RPET GIFT SET",
-        "shortDescription": "Urban Gear's Capri RPET Gift Set includes an Eco Goblet Bottle, Capri RPET Book, and Malaga Eco Pen (HSN 48201090).\n",
-        "longDescription": "The Urban Gear Capri RPET Gift Set: featuring the Eco Goblet Bottle, Capri RPET Book (HSN Code 48201090), and Malaga Eco Pen. A sustainable and stylish choice.\n",
+        "shortDescription": "Think Print's Capri RPET Gift Set includes an Eco Goblet Bottle, Capri RPET Book, and Malaga Eco Pen (HSN 48201090).\n",
+        "longDescription": "The Think Print Capri RPET Gift Set: featuring the Eco Goblet Bottle, Capri RPET Book (HSN Code 48201090), and Malaga Eco Pen. A sustainable and stylish choice.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
@@ -8061,8 +8061,8 @@ export const products = [
     {
         "id": 411,
         "title": "KRAFT HAMPER",
-        "shortDescription": "Urban Gear's Kraft Hamper: eco-friendly goblet bottle, wireless charger, spiral book, pen, and keychain, bundled for sustainable style.\n",
-        "longDescription": "The Urban Gear Kraft Hamper: Eco-friendly gift set. Includes an Eco Goblet Bottle, iCharge 15W wireless charger, Kraft Spiral Book, Malaga Eco Pen, and a Bamboo Keychain. A sustainable & stylish choice.\n",
+        "shortDescription": "Think Print's Kraft Hamper: eco-friendly goblet bottle, wireless charger, spiral book, pen, and keychain, bundled for sustainable style.\n",
+        "longDescription": "The Think Print Kraft Hamper: Eco-friendly gift set. Includes an Eco Goblet Bottle, iCharge 15W wireless charger, Kraft Spiral Book, Malaga Eco Pen, and a Bamboo Keychain. A sustainable & stylish choice.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
@@ -8083,7 +8083,7 @@ export const products = [
     {
         "id": 412,
         "title": "MILKY SPIRAL HAMPER",
-        "shortDescription": "Urban Gear Milky Spiral Hamper: An eco-friendly and practical set including a mug, USB hub, notebook, pen, and screwdriver set.\n",
+        "shortDescription": "Think Print Milky Spiral Hamper: An eco-friendly and practical set including a mTP, USB hub, notebook, pen, and screwdriver set.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -8100,57 +8100,57 @@ export const products = [
     },
     {
         "id": 413,
-        "title": "SUGAR BOOK HAMPER",
+        "title": "STPAR BOOK HAMPER",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "/products/sugar_book_hamper/sugar_book_hamper1.webp",
+        "img": "/products/sTPar_book_hamper/sTPar_book_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/sugar_book_hamper/sugar_book_hamper2.webp",
-            "/products/sugar_book_hamper/sugar_book_hamper3.webp",
-            "/products/sugar_book_hamper/sugar_book_hamper4.webp"
+            "/products/sTPar_book_hamper/sTPar_book_hamper2.webp",
+            "/products/sTPar_book_hamper/sTPar_book_hamper3.webp",
+            "/products/sTPar_book_hamper/sTPar_book_hamper4.webp"
         ]
     },
     {
         "id": 414,
-        "title": "NATURA MUG HAMPER",
+        "title": "NATURA MTP HAMPER",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "/products/natura_mug_hamper/natura_mug_hamper1.webp",
+        "img": "/products/natura_mTP_hamper/natura_mTP_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/natura_mug_hamper/natura_mug_hamper2.webp",
-            "/products/natura_mug_hamper/natura_mug_hamper3.webp",
-            "/products/natura_mug_hamper/natura_mug_hamper4.webp"
+            "/products/natura_mTP_hamper/natura_mTP_hamper2.webp",
+            "/products/natura_mTP_hamper/natura_mTP_hamper3.webp",
+            "/products/natura_mTP_hamper/natura_mTP_hamper4.webp"
         ]
     },
     {
         "id": 415,
-        "title": "CORKY MUG HAMPER",
+        "title": "CORKY MTP HAMPER",
         "shortDescription": "N/A",
-        "longDescription": "The Urban Gear Corky Mug Hamper (UG-EG07) offers a sustainable gift set. Features a Corky Mug, Cork Keychain, E-Cork Notebook, and Bamboo Pen. HSNCode 48201090. Practical and eco-friendly!\n",
+        "longDescription": "The Think Print Corky MTP Hamper (TP-EG07) offers a sustainable gift set. Features a Corky MTP, Cork Keychain, E-Cork Notebook, and Bamboo Pen. HSNCode 48201090. Practical and eco-friendly!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "/products/corky_mug_hamper/corky_mug_hamper1.webp",
+        "img": "/products/corky_mTP_hamper/corky_mTP_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/corky_mug_hamper/corky_mug_hamper2.webp",
-            "/products/corky_mug_hamper/corky_mug_hamper3.webp",
-            "/products/corky_mug_hamper/corky_mug_hamper4.webp",
-            "/products/corky_mug_hamper/corky_mug_hamper5.webp"
+            "/products/corky_mTP_hamper/corky_mTP_hamper2.webp",
+            "/products/corky_mTP_hamper/corky_mTP_hamper3.webp",
+            "/products/corky_mTP_hamper/corky_mTP_hamper4.webp",
+            "/products/corky_mTP_hamper/corky_mTP_hamper5.webp"
         ]
     },
     {
@@ -8194,8 +8194,8 @@ export const products = [
     {
         "id": 418,
         "title": "Eco Korki Hamper",
-        "shortDescription": "Urban Gear's Eco Korki Hamper, HSN 48201090, includes a Grain Eco Bottle, Bamboo Pen, Korki Notes, Natural Eco Mug, and Bamboo Keychain.\n",
-        "longDescription": "The Urban Gear Eco Korki Hamper is a sustainable gift set. It includes a Grain Eco Bottle, Bamboo Pen, Korki Notes, Natural Eco Mug, and Bamboo Keychain. HSN 48201090.\n",
+        "shortDescription": "Think Print's Eco Korki Hamper, HSN 48201090, includes a Grain Eco Bottle, Bamboo Pen, Korki Notes, Natural Eco MTP, and Bamboo Keychain.\n",
+        "longDescription": "The Think Print Eco Korki Hamper is a sustainable gift set. It includes a Grain Eco Bottle, Bamboo Pen, Korki Notes, Natural Eco MTP, and Bamboo Keychain. HSN 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
@@ -8204,7 +8204,7 @@ export const products = [
             "Grain Eco Bottle, thinkPrint, 39241010, Natural, 250mm x 70mm, Stainless Steel, 250g, 50mm x 30mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             "Bamboo Pen, thinkPrint, 96081010, Natural, 140mm x 10mm, Bamboo, 20g, 40mm x 5mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             "Korki Notes, thinkPrint, 48201090, Natural, 150mm x 100mm, Cork, 150g, 80mm x 50mm, Screen Printing, No RGB Lighting Effects, No Speaker Output, No Battery",
-            "Natural Eco Mug, thinkPrint, 69111019, Beige, 95mm x 80mm, Ceramic, 300g, 40mm x 40mm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery",
+            "Natural Eco MTP, thinkPrint, 69111019, Beige, 95mm x 80mm, Ceramic, 300g, 40mm x 40mm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery",
             "Bamboo Keychain, thinkPrint, 44209090, Natural, 80mm x 30mm, Bamboo, 15g, 20mm x 10mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery"
         ],
         "thumbnailImages": [
@@ -8217,8 +8217,8 @@ export const products = [
     {
         "id": 419,
         "title": "Eco Rpet Hamper",
-        "shortDescription": "Urban Gear Eco Rpet Hamper: Sustainable set featuring an ebony flask, rpet book, iBamboo mug, and bamboo pen (HSN: 48201090).\n",
-        "longDescription": "The Urban Gear Eco Rpet Hamper: a sustainable set featuring an ebony flask, RPET book, iBamboo mug, and bamboo pen. Perfect for eco-conscious living. HSN Code: 48201090.\n",
+        "shortDescription": "Think Print Eco Rpet Hamper: Sustainable set featuring an ebony flask, rpet book, iBamboo mTP, and bamboo pen (HSN: 48201090).\n",
+        "longDescription": "The Think Print Eco Rpet Hamper: a sustainable set featuring an ebony flask, RPET book, iBamboo mTP, and bamboo pen. Perfect for eco-conscious living. HSN Code: 48201090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
@@ -8226,7 +8226,7 @@ export const products = [
         "designSpecifications": [
             "Ebony Flask, thinkPrint, N/A, Black, 250mm x 75mm x 75mm, Stainless Steel with Ebony Wood Veneer, 400g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Rpet Book, thinkPrint, 48201090, Grey, A5 (210mm x 148mm), Recycled PET Fabric, 200g, 80mm x 50mm, Screen Printing, N/A, N/A, N/A",
-            "iBamboo Mug, thinkPrint, N/A, Natural Bamboo, 120mm x 80mm x 80mm, Bamboo, 250g, 40mm x 40mm, Laser Engraving, N/A, N/A, N/A",
+            "iBamboo MTP, thinkPrint, N/A, Natural Bamboo, 120mm x 80mm x 80mm, Bamboo, 250g, 40mm x 40mm, Laser Engraving, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, N/A, Natural Bamboo, 140mm x 15mm x 15mm, Bamboo, 20g, 30mm x 5mm, Laser Engraving, N/A, N/A, N/A",
             "Eco Rpet Hamper, thinkPrint, N/A, Customizable, 300mm x 200mm x 100mm, Recycled PET Fabric, 300g, 100mm x 60mm, Screen Printing, N/A, N/A, N/A"
         ],
@@ -8237,48 +8237,48 @@ export const products = [
     },
     {
         "id": 420,
-        "title": "WHEAT MUG HAMPER",
-        "shortDescription": "Urban Gear's Wheat Mug Hamper features eco-friendly bamboo, cork, and wheat-based essentials.\n",
-        "longDescription": "The Urban Gear Wheat Mug Hamper: Eco-friendly set includes a bamboo pen, E-Cork book, wheat eco mug, bamboo keychain, and cork card holder. HSNCode 48201090. A sustainable gift for the conscious consumer.\n",
+        "title": "WHEAT MTP HAMPER",
+        "shortDescription": "Think Print's Wheat MTP Hamper features eco-friendly bamboo, cork, and wheat-based essentials.\n",
+        "longDescription": "The Think Print Wheat MTP Hamper: Eco-friendly set includes a bamboo pen, E-Cork book, wheat eco mTP, bamboo keychain, and cork card holder. HSNCode 48201090. A sustainable gift for the conscious consumer.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "/products/wheat_mug_hamper/wheat_mug_hamper1.webp",
+        "img": "/products/wheat_mTP_hamper/wheat_mTP_hamper1.webp",
         "designSpecifications": [
-            "Wheat Eco Mug, thinkPrint, 48201090, Beige, 90mm x 90mm x 110mm, Wheat Fiber Composite, 180g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
+            "Wheat Eco MTP, thinkPrint, 48201090, Beige, 90mm x 90mm x 110mm, Wheat Fiber Composite, 180g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, 48201090, Natural Bamboo, 140mm x 12mm x 12mm, Bamboo, 20g, 40mm x 7mm, Laser Engraving, N/A, N/A, N/A",
             "E-Cork Book, thinkPrint, 48201090, Natural Cork, A5 (148mm x 210mm), Cork & Recycled Paper, 250g, 80mm x 50mm, Screen Printing, N/A, N/A, N/A",
             "Bamboo Keychain, thinkPrint, 48201090, Natural Bamboo, 60mm x 30mm x 5mm, Bamboo, 10g, 20mm x 10mm, Laser Engraving, N/A, N/A, N/A",
             "Cork Card Holder, thinkPrint, 48201090, Natural Cork, 100mm x 70mm x 10mm, Cork, 30g, 40mm x 20mm, Pad Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "/products/wheat_mug_hamper/wheat_mug_hamper2.webp"
+            "/products/wheat_mTP_hamper/wheat_mTP_hamper2.webp"
         ]
     },
     {
         "id": 421,
-        "title": "WHEAT MUG",
-        "shortDescription": "Urban Gear Wheat Mug: 350ml eco-friendly, anti-bacterial, leak-proof wheat fiber mug with ample branding space, BPA-free and food-grade.\n",
-        "longDescription": "Urban Gear Wheat Mug (350ml). Eco-friendly, antibacterial wheat fibre mug. Single wall, BPA-free, food grade & leak-proof. Features ample AMPLS branding space. Size: 3.5x11.5x3 in. HSN: 39249090. Sustainable choice!\n",
+        "title": "WHEAT MTP",
+        "shortDescription": "Think Print Wheat MTP: 350ml eco-friendly, anti-bacterial, leak-proof wheat fiber mTP with ample branding space, BPA-free and food-grade.\n",
+        "longDescription": "Think Print Wheat MTP (350ml). Eco-friendly, antibacterial wheat fibre mTP. Single wall, BPA-free, food grade & leak-proof. Features ample AMPLS branding space. Size: 3.5x11.5x3 in. HSN: 39249090. Sustainable choice!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "/products/wheat_mug/wheat_mug1.webp",
+        "img": "/products/wheat_mTP/wheat_mTP1.webp",
         "designSpecifications": [
-            "WHEAT MUG, thinkPrint, 39249090, Natural Wheat, 3.5X11.5X3 Inch, Wheat Fiber Composite, TBD, 2x2 Inch, Pad Printing/Laser Engraving, None, None, None.",
+            "WHEAT MTP, thinkPrint, 39249090, Natural Wheat, 3.5X11.5X3 Inch, Wheat Fiber Composite, TBD, 2x2 Inch, Pad Printing/Laser Engraving, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "/products/wheat_mug/wheat_mug2.webp",
-            "/products/wheat_mug/wheat_mug3.webp",
-            "/products/wheat_mug/wheat_mug4.webp"
+            "/products/wheat_mTP/wheat_mTP2.webp",
+            "/products/wheat_mTP/wheat_mTP3.webp",
+            "/products/wheat_mTP/wheat_mTP4.webp"
         ]
     },
     {
         "id": 422,
         "title": "SILI BOT",
-        "shortDescription": "Urban Gear SILI BOT: A stylish and durable 550ml borosilicate glass bottle with a bamboo lid, protective silicone sleeve, and leak-proof design.\n",
-        "longDescription": "Urban Gear's SILI BOT: 550ml borosilicate glass bottle with a protective silicon sleeve, stylish bamboo lid & handle. Leak-proof, BPA-free with a soft silicone ring. Anti-slip base, rounded mouth.Safe, food-grade material. Size: 6.8x6.8x24.6cm, 387gms. Perfect for tea.\n",
+        "shortDescription": "Think Print SILI BOT: A stylish and durable 550ml borosilicate glass bottle with a bamboo lid, protective silicone sleeve, and leak-proof design.\n",
+        "longDescription": "Think Print's SILI BOT: 550ml borosilicate glass bottle with a protective silicon sleeve, stylish bamboo lid & handle. Leak-proof, BPA-free with a soft silicone ring. Anti-slip base, rounded mouth.Safe, food-grade material. Size: 6.8x6.8x24.6cm, 387gms. Perfect for tea.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8297,8 +8297,8 @@ export const products = [
     {
         "id": 423,
         "title": "BORO FLIP",
-        "shortDescription": "Urban Gear Boro Flip: A stylish, leak-proof 550ml borosilicate glass tea bottle with a protective silicone sleeve and flip lid.\n",
-        "longDescription": "Urban Gear BORO FLIP: Borosilicate glass bottle with a protective silicone sleeve. BPA-free, leak-proof, and food-grade. Features a stylish flip-type lid. Perfect for tea. 550ml capacity. Can be customized with engraving, screen printing, UV printing or DTF stickers. 6.8x6.8x25.5cm.\n",
+        "shortDescription": "Think Print Boro Flip: A stylish, leak-proof 550ml borosilicate glass tea bottle with a protective silicone sleeve and flip lid.\n",
+        "longDescription": "Think Print BORO FLIP: Borosilicate glass bottle with a protective silicone sleeve. BPA-free, leak-proof, and food-grade. Features a stylish flip-type lid. Perfect for tea. 550ml capacity. Can be customized with engraving, screen printing, UV printing or DTF stickers. 6.8x6.8x25.5cm.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8320,8 +8320,8 @@ export const products = [
     {
         "id": 424,
         "title": "REMINDR",
-        "shortDescription": "Urban Gear Remindr: A stylish, 1000ml borosilicate glass water bottle with hydration reminders, a bamboo lid, and a protective sleeve.\n",
-        "longDescription": "Urban Gear's REMINDR: a 1000ml borosilicate glass bottle with hydration reminders. Features a stylish bamboo lid with strap, protective silicone sleeve, and is BPA-free & leak-proof. Food-grade, customizable with Engrave, UV, Screen & DTF. 8x8x29.5cm, 503gms.\n",
+        "shortDescription": "Think Print Remindr: A stylish, 1000ml borosilicate glass water bottle with hydration reminders, a bamboo lid, and a protective sleeve.\n",
+        "longDescription": "Think Print's REMINDR: a 1000ml borosilicate glass bottle with hydration reminders. Features a stylish bamboo lid with strap, protective silicone sleeve, and is BPA-free & leak-proof. Food-grade, customizable with Engrave, UV, Screen & DTF. 8x8x29.5cm, 503gms.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8341,8 +8341,8 @@ export const products = [
     {
         "id": 425,
         "title": "BORO CAFE",
-        "shortDescription": "Urban Gear BORO CAFE: Double-wall borosilicate mugs, perfect for tea, featuring customizable printing and safe, lightweight design.\n",
-        "longDescription": "Enjoy hot tea in Urban Gear's BORO CAFE mugs. This set of 2 lightweight, double-walled borosilicate glass mugs (250ml each) keeps drinks hot while staying cool to the touch. Food-grade, easy to hold. 8.5x12x8.5cm, 120gms each. Personalize with engraving!\n",
+        "shortDescription": "Think Print BORO CAFE: Double-wall borosilicate mTPs, perfect for tea, featuring customizable printing and safe, lightweight design.\n",
+        "longDescription": "Enjoy hot tea in Think Print's BORO CAFE mTPs. This set of 2 lightweight, double-walled borosilicate glass mTPs (250ml each) keeps drinks hot while staying cool to the touch. Food-grade, easy to hold. 8.5x12x8.5cm, 120gms each. Personalize with engraving!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8362,8 +8362,8 @@ export const products = [
     {
         "id": 426,
         "title": "Rubbl",
-        "shortDescription": "Urban Gear Rubbl stainless steel vacuum bottle keeps drinks hot or cold for 6-8 hours, featuring a rubber finish and customizable printing options.\n",
-        "longDescription": "Urban Gear Rubbl bottle. 500ml SS304 steel with rubber finish. Keeps drinks hot/cold for 6-8 hrs. Vacuum insulated. 7x7x23.5cm, 263 gms. Supports screen/UV/DTF printing. HSN 96170019.\n",
+        "shortDescription": "Think Print Rubbl stainless steel vacuum bottle keeps drinks hot or cold for 6-8 hours, featuring a rubber finish and customizable printing options.\n",
+        "longDescription": "Think Print Rubbl bottle. 500ml SS304 steel with rubber finish. Keeps drinks hot/cold for 6-8 hrs. Vacuum insulated. 7x7x23.5cm, 263 gms. Supports screen/UV/DTF printing. HSN 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8383,7 +8383,7 @@ export const products = [
     {
         "id": 427,
         "title": "Cafe Bamboo",
-        "shortDescription": "Urban Gear Cafe Bamboo: 300ml reusable, BPA-free bamboo tea mug with a customizable, double-walled lid.\n",
+        "shortDescription": "Think Print Cafe Bamboo: 300ml reusable, BPA-free bamboo tea mTP with a customizable, double-walled lid.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -8442,8 +8442,8 @@ export const products = [
     {
         "id": 430,
         "title": "Hot & Cold Sports Bottle - TWYST",
-        "shortDescription": "Urban Gear TWYST vacuum insulated 540ml stainless steel bottle keeps drinks hot or cold for 12-18 hours.\n",
-        "longDescription": "Urban Gear TWYST bottle keeps drinks hot/cold for 12-18hrs. SS 304 steel, 540ml capacity. Size: 7x7x26.5cm, Weight: 326gm. HSN: 73239390. Perfect for on-the-go hydration.\n",
+        "shortDescription": "Think Print TWYST vacuum insulated 540ml stainless steel bottle keeps drinks hot or cold for 12-18 hours.\n",
+        "longDescription": "Think Print TWYST bottle keeps drinks hot/cold for 12-18hrs. SS 304 steel, 540ml capacity. Size: 7x7x26.5cm, Weight: 326gm. HSN: 73239390. Perfect for on-the-go hydration.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8466,8 +8466,8 @@ export const products = [
     {
         "id": 431,
         "title": "Hot & Cold Sports Bottle - ETHOS",
-        "shortDescription": "Urban Gear ETHOS: 660ml, 304 SS vacuum insulated bottle keeps drinks hot or cold for 12-18 hours.\n",
-        "longDescription": "Urban Gear Ethos flask. Keeps drinks hot/cold for 12-18hrs. 660ml capacity in a compact 7.5x7.5x26.7cm size. Made of durable SS 304 stainless steel and weighs 349gm. HSN 96170019.\n",
+        "shortDescription": "Think Print ETHOS: 660ml, 304 SS vacuum insulated bottle keeps drinks hot or cold for 12-18 hours.\n",
+        "longDescription": "Think Print Ethos flask. Keeps drinks hot/cold for 12-18hrs. 660ml capacity in a compact 7.5x7.5x26.7cm size. Made of durable SS 304 stainless steel and weighs 349gm. HSN 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8487,8 +8487,8 @@ export const products = [
     {
         "id": 432,
         "title": "Hot & Cold Sports Bottle - WALNUT",
-        "shortDescription": "Urban Gear WALNUT 500ml flask, 7x7x24.5cm, SS 304, keeps drinks hot or cold for 12-18 hours.\n",
-        "longDescription": "Urban Gear WALNUT flask: 500ml, keeps drinks hot/cold for 12-18hrs. Durable SS 304, 7x7x24.5cm, 306gm. Perfect for on-the-go hydration. HSN 96170019.\n",
+        "shortDescription": "Think Print WALNUT 500ml flask, 7x7x24.5cm, SS 304, keeps drinks hot or cold for 12-18 hours.\n",
+        "longDescription": "Think Print WALNUT flask: 500ml, keeps drinks hot/cold for 12-18hrs. Durable SS 304, 7x7x24.5cm, 306gm. Perfect for on-the-go hydration. HSN 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8511,8 +8511,8 @@ export const products = [
     {
         "id": 433,
         "title": "Hot & Cold Sports Bottle - PHANTOM",
-        "shortDescription": "Urban Gear Phantom: 600ml, 345gm, 7x7x27cm flask keeps drinks hot/cold for 8-18 hours.\n",
-        "longDescription": "Urban Gear PHANTOM. 600ml flask keeps drinks hot for 8hrs & cold for 18hrs. Lightweight at 345gm, compact 7x7x27cm. Durable & stylish. HSN 73102990.\n",
+        "shortDescription": "Think Print Phantom: 600ml, 345gm, 7x7x27cm flask keeps drinks hot/cold for 8-18 hours.\n",
+        "longDescription": "Think Print PHANTOM. 600ml flask keeps drinks hot for 8hrs & cold for 18hrs. Lightweight at 345gm, compact 7x7x27cm. Durable & stylish. HSN 73102990.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8532,8 +8532,8 @@ export const products = [
     {
         "id": 434,
         "title": "Hot & Cold Sports Bottle - ORION",
-        "shortDescription": "Urban Gear Orion: 500ml, 7x7x26.5cm, SS 304 bottle with silicon grip, keeps drinks hot/cold for 12-18 hours.\n",
-        "longDescription": "Urban Gear Orion: The 500ml flask (7x7x26.5cm) keeps drinks hot/cold for 12-18 hrs. Made of durable SS 304 with a silicon grip for comfort. 277 GSM. HSN 73239390.\n",
+        "shortDescription": "Think Print Orion: 500ml, 7x7x26.5cm, SS 304 bottle with silicon grip, keeps drinks hot/cold for 12-18 hours.\n",
+        "longDescription": "Think Print Orion: The 500ml flask (7x7x26.5cm) keeps drinks hot/cold for 12-18 hrs. Made of durable SS 304 with a silicon grip for comfort. 277 GSM. HSN 73239390.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8707,8 +8707,8 @@ export const products = [
     {
         "id": 443,
         "title": "Hot & Cold Sports Bottle - CAMPER",
-        "shortDescription": "Urban Gear Camper: 500ml, 250gm BPA-free stainless steel flask with screw cap, steel handle, and 12-18hr hot/cold retention.\n",
-        "longDescription": "Urban Gear Camper, a 500ml stainless steel bottle, keeps drinks hot/cold for 12-18hrs. BPA-free, 250gm. Features a screw cap with a steel handle. HSN 961700.\n",
+        "shortDescription": "Think Print Camper: 500ml, 250gm BPA-free stainless steel flask with screw cap, steel handle, and 12-18hr hot/cold retention.\n",
+        "longDescription": "Think Print Camper, a 500ml stainless steel bottle, keeps drinks hot/cold for 12-18hrs. BPA-free, 250gm. Features a screw cap with a steel handle. HSN 961700.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8728,8 +8728,8 @@ export const products = [
     {
         "id": 444,
         "title": "Smart Vacuum Flask - DEGREE",
-        "shortDescription": "Urban Gear Degree: 500ml BPA-free stainless steel bottle with a flip cap, lightweight at 270gm.\n",
-        "longDescription": "Urban Gear DEGREE: 500ml stainless steel bottle. Lightweight at 270gm. BPA-free, flip cap. HSN 961700. Durable hydration for your daily grind.\n",
+        "shortDescription": "Think Print Degree: 500ml BPA-free stainless steel bottle with a flip cap, lightweight at 270gm.\n",
+        "longDescription": "Think Print DEGREE: 500ml stainless steel bottle. Lightweight at 270gm. BPA-free, flip cap. HSN 961700. Durable hydration for your daily grind.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8749,8 +8749,8 @@ export const products = [
     {
         "id": 445,
         "title": "Stainless Steel Hot & Cold Bottle - GOTHIC",
-        "shortDescription": "Urban Gear Gothic: Premium 500ml hot & cold bottle with 18-hour temperature retention, leak-proof design, and cup-cap, perfect for on-the-go hydration.\n",
-        "longDescription": "Urban Gear GOTHIC bottle: premium hot & cold, latest vacuum tech. Keeps drinks hot/cool for 18 hrs. 500ml, BPA-free. Leak-proof, one-click open/close. Cap doubles as cup. Ideal for sports, travel, yoga, home. HSN 961700. Convenient & reliable!\n",
+        "shortDescription": "Think Print Gothic: Premium 500ml hot & cold bottle with 18-hour temperature retention, leak-proof design, and cup-cap, perfect for on-the-go hydration.\n",
+        "longDescription": "Think Print GOTHIC bottle: premium hot & cold, latest vacuum tech. Keeps drinks hot/cool for 18 hrs. 500ml, BPA-free. Leak-proof, one-click open/close. Cap doubles as cup. Ideal for sports, travel, yoga, home. HSN 961700. Convenient & reliable!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8770,8 +8770,8 @@ export const products = [
     {
         "id": 446,
         "title": "Stainless Steel Hot & Cold Bottle - DELTA",
-        "shortDescription": "Urban Gear DELTA: 500ml stainless steel, BPA-free bottle with a drinking cap lid, keeping liquids hot/cold for 12-18 hours and weighing 254gm.\n",
-        "longDescription": "Urban Gear DELTA: 500ml stainless steel bottle. Keeps drinks hot/cold for 12-18hrs. BPA-free, drinking cap lid. Lightweight at 254gm. HSNCode 961700. Durable, stylish hydration.\n",
+        "shortDescription": "Think Print DELTA: 500ml stainless steel, BPA-free bottle with a drinking cap lid, keeping liquids hot/cold for 12-18 hours and weighing 254gm.\n",
+        "longDescription": "Think Print DELTA: 500ml stainless steel bottle. Keeps drinks hot/cold for 12-18hrs. BPA-free, drinking cap lid. Lightweight at 254gm. HSNCode 961700. Durable, stylish hydration.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8790,8 +8790,8 @@ export const products = [
     {
         "id": 447,
         "title": "Stainless Steel Hot & Cold Bottle - COLA 750",
-        "shortDescription": "Urban Gear COLA-750: 750ml stainless steel bottle, keeps drinks hot/cold for 12-18hrs, BPA-free, screw-top, and lightweight (349gm).\n",
-        "longDescription": "Urban Gear COLA-750: 750ml stainless steel bottle, BPA free. Keeps drinks hot/cold for 12-18 hours. 7x7x28.5cm, 349gm. Secure screw cap. HSN 961700.\n",
+        "shortDescription": "Think Print COLA-750: 750ml stainless steel bottle, keeps drinks hot/cold for 12-18hrs, BPA-free, screw-top, and lightweight (349gm).\n",
+        "longDescription": "Think Print COLA-750: 750ml stainless steel bottle, BPA free. Keeps drinks hot/cold for 12-18 hours. 7x7x28.5cm, 349gm. Secure screw cap. HSN 961700.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8848,7 +8848,7 @@ export const products = [
         "id": 450,
         "title": "Slendr",
         "shortDescription": "N/A",
-        "longDescription": "Stay hydrated on the go with the Urban Gear SLENDR bottle. This 700ml stainless steel, BPA-free bottle offers ample branding space. Leak-proof and made from SA food grade material, it's perfect for any activity. Lightweight at 165gms, size: 6x6x24.7cm.\n",
+        "longDescription": "Stay hydrated on the go with the Think Print SLENDR bottle. This 700ml stainless steel, BPA-free bottle offers ample branding space. Leak-proof and made from SA food grade material, it's perfect for any activity. Lightweight at 165gms, size: 6x6x24.7cm.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8903,7 +8903,7 @@ export const products = [
         "id": 453,
         "title": "CEDAR Stainlesss SteelVaccum Bottle",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear Cedar, a sleek 750ml flask (7.5x7.5x26.5cm) crafted from SS 304. Enjoy hot or cold drinks for 6-8 hrs with latest vacuum tech. Features a wooden lid with handle for easy carry. Lightweight at 331gms.\n",
+        "longDescription": "Think Print Cedar, a sleek 750ml flask (7.5x7.5x26.5cm) crafted from SS 304. Enjoy hot or cold drinks for 6-8 hrs with latest vacuum tech. Features a wooden lid with handle for easy carry. Lightweight at 331gms.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8923,14 +8923,14 @@ export const products = [
     {
         "id": 454,
         "title": "EBONY Stainless Steel Vaccum Bottle",
-        "shortDescription": "Urban Gear Ebony: 500ml SS 304 vacuum flask with a wooden handle cap, keeps drinks hot or cold for 6-8 hours, and weighs 273gms.\n",
-        "longDescription": "Urban Gear Ebony: Sleek & durable 500ml SS 304 flask (7x7x23cm, 273gms). Keeps drinks hot/cold 6-8hrs via vacuum tech. Features a stylish wooden cap with easy-carry handle.\n",
+        "shortDescription": "Think Print Ebony: 500ml SS 304 vacuum flask with a wooden handle cap, keeps drinks hot or cold for 6-8 hours, and weighs 273gms.\n",
+        "longDescription": "Think Print Ebony: Sleek & durable 500ml SS 304 flask (7x7x23cm, 273gms). Keeps drinks hot/cold 6-8hrs via vacuum tech. Features a stylish wooden cap with easy-carry handle.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
         "img": "/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle1.webp",
         "designSpecifications": [
-            "UG NAME EBONY, thinkPrint, 73239390, Black, 7*7*23cm, SS 304 Grade, 273gms, 5*5cm, Laser Engraving, None.",
+            "TP NAME EBONY, thinkPrint, 73239390, Black, 7*7*23cm, SS 304 Grade, 273gms, 5*5cm, Laser Engraving, None.",
             ""
         ],
         "thumbnailImages": [
@@ -8944,8 +8944,8 @@ export const products = [
     {
         "id": 455,
         "title": "CHILL Stainless Steel Vaccum Bottle",
-        "shortDescription": "Urban Gear CHILL: 500ml, stainless steel vacuum flask, keeping drinks hot or cold for 6-8 hours, weighing 260gms.\n",
-        "longDescription": "Urban Gear Chill: 500ml flask (7x7x22.3cm, 260gms). SS 304 grade, keeps drinks hot/cold 6-8 hrs. Latest vacuum tech. HSN 73239390. Stay refreshed on the go!\n",
+        "shortDescription": "Think Print CHILL: 500ml, stainless steel vacuum flask, keeping drinks hot or cold for 6-8 hours, weighing 260gms.\n",
+        "longDescription": "Think Print Chill: 500ml flask (7x7x22.3cm, 260gms). SS 304 grade, keeps drinks hot/cold 6-8 hrs. Latest vacuum tech. HSN 73239390. Stay refreshed on the go!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8968,8 +8968,8 @@ export const products = [
     {
         "id": 456,
         "title": "LQUID-900 Stainless Steel Vaccum Insulated Flask",
-        "shortDescription": "Urban Gear LQUID-900: 900ml, scratch-resistant, powder-coated, SS 304 wrist strap bottle keeps drinks hot for 10 hours or cold for 16.\n",
-        "longDescription": "Urban Gear LQUID-900 holds 900ml. Keeps drinks hot for 10hrs, cold for 16. Durable powder coat resists scratches. Features SS 304 wrist strap. Measures 7.3*7.3*27cm, weighs 393gms. HSN 96170090.\n",
+        "shortDescription": "Think Print LQUID-900: 900ml, scratch-resistant, powder-coated, SS 304 wrist strap bottle keeps drinks hot for 10 hours or cold for 16.\n",
+        "longDescription": "Think Print LQUID-900 holds 900ml. Keeps drinks hot for 10hrs, cold for 16. Durable powder coat resists scratches. Features SS 304 wrist strap. Measures 7.3*7.3*27cm, weighs 393gms. HSN 96170090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -8989,8 +8989,8 @@ export const products = [
     {
         "id": 457,
         "title": "LQUID-700 Stainless Steel Vaccum Insulated Flask",
-        "shortDescription": "Urban Gear LQUID-700: 700ml, powder-coated, scratch-resistant SS 304 flask keeps drinks hot for 10 hours and cold for 16 hours.\n",
-        "longDescription": "Urban Gear LQUID-700: 700ml, 7x7x24.5cm, 342gms flask. Keeps drinks hot for 10hrs & cold for 16. Durable powder coat resists scratches. SS 304 wrist strap. HSN 96170090.\n",
+        "shortDescription": "Think Print LQUID-700: 700ml, powder-coated, scratch-resistant SS 304 flask keeps drinks hot for 10 hours and cold for 16 hours.\n",
+        "longDescription": "Think Print LQUID-700: 700ml, 7x7x24.5cm, 342gms flask. Keeps drinks hot for 10hrs & cold for 16. Durable powder coat resists scratches. SS 304 wrist strap. HSN 96170090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9010,8 +9010,8 @@ export const products = [
     {
         "id": 458,
         "title": "LQUID-500 Stainless Steel Vaccum Insulated Flask",
-        "shortDescription": "Urban Gear LQUID-500: 500ml, scratch-resistant, SS 304, insulated bottle keeps drinks hot for 10 hours or cold for 16.\n",
-        "longDescription": "Urban Gear LQUID-500: 500ml bottle (6.5x6.5x21.5cm, 267g). SS 304 strap, 10h hot/16h cold. Durable, scratch-resistant powder coat. HSN 96170090.\n",
+        "shortDescription": "Think Print LQUID-500: 500ml, scratch-resistant, SS 304, insulated bottle keeps drinks hot for 10 hours or cold for 16.\n",
+        "longDescription": "Think Print LQUID-500: 500ml bottle (6.5x6.5x21.5cm, 267g). SS 304 strap, 10h hot/16h cold. Durable, scratch-resistant powder coat. HSN 96170090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9031,7 +9031,7 @@ export const products = [
         "id": 459,
         "title": "BOSTON STAINLESS STEEL SPORTS BOTTLE WITH SILICON HANDLE",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear Boston: 900ml stainless steel bottle. Lightweight at 258gms. Features a comfortable silicon handle. Dimensions: 7x7.5x28cm. HSNCode 73239990. Perfect hydration companion.\n",
+        "longDescription": "Think Print Boston: 900ml stainless steel bottle. Lightweight at 258gms. Features a comfortable silicon handle. Dimensions: 7x7.5x28cm. HSNCode 73239990. Perfect hydration companion.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9165,8 +9165,8 @@ export const products = [
     {
         "id": 466,
         "title": "Stainless Steel Bottle - MAGNUM",
-        "shortDescription": "Urban Gear Magnum 1000ml: BPA-free, lightweight (181gm) stainless steel bottle with a screw cap.\n",
-        "longDescription": "Urban Gear MAGNUM 1000ml stainless steel bottle. Lightweight at 181gm, this BPA-free bottle features a secure screw cap & holds 1000ml. HSNCode 732393. Durable & perfect for hydration on the go.\n",
+        "shortDescription": "Think Print Magnum 1000ml: BPA-free, lightweight (181gm) stainless steel bottle with a screw cap.\n",
+        "longDescription": "Think Print MAGNUM 1000ml stainless steel bottle. Lightweight at 181gm, this BPA-free bottle features a secure screw cap & holds 1000ml. HSNCode 732393. Durable & perfect for hydration on the go.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9186,8 +9186,8 @@ export const products = [
     {
         "id": 467,
         "title": "Stainless Steel Sports Bottle - MAGNUM",
-        "shortDescription": "Urban Gear Magnum 750ml stainless steel, BPA-free bottle with screw cap, weighing 170gm.\n",
-        "longDescription": "Urban Gear MAGNUM 750ml stainless steel bottle. Lightweight at 170gm, BPA-free, and features a secure screw cap. HSN 732393. Durable & perfect for hydration on the go.\n",
+        "shortDescription": "Think Print Magnum 750ml stainless steel, BPA-free bottle with screw cap, weighing 170gm.\n",
+        "longDescription": "Think Print MAGNUM 750ml stainless steel bottle. Lightweight at 170gm, BPA-free, and features a secure screw cap. HSN 732393. Durable & perfect for hydration on the go.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9206,8 +9206,8 @@ export const products = [
     {
         "id": 468,
         "title": "Stainless Steel Sports Bottle - OMEGA",
-        "shortDescription": "Urban Gear Omega: 1000ml stainless steel, BPA-free water bottle with flip cap, lightweight and made in India.\n",
-        "longDescription": "Urban Gear OMEGA, a 1000ml stainless steel bottle. BPA-free, with a flip cap. Size: 7.5x7.5x27.5cm, weighs 184gm. Made in India. HSN Code: 732393. Durable & stylish hydration.\n",
+        "shortDescription": "Think Print Omega: 1000ml stainless steel, BPA-free water bottle with flip cap, lightweight and made in India.\n",
+        "longDescription": "Think Print OMEGA, a 1000ml stainless steel bottle. BPA-free, with a flip cap. Size: 7.5x7.5x27.5cm, weighs 184gm. Made in India. HSN Code: 732393. Durable & stylish hydration.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9227,8 +9227,8 @@ export const products = [
     {
         "id": 469,
         "title": "Stainless Steel Bottle With Silicon Grip - SILICA",
-        "shortDescription": "Urban Gear SILICA: 750ml stainless steel, BPA-free bottle with silicone grip, lightweight at 201gm, made in India.\n",
-        "longDescription": "Urban Gear SILICA bottle: 750ml stainless steel, 201gm. BPA-free with a secure silicon grip. Durable & stylish. Made in India. HSN Code: 732393. Stay hydrated on the go!\n",
+        "shortDescription": "Think Print SILICA: 750ml stainless steel, BPA-free bottle with silicone grip, lightweight at 201gm, made in India.\n",
+        "longDescription": "Think Print SILICA bottle: 750ml stainless steel, 201gm. BPA-free with a secure silicon grip. Durable & stylish. Made in India. HSN Code: 732393. Stay hydrated on the go!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9248,8 +9248,8 @@ export const products = [
     {
         "id": 470,
         "title": "Stainless Steel Sports Bottle - GRIPO",
-        "shortDescription": "Urban Gear GRIPO: 850ml stainless steel water bottle with silicon grip, screw cap handle, and BPA-free design.\n",
-        "longDescription": "Urban Gear GRIPO bottle: 850ml stainless steel, 191gm. BPA-free, screw cap with handle, and silicon grip for easy handling. Durable, stylish, & made in India. HSNCode 732393.\n",
+        "shortDescription": "Think Print GRIPO: 850ml stainless steel water bottle with silicon grip, screw cap handle, and BPA-free design.\n",
+        "longDescription": "Think Print GRIPO bottle: 850ml stainless steel, 191gm. BPA-free, screw cap with handle, and silicon grip for easy handling. Durable, stylish, & made in India. HSNCode 732393.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9405,8 +9405,8 @@ export const products = [
     {
         "id": 478,
         "title": "Tritan Sports Bottle - TRANS",
-        "shortDescription": "Urban Gear 800ml Tritan water bottle: lightweight, BPA-free, with dual opening.\n",
-        "longDescription": "Urban Gear TRANS water bottle: Stay hydrated on the go! Made of durable, BPA-free Tritan. 800ml capacity, lightweight at only 139gm. Features a convenient dual opening cap for easy drinking. HSNCode 392690\n",
+        "shortDescription": "Think Print 800ml Tritan water bottle: lightweight, BPA-free, with dual opening.\n",
+        "longDescription": "Think Print TRANS water bottle: Stay hydrated on the go! Made of durable, BPA-free Tritan. 800ml capacity, lightweight at only 139gm. Features a convenient dual opening cap for easy drinking. HSNCode 392690\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9429,8 +9429,8 @@ export const products = [
     {
         "id": 479,
         "title": "Tritan Sports Bottle - ELITE",
-        "shortDescription": "Urban Gear ELITE: 780ml BPA-free Tritan bottle with a ring-handled screw cap, lightweight at 98gm.\n",
-        "longDescription": "Urban Gear Elite bottle, crafted from durable, BPA-free Tritan. Lightweight at 98gm, 780ml capacity, 7*7*26cm. Features a secure screw cap with ring handle for easy carry. HSN Code 392330.\n",
+        "shortDescription": "Think Print ELITE: 780ml BPA-free Tritan bottle with a ring-handled screw cap, lightweight at 98gm.\n",
+        "longDescription": "Think Print Elite bottle, crafted from durable, BPA-free Tritan. Lightweight at 98gm, 780ml capacity, 7*7*26cm. Features a secure screw cap with ring handle for easy carry. HSN Code 392330.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9449,8 +9449,8 @@ export const products = [
     {
         "id": 480,
         "title": "SONIC",
-        "shortDescription": "Urban Gear Sonic: 1.2M gray nylon 3-in-1 fast charging cable with luminous chip for easy location, 100W superfast charge, and safety chip.\n",
-        "longDescription": "Urban Gear Sonic: 3-IN-1 fast charging cable (1.2M) with nylon wire for flexibility & tear resistance. Supports 100W superfast charge & has a safety chip. Luminous chip helps locate in the dark. Gray color. Copper wires. HSN 85444299.\n",
+        "shortDescription": "Think Print Sonic: 1.2M gray nylon 3-in-1 fast charging cable with luminous chip for easy location, 100W superfast charge, and safety chip.\n",
+        "longDescription": "Think Print Sonic: 3-IN-1 fast charging cable (1.2M) with nylon wire for flexibility & tear resistance. Supports 100W superfast charge & has a safety chip. Luminous chip helps locate in the dark. Gray color. Copper wires. HSN 85444299.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9471,8 +9471,8 @@ export const products = [
     {
         "id": 481,
         "title": "Lisbon Jr.",
-        "shortDescription": "Urban Gear Lisbon Jr. is a compact 180ml stainless steel travel mug with handle, ideal for engraving, screen printing, UV printing, or DTF stickers.\n",
-        "longDescription": "The Urban Gear Lisbon Jr. travel mug is perfect for on-the-go. Made of durable stainless steel 304 with a double-wall construction, it keeps your drink hot or cold. 180ml capacity. Customize with engraving, screen/UV printing, or DTF. 7x10.5x9.5cm. BPA-free & food grade.\n",
+        "shortDescription": "Think Print Lisbon Jr. is a compact 180ml stainless steel travel mTP with handle, ideal for engraving, screen printing, UV printing, or DTF stickers.\n",
+        "longDescription": "The Think Print Lisbon Jr. travel mTP is perfect for on-the-go. Made of durable stainless steel 304 with a double-wall construction, it keeps your drink hot or cold. 180ml capacity. Customize with engraving, screen/UV printing, or DTF. 7x10.5x9.5cm. BPA-free & food grade.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9492,8 +9492,8 @@ export const products = [
     {
         "id": 482,
         "title": "Hydra",
-        "shortDescription": "Urban Gear Hydra: 1200ml stainless steel mug with bamboo grip, vacuum insulation for 6-8 hour hot/cold retention, straw, and customizable print options.\n",
-        "longDescription": "Urban Gear Hydra: 1200ml stainless steel mug with bamboo grip. Double-walled 304 SS keeps drinks hot/cold for 6-8 hrs. Leak-proof, BPA-free. Includes straw. Size: 12x9.5x27cm, 495gms. Customize with engraving, screen or UV printing. HSN 961700.\n",
+        "shortDescription": "Think Print Hydra: 1200ml stainless steel mTP with bamboo grip, vacuum insulation for 6-8 hour hot/cold retention, straw, and customizable print options.\n",
+        "longDescription": "Think Print Hydra: 1200ml stainless steel mTP with bamboo grip. Double-walled 304 SS keeps drinks hot/cold for 6-8 hrs. Leak-proof, BPA-free. Includes straw. Size: 12x9.5x27cm, 495gms. Customize with engraving, screen or UV printing. HSN 961700.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -9513,7 +9513,7 @@ export const products = [
     {
         "id": 483,
         "title": "Lisbon Jr. Colors",
-        "shortDescription": "Urban Gear Lisbon Jr. 180ml stainless steel travel mug with handle, customizable with engraving, screen printing, UV printing, or DTF stickers.\n",
+        "shortDescription": "Think Print Lisbon Jr. 180ml stainless steel travel mTP with handle, customizable with engraving, screen printing, UV printing, or DTF stickers.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -9590,28 +9590,28 @@ export const products = [
     },
     {
         "id": 487,
-        "title": "Grain-Wheat Fibre Eco Friendly Mug",
+        "title": "Grain-Wheat Fibre Eco Friendly MTP",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug1.webp",
+        "img": "/products/grain-wheat_fibre_eco_friendly_mTP/grain-wheat_fibre_eco_friendly_mTP1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug2.webp",
-            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug3.webp",
-            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug4.webp",
-            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug5.webp",
-            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug6.webp"
+            "/products/grain-wheat_fibre_eco_friendly_mTP/grain-wheat_fibre_eco_friendly_mTP2.webp",
+            "/products/grain-wheat_fibre_eco_friendly_mTP/grain-wheat_fibre_eco_friendly_mTP3.webp",
+            "/products/grain-wheat_fibre_eco_friendly_mTP/grain-wheat_fibre_eco_friendly_mTP4.webp",
+            "/products/grain-wheat_fibre_eco_friendly_mTP/grain-wheat_fibre_eco_friendly_mTP5.webp",
+            "/products/grain-wheat_fibre_eco_friendly_mTP/grain-wheat_fibre_eco_friendly_mTP6.webp"
         ]
     },
     {
         "id": 488,
         "title": "ECO-BREW",
-        "shortDescription": "Urban Gear Eco-Brew: 300ml wheat fibre eco-friendly mug with anti-bacterial properties, spill-proof lid, wrist strap, and ample branding space.\n",
+        "shortDescription": "Think Print Eco-Brew: 300ml wheat fibre eco-friendly mTP with anti-bacterial properties, spill-proof lid, wrist strap, and ample branding space.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -9630,35 +9630,35 @@ export const products = [
     },
     {
         "id": 489,
-        "title": "MINI MUG Double Wall Stainless Steel Mug",
+        "title": "MINI MTP Double Wall Stainless Steel MTP",
         "shortDescription": "N/A",
-        "longDescription": "Urban Gear Mini Mug: Double-walled stainless steel keeps drinks hot/cold. Compact size (7*9.5*5.7cm), 100ml capacity, lightweight (107gm). Perfect for on-the-go sips. HSNCode 73239990.\n",
+        "longDescription": "Think Print Mini MTP: Double-walled stainless steel keeps drinks hot/cold. Compact size (7*9.5*5.7cm), 100ml capacity, lightweight (107gm). Perfect for on-the-go sips. HSNCode 73239990.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug1.webp",
+        "img": "/products/mini_mTP_double_wall_stainless_steel_mTP/mini_mTP_double_wall_stainless_steel_mTP1.webp",
         "designSpecifications": [
-            "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, 107gm",
-            "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, Branding Area: 4*4cm",
-            "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, Branding Methods: Laser Engraving",
-            "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, Capacity: 100ml",
-            "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, No RGB Lighting Effects"
+            "MINI MTP, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, 107gm",
+            "MINI MTP, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, Branding Area: 4*4cm",
+            "MINI MTP, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, Branding Methods: Laser Engraving",
+            "MINI MTP, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, Capacity: 100ml",
+            "MINI MTP, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, No RGB Lighting Effects"
         ],
         "thumbnailImages": [
-            "/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug2.webp",
-            "/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug3.webp",
-            "/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug4.webp"
+            "/products/mini_mTP_double_wall_stainless_steel_mTP/mini_mTP_double_wall_stainless_steel_mTP2.webp",
+            "/products/mini_mTP_double_wall_stainless_steel_mTP/mini_mTP_double_wall_stainless_steel_mTP3.webp",
+            "/products/mini_mTP_double_wall_stainless_steel_mTP/mini_mTP_double_wall_stainless_steel_mTP4.webp"
         ]
     },
     {
         "id": 490,
-        "title": "CUPPA Double Wall Travel Mug With Handle",
-        "shortDescription": "Urban Gear CUPPA, a 400ml stainless steel and food-grade PP insulated container (201gms, 8x11.5x14cm).\n",
-        "longDescription": "Urban Gear's CUPPA: 400ml capacity, 201gms weight, sized at 8*11.5*14cm. Features a durable SS exterior and a food-grade PP interior. HSN Code: 39249090. Perfect for on-the-go beverages!\n",
+        "title": "CUPPA Double Wall Travel MTP With Handle",
+        "shortDescription": "Think Print CUPPA, a 400ml stainless steel and food-grade PP insulated container (201gms, 8x11.5x14cm).\n",
+        "longDescription": "Think Print's CUPPA: 400ml capacity, 201gms weight, sized at 8*11.5*14cm. Features a durable SS exterior and a food-grade PP interior. HSN Code: 39249090. Perfect for on-the-go beverages!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle1.webp",
+        "img": "/products/cuppa_double_wall_travel_mTP_with_handle/cuppa_double_wall_travel_mTP_with_handle1.webp",
         "designSpecifications": [
             "CUPPA, thinkPrint, 39249090, Silver, 8*11.5*14cm, SS/PP, 201gms",
             "CUPPA, thinkPrint, 39249090, Silver, 400ml, SS/PP, 201gms",
@@ -9667,65 +9667,65 @@ export const products = [
             "CUPPA, thinkPrint, 39249090, Silver, 400ml, SS/PP, 201gms, 4x4cm, Pad Print"
         ],
         "thumbnailImages": [
-            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle2.webp",
-            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle3.webp",
-            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle4.webp",
-            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle5.webp",
-            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle6.webp"
+            "/products/cuppa_double_wall_travel_mTP_with_handle/cuppa_double_wall_travel_mTP_with_handle2.webp",
+            "/products/cuppa_double_wall_travel_mTP_with_handle/cuppa_double_wall_travel_mTP_with_handle3.webp",
+            "/products/cuppa_double_wall_travel_mTP_with_handle/cuppa_double_wall_travel_mTP_with_handle4.webp",
+            "/products/cuppa_double_wall_travel_mTP_with_handle/cuppa_double_wall_travel_mTP_with_handle5.webp",
+            "/products/cuppa_double_wall_travel_mTP_with_handle/cuppa_double_wall_travel_mTP_with_handle6.webp"
         ]
     },
     {
         "id": 491,
-        "title": "TRENDY Stainless Steel Double Wall Mug",
-        "shortDescription": "Urban Gear TRENDY: 300ml stainless steel container, lightweight at 176gms and compact at 6.7x6.7x15.7cm.\n",
-        "longDescription": "Urban Gear TRENDY flask holds 300ml and weighs 176gms. It's 6.7*6.7*15.7cm, crafted with hi-grade stainless steel inside. HSNCode 73239390. Perfect for stylish hydration on the go.\n",
+        "title": "TRENDY Stainless Steel Double Wall MTP",
+        "shortDescription": "Think Print TRENDY: 300ml stainless steel container, lightweight at 176gms and compact at 6.7x6.7x15.7cm.\n",
+        "longDescription": "Think Print TRENDY flask holds 300ml and weighs 176gms. It's 6.7*6.7*15.7cm, crafted with hi-grade stainless steel inside. HSNCode 73239390. Perfect for stylish hydration on the go.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug1.webp",
+        "img": "/products/trendy_stainless_steel_double_wall_mTP/trendy_stainless_steel_double_wall_mTP1.webp",
         "designSpecifications": [
             "TRENDY Bottle, thinkPrint, 73239390, Silver, 6.7*6.7*15.7cm, Stainless Steel Inner, 176gms, 4*4cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug2.webp",
-            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug3.webp",
-            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug4.webp",
-            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug5.webp",
-            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug6.webp"
+            "/products/trendy_stainless_steel_double_wall_mTP/trendy_stainless_steel_double_wall_mTP2.webp",
+            "/products/trendy_stainless_steel_double_wall_mTP/trendy_stainless_steel_double_wall_mTP3.webp",
+            "/products/trendy_stainless_steel_double_wall_mTP/trendy_stainless_steel_double_wall_mTP4.webp",
+            "/products/trendy_stainless_steel_double_wall_mTP/trendy_stainless_steel_double_wall_mTP5.webp",
+            "/products/trendy_stainless_steel_double_wall_mTP/trendy_stainless_steel_double_wall_mTP6.webp"
         ]
     },
     {
         "id": 492,
-        "title": "KONETO Stainless Steel Vaccum Mug",
-        "shortDescription": "Urban Gear KONETO: 380ml SS 304 ergonomic flask with vacuum insulation, keeping drinks hot/cold for 6-8 hours.\n",
-        "longDescription": "Urban Gear KONETO: 380ml, SS 304 flask keeps drinks hot/cold for 6-8 hrs using latest vacuum tech. Ergonomic design, lightweight at 218gms. Size: 7.5*7.5*41cm. HSNCode:73239390.\n",
+        "title": "KONETO Stainless Steel Vaccum MTP",
+        "shortDescription": "Think Print KONETO: 380ml SS 304 ergonomic flask with vacuum insulation, keeping drinks hot/cold for 6-8 hours.\n",
+        "longDescription": "Think Print KONETO: 380ml, SS 304 flask keeps drinks hot/cold for 6-8 hrs using latest vacuum tech. Ergonomic design, lightweight at 218gms. Size: 7.5*7.5*41cm. HSNCode:73239390.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug1.webp",
+        "img": "/products/koneto_stainless_steel_vaccum_mTP/koneto_stainless_steel_vaccum_mTP1.webp",
         "designSpecifications": [
             "KONETO, thinkPrint, 73239390, Matte Black, 7.5*7.5*41Cm, SS 304 Grade, 218gms",
             "KONETO, thinkPrint, 73239390, Matte Black, 7.5*7.5*41Cm, SS 304 Grade, 218gms, 3x3cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug2.webp",
-            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug3.webp",
-            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug4.webp",
-            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug5.webp",
-            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug6.webp"
+            "/products/koneto_stainless_steel_vaccum_mTP/koneto_stainless_steel_vaccum_mTP2.webp",
+            "/products/koneto_stainless_steel_vaccum_mTP/koneto_stainless_steel_vaccum_mTP3.webp",
+            "/products/koneto_stainless_steel_vaccum_mTP/koneto_stainless_steel_vaccum_mTP4.webp",
+            "/products/koneto_stainless_steel_vaccum_mTP/koneto_stainless_steel_vaccum_mTP5.webp",
+            "/products/koneto_stainless_steel_vaccum_mTP/koneto_stainless_steel_vaccum_mTP6.webp"
         ]
     },
     {
         "id": 493,
-        "title": "KONE Stainless Steel Vaccum Insulated Mug",
-        "shortDescription": "Urban Gear KONE: 320ml stainless steel flask (SS304 inner, SS201 outer), lightweight at 170gms and compact at 8.5x8.5x10cm.\n",
-        "longDescription": "Urban Gear KONE: Your perfect 320ml companion. Crafted with SS304 inside & SS201 outside. Lightweight at 170gms, compact 8.5*8.5*10cm design. HSN 96170019.\n",
+        "title": "KONE Stainless Steel Vaccum Insulated MTP",
+        "shortDescription": "Think Print KONE: 320ml stainless steel flask (SS304 inner, SS201 outer), lightweight at 170gms and compact at 8.5x8.5x10cm.\n",
+        "longDescription": "Think Print KONE: Your perfect 320ml companion. Crafted with SS304 inside & SS201 outside. Lightweight at 170gms, compact 8.5*8.5*10cm design. HSN 96170019.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug1.webp",
+        "img": "/products/kone_stainless_steel_vaccum_insulated_mTP/kone_stainless_steel_vaccum_insulated_mTP1.webp",
         "designSpecifications": [
             "KONE, thinkPrint, 96170019, Silver, 8.5 x 8.5 x 10 cm, SS304 inner/SS201 outer, 170 gms",
             "KONE, thinkPrint, 96170019, Silver, 8.5 x 8.5 x 10 cm, SS304 inner/SS201 outer, Branding Area: 5 x 5 cm",
@@ -9734,47 +9734,47 @@ export const products = [
             "KONE, thinkPrint, 96170019, Silver, Volume: 320 ml, SS304 inner/SS201 outer, No RGB Lighting Effects"
         ],
         "thumbnailImages": [
-            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug2.webp",
-            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug3.webp",
-            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug4.webp",
-            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug5.webp",
-            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug6.webp"
+            "/products/kone_stainless_steel_vaccum_insulated_mTP/kone_stainless_steel_vaccum_insulated_mTP2.webp",
+            "/products/kone_stainless_steel_vaccum_insulated_mTP/kone_stainless_steel_vaccum_insulated_mTP3.webp",
+            "/products/kone_stainless_steel_vaccum_insulated_mTP/kone_stainless_steel_vaccum_insulated_mTP4.webp",
+            "/products/kone_stainless_steel_vaccum_insulated_mTP/kone_stainless_steel_vaccum_insulated_mTP5.webp",
+            "/products/kone_stainless_steel_vaccum_insulated_mTP/kone_stainless_steel_vaccum_insulated_mTP6.webp"
         ]
     },
     {
         "id": 494,
-        "title": "LISBON Stainless Steel Travel Mug With Handle",
-        "shortDescription": "Urban Gear Lisbon: 280ml stainless steel travel mug with handle, SS304 interior, SS201 exterior, and compact dimensions.\n",
-        "longDescription": "Urban Gear Lisbon Travel Mug. 280ml. Durable stainless steel, SS304 inner, SS201 outer. Compact 7x11x10.5cm size, lightweight at 138gsm. Convenient handle. HSN 73239990.\n",
+        "title": "LISBON Stainless Steel Travel MTP With Handle",
+        "shortDescription": "Think Print Lisbon: 280ml stainless steel travel mTP with handle, SS304 interior, SS201 exterior, and compact dimensions.\n",
+        "longDescription": "Think Print Lisbon Travel MTP. 280ml. Durable stainless steel, SS304 inner, SS201 outer. Compact 7x11x10.5cm size, lightweight at 138gsm. Convenient handle. HSN 73239990.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle1.webp",
+        "img": "/products/lisbon_stainless_steel_travel_mTP_with_handle/lisbon_stainless_steel_travel_mTP_with_handle1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle2.webp",
-            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle3.webp",
-            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle4.webp",
-            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle5.webp",
-            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle6.webp"
+            "/products/lisbon_stainless_steel_travel_mTP_with_handle/lisbon_stainless_steel_travel_mTP_with_handle2.webp",
+            "/products/lisbon_stainless_steel_travel_mTP_with_handle/lisbon_stainless_steel_travel_mTP_with_handle3.webp",
+            "/products/lisbon_stainless_steel_travel_mTP_with_handle/lisbon_stainless_steel_travel_mTP_with_handle4.webp",
+            "/products/lisbon_stainless_steel_travel_mTP_with_handle/lisbon_stainless_steel_travel_mTP_with_handle5.webp",
+            "/products/lisbon_stainless_steel_travel_mTP_with_handle/lisbon_stainless_steel_travel_mTP_with_handle6.webp"
         ]
     },
     {
         "id": 495,
-        "title": "CORKY CERAMIC MUG WITH CORK BASE",
+        "title": "CORKY CERAMIC MTP WITH CORK BASE",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/corky_ceramic_mug_with_cork_base/corky_ceramic_mug_with_cork_base1.webp",
+        "img": "/products/corky_ceramic_mTP_with_cork_base/corky_ceramic_mTP_with_cork_base1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/corky_ceramic_mug_with_cork_base/corky_ceramic_mug_with_cork_base2.webp"
+            "/products/corky_ceramic_mTP_with_cork_base/corky_ceramic_mTP_with_cork_base2.webp"
         ]
     },
     {
@@ -9799,205 +9799,205 @@ export const products = [
     },
     {
         "id": 497,
-        "title": "Stainless Steel Travel Mug - KOFY",
+        "title": "Stainless Steel Travel MTP - KOFY",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy1.webp",
+        "img": "/products/stainless_steel_travel_mTP_-_kofy/stainless_steel_travel_mTP_-_kofy1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy2.webp",
-            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy3.webp",
-            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy4.webp",
-            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy5.webp",
-            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy6.webp"
+            "/products/stainless_steel_travel_mTP_-_kofy/stainless_steel_travel_mTP_-_kofy2.webp",
+            "/products/stainless_steel_travel_mTP_-_kofy/stainless_steel_travel_mTP_-_kofy3.webp",
+            "/products/stainless_steel_travel_mTP_-_kofy/stainless_steel_travel_mTP_-_kofy4.webp",
+            "/products/stainless_steel_travel_mTP_-_kofy/stainless_steel_travel_mTP_-_kofy5.webp",
+            "/products/stainless_steel_travel_mTP_-_kofy/stainless_steel_travel_mTP_-_kofy6.webp"
         ]
     },
     {
         "id": 498,
-        "title": "Stainless Steel Travel Mug With Silicon Grip - TMBLR",
+        "title": "Stainless Steel Travel MTP With Silicon Grip - TMBLR",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr1.webp",
+        "img": "/products/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr2.webp",
-            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr3.webp",
-            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr4.webp",
-            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr5.webp",
-            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr6.webp"
+            "/products/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr2.webp",
+            "/products/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr3.webp",
+            "/products/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr4.webp",
+            "/products/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr5.webp",
+            "/products/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr/stainless_steel_travel_mTP_with_silicon_grip_-_tmblr6.webp"
         ]
     },
     {
         "id": 499,
-        "title": "Cookie Mug-Coffee Break Mug",
+        "title": "Cookie MTP-Coffee Break MTP",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug1.webp",
+        "img": "/products/cookie_mTP-coffee_break_mTP/cookie_mTP-coffee_break_mTP1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug2.webp",
-            "/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug3.webp",
-            "/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug4.webp"
+            "/products/cookie_mTP-coffee_break_mTP/cookie_mTP-coffee_break_mTP2.webp",
+            "/products/cookie_mTP-coffee_break_mTP/cookie_mTP-coffee_break_mTP3.webp",
+            "/products/cookie_mTP-coffee_break_mTP/cookie_mTP-coffee_break_mTP4.webp"
         ]
     },
     {
         "id": 500,
-        "title": "Stainless Steel Travel Mug - TOBY",
+        "title": "Stainless Steel Travel MTP - TOBY",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby1.webp",
+        "img": "/products/stainless_steel_travel_mTP_-_toby/stainless_steel_travel_mTP_-_toby1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby2.webp",
-            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby3.webp",
-            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby4.webp",
-            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby5.webp",
-            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby6.webp"
+            "/products/stainless_steel_travel_mTP_-_toby/stainless_steel_travel_mTP_-_toby2.webp",
+            "/products/stainless_steel_travel_mTP_-_toby/stainless_steel_travel_mTP_-_toby3.webp",
+            "/products/stainless_steel_travel_mTP_-_toby/stainless_steel_travel_mTP_-_toby4.webp",
+            "/products/stainless_steel_travel_mTP_-_toby/stainless_steel_travel_mTP_-_toby5.webp",
+            "/products/stainless_steel_travel_mTP_-_toby/stainless_steel_travel_mTP_-_toby6.webp"
         ]
     },
     {
         "id": 501,
-        "title": "Stainless Steel Travel Mug With Handle - VENTO",
+        "title": "Stainless Steel Travel MTP With Handle - VENTO",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento1.webp",
+        "img": "/products/stainless_steel_travel_mTP_with_handle_-_vento/stainless_steel_travel_mTP_with_handle_-_vento1.webp",
         "designSpecifications": [
-            "VENTO Travel Mug, thinkPrint, 73239390, Matte Black, 85mm diameter x 145mm height, 304 Stainless Steel, 206g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A.",
+            "VENTO Travel MTP, thinkPrint, 73239390, Matte Black, 85mm diameter x 145mm height, 304 Stainless Steel, 206g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento2.webp",
-            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento3.webp",
-            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento4.webp",
-            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento5.webp",
-            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento6.webp"
+            "/products/stainless_steel_travel_mTP_with_handle_-_vento/stainless_steel_travel_mTP_with_handle_-_vento2.webp",
+            "/products/stainless_steel_travel_mTP_with_handle_-_vento/stainless_steel_travel_mTP_with_handle_-_vento3.webp",
+            "/products/stainless_steel_travel_mTP_with_handle_-_vento/stainless_steel_travel_mTP_with_handle_-_vento4.webp",
+            "/products/stainless_steel_travel_mTP_with_handle_-_vento/stainless_steel_travel_mTP_with_handle_-_vento5.webp",
+            "/products/stainless_steel_travel_mTP_with_handle_-_vento/stainless_steel_travel_mTP_with_handle_-_vento6.webp"
         ]
     },
     {
         "id": 502,
-        "title": "Stainless Steel Travel Mug With Handle - MONT",
-        "shortDescription": "Urban Gear MONT double-walled, leak-proof stainless steel travel mug with handle keeps drinks hot or cold on the go.\n",
-        "longDescription": "Urban Gear MONT. Stainless steel travel mug. Vacuum insulated, double wall, 9x12x12cm. Handle, leak-proof, BPA-free & food-grade material. Perfect on the go!\n",
+        "title": "Stainless Steel Travel MTP With Handle - MONT",
+        "shortDescription": "Think Print MONT double-walled, leak-proof stainless steel travel mTP with handle keeps drinks hot or cold on the go.\n",
+        "longDescription": "Think Print MONT. Stainless steel travel mTP. Vacuum insulated, double wall, 9x12x12cm. Handle, leak-proof, BPA-free & food-grade material. Perfect on the go!\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont1.webp",
+        "img": "/products/stainless_steel_travel_mTP_with_handle_-_mont/stainless_steel_travel_mTP_with_handle_-_mont1.webp",
         "designSpecifications": [
-            "Stainless Steel Travel Mug With Handle, thinkPrint, 73239390, Matte Black, 9 x 12 x 12 cm, 304 Stainless Steel, 300g, 4 x 4 cm, Laser Engraving, None, None, None",
+            "Stainless Steel Travel MTP With Handle, thinkPrint, 73239390, Matte Black, 9 x 12 x 12 cm, 304 Stainless Steel, 300g, 4 x 4 cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont2.webp",
-            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont3.webp",
-            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont4.webp",
-            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont5.webp",
-            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont6.webp"
+            "/products/stainless_steel_travel_mTP_with_handle_-_mont/stainless_steel_travel_mTP_with_handle_-_mont2.webp",
+            "/products/stainless_steel_travel_mTP_with_handle_-_mont/stainless_steel_travel_mTP_with_handle_-_mont3.webp",
+            "/products/stainless_steel_travel_mTP_with_handle_-_mont/stainless_steel_travel_mTP_with_handle_-_mont4.webp",
+            "/products/stainless_steel_travel_mTP_with_handle_-_mont/stainless_steel_travel_mTP_with_handle_-_mont5.webp",
+            "/products/stainless_steel_travel_mTP_with_handle_-_mont/stainless_steel_travel_mTP_with_handle_-_mont6.webp"
         ]
     },
     {
         "id": 503,
-        "title": "Bamboo Mug",
-        "shortDescription": "Urban Gear IBAMBOO: Eco-friendly, reusable 350ml bamboo fiber cup with a silicon lid and comfortable grip, lightweight and BPA-free.\n",
-        "longDescription": "Urban Gear's IBAMBOO: Eco-friendly 350ml bamboo fiber mug with a secure silicon lid. Lightweight at 98gm, BPA-free, reusable, and features a comfortable cushioned silicon grip. HSN 441990.See it in action! [https://youtu.be/vJHuVBVubSM]\n",
+        "title": "Bamboo MTP",
+        "shortDescription": "Think Print IBAMBOO: Eco-friendly, reusable 350ml bamboo fiber cup with a silicon lid and comfortable grip, lightweight and BPA-free.\n",
+        "longDescription": "Think Print's IBAMBOO: Eco-friendly 350ml bamboo fiber mTP with a secure silicon lid. Lightweight at 98gm, BPA-free, reusable, and features a comfortable cushioned silicon grip. HSN 441990.See it in action! [https://youtu.be/vJHuVBVubSM]\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/bamboo_mug/bamboo_mug1.webp",
+        "img": "/products/bamboo_mTP/bamboo_mTP1.webp",
         "designSpecifications": [
             "iBamboo, thinkPrint, 441990, Natural Bamboo, 120mm (H) x 80mm (D), Bamboo Fiber & Silicon, 98gm, 50mm x 30mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "/products/bamboo_mug/bamboo_mug2.webp",
-            "/products/bamboo_mug/bamboo_mug3.webp",
-            "/products/bamboo_mug/bamboo_mug4.webp",
-            "/products/bamboo_mug/bamboo_mug5.webp",
-            "/products/bamboo_mug/bamboo_mug6.webp"
+            "/products/bamboo_mTP/bamboo_mTP2.webp",
+            "/products/bamboo_mTP/bamboo_mTP3.webp",
+            "/products/bamboo_mTP/bamboo_mTP4.webp",
+            "/products/bamboo_mTP/bamboo_mTP5.webp",
+            "/products/bamboo_mTP/bamboo_mTP6.webp"
         ]
     },
     {
         "id": 504,
-        "title": "Stainless Steel Travel Mug - TORK",
-        "shortDescription": "Urban Gear TORK-450: 450ml stainless steel, BPA-free, double-wall travel mug with teaspoon and ergonomic handle.\n",
-        "longDescription": "Urban Gear TORK-450: 450ml stainless steel double wall travel mug with ergonomic handle and included teaspoon. BPA-free for safe sipping on the go. HSN 732393.\n",
+        "title": "Stainless Steel Travel MTP - TORK",
+        "shortDescription": "Think Print TORK-450: 450ml stainless steel, BPA-free, double-wall travel mTP with teaspoon and ergonomic handle.\n",
+        "longDescription": "Think Print TORK-450: 450ml stainless steel double wall travel mTP with ergonomic handle and included teaspoon. BPA-free for safe sipping on the go. HSN 732393.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork1.webp",
+        "img": "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork1.webp",
         "designSpecifications": [
-            "TORK-450 Travel Mug, thinkPrint, 732393, Matte Black, 15cm x 8cm x 8cm, 304 Stainless Steel, 300g, 5cm x 3cm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable.",
+            "TORK-450 Travel MTP, thinkPrint, 732393, Matte Black, 15cm x 8cm x 8cm, 304 Stainless Steel, 300g, 5cm x 3cm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork2.webp",
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork3.webp",
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork4.webp",
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork5.webp"
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork2.webp",
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork3.webp",
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork4.webp",
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork5.webp"
         ]
     },
     {
         "id": 505,
-        "title": "Stainless Steel Travel Mug - STEELO",
-        "shortDescription": "Urban Gear STEELO: 350ml, stainless steel, BPA-free, double-wall mug with acrylic lid and ergonomic handle, lightweight at 166gms.\n",
-        "longDescription": "Urban Gear STEELO: 350ml stainless steel double wall mug. Lightweight at 166gms with ergonomic handle, it ensures easy grip. BPA-free with acrylic lid, perfect for everyday use. HSNCode 732393.\n",
+        "title": "Stainless Steel Travel MTP - STEELO",
+        "shortDescription": "Think Print STEELO: 350ml, stainless steel, BPA-free, double-wall mTP with acrylic lid and ergonomic handle, lightweight at 166gms.\n",
+        "longDescription": "Think Print STEELO: 350ml stainless steel double wall mTP. Lightweight at 166gms with ergonomic handle, it ensures easy grip. BPA-free with acrylic lid, perfect for everyday use. HSNCode 732393.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo1.webp",
+        "img": "/products/stainless_steel_travel_mTP_-_steelo/stainless_steel_travel_mTP_-_steelo1.webp",
         "designSpecifications": [
             "STEELO, thinkPrint, 732393, Silver, 120mm height x 80mm diameter, Stainless Steel, 166gms, 50mm x 30mm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo2.webp",
-            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo3.webp",
-            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo4.webp",
-            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo5.webp",
-            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo6.webp"
+            "/products/stainless_steel_travel_mTP_-_steelo/stainless_steel_travel_mTP_-_steelo2.webp",
+            "/products/stainless_steel_travel_mTP_-_steelo/stainless_steel_travel_mTP_-_steelo3.webp",
+            "/products/stainless_steel_travel_mTP_-_steelo/stainless_steel_travel_mTP_-_steelo4.webp",
+            "/products/stainless_steel_travel_mTP_-_steelo/stainless_steel_travel_mTP_-_steelo5.webp",
+            "/products/stainless_steel_travel_mTP_-_steelo/stainless_steel_travel_mTP_-_steelo6.webp"
         ]
     },
     {
         "id": 506,
-        "title": "Stainless Steel Travel Mug - TORK",
-        "shortDescription": "Urban Gear TORK-350: 350ml stainless steel, double-walled travel mug with teaspoon and ergonomic handle, BPA-free.\n",
-        "longDescription": "Urban Gear TORK-350: 350ml stainless steel, double-wall travel mug. BPA-free, with teaspoon & ergonomic handle. Lightweight at 198gms. HSN 7323. Durable and easy to grip.\n",
+        "title": "Stainless Steel Travel MTP - TORK",
+        "shortDescription": "Think Print TORK-350: 350ml stainless steel, double-walled travel mTP with teaspoon and ergonomic handle, BPA-free.\n",
+        "longDescription": "Think Print TORK-350: 350ml stainless steel, double-wall travel mTP. BPA-free, with teaspoon & ergonomic handle. Lightweight at 198gms. HSN 7323. Durable and easy to grip.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork1.webp",
+        "img": "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork1.webp",
         "designSpecifications": [
             "TORK-350, thinkPrint, 7323, Matte Black, 150mm (H) x 80mm (D), 304 Stainless Steel, 198g, 50mm x 30mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork2.webp",
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork3.webp",
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork4.webp",
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork5.webp",
-            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork6.webp"
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork2.webp",
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork3.webp",
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork4.webp",
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork5.webp",
+            "/products/stainless_steel_travel_mTP_-_tork/stainless_steel_travel_mTP_-_tork6.webp"
         ]
     },
     {
@@ -10039,28 +10039,28 @@ export const products = [
     },
     {
         "id": 509,
-        "title": "Stainless Steel Travel Mug - CAN",
+        "title": "Stainless Steel Travel MTP - CAN",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can1.webp",
+        "img": "/products/stainless_steel_travel_mTP_-_can/stainless_steel_travel_mTP_-_can1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can2.webp",
-            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can3.webp",
-            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can4.webp",
-            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can5.webp",
-            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can6.webp"
+            "/products/stainless_steel_travel_mTP_-_can/stainless_steel_travel_mTP_-_can2.webp",
+            "/products/stainless_steel_travel_mTP_-_can/stainless_steel_travel_mTP_-_can3.webp",
+            "/products/stainless_steel_travel_mTP_-_can/stainless_steel_travel_mTP_-_can4.webp",
+            "/products/stainless_steel_travel_mTP_-_can/stainless_steel_travel_mTP_-_can5.webp",
+            "/products/stainless_steel_travel_mTP_-_can/stainless_steel_travel_mTP_-_can6.webp"
         ]
     },
     {
         "id": 510,
         "title": "Cafe Bamboo",
-        "shortDescription": "Urban Gear Cafe Bamboo: 300ml reusable, double-walled bamboo mug with flip cap, perfect for tea, customizable with engraving or printing.\n",
+        "shortDescription": "Think Print Cafe Bamboo: 300ml reusable, double-walled bamboo mTP with flip cap, perfect for tea, customizable with engraving or printing.\n",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
@@ -10119,34 +10119,34 @@ export const products = [
     },
     {
         "id": 513,
-        "title": "WHEAT MUG",
+        "title": "WHEAT MTP",
         "shortDescription": "N/A",
         "longDescription": "N/A",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/wheat_mug/wheat_mug1.webp",
+        "img": "/products/wheat_mTP/wheat_mTP1.webp",
         "designSpecifications": [
-            "Wheat Mug, thinkPrint, 39249090, Natural Wheat, 90mm Diameter x 110mm Height, Wheat Fiber Composite, 150g, 50mm x 50mm, Pad Printing/Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
+            "Wheat MTP, thinkPrint, 39249090, Natural Wheat, 90mm Diameter x 110mm Height, Wheat Fiber Composite, 150g, 50mm x 50mm, Pad Printing/Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "/products/wheat_mug/wheat_mug2.webp",
-            "/products/wheat_mug/wheat_mug3.webp",
-            "/products/wheat_mug/wheat_mug4.webp"
+            "/products/wheat_mTP/wheat_mTP2.webp",
+            "/products/wheat_mTP/wheat_mTP3.webp",
+            "/products/wheat_mTP/wheat_mTP4.webp"
         ]
     },
     {
         "id": 514,
         "title": "ECO GRIP",
-        "shortDescription": "Urban Gear Eco Grip 450ml wheat fibre mug with anti-bacterial properties, leak-proof lid, and customizable branding options.\n",
-        "longDescription": "ECO GRIP mug: 450ml. Single wall wheat fibre, anti-bacterial & BPA-free. Features a leak-proof corkscrew lid, silicone grip, & food-grade material. Branding options available. Colors: Blue/Red/Black/Grey. Urban Gear.\n",
+        "shortDescription": "Think Print Eco Grip 450ml wheat fibre mTP with anti-bacterial properties, leak-proof lid, and customizable branding options.\n",
+        "longDescription": "ECO GRIP mTP: 450ml. Single wall wheat fibre, anti-bacterial & BPA-free. Features a leak-proof corkscrew lid, silicone grip, & food-grade material. Branding options available. Colors: Blue/Red/Black/Grey. Think Print.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
         "img": "/products/eco_grip/eco_grip1.webp",
         "designSpecifications": [
-            "ECO GRIP WHEAT FIBRE ECO FRIENDLY MUG, thinkPrint, 39249090, BLUE, 135mm Height x 85mm Diameter, Wheat Fibre Composite, 200g, 50mm x 50mm, Screen Printing",
+            "ECO GRIP WHEAT FIBRE ECO FRIENDLY MTP, thinkPrint, 39249090, BLUE, 135mm Height x 85mm Diameter, Wheat Fibre Composite, 200g, 50mm x 50mm, Screen Printing",
             ""
         ],
         "thumbnailImages": [
@@ -10160,8 +10160,8 @@ export const products = [
     {
         "id": 515,
         "title": "Slendr",
-        "shortDescription": "Urban Gear SLENDR: 700ml BPA-free, leak-proof stainless steel sports bottle with ample branding space.\n",
-        "longDescription": "Stay hydrated on the go with the Urban Gear SLENDR bottle. This 700ml stainless steel bottle features ample branding space. It's leak-proof, BPA-free and made of SA food grade material. Lightweight at 165gms and sized at 6x6x24.7cm.\n",
+        "shortDescription": "Think Print SLENDR: 700ml BPA-free, leak-proof stainless steel sports bottle with ample branding space.\n",
+        "longDescription": "Stay hydrated on the go with the Think Print SLENDR bottle. This 700ml stainless steel bottle features ample branding space. It's leak-proof, BPA-free and made of SA food grade material. Lightweight at 165gms and sized at 6x6x24.7cm.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -10177,29 +10177,29 @@ export const products = [
     },
     {
         "id": 516,
-        "title": "E - CUP Wheat Fiber Eco Friendly Mug",
-        "shortDescription": "Urban Gear's 350ml E-CUP: A natural-colored, anti-bacterial, single-wall cup with a cork grip, spill-proof wheat fiber lid, and ample branding space.\n",
-        "longDescription": "Urban Gear E-CUP: 350ml single-wall cup with a natural cork grip and anti-bacterial properties. Features a spill-proof wheat fiber lid and ample branding space. Color: Natural. HSNCode: 39239090.\n",
+        "title": "E - CUP Wheat Fiber Eco Friendly MTP",
+        "shortDescription": "Think Print's 350ml E-CUP: A natural-colored, anti-bacterial, single-wall cup with a cork grip, spill-proof wheat fiber lid, and ample branding space.\n",
+        "longDescription": "Think Print E-CUP: 350ml single-wall cup with a natural cork grip and anti-bacterial properties. Features a spill-proof wheat fiber lid and ample branding space. Color: Natural. HSNCode: 39239090.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug1.webp",
+        "img": "/products/e_-_cup_wheat_fiber_eco_friendly_mTP/e_-_cup_wheat_fiber_eco_friendly_mTP1.webp",
         "designSpecifications": [
             "E - CUP, thinkPrint, 39239090, Natural, 70mm diameter x 150mm height, Single Wall Stainless Steel, 250g, 50mm x 70mm, Laser Engraving/Pad Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug2.webp",
-            "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug3.webp",
-            "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug4.webp",
-            "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug5.webp"
+            "/products/e_-_cup_wheat_fiber_eco_friendly_mTP/e_-_cup_wheat_fiber_eco_friendly_mTP2.webp",
+            "/products/e_-_cup_wheat_fiber_eco_friendly_mTP/e_-_cup_wheat_fiber_eco_friendly_mTP3.webp",
+            "/products/e_-_cup_wheat_fiber_eco_friendly_mTP/e_-_cup_wheat_fiber_eco_friendly_mTP4.webp",
+            "/products/e_-_cup_wheat_fiber_eco_friendly_mTP/e_-_cup_wheat_fiber_eco_friendly_mTP5.webp"
         ]
     },
     {
         "id": 517,
         "title": "NATURA Wheat Fiber Cup",
-        "shortDescription": "Urban Gear Natura: Eco-friendly, anti-bacterial 400ml single-wall bottle with ample branding space.\n",
-        "longDescription": "Urban Gear Natura 400ml single wall bottle. Eco-friendly & anti-bacterial. Ample branding space. HSN Code: 39239090. The sustainable choice for daily hydration.\n",
+        "shortDescription": "Think Print Natura: Eco-friendly, anti-bacterial 400ml single-wall bottle with ample branding space.\n",
+        "longDescription": "Think Print Natura 400ml single wall bottle. Eco-friendly & anti-bacterial. Ample branding space. HSN Code: 39239090. The sustainable choice for daily hydration.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -10219,8 +10219,8 @@ export const products = [
     {
         "id": 518,
         "title": "ECO - CUTLERY Eco Friendly Cutlery Set",
-        "shortDescription": "Urban Gear Eco-Cutlery: Biodegradable wheat straw cutlery set (spoons, fork, knife) in an eco box.\n",
-        "longDescription": "Urban Gear's ECO-CUTLERY offers an eco-friendly dining solution. Made from biodegradable wheat straw, this set includes a spoon, fork, and knife, neatly packed in an eco box. Natural color. HSN: 39241090\n",
+        "shortDescription": "Think Print Eco-Cutlery: Biodegradable wheat straw cutlery set (spoons, fork, knife) in an eco box.\n",
+        "longDescription": "Think Print's ECO-CUTLERY offers an eco-friendly dining solution. Made from biodegradable wheat straw, this set includes a spoon, fork, and knife, neatly packed in an eco box. Natural color. HSN: 39241090\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
@@ -10308,8 +10308,8 @@ export const products = [
     {
         "id": 523,
         "title": "WINBARG Soft Shell Jacket",
-        "shortDescription": "Urban Gear WINBARG soft shell jacket with customizable embroidery, premium fabric, and eco-friendly dye, available in three colors.\n",
-        "longDescription": "WINBARG Soft Shell Jacket by Urban Gear: Sleek design with zip detailing & long sleeves. Customize with hidden inside zip(no marks!). 90% Poly/10% Viscose soft shell & premium inner fabric. Available in Black, Olive, & Navy Blue. EcoDye.\n",
+        "shortDescription": "Think Print WINBARG soft shell jacket with customizable embroidery, premium fabric, and eco-friendly dye, available in three colors.\n",
+        "longDescription": "WINBARG Soft Shell Jacket by Think Print: Sleek design with zip detailing & long sleeves. Customize with hidden inside zip(no marks!). 90% Poly/10% Viscose soft shell & premium inner fabric. Available in Black, Olive, & Navy Blue. EcoDye.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
@@ -10329,8 +10329,8 @@ export const products = [
     {
         "id": 524,
         "title": "Bonded Fleece Sleeveless Jacket-WINBARG",
-        "shortDescription": "Urban Gear WINBARG bonded fleece jacket in black, offering soft, breathable comfort and mechanical stretch (HSN 62033200).\n",
-        "longDescription": "Urban Gear's WINBARG: Black bonded fleece jacket delivers soft, breathable warmth with mechanical stretch for superior comfort & mobility. HSNCode 62033200.\n",
+        "shortDescription": "Think Print WINBARG bonded fleece jacket in black, offering soft, breathable comfort and mechanical stretch (HSN 62033200).\n",
+        "longDescription": "Think Print's WINBARG: Black bonded fleece jacket delivers soft, breathable warmth with mechanical stretch for superior comfort & mobility. HSNCode 62033200.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
@@ -10352,8 +10352,8 @@ export const products = [
     {
         "id": 525,
         "title": "Bonded Fleece Jacket - WINBARG",
-        "shortDescription": "Urban Gear WINBARG bonded fleece jacket in black, featuring soft, breathable, quick-drying, and anti-static fabric with mechanical stretch and Neudri technology for cool freshness.\n",
-        "longDescription": "Urban Gear's WINBARG in black offers superior comfort with bonded fleece, soft, breathable, quick-drying fabric & mechanical stretch. Features Neudri, ANTISTATIC, & Cool Fresh technologies. HSNCode 62033200.\n",
+        "shortDescription": "Think Print WINBARG bonded fleece jacket in black, featuring soft, breathable, quick-drying, and anti-static fabric with mechanical stretch and Neudri technology for cool freshness.\n",
+        "longDescription": "Think Print's WINBARG in black offers superior comfort with bonded fleece, soft, breathable, quick-drying fabric & mechanical stretch. Features Neudri, ANTISTATIC, & Cool Fresh technologies. HSNCode 62033200.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
@@ -10371,8 +10371,8 @@ export const products = [
     {
         "id": 526,
         "title": "North Pole",
-        "shortDescription": "Urban Gear's High Neck - North Pole jacket: Stylish, comfortable travel wear with YKK zippers and elastic ribbing.\n",
-        "longDescription": "Urban Gear's HIGH NECK - NORTH POLE jacket. Travel in style & comfort. Features a reliable YKK zipper, elastic ribs on sleeves & bottom, high neck for warmth & secure YKK cut pockets. Dress well, wherever you go. HSNCode 620332.\n",
+        "shortDescription": "Think Print's High Neck - North Pole jacket: Stylish, comfortable travel wear with YKK zippers and elastic ribbing.\n",
+        "longDescription": "Think Print's HIGH NECK - NORTH POLE jacket. Travel in style & comfort. Features a reliable YKK zipper, elastic ribs on sleeves & bottom, high neck for warmth & secure YKK cut pockets. Dress well, wherever you go. HSNCode 620332.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
@@ -10521,8 +10521,8 @@ export const products = [
     {
         "id": 533,
         "title": "Sports Republic Acti-Go",
-        "shortDescription": "Urban Gear Sports Republic Acti-Go performance wear with Zoom Dry, crafted from lightweight micro polyester and featuring durable double-needle stitching.\n",
-        "longDescription": "Unleash your potential with Urban Gear's Acti-Go performance wear. Featuring Zoom Dry tech, this 100% micro polyester (130 G/M2) tee keeps you dry and comfortable. Durable with double-needle stitching. Sports Republic collection. HSN 610990.\n",
+        "shortDescription": "Think Print Sports Republic Acti-Go performance wear with Zoom Dry, crafted from lightweight micro polyester and featuring durable double-needle stitching.\n",
+        "longDescription": "Unleash your potential with Think Print's Acti-Go performance wear. Featuring Zoom Dry tech, this 100% micro polyester (130 G/M2) tee keeps you dry and comfortable. Durable with double-needle stitching. Sports Republic collection. HSN 610990.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
@@ -10542,8 +10542,8 @@ export const products = [
     {
         "id": 534,
         "title": "BIO WASH COLLECTION - Organic Cotton T-Shirts",
-        "shortDescription": "Urban Gear Bio Wash Collection: Organic cotton tee, soft dyed for lasting color, pre-shrunk, with Lycra ribs and durable double stitching.\n",
-        "longDescription": "Urban Gear BIO WASH COLLECTION. Crafted from 100% organic cotton, soft flow dyed for lasting color. Pre-shrunk fabric with 5% Lycra ribs ensures perfect fit. Durable double-needle stitching.HSN610090\n",
+        "shortDescription": "Think Print Bio Wash Collection: Organic cotton tee, soft dyed for lasting color, pre-shrunk, with Lycra ribs and durable double stitching.\n",
+        "longDescription": "Think Print BIO WASH COLLECTION. Crafted from 100% organic cotton, soft flow dyed for lasting color. Pre-shrunk fabric with 5% Lycra ribs ensures perfect fit. Durable double-needle stitching.HSN610090\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
@@ -10700,7 +10700,7 @@ export const products = [
         "id": 542,
         "title": "Monte Franco Formal Shirts - WHITE",
         "shortDescription": "Pikmee Monte Franco white formal shirt in fine quality fabric, comfort fit, sizes S-XXL.\n",
-        "longDescription": "Monte Franco white formal shirt by Pikmee, crafted from plan fine quality fabric. Available in sizes S(38), M(40), L(42), XL(44), XXL(46). HSN Code: 6205. UG NAME: COMFORT FIT SHIRT. Perfect for a refined & comfortable fit.\n",
+        "longDescription": "Monte Franco white formal shirt by Pikmee, crafted from plan fine quality fabric. Available in sizes S(38), M(40), L(42), XL(44), XXL(46). HSN Code: 6205. TP NAME: COMFORT FIT SHIRT. Perfect for a refined & comfortable fit.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
@@ -10739,7 +10739,7 @@ export const products = [
         "id": 544,
         "title": "Monte Franco Formal Shirts - GREY",
         "shortDescription": "Pikmee Monte Franco grey filafil formal shirt in comfort fit, sizes S-XXL.\n",
-        "longDescription": "Monte Franco grey formal shirt by Pikmee in Filafil fabric. Available in sizes S(38), M(40), L(42), XL(44), and XXL(46). HSNCode 6205. UG NAME: COMFORT FIT SHIRT.\n",
+        "longDescription": "Monte Franco grey formal shirt by Pikmee in Filafil fabric. Available in sizes S(38), M(40), L(42), XL(44), and XXL(46). HSNCode 6205. TP NAME: COMFORT FIT SHIRT.\n",
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
@@ -10879,13 +10879,13 @@ export const products = [
 },
 {
     "id": 551,
-    "title": "Mugs",
-    "shortDescription": "Enjoy your favorite beverage in a personalized mug with your custom design.",
-    "longDescription": "Our high-quality ceramic mugs allow you to print your favorite photos, quotes, or designs, making them perfect for personal use or as a thoughtful gift. Whether for coffee, tea, or hot chocolate, these mugs are microwave and dishwasher safe, ensuring long-lasting durability.",
+    "title": "MTPs",
+    "shortDescription": "Enjoy your favorite beverage in a personalized mTP with your custom design.",
+    "longDescription": "Our high-quality ceramic mTPs allow you to print your favorite photos, quotes, or designs, making them perfect for personal use or as a thoTPhtful gift. Whether for coffee, tea, or hot chocolate, these mTPs are microwave and dishwasher safe, ensuring long-lasting durability.",
     "price": 399,
     "ratingCount": 120,
     "category": "Photo Gifts",
-    "img": "/products//mugs/mugs-1.webp",
+    "img": "/products//mTPs/mTPs-1.webp",
     "designSpecifications": [
         "Glossy and matte finishes available",
         "Full wrap-around print capability",
@@ -10893,7 +10893,7 @@ export const products = [
         "Custom text and image printing"
     ],
     "thumbnailImages": [
-        "/products//mugs/mugs-2.webp","/products//mugs/mugs-3.webp"
+        "/products//mTPs/mTPs-2.webp","/products//mTPs/mTPs-3.webp"
     ]
 },
 {
@@ -11357,13 +11357,13 @@ export const products = [
 },
 {
     "id": 581,
-    "title": "Luggage Bags",
-    "shortDescription": "Durable and spacious travel luggage.",
-    "longDescription": "Ideal for frequent travelers, these luggage bags offer secure locking systems, smooth-rolling wheels, and high-quality construction. Available in hard-shell and soft-shell variants.",
+    "title": "LTPgage Bags",
+    "shortDescription": "Durable and spacious travel lTPgage.",
+    "longDescription": "Ideal for frequent travelers, these lTPgage bags offer secure locking systems, smooth-rolling wheels, and high-quality construction. Available in hard-shell and soft-shell variants.",
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": "/products//luggage/luggage1.webp",
+    "img": "/products//lTPgage/lTPgage1.webp",
     "designSpecifications": [
         "TSA lock",
         "expandable compartments",
@@ -11371,7 +11371,7 @@ export const products = [
         "retractable handle."
     ],
     "thumbnailImages": [
-        "/products//luggage/luggage2.webp","/products//luggage/luggage3.webp"
+        "/products//lTPgage/lTPgage2.webp","/products//lTPgage/lTPgage3.webp"
     ]
 },
 {
@@ -11528,13 +11528,13 @@ export const products = [
 },
 {
     "id": 599,
-    "title": "Custom  Mugs",
-    "shortDescription": "Insulated  mugs with personalized branding.",
-    "longDescription": "Take your coffee on the go with a stylish, customized  mug. Perfect for daily commuters and coffee lovers.",
+    "title": "Custom  MTPs",
+    "shortDescription": "Insulated  mTPs with personalized branding.",
+    "longDescription": "Take your coffee on the go with a stylish, customized  mTP. Perfect for daily commuters and coffee lovers.",
     "price": 1599,
     "ratingCount": 330,
     "category": "Custom Drinkware",
-    "img": "/products//mugs/mugs-1.webp",
+    "img": "/products//mTPs/mTPs-1.webp",
     "customDesignOptions": [
         "Engraved name or quote",
         "Custom printed logo",
@@ -11542,7 +11542,7 @@ export const products = [
         "Thermal insulation options"
     ],
     "thumbnailImages": [
-        "/products//mugs/mugs-2.webp"
+        "/products//mTPs/mTPs-2.webp"
     ]
 },
 {
