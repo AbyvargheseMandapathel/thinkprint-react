@@ -18,7 +18,7 @@ export const products = [
     },
     {
         "id": 2,
-        "title": "Samba1",
+        "title": "Samba",
         "shortDescription": "Urban Gear Samba: Professional audio speaker (HSN 85182200).\n",
         "longDescription": "Urban Gear Samba: Experience crystal-clear audio with this portable speaker. Perfect for on-the-go listening, the Samba delivers rich bass and balanced sound. HSN Code 85182200.\n",
         "price": 299,
@@ -30,9 +30,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/samba1/samba12.webp",
-            "/products/samba1/samba13.webp",
-            "/products/samba1/samba14.webp"
         ]
     },
     {
@@ -49,9 +46,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/tango/tango2.webp",
-            "/products/tango/tango3.webp",
-            "/products/tango/tango4.webp"
         ]
     },
     {
@@ -68,7 +62,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/buzz/buzz2.webp"
         ]
     },
     {
@@ -85,7 +78,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand2.webp",
             "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand3.webp",
             "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand4.webp",
             "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand5.webp",
@@ -106,7 +98,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker2.webp",
             "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker3.webp",
             "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker4.webp",
             "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker5.webp",
@@ -127,7 +118,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum2.webp",
             "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum3.webp",
             "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum4.webp",
             "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum5.webp",
@@ -148,7 +138,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock2.webp",
             "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock3.webp",
             "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock4.webp",
             "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock5.webp",
@@ -169,7 +158,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky2.webp",
             "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky3.webp",
             "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky4.webp",
             "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky5.webp"
@@ -189,7 +177,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats2.webp",
             "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats3.webp",
             "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats4.webp",
             "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats5.webp"
@@ -208,7 +195,6 @@ export const products = [
             "BUNNY, thinkPrint, 851829, Undefined, 70mm x 70mm x 50mm, ABS Plastic with Cotton Mesh, 150g, 40mm x 20mm, Pad Printing, No RGB, 3W, 400mAh"
         ],
         "thumbnailImages": [
-            "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny2.webp",
             "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny3.webp",
             "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny4.webp",
             "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny5.webp",
@@ -229,7 +215,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.02.webp",
             "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.03.webp",
             "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.04.webp",
             "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.05.webp",
@@ -250,7 +235,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones2.webp",
             "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones3.webp",
             "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones4.webp",
             "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones5.webp",
@@ -271,7 +255,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.02.webp",
             "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.03.webp",
             "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.04.webp",
             "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.05.webp",
@@ -295,7 +278,6 @@ export const products = [
             "UG NAME TWINS, thinkPrint, 851830, Black,  Ergonomic Earbud Design"
         ],
         "thumbnailImages": [
-            "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins2.webp",
             "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins3.webp",
             "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins4.webp",
             "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins5.webp",
@@ -316,7 +298,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze2.webp",
             "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze3.webp",
             "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze4.webp",
             "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze5.webp"
@@ -336,7 +317,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro2.webp",
             "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro3.webp",
             "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro4.webp",
             "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro5.webp",
@@ -360,7 +340,6 @@ export const products = [
             "BASS 2.0, thinkPrint, 8518, Black, 15.5*7.5*19.5 cm, ABS Plastic, 200g, Earcup Side, Pad Printing, None, Titanium-Coated Diaphragms"
         ],
         "thumbnailImages": [
-            "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.02.webp",
             "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.03.webp",
             "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.04.webp",
             "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.05.webp",
@@ -381,7 +360,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/cube_pro/cube_pro2.webp",
             "/products/cube_pro/cube_pro3.webp",
             "/products/cube_pro/cube_pro4.webp",
             "/products/cube_pro/cube_pro5.webp",
@@ -402,7 +380,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo2.webp",
             "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo3.webp",
             "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo4.webp",
             "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo5.webp"
@@ -422,7 +399,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube2.webp",
             "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube3.webp",
             "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube4.webp",
             "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube5.webp"
@@ -442,7 +418,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on2.webp",
             "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on3.webp",
             "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on4.webp",
             "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on5.webp",
@@ -463,7 +438,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/webcam_cover/webcam_cover2.webp",
             "/products/webcam_cover/webcam_cover3.webp",
             "/products/webcam_cover/webcam_cover4.webp",
             "/products/webcam_cover/webcam_cover5.webp",
@@ -484,7 +458,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/cdo/cdo2.webp",
             "/products/cdo/cdo3.webp",
             "/products/cdo/cdo4.webp",
             "/products/cdo/cdo5.webp",
@@ -505,7 +478,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/hubpad/hubpad2.webp",
             "/products/hubpad/hubpad3.webp",
             "/products/hubpad/hubpad4.webp",
             "/products/hubpad/hubpad5.webp",
@@ -529,7 +501,6 @@ export const products = [
             "75% Charge"
         ],
         "thumbnailImages": [
-            "/products/ug-cc33/ug-cc332.webp",
             "/products/ug-cc33/ug-cc333.webp",
             "/products/ug-cc33/ug-cc334.webp",
             "/products/ug-cc33/ug-cc335.webp",
@@ -550,7 +521,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo2.webp",
             "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo3.webp",
             "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo4.webp",
             "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo5.webp",
@@ -571,7 +541,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub2.webp",
             "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub3.webp",
             "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub4.webp",
             "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub5.webp"
@@ -591,7 +560,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.02.webp",
             "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.03.webp",
             "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.04.webp"
         ]
@@ -610,7 +578,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub2.webp",
             "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub3.webp",
             "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub4.webp",
             "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub5.webp",
@@ -631,7 +598,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/jiggle/jiggle2.webp",
             "/products/jiggle/jiggle3.webp",
             "/products/jiggle/jiggle4.webp",
             "/products/jiggle/jiggle5.webp",
