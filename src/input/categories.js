@@ -10,6 +10,9 @@ import CustomDrinkware from "/src/assets/categories/Custom-Drinkware.webp";
 import CustomBags from "/src/assets/categories/Custom-Bags.webp";
 import electronics from "/src/assets/categories/ElectronicsAndAccessories.webp";
 import promotional from "/src/assets/categories/Promotional-Gifts.webp";
+import EcoGifts from "/src/assets/categories/Ecogifts.webp";
+import NOTEPADS from "/src/assets/categories/Notepad.webp";
+import Giftsets from "/src/assets/categories/giftset.webp";
 
 export const categories = [
   { id: 1, name: "Visiting Cards", img: VisitingCards },
@@ -24,7 +27,7 @@ export const categories = [
   { id: 10, name: "Custom Bags", img: CustomBags },
   { id: 11, name: "Electronics & Accessories", img: electronics },
   { id: 12, name: "Promotional Gifts", img: promotional },
-  { id: 13, name: "EcoGifts", img: promotional },
-  { id: 14, name: "NOTEPADS & DIARIES", img: promotional },
-  { id: 15, name: "Giftsets", img: promotional },
+  { id: 13, name: "EcoGifts", img: EcoGifts },
+  { id: 14, name: "NOTEPADS & DIARIES", img: NOTEPADS },
+  { id: 15, name: "Giftsets", img: Giftsets },
 ];
