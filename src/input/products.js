@@ -24,7 +24,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/samba1/samba11.webp",
+        "img": "/assets/products/samba1/samba11.webp",
         "designSpecifications": [
             "Samba, thinkPrint, 85182200, Midnight Black, 10cm x 10cm x 5cm, ABS Plastic, 250g, 3cm x 3cm, Pad Printing, Circular Base Glow, 5W, 1200mAh",
             ""
