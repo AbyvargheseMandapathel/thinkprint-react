@@ -48,7 +48,7 @@ export const banners = [
       title: "Designed for Success",
       description: "Elegant & Personalized Office Essentials.",
       buttons: [
-        { text: "Shop Now", color: "blue", link: "/category/Custom%20Stationery" }, // Add link
+        { text: "Shop Now", color: "blue", link: "/category/Custom%20Stationery" }, 
       ],
     },
     {
