@@ -1338,7 +1338,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu2.webp",
             "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu3.webp",
             "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu4.webp",
             "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu5.webp",
@@ -1359,7 +1358,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro2.webp",
             "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro3.webp",
             "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro4.webp",
             "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro5.webp"
@@ -1379,7 +1377,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy2.webp",
             "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy3.webp",
             "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy4.webp",
             "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy5.webp"
@@ -1399,7 +1396,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite2.webp",
             "/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite3.webp",
             "/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite4.webp"
         ]
@@ -1418,7 +1414,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.02.webp",
             "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.03.webp",
             "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.04.webp",
             "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.05.webp"
@@ -1438,7 +1433,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-32.webp",
             "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-33.webp",
             "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-34.webp",
             "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-35.webp",
@@ -1459,7 +1453,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-22.webp",
             "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-23.webp",
             "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-24.webp",
             "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-25.webp"
@@ -1479,7 +1472,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro2.webp",
             "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro3.webp",
             "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro4.webp",
             "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro5.webp",
@@ -1500,7 +1492,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/ipacy_pro/ipacy_pro2.webp",
             "/products/ipacy_pro/ipacy_pro3.webp",
             "/products/ipacy_pro/ipacy_pro4.webp",
             "/products/ipacy_pro/ipacy_pro5.webp",
@@ -1521,8 +1512,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)2.webp",
-            "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)3.webp",
             "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)4.webp",
             "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)5.webp"
         ]
@@ -1541,7 +1530,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac2.webp",
             "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac3.webp",
             "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac4.webp",
             "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac5.webp",
@@ -1562,7 +1550,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.02.webp",
             "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.03.webp",
             "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.04.webp",
             "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.05.webp",
@@ -1591,7 +1578,6 @@ export const products = [
             "HSN Code: 420232"
         ],
         "thumbnailImages": [
-            "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro2.webp",
             "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro3.webp",
             "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro4.webp",
             "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro5.webp",
@@ -1611,7 +1597,6 @@ export const products = [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/folio/folio2.webp",
             "/products/folio/folio3.webp",
             "/products/folio/folio4.webp",
             "/products/folio/folio5.webp",
@@ -1632,7 +1617,6 @@ export const products = [
         ],
         "thumbnailImages": [
             "/products/dual_sleeve/dual_sleeve3.webp",
-            "/products/dual_sleeve/dual_sleeve4.webp",
             "/products/dual_sleeve/dual_sleeve5.webp",
             "/products/dual_sleeve/dual_sleeve6.webp"
         ]
@@ -1651,7 +1635,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/office_bag_computer_bag/office_bag_computer_bag2.webp",
             "/products/office_bag_computer_bag/office_bag_computer_bag3.webp",
             "/products/office_bag_computer_bag/office_bag_computer_bag4.webp",
             "/products/office_bag_computer_bag/office_bag_computer_bag5.webp"
@@ -1690,8 +1673,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/digipouch_2.0/digipouch_2.02.webp",
-            "/products/digipouch_2.0/digipouch_2.03.webp",
             "/products/digipouch_2.0/digipouch_2.04.webp",
             "/products/digipouch_2.0/digipouch_2.05.webp",
             "/products/digipouch_2.0/digipouch_2.06.webp"
@@ -1711,7 +1692,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/lappy/lappy2.webp",
             "/products/lappy/lappy3.webp",
             "/products/lappy/lappy4.webp",
             "/products/lappy/lappy5.webp",
@@ -1732,7 +1712,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.02.webp",
             "/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.03.webp",
             "/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.04.webp"
         ]
@@ -1750,7 +1729,6 @@ export const products = [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact2.webp",
             "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact3.webp",
             "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact4.webp",
             "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact5.webp",
@@ -1770,7 +1748,6 @@ export const products = [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro2.webp",
             "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro3.webp",
             "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro4.webp",
             "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro5.webp",
@@ -1790,7 +1767,6 @@ export const products = [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch2.webp",
             "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch3.webp",
             "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch4.webp",
             "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch5.webp",
@@ -1811,7 +1787,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac2.webp",
             "/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac3.webp",
             "/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac4.webp"
         ]
@@ -1829,7 +1804,6 @@ export const products = [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr2.webp",
             "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr3.webp",
             "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr4.webp",
             "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr5.webp",
@@ -1849,7 +1823,6 @@ export const products = [
             "N/A"
         ],
         "thumbnailImages": [
-            "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac2.webp",
             "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac3.webp",
             "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac4.webp",
             "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac5.webp",
@@ -1870,8 +1843,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator2.webp",
-            "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator3.webp",
             "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator4.webp",
             "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator5.webp",
             "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator6.webp"
@@ -1885,16 +1856,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.1.webp",
+        "img": "/products/travel_passport_cover_-_avion_jr/travel_passport_cover_-_avion_jr.1.webp",
         "designSpecifications": [
             "AVION JR. Passport Cover, thinkPrint, 420212, Black, 15cm x 11cm x 1.5cm, High-Quality Faux Leather, 85g, 5cm x 2cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.2.webp",
-            "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.3.webp",
-            "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.4.webp",
-            "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.5.webp"
+            "/products/travel_passport_cover_-_avion_jr/travel_passport_cover_-_avion_jr.3.webp",
+            "/products/travel_passport_cover_-_avion_jr/travel_passport_cover_-_avion_jr.4.webp",
+            "/products/travel_passport_cover_-_avion_jr/travel_passport_cover_-_avion_jr.5.webp"
         ]
     },
     {
@@ -1911,7 +1881,6 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion2.webp",
             "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion3.webp",
             "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion4.webp",
             "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion5.webp"
