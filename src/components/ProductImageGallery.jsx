@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const ProductImageGallery = ({ product }) => {
     const mainImage = product.img;
     const thumbnailImages = product.thumbnailImages || [];
     const combinedImages = [mainImage, ...thumbnailImages].slice(0, 8);
     const [selectedImage, setSelectedImage] = useState(mainImage);
+
+    // Add this useEffect to reset the selected image when product changes
+    useEffect(() => {
+        setSelectedImage(product.img);
+    }, [product.img]);
 
     const handleThumbnailClick = (image) => {
         setSelectedImage(image);
@@ -22,11 +27,6 @@ const ProductImageGallery = ({ product }) => {
                         }`}
                         onClick={() => handleThumbnailClick(image)}
                     >
-                        {/* <img
-                            src={image}
-                            alt={`Thumbnail ${index}`}
-                            className="w-full h-full object-cover rounded-lg transition-transform duration-300 hover:scale-110"
-                        /> */}
                         <img
                             src={image}
                             alt={`Thumbnail ${index}`}
@@ -56,6 +56,7 @@ const ProductImageGallery = ({ product }) => {
                 <img
                     src={selectedImage}
                     alt="Main Product"
+                    // Rest of the code remains the same
                     className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
                 />
             </div>
