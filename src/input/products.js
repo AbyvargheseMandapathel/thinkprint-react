@@ -1,139 +1,4 @@
-import visitingcard1 from '../assets/products/visiting-cards/visitingcard-1.webp';
-import visitingcard2 from '../assets/products/visiting-cards/visitingcard-2.webp';
-import visitingcard3 from '../assets/products/visiting-cards/visitingcard-3.webp';
-import visitingcard4 from '../assets/products/visiting-cards/visitingcard-4.webp';
-import mentshirt1 from '../assets/products/tshirt-men/men-tshirt-1.webp';
-import mentshirt2 from '../assets/products/tshirt-men/men-tshirt-2.webp';
-import mentshirt3 from '../assets/products/tshirt-men/men-tshirt-3.webp';
-import mentshirt4 from '../assets/products/tshirt-men/men-tshirt-4.webp';
-import mentshirt5 from '../assets/products/tshirt-men/men-tshirt-5.webp';
-import mentshirt6 from '../assets/products/tshirt-men/men-tshirt-6.webp';
-import womentshirt1 from '../assets/products/tshirt-women/women-tshirt-1.webp';
-import womentshirt2 from '../assets/products/tshirt-women/women-tshirt-2.webp';
-import womentshirt3 from '../assets/products/tshirt-women/women-tshirt-3.webp';
-import womentshirt4 from '../assets/products/tshirt-women/women-tshirt-4.webp';
-import paperembosser1 from '../assets/products/paperembosser/paperembosser-1.webp';
-import paperembosser2 from '../assets/products/paperembosser/paperembosser-2.webp';
-import paperembosser3 from '../assets/products/paperembosser/paperembosser-3.webp';
-import paperembosser4 from '../assets/products/paperembosser/paperembosser-4.webp';
-import stamppads1 from '../assets/products/stamppads/stamppads-1.webp';
-import stamppads2 from '../assets/products/stamppads/stamppads-2.webp';
-import stamppads3 from '../assets/products/stamppads/stamppads-3.webp';
-import photoalbum1 from '../assets/products/photoalbums/photoalbum-1.webp';
-import photoalbum2 from '../assets/products/photoalbums/photoalbum-2.webp';
-import mugs1 from '../assets/products/mugs/mugs-1.webp';
-import mugs2 from '../assets/products/mugs/mugs-2.webp';
-import mugs3 from '../assets/products/mugs/mugs-3.webp';
-import bottles1 from '../assets/products/bottles/bottles-1.webp';
-import bottles2 from '../assets/products/bottles/bottles-2.webp'; 
-import bottles3 from '../assets/products/bottles/bottles-3.webp';
-import canvasprint1 from '../assets/products/canvasprint/canvasprint-1.webp';
-import canvasprint2 from '../assets/products/canvasprint/canvasprint-2.webp';
-import photoframe1 from '../assets/products/photoframe/photoframe1.webp';
-import photoframe2 from '../assets/products/photoframe/photoframe2.webp';
-import fridgemagnet1 from '../assets/products/fridgemagnet/fridgemagnet1.webp';
-import fridgemagnet2 from '../assets/products/fridgemagnet/fridgemagnet2.webp';
-import fridgemagnet3 from '../assets/products/fridgemagnet/fridgemagnet3.webp';
-import calenders1 from '../assets/products/calenders/calenders1.webp';
-import calenders2 from '../assets/products/calenders/calenders2.webp';
-import pendrive1 from '../assets/products/pendrive/pendrive1.webp';
-import pendrive2 from '../assets/products/pendrive/pendrive2.webp';
-import powerbank1 from '../assets/products/powerbank/powerbank1.webp';
-import powerbank2 from '../assets/products/powerbank/powerbank2.webp';
-import playingcards1 from '../assets/products/playingcards/playingcards1.webp';
-import playingcards2 from  '../assets/products/playingcards/playingcards2.webp';
-import packinglabels1 from '../assets/products/packinglabels/packinglabels1.webp';
-import packinglabels2 from '../assets/products/packinglabels/packinglabels2.webp';
-import qrcode1 from '../assets/products/qrcode/qrcodestickers1.webp';
-import qrcode2 from '../assets/products/qrcode/qrcodestickers2.webp';
-import cricketbat1 from '../assets/products/cricketbat/cricketbat1.webp';
-import cricketbat2 from '../assets/products/cricketbat/cricketbat2.webp';
-import letterhead1 from '../assets/products/letterhead/letterhead1.webp';
-import letterhead2 from '../assets/products/letterhead/letterhead2.webp';
-import letterhead3 from '../assets/products/letterhead/letterhead3.webp';
-import mousepad1 from '../assets/products/mousepad/mousepad1.webp';
-import mousepad2 from '../assets/products/mousepad/mousepad2.webp';
-import mousepad3 from '../assets/products/mousepad/mousepad3.webp';
-import mousepad4 from '../assets/products/mousepad/mousepad4.webp';
-import notebook1 from '../assets/products/notebook/notebook1.webp';
-import notebook2 from '../assets/products/notebook/notebook2.webp';
-import envelope1 from '../assets/products/envelope/envelope1.webp';
-import envelope2 from '../assets/products/envelope/envelope2.webp';
-import thankyou1 from '../assets/products/thankyou/thankyou1.webp';
-import thankyou2 from '../assets/products/thankyou/thankyou2.webp';
-import stationery1 from '../assets/products/stationery/stationery1.webp';
-import stationery2 from '../assets/products/stationery/stationery2.webp';
-import flyer1 from '../assets/products/flyers/flyers1.webp';
-import flyer2 from '../assets/products/flyers/flyers2.webp';
-import banner1 from '../assets/products/banners/banner1.webp';
-import banner2 from '../assets/products/banners/banner2.webp';
-import poster1 from '../assets/products/poster/poster1.webp';
-import poster2 from '../assets/products/poster/poster2.webp';
-import backpack1 from '../assets/products/backpack/backpack1.webp';
-import backpack2 from '../assets/products/backpack/backpack2.webp';
-import booklet1 from '../assets/products/booklet/booklets1.webp';
-import booklet2 from '../assets/products/booklet/booklets2.webp';
-import brouchure1 from '../assets/products/brouchure/brouchure1.webp';
-import brouchure2 from '../assets/products/brouchure/brouchure2.webp';
-import brouchure3 from '../assets/products/brouchure/brouchure3.webp';
-import caps1 from '../assets/products/caps/caps1.webp';
-import caps2 from '../assets/products/caps/caps2.webp';
-import caps3 from '../assets/products/caps/caps3.webp';
-import duffel1 from '../assets/products/duffel/duffel1.webp';
-import duffel2 from '../assets/products/duffel/duffel2.webp';
-import duffel3 from '../assets/products/duffel/duffel3.webp';
-import luggage1 from '../assets/products/luggage/luggage1.webp';
-import luggage2 from '../assets/products/luggage/luggage2.webp';
-import luggage3 from '../assets/products/luggage/luggage3.webp';
-import menshirt1 from '../assets/products/menshirt/menshirt1.webp';
-import menshirt2 from '../assets/products/menshirt/menshirt2.webp';
-import pouch1 from '../assets/products/pouch/pouch1.webp';
-import pouch2 from '../assets/products/pouch/pouch2.webp';
-import tote1 from '../assets/products/tote/tote1.webp';
-import tote2 from '../assets/products/tote/tote2.webp';
-import chargingcable1 from '../assets/products/chargingcable/chargingcables1.webp';
-import chargingcable2 from '../assets/products/chargingcable/chargingcables2.webp';
-import sweater1 from '../assets/products/sweater/sweater1.webp';
-import sweater2 from '../assets/products/sweater/sweater2.webp';
-import sweater3 from '../assets/products/sweater/sweater3.webp';
-import hoodie1 from '../assets/products/hoodie/hoodie1.webp';
-import hoodie2 from '../assets/products/hoodie/hoodie2.webp';
-import hoodie3 from '../assets/products/hoodie/hoodie3.webp';
-import hoodie4 from '../assets/products/hoodie/hoodie4.webp';
-import headphone1 from '../assets/products/headphone/headphone1.webp';
-import headphone2 from '../assets/products/headphone/headphone2.webp';
-import lights1 from '../assets/products/lights/lights1.webp';
-import lights2 from '../assets/products/lights/lights2.webp';
-import speaker1 from '../assets/products/speaker/speaker1.webp';
-import speaker2 from '../assets/products/speaker/speaker2.webp';
-import traveladaptor1 from '../assets/products/traveladaptor/traveladaptors1.webp';
-import usb1 from '../assets/products/usb/usb1.webp';
-import usb2 from '../assets/products/usb/usb2.webp';
-import womenshirt1 from '../assets/products/womenshirt/womenshirt1.webp';
-import womenshirt2 from '../assets/products/womenshirt/womenshirt2.webp';
-import desktopset1 from '../assets/products/desktopset/desktopset1.webp';
-import desktopset2 from '../assets/products/desktopset/desktopset2.webp';
-import desktopset3 from '../assets/products/desktopset/desktopset3.webp';
-import flask1 from '../assets/products/flask/flask1.webp';
-import flask2 from '../assets/products/flask/flask2.webp';
-import keychain1 from '../assets/products/keychain/keychain1.webp';
-import keychain2 from '../assets/products/keychain/keychain2.webp';
-import mobileaccessories1 from '../assets/products/mobileaccessories/mobileacc1.webp';
-import mobileaccessories2 from '../assets/products/mobileaccessories/mobileacc2.webp';
-import pens1 from '../assets/products/pens/pens1.webp';
-import pens2 from '../assets/products/pens/pens2.webp';
-import pens3 from '../assets/products/pens/pens3.webp';
-import pens4 from '../assets/products/pens/pens4.webp';
-import sportsbottle1 from '../assets/products/sportsbottle/sportsbottle1.webp';
-import sportsbottle2 from '../assets/products/sportsbottle/sportsbottle2.webp';
-import stainless1 from '../assets/products/stainless/stainless1.webp';
-import stainless2 from '../assets/products/stainless/stainless2.webp';
-import businesscard1 from '../assets/products/businesscard/businesscard1.webp';
-import businesscard2 from '../assets/products/businesscard/businesscard2.webp';
-import multiyearcalendar1 from '../assets/products/multiyearcalendar/multiyearcalendar1.png';
-import idcard1 from "../assets/products/idcards/idcards1.webp";
-import idcard2 from "../assets/products/idcards/idcards2.webp";
-import idcard3 from "../assets/products/idcards/idcards3.webp";
+
 
 export const products = [
     {
@@ -144,14 +9,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2025/1740567217558.jpeg",
+        "img": "../src/assets/products/samba/samba1.webp",
         "designSpecifications": [
             "Samba, thinkPrint, 85182200, Black, 9.8x5x9.9cm, Not Specified, Not Specified, Ample Branding Space, ENGRAVE, SCREEN PRINTING, UV, DTF, PRINTING STICKER, RGB Lighting Effects, 5W, 1200mAh.",
             ""
         ],
-        "thumbnailImages": [
-            
-        ]
+        "thumbnailImages": []
     },
     {
         "id": 2,
@@ -161,18 +24,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734588536322.jpeg",
+        "img": "../src/assets/products/samba1/samba11.webp",
         "designSpecifications": [
             "Samba, thinkPrint, 85182200, Midnight Black, 10cm x 10cm x 5cm, ABS Plastic, 250g, 3cm x 3cm, Pad Printing, Circular Base Glow, 5W, 1200mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734588536322.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734588536322.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734588536322.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839128174.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839153375.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839206784.jpeg"
+            "../src/assets/products/samba1/samba12.webp",
+            "../src/assets/products/samba1/samba13.webp",
+            "../src/assets/products/samba1/samba14.webp"
         ]
     },
     {
@@ -183,18 +43,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2024/1734525303675.jpeg",
+        "img": "../src/assets/products/tango/tango1.webp",
         "designSpecifications": [
             "Tango, thinkPrint, 85182200, Black, 10x4.1cm, ABS Plastic, 200g, 6x2cm, Engrave/Screen Print/UV Print/DTF Sticker, Multi-Color LED, 5W, 4 Hour Play Time/10m Range",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2024/1734525303675.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2024/1734525303675.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2024/1734525303675.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839128174.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839153375.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839206784.jpeg"
+            "../src/assets/products/tango/tango2.webp",
+            "../src/assets/products/tango/tango3.webp",
+            "../src/assets/products/tango/tango4.webp"
         ]
     },
     {
@@ -205,18 +62,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/15-11-2024/1731654708974.jpeg",
+        "img": "../src/assets/products/buzz/buzz1.webp",
         "designSpecifications": [
             "BUZZ, thinkPrint, 85182200, Black, 10.5 x 5.5 x 7.5cm, ABS Plastic, 300g, 8 x 4cm, UV Printing, None, 5W, 2000mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-11-2024/1731654708974.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-11-2024/1731654705814.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-11-2024/1731654708974.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-11-2024/1731654705814.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-11-2024/1731654705814.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-11-2024/1731654705814.jpeg"
+            "../src/assets/products/buzz/buzz2.webp"
         ]
     },
     {
@@ -227,20 +79,20 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702377302479.jpg",
+        "img": "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand1.webp",
         "designSpecifications": [
             "TIC-TOC, thinkPrint, 48201090, Matte Black, 150mm x 80mm x 60mm, ABS Plastic, 250g, 40mm x 15mm, Pad Printing, Customizable, 1W, 2000 mAh Lithium-ion.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702377302479.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701069229336.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702377262196.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702377267121.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702377270488.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702377273847.jpg"
+            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand2.webp",
+            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand3.webp",
+            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand4.webp",
+            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand5.webp",
+            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand6.webp"
         ]
-    },{
+    },
+    {
         "id": 6,
         "title": "NANO- Pocket Bluetooth Speaker",
         "shortDescription": "Urban Gear Nano: A barbed wire-fronted, faux leather-backed, pocket-sized Bluetooth speaker with TF card reader, mic, and necklace strap offering 4 hours of playback.\n",
@@ -248,18 +100,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666953496250.jpg",
+        "img": "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker1.webp",
         "designSpecifications": [
             "NANO-Pocket Bluetooth Speaker, thinkPrint, 85182100, Black, 9.1x1.5x4.7cm, Aluminum/Faux Leather, 4-hour Playback, 5W Speaker Output, 450mAh Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666953496250.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666953492340.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666953632533.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666953615325.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666953594212.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666953565329.jpg"
+            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker2.webp",
+            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker3.webp",
+            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker4.webp",
+            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker5.webp",
+            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker6.webp"
         ]
     },
     {
@@ -270,18 +121,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665562260944.jpg",
+        "img": "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum1.webp",
         "designSpecifications": [
             "DRUM, thinkPrint, 85189000, Black, 6 x 6 x 9 cm, ABS Plastic, 200g, 4 x 2 cm, Pad Printing, Bottom RGB Ambient, 3W.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665562260944.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-07-2022/1657788403765.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665562472097.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665562448777.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665562415799.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665562387535.jpg"
+            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum2.webp",
+            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum3.webp",
+            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum4.webp",
+            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum5.webp",
+            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum6.webp"
         ]
     },
     {
@@ -292,18 +142,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665397260979.jpg",
+        "img": "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock1.webp",
         "designSpecifications": [
             "KRONO, thinkPrint, 85182100, Black, 9.5*7.5*6.5cm, ABS Plastic, 200g, 4*2cm, Pad Printing, Ambient Night Light, 5W",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665397260979.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2022/1651484521693.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687173523339.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687173531488.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687173539785.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687173552617.jpg"
+            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock2.webp",
+            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock3.webp",
+            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock4.webp",
+            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock5.webp",
+            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock6.webp"
         ]
     },
     {
@@ -314,18 +163,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697198304.jpg",
+        "img": "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky1.webp",
         "designSpecifications": [
             "CLOCKY, thinkPrint, 851821, Black, 12.8*4.6*6.3cm, Premium Rubber Finish, 5W, 1600mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697198304.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-07-2022/1657790231277.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697184219.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697188739.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697193979.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697198304.jpg"
+            "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky2.webp",
+            "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky3.webp",
+            "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky4.webp",
+            "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky5.webp"
         ]
     },
     {
@@ -336,20 +183,19 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588170184092.jpg",
+        "img": "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats1.webp",
         "designSpecifications": [
             "AQUA BEATS, thinkPrint, 851821, Gunmetal Grey, 80mm x 80mm x 40mm, Aluminum Alloy, 150g, 50mm x 20mm, Laser Engraving, None, 3W, 400mAh.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588170184092.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839206784.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588170171154.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588170176004.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588170180143.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588170184092.jpg"
+            "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats2.webp",
+            "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats3.webp",
+            "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats4.webp",
+            "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats5.webp"
         ]
-    },{
+    },
+    {
         "id": 11,
         "title": "Bluetooth Speaker - BUNNY",
         "shortDescription": "Urban Gear Bunny: 3W Bluetooth speaker with cotton mesh, 4-hour playback, built-in mic, and 10m range.\n",
@@ -357,17 +203,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588171157999.jpg",
+        "img": "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny1.webp",
         "designSpecifications": [
             "BUNNY, thinkPrint, 851829, Undefined, 70mm x 70mm x 50mm, ABS Plastic with Cotton Mesh, 150g, 40mm x 20mm, Pad Printing, No RGB, 3W, 400mAh"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588171157999.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839153375.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588171141705.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588171146041.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588171150082.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588171154030.jpg"
+            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny2.webp",
+            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny3.webp",
+            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny4.webp",
+            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny5.webp",
+            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny6.webp"
         ]
     },
     {
@@ -378,18 +223,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-04-2021/1617264495544.jpg",
+        "img": "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.01.webp",
         "designSpecifications": [
             "MIST 2.0, thinkPrint, 851821, Black, 85mm x 85mm x 50mm, ABS Plastic, 200g, 40mm x 20mm, Pad Printing, None, 3W, 400mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-04-2021/1617264495544.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839128174.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-04-2021/1617264462807.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-04-2021/1617264466862.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-04-2021/1617264470816.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-04-2021/1617264474753.jpg"
+            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.02.webp",
+            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.03.webp",
+            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.04.webp",
+            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.05.webp",
+            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.06.webp"
         ]
     },
     {
@@ -400,18 +244,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690354065290.jpg",
+        "img": "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones1.webp",
         "designSpecifications": [
             "BLITZ, thinkPrint, 851830, Matte Black, 170mm x 190mm x 75mm (Folded), ABS Plastic, 150g, 40mm x 10mm (Earcup), Pad Print, None, 20mW, 200mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690354065290.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690354018241.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690354023039.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690354027270.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690354031136.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690354034759.jpg"
+            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones2.webp",
+            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones3.webp",
+            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones4.webp",
+            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones5.webp",
+            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones6.webp"
         ]
     },
     {
@@ -422,18 +265,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697520364.jpg",
+        "img": "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.01.webp",
         "designSpecifications": [
             "LOOP 2.0, thinkPrint, 851830, Black, 13.5*1*43cm, ABS Plastic, 50g, 4*2cm, Pad Printing, No RGB, 20mW, 400mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697520364.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2021/1627297226177.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697500508.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697505784.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697510931.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598697515418.jpg"
+            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.02.webp",
+            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.03.webp",
+            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.04.webp",
+            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.05.webp",
+            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.06.webp"
         ]
     },
     {
@@ -444,7 +286,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494537847.jpeg",
+        "img": "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins1.webp",
         "designSpecifications": [
             "UG NAME TWINS, thinkPrint, 851830, Black, 60mm x 40mm x 25mm, ABS Plastic, 40g, 20mm x 10mm, Pad Printing, None, 3mW, Headset: 35mAh, Charge Base: 300mAh",
             "UG NAME TWINS, thinkPrint, 851830, Black, Playback: 2.5-3 hrs, Standby: 100 hrs, Charging Time: 1 hour",
@@ -453,12 +295,11 @@ export const products = [
             "UG NAME TWINS, thinkPrint, 851830, Black,  Ergonomic Earbud Design"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494537847.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-05-2020/1589874885460.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494521703.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494525673.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494529664.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494533742.jpeg"
+            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins2.webp",
+            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins3.webp",
+            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins4.webp",
+            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins5.webp",
+            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins6.webp"
         ]
     },
     {
@@ -469,20 +310,19 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234629704.jpg",
+        "img": "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze1.webp",
         "designSpecifications": [
             "BLAZE, thinkPrint, 851830, Matte Black, 180mm x 150mm x 75mm (folded), ABS Plastic, 220g, 40mm x 10mm (earcup), Pad Print, Single Color LED (power indicator), 35mW, 300mAh Lithium-ion",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234629704.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840940819.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234613169.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234618446.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234623982.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234629704.jpg"
+            "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze2.webp",
+            "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze3.webp",
+            "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze4.webp",
+            "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze5.webp"
         ]
-    },{
+    },
+    {
         "id": 17,
         "title": "Stereo Headphones - BASS PRO",
         "shortDescription": "Urban Gear Bass Pro: Deep bass stereo headphones with cushioned comfort, foldable design, and built-in mic.\n",
@@ -490,18 +330,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234461496.jpg",
+        "img": "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro1.webp",
         "designSpecifications": [
             "BASS PRO, thinkPrint, 851830, Matte Black, 180mm x 150mm x 70mm (folded), ABS Plastic, 220g, 40mm x 10mm on Earcup, Pad Printing, None, 50mW",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234461496.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840898220.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234445317.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234449579.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234453457.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588234457353.jpg"
+            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro2.webp",
+            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro3.webp",
+            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro4.webp",
+            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro5.webp",
+            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro6.webp"
         ]
     },
     {
@@ -512,7 +351,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687166348603.jpg",
+        "img": "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.01.webp",
         "designSpecifications": [
             "BASS 2.0, thinkPrint, 8518, Black, 15.5*7.5*19.5 cm, ABS Plastic, 200g, Earcup Side, Pad Printing, None, 50mW",
             "BASS 2.0, thinkPrint, 8518, Black, 15.5*7.5*19.5 cm, ABS Plastic, 200g, Headband Top, Laser Engraving, None, 20Hz to 20kHz",
@@ -521,12 +360,11 @@ export const products = [
             "BASS 2.0, thinkPrint, 8518, Black, 15.5*7.5*19.5 cm, ABS Plastic, 200g, Earcup Side, Pad Printing, None, Titanium-Coated Diaphragms"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687166348603.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840864800.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687170073731.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687170079545.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687170084826.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687169960236.jpg"
+            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.02.webp",
+            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.03.webp",
+            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.04.webp",
+            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.05.webp",
+            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.06.webp"
         ]
     },
     {
@@ -537,18 +375,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-01-2025/1736772125846.jpg",
+        "img": "../src/assets/products/cube_pro/cube_pro1.webp",
         "designSpecifications": [
             "Cube Pro, thinkPrint, 39269099, Black, 4.5 x 5.6 x 5 cm, Polycarbonate, 100g, 2 x 2 cm, UV Printing",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-01-2025/1736772125846.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-01-2025/1736938069323.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-01-2025/1736772085567.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-01-2025/1736772090642.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-01-2025/1736772094067.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-01-2025/1736772097597.jpg"
+            "../src/assets/products/cube_pro/cube_pro2.webp",
+            "../src/assets/products/cube_pro/cube_pro3.webp",
+            "../src/assets/products/cube_pro/cube_pro4.webp",
+            "../src/assets/products/cube_pro/cube_pro5.webp",
+            "../src/assets/products/cube_pro/cube_pro6.webp"
         ]
     },
     {
@@ -559,18 +396,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337369303.PNG",
+        "img": "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo1.webp",
         "designSpecifications": [
             "DUO, thinkPrint, 853690, Black, 3.5 x 2 x 1.2 inches, ABS Plastic, 2.4 Ounces, 1 x 0.5 inches, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337369303.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337342038.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337354707.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337359118.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337364401.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337369303.PNG"
+            "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo2.webp",
+            "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo3.webp",
+            "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo4.webp",
+            "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo5.webp"
         ]
     },
     {
@@ -581,18 +416,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337964804.PNG",
+        "img": "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube1.webp",
         "designSpecifications": [
             "CUBE, thinkPrint, 853669, Black, 70mm x 55mm x 50mm, Polycarbonate, 120g, 20mm x 20mm, Pad Printing, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337964804.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337937083.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337951181.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337955261.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337960194.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598337964804.PNG"
+            "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube2.webp",
+            "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube3.webp",
+            "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube4.webp",
+            "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube5.webp"
         ]
     },
     {
@@ -603,20 +436,20 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588169993344.PNG",
+        "img": "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on1.webp",
         "designSpecifications": [
             "World Travel Adapter, thinkPrint, 853669, Black, 80mm x 50mm x 40mm, Polycarbonate, 120g, 20mm x 10mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588169993344.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839620807.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2024/1730114287323.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588169979413.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588169982914.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588169986612.PNG"
+            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on2.webp",
+            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on3.webp",
+            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on4.webp",
+            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on5.webp",
+            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on6.webp"
         ]
-    },{
+    },
+    {
         "id": 23,
         "title": "WEBCAM COVER",
         "shortDescription": "Urban Gear webcam cover: Slim, slide-to-hide camera cover for laptops, phones, and more, featuring screen printing, UV printing, or DTF sticker options.\n",
@@ -624,43 +457,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740481243467.jpg",
+        "img": "../src/assets/products/webcam_cover/webcam_cover1.webp",
         "designSpecifications": [
             "WEBCAM COVER, thinkPrint, 39269099, Black, 4.3 x 1.6 cm, ABS Plastic, 2g, 2.5 x 1 cm, Screen Printing",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740481243467.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740481212158.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740481217185.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740481221172.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740481225072.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740481228486.jpg"
-        ]
-    },
-    {
-        "id": 24,
-        "title": "TRAVEL GIFT SET",
-        "shortDescription": "Urban Gear's Digi Pro Kit: Power up your travels with essential tech accessories.\n",
-        "longDescription": "Urban Gear's Digi Pro kit: Tech pouch, Buzz Bluetooth speaker, Bolt 3-in-1 cable, On travel adaptor, & Charge-X 10k mAh powerbank. Essentials for the modern traveler. Stay connected & powered on the go!\n",
-        "price": 299,
-        "ratingCount": 120,
-        "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241150667.jpg",
-        "designSpecifications": [
-            "Digi Pro, thinkPrint, 42021200, Charcoal Grey, 25cm x 18cm x 8cm, 600D Polyester, 350g, 8cm x 5cm, Screen Printing",
-            "Buzz, thinkPrint, 85182100, Midnight Blue, 8cm x 8cm x 4cm, ABS Plastic, 200g, 3cm x 2cm, Pad Printing, Yes, 3W, 800 mAh",
-            "Bolt, thinkPrint, 85444290, Space Grey, 1.2m Length, TPE, 50g, 2cm x 0.5cm, Laser Engraving",
-            "On, thinkPrint, 85366990, Jet Black, 7cm x 5cm x 3cm, Polycarbonate, 120g, 3cm x 1cm, Pad Printing", 
-            "Charge-X, thinkPrint, 85076000, Gunmetal Grey, 14cm x 7cm x 1.5cm, Aluminium Alloy, 250g, 4cm x 2cm, Laser Engraving, 10000 mAh",
-        ],
-        "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241150667.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241145095.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241150667.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241145095.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241145095.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241145095.jpeg"
+            "../src/assets/products/webcam_cover/webcam_cover2.webp",
+            "../src/assets/products/webcam_cover/webcam_cover3.webp",
+            "../src/assets/products/webcam_cover/webcam_cover4.webp",
+            "../src/assets/products/webcam_cover/webcam_cover5.webp",
+            "../src/assets/products/webcam_cover/webcam_cover6.webp"
         ]
     },
     {
@@ -671,18 +478,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735121155031.jpg",
+        "img": "../src/assets/products/cdo/cdo1.webp",
         "designSpecifications": [
             "Charger Desk Organizer, thinkPrint, 39269099, Beige, 8.5 x 8.5 x 7cm, Wheat Fiber, 250g, 6 x 6cm, Engrave/Screen Printing, No RGB Lighting Effects",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735121155031.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735121129765.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735121133239.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735121136858.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735121140531.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735121143977.jpg"
+            "../src/assets/products/cdo/cdo2.webp",
+            "../src/assets/products/cdo/cdo3.webp",
+            "../src/assets/products/cdo/cdo4.webp",
+            "../src/assets/products/cdo/cdo5.webp",
+            "../src/assets/products/cdo/cdo6.webp"
         ]
     },
     {
@@ -693,18 +499,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116615107.jpg",
+        "img": "../src/assets/products/hubpad/hubpad1.webp",
         "designSpecifications": [
             "HUBPAD, thinkPrint, 39269099, Natural Bamboo, 12.8 x 8.5 x 1.8cm, Bamboo, 100g (est.), 6 x 4cm (top surface), Engrave, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116615107.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116577029.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116580343.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116583885.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116587343.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116591188.jpg"
+            "../src/assets/products/hubpad/hubpad2.webp",
+            "../src/assets/products/hubpad/hubpad3.webp",
+            "../src/assets/products/hubpad/hubpad4.webp",
+            "../src/assets/products/hubpad/hubpad5.webp",
+            "../src/assets/products/hubpad/hubpad6.webp"
         ]
     },
     {
@@ -715,7 +520,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116838132.jpg",
+        "img": "../src/assets/products/ug-cc33/ug-cc331.webp",
         "designSpecifications": [
             "iCharge, thinkPrint, 39269099, Bamboo, 9.5 x 0.5cm",
             "Branding Area, Engrave, Screen Printing",
@@ -724,12 +529,11 @@ export const products = [
             "75% Charge"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116838132.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735115381973.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116805020.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116808805.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116812976.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735116816815.jpg"
+            "../src/assets/products/ug-cc33/ug-cc332.webp",
+            "../src/assets/products/ug-cc33/ug-cc333.webp",
+            "../src/assets/products/ug-cc33/ug-cc334.webp",
+            "../src/assets/products/ug-cc33/ug-cc335.webp",
+            "../src/assets/products/ug-cc33/ug-cc336.webp"
         ]
     },
     {
@@ -740,18 +544,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321008178.jpg",
+        "img": "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo1.webp",
         "designSpecifications": [
             "USB Memo, thinkPrint, 482190, Black, 90mm x 60mm x 20mm, ABS Plastic, 50g, 50mm x 20mm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321008178.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839808587.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320992751.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320996476.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321000294.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321004125.jpg"
+            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo2.webp",
+            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo3.webp",
+            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo4.webp",
+            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo5.webp",
+            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo6.webp"
         ]
     },
     {
@@ -762,20 +565,19 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231903859.jpg",
+        "img": "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub1.webp",
         "designSpecifications": [
             "MobiHub, thinkPrint, 8473, Black, 120mm x 80mm x 50mm, ABS Plastic, 150g, 50mm x 20mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231903859.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839776458.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231892976.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231896820.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231900365.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231903859.jpg"
+            "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub2.webp",
+            "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub3.webp",
+            "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub4.webp",
+            "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub5.webp"
         ]
-    },{
+    },
+    {
         "id": 30,
         "title": "USB Hub With Stationery & Mobile Holder - E-TUB 2.0",
         "shortDescription": "Urban Gear E-TUB 2.0: A multi-functional white USB hub with pen holder, phone stand, dual lights, charging support, and ample branding space.\n",
@@ -783,18 +585,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231851132.jpg",
+        "img": "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.01.webp",
         "designSpecifications": [
             "E-TUB 2.0, thinkPrint, 8473, White, 20cm x 10cm x 8cm, ABS Plastic, 300g, 5cm x 3cm, Pad Printing, 2 Level Brightness",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231851132.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839746360.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231843267.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231847543.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231851132.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839746360.jpeg"
+            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.02.webp",
+            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.03.webp",
+            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.04.webp"
         ]
     },
     {
@@ -805,18 +604,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231795682.jpg",
+        "img": "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub1.webp",
         "designSpecifications": [
             "E-TUB, thinkPrint, 8473, Blue, 9x7x9cm, ABS Plastic, 150g, 4x2cm, Pad Printing, None, 0.5W, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588231795682.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2021/1640418088815.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687159099890.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687159104264.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687159107872.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687159111551.jpg"
+            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub2.webp",
+            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub3.webp",
+            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub4.webp",
+            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub5.webp",
+            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub6.webp"
         ]
     },
     {
@@ -827,18 +625,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740471076489.jpeg",
+        "img": "../src/assets/products/jiggle/jiggle1.webp",
         "designSpecifications": [
             "JIGGLE, thinkPrint, 85444299, Natural Bamboo, 6.5 x 3 x 1 cm, Bamboo, 599g, Ample branding space, Screen Printing/UV Printing/DTF Sticker, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740471076489.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740471042539.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740471047646.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740471051301.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740471055383.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740471058799.jpg"
+            "../src/assets/products/jiggle/jiggle2.webp",
+            "../src/assets/products/jiggle/jiggle3.webp",
+            "../src/assets/products/jiggle/jiggle4.webp",
+            "../src/assets/products/jiggle/jiggle5.webp",
+            "../src/assets/products/jiggle/jiggle6.webp"
         ]
     },
     {
@@ -849,18 +646,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731417242261.jpeg",
+        "img": "../src/assets/products/yoyo_bolt/yoyo_bolt1.webp",
         "designSpecifications": [
             "YOYO-BOLT, thinkPrint, 85444299, Black, 1200mm length, TPE + Copper + Aluminium Alloy, 50g, 40mm x 20mm, Engrave/Screen Print, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731417242261.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731417242261.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731417242261.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840014822.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840040817.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg"
+            "../src/assets/products/yoyo_bolt/yoyo_bolt2.webp",
+            "../src/assets/products/yoyo_bolt/yoyo_bolt3.webp",
+            "../src/assets/products/yoyo_bolt/yoyo_bolt4.webp"
         ]
     },
     {
@@ -871,7 +665,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731416419385.jpeg",
+        "img": "../src/assets/products/sonic/sonic1.webp",
         "designSpecifications": [
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Nylon Wire, Screen Printing",
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Copper Wire, UV Printing",
@@ -880,12 +674,9 @@ export const products = [
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Nylon Wire, Luminous Chip"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731416419385.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731416419385.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731416419385.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840014822.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840040817.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg"
+            "../src/assets/products/sonic/sonic2.webp",
+            "../src/assets/products/sonic/sonic3.webp",
+            "../src/assets/products/sonic/sonic4.webp"
         ]
     },
     {
@@ -896,7 +687,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-03-2023/1679050181296.jpeg",
+        "img": "../src/assets/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro1.webp",
         "designSpecifications": [
             "Compact and portable size: 5*6*1.8 cm",
             "Cable length: 1000mm",
@@ -907,11 +698,12 @@ export const products = [
             "Built-in mobile stand for hands-free use"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840014822.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840040817.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg"
+            "../src/assets/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro2.webp",
+            "../src/assets/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro3.webp",
+            "../src/assets/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro4.webp"
         ]
-    },{
+    },
+    {
         "id": 36,
         "title": "Retractable 3-in-1 Data + Charging Cable With Mobile Stand - YOYO STAND",
         "shortDescription": "A retractable 3-in-1 charging and data cable with a mobile stand, compatible with Lightning, Android, and Type-C devices.",
@@ -919,7 +711,7 @@ export const products = [
         "price": 599,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2022/1656746728645.jpeg",
+        "img": "../src/assets/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand1.webp",
         "designSpecifications": [
             "Compact dimensions: 5 x 7 x 2.3 cm",
             "Retractable cable with a maximum length of 1000mm",
@@ -931,11 +723,12 @@ export const products = [
             "Allows simultaneous charging of multiple devices"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840014822.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840040817.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg"
+            "../src/assets/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand2.webp",
+            "../src/assets/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand3.webp",
+            "../src/assets/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand4.webp"
         ]
-    }, {
+    },
+    {
         "id": 37,
         "title": "YOYO Drops - Retractable 3-in-1 Data & Charging Cable",
         "shortDescription": "Compact retractable 3-in-1 charging and data cable with premium rubber finish, supporting Lightning, Android, and Type-C devices.",
@@ -943,7 +736,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687164393715.jpeg",
+        "img": "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable1.webp",
         "designSpecifications": [
             "Compact dimensions: 5 x 6 x 1.8 cm",
             "Retractable cable with a maximum length of 1000mm",
@@ -956,14 +749,13 @@ export const products = [
             "Sleek black color"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687164393715.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2021/1640758802416.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687164375892.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687164380809.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687164385447.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687164389282.jpeg"
+            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable2.webp",
+            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable3.webp",
+            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable4.webp",
+            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable5.webp",
+            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable6.webp"
         ]
-    },    
+    },
     {
         "id": 38,
         "title": "Retractable 3-in-1 Charging Cable - YOYO PRO PASTEL",
@@ -972,7 +764,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/20-11-2021/1637388052460.jpg",
+        "img": "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel1.webp",
         "designSpecifications": [
             "YOYO PRO PASTEL, thinkPrint, 854442, Intended Color , 5X1.5X21.5CM",
             "Copper Wire + TPE, 5V - 2.1A, 120mm Retractable Cable",
@@ -981,12 +773,9 @@ export const products = [
             "No Branding Area, No Branding Methods"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-11-2021/1637388052460.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-11-2021/1637388052460.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-11-2021/1637388052460.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840014822.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840040817.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg"
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel2.webp",
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel3.webp",
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel4.webp"
         ]
     },
     {
@@ -997,18 +786,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-11-2021/1635848376151.jpeg",
+        "img": "../src/assets/products/wireless_charger_-_bolt/wireless_charger_-_bolt1.webp",
         "designSpecifications": [
             "Wireless Charger - BOLT, thinkPrint, 8505, WHITE, 7x7x1Cm, ABS Plastic, 50g, 5x5Cm, Pad Printing, Red/Blue",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-11-2021/1635848376151.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-11-2021/1635848376151.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-11-2021/1635848376151.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840014822.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840040817.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg"
+            "../src/assets/products/wireless_charger_-_bolt/wireless_charger_-_bolt2.webp",
+            "../src/assets/products/wireless_charger_-_bolt/wireless_charger_-_bolt3.webp",
+            "../src/assets/products/wireless_charger_-_bolt/wireless_charger_-_bolt4.webp"
         ]
     },
     {
@@ -1019,39 +805,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635234526756.jpeg",
+        "img": "../src/assets/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+1.webp",
         "designSpecifications": [
             "Yoyo C+, thinkPrint, 8544, Black, 13x1.5x4cm, ABS Plastic, 45g, 2x1cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635234526756.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635234526756.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635234526756.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840014822.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840040817.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg"
-        ]
-    },
-    {
-        "id": 41,
-        "title": "3-In-1 Charging Cable With Fidget Spinner",
-        "shortDescription": "Urban Gear SPINZ: Black Android C-type charging cable with built-in fidget spinner, charges two devices simultaneously.\n",
-        "longDescription": "Urban Gear SPINZ: Charge your Android C-type devices & fidget simultaneously! This black cable lets you charge two devices at once. HSNCode 854442. See it in action: https://youtu.be/5vr187_Xzn8.\n",
-        "price": 299,
-        "ratingCount": 120,
-        "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740465543670.jpg",
-        "designSpecifications": [
-            "SPINZ, thinkPrint, 854442, Black, 1.2m Length, TPE Cable & ABS Spinner, 50g, 20mm Diameter on Spinner, Pad Printing, Circular RGB around Spinner",
-        ],
-        "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740465543670.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-02-2025/1740391700364.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740465523599.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740465528446.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740465532369.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740465535896.jpg"
+            "../src/assets/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+2.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+3.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+4.webp"
         ]
     },
     {
@@ -1062,18 +824,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597653634614.PNG",
+        "img": "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro1.webp",
         "designSpecifications": [
             "YOYO PRO, thinkPrint, 854442, Black, 50mm x 50mm x 20mm, TPE, 45g, 20mm x 10mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597653634614.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-03-2023/1679036829429.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687161820503.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687161824635.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687161828167.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687161831649.jpg"
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro2.webp",
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro3.webp",
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro4.webp",
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro5.webp",
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro6.webp"
         ]
     },
     {
@@ -1084,20 +845,20 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595484849261.JPG",
+        "img": "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg1.webp",
         "designSpecifications": [
             "3-In-1 Charging Cable with Mobile Stand, thinkPrint, 854442, Black, 4\" x 2\" x 0.5\", ABS Plastic, 1.5 oz, 1\" x 0.5\", Pad Printing, None,",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595484849261.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588842640092.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595484823491.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595484827314.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595484833406.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595484842962.JPG"
+            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg2.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg3.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg4.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg5.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg6.webp"
         ]
-    },{
+    },
+    {
         "id": 44,
         "title": "Retractable 3-In-1 Charging Cable - YOYO METAL",
         "shortDescription": "Urban Gear YOYO METAL: 95cm retractable 3-in-1 (Android, Type-C, Lightning) charging cable for simultaneous multi-device charging.\n",
@@ -1105,18 +866,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588322152245.jpg",
+        "img": "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal1.webp",
         "designSpecifications": [
             "YOYO METAL, thinkPrint, 854442, Black, 5cm x 5cm x 2cm, Aluminum Alloy, 60g, 1cm x 1cm, Laser Engraving, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588322152245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588322143305.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588322147994.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588322152245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840084787.jpeg"
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal2.webp",
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal3.webp",
+            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal4.webp"
         ]
     },
     {
@@ -1127,18 +885,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321672084.jpg",
+        "img": "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg1.webp",
         "designSpecifications": [
             "CLIP N CHRG, thinkPrint, 854442, Black, 3.5\" x 1.5\" x 0.75\", ABS Plastic, 1.5 oz, 2\" x 0.5\", Pad Print, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321672084.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840040817.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321656596.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321660467.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321664151.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321667941.jpg"
+            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg2.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg3.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg4.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg5.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg6.webp"
         ]
     },
     {
@@ -1149,18 +906,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321489667.JPG",
+        "img": "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky1.webp",
         "designSpecifications": [
             "KIKY, thinkPrint, 854442, Black, 8cm x 3cm x 1.5cm, Silicon, 25g, 1cm x 1cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321489667.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840014822.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321468553.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321478751.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321484080.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588321489667.JPG"
+            "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky2.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky3.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky4.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky5.webp"
         ]
     },
     {
@@ -1171,18 +926,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588232973097.jpg",
+        "img": "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c1.webp",
         "designSpecifications": [
             "LAN-C, thinkPrint, 854449, Black, 100cm Length, TPU, 25g, 1cm x 1cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588232973097.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839989048.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588232960576.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588232965117.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588232968910.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588232973097.jpg"
+            "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c2.webp",
+            "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c3.webp",
+            "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c4.webp",
+            "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c5.webp"
         ]
     },
     {
@@ -1193,18 +946,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597653339576.jpg",
+        "img": "../src/assets/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c1.webp",
         "designSpecifications": [
             "KORD-C, thinkPrint, 854442, White, 90mm x 25mm x 20mm, ABS Plastic, 60g, 15mm x 10mm, Pad Printing, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597653339576.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839967493.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597653330869.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597653335746.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597653339576.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839967493.jpeg"
+            "../src/assets/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c2.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c3.webp",
+            "../src/assets/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c4.webp"
         ]
     },
     {
@@ -1215,18 +965,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/20-04-2024/1713611887824.jpg",
+        "img": "../src/assets/products/charge-x/charge-x1.webp",
         "designSpecifications": [
             "CHARGE-X, thinkPrint, 8507, Black, 7 x 13.5 x 1 cm, ABS Plastic, 220g, 5 x 3 cm, Pad Printing, None, None, 10000 mAh Li-Polymer",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-04-2024/1713611887824.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-04-2024/1713612136702.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-04-2024/1713611880900.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-04-2024/1713611887824.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-04-2024/1713612136702.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-04-2024/1713612136702.jpeg"
+            "../src/assets/products/charge-x/charge-x2.webp",
+            "../src/assets/products/charge-x/charge-x3.webp"
         ]
     },
     {
@@ -1237,19 +983,18 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687171654766.jpeg",
+        "img": "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display1.webp",
         "designSpecifications": [
             "4-IN-1 Power Bank With Mobile Stand & Built-IN Cables - POWER 10 DISPLAY, thinkPrint, 85076000, Black, 14.5X1.8X6.7cm",
             "Casing Material: ABS Plastic, Battery: 10,000mAh Lithium Polymer, Input: Type-C & Micro USB DC 5V / 2.1A, Output: Inbuilt USB, Micro, Type-C, Lightning DC 5V/ 2.1A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687171654766.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1665987383744.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687171629410.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687171638800.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687171641695.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687171645733.jpeg"
+            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display2.webp",
+            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display3.webp",
+            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display4.webp",
+            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display5.webp",
+            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display6.webp"
         ]
     },
     {
@@ -1260,18 +1005,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588322749092.PNG",
+        "img": "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display1.webp",
         "designSpecifications": [
             "PALM 5 DISPLAY, thinkPrint, 850790, Black, 125mm x 68mm x 10mm, ABS Plastic, 120g, 50mm x 30mm, Silkscreen Printing, None, None, Lithium Polymer 5000mAh.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588322749092.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840790449.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687170862688.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687170867142.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687170871034.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-06-2023/1687170874806.jpg"
+            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display2.webp",
+            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display3.webp",
+            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display4.webp",
+            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display5.webp",
+            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display6.webp"
         ]
     },
     {
@@ -1282,18 +1026,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485724778.jpg",
+        "img": "../src/assets/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_101.webp",
         "designSpecifications": [
             "PALM 10, thinkPrint, 8507, White, 135mm x 70mm x 15mm, ABS Plastic, 220g, 50mm x 80mm, Pad Printing, None, 10000mAh Lithium Polymer",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485724778.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840267379.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485716793.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485720401.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485724778.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840267379.jpeg"
+            "../src/assets/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_102.webp",
+            "../src/assets/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_103.webp",
+            "../src/assets/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_104.webp"
         ]
     },
     {
@@ -1304,17 +1045,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485508078.jpg",
+        "img": "../src/assets/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_51.webp",
         "designSpecifications": [
             "Palm 5, thinkPrint, 850790, White, 130mm x 65mm x 10mm, ABS Plastic, 120g, 50mm x 30mm, Pad Printing, None, 5000mAh Lithium Polymer"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485508078.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840737809.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485490993.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485503080.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595485508078.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588840737809.jpeg"
+            "../src/assets/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_52.webp",
+            "../src/assets/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_53.webp",
+            "../src/assets/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_54.webp"
         ]
     },
     {
@@ -1325,18 +1063,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739257074733.jpeg",
+        "img": "../src/assets/products/webcam_cover/webcam_cover1.webp",
         "designSpecifications": [
             "UG NAME WEBCAM COVER, thinkPrint, 85299090, Black, 4.3 x 1.6 cm, ABS Plastic, 2g, 2 x 0.5 cm, Screen Printing,",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739257074733.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739257074733.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739257074733.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839484466.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839546863.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839578006.jpeg"
+            "../src/assets/products/webcam_cover/webcam_cover2.webp",
+            "../src/assets/products/webcam_cover/webcam_cover3.webp",
+            "../src/assets/products/webcam_cover/webcam_cover4.webp"
         ]
     },
     {
@@ -1347,18 +1082,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731759304554.jpeg",
+        "img": "../src/assets/products/dazzle/dazzle1.webp",
         "designSpecifications": [
             "Dazzle LED Lamp with Wireless Charger & Phone Holder, thinkPrint, 94051090, Black, 11 x 1.5 x 21cm, ABS Plastic, 250g, 6 x 4cm, DTF Sticker, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731759304554.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731759304554.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731759304554.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839484466.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839546863.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839578006.jpeg"
+            "../src/assets/products/dazzle/dazzle2.webp",
+            "../src/assets/products/dazzle/dazzle3.webp",
+            "../src/assets/products/dazzle/dazzle4.webp"
         ]
     },
     {
@@ -1369,20 +1101,18 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731758829149.jpeg",
+        "img": "../src/assets/products/smiley/smiley1.webp",
         "designSpecifications": [
             "Table Clock, thinkPrint, 91099990, Customizable, 12.5 x 7.5 x 12.5cm, ABS Plastic, 250g, 6 x 4cm, Engrave/UV Print/Screen Print/DTF Sticker, No RGB, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731758829149.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731758829149.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731758829149.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839484466.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839546863.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839578006.jpeg"
+            "../src/assets/products/smiley/smiley2.webp",
+            "../src/assets/products/smiley/smiley3.webp",
+            "../src/assets/products/smiley/smiley4.webp"
         ]
-    },{
+    },
+    {
         "id": 57,
         "title": "LAPLITE",
         "shortDescription": "Urban Gear LAPLITE: Portable laptop light for on-the-go illumination.\n",
@@ -1390,18 +1120,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714049885449.jpeg",
+        "img": "../src/assets/products/laplite/laplite1.webp",
         "designSpecifications": [
             "LAPLITE, thinkPrint, 85437090, Space Gray, 300mm x 210mm x 15mm, Aluminum Alloy, 650g, 50mm x 20mm, Laser Engraving, Customizable, 3W, 5000mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714049885449.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714049854449.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714049858462.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714049861546.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714049864638.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714049867526.jpeg"
+            "../src/assets/products/laplite/laplite2.webp",
+            "../src/assets/products/laplite/laplite3.webp",
+            "../src/assets/products/laplite/laplite4.webp",
+            "../src/assets/products/laplite/laplite5.webp",
+            "../src/assets/products/laplite/laplite6.webp"
         ]
     },
     {
@@ -1412,18 +1141,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172746174.jpg",
+        "img": "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass1.webp",
         "designSpecifications": [
             "BLEU, thinkPrint, 9004.10.00, Black, 145mm-18mm-142mm, Polycarbonate/Bamboo, 25g, 45mm x 6mm (arm), Laser Engraving",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172746174.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172727723.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172731234.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172735085.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172738856.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172742488.jpg"
+            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass2.webp",
+            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass3.webp",
+            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass4.webp",
+            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass5.webp",
+            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass6.webp"
         ]
     },
     {
@@ -1434,18 +1162,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172721339.jpg",
+        "img": "../src/assets/products/shades_fashion_sunglasses/shades_fashion_sunglasses1.webp",
         "designSpecifications": [
             "SHADES, thinkPrint, 42023290, Black, 145mm lens width, Acetate, 28g, 5mm x 20mm temple, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172721339.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172716959.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172721339.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172716959.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172716959.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701172716959.jpeg"
+            "../src/assets/products/shades_fashion_sunglasses/shades_fashion_sunglasses2.webp"
         ]
     },
     {
@@ -1456,18 +1179,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169962213.jpeg",
+        "img": "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain1.webp",
         "designSpecifications": [
             "Bamboo Phone Holder Keychain, thinkPrint, 39269099, Natural, 8cm x 3cm x 1cm, Bamboo, 20g, 2cm x 1cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169962213.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169962213.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169962213.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839484466.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839546863.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839578006.jpeg"
+            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain2.webp",
+            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain3.webp",
+            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain4.webp"
         ]
     },
     {
@@ -1478,20 +1198,20 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598338479820.jpg",
+        "img": "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi1.webp",
         "designSpecifications": [
             "LUMI, thinkPrint, 853669, Cool White, 5.5*3.5*9cm, ABS Plastic, 85g, 4*2cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598338479820.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598338453292.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598338462348.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598338466327.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598338470585.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-08-2020/1598338475521.jpg"
+            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi2.webp",
+            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi3.webp",
+            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi4.webp",
+            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi5.webp",
+            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi6.webp"
         ]
-    },{
+    },
+    {
         "id": 62,
         "title": "2-In-1 Portable Fan & Power Bank - POWRFAN",
         "shortDescription": "Urban Gear POWRFAN: Ergonomic desktop fan with a built-in 2200mAh power bank for convenient cooling and charging.\n",
@@ -1499,18 +1219,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588181888770.jpeg",
+        "img": "../src/assets/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan1.webp",
         "designSpecifications": [
             "POWRFAN, thinkPrint, 841415, White, 15cm x 10cm x 20cm, ABS Plastic, 300g, 5cm x 3cm, Pad Printing, None, None, 2200mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588181888770.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839578006.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588181881443.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588181885217.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588181888770.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839578006.jpeg"
+            "../src/assets/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan2.webp",
+            "../src/assets/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan3.webp",
+            "../src/assets/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan4.webp"
         ]
     },
     {
@@ -1521,18 +1238,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320635863.jpg",
+        "img": "../src/assets/products/usb_metal_pen/usb_metal_pen1.webp",
         "designSpecifications": [
             "USB PEN (16 GB), thinkPrint, 9608, Black, 140mm x 13mm diameter, Metallic Alloy, 35g, 30mm x 6mm, Laser Engraving, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320635863.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839546863.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320618956.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320623963.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320627802.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320631962.jpg"
+            "../src/assets/products/usb_metal_pen/usb_metal_pen2.webp",
+            "../src/assets/products/usb_metal_pen/usb_metal_pen3.webp",
+            "../src/assets/products/usb_metal_pen/usb_metal_pen4.webp",
+            "../src/assets/products/usb_metal_pen/usb_metal_pen5.webp",
+            "../src/assets/products/usb_metal_pen/usb_metal_pen6.webp"
         ]
     },
     {
@@ -1543,18 +1259,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597648110036.jpg",
+        "img": "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast1.webp",
         "designSpecifications": [
             "TRACKFAST, thinkPrint, 854370, Black, 35mm x 35mm x 8mm, ABS Plastic, 9g, 20mm x 15mm, Pad Printing, No, 90dB, CR2032",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597648110036.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839484466.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597648096611.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597648101564.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597648105957.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2020/1597648110036.jpg"
+            "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast2.webp",
+            "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast3.webp",
+            "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast4.webp",
+            "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast5.webp"
         ]
     },
     {
@@ -1565,7 +1279,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035426472.jpeg",
+        "img": "../src/assets/products/tornado/tornado1.webp",
         "designSpecifications": [
             "TORNADO, thinkPrint, 94051090, BLACK/white, 12 x 7.5 x 39.5cm",
             "Built-in Mobile Stand, Stationery/Pen Holder, Adjustable Gooseneck, 15W Wireless Charger",
@@ -1574,12 +1288,11 @@ export const products = [
             "Not applicable"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035426472.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035385660.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035389289.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035392587.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035396001.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035399352.jpeg"
+            "../src/assets/products/tornado/tornado2.webp",
+            "../src/assets/products/tornado/tornado3.webp",
+            "../src/assets/products/tornado/tornado4.webp",
+            "../src/assets/products/tornado/tornado5.webp",
+            "../src/assets/products/tornado/tornado6.webp"
         ]
     },
     {
@@ -1590,18 +1303,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035554551.jpeg",
+        "img": "../src/assets/products/glo_beats_pro/glo_beats_pro1.webp",
         "designSpecifications": [
             "GLO BEATS PRO, thinkPrint, 96089910, Black, 11 x 11 x 44cm, ABS Plastic, 400g, 50 x 20mm, Pad Printing, Ambient RGB Base, 3W, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035554551.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-04-2024/1713963790890.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035518251.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035521644.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035525071.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-04-2024/1714035528553.jpeg"
+            "../src/assets/products/glo_beats_pro/glo_beats_pro2.webp",
+            "../src/assets/products/glo_beats_pro/glo_beats_pro3.webp",
+            "../src/assets/products/glo_beats_pro/glo_beats_pro4.webp",
+            "../src/assets/products/glo_beats_pro/glo_beats_pro5.webp",
+            "../src/assets/products/glo_beats_pro/glo_beats_pro6.webp"
         ]
     },
     {
@@ -1612,18 +1324,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670409861580.png",
+        "img": "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder1.webp",
         "designSpecifications": [
             "THUNDER, thinkPrint, 94054900, Black, 16x7.7x42.5cm, ABS Plastic, 400g, 4x2cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670409861580.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-11-2022/1669098288191.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670409830771.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670409835599.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670409839263.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670409843358.jpg"
+            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder2.webp",
+            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder3.webp",
+            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder4.webp",
+            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder5.webp",
+            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder6.webp"
         ]
     },
     {
@@ -1634,18 +1345,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410053429.png",
+        "img": "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt1.webp",
         "designSpecifications": [
             "BOLT, thinkPrint, 94054900, Black, 11x6.5x42.5cm, ABS Plastic, 350g, 4x2cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410053429.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-11-2022/1669096962041.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410015418.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410019375.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410023590.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410027307.png"
+            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt2.webp",
+            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt3.webp",
+            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt4.webp",
+            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt5.webp",
+            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt6.webp"
         ]
     },
     {
@@ -1656,18 +1366,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/26-09-2022/1664178496854.jpeg",
+        "img": "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite1.webp",
         "designSpecifications": [
             "DESKLITE, thinkPrint, 00000000, White, 11.5 x 11.5 x 34.5 cm, ABS Plastic, 500g, 5 x 2 cm, Pad Printing, No RGB Lighting Effects, No Speaker, 1200 mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-09-2022/1664178496854.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-09-2022/1664177927816.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-09-2022/1664178676149.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-09-2022/1664178655277.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-09-2022/1664178634273.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-09-2022/1664178598098.jpeg"
+            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite2.webp",
+            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite3.webp",
+            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite4.webp",
+            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite5.webp",
+            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite6.webp"
         ]
     },
     {
@@ -1678,20 +1387,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635238210476.jpg",
+        "img": "../src/assets/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom1.webp",
         "designSpecifications": [
             "ZOOM, thinkPrint, 7326, BLACK, 9x2x2 cm, Heavy Duty Aluminum, 60g, 4x1 cm, Laser Engraving, No RGB, No Speaker, Bolt AA x 1",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635238210476.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635238192965.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635238204466.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635238210476.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635238192965.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2021/1635238192965.jpeg"
+            "../src/assets/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom2.webp",
+            "../src/assets/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom3.webp"
         ]
-    },{
+    },
+    {
         "id": 71,
         "title": "5-In-1 Desk Lampu - LAMPU",
         "shortDescription": "Urban Gear LAMPU: 5-in-1 touch LED desk lamp with mobile stand, pen holder, adjustable neck, USB charging, memo pad, and 3 color modes.\n",
@@ -1699,18 +1405,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615278790002.jpg",
+        "img": "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu1.webp",
         "designSpecifications": [
             "LAMPU, thinkPrint, 940520, White, 15cm x 15cm x 50cm, ABS Plastic, 500g, 5cm x 3cm, Pad Printing, No RGB, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615278790002.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2024/1731488178030.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615278763728.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615278767627.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615278771321.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615278774881.jpg"
+            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu2.webp",
+            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu3.webp",
+            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu4.webp",
+            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu5.webp",
+            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu6.webp"
         ]
     },
     {
@@ -1721,18 +1426,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494745155.jpg",
+        "img": "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro1.webp",
         "designSpecifications": [
             "ZOOM PRO, thinkPrint, 851310, Black, 120mm x 25mm x 25mm, Heavy Duty Aluminum, 120g, 30mm x 10mm, Laser Engraving, No RGB, No Speaker, Rechargeable Lithium-ion",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494745155.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588841560442.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494732865.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494737010.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494741066.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595494745155.jpg"
+            "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro2.webp",
+            "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro3.webp",
+            "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro4.webp",
+            "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro5.webp"
         ]
     },
     {
@@ -1743,18 +1446,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495814922.jpg",
+        "img": "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy1.webp",
         "designSpecifications": [
             "GLOWY, thinkPrint, 851310, Matte Black, 25cm x 8cm x 8cm, ABS Plastic, 300g, 5cm x 2cm, Pad Printing, 3000mAh Rechargeable Lithium-Ion.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495814922.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588841533362.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495802592.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495806570.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495810834.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495814922.jpg"
+            "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy2.webp",
+            "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy3.webp",
+            "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy4.webp",
+            "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy5.webp"
         ]
     },
     {
@@ -1765,18 +1466,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495310334.jpg",
+        "img": "../src/assets/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite1.webp",
         "designSpecifications": [
             "DUOLITE, thinkPrint, 9405, Black, 20cm x 5cm x 3cm, ABS Plastic, 150g, 2cm x 1cm, Pad Printing, None, None, 2 x AA (Not Included)",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495310334.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588841493961.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495301244.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495306078.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595495310334.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588841493961.jpeg"
+            "../src/assets/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite2.webp",
+            "../src/assets/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite3.webp",
+            "../src/assets/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite4.webp"
         ]
     },
     {
@@ -1787,18 +1485,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588242196824.JPG",
+        "img": "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.01.webp",
         "designSpecifications": [
             "BRYTO 2.0, thinkPrint, 8513, White, 5\" x 5\" x 18\", ABS Plastic, 1.2 lbs, 2\" x 0.5\" , Pad Printing, No RGB Lighting Effects, No Speaker Output, 1800 mAh Lithium-Ion",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588242196824.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588841453401.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588242182266.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588242186198.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588242191699.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588242196824.JPG"
+            "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.02.webp",
+            "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.03.webp",
+            "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.04.webp",
+            "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.05.webp"
         ]
     },
     {
@@ -1809,18 +1505,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320242069.jpg",
+        "img": "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-31.webp",
         "designSpecifications": [
             "KAR-3 Travel Charger, thinkPrint, 850490, Black, 3.5 x 1.5 x 1.0 inches, ABS Plastic, 2.4 ounces, 0.5 x 0.5 inches, Pad Printing, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320242069.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839355399.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320225129.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320229821.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320233662.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588320237630.jpg"
+            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-32.webp",
+            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-33.webp",
+            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-34.webp",
+            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-35.webp",
+            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-36.webp"
         ]
     },
     {
@@ -1831,18 +1526,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588179458232.jpg",
+        "img": "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-21.webp",
         "designSpecifications": [
             "Travel Car Charger, thinkPrint, 8504, Black, 2.5\" x 1\" x 1\", ABS Plastic, 1 oz, 0.75\" x 0.5\", Pad Printing, Blue LED Ring",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588179458232.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2020/1588839328763.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588179447100.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588179451354.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588179454793.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-04-2020/1588179458232.jpg"
+            "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-22.webp",
+            "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-23.webp",
+            "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-24.webp",
+            "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-25.webp"
         ]
     },
     {
@@ -1853,18 +1546,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665404452968.jpg",
+        "img": "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro1.webp",
         "designSpecifications": [
             "DUFL PRO, thinkPrint, 42029900, Jet Black, 37 x 43 x 17 cm, Water Resistant Nylon, 600g, 5 x 10 cm, Screen Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665404452968.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-07-2022/1656937756971.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946503729.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665404611116.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665404575286.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665404550219.jpg"
+            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro2.webp",
+            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro3.webp",
+            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro4.webp",
+            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro5.webp",
+            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro6.webp"
         ]
     },
     {
@@ -1875,18 +1567,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665404977239.jpg",
+        "img": "../src/assets/products/ipacy_pro/ipacy_pro1.webp",
         "designSpecifications": [
             "Ipacy Pro, thinkPrint, 420232, Black, 42x27x13cm, Water Resistant Material, 200g, 5x5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665404977239.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2021/1638620096307.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946870917.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665405098385.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665405081536.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665405065611.jpg"
+            "../src/assets/products/ipacy_pro/ipacy_pro2.webp",
+            "../src/assets/products/ipacy_pro/ipacy_pro3.webp",
+            "../src/assets/products/ipacy_pro/ipacy_pro4.webp",
+            "../src/assets/products/ipacy_pro/ipacy_pro5.webp",
+            "../src/assets/products/ipacy_pro/ipacy_pro6.webp"
         ]
     },
     {
@@ -1897,18 +1588,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324431026.jpg",
+        "img": "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)1.webp",
         "designSpecifications": [
             "DUFLPAC (SPORT), thinkPrint, 420222, Charcoal Gray, 24\" x 12\" x 12\" (Unfolded), Premium Nylon, 1.5 lbs, 6\" x 4\" (Front Panel), Screen Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324431026.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318177567.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324417991.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324422515.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324426580.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324431026.jpg"
+            "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)2.webp",
+            "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)3.webp",
+            "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)4.webp",
+            "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)5.webp"
         ]
     },
     {
@@ -1919,18 +1608,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324036372.jpg",
+        "img": "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac1.webp",
         "designSpecifications": [
             "DUFLPAC, thinkPrint, 420232, Indigo Denim, 19*20*3cm (folded), Premium Denim (Water-Resistant Coated), <500g, Front Compartment (10cm x 15cm), Screen Printing, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324036372.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587316263499.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946462939.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324011858.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324015930.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597324023381.jpg"
+            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac2.webp",
+            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac3.webp",
+            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac4.webp",
+            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac5.webp",
+            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac6.webp"
         ]
     },
     {
@@ -1941,20 +1629,20 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323749572.jpg",
+        "img": "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.01.webp",
         "designSpecifications": [
             "iPACY 2.0, thinkPrint, 420232, Indigo Denim, 45cm x 30cm x 20cm (Unfolded), Premium Denim (Water Resistant Coated), 0.7kg, 10cm x 5cm (Front Top Center), Embroidery/Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323749572.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587316220629.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323731671.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323736261.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323740556.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323744994.jpg"
+            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.02.webp",
+            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.03.webp",
+            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.04.webp",
+            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.05.webp",
+            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.06.webp"
         ]
-    },{
+    },
+    {
         "id": 83,
         "title": "Foldable Backpack - Ipacy Pro",
         "shortDescription": "ThinkPrint Ipacy Pro: A lightweight, water-resistant, foldable travel backpack with adjustable straps and multiple pockets, ideal for everyday and travel use.",
@@ -1962,7 +1650,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588258676283.jpg",
+        "img": "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro1.webp",
         "designSpecifications": [
             "Compact when folded: 16 x 22 cm",
             "Expanded size: 42 x 27 x 13 cm (15L capacity)",
@@ -1976,14 +1664,13 @@ export const products = [
             "HSN Code: 420232"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588258676283.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690353254655.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946933493.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588258660600.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588258665741.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588258669478.jpg"
+            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro2.webp",
+            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro3.webp",
+            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro4.webp",
+            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro5.webp",
+            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro6.webp"
         ]
-    },    
+    },
     {
         "id": 84,
         "title": "FOLIO",
@@ -1992,17 +1679,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/24-09-2024/1727175007979.jpg",
+        "img": "../src/assets/products/folio/folio1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-09-2024/1727175007979.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-09-2024/1727181996613.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946589351.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-09-2024/1727174957158.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-09-2024/1727174961180.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-09-2024/1727174964880.jpg"
+            "../src/assets/products/folio/folio2.webp",
+            "../src/assets/products/folio/folio3.webp",
+            "../src/assets/products/folio/folio4.webp",
+            "../src/assets/products/folio/folio5.webp",
+            "../src/assets/products/folio/folio6.webp"
         ]
     },
     {
@@ -2013,17 +1699,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2024/1724735760126.jpg",
+        "img": "../src/assets/products/dual_sleeve/dual_sleeve1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2024/1724735760126.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2024/1724735700192.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2024/1724735704753.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2024/1724735708535.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2024/1724735722923.jpg"
+            "../src/assets/products/dual_sleeve/dual_sleeve3.webp",
+            "../src/assets/products/dual_sleeve/dual_sleeve4.webp",
+            "../src/assets/products/dual_sleeve/dual_sleeve5.webp",
+            "../src/assets/products/dual_sleeve/dual_sleeve6.webp"
         ]
     },
     {
@@ -2034,18 +1718,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707136474018.jpg",
+        "img": "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag1.webp",
         "designSpecifications": [
             "Office Bag, thinkPrint, 42029900, Charcoal Grey, 39*28*2Cm, Velour, 0.6 Kg, 5x5Cm, Embroidery/Screen Printing, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707136474018.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-01-2024/1706703500776.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707136462473.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707136466772.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707136470379.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707136474018.jpg"
+            "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag2.webp",
+            "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag3.webp",
+            "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag4.webp",
+            "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag5.webp"
         ]
     },
     {
@@ -2056,18 +1738,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-02-2023/1676638231032.jpeg",
+        "img": "../src/assets/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro1.webp",
         "designSpecifications": [
             "CAREPAC PRO, thinkPrint, 42029900, Black, 25cm x 18cm x 10cm, 600D Polyester, 300g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-02-2023/1676638231032.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-02-2023/1676638231032.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-02-2023/1676638231032.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317077908.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666944115242.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317151732.jpeg"
+            "../src/assets/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro2.webp",
+            "../src/assets/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro3.webp",
+            "../src/assets/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro4.webp"
         ]
     },
     {
@@ -2078,18 +1757,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687342768339.jpg",
+        "img": "../src/assets/products/digipouch_2.0/digipouch_2.01.webp",
         "designSpecifications": [
             "DIGIPOUCH 2.0, thinkPrint, 4202, Indigo Denim, 24*17.5*3cm (Closed), Premium Denim, 250g, 5x5cm (Front), Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687342768339.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-02-2023/1675421757735.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729934705479.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687342750570.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687342753828.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687342757486.jpg"
+            "../src/assets/products/digipouch_2.0/digipouch_2.02.webp",
+            "../src/assets/products/digipouch_2.0/digipouch_2.03.webp",
+            "../src/assets/products/digipouch_2.0/digipouch_2.04.webp",
+            "../src/assets/products/digipouch_2.0/digipouch_2.05.webp",
+            "../src/assets/products/digipouch_2.0/digipouch_2.06.webp"
         ]
     },
     {
@@ -2100,18 +1778,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399371501.jpeg",
+        "img": "../src/assets/products/lappy/lappy1.webp",
         "designSpecifications": [
             "LAPPY Cushioned Laptop Sleeve, thinkPrint, 42021250, Undefined, 40 x 28 cm, Vegan Leather + Canvas, 300g, 5 x 5 cm, Screen Printing, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399371501.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-10-2021/1634977848161.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399593646.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399568032.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399531806.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399457515.jpeg"
+            "../src/assets/products/lappy/lappy2.webp",
+            "../src/assets/products/lappy/lappy3.webp",
+            "../src/assets/products/lappy/lappy4.webp",
+            "../src/assets/products/lappy/lappy5.webp",
+            "../src/assets/products/lappy/lappy6.webp"
         ]
     },
     {
@@ -2122,18 +1799,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687266970703.jpg",
+        "img": "../src/assets/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.01.webp",
         "designSpecifications": [
             "CAREPAC 2.0, thinkPrint, 420232, Blue, 25cm x 15cm x 10cm, Premium Denim with Water-Resistant Coating, 250g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687266970703.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587316973106.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687266963234.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687266967313.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687266970703.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587316973106.jpeg"
+            "../src/assets/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.02.webp",
+            "../src/assets/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.03.webp",
+            "../src/assets/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.04.webp"
         ]
     },
     {
@@ -2144,17 +1818,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687339544038.jpg",
+        "img": "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687339544038.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317221337.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687339508167.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687339512624.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687339516329.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687339520146.jpg"
+            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact2.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact3.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact4.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact5.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact6.webp"
         ]
     },
     {
@@ -2165,17 +1838,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687335340754.jpg",
+        "img": "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687335340754.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317151732.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687335309491.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687335313965.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687335317664.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687335321192.jpg"
+            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro2.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro3.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro4.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro5.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro6.webp"
         ]
     },
     {
@@ -2186,17 +1858,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687341746622.jpg",
+        "img": "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687341746622.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2022/1666944115242.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687341726471.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687341730251.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687341734414.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687341738158.jpg"
+            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch2.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch3.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch4.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch5.webp",
+            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch6.webp"
         ]
     },
     {
@@ -2207,18 +1878,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588260600807.jpg",
+        "img": "../src/assets/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac1.webp",
         "designSpecifications": [
             "MULTIPAC, thinkPrint, 420212, Grey, 25cm x 18cm x 8cm, Water-resistant Nylon, 250g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588260600807.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317077908.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588260593314.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588260597395.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588260600807.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317077908.jpeg"
+            "../src/assets/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac2.webp",
+            "../src/assets/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac3.webp",
+            "../src/assets/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac4.webp"
         ]
     },
     {
@@ -2229,17 +1897,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687328725634.jpg",
+        "img": "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687328725634.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318299123.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687328690253.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687328694418.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687328698170.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687328702025.jpg"
+            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr2.webp",
+            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr3.webp",
+            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr4.webp",
+            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr5.webp",
+            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr6.webp"
         ]
     },
     {
@@ -2250,17 +1917,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687331855010.jpg",
+        "img": "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687331855010.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317434726.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687331813381.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687331819926.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687331830928.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-06-2023/1687331836668.jpg"
+            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac2.webp",
+            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac3.webp",
+            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac4.webp",
+            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac5.webp",
+            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac6.webp"
         ]
     },
     {
@@ -2271,18 +1937,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261707094.jpg",
+        "img": "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator1.webp",
         "designSpecifications": [
             "AVIATOR, thinkPrint, 420212, Neutral Black, 9.8*17.8*0.7 cm (Closed), High Quality Faux Leather, 80g, 2x2 cm, Debossing, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261707094.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317385772.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729930798876.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261695329.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261699326.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261703211.jpg"
+            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator2.webp",
+            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator3.webp",
+            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator4.webp",
+            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator5.webp",
+            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator6.webp"
         ]
     },
     {
@@ -2293,18 +1958,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261935625.jpg",
+        "img": "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.1.webp",
         "designSpecifications": [
             "AVION JR. Passport Cover, thinkPrint, 420212, Black, 15cm x 11cm x 1.5cm, High-Quality Faux Leather, 85g, 5cm x 2cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261935625.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317353880.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261921682.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261927155.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261931385.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261935625.jpg"
+            "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.2.webp",
+            "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.3.webp",
+            "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.4.webp",
+            "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.5.webp"
         ]
     },
     {
@@ -2315,18 +1978,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261313111.jpg",
+        "img": "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion1.webp",
         "designSpecifications": [
             "AVION Travel Passport Cover, thinkPrint, 420299, Jet Black, 15cm x 11cm x 1.5cm, Premium Faux Leather, 85g, 5cm x 2cm, Debossing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261313111.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317319359.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261300994.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261305447.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261309194.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588261313111.jpg"
+            "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion2.webp",
+            "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion3.webp",
+            "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion4.webp",
+            "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion5.webp"
         ]
     },
     {
@@ -2337,18 +1998,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/31-01-2024/1706703496083.jpeg",
+        "img": "../src/assets/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch1.webp",
         "designSpecifications": [
             "MULTI POUCH, thinkPrint, 42029900, Black, 18.5*7.5*11 cm, Polyester, 150g (estimated), 5x5 cm (front panel), Screen Printing, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-01-2024/1706703496083.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-01-2024/1706703496083.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-01-2024/1706703496083.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317887036.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317965854.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318126504.jpeg"
+            "../src/assets/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch2.webp",
+            "../src/assets/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch3.webp",
+            "../src/assets/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch4.webp"
         ]
     },
     {
@@ -2359,18 +2017,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692689829097.jpg",
+        "img": "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer1.webp",
         "designSpecifications": [
             "TECHIE DUAL POUCH, thinkPrint, 39269099, Grey, 28*21*9 Cm, Polyester + Faux Leather, Adjustable Velcro Partition, Screen Printing, No RGB Lighting Effects.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692689829097.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-08-2023/1691226922659.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692702709804.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692702714297.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692702717740.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692702721234.jpg"
+            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer2.webp",
+            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer3.webp",
+            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer4.webp",
+            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer5.webp",
+            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer6.webp"
         ]
     },
     {
@@ -2381,17 +2038,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692689591086.jpg",
+        "img": "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692689591086.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-08-2023/1691226785760.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946300997.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692702889228.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692702892779.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692702896647.jpg"
+            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer2.webp",
+            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer3.webp",
+            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer4.webp",
+            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer5.webp",
+            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer6.webp"
         ]
     },
     {
@@ -2402,17 +2058,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692690072443.jpg",
+        "img": "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692690072443.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729934256416.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729934260679.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692703235362.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692703239538.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692703242954.jpg"
+            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer2.webp",
+            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer3.webp",
+            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer4.webp",
+            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer5.webp",
+            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer6.webp"
         ]
     },
     {
@@ -2423,17 +2078,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692689953494.jpg",
+        "img": "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692689953494.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-08-2023/1691220938513.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692703146331.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692703150183.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692703153793.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-08-2023/1692689945810.jpg"
+            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer2.webp",
+            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer3.webp",
+            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer4.webp",
+            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer5.webp",
+            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer6.webp"
         ]
     },
     {
@@ -2444,17 +2098,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150665074.jpg",
+        "img": "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150665074.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150603355.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946970578.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150608793.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150613289.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150617647.jpg"
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag2.webp",
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag3.webp",
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag4.webp",
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag5.webp",
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag6.webp"
         ]
     },
     {
@@ -2465,17 +2118,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687418789339.jpeg",
+        "img": "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687418789339.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318126504.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687418758446.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687418762713.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687418766607.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687418770181.jpeg"
+            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ2.webp",
+            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ3.webp",
+            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ4.webp",
+            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ5.webp",
+            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ6.webp"
         ]
     },
     {
@@ -2486,17 +2138,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588263253938.PNG",
+        "img": "../src/assets/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588263253938.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317965854.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588263250611.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588263253938.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317965854.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317965854.jpeg"
+            "../src/assets/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon2.webp",
+            "../src/assets/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon3.webp"
         ]
     },
     {
@@ -2507,17 +2155,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597385417315.jpg",
+        "img": "../src/assets/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597385417315.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317887036.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597385408298.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597385413277.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597385417315.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587317887036.jpeg"
+            "../src/assets/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac2.webp",
+            "../src/assets/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac3.webp",
+            "../src/assets/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac4.webp"
         ]
     },
     {
@@ -2528,17 +2173,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754175850.jpg",
+        "img": "../src/assets/products/buddy_combo/buddy_combo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754175850.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754006114.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754165156.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754168698.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754172214.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754175850.jpg"
+            "../src/assets/products/buddy_combo/buddy_combo2.webp",
+            "../src/assets/products/buddy_combo/buddy_combo3.webp",
+            "../src/assets/products/buddy_combo/buddy_combo4.webp",
+            "../src/assets/products/buddy_combo/buddy_combo5.webp"
         ]
     },
     {
@@ -2549,17 +2192,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-06-2023/1685958859579.jpg",
+        "img": "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-06-2023/1685958859579.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-06-2023/1685796516993.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-06-2023/1685958814306.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-06-2023/1685958819595.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-06-2023/1685958823514.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-06-2023/1685958827738.jpg"
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate2.webp",
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate3.webp",
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate4.webp",
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate5.webp",
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate6.webp"
         ]
     },
     {
@@ -2570,18 +2212,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597386789070.jpg",
+        "img": "../src/assets/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie1.webp",
         "designSpecifications": [
             "Hoodie Neck Pillow, thinkPrint, 9404, Grey, 30x30x10 cm, Memory Foam & Polyester Cover, 350g, 10x5 cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597386789070.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318439908.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597386779828.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597386784633.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597386789070.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318439908.jpeg"
+            "../src/assets/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie2.webp",
+            "../src/assets/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie3.webp",
+            "../src/assets/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie4.webp"
         ]
     },
     {
@@ -2592,18 +2231,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687415352841.JPG",
+        "img": "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.01.webp",
         "designSpecifications": [
             "BUDDY 2.0, thinkPrint, 392113, Charcoal Gray, 28*30*8cm (folded), Memory Foam & Breathable Fabric, 350g, 10x5cm, Screen Printing/Embroidery, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687415352841.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318370488.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687415305113.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687415308840.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687415312921.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687415316666.jpg"
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.02.webp",
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.03.webp",
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.04.webp",
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.05.webp",
+            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.06.webp"
         ]
     },
     {
@@ -2614,18 +2252,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731400546990.jpeg",
+        "img": "../src/assets/products/torchella/torchella1.webp",
         "designSpecifications": [
             "Torchella, thinkPrint, 66019900, Black, 32 inch Arc, Aluminium Alloy, 450g, 6 x 2 inch, Screen Printing, UV Printing, DTF Sticker",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731400546990.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731400543383.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731407396655.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731407400619.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731407404345.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731407407676.jpg"
+            "../src/assets/products/torchella/torchella2.webp",
+            "../src/assets/products/torchella/torchella3.webp",
+            "../src/assets/products/torchella/torchella4.webp",
+            "../src/assets/products/torchella/torchella5.webp",
+            "../src/assets/products/torchella/torchella6.webp"
         ]
     },
     {
@@ -2636,18 +2273,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731398679498.jpg",
+        "img": "../src/assets/products/klipp/klipp1.webp",
         "designSpecifications": [
             "KLIPP Automatic Umbrella, thinkPrint, 66019900, Black, 3-Fold (Collapsed: 12 inches length), Aluminum Alloy, 0.8 lbs, 2 x 2 inches on canopy, UV Printing/DTF Sticker, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731398679498.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731398659284.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731398662410.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731398665662.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731398668977.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731398672330.jpg"
+            "../src/assets/products/klipp/klipp2.webp",
+            "../src/assets/products/klipp/klipp3.webp",
+            "../src/assets/products/klipp/klipp4.webp",
+            "../src/assets/products/klipp/klipp5.webp",
+            "../src/assets/products/klipp/klipp6.webp"
         ]
     },
     {
@@ -2658,18 +2294,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235076193.jpg",
+        "img": "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case1.webp",
         "designSpecifications": [
             "CHATRI UV PRO, thinkPrint, 66019900, Black, 50cm Radius x 15cm Closed Height, EVA Case, TBD, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235076193.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-10-2023/1698672638669.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235060775.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235064795.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235068327.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235072424.jpg"
+            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case2.webp",
+            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case3.webp",
+            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case4.webp",
+            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case5.webp",
+            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case6.webp"
         ]
     },
     {
@@ -2680,18 +2315,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235050245.jpg",
+        "img": "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella1.webp",
         "designSpecifications": [
             "MATIC Automatic Open-Close Umbrella, thinkPrint, 66019900, Black, 55cm Radius x 28cm Height (Closed), 99% UV Protection.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235050245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-10-2023/1698672726313.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235031183.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235035751.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235039338.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-10-2023/1698235043121.jpg"
+            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella2.webp",
+            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella3.webp",
+            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella4.webp",
+            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella5.webp",
+            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella6.webp"
         ]
     },
     {
@@ -2702,17 +2336,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399061937.JPG",
+        "img": "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399061937.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-11-2021/1637228415664.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399228668.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399207315.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399187412.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399167289.JPG"
+            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri2.webp",
+            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri3.webp",
+            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri4.webp",
+            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri5.webp",
+            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri6.webp"
         ]
     },
     {
@@ -2723,17 +2356,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588266112304.jpg",
+        "img": "../src/assets/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588266112304.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318632898.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588266100979.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588266106967.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588266112304.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587318632898.jpeg"
+            "../src/assets/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl2.webp",
+            "../src/assets/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl3.webp",
+            "../src/assets/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl4.webp"
         ]
     },
     {
@@ -2744,17 +2374,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-09-2024/1727074592144.jpg",
+        "img": "../src/assets/products/deux/deux1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-09-2024/1727074592144.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729930858575.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-09-2024/1727074565335.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-09-2024/1727074569276.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-09-2024/1727074573207.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-09-2024/1727074577086.jpg"
+            "../src/assets/products/deux/deux2.webp",
+            "../src/assets/products/deux/deux3.webp",
+            "../src/assets/products/deux/deux4.webp",
+            "../src/assets/products/deux/deux5.webp",
+            "../src/assets/products/deux/deux6.webp"
         ]
     },
     {
@@ -2765,17 +2394,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-08-2024/1723108276468.jpeg",
+        "img": "../src/assets/products/zipcase/zipcase1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-08-2024/1723108276468.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-08-2024/1723108241362.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-08-2024/1723108245992.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-08-2024/1723108250061.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-08-2024/1723108254164.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-08-2024/1723108257709.jpg"
+            "../src/assets/products/zipcase/zipcase2.webp",
+            "../src/assets/products/zipcase/zipcase3.webp",
+            "../src/assets/products/zipcase/zipcase4.webp",
+            "../src/assets/products/zipcase/zipcase5.webp",
+            "../src/assets/products/zipcase/zipcase6.webp"
         ]
     },
     {
@@ -2786,17 +2414,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-04-2024/1712047536304.jpeg",
+        "img": "../src/assets/products/edge/edge1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-04-2024/1712047536304.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946544494.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-04-2024/1712048668006.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-04-2024/1712048672869.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-04-2024/1712048676838.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-04-2024/1712048680535.jpg"
+            "../src/assets/products/edge/edge2.webp",
+            "../src/assets/products/edge/edge3.webp",
+            "../src/assets/products/edge/edge4.webp",
+            "../src/assets/products/edge/edge5.webp",
+            "../src/assets/products/edge/edge6.webp"
         ]
     },
     {
@@ -2807,17 +2434,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707135707367.jpg",
+        "img": "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707135707367.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-01-2024/1706702202225.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707135670142.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707135675313.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707135679671.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-02-2024/1707135683930.jpg"
+            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter2.webp",
+            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter3.webp",
+            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter4.webp",
+            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter5.webp",
+            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter6.webp"
         ]
     },
     {
@@ -2828,17 +2454,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700897551523.jpg",
+        "img": "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700897551523.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700897508922.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700897512897.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700897516421.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700897519782.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700897523144.jpg"
+            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack2.webp",
+            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack3.webp",
+            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack4.webp",
+            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack5.webp",
+            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack6.webp"
         ]
     },
     {
@@ -2849,17 +2474,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/31-07-2023/1690806239993.jpg",
+        "img": "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-07-2023/1690806239993.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-07-2023/1690806214864.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-07-2023/1690806218837.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-07-2023/1690806224336.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-07-2023/1690806228818.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-07-2023/1690806232637.jpg"
+            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter2.webp",
+            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter3.webp",
+            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter4.webp",
+            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter5.webp",
+            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter6.webp"
         ]
     },
     {
@@ -2874,14 +2498,7 @@ export const products = [
         "designSpecifications": [
             "N/A"
         ],
-        "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690374972999.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690374932682.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946411746.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690374936350.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690374939852.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2023/1690374943901.jpg"
-        ]
+        "thumbnailImages": []
     },
     {
         "id": 126,
@@ -2891,7 +2508,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/31-03-2023/1680256089016.jpg",
+        "img": "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack1.webp",
         "designSpecifications": [
             "NEXUS, thinkPrint, 420299, Black, 43x32x16cm",
             "Padded Laptop Compartment Upto 15.6\"",
@@ -2900,12 +2517,11 @@ export const products = [
             "Trolley Belt"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-03-2023/1680256089016.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-03-2023/1680256045379.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-03-2023/1680256049200.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-03-2023/1680256053272.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-03-2023/1680256057324.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-03-2023/1680256061404.jpg"
+            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack2.webp",
+            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack3.webp",
+            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack4.webp",
+            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack5.webp",
+            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack6.webp"
         ]
     },
     {
@@ -2916,18 +2532,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665403509425.jpg",
+        "img": "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello1.webp",
         "designSpecifications": [
             "TRAVELLO, thinkPrint, 42029900, Black, 47 x 29 x 24 cm, Hand-washable Polyester, 1.2 kg, 10 x 5 cm, Screen Printing/Embroidery, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665403509425.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2022/1656747414460.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-10-2023/1697878704356.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-10-2023/1697878708522.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-10-2023/1697878711929.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-10-2023/1697878715282.jpeg"
+            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello2.webp",
+            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello3.webp",
+            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello4.webp",
+            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello5.webp",
+            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello6.webp"
         ]
     },
     {
@@ -2938,18 +2553,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399661725.jpeg",
+        "img": "../src/assets/products/slim_backpack-prime/slim_backpack-prime1.webp",
         "designSpecifications": [
             "PRIME, thinkPrint, 42021250, Black, 16*11*4.5cm, Hand-wash Material, 400g, 5x5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399661725.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2021/1631790211203.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399712767.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399693957.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399678424.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399661725.jpeg"
+            "../src/assets/products/slim_backpack-prime/slim_backpack-prime2.webp",
+            "../src/assets/products/slim_backpack-prime/slim_backpack-prime3.webp",
+            "../src/assets/products/slim_backpack-prime/slim_backpack-prime4.webp",
+            "../src/assets/products/slim_backpack-prime/slim_backpack-prime5.webp"
         ]
     },
     {
@@ -2960,18 +2573,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399989633.jpeg",
+        "img": "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy1.webp",
         "designSpecifications": [
             "GYPSY, thinkPrint, 42021250, Grey / Dark Grey, 45cm x 30cm x 15cm, 600D Polyester, 600g, 10cm x 5cm, Screen Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665399989633.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2021/1631788256685.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946790929.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665400109947.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665400090178.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665400061195.jpg"
+            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy2.webp",
+            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy3.webp",
+            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy4.webp",
+            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy5.webp",
+            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy6.webp"
         ]
     },
     {
@@ -2982,18 +2594,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2021/1625295477818.jpeg",
+        "img": "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender1.webp",
         "designSpecifications": [
             "WEEKENDER, thinkPrint, 42029900, Black, 43*31*12cm, Hand-Washable Fabric, 1.5kg, 5x5cm, Screen Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2021/1625295477818.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-04-2021/1619418161681.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669968608765.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669968613409.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669968617883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669968622082.jpg"
+            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender2.webp",
+            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender3.webp",
+            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender4.webp",
+            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender5.webp",
+            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender6.webp"
         ]
     },
     {
@@ -3004,18 +2615,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687244492750.jpg",
+        "img": "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm1.webp",
         "designSpecifications": [
             "SLIMM, thinkPrint, 420299, Undefined, 41*29*12cm, Durable Polyester Fabric, Undefined, Undefined, Undefined, Undefined, Undefined, Undefined",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687244492750.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2021/1617885373628.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687244438099.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687244442942.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687244446984.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-06-2023/1687244451117.jpg"
+            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm2.webp",
+            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm3.webp",
+            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm4.webp",
+            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm5.webp",
+            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm6.webp"
         ]
     },
     {
@@ -3026,17 +2636,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-03-2024/1709884937491.jpeg",
+        "img": "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-03-2024/1709884937491.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709814894331.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-03-2024/1709884902652.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-03-2024/1709884908048.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-03-2024/1709884912409.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-03-2024/1709884916112.jpg"
+            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter2.webp",
+            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter3.webp",
+            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter4.webp",
+            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter5.webp",
+            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter6.webp"
         ]
     },
     {
@@ -3047,17 +2656,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150665074.jpg",
+        "img": "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150665074.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150603355.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2024/1729946970578.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150608793.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150613289.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-02-2023/1677150617647.jpg"
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag2.webp",
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag3.webp",
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag4.webp",
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag5.webp",
+            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag6.webp"
         ]
     },
     {
@@ -3068,18 +2676,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-05-2023/1683272566148.jpg",
+        "img": "../src/assets/products/card_holder-cardy_3/card_holder-cardy_31.webp",
         "designSpecifications": [
             "UG NAME CARDY 3, thinkPrint, 42023110, Black, 9.5*1.3*6CM, Faux Leather, 50g, 5*2CM, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-05-2023/1683272566148.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-11-2022/1667560089273.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-05-2023/1683272537449.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-05-2023/1683272542285.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-05-2023/1683272546401.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-05-2023/1683272550311.jpg"
+            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_32.webp",
+            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_33.webp",
+            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_34.webp",
+            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_35.webp",
+            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_36.webp"
         ]
     },
     {
@@ -3090,18 +2697,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665137020434.jpeg",
+        "img": "../src/assets/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play1.webp",
         "designSpecifications": [
             "DESK PLAY, thinkPrint, 4202, Charcoal Grey, 74*36cm, Felt with Anti-Skid Rubber, 450g, 10*5cm, Screen Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665137020434.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2021/1627296495929.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665137068531.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665137020434.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2021/1627296495929.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-07-2021/1627296495929.jpeg"
+            "../src/assets/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play2.webp",
+            "../src/assets/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play3.webp"
         ]
     },
     {
@@ -3112,18 +2715,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692266753038.jpg",
+        "img": "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn1.webp",
         "designSpecifications": [
             "FLYNN, thinkPrint, 960810, Metallic Silver, 1*1.5*14.3cm, Aluminum Alloy, 25g, 0.5*3cm, Laser Engraving & Color Fill, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692266753038.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587308116470.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692266905654.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692266740538.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692266744959.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692266749545.jpg"
+            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn2.webp",
+            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn3.webp",
+            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn4.webp",
+            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn5.webp",
+            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn6.webp"
         ]
     },
     {
@@ -3134,18 +2736,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597388059287.jpg",
+        "img": "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.01.webp",
         "designSpecifications": [
             "TIME FRAME 2.0, thinkPrint, 392690, Silver, 4.5 x 4.5 x 1.5 inches, Brushed Silver Aluminium, 0.75 lbs, 2 x 0.5 inches, Laser Engraving, None, None, CR2032",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597388059287.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587280689551.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597388046322.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597388050487.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597388055041.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597388059287.jpg"
+            "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.02.webp",
+            "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.03.webp",
+            "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.04.webp",
+            "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.05.webp"
         ]
     },
     {
@@ -3156,18 +2756,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387930854.jpg",
+        "img": "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame1.webp",
         "designSpecifications": [
             "TIME FRAME, thinkPrint, 851821, Silver, 5 x 3.5 inches, Brushed Silver Aluminium, 200g, 1 x 0.5 inches, Laser Engraving, No RGB Lighting Effects, No Speaker Output, CR2032 Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387930854.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587280062625.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387918280.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387922433.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387926556.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387930854.jpg"
+            "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame2.webp",
+            "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame3.webp",
+            "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame4.webp",
+            "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame5.webp"
         ]
     },
     {
@@ -3178,17 +2776,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387846177.jpg",
+        "img": "../src/assets/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387846177.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587279566038.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387836420.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387841928.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387846177.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587279566038.jpeg"
+            "../src/assets/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix2.webp",
+            "../src/assets/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix3.webp",
+            "../src/assets/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix4.webp"
         ]
     },
     {
@@ -3199,17 +2794,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387720660.PNG",
+        "img": "../src/assets/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387720660.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587279092731.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387711366.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387716498.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597387720660.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587279092731.jpeg"
+            "../src/assets/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix2.webp",
+            "../src/assets/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix3.webp",
+            "../src/assets/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix4.webp"
         ]
     },
     {
@@ -3220,18 +2812,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2024/1735554544042.jpg",
+        "img": "../src/assets/products/bilbao/bilbao1.webp",
         "designSpecifications": [
             "BILBAO PREMIUM ECO METAL PEN, thinkPrint, 96081019, Silver, 14.5 x 1 x 1.4cm, Metal with Cork and Bamboo Clip, 15g, 5 x 0.7cm (Barrel), ENGRAVE, SCREEN PRINTING, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2024/1735554544042.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2024/1735554531881.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2024/1735554537014.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2024/1735554540650.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2024/1735554544042.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2024/1735554531881.jpeg"
+            "../src/assets/products/bilbao/bilbao2.webp",
+            "../src/assets/products/bilbao/bilbao3.webp",
+            "../src/assets/products/bilbao/bilbao4.webp"
         ]
     },
     {
@@ -3242,18 +2831,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-05-2023/1685015954172.jpg",
+        "img": "../src/assets/products/valencia_metal_pen/valencia_metal_pen1.webp",
         "designSpecifications": [
             "VALENCIA METAL PEN, thinkPrint, 960810, Black, 1*1.2*13 cm, Sleek Metal, 25g, 4*0.7 cm, Engrave and Print, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-05-2023/1685015954172.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-05-2023/1685015914707.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-05-2023/1685015919393.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-05-2023/1685015923298.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-05-2023/1685015927392.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-05-2023/1685015931126.jpg"
+            "../src/assets/products/valencia_metal_pen/valencia_metal_pen2.webp",
+            "../src/assets/products/valencia_metal_pen/valencia_metal_pen3.webp",
+            "../src/assets/products/valencia_metal_pen/valencia_metal_pen4.webp",
+            "../src/assets/products/valencia_metal_pen/valencia_metal_pen5.webp",
+            "../src/assets/products/valencia_metal_pen/valencia_metal_pen6.webp"
         ]
     },
     {
@@ -3264,18 +2852,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/24-02-2023/1677241475728.jpg",
+        "img": "../src/assets/products/bamboo_pen/bamboo_pen1.webp",
         "designSpecifications": [
             "Bamboo Pen Stylus Metal Pens, thinkPrint, 960810, Natural Bamboo, 14*1*1.5cm, Bamboo & Metal, 15g, 5*0.7cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-02-2023/1677241475728.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-02-2023/1677241433015.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-02-2023/1677241437698.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-02-2023/1677241441145.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-02-2023/1677241444771.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-02-2023/1677241448162.jpg"
+            "../src/assets/products/bamboo_pen/bamboo_pen2.webp",
+            "../src/assets/products/bamboo_pen/bamboo_pen3.webp",
+            "../src/assets/products/bamboo_pen/bamboo_pen4.webp",
+            "../src/assets/products/bamboo_pen/bamboo_pen5.webp",
+            "../src/assets/products/bamboo_pen/bamboo_pen6.webp"
         ]
     },
     {
@@ -3286,18 +2873,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410139778.jpg",
+        "img": "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin1.webp",
         "designSpecifications": [
             "TURIN, thinkPrint, 96081019, Black, 1x1.5x13.7cm, Aluminum Alloy, 25g, 0.8x3cm, Laser Engraving, None, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410139778.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-03-2023/1678878963231.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676877300116.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676877305810.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676877309761.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676877314426.jpg"
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin2.webp",
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin3.webp",
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin4.webp",
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin5.webp",
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin6.webp"
         ]
     },
     {
@@ -3308,18 +2894,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665491257864.jpg",
+        "img": "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper1.webp",
         "designSpecifications": [
             "GRIPPER, thinkPrint, 96081019, Matte Black, 1 x 1.5 x 13.8 cm, Metal, 30g, 0.8 x 4 cm, Engrave & Print, No RGB Lighting Effects, No Speaker Output, No Battery.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665491257864.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-07-2022/1657014300975.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665491438266.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665491419426.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665491394358.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665491377133.jpg"
+            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper2.webp",
+            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper3.webp",
+            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper4.webp",
+            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper5.webp",
+            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper6.webp"
         ]
     },
     {
@@ -3330,18 +2915,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488394818.jpg",
+        "img": "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta1.webp",
         "designSpecifications": [
             "BRIO VELVETTA, thinkPrint, 96081019, Blue, 1 x 1.3 x 13.5 cms, ABS Plastic, 15 grams, 0.5 x 3 cms, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488394818.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-07-2022/1656937974815.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783110254.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783114725.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783118126.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783121876.jpg"
+            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta2.webp",
+            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta3.webp",
+            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta4.webp",
+            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta5.webp",
+            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta6.webp"
         ]
     },
     {
@@ -3352,17 +2936,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488284039.jpg",
+        "img": "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488284039.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-12-2022/1671780588125.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488341935.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488325032.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488307289.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488284039.jpg"
+            "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa2.webp",
+            "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa3.webp",
+            "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa4.webp",
+            "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa5.webp"
         ]
     },
     {
@@ -3373,17 +2955,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665487777770.jpg",
+        "img": "../src/assets/products/proton/proton1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665487777770.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2022/1651486821745.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692277627540.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692277631924.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692277635400.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-10-2022/1665488082956.jpg"
+            "../src/assets/products/proton/proton2.webp",
+            "../src/assets/products/proton/proton3.webp",
+            "../src/assets/products/proton/proton4.webp",
+            "../src/assets/products/proton/proton5.webp",
+            "../src/assets/products/proton/proton6.webp"
         ]
     },
     {
@@ -3394,17 +2975,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615290036385.jpg",
+        "img": "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615290036385.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-01-2023/1673683145447.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-01-2023/1673683259651.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-01-2023/1673683264395.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-01-2023/1673683267592.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-01-2023/1673683270755.jpg"
+            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio2.webp",
+            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio3.webp",
+            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio4.webp",
+            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio5.webp",
+            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio6.webp"
         ]
     },
     {
@@ -3415,17 +2995,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615289816698.jpg",
+        "img": "../src/assets/products/metal_pens_-verona/metal_pens_-verona1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615289816698.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615289803071.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615289812439.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615289816698.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615289803071.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2021/1615289803071.jpeg"
+            "../src/assets/products/metal_pens_-verona/metal_pens_-verona2.webp",
+            "../src/assets/products/metal_pens_-verona/metal_pens_-verona3.webp"
         ]
     },
     {
@@ -3436,17 +3012,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507690926.jpg",
+        "img": "../src/assets/products/metal_pens_-_recoil/metal_pens_-_recoil1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507690926.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587309328008.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507684992.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507690926.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587309328008.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587309328008.jpeg"
+            "../src/assets/products/metal_pens_-_recoil/metal_pens_-_recoil2.webp",
+            "../src/assets/products/metal_pens_-_recoil/metal_pens_-_recoil3.webp"
         ]
     },
     {
@@ -3457,17 +3029,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-03-2021/1615874310233.jpg",
+        "img": "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-03-2021/1615874310233.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-04-2023/1682582054017.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-03-2021/1615874269088.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-03-2021/1615874274105.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-03-2021/1615874279096.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-03-2021/1615874284084.jpg"
+            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice2.webp",
+            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice3.webp",
+            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice4.webp",
+            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice5.webp",
+            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice6.webp"
         ]
     },
     {
@@ -3478,17 +3049,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507437175.PNG",
+        "img": "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507437175.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587308670899.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507419390.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507423989.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507428520.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595507432796.jpg"
+            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen2.webp",
+            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen3.webp",
+            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen4.webp",
+            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen5.webp",
+            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen6.webp"
         ]
     },
     {
@@ -3499,17 +3069,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783864109.jpg",
+        "img": "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783864109.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1666007092776.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783834963.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783838557.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783842027.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-08-2023/1692783845749.jpg"
+            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter2.webp",
+            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter3.webp",
+            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter4.webp",
+            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter5.webp",
+            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter6.webp"
         ]
     },
     {
@@ -3520,17 +3089,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431233594.PNG",
+        "img": "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431233594.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587307900799.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431219517.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431223057.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431226551.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431229839.PNG"
+            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva2.webp",
+            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva3.webp",
+            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva4.webp",
+            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva5.webp",
+            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva6.webp"
         ]
     },
     {
@@ -3541,18 +3109,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843927868.jpg",
+        "img": "../src/assets/products/pastello_metal_pen/pastello_metal_pen1.webp",
         "designSpecifications": [
             "PASTELLO, thinkPrint, 96081019, Pastel Pink, 1*1.2*13.7Cm, Metal Alloy, 15g, 0.5*3Cm, Laser Engrave/Pad Print, No, No, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843927868.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843898203.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843902170.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843905773.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843909598.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843913194.jpg"
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen2.webp",
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen3.webp",
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen4.webp",
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen5.webp",
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen6.webp"
         ]
     },
     {
@@ -3563,18 +3130,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843872022.jpg",
+        "img": "../src/assets/products/pastello_metal_pen/pastello_metal_pen1.webp",
         "designSpecifications": [
             "PASTELLO, thinkPrint, 96081019, Pastel Blue, 1*1.2*13.7cm, Metal, 15g, 0.5*3cm, Engrave & Print, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843872022.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843829056.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843833084.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843836732.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843840200.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-10-2023/1696843843664.jpg"
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen2.webp",
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen3.webp",
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen4.webp",
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen5.webp",
+            "../src/assets/products/pastello_metal_pen/pastello_metal_pen6.webp"
         ]
     },
     {
@@ -3585,18 +3151,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664358057.jpg",
+        "img": "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set1.webp",
         "designSpecifications": [
             "DUET, thinkPrint, 96081019, Black, 1x1.5x13.2 cm, Metal, 30g, 0.5x3 cm, Ball Engrave & Print, No, No, No Battery.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664358057.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664324497.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664328785.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664333602.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664338301.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664342371.jpg"
+            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set2.webp",
+            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set3.webp",
+            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set4.webp",
+            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set5.webp",
+            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set6.webp"
         ]
     },
     {
@@ -3607,7 +3172,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664317954.jpg",
+        "img": "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus1.webp",
         "designSpecifications": [
             "Latina Pen, thinkPrint, 96081019, Matte Black, 1*1.2*13.7cm, Rubberized Metal, 20g, 4*0.5cm, Engrave & Print, No RGB Lighting Effects",
             "Latina Pen, thinkPrint, 96081019, Silver, 1*1.2*13.7cm, Metallic cap and rubberized body, 20g, 4*0.5cm, Engrave & Print, No RGB Lighting Effects",
@@ -3616,12 +3181,11 @@ export const products = [
             "Latina Pen, thinkPrint, 96081019, Silver, 1*1.2*13.7cm, Metal with Rubberized Body, 20g, 4*0.5cm, Engrave & Print, No RGB Lighting Effects"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664317954.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664244681.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664249578.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664254633.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664258906.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664263841.jpg"
+            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus2.webp",
+            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus3.webp",
+            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus4.webp",
+            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus5.webp",
+            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus6.webp"
         ]
     },
     {
@@ -3632,7 +3196,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664221410.jpg",
+        "img": "../src/assets/products/pisa_metal_pen/pisa_metal_pen1.webp",
         "designSpecifications": [
             "PISA, thinkPrint, 96081019, Space Gray, 1*1.2*14.5cm, Aluminum Alloy, 15g, 0.8*3cm, Laser Engrave/Print, None, None, None",
             "PISA, thinkPrint, 96081019, Midnight Black, 1*1.2*14.5cm, Aluminum Alloy, 15g, 0.8*3cm, Laser Engrave/Print, None, None, None",
@@ -3641,12 +3205,11 @@ export const products = [
             "PISA, thinkPrint, 96081019, Forest Green, 1*1.2*14.5cm, Aluminum Alloy, 15g, 0.8*3cm, Laser Engrave/Print, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664221410.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664176916.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664181060.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664184666.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664188104.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2023/1691664191978.jpg"
+            "../src/assets/products/pisa_metal_pen/pisa_metal_pen2.webp",
+            "../src/assets/products/pisa_metal_pen/pisa_metal_pen3.webp",
+            "../src/assets/products/pisa_metal_pen/pisa_metal_pen4.webp",
+            "../src/assets/products/pisa_metal_pen/pisa_metal_pen5.webp",
+            "../src/assets/products/pisa_metal_pen/pisa_metal_pen6.webp"
         ]
     },
     {
@@ -3657,17 +3220,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410139778.jpg",
+        "img": "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2022/1670410139778.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-03-2023/1678878963231.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676877300116.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676877305810.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676877309761.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676877314426.jpg"
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin2.webp",
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin3.webp",
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin4.webp",
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin5.webp",
+            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin6.webp"
         ]
     },
     {
@@ -3678,17 +3240,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1666008190856.jpeg",
+        "img": "../src/assets/products/metal_pen-_milan/metal_pen-_milan1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1666008190856.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1666008186220.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1666008297713.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1666008281236.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1666008258298.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2022/1666008238016.jpeg"
+            "../src/assets/products/metal_pen-_milan/metal_pen-_milan2.webp",
+            "../src/assets/products/metal_pen-_milan/metal_pen-_milan3.webp",
+            "../src/assets/products/metal_pen-_milan/metal_pen-_milan4.webp",
+            "../src/assets/products/metal_pen-_milan/metal_pen-_milan5.webp",
+            "../src/assets/products/metal_pen-_milan/metal_pen-_milan6.webp"
         ]
     },
     {
@@ -3699,17 +3260,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561526607.jpg",
+        "img": "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561526607.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2021/1636716791037.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2023/1675322090760.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2023/1675322098090.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2023/1675322102373.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2023/1675322107221.jpg"
+            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen2.webp",
+            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen3.webp",
+            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen4.webp",
+            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen5.webp",
+            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen6.webp"
         ]
     },
     {
@@ -3720,17 +3280,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665560907230.jpg",
+        "img": "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665560907230.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-11-2021/1636614023199.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561338299.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561308804.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561226221.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561166677.jpg"
+            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism2.webp",
+            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism3.webp",
+            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism4.webp",
+            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism5.webp",
+            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism6.webp"
         ]
     },
     {
@@ -3741,17 +3300,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617704629578.jpeg",
+        "img": "../src/assets/products/metal_pens_-_roma/metal_pens_-_roma1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617704629578.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617704629578.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617704629578.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587306410708.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587306943187.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587307561587.jpeg"
+            "../src/assets/products/metal_pens_-_roma/metal_pens_-_roma2.webp",
+            "../src/assets/products/metal_pens_-_roma/metal_pens_-_roma3.webp",
+            "../src/assets/products/metal_pens_-_roma/metal_pens_-_roma4.webp"
         ]
     },
     {
@@ -3762,17 +3318,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692190727562.jpg",
+        "img": "../src/assets/products/metal_pens_-_turin/metal_pens_-_turin1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692190727562.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587307561587.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692190711125.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692190717226.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692190727562.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587307561587.jpeg"
+            "../src/assets/products/metal_pens_-_turin/metal_pens_-_turin2.webp",
+            "../src/assets/products/metal_pens_-_turin/metal_pens_-_turin3.webp",
+            "../src/assets/products/metal_pens_-_turin/metal_pens_-_turin4.webp"
         ]
     },
     {
@@ -3783,17 +3336,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595502659965.jpg",
+        "img": "../src/assets/products/metal_pens_-_parma/metal_pens_-_parma1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595502659965.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587306943187.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595502649560.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595502653801.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595502659965.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587306943187.jpeg"
+            "../src/assets/products/metal_pens_-_parma/metal_pens_-_parma2.webp",
+            "../src/assets/products/metal_pens_-_parma/metal_pens_-_parma3.webp",
+            "../src/assets/products/metal_pens_-_parma/metal_pens_-_parma4.webp"
         ]
     },
     {
@@ -3804,17 +3354,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588430634204.PNG",
+        "img": "../src/assets/products/metal_pens_-_naples/metal_pens_-_naples1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588430634204.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587306410708.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588430634204.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587306410708.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587306410708.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587306410708.jpeg"
+            "../src/assets/products/metal_pens_-_naples/metal_pens_-_naples2.webp"
         ]
     },
     {
@@ -3825,17 +3370,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638944780033.jpg",
+        "img": "../src/assets/products/card_holder_-_cardy/card_holder_-_cardy1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638944780033.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638944780033.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638944780033.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587281119229.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587282266472.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638944780033.jpg"
+            "../src/assets/products/card_holder_-_cardy/card_holder_-_cardy2.webp",
+            "../src/assets/products/card_holder_-_cardy/card_holder_-_cardy3.webp"
         ]
     },
     {
@@ -3846,18 +3387,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-03-2021/1616487747788.jpg",
+        "img": "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard1.webp",
         "designSpecifications": [
             "GUARD, thinkPrint, 420231, Black, 10.3*6.7*1.9cm, Premium Faux Leather, 85g, 4*1cm, Deboss/Print, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-03-2021/1616487747788.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587282266472.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-03-2021/1616487720073.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-03-2021/1616487724203.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-03-2021/1616487728063.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-03-2021/1616487731785.jpg"
+            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard2.webp",
+            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard3.webp",
+            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard4.webp",
+            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard5.webp",
+            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard6.webp"
         ]
     },
     {
@@ -3868,18 +3408,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588417040494.jpg",
+        "img": "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo1.webp",
         "designSpecifications": [
             "UG NAME CARDUO, thinkPrint, 830630, Black, 10cm x 7cm x 1cm, Premium Faux Leather, 50g, 4cm x 2cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588417040494.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587281119229.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588417024710.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588417030002.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588417035161.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588417040494.jpg"
+            "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo2.webp",
+            "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo3.webp",
+            "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo4.webp",
+            "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo5.webp"
         ]
     },
     {
@@ -3890,18 +3428,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588244054320.jpg",
+        "img": "../src/assets/products/metal_torch/metal_torch1.webp",
         "designSpecifications": [
             "METAL TORCH, thinkPrint, 851310, Black, 110mm x 25mm x 25mm, Premium Grade Aluminium Alloy, 85g (without batteries), 40mm x 10mm, Laser Engraving, Not Applicable, Not Applicable, AAA x 3 (Not Included)",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588244054320.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587320684060.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588244038248.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588244042174.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588244046060.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588244050193.jpg"
+            "../src/assets/products/metal_torch/metal_torch2.webp",
+            "../src/assets/products/metal_torch/metal_torch3.webp",
+            "../src/assets/products/metal_torch/metal_torch4.webp",
+            "../src/assets/products/metal_torch/metal_torch5.webp",
+            "../src/assets/products/metal_torch/metal_torch6.webp"
         ]
     },
     {
@@ -3912,18 +3449,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595483503625.jpg",
+        "img": "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite1.webp",
         "designSpecifications": [
             "Retro Lite, thinkPrint, 8513, Matte Black, 6cm x 4cm x 2cm, ABS Plastic, 35g, 2cm x 1cm, Pad Printing, None, None, Button cell (included).",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595483503625.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-04-2020/1586456243483.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595483490625.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595483494926.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595483499534.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595483503625.jpg"
+            "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite2.webp",
+            "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite3.webp",
+            "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite4.webp",
+            "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite5.webp"
         ]
     },
     {
@@ -3934,18 +3469,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499283383.jpg",
+        "img": "../src/assets/products/led_book_light/led_book_light1.webp",
         "designSpecifications": [
             "LED Book Light, thinkPrint, 9405, Black, 3\" x 1\" x 0.5\", ABS Plastic, 0.8 oz, 0.5\" x 0.3\", Pad Print, No, No, Button Batteries.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499283383.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-04-2020/1586455920683.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499274366.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499278789.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499283383.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-04-2020/1586455920683.jpeg"
+            "../src/assets/products/led_book_light/led_book_light2.webp",
+            "../src/assets/products/led_book_light/led_book_light3.webp",
+            "../src/assets/products/led_book_light/led_book_light4.webp"
         ]
     },
     {
@@ -3956,17 +3488,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588243921085.jpg",
+        "img": "../src/assets/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588243921085.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-04-2020/1586454951098.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588243913243.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588243917430.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588243921085.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-04-2020/1586454951098.jpeg"
+            "../src/assets/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite2.webp",
+            "../src/assets/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite3.webp",
+            "../src/assets/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite4.webp"
         ]
     },
     {
@@ -3977,17 +3506,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2024/1732525095632.jpg",
+        "img": "../src/assets/products/scrood/scrood1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2024/1732525095632.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2024/1732525216834.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2024/1732525077399.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2024/1732525081690.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2024/1732525085116.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2024/1732525088441.jpg"
+            "../src/assets/products/scrood/scrood2.webp",
+            "../src/assets/products/scrood/scrood3.webp",
+            "../src/assets/products/scrood/scrood4.webp",
+            "../src/assets/products/scrood/scrood5.webp",
+            "../src/assets/products/scrood/scrood6.webp"
         ]
     },
     {
@@ -3998,17 +3526,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910584773.jpg",
+        "img": "../src/assets/products/stitch_keychain/stitch_keychain1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910584773.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910577326.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910581151.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910584773.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910577326.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910577326.jpeg"
+            "../src/assets/products/stitch_keychain/stitch_keychain2.webp",
+            "../src/assets/products/stitch_keychain/stitch_keychain3.webp"
         ]
     },
     {
@@ -4019,17 +3543,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910078099.jpg",
+        "img": "../src/assets/products/lofty-keychain/lofty-keychain1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910078099.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910066749.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910070291.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910073915.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910078099.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719910066749.jpeg"
+            "../src/assets/products/lofty-keychain/lofty-keychain2.webp",
+            "../src/assets/products/lofty-keychain/lofty-keychain3.webp",
+            "../src/assets/products/lofty-keychain/lofty-keychain4.webp"
         ]
     },
     {
@@ -4040,17 +3561,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719909610635.jpg",
+        "img": "../src/assets/products/hook-keychain/hook-keychain1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719909610635.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719909599293.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719909603686.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719909607103.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719909610635.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2024/1719909599293.jpeg"
+            "../src/assets/products/hook-keychain/hook-keychain2.webp",
+            "../src/assets/products/hook-keychain/hook-keychain3.webp",
+            "../src/assets/products/hook-keychain/hook-keychain4.webp"
         ]
     },
     {
@@ -4061,17 +3579,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169962213.jpeg",
+        "img": "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169962213.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169962213.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169962213.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595500608764.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586533085876.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586533399437.jpeg"
+            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain2.webp",
+            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain3.webp",
+            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain4.webp"
         ]
     },
     {
@@ -4082,17 +3597,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688386228533.jpg",
+        "img": "../src/assets/products/blak_keychains/blak_keychains1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688386228533.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688386216286.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688386220576.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688386224335.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688386228533.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688386216286.jpeg"
+            "../src/assets/products/blak_keychains/blak_keychains2.webp",
+            "../src/assets/products/blak_keychains/blak_keychains3.webp",
+            "../src/assets/products/blak_keychains/blak_keychains4.webp"
         ]
     },
     {
@@ -4103,17 +3615,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385775563.jpg",
+        "img": "../src/assets/products/dotty_keychains/dotty_keychains1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385775563.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385764636.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385768982.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385772281.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385775563.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385764636.jpeg"
+            "../src/assets/products/dotty_keychains/dotty_keychains2.webp",
+            "../src/assets/products/dotty_keychains/dotty_keychains3.webp",
+            "../src/assets/products/dotty_keychains/dotty_keychains4.webp"
         ]
     },
     {
@@ -4124,17 +3633,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385338729.jpg",
+        "img": "../src/assets/products/cork_keychains/cork_keychains1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385338729.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385327284.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385331550.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385335065.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385338729.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688385327284.jpeg"
+            "../src/assets/products/cork_keychains/cork_keychains2.webp",
+            "../src/assets/products/cork_keychains/cork_keychains3.webp",
+            "../src/assets/products/cork_keychains/cork_keychains4.webp"
         ]
     },
     {
@@ -4145,18 +3651,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664353563938.jpeg",
+        "img": "../src/assets/products/pu_keychains/pu_keychains1.webp",
         "designSpecifications": [
             "PU Keychains, thinkPrint, 78269099, Black, 8cm x 3cm x 1cm, Polyurethane Leather, 15g, 2cm x 1cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664353563938.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664353440864.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664353698469.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664353679626.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664353647095.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664353605677.jpeg"
+            "../src/assets/products/pu_keychains/pu_keychains2.webp",
+            "../src/assets/products/pu_keychains/pu_keychains3.webp",
+            "../src/assets/products/pu_keychains/pu_keychains4.webp",
+            "../src/assets/products/pu_keychains/pu_keychains5.webp",
+            "../src/assets/products/pu_keychains/pu_keychains6.webp"
         ]
     },
     {
@@ -4167,18 +3672,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597400339904.jpg",
+        "img": "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder1.webp",
         "designSpecifications": [
             "Whistle Key Finder, thinkPrint, 732690, Black, 50mm x 30mm x 15mm, ABS Plastic, 15g, 20mm x 10mm, Pad Printing, N/A, 70dB, CR2032",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597400339904.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2020/1586586431015.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597400327554.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597400332088.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597400335823.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597400339904.jpg"
+            "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder2.webp",
+            "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder3.webp",
+            "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder4.webp",
+            "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder5.webp"
         ]
     },
     {
@@ -4189,18 +3692,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499982077.JPG",
+        "img": "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)1.webp",
         "designSpecifications": [
             "WHISTLE KEY FINDER (CAR), thinkPrint, 392690, White, 50mm x 30mm x 15mm, ABS Plastic, 20g, 20mm x 10mm, Pad Printing, Red LED Torch, Button Cells (included)",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499982077.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586534040928.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499966113.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499970419.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499976291.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595499982077.JPG"
+            "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)2.webp",
+            "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)3.webp",
+            "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)4.webp",
+            "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)5.webp"
         ]
     },
     {
@@ -4211,18 +3712,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597399780338.PNG",
+        "img": "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby1.webp",
         "designSpecifications": [
             "Mini COB Flashlight, thinkPrint, 732690, Black, 70mm x 35mm x 20mm, ABS Plastic, 30g, 25mm x 15mm, Pad Printing, None, None, 3 x AAA",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597399780338.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586533399437.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597399768089.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597399772037.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597399776713.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597399780338.PNG"
+            "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby2.webp",
+            "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby3.webp",
+            "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby4.webp",
+            "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby5.webp"
         ]
     },
     {
@@ -4233,18 +3732,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245164131.jpg",
+        "img": "../src/assets/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey1.webp",
         "designSpecifications": [
             "HOLDEY, thinkPrint, 392690, Matte Black, 70mm x 30mm x 15mm, ABS Plastic, 30g, 50mm x 15mm, Pad Printing, None, None, 2 x CR2032 Button Cells",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245164131.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586533085876.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245159969.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245164131.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586533085876.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586533085876.jpeg"
+            "../src/assets/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey2.webp",
+            "../src/assets/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey3.webp"
         ]
     },
     {
@@ -4255,17 +3750,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595500628666.PNG",
+        "img": "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595500628666.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595500608764.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595500616776.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595500620699.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595500624960.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-07-2020/1595500628666.PNG"
+            "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre2.webp",
+            "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre3.webp",
+            "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre4.webp",
+            "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre5.webp"
         ]
     },
     {
@@ -4276,17 +3769,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561762128.jpg",
+        "img": "../src/assets/products/mobile_stand/mobile_stand1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561762128.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2021/1638433035098.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561926534.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561903318.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561874179.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665561836093.jpg"
+            "../src/assets/products/mobile_stand/mobile_stand2.webp",
+            "../src/assets/products/mobile_stand/mobile_stand3.webp",
+            "../src/assets/products/mobile_stand/mobile_stand4.webp",
+            "../src/assets/products/mobile_stand/mobile_stand5.webp",
+            "../src/assets/products/mobile_stand/mobile_stand6.webp"
         ]
     },
     {
@@ -4297,17 +3789,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588324869353.PNG",
+        "img": "../src/assets/products/universal_sports_arm_band/universal_sports_arm_band1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588324869353.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587319845248.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588324865798.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588324869353.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587319845248.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587319845248.jpeg"
+            "../src/assets/products/universal_sports_arm_band/universal_sports_arm_band2.webp",
+            "../src/assets/products/universal_sports_arm_band/universal_sports_arm_band3.webp"
         ]
     },
     {
@@ -4318,17 +3806,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692278312414.jpg",
+        "img": "../src/assets/products/pop_stand/pop_stand1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692278312414.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587319580446.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692278296850.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692278300909.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692278304272.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-08-2023/1692278308250.jpg"
+            "../src/assets/products/pop_stand/pop_stand2.webp",
+            "../src/assets/products/pop_stand/pop_stand3.webp",
+            "../src/assets/products/pop_stand/pop_stand4.webp",
+            "../src/assets/products/pop_stand/pop_stand5.webp",
+            "../src/assets/products/pop_stand/pop_stand6.webp"
         ]
     },
     {
@@ -4339,17 +3826,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247418060.PNG",
+        "img": "../src/assets/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247418060.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586538679703.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247409864.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247414316.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247418060.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586538679703.jpeg"
+            "../src/assets/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring2.webp",
+            "../src/assets/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring3.webp",
+            "../src/assets/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring4.webp"
         ]
     },
     {
@@ -4360,17 +3844,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247333263.jpg",
+        "img": "../src/assets/products/universal_mobile_stand/universal_mobile_stand1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247333263.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586538261053.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247325314.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247329409.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588247333263.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586538261053.jpeg"
+            "../src/assets/products/universal_mobile_stand/universal_mobile_stand2.webp",
+            "../src/assets/products/universal_mobile_stand/universal_mobile_stand3.webp",
+            "../src/assets/products/universal_mobile_stand/universal_mobile_stand4.webp"
         ]
     },
     {
@@ -4381,17 +3862,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245575373.PNG",
+        "img": "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245575373.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2020/1586535831879.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245561732.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245565049.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245568496.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-04-2020/1588245571921.PNG"
+            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man2.webp",
+            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man3.webp",
+            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man4.webp",
+            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man5.webp",
+            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man6.webp"
         ]
     },
     {
@@ -4402,18 +3882,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735123932360.jpeg",
+        "img": "../src/assets/products/slant/slant1.webp",
         "designSpecifications": [
             "SLANT, thinkPrint, 48201090, Undetermined, 14.5 x 21 cm, Faux Leather Hard Bound, Undetermined, Undetermined, Screen Printing, DTF Printing, Deboss, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735123932360.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735123935725.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735123939500.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735123943187.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735123946824.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735123950144.jpg"
+            "../src/assets/products/slant/slant2.webp",
+            "../src/assets/products/slant/slant3.webp",
+            "../src/assets/products/slant/slant4.webp",
+            "../src/assets/products/slant/slant5.webp",
+            "../src/assets/products/slant/slant6.webp"
         ]
     },
     {
@@ -4424,7 +3903,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122611303.jpg",
+        "img": "../src/assets/products/crest/crest1.webp",
         "designSpecifications": [
             "Executive Organizer Diary, thinkPrint, 48201090, Black, 17 x 23 cm, Faux Leather",
             "A5, Screen Printing, DTF Printing",
@@ -4433,12 +3912,11 @@ export const products = [
             "12 Planner/175 Ruled/16 Grid/16 Plain pages"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122611303.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122573357.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122577048.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122580437.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122584096.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122587479.jpg"
+            "../src/assets/products/crest/crest2.webp",
+            "../src/assets/products/crest/crest3.webp",
+            "../src/assets/products/crest/crest4.webp",
+            "../src/assets/products/crest/crest5.webp",
+            "../src/assets/products/crest/crest6.webp"
         ]
     },
     {
@@ -4449,19 +3927,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113711733.jpeg",
+        "img": "../src/assets/products/vogue/vogue1.webp",
         "designSpecifications": [
             "VOGUE Executive Organizer Diary, thinkPrint, 48201090, BLACK/GREY, 17.5 x 23 cm, Faux Leather, 450g, 5 x 8 cm, Screen Printing/DTF Printing/Deboss",
             "NAPLES PREMIUM METAL PEN, thinkPrint, N/A, BLACK/GREY, 14 cm Length, Metal, 30g, 1 x 5 cm, Screen Printing/Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113711733.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113711733.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113711733.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-12-2023/1702452703582.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2021/1630042429137.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587309923748.jpeg"
+            "../src/assets/products/vogue/vogue2.webp",
+            "../src/assets/products/vogue/vogue3.webp",
+            "../src/assets/products/vogue/vogue4.webp"
         ]
     },
     {
@@ -4472,18 +3947,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110035760.jpg",
+        "img": "../src/assets/products/zigy_pro/zigy_pro1.webp",
         "designSpecifications": [
             "ZIGY PRO, thinkPrint, 48201090, BLACK, 14.5 x 21 cm, Faux Leather, 350g, 5 x 5 cm, Screen Printing/DTF/Deboss",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110035760.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110109177.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110004258.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110009285.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110012935.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110017383.jpg"
+            "../src/assets/products/zigy_pro/zigy_pro2.webp",
+            "../src/assets/products/zigy_pro/zigy_pro3.webp",
+            "../src/assets/products/zigy_pro/zigy_pro4.webp",
+            "../src/assets/products/zigy_pro/zigy_pro5.webp",
+            "../src/assets/products/zigy_pro/zigy_pro6.webp"
         ]
     },
     {
@@ -4494,18 +3968,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704888730732.jpg",
+        "img": "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy1.webp",
         "designSpecifications": [
             "Polygon Refillable Dairy, thinkPrint, 48202000, Brown, 17.5*23cm (A5), Faux Leather, 450g, 5x5 cm, Debossing",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704888730732.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2024/1704433967038.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704888697718.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704888701457.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704888705000.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704888709140.jpg"
+            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy2.webp",
+            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy3.webp",
+            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy4.webp",
+            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy5.webp",
+            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy6.webp"
         ]
     },
     {
@@ -4516,18 +3989,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670312811364.jpg",
+        "img": "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest1.webp",
         "designSpecifications": [
             "QUEST, thinkPrint, 48201010, Undefined, 23x17x1.7cm, Vegan Leather, Undefined, Undefined, Debossing, Undefined, Undefined, Undefined.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670312811364.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670226029685.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670312777807.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670312782018.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670312785898.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670312789873.jpg"
+            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest2.webp",
+            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest3.webp",
+            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest4.webp",
+            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest5.webp",
+            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest6.webp"
         ]
     },
     {
@@ -4538,18 +4010,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431385520.jpg",
+        "img": "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage1.webp",
         "designSpecifications": [
             "HERITAGE, thinkPrint, 482090, Black, A5 (148mm x 210mm), High-Quality Faux Leather, 350g, 60mm x 15mm, Laser Engraving, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431385520.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587310379607.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431373125.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431377402.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431381421.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431385520.jpg"
+            "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage2.webp",
+            "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage3.webp",
+            "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage4.webp",
+            "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage5.webp"
         ]
     },
     {
@@ -4560,17 +4030,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2023/1702885068388.jpg",
+        "img": "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2023/1702885068388.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587309923748.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2023/1702885028048.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2023/1702885032518.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2023/1702885037175.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-12-2023/1702885041589.jpg"
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate2.webp",
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate3.webp",
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate4.webp",
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate5.webp",
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate6.webp"
         ]
     },
     {
@@ -4581,17 +4050,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863818899.jpg",
+        "img": "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863818899.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2021/1630042429137.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863790927.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863795013.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863799019.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863802927.jpg"
+            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant2.webp",
+            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant3.webp",
+            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant4.webp",
+            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant5.webp",
+            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant6.webp"
         ]
     },
     {
@@ -4602,17 +4070,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687416149655.jpg",
+        "img": "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687416149655.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-12-2023/1702452703582.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687416689137.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687416694656.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687416699014.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687416704025.jpg"
+            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic2.webp",
+            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic3.webp",
+            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic4.webp",
+            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic5.webp",
+            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic6.webp"
         ]
     },
     {
@@ -4623,17 +4090,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/20-08-2024/1724154035143.jpg",
+        "img": "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-08-2024/1724154035143.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-02-2025/1740645553216.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-08-2024/1724154010638.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-08-2024/1724154015215.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-08-2024/1724154019737.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-08-2024/1724154023515.jpg"
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate2.webp",
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate3.webp",
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate4.webp",
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate5.webp",
+            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate6.webp"
         ]
     },
     {
@@ -4644,17 +4110,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886998047.jpg",
+        "img": "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886998047.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122895045.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886964353.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886968899.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886972409.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886975921.jpg"
+            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer2.webp",
+            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer3.webp",
+            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer4.webp",
+            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer5.webp",
+            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer6.webp"
         ]
     },
     {
@@ -4665,17 +4130,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864326791.jpg",
+        "img": "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864326791.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587312129950.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864300422.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864304542.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864308847.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864313367.jpg"
+            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium2.webp",
+            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium3.webp",
+            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium4.webp",
+            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium5.webp",
+            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium6.webp"
         ]
     },
     {
@@ -4686,17 +4150,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864292324.jpg",
+        "img": "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864292324.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587312051628.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864244075.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864249942.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864255134.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864259827.jpg"
+            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa2.webp",
+            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa3.webp",
+            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa4.webp",
+            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa5.webp",
+            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa6.webp"
         ]
     },
     {
@@ -4707,17 +4170,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687500698311.jpg",
+        "img": "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687500698311.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587311923704.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687500663040.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687500667523.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687500671235.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687500674812.jpg"
+            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold2.webp",
+            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold3.webp",
+            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold4.webp",
+            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold5.webp",
+            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold6.webp"
         ]
     },
     {
@@ -4728,17 +4190,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597393927820.jpg",
+        "img": "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597393927820.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2021/1630042870407.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630136958087.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630136962772.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630136967192.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630136971739.jpg"
+            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima2.webp",
+            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima3.webp",
+            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima4.webp",
+            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima5.webp",
+            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima6.webp"
         ]
     },
     {
@@ -4749,18 +4210,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864278679.jpg",
+        "img": "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo1.webp",
         "designSpecifications": [
             "STYLO, thinkPrint, 482090, Black, 210mm x 148mm, Faux Leather, 350g, 50mm x 20mm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864278679.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587311798789.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864243874.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864249619.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864254310.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864258632.jpg"
+            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo2.webp",
+            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo3.webp",
+            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo4.webp",
+            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo5.webp",
+            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo6.webp"
         ]
     },
     {
@@ -4771,7 +4231,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2021/1613029774542.jpg",
+        "img": "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo1.webp",
         "designSpecifications": [
             "PRIMO Notebook, thinkPrint, 482010, Black, 15*22*2cm, Faux Leather with Cushioned Hardcover",
             "PRIMO Notebook, thinkPrint, 482010, Black, 350g, 4x4 cm bottom right, Deboss",
@@ -4780,12 +4240,11 @@ export const products = [
             "PRIMO Notebook, thinkPrint, 482010, Black, Integrated Pen Loop, Pen Not Included"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2021/1613029774542.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-04-2023/1682491779677.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210182763.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210126512.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210075113.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210030353.jpg"
+            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo2.webp",
+            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo3.webp",
+            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo4.webp",
+            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo5.webp",
+            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo6.webp"
         ]
     },
     {
@@ -4796,18 +4255,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/24-07-2020/1595574585583.jpg",
+        "img": "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy1.webp",
         "designSpecifications": [
             "Zigy Notebook, thinkPrint, 482090, Charcoal Grey, A5 (148mm x 210mm), Hardbound, 300g, Cover (50mm x 50mm), Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-07-2020/1595574585583.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587311639455.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-07-2020/1595574567739.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-07-2020/1595574571332.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-07-2020/1595574575855.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/24-07-2020/1595574580557.jpg"
+            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy2.webp",
+            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy3.webp",
+            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy4.webp",
+            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy5.webp",
+            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy6.webp"
         ]
     },
     {
@@ -4818,18 +4276,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-02-2025/1740646543813.jpeg",
+        "img": "../src/assets/products/milky_spiral/milky_spiral1.webp",
         "designSpecifications": [
             "Milky Spiral, thinkPrint, 48201090, White, 14.5 x 21 cm, Recycled Milk Carton, N/A, Recommended Area, Screen Printing/DTF Printing/Deboss, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-02-2025/1740646543813.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-02-2025/1740646543813.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-02-2025/1740646543813.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-01-2024/1705651023845.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107688848.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108111472.jpeg"
+            "../src/assets/products/milky_spiral/milky_spiral2.webp",
+            "../src/assets/products/milky_spiral/milky_spiral3.webp",
+            "../src/assets/products/milky_spiral/milky_spiral4.webp"
         ]
     },
     {
@@ -4840,18 +4295,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736601065205.jpeg",
+        "img": "../src/assets/products/strap-cork/strap-cork1.webp",
         "designSpecifications": [
             "STRAP-CORK, thinkPrint, 48201090, Natural Cork, 14.5 x 21 cm, Hard Bound Cork, N/A, 8 x 12 cm, Screen Printing/DTF Printing/Deboss, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736601065205.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736601065205.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736601065205.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-01-2024/1705651023845.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107688848.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108111472.jpeg"
+            "../src/assets/products/strap-cork/strap-cork2.webp",
+            "../src/assets/products/strap-cork/strap-cork3.webp",
+            "../src/assets/products/strap-cork/strap-cork4.webp"
         ]
     },
     {
@@ -4862,17 +4314,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736598429409.jpg",
+        "img": "../src/assets/products/rpet_-_spiral/rpet_-_spiral1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736598429409.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736599296296.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736598387822.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736598392855.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736598396307.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736598400751.jpg"
+            "../src/assets/products/rpet_-_spiral/rpet_-_spiral2.webp",
+            "../src/assets/products/rpet_-_spiral/rpet_-_spiral3.webp",
+            "../src/assets/products/rpet_-_spiral/rpet_-_spiral4.webp",
+            "../src/assets/products/rpet_-_spiral/rpet_-_spiral5.webp",
+            "../src/assets/products/rpet_-_spiral/rpet_-_spiral6.webp"
         ]
     },
     {
@@ -4883,17 +4334,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736596883120.jpg",
+        "img": "../src/assets/products/milky/milky1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736596883120.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736596864745.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736596870115.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736596872953.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736596876279.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736596879706.jpg"
+            "../src/assets/products/milky/milky2.webp",
+            "../src/assets/products/milky/milky3.webp",
+            "../src/assets/products/milky/milky4.webp",
+            "../src/assets/products/milky/milky5.webp",
+            "../src/assets/products/milky/milky6.webp"
         ]
     },
     {
@@ -4904,17 +4354,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595980742.jpg",
+        "img": "../src/assets/products/tritan/tritan1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595980742.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595965876.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595970493.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595973820.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595977212.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595980742.jpg"
+            "../src/assets/products/tritan/tritan2.webp",
+            "../src/assets/products/tritan/tritan3.webp",
+            "../src/assets/products/tritan/tritan4.webp",
+            "../src/assets/products/tritan/tritan5.webp"
         ]
     },
     {
@@ -4925,17 +4373,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736594667572.jpg",
+        "img": "../src/assets/products/sugar/sugar1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736594667572.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736594646370.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736594651389.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736594654198.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736594657505.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736594660917.jpg"
+            "../src/assets/products/sugar/sugar2.webp",
+            "../src/assets/products/sugar/sugar3.webp",
+            "../src/assets/products/sugar/sugar4.webp",
+            "../src/assets/products/sugar/sugar5.webp",
+            "../src/assets/products/sugar/sugar6.webp"
         ]
     },
     {
@@ -4946,17 +4393,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122611303.jpg",
+        "img": "../src/assets/products/crest/crest1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122611303.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122573357.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122577048.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122580437.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122584096.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735122587479.jpg"
+            "../src/assets/products/crest/crest2.webp",
+            "../src/assets/products/crest/crest3.webp",
+            "../src/assets/products/crest/crest4.webp",
+            "../src/assets/products/crest/crest5.webp",
+            "../src/assets/products/crest/crest6.webp"
         ]
     },
     {
@@ -4967,17 +4413,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113242485.jpeg",
+        "img": "../src/assets/products/athena/athena1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113242485.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113242485.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113242485.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-01-2024/1705651023845.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107688848.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108111472.jpeg"
+            "../src/assets/products/athena/athena2.webp",
+            "../src/assets/products/athena/athena3.webp",
+            "../src/assets/products/athena/athena4.webp"
         ]
     },
     {
@@ -4988,17 +4431,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735111537152.jpg",
+        "img": "../src/assets/products/bambu/bambu1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735111537152.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735111523932.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735111529565.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735111533423.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735111537152.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735111523932.jpeg"
+            "../src/assets/products/bambu/bambu2.webp",
+            "../src/assets/products/bambu/bambu3.webp",
+            "../src/assets/products/bambu/bambu4.webp"
         ]
     },
     {
@@ -5009,17 +4449,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110554153.jpg",
+        "img": "../src/assets/products/capri_rpet/capri_rpet1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110554153.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110524383.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110527903.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110531375.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110535083.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110538994.jpg"
+            "../src/assets/products/capri_rpet/capri_rpet2.webp",
+            "../src/assets/products/capri_rpet/capri_rpet3.webp",
+            "../src/assets/products/capri_rpet/capri_rpet4.webp",
+            "../src/assets/products/capri_rpet/capri_rpet5.webp",
+            "../src/assets/products/capri_rpet/capri_rpet6.webp"
         ]
     },
     {
@@ -5030,18 +4469,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110035760.jpg",
+        "img": "../src/assets/products/zigy_pro/zigy_pro1.webp",
         "designSpecifications": [
             "ZIGY PRO, thinkPrint, 48201090, BLACK BROWN BLUE, 14.5 x 21 cm A5, Faux Leather Hard Bound, 380g (estimated), 10 x 15 cm (cover), Screen Printing DTF Printing Deboss",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110035760.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110109177.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110004258.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110009285.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110012935.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735110017383.jpg"
+            "../src/assets/products/zigy_pro/zigy_pro2.webp",
+            "../src/assets/products/zigy_pro/zigy_pro3.webp",
+            "../src/assets/products/zigy_pro/zigy_pro4.webp",
+            "../src/assets/products/zigy_pro/zigy_pro5.webp",
+            "../src/assets/products/zigy_pro/zigy_pro6.webp"
         ]
     },
     {
@@ -5052,18 +4490,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109271440.jpg",
+        "img": "../src/assets/products/korsa_2.0/korsa_2.01.webp",
         "designSpecifications": [
             "KORSA 2.0, thinkPrint, 48202000, Customizable, 14.5 x 21 cm (A5), Faux Leather Cushioned Hard Bound, 450g (estimated), 10 x 10 cm (estimated), Screen Printing/DTF Printing/Deboss, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109271440.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109249595.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109253763.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109257359.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109260971.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109264641.jpg"
+            "../src/assets/products/korsa_2.0/korsa_2.02.webp",
+            "../src/assets/products/korsa_2.0/korsa_2.03.webp",
+            "../src/assets/products/korsa_2.0/korsa_2.04.webp",
+            "../src/assets/products/korsa_2.0/korsa_2.05.webp",
+            "../src/assets/products/korsa_2.0/korsa_2.06.webp"
         ]
     },
     {
@@ -5074,18 +4511,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108115004.jpeg",
+        "img": "../src/assets/products/primus/primus1.webp",
         "designSpecifications": [
             "Primus Notebook, thinkPrint, 48201090, Black/Brown, 14.5 x 21 cm, Faux Leather, 400g (estimated), 5 x 5 cm, Screen Printing/DTF Printing/Deboss, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108115004.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108111472.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108115004.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108111472.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108111472.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735108111472.jpeg"
+            "../src/assets/products/primus/primus2.webp"
         ]
     },
     {
@@ -5096,18 +4528,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107701292.jpg",
+        "img": "../src/assets/products/strap-cork/strap-cork1.webp",
         "designSpecifications": [
             "STRAP-CORK, thinkPrint, 48201090, Natural Cork, 14.5 x 21 cm, Cork & Paper, 400g (est.), 10 x 5 cm, Screen Printing/DTF/Deboss",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107701292.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107688848.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107693608.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107697410.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107701292.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735107688848.jpeg"
+            "../src/assets/products/strap-cork/strap-cork2.webp",
+            "../src/assets/products/strap-cork/strap-cork3.webp",
+            "../src/assets/products/strap-cork/strap-cork4.webp"
         ]
     },
     {
@@ -5118,18 +4547,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868617428.jpg",
+        "img": "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "FLIP, thinkPrint, 48202000, Black, 14.5 x 21 cm, Faux Leather, 350g, 5 x 5 cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868617428.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-01-2024/1705651023845.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868566215.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868571022.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868574956.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868578631.jpg"
+            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook2.webp",
+            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook3.webp",
+            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook4.webp",
+            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook5.webp",
+            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -5140,17 +4568,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886637101.jpg",
+        "img": "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886637101.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2024/1704454268629.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886589687.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886593962.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886597636.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886601204.jpg"
+            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook2.webp",
+            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook3.webp",
+            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook4.webp",
+            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook5.webp",
+            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -5161,17 +4588,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868941451.jpg",
+        "img": "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868941451.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735124666670.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734608982705.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868889990.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868893599.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2024/1706868897271.jpg"
+            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook2.webp",
+            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook3.webp",
+            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook4.webp",
+            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook5.webp",
+            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -5182,17 +4608,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886365688.jpg",
+        "img": "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886365688.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2024/1704447986994.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886309118.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886313370.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886317415.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704886321573.jpg"
+            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook2.webp",
+            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook3.webp",
+            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook4.webp",
+            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook5.webp",
+            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -5203,17 +4628,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704885123235.jpg",
+        "img": "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704885123235.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2024/1704447535359.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704885087518.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704885091935.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704885095325.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2024/1704885098817.jpg"
+            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook2.webp",
+            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook3.webp",
+            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook4.webp",
+            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook5.webp",
+            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -5224,17 +4648,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363300988.jpg",
+        "img": "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363300988.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363257189.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363262088.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363270368.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363276566.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363283024.jpg"
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books2.webp",
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books3.webp",
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books4.webp",
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books5.webp",
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books6.webp"
         ]
     },
     {
@@ -5245,17 +4668,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679688993.jpg",
+        "img": "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679688993.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735113977574.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679662441.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679666190.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679670286.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679673961.jpg"
+            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook2.webp",
+            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook3.webp",
+            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook4.webp",
+            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook5.webp",
+            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook6.webp"
         ]
     },
     {
@@ -5266,17 +4688,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679812846.jpg",
+        "img": "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679812846.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-11-2023/1701264199239.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679785051.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679788970.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679792409.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701679796025.jpg"
+            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook2.webp",
+            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook3.webp",
+            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook4.webp",
+            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook5.webp",
+            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook6.webp"
         ]
     },
     {
@@ -5287,17 +4708,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701683918584.jpg",
+        "img": "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701683918584.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-11-2023/1701260010295.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701683892954.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701683896694.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701683900402.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701683904327.jpg"
+            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook2.webp",
+            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook3.webp",
+            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook4.webp",
+            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook5.webp",
+            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook6.webp"
         ]
     },
     {
@@ -5308,17 +4728,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701685769063.jpg",
+        "img": "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701685769063.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-11-2023/1701254744045.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701685717496.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701685721755.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701685725234.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701685728777.jpg"
+            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook2.webp",
+            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook3.webp",
+            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook4.webp",
+            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook5.webp",
+            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -5329,18 +4748,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676890317025.jpg",
+        "img": "../src/assets/products/dual_premium_notebook/dual_premium_notebook1.webp",
         "designSpecifications": [
             "DUAL PREMIUM NOTEBOOK, thinkPrint, 48201010, Assorted, 15.2 x 21 x 1.5 cm, Faux Leather, 350g (estimated), 5 x 5 cm, Debossing, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676890317025.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676889951321.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676890288224.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676890292793.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676890296266.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2023/1676890299854.jpg"
+            "../src/assets/products/dual_premium_notebook/dual_premium_notebook2.webp",
+            "../src/assets/products/dual_premium_notebook/dual_premium_notebook3.webp",
+            "../src/assets/products/dual_premium_notebook/dual_premium_notebook4.webp",
+            "../src/assets/products/dual_premium_notebook/dual_premium_notebook5.webp",
+            "../src/assets/products/dual_premium_notebook/dual_premium_notebook6.webp"
         ]
     },
     {
@@ -5351,18 +4769,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1670998050972.jpg",
+        "img": "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt1.webp",
         "designSpecifications": [
             "A5 Notebook, thinkPrint, 48201090, Undefined, 14.7x21.5x1.7cm, Vegan Leather, Undefined, Undefined, Undefined, Undefined, Undefined, Undefined",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1670998050972.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1670998011225.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1670998015519.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1670998018905.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1670998022438.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1670998026101.jpg"
+            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt2.webp",
+            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt3.webp",
+            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt4.webp",
+            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt5.webp",
+            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt6.webp"
         ]
     },
     {
@@ -5373,18 +4790,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228266411.jpg",
+        "img": "../src/assets/products/premium_notebook-athena/premium_notebook-athena1.webp",
         "designSpecifications": [
             "Athena Notebook, thinkPrint, 48201010, Undefined, 15.5x21x1.5cm, Vegan Leather, Undefined, Undefined, Undefined, Undefined, Undefined, Undefined",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228266411.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670225634128.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228320923.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228324371.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228241712.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228245784.jpg"
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena2.webp",
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena3.webp",
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena4.webp",
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena5.webp",
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena6.webp"
         ]
     },
     {
@@ -5395,18 +4811,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228511914.jpg",
+        "img": "../src/assets/products/premium_notebook-vector/premium_notebook-vector1.webp",
         "designSpecifications": [
             "Vector Notebook, thinkPrint, 48201090, To be Defined, 14.5x21x1.5cm, Vegan Leather, 350g, 5x5cm, Deboss/Foil Stamp, No RGB Lighting, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228511914.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670224637168.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228483937.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228487877.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228491373.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228494876.jpg"
+            "../src/assets/products/premium_notebook-vector/premium_notebook-vector2.webp",
+            "../src/assets/products/premium_notebook-vector/premium_notebook-vector3.webp",
+            "../src/assets/products/premium_notebook-vector/premium_notebook-vector4.webp",
+            "../src/assets/products/premium_notebook-vector/premium_notebook-vector5.webp",
+            "../src/assets/products/premium_notebook-vector/premium_notebook-vector6.webp"
         ]
     },
     {
@@ -5417,7 +4832,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670229061215.jpg",
+        "img": "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy1.webp",
         "designSpecifications": [
             "BOXY, thinkPrint, 48201090, Undefined, 14.5x21x1.5cm",
             "Vegan Leather, 80gsm A5, Hard Bound",
@@ -5426,12 +4841,11 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670229061215.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670223820154.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670229037406.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670229041370.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670229044673.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670229047788.jpg"
+            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy2.webp",
+            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy3.webp",
+            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy4.webp",
+            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy5.webp",
+            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy6.webp"
         ]
     },
     {
@@ -5442,17 +4856,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227680763.jpg",
+        "img": "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227680763.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670226677293.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227652799.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227656234.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227659569.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227662937.jpg"
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus2.webp",
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus3.webp",
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus4.webp",
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus5.webp",
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus6.webp"
         ]
     },
     {
@@ -5463,17 +4876,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667992888875.jpg",
+        "img": "../src/assets/products/premium_notebook-piano/premium_notebook-piano1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667992888875.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667991192121.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667992849644.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667992853888.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667992857444.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667992860869.jpg"
+            "../src/assets/products/premium_notebook-piano/premium_notebook-piano2.webp",
+            "../src/assets/products/premium_notebook-piano/premium_notebook-piano3.webp",
+            "../src/assets/products/premium_notebook-piano/premium_notebook-piano4.webp",
+            "../src/assets/products/premium_notebook-piano/premium_notebook-piano5.webp",
+            "../src/assets/products/premium_notebook-piano/premium_notebook-piano6.webp"
         ]
     },
     {
@@ -5484,17 +4896,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667993089795.jpg",
+        "img": "../src/assets/products/premium_notebook-blox/premium_notebook-blox1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667993089795.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667990803308.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667993047095.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667993050861.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667993055035.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-11-2022/1667993059191.jpg"
+            "../src/assets/products/premium_notebook-blox/premium_notebook-blox2.webp",
+            "../src/assets/products/premium_notebook-blox/premium_notebook-blox3.webp",
+            "../src/assets/products/premium_notebook-blox/premium_notebook-blox4.webp",
+            "../src/assets/products/premium_notebook-blox/premium_notebook-blox5.webp",
+            "../src/assets/products/premium_notebook-blox/premium_notebook-blox6.webp"
         ]
     },
     {
@@ -5505,17 +4916,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664356452653.jpeg",
+        "img": "../src/assets/products/colors_neo/colors_neo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664356452653.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664356182902.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664360740963.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664360588179.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664360428475.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-09-2022/1664356798301.jpeg"
+            "../src/assets/products/colors_neo/colors_neo2.webp",
+            "../src/assets/products/colors_neo/colors_neo3.webp",
+            "../src/assets/products/colors_neo/colors_neo4.webp",
+            "../src/assets/products/colors_neo/colors_neo5.webp",
+            "../src/assets/products/colors_neo/colors_neo6.webp"
         ]
     },
     {
@@ -5526,17 +4936,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211208004.jpg",
+        "img": "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211208004.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-07-2022/1657792575303.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211984460.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211955933.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211927789.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211632270.jpg"
+            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro2.webp",
+            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro3.webp",
+            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro4.webp",
+            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro5.webp",
+            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro6.webp"
         ]
     },
     {
@@ -5547,17 +4956,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210787934.jpg",
+        "img": "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210787934.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-07-2022/1657713948374.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211077663.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211041356.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665211013027.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210991293.jpg"
+            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco2.webp",
+            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco3.webp",
+            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco4.webp",
+            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco5.webp",
+            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco6.webp"
         ]
     },
     {
@@ -5568,17 +4976,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665216587852.jpeg",
+        "img": "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665216587852.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-12-2021/1639987286611.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665217261879.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665217241283.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665217207021.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665217165472.jpeg"
+            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap2.webp",
+            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap3.webp",
+            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap4.webp",
+            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap5.webp",
+            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap6.webp"
         ]
     },
     {
@@ -5589,17 +4996,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665214394285.jpeg",
+        "img": "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665214394285.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-12-2021/1639986843609.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665215798590.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665215769511.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665215210320.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665215157588.jpeg"
+            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion2.webp",
+            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion3.webp",
+            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion4.webp",
+            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion5.webp",
+            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion6.webp"
         ]
     },
     {
@@ -5610,18 +5016,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210294281.jpg",
+        "img": "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey1.webp",
         "designSpecifications": [
             "Jute Feel Notebook, thinkPrint, 48201090, Beige, 14.8x20.6x1.4cm, Faux Leather Jute Feel, 250g, 5x5cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210294281.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-11-2021/1636613238814.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210508401.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210486008.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210439841.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665210416964.jpg"
+            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey2.webp",
+            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey3.webp",
+            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey4.webp",
+            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey5.webp",
+            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey6.webp"
         ]
     },
     {
@@ -5632,18 +5037,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665209349371.jpg",
+        "img": "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy1.webp",
         "designSpecifications": [
             "Softy Notebook, thinkPrint, 48201090, Assorted, 14.9x20.6x1.4cm, Faux Leather, 250g, 5x5cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665209349371.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-11-2021/1636612865789.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665209594608.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665209518833.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665209490870.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665209469153.jpg"
+            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy2.webp",
+            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy3.webp",
+            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy4.webp",
+            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy5.webp",
+            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy6.webp"
         ]
     },
     {
@@ -5654,18 +5058,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687502295747.jpg",
+        "img": "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge1.webp",
         "designSpecifications": [
             "EDGE Notebook, thinkPrint, 48201000, Black, 14.5*21.5*1.5cm, Faux Leather, 350g, 5x5cm, Debossing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687502295747.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2021/1630045292238.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687502243901.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687502247686.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687502253046.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687502256804.jpg"
+            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge2.webp",
+            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge3.webp",
+            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge4.webp",
+            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge5.webp",
+            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge6.webp"
         ]
     },
     {
@@ -5676,7 +5079,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2020/1597835543718.jpg",
+        "img": "../src/assets/products/premium_notebook_-_color/premium_notebook_-_color1.webp",
         "designSpecifications": [
             "Notebook, thinkPrint, 482010, Gray, A5 (148 x 210 mm), Premium Italian Leatherette, 250g, 50 x 50 mm, Engraved, N/A, N/A, N/A",
             "Logo Color Matches Elastic Band",
@@ -5685,12 +5088,9 @@ export const products = [
             "Cover Material - Premium Italian Leatherette"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2020/1597835543718.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2020/1597835504903.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2020/1597835533759.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2020/1597835538778.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2020/1597835543718.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2020/1597835504903.jpg"
+            "../src/assets/products/premium_notebook_-_color/premium_notebook_-_color2.webp",
+            "../src/assets/products/premium_notebook_-_color/premium_notebook_-_color3.webp",
+            "../src/assets/products/premium_notebook_-_color/premium_notebook_-_color4.webp"
         ]
     },
     {
@@ -5701,18 +5101,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687435132907.jpg",
+        "img": "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element1.webp",
         "designSpecifications": [
             "Element Notebook, thinkPrint, 482090, Charcoal Black, 15.5*21*1.7cm, Double PU Faux Leather, 350g, 5x5cm (back cover), Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687435132907.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687435131100.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687435087792.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687435091258.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687435095009.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687435098467.jpg"
+            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element2.webp",
+            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element3.webp",
+            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element4.webp",
+            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element5.webp",
+            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element6.webp"
         ]
     },
     {
@@ -5723,18 +5122,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397970816.jpg",
+        "img": "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle1.webp",
         "designSpecifications": [
             "UG NAME WRINKLE, thinkPrint, 482090, Brown, 16*22*1.5cm, High Quality Faux Leather, A5 Size Replaceable Diary, Laser Engraving, Elastic Band Closure",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397970816.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587315948735.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397957345.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397962024.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397966363.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397970816.jpg"
+            "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle2.webp",
+            "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle3.webp",
+            "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle4.webp",
+            "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle5.webp"
         ]
     },
     {
@@ -5745,17 +5142,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397533265.PNG",
+        "img": "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397533265.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587315901051.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397508106.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397514689.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397521151.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597397527384.jpg"
+            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck2.webp",
+            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck3.webp",
+            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck4.webp",
+            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck5.webp",
+            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck6.webp"
         ]
     },
     {
@@ -5766,17 +5162,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864552708.JPG",
+        "img": "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864552708.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587315847016.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864525740.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864532073.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864539857.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612864545953.JPG"
+            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika2.webp",
+            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika3.webp",
+            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika4.webp",
+            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika5.webp",
+            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika6.webp"
         ]
     },
     {
@@ -5787,17 +5182,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109271440.jpg",
+        "img": "../src/assets/products/korsa_2.0/korsa_2.01.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109271440.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109249595.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109253763.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109257359.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109260971.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-12-2024/1735109264641.jpg"
+            "../src/assets/products/korsa_2.0/korsa_2.02.webp",
+            "../src/assets/products/korsa_2.0/korsa_2.03.webp",
+            "../src/assets/products/korsa_2.0/korsa_2.04.webp",
+            "../src/assets/products/korsa_2.0/korsa_2.05.webp",
+            "../src/assets/products/korsa_2.0/korsa_2.06.webp"
         ]
     },
     {
@@ -5808,17 +5202,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703245245405.jpg",
+        "img": "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703245245405.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701175595513.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703245234027.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703245238363.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703245241883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703245245405.jpg"
+            "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook2.webp",
+            "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook3.webp",
+            "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook4.webp",
+            "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook5.webp"
         ]
     },
     {
@@ -5829,17 +5221,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142382005.jpg",
+        "img": "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142382005.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665141395055.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142476595.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142458675.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142440108.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142419087.jpg"
+            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook2.webp",
+            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook3.webp",
+            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook4.webp",
+            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook5.webp",
+            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook6.webp"
         ]
     },
     {
@@ -5850,17 +5241,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687501809256.jpg",
+        "img": "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.01.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687501809256.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-08-2021/1630043662792.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687501763516.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687501767426.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687501771256.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-06-2023/1687501774863.jpg"
+            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.02.webp",
+            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.03.webp",
+            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.04.webp",
+            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.05.webp",
+            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.06.webp"
         ]
     },
     {
@@ -5871,17 +5261,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431485760.jpeg",
+        "img": "../src/assets/products/vogue_-_note_book/vogue_-_note_book1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431485760.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-03-2021/1615612467442.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431463739.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431468618.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431472587.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626431478817.jpeg"
+            "../src/assets/products/vogue_-_note_book/vogue_-_note_book2.webp",
+            "../src/assets/products/vogue_-_note_book/vogue_-_note_book3.webp",
+            "../src/assets/products/vogue_-_note_book/vogue_-_note_book4.webp",
+            "../src/assets/products/vogue_-_note_book/vogue_-_note_book5.webp",
+            "../src/assets/products/vogue_-_note_book/vogue_-_note_book6.webp"
         ]
     },
     {
@@ -5892,17 +5281,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865440292.jpg",
+        "img": "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865440292.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2020/1608027806817.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865407827.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865422674.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865433673.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865440292.jpg"
+            "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook2.webp",
+            "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook3.webp",
+            "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook4.webp",
+            "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook5.webp"
         ]
     },
     {
@@ -5913,17 +5300,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2021/1613029542651.jpg",
+        "img": "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2021/1613029542651.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587311438303.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2021/1613029510972.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2021/1613029517675.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2021/1613029523744.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2021/1613029530483.jpg"
+            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon2.webp",
+            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon3.webp",
+            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon4.webp",
+            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon5.webp",
+            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon6.webp"
         ]
     },
     {
@@ -5934,17 +5320,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865284247.jpg",
+        "img": "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865284247.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2020/1602157178410.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865245838.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865250507.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865255279.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865260745.jpg"
+            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor2.webp",
+            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor3.webp",
+            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor4.webp",
+            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor5.webp",
+            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor6.webp"
         ]
     },
     {
@@ -5955,17 +5340,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865047069.jpg",
+        "img": "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865047069.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587311569593.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687436571917.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687436575915.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687436579426.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865006855.jpg"
+            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus2.webp",
+            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus3.webp",
+            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus4.webp",
+            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus5.webp",
+            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus6.webp"
         ]
     },
     {
@@ -5976,7 +5360,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597391285897.PNG",
+        "img": "../src/assets/products/notebook_-_hardy/notebook_-_hardy1.webp",
         "designSpecifications": [
             "HARDY Notebook, thinkPrint, 482010, Black, A5 (148 x 210 mm), Hardbound, 250g",
             "HARDY Notebook, thinkPrint, 482010, Black, 70 Sheets (140 Pages), 70 GSM Paper, N/A",
@@ -5985,12 +5369,11 @@ export const products = [
             "HARDY Notebook, thinkPrint, 482010, Black, Cover: Black PU Leather, Paper: White/Cream, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597391285897.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587311502598.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665209757886.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-10-2022/1665209729583.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597391268700.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597391272852.jpg"
+            "../src/assets/products/notebook_-_hardy/notebook_-_hardy2.webp",
+            "../src/assets/products/notebook_-_hardy/notebook_-_hardy3.webp",
+            "../src/assets/products/notebook_-_hardy/notebook_-_hardy4.webp",
+            "../src/assets/products/notebook_-_hardy/notebook_-_hardy5.webp",
+            "../src/assets/products/notebook_-_hardy/notebook_-_hardy6.webp"
         ]
     },
     {
@@ -6001,18 +5384,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2024/1719991419038.jpg",
+        "img": "../src/assets/products/stripes/stripes1.webp",
         "designSpecifications": [
             "STRIPES Premium Notebook, thinkPrint, 48202000, Assorted, 14.5 x 21 cm, Faux Leather, 300g, 5 x 2 cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2024/1719991419038.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2024/1719991354721.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2024/1719991359002.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2024/1719991363552.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2024/1719991368931.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2024/1719991373490.jpg"
+            "../src/assets/products/stripes/stripes2.webp",
+            "../src/assets/products/stripes/stripes3.webp",
+            "../src/assets/products/stripes/stripes4.webp",
+            "../src/assets/products/stripes/stripes5.webp",
+            "../src/assets/products/stripes/stripes6.webp"
         ]
     },
     {
@@ -6023,18 +5405,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363300988.jpg",
+        "img": "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books1.webp",
         "designSpecifications": [
             "KRISS Premium Notebook, thinkPrint, 48201090, Undefined, 15.2*21*1.2cm, Soft Bound PU, Undefined, 4x4 cm, Foil Stamping, No, No, No.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363300988.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363257189.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363262088.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363270368.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363276566.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-12-2023/1702363283024.jpg"
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books2.webp",
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books3.webp",
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books4.webp",
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books5.webp",
+            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books6.webp"
         ]
     },
     {
@@ -6045,18 +5426,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228266411.jpg",
+        "img": "../src/assets/products/premium_notebook-athena/premium_notebook-athena1.webp",
         "designSpecifications": [
             "ATHENA Notebook, thinkPrint, 48201010, Undefined, 15.5x21x1.5cm, Vegan Leather, Undefined, Undefined, Debossing, Undefined, Undefined, Undefined.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228266411.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670225634128.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228320923.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228324371.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228241712.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670228245784.jpg"
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena2.webp",
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena3.webp",
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena4.webp",
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena5.webp",
+            "../src/assets/products/premium_notebook-athena/premium_notebook-athena6.webp"
         ]
     },
     {
@@ -6067,18 +5447,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227680763.jpg",
+        "img": "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus1.webp",
         "designSpecifications": [
             "CYRUS, thinkPrint, 48201010, Undefined, 15.2x21x1.5cm, Faux Leather, Undefined, Undefined, Undefined, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227680763.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670226677293.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227652799.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227656234.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227659569.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-12-2022/1670227662937.jpg"
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus2.webp",
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus3.webp",
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus4.webp",
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus5.webp",
+            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus6.webp"
         ]
     },
     {
@@ -6089,17 +5468,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142921515.jpg",
+        "img": "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142921515.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142917917.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665143017848.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142986694.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142964055.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665142921515.jpg"
+            "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook2.webp",
+            "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook3.webp",
+            "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook4.webp",
+            "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook5.webp"
         ]
     },
     {
@@ -6110,18 +5487,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333394379.jpg",
+        "img": "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus1.webp",
         "designSpecifications": [
             "BASIC PLUS, thinkPrint, 482010, Grey, A5 (148 x 210 mm), Soft Bound, 250g, 50 x 50 mm (Back Cover), Screen Printing, No RGB Lighting Effects, No Speaker Output, No Battery.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333394379.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587310898172.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333378411.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333383000.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333386843.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333390648.jpg"
+            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus2.webp",
+            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus3.webp",
+            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus4.webp",
+            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus5.webp",
+            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus6.webp"
         ]
     },
     {
@@ -6132,17 +5508,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333031311.jpg",
+        "img": "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333031311.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587310827609.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333019480.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333023415.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333027246.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588333031311.jpg"
+            "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic2.webp",
+            "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic3.webp",
+            "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic4.webp",
+            "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic5.webp"
         ]
     },
     {
@@ -6153,17 +5527,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865680644.jpg",
+        "img": "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.01.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865680644.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2020/1607412910264.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865638037.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865642171.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865646632.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612865651186.jpg"
+            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.02.webp",
+            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.03.webp",
+            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.04.webp",
+            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.05.webp",
+            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.06.webp"
         ]
     },
     {
@@ -6174,17 +5547,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687420575665.jpg",
+        "img": "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687420575665.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-12-2023/1702447974189.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687420515295.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687420521199.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687420527773.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-06-2023/1687420532264.jpg"
+            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal2.webp",
+            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal3.webp",
+            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal4.webp",
+            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal5.webp",
+            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal6.webp"
         ]
     },
     {
@@ -6195,17 +5567,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390791838.PNG",
+        "img": "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390791838.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587310610217.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390774855.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390780247.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390786194.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390791838.PNG"
+            "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller2.webp",
+            "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller3.webp",
+            "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller4.webp",
+            "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller5.webp"
         ]
     },
     {
@@ -6216,17 +5586,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390447376.jpg",
+        "img": "../src/assets/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390447376.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587310567767.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390437918.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390442806.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390447376.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587310567767.jpeg"
+            "../src/assets/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)2.webp",
+            "../src/assets/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)3.webp",
+            "../src/assets/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)4.webp"
         ]
     },
     {
@@ -6237,17 +5604,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390036462.jpg",
+        "img": "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390036462.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-04-2020/1587310459805.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390022945.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390027431.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390032047.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2020/1597390036462.jpg"
+            "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power2.webp",
+            "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power3.webp",
+            "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power4.webp",
+            "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power5.webp"
         ]
     },
     {
@@ -6258,18 +5623,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-01-2025/1736325987959.jpg",
+        "img": "../src/assets/products/digital_kit/digital_kit1.webp",
         "designSpecifications": [
             "Digital Kit, thinkPrint, 48201090, Black, 25cm x 18cm x 8cm, Nylon, 450g, 5cm x 5cm, Screen Printing, No RGB Lighting, 3W, 500 mAh.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-01-2025/1736325987959.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-01-2025/1736325983377.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-01-2025/1736325987959.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-01-2025/1736325983377.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-01-2025/1736325983377.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-01-2025/1736325983377.jpeg"
+            "../src/assets/products/digital_kit/digital_kit2.webp"
         ]
     },
     {
@@ -6280,7 +5640,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241150667.jpg",
+        "img": "../src/assets/products/travel_gift_set/travel_gift_set1.webp",
         "designSpecifications": [
             "Tech Pouch - Digi Pro, thinkPrint, 42021250, Grey, 25cm x 18cm x 5cm, 600D Polyester, 200g, 8cm x 5cm, Screen Printing, None, N/A, N/A",
             "Bluetooth Speaker - Buzz, thinkPrint, 85182100, Black, 8cm Diameter x 4cm, ABS Plastic, 150g, 3cm x 2cm, Pad Printing, None, 3W, 500 mAh",
@@ -6289,12 +5649,7 @@ export const products = [
             "Powerbank 10k mAh Charge-X, thinkPrint, 85076000, Black, 14cm x 7cm x 1.5cm, Aluminium Alloy, 250g, 5cm x 2cm, Laser Engraving, None, N/A, 10000 mAh"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241150667.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241145095.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241150667.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241145095.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241145095.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736241145095.jpeg"
+            "../src/assets/products/travel_gift_set/travel_gift_set2.webp"
         ]
     },
     {
@@ -6305,19 +5660,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-01-2025/1736145297064.jpg",
+        "img": "../src/assets/products/travel_gift_set/travel_gift_set1.webp",
         "designSpecifications": [
             "Dazzle Lamp + Charger, thinkPrint, 85131000, Black, 15cm x 5cm x 5cm, ABS Plastic, 200g, 3cm x 3cm, Laser Engraving, Rainbow Cycle, N/A, 2000mAh.",
             "Sonic 3-in-1 Charging Cable, thinkPrint, 85444290, Grey, 15cm length, Braided Nylon, 50g, 1cm x 1cm, Pad Printing, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-01-2025/1736145297064.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-01-2025/1736145292294.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-01-2025/1736145297064.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-01-2025/1736145292294.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-01-2025/1736145292294.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-01-2025/1736145292294.jpeg"
+            "../src/assets/products/travel_gift_set/travel_gift_set2.webp"
         ]
     },
     {
@@ -6328,7 +5678,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128723360.jpg",
+        "img": "../src/assets/products/rose_bottle/rose_bottle1.webp",
         "designSpecifications": [
             "Rose Bottle, thinkPrint, 48201090, Rose Gold, 250mm Height x 70mm Diameter, Stainless Steel, 300g, 50mm x 30mm, Laser Engraving, None, None, None",
             "Hardy Series Notebook, thinkPrint, 48201090, Charcoal Gray, A5 (148mm x 210mm), Hardcover, 250g, 80mm x 30mm, Debossing, None, None, None",
@@ -6337,12 +5687,11 @@ export const products = [
             "Hardy Series Notebook, thinkPrint, 48201090, Forest Green, A5 (148mm x 210mm), Hardcover, 250g, 80mm x 30mm, Screen Printing, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128723360.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128683226.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128687616.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128691103.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128694743.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128698397.jpg"
+            "../src/assets/products/rose_bottle/rose_bottle2.webp",
+            "../src/assets/products/rose_bottle/rose_bottle3.webp",
+            "../src/assets/products/rose_bottle/rose_bottle4.webp",
+            "../src/assets/products/rose_bottle/rose_bottle5.webp",
+            "../src/assets/products/rose_bottle/rose_bottle6.webp"
         ]
     },
     {
@@ -6353,7 +5702,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124728596.jpg",
+        "img": "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set1.webp",
         "designSpecifications": [
             "Zeta Bottle, thinkPrint, 39241010, Charcoal Grey, 250mm x 75mm, Tritan Plastic, 300g, 50mm x 30mm, Laser Engraving, None, None, None",
             "Mini Mug, thinkPrint, 69111000, Matte Black, 80mm x 60mm, Ceramic, 150g, 30mm x 20mm, Pad Printing, None, None, None",
@@ -6362,12 +5711,11 @@ export const products = [
             "Zeta Dri N Kwar E Set, thinkPrint, 73239100, Slate Grey, 280mm x 160mm x 80mm, Cardboard, 800g, 60mm x 40mm, Full Color Print, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124728596.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124707912.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124711200.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124714301.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124717563.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124721237.jpg"
+            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set2.webp",
+            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set3.webp",
+            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set4.webp",
+            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set5.webp",
+            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set6.webp"
         ]
     },
     {
@@ -6378,7 +5726,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124226325.jpg",
+        "img": "../src/assets/products/zeta_gift_set/zeta_gift_set1.webp",
         "designSpecifications": [
             "Zeta Bottle, thinkPrint, GS07, Matte Black, 250mm Height, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Kone Mug, thinkPrint, GS07, Ceramic White, 95mm Height, Ceramic, 350g, 40mm x 40mm, Pad Printing, N/A, N/A, N/A",
@@ -6387,12 +5735,11 @@ export const products = [
             "Venice Pen, thinkPrint, GS07, Gunmetal, 140mm Length, Aluminum, 25g, 40mm x 5mm, Laser Engraving, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124226325.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124186184.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124190180.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124193870.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124197565.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728124201119.jpg"
+            "../src/assets/products/zeta_gift_set/zeta_gift_set2.webp",
+            "../src/assets/products/zeta_gift_set/zeta_gift_set3.webp",
+            "../src/assets/products/zeta_gift_set/zeta_gift_set4.webp",
+            "../src/assets/products/zeta_gift_set/zeta_gift_set5.webp",
+            "../src/assets/products/zeta_gift_set/zeta_gift_set6.webp"
         ]
     },
     {
@@ -6403,17 +5750,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728118476291.jpg",
+        "img": "../src/assets/products/mexico_gift_set/mexico_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728118476291.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728118441115.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728118445262.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728118448791.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728118452259.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728118455592.jpg"
+            "../src/assets/products/mexico_gift_set/mexico_gift_set2.webp",
+            "../src/assets/products/mexico_gift_set/mexico_gift_set3.webp",
+            "../src/assets/products/mexico_gift_set/mexico_gift_set4.webp",
+            "../src/assets/products/mexico_gift_set/mexico_gift_set5.webp",
+            "../src/assets/products/mexico_gift_set/mexico_gift_set6.webp"
         ]
     },
     {
@@ -6424,17 +5770,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728115872670.jpg",
+        "img": "../src/assets/products/rose_gir_set/rose_gir_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728115872670.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728115844935.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128101802.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128105931.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128109327.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728128112715.jpg"
+            "../src/assets/products/rose_gir_set/rose_gir_set2.webp",
+            "../src/assets/products/rose_gir_set/rose_gir_set3.webp",
+            "../src/assets/products/rose_gir_set/rose_gir_set4.webp",
+            "../src/assets/products/rose_gir_set/rose_gir_set5.webp",
+            "../src/assets/products/rose_gir_set/rose_gir_set6.webp"
         ]
     },
     {
@@ -6445,17 +5790,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728111716815.jpg",
+        "img": "../src/assets/products/corky_mug_hamper/corky_mug_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728111716815.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728113968967.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728113973027.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728113976471.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728111713270.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728111716815.jpg"
+            "../src/assets/products/corky_mug_hamper/corky_mug_hamper2.webp",
+            "../src/assets/products/corky_mug_hamper/corky_mug_hamper3.webp",
+            "../src/assets/products/corky_mug_hamper/corky_mug_hamper4.webp",
+            "../src/assets/products/corky_mug_hamper/corky_mug_hamper5.webp"
         ]
     },
     {
@@ -6466,17 +5809,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2024/1724061177335.jpg",
+        "img": "../src/assets/products/cardy4_gift_set/cardy4_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2024/1724061177335.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2024/1724061141828.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2024/1724061146189.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2024/1724061149890.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2024/1724061153476.jpg"
+            "../src/assets/products/cardy4_gift_set/cardy4_gift_set3.webp",
+            "../src/assets/products/cardy4_gift_set/cardy4_gift_set4.webp",
+            "../src/assets/products/cardy4_gift_set/cardy4_gift_set5.webp",
+            "../src/assets/products/cardy4_gift_set/cardy4_gift_set6.webp"
         ]
     },
     {
@@ -6487,17 +5828,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812688908.jpg",
+        "img": "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812688908.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812674191.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812678480.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812681888.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812685364.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812688908.jpg"
+            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper2.webp",
+            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper3.webp",
+            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper4.webp",
+            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper5.webp"
         ]
     },
     {
@@ -6508,7 +5847,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812012878.jpg",
+        "img": "../src/assets/products/eco_tees_hamper/eco_tees_hamper1.webp",
         "designSpecifications": [
             "Eco Tees T Shirt, thinkPrint, N/A, Forest Green, Varies by Size (S-XXL), Organic Cotton, 150-200g, 4\" x 4\", Screen Printing, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, N/A, Natural Bamboo, 14cm Length, Bamboo, 15g, 2\" x 0.5\", Laser Engraving, N/A, N/A, N/A",
@@ -6517,12 +5856,10 @@ export const products = [
             "Eco Tees Hamper, thinkPrint, N/A, Natural Kraft, 25cm x 20cm x 10cm, Recycled Cardboard, 800g, 6\" x 4\", Pad Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812012878.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714811997538.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812001885.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812005915.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812009381.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812012878.jpg"
+            "../src/assets/products/eco_tees_hamper/eco_tees_hamper2.webp",
+            "../src/assets/products/eco_tees_hamper/eco_tees_hamper3.webp",
+            "../src/assets/products/eco_tees_hamper/eco_tees_hamper4.webp",
+            "../src/assets/products/eco_tees_hamper/eco_tees_hamper5.webp"
         ]
     },
     {
@@ -6533,7 +5870,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810973739.jpg",
+        "img": "../src/assets/products/eco_korki_hamper/eco_korki_hamper1.webp",
         "designSpecifications": [
             "Grain Eco Bottle, thinkPrint, N/A, Natural, 25cm x 7cm, Stainless Steel/Bamboo, 300g, 5cm x 5cm, Laser Engraving, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, N/A, Natural, 15cm x 1cm, Bamboo, 20g, 3cm x 0.5cm, Laser Engraving, N/A, N/A, N/A",
@@ -6542,12 +5879,10 @@ export const products = [
             "Bamboo Keychain, thinkPrint, N/A, Natural, 8cm x 2cm, Bamboo, 15g, 2cm x 1cm, Laser Engraving, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810973739.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810962444.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810966168.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810969895.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810973739.jpg"
+            "../src/assets/products/eco_korki_hamper/eco_korki_hamper2.webp",
+            "../src/assets/products/eco_korki_hamper/eco_korki_hamper3.webp",
+            "../src/assets/products/eco_korki_hamper/eco_korki_hamper4.webp",
+            "../src/assets/products/eco_korki_hamper/eco_korki_hamper5.webp"
         ]
     },
     {
@@ -6558,7 +5893,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809147510.jpg",
+        "img": "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper1.webp",
         "designSpecifications": [
             "Ebony Flask, thinkPrint, 73239990, Ebony Black, 250mm x 70mm, Stainless Steel, 350g, 50mm x 30mm, Laser Engraving, None, None, None",
             "Rpet Book, thinkPrint, 48201090, Light Grey, A5 (210mm x 148mm), Recycled PET Fabric, 200g, 80mm x 40mm, Screen Printing, None, None, None",
@@ -6567,12 +5902,8 @@ export const products = [
             "Eco Rpet Hamper, thinkPrint, 48201090, Charcoal Grey, 300mm x 200mm x 100mm, Recycled PET Fabric, 500g, 100mm x 50mm, Embroidery, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809147510.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809143805.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809147510.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg"
+            "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper2.webp",
+            "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper3.webp"
         ]
     },
     {
@@ -6583,7 +5914,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808887883.jpg",
+        "img": "../src/assets/products/wheat_mug_hamper/wheat_mug_hamper1.webp",
         "designSpecifications": [
             "Wheat Eco Mug, thinkPrint, 48201090, Natural Wheat, 90mm x 120mm, Wheat Fiber Composite, 150g, 50mm x 50mm, Pad Printing, None, None, None",
             "Bamboo Pen, thinkPrint, 48201090, Natural Bamboo, 140mm x 12mm, Bamboo, 20g, 30mm x 6mm, Laser Engraving, None, None, None",
@@ -6592,12 +5923,7 @@ export const products = [
             "Cork Card Holder, thinkPrint, 48201090, Natural Cork, 100mm x 70mm, Cork, 40g, 40mm x 20mm, Debossing, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808887883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808887883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg"
+            "../src/assets/products/wheat_mug_hamper/wheat_mug_hamper2.webp"
         ]
     },
     {
@@ -6608,7 +5934,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010997127.jpg",
+        "img": "../src/assets/products/orion_gift_set/orion_gift_set1.webp",
         "designSpecifications": [
             "Orion Hot & Cold Flask, thinkPrint, 73239390, Matte Black, 26cm x 7cm diameter, 304 Stainless Steel, 350g, 5cm x 5cm, Laser Engraving, None, None, None",
             "Flap / Fusion Book, thinkPrint, 48201090, Navy Blue, A5 (21cm x 14.8cm), PU Leather, 300g, 8cm x 3cm, Debossing, None, None, None",
@@ -6617,12 +5943,11 @@ export const products = [
             "Vento Travel Mug, thinkPrint, 73239390, Gunmetal Grey, 18cm x 8cm diameter, 304 Stainless Steel, 280g, 5cm x 4cm, Pad Printing, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010997127.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010957982.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010962396.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010966297.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010970155.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010973945.jpg"
+            "../src/assets/products/orion_gift_set/orion_gift_set2.webp",
+            "../src/assets/products/orion_gift_set/orion_gift_set3.webp",
+            "../src/assets/products/orion_gift_set/orion_gift_set4.webp",
+            "../src/assets/products/orion_gift_set/orion_gift_set5.webp",
+            "../src/assets/products/orion_gift_set/orion_gift_set6.webp"
         ]
     },
     {
@@ -6633,7 +5958,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010042470.jpg",
+        "img": "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set1.webp",
         "designSpecifications": [
             "Electra Flip SS Bottle, thinkPrint, 73239390, Silver, 2.75\" x 10.5\", Stainless Steel, 12 oz, 2\" x 4\", Laser Engraving, None, None, None",
             "Dual Book, thinkPrint, 48201090, Gray, 6\" x 8.5\", Cardboard, 8 oz, 4\" x 1\", Screen Printing, None, None, None",
@@ -6642,12 +5967,11 @@ export const products = [
             "Toby Travel Mug, thinkPrint, 73239390, Blue, 3.5\" x 7\", Stainless Steel, 10 oz, 2\" x 2\", Laser Engraving, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010042470.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010008956.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010013366.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010017233.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010021028.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713010024756.jpg"
+            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set2.webp",
+            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set3.webp",
+            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set4.webp",
+            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set5.webp",
+            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set6.webp"
         ]
     },
     {
@@ -6658,17 +5982,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713007614886.jpg",
+        "img": "../src/assets/products/zeta_gift_set/zeta_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713007614886.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713007610676.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713007614886.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713007610676.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713007610676.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2024/1713007610676.jpeg"
+            "../src/assets/products/zeta_gift_set/zeta_gift_set2.webp"
         ]
     },
     {
@@ -6679,17 +5998,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712840488489.jpg",
+        "img": "../src/assets/products/magnetic_gift_sets/magnetic_gift_sets1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712840488489.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712840477397.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712840480933.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712840484756.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712840488489.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712840477397.jpeg"
+            "../src/assets/products/magnetic_gift_sets/magnetic_gift_sets2.webp",
+            "../src/assets/products/magnetic_gift_sets/magnetic_gift_sets3.webp",
+            "../src/assets/products/magnetic_gift_sets/magnetic_gift_sets4.webp"
         ]
     },
     {
@@ -6700,17 +6016,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712835126618.jpg",
+        "img": "../src/assets/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712835126618.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712835223765.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712835121319.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712835126618.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712835223765.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712835223765.jpeg"
+            "../src/assets/products/executive_hampers/executive_hampers2.webp",
+            "../src/assets/products/executive_hampers/executive_hampers3.webp"
         ]
     },
     {
@@ -6721,17 +6033,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712832349839.jpg",
+        "img": "../src/assets/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712832349839.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712832341906.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712832345702.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712832349839.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712832341906.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712832341906.jpeg"
+            "../src/assets/products/executive_hampers/executive_hampers2.webp",
+            "../src/assets/products/executive_hampers/executive_hampers3.webp"
         ]
     },
     {
@@ -6742,17 +6050,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712831758454.jpg",
+        "img": "../src/assets/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712831758454.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712831750623.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712831754398.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712831758454.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712831750623.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-04-2024/1712831750623.jpeg"
+            "../src/assets/products/executive_hampers/executive_hampers2.webp",
+            "../src/assets/products/executive_hampers/executive_hampers3.webp"
         ]
     },
     {
@@ -6763,17 +6067,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2024/1712739074058.jpg",
+        "img": "../src/assets/products/ug_hm07/ug_hm071.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2024/1712739074058.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2024/1712739035831.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2024/1712739040438.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2024/1712739044359.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2024/1712739048291.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-04-2024/1712739051876.jpg"
+            "../src/assets/products/ug_hm07/ug_hm072.webp",
+            "../src/assets/products/ug_hm07/ug_hm073.webp",
+            "../src/assets/products/ug_hm07/ug_hm074.webp",
+            "../src/assets/products/ug_hm07/ug_hm075.webp",
+            "../src/assets/products/ug_hm07/ug_hm076.webp"
         ]
     },
     {
@@ -6784,7 +6087,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712577275357.jpg",
+        "img": "../src/assets/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "Chill Bottle, thinkPrint, 48201090, White, 25cm Height x 7cm Diameter, Stainless Steel, 350g, 5cm x 5cm, Laser Engraving, None, None, None",
             "Cookie Mug, thinkPrint, 48201090, White, 12cm Height x 9cm Diameter, Ceramic, 400g, 4cm x 4cm, Pad Printing, None, None, None",
@@ -6793,12 +6096,8 @@ export const products = [
             "Stypen, thinkPrint, 48201090, White, 14cm Length x 1cm Diameter, Aluminum, 30g, 4cm x 0.5cm, Laser Engraving, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712577275357.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712577264987.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712577270407.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712577275357.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712577264987.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712577264987.jpeg"
+            "../src/assets/products/executive_hampers/executive_hampers2.webp",
+            "../src/assets/products/executive_hampers/executive_hampers3.webp"
         ]
     },
     {
@@ -6809,18 +6108,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712576564989.jpg",
+        "img": "../src/assets/products/ug-hm02/ug-hm021.webp",
         "designSpecifications": [
             "GREY HAMPER, thinkPrint, 48201090, Grey, 18\" x 14\" x 24\", Canvas, 2 lbs, 4\" x 6\", Silkscreen, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712576564989.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712576560515.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712576564989.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712576560515.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712576560515.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-04-2024/1712576560515.jpeg"
+            "../src/assets/products/ug-hm02/ug-hm022.webp"
         ]
     },
     {
@@ -6831,18 +6125,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697548723584.jpg",
+        "img": "../src/assets/products/orion_gift_set/orion_gift_set1.webp",
         "designSpecifications": [
             "Orion Gift Set, thinkPrint, 96170019, Black, 25 x 20 x 8 cm, Cardboard, 500g, 5 x 5 cm, Screen Print, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697548723584.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-10-2023/1697631985023.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697548706909.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697548712858.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697548718123.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697548723584.jpg"
+            "../src/assets/products/orion_gift_set/orion_gift_set2.webp",
+            "../src/assets/products/orion_gift_set/orion_gift_set3.webp",
+            "../src/assets/products/orion_gift_set/orion_gift_set4.webp",
+            "../src/assets/products/orion_gift_set/orion_gift_set5.webp"
         ]
     },
     {
@@ -6853,18 +6145,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697546087085.jpg",
+        "img": "../src/assets/products/orion_drinkware_set/orion_drinkware_set1.webp",
         "designSpecifications": [
             "Orion Drinkware Set, thinkPrint, 96170019, Matte Black, Bottle: 25cm height x 7cm diameter, Mug: 8cm height x 6cm diameter, Stainless Steel, Bottle: 350g, Mug: 150g, Bottle: 5cm x 3cm, Mug: 3cm x 2cm, Laser Engraving, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697546087085.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697546045079.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697546049754.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697546054916.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697546060398.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697546065775.jpg"
+            "../src/assets/products/orion_drinkware_set/orion_drinkware_set2.webp",
+            "../src/assets/products/orion_drinkware_set/orion_drinkware_set3.webp",
+            "../src/assets/products/orion_drinkware_set/orion_drinkware_set4.webp",
+            "../src/assets/products/orion_drinkware_set/orion_drinkware_set5.webp",
+            "../src/assets/products/orion_drinkware_set/orion_drinkware_set6.webp"
         ]
     },
     {
@@ -6875,18 +6166,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543256778.jpg",
+        "img": "../src/assets/products/junior_eco_gift_set/junior_eco_gift_set1.webp",
         "designSpecifications": [
             "Junior Eco Gift Set, thinkPrint, 96170019, Natural Wood, 20cm x 15cm x 8cm, Recycled Cardboard, 350g, 5cm x 5cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543256778.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543246233.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543250474.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543256778.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543246233.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543246233.jpeg"
+            "../src/assets/products/junior_eco_gift_set/junior_eco_gift_set2.webp",
+            "../src/assets/products/junior_eco_gift_set/junior_eco_gift_set3.webp"
         ]
     },
     {
@@ -6897,17 +6184,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543229662.jpg",
+        "img": "../src/assets/products/eco_gift_set/eco_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543229662.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543213385.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543218292.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543225344.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543229662.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697543213385.jpeg"
+            "../src/assets/products/eco_gift_set/eco_gift_set2.webp",
+            "../src/assets/products/eco_gift_set/eco_gift_set3.webp",
+            "../src/assets/products/eco_gift_set/eco_gift_set4.webp"
         ]
     },
     {
@@ -6918,17 +6202,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697541368953.jpg",
+        "img": "../src/assets/products/festive_gift_set/festive_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697541368953.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697541320385.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697541325268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697541330963.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697541336422.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-10-2023/1697541342241.jpg"
+            "../src/assets/products/festive_gift_set/festive_gift_set2.webp",
+            "../src/assets/products/festive_gift_set/festive_gift_set3.webp",
+            "../src/assets/products/festive_gift_set/festive_gift_set4.webp",
+            "../src/assets/products/festive_gift_set/festive_gift_set5.webp",
+            "../src/assets/products/festive_gift_set/festive_gift_set6.webp"
         ]
     },
     {
@@ -6939,17 +6222,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697462439789.jpg",
+        "img": "../src/assets/products/travel_gift_set/travel_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697462439789.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697462419405.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697462423813.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697462428934.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697462434557.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697462439789.jpg"
+            "../src/assets/products/travel_gift_set/travel_gift_set2.webp",
+            "../src/assets/products/travel_gift_set/travel_gift_set3.webp",
+            "../src/assets/products/travel_gift_set/travel_gift_set4.webp",
+            "../src/assets/products/travel_gift_set/travel_gift_set5.webp"
         ]
     },
     {
@@ -6960,18 +6241,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458605305.jpg",
+        "img": "../src/assets/products/krono_gift_set/krono_gift_set1.webp",
         "designSpecifications": [
             "KRONO Gift Set, thinkPrint, 85437090, Black, 25 x 20 x 8 cm, Cardboard, 600g, 5 x 5 cm, Screen Printing, None, 3W, 1200mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458605305.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-10-2023/1697632566170.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458588883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458594511.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458600054.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458605305.jpg"
+            "../src/assets/products/krono_gift_set/krono_gift_set2.webp",
+            "../src/assets/products/krono_gift_set/krono_gift_set3.webp",
+            "../src/assets/products/krono_gift_set/krono_gift_set4.webp",
+            "../src/assets/products/krono_gift_set/krono_gift_set5.webp"
         ]
     },
     {
@@ -6982,18 +6261,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458577141.jpg",
+        "img": "../src/assets/products/clint_gift_set/clint_gift_set1.webp",
         "designSpecifications": [
             "CLINT Gift Set, thinkPrint, 96170019, Black, Bottle: 25cm height, Mug: 7cm height, Speaker: 8cm diameter, Stainless Steel (Bottle & Mug), ABS Plastic (Speaker), 800g (total set), 5cm x 5cm (Speaker), Laser Engraving/Pad Printing, Single color indicator, 3W, 1200mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458577141.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458567726.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458571846.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458577141.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458567726.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697458567726.jpeg"
+            "../src/assets/products/clint_gift_set/clint_gift_set2.webp",
+            "../src/assets/products/clint_gift_set/clint_gift_set3.webp"
         ]
     },
     {
@@ -7004,19 +6279,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455633772.jpg",
+        "img": "../src/assets/products/clint_drinkware_set/clint_drinkware_set1.webp",
         "designSpecifications": [
             "CLINT Bottle, thinkPrint, 96170019, Black, 28cm x 8cm, Stainless Steel, 450g, 5cm x 5cm, Laser Engraving, No RGB Lighting Effects",
             "Mini Mug, thinkPrint, 96170019, Black, 8cm x 6cm, Ceramic, 250g, 3cm x 3cm, Pad Printing, No RGB Lighting Effects",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455633772.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455623044.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455627179.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455633772.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455623044.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455623044.jpeg"
+            "../src/assets/products/clint_drinkware_set/clint_drinkware_set2.webp",
+            "../src/assets/products/clint_drinkware_set/clint_drinkware_set3.webp"
         ]
     },
     {
@@ -7027,7 +6298,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455591540.jpg",
+        "img": "../src/assets/products/zen_drinkware_set/zen_drinkware_set1.webp",
         "designSpecifications": [
             "ZEN 500 Bottle, thinkPrint, 96170019, Matte Black, 73mm diameter x 215mm height, Stainless Steel 304, 300g, 50mm x 50mm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
             "Lisbon Mug 2, thinkPrint, 96170019, Gloss White, 85mm diameter x 95mm height, Ceramic, 350g, 40mm x 60mm, Pad Printing, Not Applicable, Not Applicable, Not Applicable",
@@ -7036,12 +6307,11 @@ export const products = [
             "Lisbon Mug 2, thinkPrint, 96170019, Interior - White, 85mm diameter x 95mm height, Ceramic, 350g, Not Applicable, Not Applicable, Not Applicable, Not Applicable, Not Applicable"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455591540.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455546835.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455550683.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455556211.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455561889.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455569314.jpg"
+            "../src/assets/products/zen_drinkware_set/zen_drinkware_set2.webp",
+            "../src/assets/products/zen_drinkware_set/zen_drinkware_set3.webp",
+            "../src/assets/products/zen_drinkware_set/zen_drinkware_set4.webp",
+            "../src/assets/products/zen_drinkware_set/zen_drinkware_set5.webp",
+            "../src/assets/products/zen_drinkware_set/zen_drinkware_set6.webp"
         ]
     },
     {
@@ -7052,18 +6322,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455536536.jpg",
+        "img": "../src/assets/products/zen_gift_set/zen_gift_set1.webp",
         "designSpecifications": [
             "ZEN Gift Set, thinkPrint, 96170019, Black, 25cm x 20cm x 10cm, Mixed, 1.2kg, 5cm x 5cm, Laser Engraving, None, 3W, 1200mAh",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455536536.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455504972.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455509594.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455515303.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455520746.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-10-2023/1697455530843.jpg"
+            "../src/assets/products/zen_gift_set/zen_gift_set2.webp",
+            "../src/assets/products/zen_gift_set/zen_gift_set3.webp",
+            "../src/assets/products/zen_gift_set/zen_gift_set4.webp",
+            "../src/assets/products/zen_gift_set/zen_gift_set5.webp",
+            "../src/assets/products/zen_gift_set/zen_gift_set6.webp"
         ]
     },
     {
@@ -7074,18 +6343,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686994704123.jpg",
+        "img": "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)1.webp",
         "designSpecifications": [
             "EMPLOYEE ESSENTIAL KIT ORION COLLECTION, thinkPrint, 48201090, Assorted, 25cm x 20cm x 8cm, Cardboard, 800g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686994704123.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686994668973.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686994673223.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686994676667.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686994679875.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686994683434.jpg"
+            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)2.webp",
+            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)3.webp",
+            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)4.webp",
+            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)5.webp",
+            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)6.webp"
         ]
     },
     {
@@ -7096,18 +6364,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686993569398.jpg",
+        "img": "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)1.webp",
         "designSpecifications": [
             "EMPLOYEE ESSENTIAL KIT, thinkPrint, 48201090, Black, 25cm x 18cm x 8cm, ABS Plastic, 500g, 5cm x 5cm, Laser Engraving, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686993569398.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686993541002.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686993544525.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686993548067.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686993551665.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686993555138.jpg"
+            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)2.webp",
+            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)3.webp",
+            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)4.webp",
+            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)5.webp",
+            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)6.webp"
         ]
     },
     {
@@ -7118,17 +6385,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686215533542.jpeg",
+        "img": "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686215533542.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671108287017.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686215505360.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686215515109.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686215519622.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686215524342.jpeg"
+            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper2.webp",
+            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper3.webp",
+            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper4.webp",
+            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper5.webp",
+            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper6.webp"
         ]
     },
     {
@@ -7139,17 +6405,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671107874694.jpeg",
+        "img": "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671107874694.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671107857562.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723010528871.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723010534383.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723010538208.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723010542115.jpg"
+            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca2.webp",
+            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca3.webp",
+            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca4.webp",
+            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca5.webp",
+            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca6.webp"
         ]
     },
     {
@@ -7160,17 +6425,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214495210.jpeg",
+        "img": "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214495210.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671107545501.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214466779.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214471155.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214475572.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214479758.jpeg"
+            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree2.webp",
+            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree3.webp",
+            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree4.webp",
+            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree5.webp",
+            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree6.webp"
         ]
     },
     {
@@ -7181,17 +6445,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671107453728.jpeg",
+        "img": "../src/assets/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671107453728.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671107453728.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-12-2022/1671107453728.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud2.webp",
+            "../src/assets/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud3.webp",
+            "../src/assets/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud4.webp"
         ]
     },
     {
@@ -7202,17 +6463,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214739268.jpeg",
+        "img": "../src/assets/products/drinkware_gift_set-clint/drinkware_gift_set-clint1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214739268.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670314327628.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214732325.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214735889.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-06-2023/1686214739268.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670314327628.jpeg"
+            "../src/assets/products/drinkware_gift_set-clint/drinkware_gift_set-clint2.webp",
+            "../src/assets/products/drinkware_gift_set-clint/drinkware_gift_set-clint3.webp",
+            "../src/assets/products/drinkware_gift_set-clint/drinkware_gift_set-clint4.webp"
         ]
     },
     {
@@ -7223,17 +6481,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683635317195.jpeg",
+        "img": "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683635317195.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-04-2023/1681716281427.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683635300032.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683635305456.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683635308905.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683635313112.jpeg"
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set5.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set6.webp"
         ]
     },
     {
@@ -7244,7 +6501,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634211823.jpeg",
+        "img": "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
         "designSpecifications": [
             "Bottle-Sigma Pro, thinkPrint, N/A, Matte Black, 25cm height x 7cm diameter, Stainless Steel, 350g, 5cm x 5cm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Primo, thinkPrint, 482010, Charcoal Grey, A5 (14.8cm x 21cm), Faux Leather, 250g, 8cm x 3cm, Debossing, N/A, N/A, N/A",
@@ -7253,12 +6510,10 @@ export const products = [
             "thinkPrint, thinkPrint, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634211823.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-04-2023/1681715948274.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634198752.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634203588.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634207918.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634211823.jpeg"
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set5.webp"
         ]
     },
     {
@@ -7269,7 +6524,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636138384.jpeg",
+        "img": "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set1.webp",
         "designSpecifications": [
             "Bottle-Orion, thinkPrint, 482010, Matte Black, 250mm Height x 75mm Diameter, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Hardy Plus, thinkPrint, 482010, Navy Blue, A5 (210mm x 148mm), Faux Leather, 400g, 80mm x 30mm, Debossing, N/A, N/A, N/A",
@@ -7278,12 +6533,11 @@ export const products = [
             "Key Chain-PU Key Chain, thinkPrint, 482010, Brown, 90mm Length x 30mm Width, PU Leather, 30g, 20mm x 10mm, Embossing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636138384.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-04-2023/1681714825116.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636110388.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636115060.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636118854.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636122899.jpeg"
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set2.webp",
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set3.webp",
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set4.webp",
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set5.webp",
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set6.webp"
         ]
     },
     {
@@ -7294,7 +6548,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634434127.jpeg",
+        "img": "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
         "designSpecifications": [
             "Bottle-Orion, thinkPrint, N/A, Matte Black, 250mm x 75mm, Stainless Steel, 350g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Softy, thinkPrint, 482010, Charcoal Gray, A5 (210mm x 148mm), Faux Leather, 250g, 100mm x 20mm, Debossing, N/A, N/A, N/A",
@@ -7303,12 +6557,11 @@ export const products = [
             "N/A, thinkPrint, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634434127.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-04-2023/1681714172307.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634418364.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634422329.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634426352.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683634430448.jpeg"
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set5.webp",
+            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set6.webp"
         ]
     },
     {
@@ -7319,7 +6572,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636752171.jpeg",
+        "img": "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set1.webp",
         "designSpecifications": [
             "Bottle-Silica, thinkPrint, 482010, Transparent, 250mm x 70mm, Silica Glass, 350g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Capri, thinkPrint, 482010, Navy Blue, A5 (210mm x 148mm), Faux Leather, 250g, 80mm x 40mm, Debossing, N/A, N/A, N/A",
@@ -7328,12 +6581,11 @@ export const products = [
             "Bluetooth Speaker-Nano, thinkPrint, 482010, Matte Black, 50mm x 50mm x 30mm, ABS Plastic, 80g, 20mm x 10mm, Pad Printing, Red, 3W, 400mAh"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636752171.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-04-2023/1681713621239.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636723980.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636728260.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636732156.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-05-2023/1683636735956.jpeg"
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set2.webp",
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set3.webp",
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set4.webp",
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set5.webp",
+            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set6.webp"
         ]
     },
     {
@@ -7344,18 +6596,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665139080584.jpeg",
+        "img": "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set1.webp",
         "designSpecifications": [
             "CALYPSO -DRINKWARE GIFT SET, thinkPrint, 96170090, Matte Black, 25cm x 20cm x 10cm, Stainless Steel, 800g, 5cm x 5cm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665139080584.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665139076677.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665139203259.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665139167189.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665139131818.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-10-2022/1665139080584.jpeg"
+            "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set2.webp",
+            "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set3.webp",
+            "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set4.webp",
+            "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set5.webp"
         ]
     },
     {
@@ -7366,17 +6616,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638947796271.jpeg",
+        "img": "../src/assets/products/softy_gift_set/softy_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638947796271.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638947796271.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-12-2021/1638947796271.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/softy_gift_set/softy_gift_set2.webp",
+            "../src/assets/products/softy_gift_set/softy_gift_set3.webp",
+            "../src/assets/products/softy_gift_set/softy_gift_set4.webp"
         ]
     },
     {
@@ -7387,17 +6634,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-12-2021/1638519804216.JPG",
+        "img": "../src/assets/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-12-2021/1638519804216.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-12-2021/1638519779727.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-12-2021/1638519797703.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-12-2021/1638519800831.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-12-2021/1638519804216.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-12-2021/1638519779727.jpeg"
+            "../src/assets/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set2.webp",
+            "../src/assets/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set3.webp",
+            "../src/assets/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set4.webp"
         ]
     },
     {
@@ -7408,17 +6652,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2021/1638436836210.JPG",
+        "img": "../src/assets/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2021/1638436836210.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2021/1638436616179.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2021/1638436829523.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2021/1638436832760.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2021/1638436836210.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2021/1638436616179.jpeg"
+            "../src/assets/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set2.webp",
+            "../src/assets/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set3.webp",
+            "../src/assets/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set4.webp"
         ]
     },
     {
@@ -7429,17 +6670,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638363195606.JPG",
+        "img": "../src/assets/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638363195606.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638363181864.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638363192564.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638363195606.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638363181864.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638363181864.jpeg"
+            "../src/assets/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set2.webp",
+            "../src/assets/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set3.webp"
         ]
     },
     {
@@ -7450,17 +6687,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638345338288.JPG",
+        "img": "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638345338288.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638345242325.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638345328534.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638345331707.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638345335079.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-12-2021/1638345338288.JPG"
+            "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection2.webp",
+            "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection3.webp",
+            "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection4.webp",
+            "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection5.webp"
         ]
     },
     {
@@ -7471,18 +6706,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-09-2021/1631875924982.jpeg",
+        "img": "../src/assets/products/mini_welcome_kit/mini_welcome_kit1.webp",
         "designSpecifications": [
             "UG MINI WELCOME KIT, thinkPrint, 490700, Black, 250mm x 200mm x 80mm, Cardboard, 500g, 80mm x 50mm, Screen Printing, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-09-2021/1631875924982.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-09-2021/1631875924982.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-09-2021/1631875924982.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/mini_welcome_kit/mini_welcome_kit2.webp",
+            "../src/assets/products/mini_welcome_kit/mini_welcome_kit3.webp",
+            "../src/assets/products/mini_welcome_kit/mini_welcome_kit4.webp"
         ]
     },
     {
@@ -7493,7 +6725,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628507813196.jpeg",
+        "img": "../src/assets/products/junior_joining_kits/junior_joining_kits1.webp",
         "designSpecifications": [
             "Tulip, thinkPrint, 42029200, Grey, 20cm x 15cm x 5cm, Cardboard, 300g, 5cm x 5cm, Screen Printing, No, N/A, N/A",
             "Matte, thinkPrint, 39269099, Red, 18cm x 12cm x 4cm, Plastic, 250g, 4cm x 4cm, Pad Printing, No, N/A, N/A",
@@ -7502,12 +6734,10 @@ export const products = [
             "UG NAME Set -2, thinkPrint, 49111000, Assorted, 25cm x 18cm x 7cm, Varies, 400g, 7cm x 7cm, Varies, No, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628507813196.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628507779820.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628507800403.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628507804336.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628507808461.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628507813196.jpeg"
+            "../src/assets/products/junior_joining_kits/junior_joining_kits2.webp",
+            "../src/assets/products/junior_joining_kits/junior_joining_kits3.webp",
+            "../src/assets/products/junior_joining_kits/junior_joining_kits4.webp",
+            "../src/assets/products/junior_joining_kits/junior_joining_kits5.webp"
         ]
     },
     {
@@ -7518,7 +6748,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628505596658.jpeg",
+        "img": "../src/assets/products/junior_joining_kits/junior_joining_kits1.webp",
         "designSpecifications": [
             "Employee Welcome Kit Set-1, thinkPrint, 49149000, Black, 250 x 200 x 80 mm, Cardboard, 500g, 100 x 50 mm, Screen Printing, No, No, No",
             "Employee Welcome Kit Set-1, thinkPrint, 49149000, Yellow, 250 x 200 x 80 mm, Cardboard, 500g, 100 x 50 mm, Screen Printing, No, No, No",
@@ -7527,12 +6757,10 @@ export const products = [
             "Employee Welcome Kit Set-1, thinkPrint, 49149000, Assorted, 250 x 200 x 80 mm, Cardboard, 500g, 100 x 50 mm, Screen Printing, No, No, No"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628505596658.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628505562768.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628505584487.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628505588697.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628505592500.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628505596658.jpeg"
+            "../src/assets/products/junior_joining_kits/junior_joining_kits2.webp",
+            "../src/assets/products/junior_joining_kits/junior_joining_kits3.webp",
+            "../src/assets/products/junior_joining_kits/junior_joining_kits4.webp",
+            "../src/assets/products/junior_joining_kits/junior_joining_kits5.webp"
         ]
     },
     {
@@ -7543,7 +6771,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138574646.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b1.webp",
         "designSpecifications": [
             "Bottle, Elite, N/A, Grey, 250mm x 70mm, Stainless Steel, 250g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Book, Trika, 482010, Grey, 210mm x 148mm, Hardcover, 400g, 80mm x 20mm, Screen Printing, N/A, N/A, N/A",
@@ -7552,12 +6780,9 @@ export const products = [
             "Folding Duffel Bag, Duflpac Sports, N/A, Grey, 500mm x 250mm x 250mm, Polyester, 300g, 100mm x 50mm, Screen Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138574646.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138574646.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138574646.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b4.webp"
         ]
     },
     {
@@ -7568,7 +6793,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138519245.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a1.webp",
         "designSpecifications": [
             "Bottle, thinkPrint, 482010, Grey, 250mm height, Silica, 300g, 50mm x 50mm, Laser Engraving, None, N/A, N/A",
             "Book, thinkPrint, 482010, Grey, A5 size, Korsa Premium, 400g, 80mm x 30mm, Screen Printing, None, N/A, N/A",
@@ -7577,12 +6802,9 @@ export const products = [
             "Speaker, thinkPrint, 482010, Grey, 70mm diameter, Aquabeats, 150g, 30mm x 20mm, Pad Printing, Yes, 3W, 500mAh"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138519245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138519245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138519245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a4.webp"
         ]
     },
     {
@@ -7593,17 +6815,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138379722.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138379722.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138379722.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138379722.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b4.webp"
         ]
     },
     {
@@ -7614,17 +6833,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138279451.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138279451.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138279451.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138279451.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b4.webp"
         ]
     },
     {
@@ -7635,17 +6851,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138124014.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138124014.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138124014.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138124014.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b4.webp"
         ]
     },
     {
@@ -7656,17 +6869,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137884129.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137884129.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137884129.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137884129.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b4.webp"
         ]
     },
     {
@@ -7677,17 +6887,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137634245.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137634245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137634245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137634245.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b2.webp",
+            "../src/assets/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b3.webp",
+            "../src/assets/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b4.webp"
         ]
     },
     {
@@ -7698,7 +6905,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138460862.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b1.webp",
         "designSpecifications": [
             "Mobilo Bottle, thinkPrint, N/A, White, 270mm height, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Hardy Plus Book, thinkPrint, 482010, White, A5, Paper, 250g, 80mm x 30mm, Screen Printing, N/A, N/A, N/A",
@@ -7707,12 +6914,9 @@ export const products = [
             "Acti-Go T-shirt, thinkPrint, N/A, White, Varies with Size, Cotton, 150g, 100mm x 100mm, Screen Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138460862.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138460862.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138460862.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b4.webp"
         ]
     },
     {
@@ -7723,7 +6927,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138427326.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a1.webp",
         "designSpecifications": [
             "Bottle, thinkPrint, N/A, White, 220mm height x 70mm diameter, Stainless Steel, 200g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Book, thinkPrint, 482010, White, A5 (148mm x 210mm), Hardcover, 300g, 100mm x 50mm, Screen Printing, N/A, N/A, N/A",
@@ -7732,12 +6936,9 @@ export const products = [
             "Charging Cable, thinkPrint, N/A, White, 1m length, TPE, 30g, 10mm x 5mm, Pad Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138427326.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138427326.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138427326.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a4.webp"
         ]
     },
     {
@@ -7748,7 +6949,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137952319.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a1.webp",
         "designSpecifications": [
             "Bottle, thinkPrint, 482010, Translucent, 25cm height x 7cm diameter, Tritan, 150g, 5cm x 5cm, Screen Printing, None, N/A, N/A",
             "Book, thinkPrint, 482010, Zigy Pattern, A5, Paper, 200g, 10cm x 5cm, Foil Stamping, None, N/A, N/A",
@@ -7757,12 +6958,9 @@ export const products = [
             "Key chain, thinkPrint, 482010, Blue, 7cm length x 3cm width, Metal Alloy, 50g, 2cm x 1cm, Epoxy Dome, None, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137952319.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137952319.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137952319.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a2.webp",
+            "../src/assets/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a3.webp",
+            "../src/assets/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a4.webp"
         ]
     },
     {
@@ -7773,7 +6971,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138167512.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a1.webp",
         "designSpecifications": [
             "Bottle, thinkPrint, 482010, Green Combo, 25cm Height, Tritan, 200g, 5cm x 5cm, Screen Printing, None, None, None",
             "Book, thinkPrint, 482010, Green Combo, A5, Cardboard, 300g, 8cm x 3cm, Debossing, None, None, None",
@@ -7782,12 +6980,9 @@ export const products = [
             "Lamp, thinkPrint, 482010, Green Combo, 15cm Height, ABS Plastic, 180g, 4cm x 2cm, Pad Printing, Warm White, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138167512.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138167512.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138167512.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a2.webp",
+            "../src/assets/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a3.webp",
+            "../src/assets/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a4.webp"
         ]
     },
     {
@@ -7798,7 +6993,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138327714.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a1.webp",
         "designSpecifications": [
             "Joining Kit Gift Set - 5A, thinkPrint, 482010, Orange Combo, Variable, Silica, Variable, Varies by Item, Screen Printing/Laser Engraving, None, None, None",
             "Joining Kit Gift Set - 5A, thinkPrint, 482010, Orange Combo, Variable, Roca, Variable, Varies by Item, Screen Printing/Laser Engraving, None, None, None",
@@ -7807,12 +7002,9 @@ export const products = [
             "Joining Kit Gift Set - 5A, thinkPrint, 482010, Orange Combo, Variable, Toby, Variable, Varies by Item, Screen Printing/Laser Engraving, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138327714.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138327714.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630138327714.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a2.webp",
+            "../src/assets/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a3.webp",
+            "../src/assets/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a4.webp"
         ]
     },
     {
@@ -7823,19 +7015,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617707037839.jpeg",
+        "img": "../src/assets/products/3-_in-1-_gift_set/3-_in-1-_gift_set1.webp",
         "designSpecifications": [
             "RFID Card Holder Smart Wallet, thinkPrint, 42020000, Black, 10cm x 7cm x 2cm, Faux Leather & Metal, 85g, 5cm x 2cm, Laser Engraving, N/A, N/A, N/A",
             "Premium Metal Pen, thinkPrint, 96081010, Silver, 13.5cm x 1cm x 1cm, Metal, 25g, 4cm x 0.5cm, Laser Engraving, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617707037839.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617707037839.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617707037839.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/3-_in-1-_gift_set/3-_in-1-_gift_set2.webp",
+            "../src/assets/products/3-_in-1-_gift_set/3-_in-1-_gift_set3.webp",
+            "../src/assets/products/3-_in-1-_gift_set/3-_in-1-_gift_set4.webp"
         ]
     },
     {
@@ -7846,17 +7035,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617706069443.jpeg",
+        "img": "../src/assets/products/power_bank_-_gift_set/power_bank_-_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617706069443.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617706069443.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617706069443.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/power_bank_-_gift_set/power_bank_-_gift_set2.webp",
+            "../src/assets/products/power_bank_-_gift_set/power_bank_-_gift_set3.webp",
+            "../src/assets/products/power_bank_-_gift_set/power_bank_-_gift_set4.webp"
         ]
     },
     {
@@ -7867,17 +7053,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617705467453.jpeg",
+        "img": "../src/assets/products/roman_pen_-_gift_set/roman_pen_-_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617705467453.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617705467453.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617705467453.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/roman_pen_-_gift_set/roman_pen_-_gift_set2.webp",
+            "../src/assets/products/roman_pen_-_gift_set/roman_pen_-_gift_set3.webp",
+            "../src/assets/products/roman_pen_-_gift_set/roman_pen_-_gift_set4.webp"
         ]
     },
     {
@@ -7888,17 +7071,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617703469370.jpg",
+        "img": "../src/assets/products/turin_pen_gift_set/turin_pen_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617703469370.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617703457046.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617703463992.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617703469370.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617703457046.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-04-2021/1617703457046.jpeg"
+            "../src/assets/products/turin_pen_gift_set/turin_pen_gift_set2.webp",
+            "../src/assets/products/turin_pen_gift_set/turin_pen_gift_set3.webp"
         ]
     },
     {
@@ -7909,17 +7088,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137700678.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137700678.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137700678.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137700678.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a2.webp",
+            "../src/assets/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a3.webp",
+            "../src/assets/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a4.webp"
         ]
     },
     {
@@ -7930,17 +7106,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137557519.jpg",
+        "img": "../src/assets/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137557519.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137557519.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-08-2021/1630137557519.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a2.webp",
+            "../src/assets/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a3.webp",
+            "../src/assets/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a4.webp"
         ]
     },
     {
@@ -7951,17 +7124,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2021/1612251103279.jpg",
+        "img": "../src/assets/products/stylo_gift_set/stylo_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2021/1612251103279.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2021/1612251058216.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2021/1612251075896.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2021/1612251081488.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2021/1612251087008.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-02-2021/1612251092332.png"
+            "../src/assets/products/stylo_gift_set/stylo_gift_set2.webp",
+            "../src/assets/products/stylo_gift_set/stylo_gift_set3.webp",
+            "../src/assets/products/stylo_gift_set/stylo_gift_set4.webp",
+            "../src/assets/products/stylo_gift_set/stylo_gift_set5.webp",
+            "../src/assets/products/stylo_gift_set/stylo_gift_set6.webp"
         ]
     },
     {
@@ -7972,17 +7144,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-01-2021/1611741376275.png",
+        "img": "../src/assets/products/mobi_gift_set/mobi_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-01-2021/1611741376275.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-01-2021/1611741336604.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-01-2021/1611741351531.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-01-2021/1611741356621.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-01-2021/1611741361221.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-01-2021/1611741366398.png"
+            "../src/assets/products/mobi_gift_set/mobi_gift_set2.webp",
+            "../src/assets/products/mobi_gift_set/mobi_gift_set3.webp",
+            "../src/assets/products/mobi_gift_set/mobi_gift_set4.webp",
+            "../src/assets/products/mobi_gift_set/mobi_gift_set5.webp",
+            "../src/assets/products/mobi_gift_set/mobi_gift_set6.webp"
         ]
     },
     {
@@ -7993,18 +7164,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611389280161.png",
+        "img": "../src/assets/products/regal_gift_set/regal_gift_set1.webp",
         "designSpecifications": [
             "UG REGAL GIFT SET (PEN - TURIN), thinkPrint, 48201000, Deep Brown, 8.5\" x 6.5\" x 1.5\", Faux Leather, 1.5 lbs, 2\" x 2\", Debossing, No, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611389280161.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611389244064.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611389257483.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611389261606.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611389265997.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611389270745.png"
+            "../src/assets/products/regal_gift_set/regal_gift_set2.webp",
+            "../src/assets/products/regal_gift_set/regal_gift_set3.webp",
+            "../src/assets/products/regal_gift_set/regal_gift_set4.webp",
+            "../src/assets/products/regal_gift_set/regal_gift_set5.webp",
+            "../src/assets/products/regal_gift_set/regal_gift_set6.webp"
         ]
     },
     {
@@ -8015,7 +7185,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388779660.png",
+        "img": "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set1.webp",
         "designSpecifications": [
             "TRAVELLER 2.0 GIFT SET (PEN - TURIN), thinkPrint, 482010, Brown, 8.5 x 6.5 x 1.25 inches, Faux Leather, 1.2 lbs, 2 x 2 inches, Debossing",
             "TRAVELLER 2.0 GIFT SET (PEN - TURIN), thinkPrint, 482010, Brown, Refillable Journal, Button Closure, N/A",
@@ -8024,12 +7194,11 @@ export const products = [
             "TRAVELLER 2.0 GIFT SET (PEN - TURIN), thinkPrint, 482010, Brown, Executive Look, Zipper Wallet, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388779660.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388742006.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388756704.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388761431.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388765878.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388770859.png"
+            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set2.webp",
+            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set3.webp",
+            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set4.webp",
+            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set5.webp",
+            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set6.webp"
         ]
     },
     {
@@ -8040,18 +7209,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388046588.png",
+        "img": "../src/assets/products/traveller_gift_set/traveller_gift_set1.webp",
         "designSpecifications": [
             "UG NAME TRAVELLER GIFT SET (PEN - VERONA), thinkPrint, 482010, Brown, 8.5 x 6.25 x 1.25 inches, Faux Leather, 1.2 lbs, 2 x 2 inches, Debossing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388046588.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388006444.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388020423.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388025253.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388030772.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611388035824.png"
+            "../src/assets/products/traveller_gift_set/traveller_gift_set2.webp",
+            "../src/assets/products/traveller_gift_set/traveller_gift_set3.webp",
+            "../src/assets/products/traveller_gift_set/traveller_gift_set4.webp",
+            "../src/assets/products/traveller_gift_set/traveller_gift_set5.webp",
+            "../src/assets/products/traveller_gift_set/traveller_gift_set6.webp"
         ]
     },
     {
@@ -8062,18 +7230,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611387339286.png",
+        "img": "../src/assets/products/color_gift_set/color_gift_set1.webp",
         "designSpecifications": [
             "UG NAME COLOR GIFT SET (PEN - FLYNN), thinkPrint, 482010, Natural Shade, 6\" x 8\" x 0.75\", Premium Italian Leatherette, 350g, 2\" x 2\", Engrave & Color Fill, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611387339286.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611387263100.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611387287067.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611387291847.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611387296494.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611387300651.png"
+            "../src/assets/products/color_gift_set/color_gift_set2.webp",
+            "../src/assets/products/color_gift_set/color_gift_set3.webp",
+            "../src/assets/products/color_gift_set/color_gift_set4.webp",
+            "../src/assets/products/color_gift_set/color_gift_set5.webp",
+            "../src/assets/products/color_gift_set/color_gift_set6.webp"
         ]
     },
     {
@@ -8084,18 +7251,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386766487.jpeg",
+        "img": "../src/assets/products/element_gift_set/element_gift_set1.webp",
         "designSpecifications": [
             "UG NAME ELEMENT GIFT SET (PEN - STYLITER), thinkPrint, 48201090, Charcoal Black, A5 (148 x 210 mm), High Quality Faux Leather, 400g, 50 x 30mm, Debossing",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386766487.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386766487.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386766487.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/element_gift_set/element_gift_set2.webp",
+            "../src/assets/products/element_gift_set/element_gift_set3.webp",
+            "../src/assets/products/element_gift_set/element_gift_set4.webp"
         ]
     },
     {
@@ -8106,17 +7270,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386246259.png",
+        "img": "../src/assets/products/roca_gift_set/roca_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386246259.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386227495.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386237009.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386241823.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386246259.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611386227495.jpeg"
+            "../src/assets/products/roca_gift_set/roca_gift_set2.webp",
+            "../src/assets/products/roca_gift_set/roca_gift_set3.webp",
+            "../src/assets/products/roca_gift_set/roca_gift_set4.webp"
         ]
     },
     {
@@ -8127,17 +7288,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611384740729.png",
+        "img": "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611384740729.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611384703288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611384717682.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611384721945.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611384727038.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-01-2021/1611384731421.png"
+            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set2.webp",
+            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set3.webp",
+            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set4.webp",
+            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set5.webp",
+            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set6.webp"
         ]
     },
     {
@@ -8148,17 +7308,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318879012.png",
+        "img": "../src/assets/products/korsa_gift_set/korsa_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318879012.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318839245.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318854137.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318859038.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318864134.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318869324.png"
+            "../src/assets/products/korsa_gift_set/korsa_gift_set2.webp",
+            "../src/assets/products/korsa_gift_set/korsa_gift_set3.webp",
+            "../src/assets/products/korsa_gift_set/korsa_gift_set4.webp",
+            "../src/assets/products/korsa_gift_set/korsa_gift_set5.webp",
+            "../src/assets/products/korsa_gift_set/korsa_gift_set6.webp"
         ]
     },
     {
@@ -8169,17 +7328,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318395351.png",
+        "img": "../src/assets/products/fold_gift_set/fold_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318395351.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318357486.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318372102.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318376492.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318381290.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611318386504.png"
+            "../src/assets/products/fold_gift_set/fold_gift_set2.webp",
+            "../src/assets/products/fold_gift_set/fold_gift_set3.webp",
+            "../src/assets/products/fold_gift_set/fold_gift_set4.webp",
+            "../src/assets/products/fold_gift_set/fold_gift_set5.webp",
+            "../src/assets/products/fold_gift_set/fold_gift_set6.webp"
         ]
     },
     {
@@ -8190,17 +7348,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317995138.jpeg",
+        "img": "../src/assets/products/wytbook_gift_set/wytbook_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317995138.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317995138.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317995138.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/wytbook_gift_set/wytbook_gift_set2.webp",
+            "../src/assets/products/wytbook_gift_set/wytbook_gift_set3.webp",
+            "../src/assets/products/wytbook_gift_set/wytbook_gift_set4.webp"
         ]
     },
     {
@@ -8211,17 +7366,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317207177.png",
+        "img": "../src/assets/products/optima_gift_set/optima_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317207177.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317105321.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317183272.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317188025.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317192589.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611317197296.png"
+            "../src/assets/products/optima_gift_set/optima_gift_set2.webp",
+            "../src/assets/products/optima_gift_set/optima_gift_set3.webp",
+            "../src/assets/products/optima_gift_set/optima_gift_set4.webp",
+            "../src/assets/products/optima_gift_set/optima_gift_set5.webp",
+            "../src/assets/products/optima_gift_set/optima_gift_set6.webp"
         ]
     },
     {
@@ -8232,17 +7386,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315931907.png",
+        "img": "../src/assets/products/primo_gift_set/primo_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315931907.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315880766.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315896326.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315901048.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315906773.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315911963.png"
+            "../src/assets/products/primo_gift_set/primo_gift_set2.webp",
+            "../src/assets/products/primo_gift_set/primo_gift_set3.webp",
+            "../src/assets/products/primo_gift_set/primo_gift_set4.webp",
+            "../src/assets/products/primo_gift_set/primo_gift_set5.webp",
+            "../src/assets/products/primo_gift_set/primo_gift_set6.webp"
         ]
     },
     {
@@ -8253,17 +7406,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315029701.jpeg",
+        "img": "../src/assets/products/zigy_gift_set/zigy_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315029701.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315029701.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611315029701.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/zigy_gift_set/zigy_gift_set2.webp",
+            "../src/assets/products/zigy_gift_set/zigy_gift_set3.webp",
+            "../src/assets/products/zigy_gift_set/zigy_gift_set4.webp"
         ]
     },
     {
@@ -8274,7 +7424,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611313820588.png",
+        "img": "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set1.webp",
         "designSpecifications": [
             "HARDY PLUS GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, Hardbound Cover, 350g",
             "HARDY PLUS GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, 70 Sheets, 350g",
@@ -8283,12 +7433,11 @@ export const products = [
             "HARDY PLUS GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, Ribbon Bookmark, 350g"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611313820588.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611313760045.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611313779826.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611313784550.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611313789258.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611313793923.png"
+            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set2.webp",
+            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set3.webp",
+            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set4.webp",
+            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set5.webp",
+            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set6.webp"
         ]
     },
     {
@@ -8299,7 +7448,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611311890136.png",
+        "img": "../src/assets/products/hardy_gift_set/hardy_gift_set1.webp",
         "designSpecifications": [
             "HARDY GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, Hardbound Cover, 150 g",
             "",
@@ -8308,12 +7457,9 @@ export const products = [
             "HARDY GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, 70 Sheets, 100 g"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611311890136.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611311870261.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611311880226.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611311885395.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611311890136.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611311870261.jpeg"
+            "../src/assets/products/hardy_gift_set/hardy_gift_set2.webp",
+            "../src/assets/products/hardy_gift_set/hardy_gift_set3.webp",
+            "../src/assets/products/hardy_gift_set/hardy_gift_set4.webp"
         ]
     },
     {
@@ -8324,18 +7470,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611308205900.png",
+        "img": "../src/assets/products/basic_gift_set/basic_gift_set1.webp",
         "designSpecifications": [
             "BASIC GIFT SET (PEN -REVA), thinkPrint, 482090, Undefined, A5, Faux Leather, Undefined, Undefined, Debossing, Undefined, Undefined, Undefined.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611308205900.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611308155296.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611308180571.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611308187258.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611308193953.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611308200066.png"
+            "../src/assets/products/basic_gift_set/basic_gift_set2.webp",
+            "../src/assets/products/basic_gift_set/basic_gift_set3.webp",
+            "../src/assets/products/basic_gift_set/basic_gift_set4.webp",
+            "../src/assets/products/basic_gift_set/basic_gift_set5.webp",
+            "../src/assets/products/basic_gift_set/basic_gift_set6.webp"
         ]
     },
     {
@@ -8346,18 +7491,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611298879894.png",
+        "img": "../src/assets/products/capri_gift_set/capri_gift_set1.webp",
         "designSpecifications": [
             "CAPRI GIFT SET (PEN - TURIN), thinkPrint, 482090, Black, A5, Faux Leather, 400g, 50mm x 20mm, Engraving, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611298879894.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611298829250.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611298845027.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611298849485.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611298854396.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-01-2021/1611298859674.png"
+            "../src/assets/products/capri_gift_set/capri_gift_set2.webp",
+            "../src/assets/products/capri_gift_set/capri_gift_set3.webp",
+            "../src/assets/products/capri_gift_set/capri_gift_set4.webp",
+            "../src/assets/products/capri_gift_set/capri_gift_set5.webp",
+            "../src/assets/products/capri_gift_set/capri_gift_set6.webp"
         ]
     },
     {
@@ -8368,16 +7512,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-06-2021/1622694903112.jpg",
+        "img": "../src/assets/products/pro_covid_kit_2.0/pro_covid_kit_2.01.webp",
         "designSpecifications": [
             "Hearttex Pro COVID Kit 2.0, Hearttex, 340220, Black, 20cm x 15cm x 7cm, Nylon, 350g, 5cm x 5cm, thinkPrint silk screen printing, None, None, None",
             ""
         ],
-        "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-06-2021/1622694903112.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-06-2021/1622694903112.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-06-2021/1622694903112.jpg"
-        ]
+        "thumbnailImages": []
     },
     {
         "id": 377,
@@ -8387,18 +7527,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-05-2021/1622205476698.jpeg",
+        "img": "../src/assets/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)1.webp",
         "designSpecifications": [
             "Suraksha COVID Kit (Upgrade), Hearttex, 340220, Black, 20cm x 15cm x 8cm, Nylon, 450g, 5cm x 5cm, Screen Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-05-2021/1622205476698.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-05-2021/1622205476698.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-05-2021/1622205476698.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)2.webp",
+            "../src/assets/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)3.webp",
+            "../src/assets/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)4.webp"
         ]
     },
     {
@@ -8409,18 +7546,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-05-2021/1622204907907.jpeg",
+        "img": "../src/assets/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit1.webp",
         "designSpecifications": [
             "Travel Out Door Prop Kit, Pikmee, 630790, Teal, 20cm x 15cm x 5cm, Cotton Canvas, 250g, 5cm x 5cm, thinkPrint Silkscreen, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-05-2021/1622204907907.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-05-2021/1622204907907.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-05-2021/1622204907907.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit2.webp",
+            "../src/assets/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit3.webp",
+            "../src/assets/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit4.webp"
         ]
     },
     {
@@ -8431,18 +7565,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621245620831.jpeg",
+        "img": "../src/assets/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit1.webp",
         "designSpecifications": [
             "Suraksha COVID Kit, thinkPrint, 340220, Black, 20cm x 15cm x 8cm, Nylon, 500g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621245620831.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621245620831.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621245620831.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit2.webp",
+            "../src/assets/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit3.webp",
+            "../src/assets/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit4.webp"
         ]
     },
     {
@@ -8453,18 +7584,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621240468693.jpeg",
+        "img": "../src/assets/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)1.webp",
         "designSpecifications": [
             "COVID Safety Kit 2.0 (Upgrade), Hearttex, 340220, Black, 20cm x 15cm x 8cm, Nylon, 350g, 5cm x 5cm, Screen Printing, None, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621240468693.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621240468693.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621240468693.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)2.webp",
+            "../src/assets/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)3.webp",
+            "../src/assets/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)4.webp"
         ]
     },
     {
@@ -8475,18 +7603,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621240401907.jpeg",
+        "img": "../src/assets/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)1.webp",
         "designSpecifications": [
             "Pro COVID Kit, Hearttex, 340220, Black, 20cm x 15cm x 8cm, Nylon, 500g, 5cm x 5cm, thinkPrint Silkscreen, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621240401907.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621240401907.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-05-2021/1621240401907.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)2.webp",
+            "../src/assets/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)3.webp",
+            "../src/assets/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)4.webp"
         ]
     },
     {
@@ -8497,18 +7622,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2021/1620361161955.jpg",
+        "img": "../src/assets/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml1.webp",
         "designSpecifications": [
             "Hanging Germ Kill Gel 30ml, thinkPrint, 340220, Translucent Blue, 40mm x 80mm x 20mm, ABS Plastic, 45g, 20mm x 10mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2021/1620361161955.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2021/1620361161955.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2021/1620361161955.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml2.webp",
+            "../src/assets/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml3.webp",
+            "../src/assets/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml4.webp"
         ]
     },
     {
@@ -8519,18 +7641,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2021/1620361090508.jpg",
+        "img": "../src/assets/products/sanitizer_spray_25ml/sanitizer_spray_25ml1.webp",
         "designSpecifications": [
             "Sanitizer Spray 25ml, thinkPrint, 340220, Transparent, 25mm x 100mm, PET Plastic, 30g, 15mm x 40mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2021/1620361090508.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2021/1620361090508.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-05-2021/1620361090508.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/sanitizer_spray_25ml/sanitizer_spray_25ml2.webp",
+            "../src/assets/products/sanitizer_spray_25ml/sanitizer_spray_25ml3.webp",
+            "../src/assets/products/sanitizer_spray_25ml/sanitizer_spray_25ml4.webp"
         ]
     },
     {
@@ -8541,18 +7660,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2020/1605258808988.jpeg",
+        "img": "../src/assets/products/covid_prop_kit_2.0/covid_prop_kit_2.01.webp",
         "designSpecifications": [
             "COVID Prop Kit 2.0, thinkPrint, 340220, Black, 20cm x 15cm x 5cm, Reusable String pouch, 300g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2020/1605258808988.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2020/1605258808988.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2020/1605258808988.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/covid_prop_kit_2.0/covid_prop_kit_2.02.webp",
+            "../src/assets/products/covid_prop_kit_2.0/covid_prop_kit_2.03.webp",
+            "../src/assets/products/covid_prop_kit_2.0/covid_prop_kit_2.04.webp"
         ]
     },
     {
@@ -8563,18 +7679,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2020/1605258500169.jpeg",
+        "img": "../src/assets/products/covid_safety_kit_2.0/covid_safety_kit_2.01.webp",
         "designSpecifications": [
             "COVID Safety Kit 2.0, thinkPrint, 3402, Black, 20cm x 15cm x 5cm, Nylon, 300g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2020/1605258500169.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2020/1605258500169.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2020/1605258500169.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/covid_safety_kit_2.0/covid_safety_kit_2.02.webp",
+            "../src/assets/products/covid_safety_kit_2.0/covid_safety_kit_2.03.webp",
+            "../src/assets/products/covid_safety_kit_2.0/covid_safety_kit_2.04.webp"
         ]
     },
     {
@@ -8585,17 +7698,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2020/1596787309916.jpeg",
+        "img": "../src/assets/products/medical_infrared_forehead_thermometer/medical_infrared_forehead_thermometer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2020/1596787309916.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2020/1596787300969.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2020/1596787309916.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2020/1596787300969.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2020/1596787300969.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2020/1596787300969.jpeg"
+            "../src/assets/products/medical_infrared_forehead_thermometer/medical_infrared_forehead_thermometer2.webp"
         ]
     },
     {
@@ -8606,17 +7714,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272435652.jpg",
+        "img": "../src/assets/products/spray_pen/spray_pen1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272435652.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272583616.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272428177.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272431701.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272435652.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272583616.JPG"
+            "../src/assets/products/spray_pen/spray_pen2.webp",
+            "../src/assets/products/spray_pen/spray_pen3.webp",
+            "../src/assets/products/spray_pen/spray_pen4.webp"
         ]
     },
     {
@@ -8627,17 +7732,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596270497719.JPG",
+        "img": "../src/assets/products/touch_guard_key/touch_guard_key1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596270497719.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596270497719.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/touch_guard_key/touch_guard_key2.webp"
         ]
     },
     {
@@ -8648,17 +7748,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268484683.jpeg",
+        "img": "../src/assets/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268484683.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268480138.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268484683.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg"
+            "../src/assets/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit2.webp",
+            "../src/assets/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit3.webp"
         ]
     },
     {
@@ -8669,17 +7765,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
+        "img": "../src/assets/products/ppe_kit/ppe_kit1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/ppe_kit/ppe_kit2.webp",
+            "../src/assets/products/ppe_kit/ppe_kit3.webp"
         ]
     },
     {
@@ -8690,17 +7782,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106469202.jpg",
+        "img": "../src/assets/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1021.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106469202.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106469202.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106469202.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1022.webp",
+            "../src/assets/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1023.webp",
+            "../src/assets/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1024.webp"
         ]
     },
     {
@@ -8711,17 +7800,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596107126733.jpg",
+        "img": "../src/assets/products/face_shield/face_shield1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596107126733.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596107126733.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596107126733.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/face_shield/face_shield2.webp",
+            "../src/assets/products/face_shield/face_shield3.webp",
+            "../src/assets/products/face_shield/face_shield4.webp"
         ]
     },
     {
@@ -8732,17 +7818,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594462843204.jpeg",
+        "img": "../src/assets/products/face_mask_with_valve/face_mask_with_valve1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594462843204.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594462843204.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594462843204.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/face_mask_with_valve/face_mask_with_valve2.webp",
+            "../src/assets/products/face_mask_with_valve/face_mask_with_valve3.webp",
+            "../src/assets/products/face_mask_with_valve/face_mask_with_valve4.webp"
         ]
     },
     {
@@ -8753,17 +7836,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594462715603.jpeg",
+        "img": "../src/assets/products/face_mask/face_mask1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594462715603.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594462715603.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594462715603.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/face_mask/face_mask2.webp",
+            "../src/assets/products/face_mask/face_mask3.webp",
+            "../src/assets/products/face_mask/face_mask4.webp"
         ]
     },
     {
@@ -8774,17 +7854,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/18-08-2020/1597727756875.JPG",
+        "img": "../src/assets/products/germ_kill_spray/germ_kill_spray1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-08-2020/1597727756875.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594459200367.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-08-2020/1597727756875.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594459200367.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594459200367.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594459200367.jpeg"
+            "../src/assets/products/germ_kill_spray/germ_kill_spray2.webp"
         ]
     },
     {
@@ -8795,17 +7870,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594458928295.jpg",
+        "img": "../src/assets/products/antibacterial_hand_wash/antibacterial_hand_wash1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594458928295.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-05-2021/1621395804812.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2020/1594458928295.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-05-2021/1621395804812.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-05-2021/1621395804812.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-05-2021/1621395804812.jpeg"
+            "../src/assets/products/antibacterial_hand_wash/antibacterial_hand_wash2.webp"
         ]
     },
     {
@@ -8816,18 +7886,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596273994955.jpg",
+        "img": "../src/assets/products/antibacterial_wipes/antibacterial_wipes1.webp",
         "designSpecifications": [
             "Hearttex Antibacterial Wipes, Hearttex, 340130, White, 200 x 100 x 50 mm, Plastic, 250g, 50 x 25 mm, ThinkPrint label, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596273994955.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-05-2021/1622447677830.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596273979129.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596273982780.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596273986793.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596273991014.jpg"
+            "../src/assets/products/antibacterial_wipes/antibacterial_wipes2.webp",
+            "../src/assets/products/antibacterial_wipes/antibacterial_wipes3.webp",
+            "../src/assets/products/antibacterial_wipes/antibacterial_wipes4.webp",
+            "../src/assets/products/antibacterial_wipes/antibacterial_wipes5.webp",
+            "../src/assets/products/antibacterial_wipes/antibacterial_wipes6.webp"
         ]
     },
     {
@@ -8838,18 +7907,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776651319.jpeg",
+        "img": "../src/assets/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask1.webp",
         "designSpecifications": [
             "ACTIGUARD-LN95 Mask, Pikmee, 630790, Grey, 21cm x 8cm, Cotton Blend, 25g, 2cm x 2cm, Woven Label, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776651319.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776645918.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776651319.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776645918.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776645918.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776645918.jpeg"
+            "../src/assets/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask2.webp"
         ]
     },
     {
@@ -8860,7 +7924,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776445409.jpeg",
+        "img": "../src/assets/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask1.webp",
         "designSpecifications": [
             "URBAN SHIELD-P95, Pikmee, 6307, Black, Universal Fit, 6 Layer Filtration System",
             "URBAN SHIELD-P95, Pikmee, 6307, Black, Contemporary Dual Panel Center-Stitched Design, Washable & Reusable",
@@ -8869,12 +7933,7 @@ export const products = [
             "URBAN SHIELD-P95, Pikmee, 6307, Black, 6 Layer Filtration System, Washable & Reusable"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776445409.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776441077.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776445409.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776441077.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776441077.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-06-2020/1591776441077.jpeg"
+            "../src/assets/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask2.webp"
         ]
     },
     {
@@ -8885,18 +7944,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069482298.jpg",
+        "img": "../src/assets/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize1.webp",
         "designSpecifications": [
             "Advanced Car Disinfectant & Deodorize Spray, Hearttex, 3402, Clear, 250mm x 65mm, PET Plastic, 550g, 50mm x 30mm, thinkPrint Sticker, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069482298.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-06-2020/1591700995178.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069477471.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069482298.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-06-2020/1591700995178.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-06-2020/1591700995178.jpeg"
+            "../src/assets/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize2.webp",
+            "../src/assets/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize3.webp"
         ]
     },
     {
@@ -8907,7 +7962,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-06-2020/1591699659571.jpeg",
+        "img": "../src/assets/products/metal_covid_key/metal_covid_key1.webp",
         "designSpecifications": [
             "Hearttex Clip, Hearttex, 8302, Silver, 60mm x 25mm x 10mm, Titanium, 25g, 10mm x 5mm, Laser Engraving, None, None, None",
             "Hearttex Hook, Hearttex, 8302, Grey, 50mm x 30mm x 8mm, Aluminum, 20g, 8mm x 4mm, Etching, None, None, None",
@@ -8916,12 +7971,9 @@ export const products = [
             "Hearttex Clasp, Hearttex, 8302, Bronze, 45mm x 22mm x 7mm, Copper, 18g, 7mm x 3.5mm, Screen Printing, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-06-2020/1591699659571.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-06-2020/1591699659571.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-06-2020/1591699659571.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/metal_covid_key/metal_covid_key2.webp",
+            "../src/assets/products/metal_covid_key/metal_covid_key3.webp",
+            "../src/assets/products/metal_covid_key/metal_covid_key4.webp"
         ]
     },
     {
@@ -8932,18 +7984,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069173192.jpg",
+        "img": "../src/assets/products/hand_sanitizer/hand_sanitizer1.webp",
         "designSpecifications": [
             "HEARTTEX Hand Sanitizer, Hearttex, 340220, Clear, 4x4x12 cm (for 100ml), HDPE Plastic, 110g (for 100ml), 2x2 cm, Label Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069173192.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069139695.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069160146.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069164563.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069168991.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069173192.jpg"
+            "../src/assets/products/hand_sanitizer/hand_sanitizer2.webp",
+            "../src/assets/products/hand_sanitizer/hand_sanitizer3.webp",
+            "../src/assets/products/hand_sanitizer/hand_sanitizer4.webp",
+            "../src/assets/products/hand_sanitizer/hand_sanitizer5.webp"
         ]
     },
     {
@@ -8954,17 +8004,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069201293.jpg",
+        "img": "../src/assets/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069201293.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069182986.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069191190.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069195892.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069201293.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/18-07-2020/1595069182986.jpg"
+            "../src/assets/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml2.webp",
+            "../src/assets/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml3.webp",
+            "../src/assets/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml4.webp"
         ]
     },
     {
@@ -8975,17 +8022,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595658393566.PNG",
+        "img": "../src/assets/products/hand_sanitizer/hand_sanitizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595658393566.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595658393566.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595658393566.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-07-2020/1596106489268.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596268174345.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596272040103.JPG"
+            "../src/assets/products/hand_sanitizer/hand_sanitizer2.webp",
+            "../src/assets/products/hand_sanitizer/hand_sanitizer3.webp",
+            "../src/assets/products/hand_sanitizer/hand_sanitizer4.webp"
         ]
     },
     {
@@ -8996,19 +8040,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595662529051.jpg",
+        "img": "../src/assets/products/surface_disinfectant_spray/surface_disinfectant_spray1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595662529051.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595662485313.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595662525243.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595662529051.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595662485313.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-07-2020/1595662485313.jpg"
+            "../src/assets/products/surface_disinfectant_spray/surface_disinfectant_spray2.webp",
+            "../src/assets/products/surface_disinfectant_spray/surface_disinfectant_spray3.webp"
         ]
-    },{
+    },
+    {
         "id": 406,
         "title": "SLENDR GIFT SET",
         "shortDescription": "Urban Gear Slendr Gift Set: A junior-friendly set featuring a Slendr bottle, Laplite laptop stand, RPET Eco Book, and Pisa metal pen.\n",
@@ -9016,7 +8057,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739254903153.jpeg",
+        "img": "../src/assets/products/slendr_gift_set/slendr_gift_set1.webp",
         "designSpecifications": [
             "Slendr Bottle, thinkPrint, 48201090, Matte Black, 250mm x 70mm Diameter, Stainless Steel, 300g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Laplite Laptop Stand, thinkPrint, 48201090, Space Grey, 240mm x 220mm x 15mm (Folded), Aluminum Alloy, 280g, 40mm x 20mm, Pad Printing, N/A, N/A, N/A",
@@ -9025,12 +8066,9 @@ export const products = [
             "SLENDR GIFT SET, thinkPrint, 48201090, Varies (based on individual product colors), Gift Box Dimensions: 300mm x 250mm x 80mm, Cardboard, 800g (total set weight), 100mm x 60mm (on box), Full Color Print (on box), N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739254903153.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739254908884.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739254912479.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739254916121.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739254903153.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739254903153.jpeg"
+            "../src/assets/products/slendr_gift_set/slendr_gift_set2.webp",
+            "../src/assets/products/slendr_gift_set/slendr_gift_set3.webp",
+            "../src/assets/products/slendr_gift_set/slendr_gift_set4.webp"
         ]
     },
     {
@@ -9041,18 +8079,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739184065181.jpeg",
+        "img": "../src/assets/products/lumber_hamper/lumber_hamper1.webp",
         "designSpecifications": [
             "LUMBER HAMPER, thinkPrint, 48201090, Natural Wood, 18\" x 18\" x 24\", Pine Wood, 8 lbs, 6\" x 6\", Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739184065181.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739184070684.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739184074213.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739184078206.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739184081803.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739184085526.jpg"
+            "../src/assets/products/lumber_hamper/lumber_hamper2.webp",
+            "../src/assets/products/lumber_hamper/lumber_hamper3.webp",
+            "../src/assets/products/lumber_hamper/lumber_hamper4.webp",
+            "../src/assets/products/lumber_hamper/lumber_hamper5.webp",
+            "../src/assets/products/lumber_hamper/lumber_hamper6.webp"
         ]
     },
     {
@@ -9063,7 +8100,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739183597493.jpeg",
+        "img": "../src/assets/products/eco_cork_hamper/eco_cork_hamper1.webp",
         "designSpecifications": [
             "ECO CORK HAMPER, thinkPrint, 42029200, Natural Cork, 30cm x 40cm x 25cm, Cork, 1.5kg, 10cm x 5cm, Laser Engraving, None, N/A, N/A",
             "ECO CORK MUG, thinkPrint, 39241010, Natural Cork/White Ceramic, 9cm Height x 8cm Diameter, Cork Sleeve/Ceramic Mug, 0.3kg, 4cm x 3cm, Pad Printing, None, N/A, N/A",
@@ -9072,12 +8109,9 @@ export const products = [
             "BILBAO ECO PEN, thinkPrint, 96081010, Natural Cork/Silver Trim, 14cm Length x 1cm Diameter, Cork Barrel/Metal Clip, 0.01kg, 5cm x 0.5cm, Laser Engraving, None, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739183597493.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739183600874.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739183604848.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739183608974.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739183597493.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2025/1739183597493.jpeg"
+            "../src/assets/products/eco_cork_hamper/eco_cork_hamper2.webp",
+            "../src/assets/products/eco_cork_hamper/eco_cork_hamper3.webp",
+            "../src/assets/products/eco_cork_hamper/eco_cork_hamper4.webp"
         ]
     },
     {
@@ -9088,7 +8122,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738238666521.jpeg",
+        "img": "../src/assets/products/black_book_gift_set/black_book_gift_set1.webp",
         "designSpecifications": [
             "Orion Bravo Flask, thinkPrint, 48201090, Black, 250mm x 75mm x 75mm, Stainless Steel, 350g, 50mm x 50mm, Laser Engraving, None, None, None",
             "Pisa Styliter Pen, thinkPrint, 48201090, Black, 150mm x 15mm x 15mm, ABS Plastic, 20g, 30mm x 5mm, Pad Printing, None, None, None",
@@ -9097,12 +8131,11 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738238666521.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738238671883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738238675689.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738238679274.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738238682985.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738238686813.jpg"
+            "../src/assets/products/black_book_gift_set/black_book_gift_set2.webp",
+            "../src/assets/products/black_book_gift_set/black_book_gift_set3.webp",
+            "../src/assets/products/black_book_gift_set/black_book_gift_set4.webp",
+            "../src/assets/products/black_book_gift_set/black_book_gift_set5.webp",
+            "../src/assets/products/black_book_gift_set/black_book_gift_set6.webp"
         ]
     },
     {
@@ -9113,7 +8146,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738234639134.jpg",
+        "img": "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set1.webp",
         "designSpecifications": [
             "Eco Goblet Bottle, thinkPrint, N/A, Teal, 25cm Height x 7cm Diameter, Stainless Steel, 300g, 5cm x 3cm, Laser Engraving, N/A, N/A, N/A",
             "Capri RPET Book, thinkPrint, 48201090, Charcoal Grey, A5 (21cm x 14.8cm), Recycled PET, 200g, 8cm x 4cm, Screen Printing, N/A, N/A, N/A",
@@ -9122,12 +8155,11 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738234639134.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738234616248.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738234621587.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738234625116.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738234628506.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-01-2025/1738234632045.jpg"
+            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set2.webp",
+            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set3.webp",
+            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set4.webp",
+            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set5.webp",
+            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set6.webp"
         ]
     },
     {
@@ -9138,7 +8170,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738143959356.jpg",
+        "img": "../src/assets/products/kraft_hamper/kraft_hamper1.webp",
         "designSpecifications": [
             "Eco Goblet Bottle, thinkPrint, N/A, Stainless Steel, 250mm x 75mm x 75mm, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "iCharge 15W Wireless Charger, thinkPrint, N/A, Black, 100mm x 100mm x 10mm, ABS Plastic, 100g, 30mm x 30mm, Pad Printing, N/A, N/A, N/A",
@@ -9147,12 +8179,9 @@ export const products = [
             "Bamboo Keychain, thinkPrint, N/A, Natural Bamboo, 50mm x 30mm x 5mm, Bamboo, 10g, 20mm x 10mm, Laser Engraving, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738143959356.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738143949391.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738143952472.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738143955901.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738143959356.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738143949391.jpeg"
+            "../src/assets/products/kraft_hamper/kraft_hamper2.webp",
+            "../src/assets/products/kraft_hamper/kraft_hamper3.webp",
+            "../src/assets/products/kraft_hamper/kraft_hamper4.webp"
         ]
     },
     {
@@ -9163,17 +8192,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738142822701.jpg",
+        "img": "../src/assets/products/milky_spiral_hamper/milky_spiral_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738142822701.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738142810448.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738142816009.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738142819298.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738142822701.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738142810448.jpeg"
+            "../src/assets/products/milky_spiral_hamper/milky_spiral_hamper2.webp",
+            "../src/assets/products/milky_spiral_hamper/milky_spiral_hamper3.webp",
+            "../src/assets/products/milky_spiral_hamper/milky_spiral_hamper4.webp"
         ]
     },
     {
@@ -9184,17 +8210,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738141667877.jpg",
+        "img": "../src/assets/products/sugar_book_hamper/sugar_book_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738141667877.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738141656528.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738141661301.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738141664604.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738141667877.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-01-2025/1738141656528.jpeg"
+            "../src/assets/products/sugar_book_hamper/sugar_book_hamper2.webp",
+            "../src/assets/products/sugar_book_hamper/sugar_book_hamper3.webp",
+            "../src/assets/products/sugar_book_hamper/sugar_book_hamper4.webp"
         ]
     },
     {
@@ -9205,17 +8228,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728129528653.jpg",
+        "img": "../src/assets/products/natura_mug_hamper/natura_mug_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728129528653.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728129517820.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728129521763.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728129525109.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728129528653.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728129517820.jpeg"
+            "../src/assets/products/natura_mug_hamper/natura_mug_hamper2.webp",
+            "../src/assets/products/natura_mug_hamper/natura_mug_hamper3.webp",
+            "../src/assets/products/natura_mug_hamper/natura_mug_hamper4.webp"
         ]
     },
     {
@@ -9226,17 +8246,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728111716815.jpg",
+        "img": "../src/assets/products/corky_mug_hamper/corky_mug_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728111716815.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728113968967.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728113973027.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728113976471.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728111713270.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-10-2024/1728111716815.jpg"
+            "../src/assets/products/corky_mug_hamper/corky_mug_hamper2.webp",
+            "../src/assets/products/corky_mug_hamper/corky_mug_hamper3.webp",
+            "../src/assets/products/corky_mug_hamper/corky_mug_hamper4.webp",
+            "../src/assets/products/corky_mug_hamper/corky_mug_hamper5.webp"
         ]
     },
     {
@@ -9247,17 +8265,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812688908.jpg",
+        "img": "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812688908.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812674191.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812678480.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812681888.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812685364.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812688908.jpg"
+            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper2.webp",
+            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper3.webp",
+            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper4.webp",
+            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper5.webp"
         ]
     },
     {
@@ -9268,17 +8284,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812012878.jpg",
+        "img": "../src/assets/products/eco_tees_hamper/eco_tees_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812012878.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714811997538.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812001885.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812005915.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812009381.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714812012878.jpg"
+            "../src/assets/products/eco_tees_hamper/eco_tees_hamper2.webp",
+            "../src/assets/products/eco_tees_hamper/eco_tees_hamper3.webp",
+            "../src/assets/products/eco_tees_hamper/eco_tees_hamper4.webp",
+            "../src/assets/products/eco_tees_hamper/eco_tees_hamper5.webp"
         ]
     },
     {
@@ -9289,7 +8303,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810973739.jpg",
+        "img": "../src/assets/products/eco_korki_hamper/eco_korki_hamper1.webp",
         "designSpecifications": [
             "Grain Eco Bottle, thinkPrint, 39241010, Natural, 250mm x 70mm, Stainless Steel, 250g, 50mm x 30mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             "Bamboo Pen, thinkPrint, 96081010, Natural, 140mm x 10mm, Bamboo, 20g, 40mm x 5mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
@@ -9298,12 +8312,10 @@ export const products = [
             "Bamboo Keychain, thinkPrint, 44209090, Natural, 80mm x 30mm, Bamboo, 15g, 20mm x 10mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810973739.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810962444.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810966168.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810969895.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810973739.jpg"
+            "../src/assets/products/eco_korki_hamper/eco_korki_hamper2.webp",
+            "../src/assets/products/eco_korki_hamper/eco_korki_hamper3.webp",
+            "../src/assets/products/eco_korki_hamper/eco_korki_hamper4.webp",
+            "../src/assets/products/eco_korki_hamper/eco_korki_hamper5.webp"
         ]
     },
     {
@@ -9314,7 +8326,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809147510.jpg",
+        "img": "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper1.webp",
         "designSpecifications": [
             "Ebony Flask, thinkPrint, N/A, Black, 250mm x 75mm x 75mm, Stainless Steel with Ebony Wood Veneer, 400g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Rpet Book, thinkPrint, 48201090, Grey, A5 (210mm x 148mm), Recycled PET Fabric, 200g, 80mm x 50mm, Screen Printing, N/A, N/A, N/A",
@@ -9323,12 +8335,8 @@ export const products = [
             "Eco Rpet Hamper, thinkPrint, N/A, Customizable, 300mm x 200mm x 100mm, Recycled PET Fabric, 300g, 100mm x 60mm, Screen Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809147510.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809143805.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809147510.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg"
+            "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper2.webp",
+            "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper3.webp"
         ]
     },
     {
@@ -9339,7 +8347,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808887883.jpg",
+        "img": "../src/assets/products/wheat_mug_hamper/wheat_mug_hamper1.webp",
         "designSpecifications": [
             "Wheat Eco Mug, thinkPrint, 48201090, Beige, 90mm x 90mm x 110mm, Wheat Fiber Composite, 180g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, 48201090, Natural Bamboo, 140mm x 12mm x 12mm, Bamboo, 20g, 40mm x 7mm, Laser Engraving, N/A, N/A, N/A",
@@ -9348,12 +8356,7 @@ export const products = [
             "Cork Card Holder, thinkPrint, 48201090, Natural Cork, 100mm x 70mm x 10mm, Cork, 30g, 40mm x 20mm, Pad Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808887883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808887883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg"
+            "../src/assets/products/wheat_mug_hamper/wheat_mug_hamper2.webp"
         ]
     },
     {
@@ -9364,18 +8367,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709382962501.jpeg",
+        "img": "../src/assets/products/wheat_mug/wheat_mug1.webp",
         "designSpecifications": [
             "WHEAT MUG, thinkPrint, 39249090, Natural Wheat, 3.5X11.5X3 Inch, Wheat Fiber Composite, TBD, 2x2 Inch, Pad Printing/Laser Engraving, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709382962501.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709382962501.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709382962501.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714808884288.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714809139349.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-05-2024/1714810957944.jpeg"
+            "../src/assets/products/wheat_mug/wheat_mug2.webp",
+            "../src/assets/products/wheat_mug/wheat_mug3.webp",
+            "../src/assets/products/wheat_mug/wheat_mug4.webp"
         ]
     },
     {
@@ -9386,18 +8386,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740484445721.jpg",
+        "img": "../src/assets/products/sili_bot/sili_bot1.webp",
         "designSpecifications": [
             "SILI BOT, thinkPrint, 70139900, Translucent Bottle with Grey Sleeve, 6.8 x 6.8 x 24.6 cm, Borosilicate Glass & Bamboo, 387 gms, 5cm x 5cm, UV Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740484445721.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740484430304.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740484434114.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740484438180.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740484442105.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740484445721.jpg"
+            "../src/assets/products/sili_bot/sili_bot2.webp",
+            "../src/assets/products/sili_bot/sili_bot3.webp",
+            "../src/assets/products/sili_bot/sili_bot4.webp",
+            "../src/assets/products/sili_bot/sili_bot5.webp"
         ]
     },
     {
@@ -9408,7 +8406,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740482500856.jpg",
+        "img": "../src/assets/products/boro_flip/boro_flip1.webp",
         "designSpecifications": [
             "BORO FLIP, thinkPrint, 70139900, Not Specified, 6.8 x 6.8 x 25.5 cm, Borosilicate Glass with Silicon Sleeve, 361gms",
             "BORO FLIP, thinkPrint, 70139900, Not Specified, Not Specified, Not Specified, Not Specified, 360 Degree on Sleeve, Engrave/Screen Print/UV Print/DTF Sticker",
@@ -9417,12 +8415,10 @@ export const products = [
             "BORO FLIP, thinkPrint, 70139900, Not Specified, Not Specified, Leak Proof, Not Specified, Not Applicable, Not Applicable"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740482500856.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2025/1740565846671.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740482488918.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740482493594.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740482497147.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740482500856.jpg"
+            "../src/assets/products/boro_flip/boro_flip2.webp",
+            "../src/assets/products/boro_flip/boro_flip3.webp",
+            "../src/assets/products/boro_flip/boro_flip4.webp",
+            "../src/assets/products/boro_flip/boro_flip5.webp"
         ]
     },
     {
@@ -9433,18 +8429,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740473442631.jpg",
+        "img": "../src/assets/products/remindr/remindr1.webp",
         "designSpecifications": [
             "REMINDR, thinkPrint, 70139900, Clear, 8 x 8 x 29.5 cm, Borosilicate Glass, 503gms, Lid, ENGRAVE, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740473442631.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740473384109.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740473405052.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740473408846.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740473412949.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740473416709.jpg"
+            "../src/assets/products/remindr/remindr2.webp",
+            "../src/assets/products/remindr/remindr3.webp",
+            "../src/assets/products/remindr/remindr4.webp",
+            "../src/assets/products/remindr/remindr5.webp",
+            "../src/assets/products/remindr/remindr6.webp"
         ]
     },
     {
@@ -9455,18 +8450,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472499871.jpeg",
+        "img": "../src/assets/products/boro_cafe/boro_cafe1.webp",
         "designSpecifications": [
             "BORO CAFE, thinkPrint, 70139900, Transparent, 8.5 x 12 x 8.5 cm, Borosilicate Glass, 120gms, 5 x 5 cm, Engrave/Screen Printing/UV Printing/DTF Sticker, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472499871.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472473833.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472477366.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472481152.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472484860.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472488263.jpg"
+            "../src/assets/products/boro_cafe/boro_cafe2.webp",
+            "../src/assets/products/boro_cafe/boro_cafe3.webp",
+            "../src/assets/products/boro_cafe/boro_cafe4.webp",
+            "../src/assets/products/boro_cafe/boro_cafe5.webp",
+            "../src/assets/products/boro_cafe/boro_cafe6.webp"
         ]
     },
     {
@@ -9477,18 +8471,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731070467694.jpg",
+        "img": "../src/assets/products/rubbl/rubbl1.webp",
         "designSpecifications": [
             "Stainless Steel Vacuum Bottle, thinkPrint, 96170019, Black, 7x7x23.5cm, SS304, 263gms, 5x10cm, Screen Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731070467694.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731069683563.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731070424894.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731070429173.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731070432463.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731070436033.jpg"
+            "../src/assets/products/rubbl/rubbl2.webp",
+            "../src/assets/products/rubbl/rubbl3.webp",
+            "../src/assets/products/rubbl/rubbl4.webp",
+            "../src/assets/products/rubbl/rubbl5.webp",
+            "../src/assets/products/rubbl/rubbl6.webp"
         ]
     },
     {
@@ -9499,17 +8492,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063645632.jpg",
+        "img": "../src/assets/products/cafe_bamboo/cafe_bamboo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063645632.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734609961223.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2024/1731489388524.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063613103.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063616531.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063620020.jpg"
+            "../src/assets/products/cafe_bamboo/cafe_bamboo2.webp",
+            "../src/assets/products/cafe_bamboo/cafe_bamboo3.webp",
+            "../src/assets/products/cafe_bamboo/cafe_bamboo4.webp",
+            "../src/assets/products/cafe_bamboo/cafe_bamboo5.webp",
+            "../src/assets/products/cafe_bamboo/cafe_bamboo6.webp"
         ]
     },
     {
@@ -9520,17 +8512,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468954417.jpeg",
+        "img": "../src/assets/products/bambi/bambi1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468954417.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468910815.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468915504.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468919380.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468923423.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468927124.jpg"
+            "../src/assets/products/bambi/bambi2.webp",
+            "../src/assets/products/bambi/bambi3.webp",
+            "../src/assets/products/bambi/bambi4.webp",
+            "../src/assets/products/bambi/bambi5.webp",
+            "../src/assets/products/bambi/bambi6.webp"
         ]
     },
     {
@@ -9541,17 +8532,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634752944.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634752944.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2023/1672920019101.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634742573.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634745988.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634749520.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634752944.jpg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto5.webp"
         ]
     },
     {
@@ -9562,7 +8551,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634589406.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst1.webp",
         "designSpecifications": [
             "TWYST, thinkPrint, 73239390, Silver, 7x7x26.5cm, SS 304, 326gm",
             "TWYST, thinkPrint, 73239390, Silver, 540ml, SS 304, 326gm",
@@ -9571,12 +8560,11 @@ export const products = [
             "TWYST, thinkPrint, 73239390, Silver, 7x7x26.5cm, SS 304, Laser Engraving"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634589406.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2023/1672919783108.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634566639.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634571628.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634575408.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-01-2023/1674634578739.jpg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst5.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst6.webp"
         ]
     },
     {
@@ -9587,18 +8575,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672398825685.jpeg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos1.webp",
         "designSpecifications": [
             "ETHOS, thinkPrint, 96170019, Stainless Steel, 7.5x7.5x26.7cm, SS 304, 349gm, 5x5cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672398825685.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2022/1671449055013.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672398788687.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672398793013.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672398796562.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672398800420.jpeg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos5.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos6.webp"
         ]
     },
     {
@@ -9609,7 +8596,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672399106718.jpeg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut1.webp",
         "designSpecifications": [
             "WALNUT, thinkPrint, 96170019, Intended Color: Walnut, 7x7x24.5cm",
             "WALNUT, thinkPrint, 96170019, Casing Material: SS 304, 500ml",
@@ -9618,12 +8605,11 @@ export const products = [
             "WALNUT, thinkPrint, 96170019, No RGB Lighting Effects, No Speaker Output, No Battery"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672399106718.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2022/1671448742733.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672399085934.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672399089401.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672399092770.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-12-2022/1672399096207.jpeg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut5.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut6.webp"
         ]
     },
     {
@@ -9634,18 +8620,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669974952908.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom1.webp",
         "designSpecifications": [
             "PHANTOM, thinkPrint, 73102990, Matte Black, 7x7x27Cm, Stainless Steel, 345gm, 5x5Cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669974952908.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669974893884.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669974898379.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669974905116.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669974911748.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-12-2022/1669974918549.jpg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom5.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom6.webp"
         ]
     },
     {
@@ -9656,7 +8641,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2022/1668251236708.jpeg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion1.webp",
         "designSpecifications": [
             "Orion, thinkPrint, 73239390, Black, 7x7x26.5 cm",
             "SS 304, 277 GSM, ",
@@ -9665,12 +8650,10 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2022/1668251236708.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2022/1668237660149.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2022/1668251226035.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2022/1668251230150.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2022/1668251233554.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2022/1668251236708.jpeg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion5.webp"
         ]
     },
     {
@@ -9681,17 +8664,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665574116392.JPG",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665574116392.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665574112162.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665574251222.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665574213770.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665574116392.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-10-2022/1665574112162.jpeg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint4.webp"
         ]
     },
     {
@@ -9702,17 +8682,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1671006103942.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1671006103942.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-11-2021/1637573706963.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1671006092287.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1671006096849.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1671006100720.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-12-2022/1671006103942.jpg"
+            "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color5.webp"
         ]
     },
     {
@@ -9723,17 +8701,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-03-2021/1615636422277.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-03-2021/1615636422277.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-03-2021/1615636407294.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-03-2021/1615636415287.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-03-2021/1615636418797.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-03-2021/1615636422277.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-03-2021/1615636407294.jpeg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody4.webp"
         ]
     },
     {
@@ -9744,17 +8719,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774378981.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774378981.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2021/1613823552827.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774341138.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774345038.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774348732.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774352447.jpg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud5.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud6.webp"
         ]
     },
     {
@@ -9765,17 +8739,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774248765.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774248765.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2021/1613823070103.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774211899.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774215625.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774219607.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774223240.jpg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml5.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml6.webp"
         ]
     },
     {
@@ -9786,17 +8759,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774124042.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774124042.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2021/1613822837753.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774090808.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774094595.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774098207.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-03-2021/1614774101684.jpg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml5.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml6.webp"
         ]
     },
     {
@@ -9807,17 +8779,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/15-10-2020/1602760114314.jpg",
+        "img": "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam_2/2-in-1_hot_&_cold_flask_-_thanda_garam_21.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-10-2020/1602760114314.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-10-2020/1602760089849.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-10-2020/1602760114314.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-10-2020/1602760089849.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-10-2020/1602760089849.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-10-2020/1602760089849.jpg"
+            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam_2/2-in-1_hot_&_cold_flask_-_thanda_garam_22.webp"
         ]
     },
     {
@@ -9828,18 +8795,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-03-2021/1617018083202.jpg",
+        "img": "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam1.webp",
         "designSpecifications": [
             "THANDA GARAM, thinkPrint, 961700, Matte Black, 25cm Height x 7cm Diameter, 304 Stainless Steel, 450g, 5cm x 3cm, Laser Engraving, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-03-2021/1617018083202.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-10-2020/1602755728664.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-03-2021/1617018062993.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-03-2021/1617018066384.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-03-2021/1617018069765.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-03-2021/1617018072931.jpg"
+            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam2.webp",
+            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam3.webp",
+            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam4.webp",
+            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam5.webp",
+            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam6.webp"
         ]
     },
     {
@@ -9850,18 +8816,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598698297485.jpg",
+        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper1.webp",
         "designSpecifications": [
             "CAMPER, thinkPrint, 961700, Steel, 7cm diameter x 22cm height, Stainless Steel, 250gm, 5cm x 5cm, Laser Engraving, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598698297485.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-06-2022/1656405314100.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-11-2022/1669018276509.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-11-2022/1669018280796.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598698281865.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598698286868.jpg"
+            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper2.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper3.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper4.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper5.webp",
+            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper6.webp"
         ]
     },
     {
@@ -9872,18 +8837,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-08-2020/1596618896135.jpg",
+        "img": "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree1.webp",
         "designSpecifications": [
             "DEGREE, thinkPrint, 961700, Silver, 70mm diameter x 215mm height, Stainless Steel, 270gm, 50mm x 50mm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-08-2020/1596618896135.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-02-2021/1613821867670.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686995207958.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686995211173.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686995214670.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686995217993.jpg"
+            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree2.webp",
+            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree3.webp",
+            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree4.webp",
+            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree5.webp",
+            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree6.webp"
         ]
     },
     {
@@ -9894,18 +8858,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595401803869.JPG",
+        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic1.webp",
         "designSpecifications": [
             "GOTHIC, thinkPrint, 961700, Matte Black, 7cm (Diameter) x 25cm (Height), 18/8 Stainless Steel, 350g, 5cm x 8cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595401803869.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-04-2020/1586965205516.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595401786672.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595401789924.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595401793266.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595401798239.JPG"
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic2.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic3.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic4.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic5.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic6.webp"
         ]
     },
     {
@@ -9916,18 +8879,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597318633300.jpg",
+        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta1.webp",
         "designSpecifications": [
             "DELTA, thinkPrint, 961700, Silver, 7cm Diameter x 25cm Height, Stainless Steel 304, 254gm, 5cm x 5cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597318633300.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586764868263.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597318619721.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597318624478.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597318628868.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597318633300.jpg"
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta2.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta3.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta4.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta5.webp"
         ]
     },
     {
@@ -9938,18 +8899,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2021/1613453018023.jpg",
+        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7501.webp",
         "designSpecifications": [
             "COLA-750, thinkPrint, 961700, Silver, 7x7x28.5cm, Stainless Steel, 349gm, 5x5cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2021/1613453018023.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-07-2022/1657530188360.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2021/1613452996685.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2021/1613453005981.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2021/1613453011809.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2021/1613453018023.jpg"
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7502.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7503.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7504.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7505.webp"
         ]
     },
     {
@@ -9960,17 +8919,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588345970647.jpg",
+        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5001.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588345970647.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-04-2020/1586713117939.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588345963639.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588345967074.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-05-2020/1588345970647.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-04-2020/1586713117939.jpeg"
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5002.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5003.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5004.webp"
         ]
     },
     {
@@ -9981,17 +8937,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626349786009.jpg",
+        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626349786009.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-04-2020/1586712739532.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626349772495.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626349777764.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626349781477.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626349786009.jpg"
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra2.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra3.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra4.webp",
+            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra5.webp"
         ]
     },
     {
@@ -10002,17 +8956,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709968443784.jpeg",
+        "img": "../src/assets/products/slendr/slendr1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709968443784.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-09-2024/1727266526488.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709968439269.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709968443784.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-09-2024/1727266526488.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-09-2024/1727266526488.jpeg"
+            "../src/assets/products/slendr/slendr2.webp",
+            "../src/assets/products/slendr/slendr3.webp"
         ]
     },
     {
@@ -10023,17 +8973,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709386072387.jpeg",
+        "img": "../src/assets/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709386072387.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709386072387.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709386072387.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-10-2021/1634197139590.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701168010898.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2022/1656744966711.jpeg"
+            "../src/assets/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle2.webp",
+            "../src/assets/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle3.webp",
+            "../src/assets/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle4.webp"
         ]
     },
     {
@@ -10044,17 +8991,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-03-2024/1709549396834.jpg",
+        "img": "../src/assets/products/zeta/zeta1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-03-2024/1709549396834.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-02-2024/1708155875825.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-03-2024/1709549350281.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-03-2024/1709549353892.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-03-2024/1709549357736.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-03-2024/1709549361482.jpg"
+            "../src/assets/products/zeta/zeta2.webp",
+            "../src/assets/products/zeta/zeta3.webp",
+            "../src/assets/products/zeta/zeta4.webp",
+            "../src/assets/products/zeta/zeta5.webp",
+            "../src/assets/products/zeta/zeta6.webp"
         ]
     },
     {
@@ -10065,18 +9011,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105748867.jpg",
+        "img": "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle1.webp",
         "designSpecifications": [
             "CEDAR, thinkPrint, 73239390, Natural Wood, 7.5*7.5*26.5CM, SS 304 Grade, 331gms, 5*5CM, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105748867.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-12-2023/1702114790787.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105712311.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105716825.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105720358.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105724104.jpg"
+            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle2.webp",
+            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle3.webp",
+            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle4.webp",
+            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle5.webp",
+            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle6.webp"
         ]
     },
     {
@@ -10087,18 +9032,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704106179203.jpg",
+        "img": "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle1.webp",
         "designSpecifications": [
             "UG NAME EBONY, thinkPrint, 73239390, Black, 7*7*23cm, SS 304 Grade, 273gms, 5*5cm, Laser Engraving, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704106179203.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-12-2023/1702114326389.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704106136036.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704106140031.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704106143509.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704106147233.jpg"
+            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle2.webp",
+            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle3.webp",
+            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle4.webp",
+            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle5.webp",
+            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle6.webp"
         ]
     },
     {
@@ -10109,7 +9053,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105468161.jpg",
+        "img": "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle1.webp",
         "designSpecifications": [
             "CHILL, thinkPrint, 73239390, Silver, 7*7*22.3cm, SS 304 Grade, 260gms",
             "CHILL, thinkPrint, 73239390, Black, 7*7*22.3cm, SS 304 Grade, 260gms",
@@ -10118,12 +9062,11 @@ export const products = [
             "CHILL, thinkPrint, 73239390, White, 7*7*22.3cm, SS 304 Grade, 260gms"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105468161.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-12-2023/1701954735015.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105427258.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105431827.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105435504.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-01-2024/1704105439580.jpg"
+            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle2.webp",
+            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle3.webp",
+            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle4.webp",
+            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle5.webp",
+            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle6.webp"
         ]
     },
     {
@@ -10134,18 +9077,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700118068557.jpg",
+        "img": "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask1.webp",
         "designSpecifications": [
             "LQUID-900, thinkPrint, 96170090, Not Specified, 7.3*7.3*27 cm, Powder Coated, 393 gms, Not Specified, Not Specified, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700118068557.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700118025858.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700118031000.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700118034432.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700118038029.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700118042349.jpg"
+            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask2.webp",
+            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask3.webp",
+            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask4.webp",
+            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask5.webp",
+            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask6.webp"
         ]
     },
     {
@@ -10156,18 +9098,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700116798335.jpg",
+        "img": "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask1.webp",
         "designSpecifications": [
             "LQUID-700, thinkPrint, 96170090, Intended Color: Per Brand Standards, Overall Dimensions: 7*7*24.5Cm, Casing Material: Powder Coated (Not Easy To Scratch), Weight: 342gms",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700116798335.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700116758306.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700116762595.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700116766187.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700116769824.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700116773391.jpg"
+            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask2.webp",
+            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask3.webp",
+            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask4.webp",
+            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask5.webp",
+            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask6.webp"
         ]
     },
     {
@@ -10178,17 +9119,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700113808663.jpg",
+        "img": "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700113808663.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700113767284.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700113771523.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700113775183.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700113778812.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2023/1700113782501.jpg"
+            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask2.webp",
+            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask3.webp",
+            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask4.webp",
+            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask5.webp",
+            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask6.webp"
         ]
     },
     {
@@ -10199,17 +9139,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687862887794.jpg",
+        "img": "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687862887794.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-07-2023/1688381102042.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687862845509.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687862849733.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687862853370.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687862857059.jpg"
+            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle2.webp",
+            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle3.webp",
+            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle4.webp",
+            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle5.webp",
+            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle6.webp"
         ]
     },
     {
@@ -10220,17 +9159,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665388996904.jpg",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665388996904.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-07-2022/1656937516454.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665389242369.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665389223089.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665389205465.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665389186092.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro5.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro6.webp"
         ]
     },
     {
@@ -10241,17 +9179,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395109466.jpg",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395109466.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2022/1656745340319.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395356931.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395291330.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395273924.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395250068.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro5.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro6.webp"
         ]
     },
     {
@@ -10262,17 +9199,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396859681.jpeg",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396859681.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2022/1656744966711.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665397117525.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665397096362.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665397073298.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396994813.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro5.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro6.webp"
         ]
     },
     {
@@ -10283,17 +9219,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701168010898.jpeg",
+        "img": "../src/assets/products/rose/rose1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701168010898.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701168010898.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701168010898.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-10-2021/1634197139590.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701168010898.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2022/1656744966711.jpeg"
+            "../src/assets/products/rose/rose2.webp",
+            "../src/assets/products/rose/rose3.webp"
         ]
     },
     {
@@ -10304,17 +9236,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-10-2021/1634197139590.jpeg",
+        "img": "../src/assets/products/sleek/sleek1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-10-2021/1634197139590.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-10-2021/1634197139590.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-10-2021/1634197139590.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-10-2021/1634197139590.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701168010898.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2022/1656744966711.jpeg"
+            "../src/assets/products/sleek/sleek2.webp",
+            "../src/assets/products/sleek/sleek3.webp"
         ]
     },
     {
@@ -10325,18 +9253,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665389874178.jpg",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip1.webp",
         "designSpecifications": [
             "ELECTRA FLIP, thinkPrint, 732393, Silver, 7.2x7.2x25.5cm, Stainless Steel, 158 gm, 5x5cm, Laser Engraving, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665389874178.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/20-10-2021/1634713159753.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665390149599.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665390129727.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665390107105.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665390086267.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip5.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip6.webp"
         ]
     },
     {
@@ -10347,18 +9274,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402515393.png",
+        "img": "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum1.webp",
         "designSpecifications": [
             "MAGNUM 1000ml, thinkPrint, 732393, Stainless Steel, 1000ml Capacity, Stainless Steel, 181gm, 50mm x 50mm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402515393.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-05-2020/1588660013941.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402501404.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402504611.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402508214.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402511803.jpg"
+            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum2.webp",
+            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum3.webp",
+            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum4.webp",
+            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum5.webp",
+            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum6.webp"
         ]
     },
     {
@@ -10369,18 +9295,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402270117.jpg",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum1.webp",
         "designSpecifications": [
             "MAGNUM 750ml, thinkPrint, 732393, Stainless Steel, 7.3cm diameter x 25.5cm height, Stainless Steel 304, 170gm, 5cm x 5cm, Laser Engraving, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402270117.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-05-2020/1588659587642.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402259717.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402262932.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402266483.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595402270117.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum5.webp"
         ]
     },
     {
@@ -10391,18 +9315,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612862613329.JPG",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega1.webp",
         "designSpecifications": [
             "OMEGA, thinkPrint, 732393, Silver, 7.5*7.5*27.5cm, Stainless Steel, 184gm, 5*5cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612862613329.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586766529467.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612862581459.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612862585828.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612862590164.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612862594556.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega5.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega6.webp"
         ]
     },
     {
@@ -10413,18 +9336,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626341154005.jpg",
+        "img": "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica1.webp",
         "designSpecifications": [
             "SILICA Bottle, thinkPrint, 732393, Stainless Steel, 750ml Capacity, Stainless Steel, 201gm, 50mm x 50mm, Laser Engraving, No RGB Lighting, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626341154005.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586766345824.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626341131063.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626341135225.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626341138402.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/15-07-2021/1626341142281.jpg"
+            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica2.webp",
+            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica3.webp",
+            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica4.webp",
+            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica5.webp",
+            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica6.webp"
         ]
     },
     {
@@ -10435,18 +9357,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595405597737.jpg",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo1.webp",
         "designSpecifications": [
             "GRIPO, thinkPrint, 732393, Charcoal Black, 24cm Height x 7.5cm Diameter, Stainless Steel, 191gm, 5cm x 5cm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595405597737.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586765941498.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595405583399.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595405587003.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595405590577.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595405594158.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo5.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo6.webp"
         ]
     },
     {
@@ -10457,17 +9378,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692168825683.jpg",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692168825683.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586765445381.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692168777068.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692168784516.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692168791767.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692168799284.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma5.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma6.webp"
         ]
     },
     {
@@ -10478,18 +9398,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692170585631.jpg",
+        "img": "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip1.webp",
         "designSpecifications": [
             "TULIP, thinkPrint, 732393, Silver, 7*7*24.5cm, Stainless Steel, 174gm, 5*5cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692170585631.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586765246111.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692170573899.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692170578391.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692170582056.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692170585631.jpg"
+            "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip2.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip3.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip4.webp",
+            "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip5.webp"
         ]
     },
     {
@@ -10500,17 +9418,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/31-08-2020/1598855210631.jpg",
+        "img": "../src/assets/products/copper_bottle_(950ml)/copper_bottle_(950ml)1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-08-2020/1598855210631.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-08-2020/1598855191673.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-08-2020/1598855205023.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-08-2020/1598855210631.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-08-2020/1598855191673.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/31-08-2020/1598855191673.jpg"
+            "../src/assets/products/copper_bottle_(950ml)/copper_bottle_(950ml)2.webp",
+            "../src/assets/products/copper_bottle_(950ml)/copper_bottle_(950ml)3.webp"
         ]
     },
     {
@@ -10521,17 +9435,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863724578.jpg",
+        "img": "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863724578.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586767621539.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863684005.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863689563.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863695010.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863700377.jpg"
+            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte2.webp",
+            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte3.webp",
+            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte4.webp",
+            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte5.webp",
+            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte6.webp"
         ]
     },
     {
@@ -10542,17 +9455,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430784218.jpg",
+        "img": "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430784218.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586767178908.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430767149.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430771152.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430775233.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430779791.jpg"
+            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight2.webp",
+            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight3.webp",
+            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight4.webp",
+            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight5.webp",
+            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight6.webp"
         ]
     },
     {
@@ -10563,17 +9475,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595980742.jpg",
+        "img": "../src/assets/products/tritan/tritan1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595980742.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595965876.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595970493.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595973820.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595977212.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-01-2025/1736595980742.jpg"
+            "../src/assets/products/tritan/tritan2.webp",
+            "../src/assets/products/tritan/tritan3.webp",
+            "../src/assets/products/tritan/tritan4.webp",
+            "../src/assets/products/tritan/tritan5.webp"
         ]
     },
     {
@@ -10584,17 +9494,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692171056535.jpg",
+        "img": "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692171056535.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586768612070.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692171014605.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692171020793.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692171025849.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692171031102.jpg"
+            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper2.webp",
+            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper3.webp",
+            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper4.webp",
+            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper5.webp",
+            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper6.webp"
         ]
     },
     {
@@ -10605,7 +9514,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322708413.jpg",
+        "img": "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans1.webp",
         "designSpecifications": [
             "TRANS Water Bottle, thinkPrint, 392690, Transparent Grey, 24cm Height x 7.3cm Diameter, Tritan, 139gm, 5cm x 5cm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery.",
             "Dual Opening Cap, thinkPrint, 392690, Black, 24cm Height x 7.3cm Diameter, Tritan, 139gm, 5cm x 5cm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery.",
@@ -10614,12 +9523,11 @@ export const products = [
             "Lightweight Water Bottle, thinkPrint, 392690, Orange, 24cm Height x 7.3cm Diameter, Tritan, 139gm, 5cm x 5cm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery."
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322708413.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586768215897.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-06-2023/1685690298483.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-06-2023/1685690303596.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-06-2023/1685690308394.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322695808.jpg"
+            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans2.webp",
+            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans3.webp",
+            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans4.webp",
+            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans5.webp",
+            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans6.webp"
         ]
     },
     {
@@ -10630,18 +9538,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322409998.PNG",
+        "img": "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite1.webp",
         "designSpecifications": [
             "ELITE Bottle, thinkPrint, 392330, Transparent, 7*7*26cm, Tritan, 98gm, 5*5cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322409998.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586767972531.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322389003.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322395943.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322402391.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597322409998.PNG"
+            "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite2.webp",
+            "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite3.webp",
+            "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite4.webp",
+            "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite5.webp"
         ]
     },
     {
@@ -10652,7 +9558,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731416419385.jpeg",
+        "img": "../src/assets/products/sonic/sonic1.webp",
         "designSpecifications": [
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Nylon Wire, UV Printing",
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Copper Wires, Engrave",
@@ -10661,12 +9567,9 @@ export const products = [
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Nylon Wire, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731416419385.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731416419385.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731416419385.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686992200163.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993034324.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700909644204.jpeg"
+            "../src/assets/products/sonic/sonic2.webp",
+            "../src/assets/products/sonic/sonic3.webp",
+            "../src/assets/products/sonic/sonic4.webp"
         ]
     },
     {
@@ -10677,18 +9580,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731413343806.jpg",
+        "img": "../src/assets/products/lisbon_jr./lisbon_jr.1.webp",
         "designSpecifications": [
             "Lisbon Jr, thinkPrint, 73239390, Silver, 7x10.5x9.5cm, Stainless Steel 304, 138gms, 4x4cm, ENGRAVE, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731413343806.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731413316626.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731413320661.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731413323966.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731413327166.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731413330460.jpg"
+            "../src/assets/products/lisbon_jr./lisbon_jr.2.webp",
+            "../src/assets/products/lisbon_jr./lisbon_jr.3.webp",
+            "../src/assets/products/lisbon_jr./lisbon_jr.4.webp",
+            "../src/assets/products/lisbon_jr./lisbon_jr.5.webp",
+            "../src/assets/products/lisbon_jr./lisbon_jr.6.webp"
         ]
     },
     {
@@ -10699,18 +9601,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731409133754.jpg",
+        "img": "../src/assets/products/hydra/hydra1.webp",
         "designSpecifications": [
             "Hydra, thinkPrint, 961700, Stainless Steel, 12x9.5x27cm, Double Wall 304 SS, 495gms, 6x4cm, ENGRAVE/SCREEN PRINTING/UV PRINTING, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731409133754.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-01-2025/1736255519633.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754833038.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754837645.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754841215.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-11-2024/1731754844455.jpg"
+            "../src/assets/products/hydra/hydra2.webp",
+            "../src/assets/products/hydra/hydra3.webp",
+            "../src/assets/products/hydra/hydra4.webp",
+            "../src/assets/products/hydra/hydra5.webp",
+            "../src/assets/products/hydra/hydra6.webp"
         ]
     },
     {
@@ -10721,17 +9622,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731414456620.jpg",
+        "img": "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731414456620.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-10-2024/1730116917589.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731414432848.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731414436395.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731414439865.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/12-11-2024/1731414443140.jpg"
+            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors2.webp",
+            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors3.webp",
+            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors4.webp",
+            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors5.webp",
+            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors6.webp"
         ]
     },
     {
@@ -10742,17 +9642,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723032763470.jpeg",
+        "img": "../src/assets/products/bistro/bistro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723032763470.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723032763470.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723032763470.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686992200163.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993034324.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700909644204.jpeg"
+            "../src/assets/products/bistro/bistro2.webp",
+            "../src/assets/products/bistro/bistro3.webp",
+            "../src/assets/products/bistro/bistro4.webp"
         ]
     },
     {
@@ -10763,17 +9660,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723027550221.jpg",
+        "img": "../src/assets/products/brew/brew1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723027550221.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723027529591.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723027534886.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723027539105.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723027542865.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723027546582.jpg"
+            "../src/assets/products/brew/brew2.webp",
+            "../src/assets/products/brew/brew3.webp",
+            "../src/assets/products/brew/brew4.webp",
+            "../src/assets/products/brew/brew5.webp",
+            "../src/assets/products/brew/brew6.webp"
         ]
     },
     {
@@ -10784,17 +9680,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723011802782.jpg",
+        "img": "../src/assets/products/straw/straw1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723011802782.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723012265895.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723012270335.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723012273754.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723012277325.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2024/1723012280563.jpeg"
+            "../src/assets/products/straw/straw2.webp",
+            "../src/assets/products/straw/straw3.webp",
+            "../src/assets/products/straw/straw4.webp",
+            "../src/assets/products/straw/straw5.webp",
+            "../src/assets/products/straw/straw6.webp"
         ]
     },
     {
@@ -10805,17 +9700,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709799920477.jpg",
+        "img": "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709799920477.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709385512811.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709799884403.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709799889937.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709799893669.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709799897237.jpg"
+            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug2.webp",
+            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug3.webp",
+            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug4.webp",
+            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug5.webp",
+            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug6.webp"
         ]
     },
     {
@@ -10826,17 +9720,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709800137540.jpg",
+        "img": "../src/assets/products/eco-brew/eco-brew1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709800137540.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-03-2024/1709384725057.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709800103825.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709800107336.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709800111167.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-03-2024/1709800114976.jpg"
+            "../src/assets/products/eco-brew/eco-brew2.webp",
+            "../src/assets/products/eco-brew/eco-brew3.webp",
+            "../src/assets/products/eco-brew/eco-brew4.webp",
+            "../src/assets/products/eco-brew/eco-brew5.webp",
+            "../src/assets/products/eco-brew/eco-brew6.webp"
         ]
     },
     {
@@ -10847,7 +9740,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701154229541.jpeg",
+        "img": "../src/assets/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug1.webp",
         "designSpecifications": [
             "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, 107gm",
             "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, Branding Area: 4*4cm",
@@ -10856,12 +9749,9 @@ export const products = [
             "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, No RGB Lighting Effects"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701154229541.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701154229541.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701154229541.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686992200163.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993034324.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700909644204.jpeg"
+            "../src/assets/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug2.webp",
+            "../src/assets/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug3.webp",
+            "../src/assets/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug4.webp"
         ]
     },
     {
@@ -10872,7 +9762,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701083727858.jpg",
+        "img": "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle1.webp",
         "designSpecifications": [
             "CUPPA, thinkPrint, 39249090, Silver, 8*11.5*14cm, SS/PP, 201gms",
             "CUPPA, thinkPrint, 39249090, Silver, 400ml, SS/PP, 201gms",
@@ -10881,12 +9771,11 @@ export const products = [
             "CUPPA, thinkPrint, 39249090, Silver, 400ml, SS/PP, 201gms, 4x4cm, Pad Print"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701083727858.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701079810694.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701083682301.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701083686746.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701083690270.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701083694097.jpg"
+            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle2.webp",
+            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle3.webp",
+            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle4.webp",
+            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle5.webp",
+            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle6.webp"
         ]
     },
     {
@@ -10897,18 +9786,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703236326193.jpg",
+        "img": "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug1.webp",
         "designSpecifications": [
             "TRENDY Bottle, thinkPrint, 73239390, Silver, 6.7*6.7*15.7cm, Stainless Steel Inner, 176gms, 4*4cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703236326193.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701079452031.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703236303920.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703236308254.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703236311586.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-12-2023/1703236315141.jpg"
+            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug2.webp",
+            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug3.webp",
+            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug4.webp",
+            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug5.webp",
+            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug6.webp"
         ]
     },
     {
@@ -10919,19 +9807,18 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701084160757.jpg",
+        "img": "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug1.webp",
         "designSpecifications": [
             "KONETO, thinkPrint, 73239390, Matte Black, 7.5*7.5*41Cm, SS 304 Grade, 218gms",
             "KONETO, thinkPrint, 73239390, Matte Black, 7.5*7.5*41Cm, SS 304 Grade, 218gms, 3x3cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701084160757.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-11-2023/1700909644204.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701084127232.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701084131123.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701084134793.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-11-2023/1701084138350.jpg"
+            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug2.webp",
+            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug3.webp",
+            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug4.webp",
+            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug5.webp",
+            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug6.webp"
         ]
     },
     {
@@ -10942,7 +9829,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993075591.jpg",
+        "img": "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug1.webp",
         "designSpecifications": [
             "KONE, thinkPrint, 96170019, Silver, 8.5 x 8.5 x 10 cm, SS304 inner/SS201 outer, 170 gms",
             "KONE, thinkPrint, 96170019, Silver, 8.5 x 8.5 x 10 cm, SS304 inner/SS201 outer, Branding Area: 5 x 5 cm",
@@ -10951,12 +9838,11 @@ export const products = [
             "KONE, thinkPrint, 96170019, Silver, Volume: 320 ml, SS304 inner/SS201 outer, No RGB Lighting Effects"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993075591.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993034324.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993038094.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993041932.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993045622.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/14-08-2023/1691993049355.jpg"
+            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug2.webp",
+            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug3.webp",
+            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug4.webp",
+            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug5.webp",
+            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug6.webp"
         ]
     },
     {
@@ -10967,17 +9853,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686989619192.jpg",
+        "img": "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686989619192.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686992200163.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686989571957.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686989575656.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686989579195.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686989582811.jpg"
+            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle2.webp",
+            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle3.webp",
+            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle4.webp",
+            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle5.webp",
+            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle6.webp"
         ]
     },
     {
@@ -10988,17 +9873,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734612847373.jpeg",
+        "img": "../src/assets/products/corky_ceramic_mug_with_cork_base/corky_ceramic_mug_with_cork_base1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734612847373.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-09-2024/1725266003521.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734612847373.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-09-2024/1725266003521.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-09-2024/1725266003521.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-09-2024/1725266003521.jpeg"
+            "../src/assets/products/corky_ceramic_mug_with_cork_base/corky_ceramic_mug_with_cork_base2.webp"
         ]
     },
     {
@@ -11009,17 +9889,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692183907296.jpg",
+        "img": "../src/assets/products/bamboo_2.0/bamboo_2.01.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692183907296.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-10-2022/1665644909162.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692183880370.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692183884857.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692183888295.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692183892661.jpg"
+            "../src/assets/products/bamboo_2.0/bamboo_2.02.webp",
+            "../src/assets/products/bamboo_2.0/bamboo_2.03.webp",
+            "../src/assets/products/bamboo_2.0/bamboo_2.04.webp",
+            "../src/assets/products/bamboo_2.0/bamboo_2.05.webp",
+            "../src/assets/products/bamboo_2.0/bamboo_2.06.webp"
         ]
     },
     {
@@ -11030,17 +9909,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396009690.jpg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396009690.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-07-2022/1656745633916.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396282082.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396265136.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396248090.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396196605.jpg"
+            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy5.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy6.webp"
         ]
     },
     {
@@ -11051,17 +9929,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396359561.jpg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396359561.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/30-06-2022/1656569834978.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396690936.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396641689.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396622438.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665396600975.jpg"
+            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr5.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr6.webp"
         ]
     },
     {
@@ -11072,17 +9949,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395896686.JPG",
+        "img": "../src/assets/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395896686.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686997714034.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395947417.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395926022.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-10-2022/1665395896686.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/17-06-2023/1686997714034.jpeg"
+            "../src/assets/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug2.webp",
+            "../src/assets/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug3.webp",
+            "../src/assets/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug4.webp"
         ]
     },
     {
@@ -11093,17 +9967,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628492306564.jpeg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628492306564.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-01-2023/1673353563021.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628492277240.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628492281151.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628492285835.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628492289589.jpeg"
+            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby5.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby6.webp"
         ]
     },
     {
@@ -11114,18 +9987,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628509446683.jpeg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento1.webp",
         "designSpecifications": [
             "VENTO Travel Mug, thinkPrint, 73239390, Matte Black, 85mm diameter x 145mm height, 304 Stainless Steel, 206g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628509446683.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2021/1628316314964.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628509377973.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628509382009.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628509385933.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-08-2021/1628509390633.jpeg"
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento5.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento6.webp"
         ]
     },
     {
@@ -11136,18 +10008,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-07-2021/1627369482466.jpeg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont1.webp",
         "designSpecifications": [
             "Stainless Steel Travel Mug With Handle, thinkPrint, 73239390, Matte Black, 9 x 12 x 12 cm, 304 Stainless Steel, 300g, 4 x 4 cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-07-2021/1627369482466.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-07-2021/1625570853002.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2021/1629363103633.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2021/1629363112600.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2021/1629363116498.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2021/1629363121417.jpeg"
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont5.webp",
+            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont6.webp"
         ]
     },
     {
@@ -11158,18 +10029,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692181978441.jpg",
+        "img": "../src/assets/products/bamboo_mug/bamboo_mug1.webp",
         "designSpecifications": [
             "iBamboo, thinkPrint, 441990, Natural Bamboo, 120mm (H) x 80mm (D), Bamboo Fiber & Silicon, 98gm, 50mm x 30mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692181978441.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-10-2023/1698300675386.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692182065413.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692181934338.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692181940782.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-08-2023/1692181946223.jpg"
+            "../src/assets/products/bamboo_mug/bamboo_mug2.webp",
+            "../src/assets/products/bamboo_mug/bamboo_mug3.webp",
+            "../src/assets/products/bamboo_mug/bamboo_mug4.webp",
+            "../src/assets/products/bamboo_mug/bamboo_mug5.webp",
+            "../src/assets/products/bamboo_mug/bamboo_mug6.webp"
         ]
     },
     {
@@ -11180,18 +10050,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430893449.jpg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork1.webp",
         "designSpecifications": [
             "TORK-450 Travel Mug, thinkPrint, 732393, Matte Black, 15cm x 8cm x 8cm, 304 Stainless Steel, 300g, 5cm x 3cm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430893449.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/03-08-2020/1596435502717.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430880857.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430885715.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430889536.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430893449.jpg"
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork5.webp"
         ]
     },
     {
@@ -11202,18 +10070,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430946387.jpg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo1.webp",
         "designSpecifications": [
             "STEELO, thinkPrint, 732393, Silver, 120mm height x 80mm diameter, Stainless Steel, 166gms, 50mm x 30mm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430946387.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-04-2020/1587034394689.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430929665.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430933674.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430937973.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-07-2021/1626430942240.jpg"
+            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo5.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo6.webp"
         ]
     },
     {
@@ -11224,18 +10091,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595407994952.jpg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork1.webp",
         "designSpecifications": [
             "TORK-350, thinkPrint, 7323, Matte Black, 150mm (H) x 80mm (D), 304 Stainless Steel, 198g, 50mm x 30mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595407994952.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/07-08-2021/1628316803488.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2021/1629368475735.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2021/1629368480101.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2021/1629368484642.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-08-2021/1629368489377.jpeg"
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork5.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork6.webp"
         ]
     },
     {
@@ -11246,17 +10112,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588416515012.jpg",
+        "img": "../src/assets/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588416515012.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586787561776.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588416508198.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588416511749.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/02-05-2020/1588416515012.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586787561776.jpeg"
+            "../src/assets/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo2.webp",
+            "../src/assets/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo3.webp",
+            "../src/assets/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo4.webp"
         ]
     },
     {
@@ -11267,17 +10130,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323117212.JPG",
+        "img": "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323117212.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-04-2020/1586787066943.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323105092.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323109130.PNG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323113264.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-08-2020/1597323117212.JPG"
+            "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy2.webp",
+            "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy3.webp",
+            "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy4.webp",
+            "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy5.webp"
         ]
     },
     {
@@ -11288,17 +10149,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863165280.jpg",
+        "img": "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863165280.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-07-2020/1595403195569.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863135652.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863141554.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863147287.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-02-2021/1612863152993.jpg"
+            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can2.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can3.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can4.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can5.webp",
+            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can6.webp"
         ]
     },
     {
@@ -11309,17 +10169,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063645632.jpg",
+        "img": "../src/assets/products/cafe_bamboo/cafe_bamboo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063645632.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/19-12-2024/1734609961223.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/13-11-2024/1731489388524.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063613103.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063616531.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/08-11-2024/1731063620020.jpg"
+            "../src/assets/products/cafe_bamboo/cafe_bamboo2.webp",
+            "../src/assets/products/cafe_bamboo/cafe_bamboo3.webp",
+            "../src/assets/products/cafe_bamboo/cafe_bamboo4.webp",
+            "../src/assets/products/cafe_bamboo/cafe_bamboo5.webp",
+            "../src/assets/products/cafe_bamboo/cafe_bamboo6.webp"
         ]
     },
     {
@@ -11330,17 +10189,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468954417.jpeg",
+        "img": "../src/assets/products/bambi/bambi1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468954417.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468910815.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468915504.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468919380.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468923423.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-09-2024/1726468927124.jpg"
+            "../src/assets/products/bambi/bambi2.webp",
+            "../src/assets/products/bambi/bambi3.webp",
+            "../src/assets/products/bambi/bambi4.webp",
+            "../src/assets/products/bambi/bambi5.webp",
+            "../src/assets/products/bambi/bambi6.webp"
         ]
     },
     {
@@ -11351,17 +10209,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709971980366.jpg",
+        "img": "../src/assets/products/eco_cork/eco_cork1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709971980366.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709971838694.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709972211975.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709971969225.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709971973015.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709971976624.jpg"
+            "../src/assets/products/eco_cork/eco_cork2.webp",
+            "../src/assets/products/eco_cork/eco_cork3.webp",
+            "../src/assets/products/eco_cork/eco_cork4.webp",
+            "../src/assets/products/eco_cork/eco_cork5.webp",
+            "../src/assets/products/eco_cork/eco_cork6.webp"
         ]
     },
     {
@@ -11372,18 +10229,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709970369167.jpg",
+        "img": "../src/assets/products/wheat_mug/wheat_mug1.webp",
         "designSpecifications": [
             "Wheat Mug, thinkPrint, 39249090, Natural Wheat, 90mm Diameter x 110mm Height, Wheat Fiber Composite, 150g, 50mm x 50mm, Pad Printing/Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709970369167.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709970215557.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709970361971.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709970365687.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709970369167.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709970215557.jpeg"
+            "../src/assets/products/wheat_mug/wheat_mug2.webp",
+            "../src/assets/products/wheat_mug/wheat_mug3.webp",
+            "../src/assets/products/wheat_mug/wheat_mug4.webp"
         ]
     },
     {
@@ -11394,18 +10248,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709966829455.jpg",
+        "img": "../src/assets/products/eco_grip/eco_grip1.webp",
         "designSpecifications": [
             "ECO GRIP WHEAT FIBRE ECO FRIENDLY MUG, thinkPrint, 39249090, BLUE, 135mm Height x 85mm Diameter, Wheat Fibre Composite, 200g, 50mm x 50mm, Screen Printing",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709966829455.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709966775675.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709966780433.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709966784805.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709966789422.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709966794081.jpg"
+            "../src/assets/products/eco_grip/eco_grip2.webp",
+            "../src/assets/products/eco_grip/eco_grip3.webp",
+            "../src/assets/products/eco_grip/eco_grip4.webp",
+            "../src/assets/products/eco_grip/eco_grip5.webp",
+            "../src/assets/products/eco_grip/eco_grip6.webp"
         ]
     },
     {
@@ -11416,18 +10269,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709968443784.jpeg",
+        "img": "../src/assets/products/slendr/slendr1.webp",
         "designSpecifications": [
             "SLENDR Stainless Steel Sports Bottle, thinkPrint, 73239420, Stainless Steel, 6x6x24.7cm, 304 Stainless Steel, 165gms, 5x10cm, Laser Engraving/Screen Print, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709968443784.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-09-2024/1727266526488.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709968439269.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/09-03-2024/1709968443784.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-09-2024/1727266526488.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-09-2024/1727266526488.jpeg"
+            "../src/assets/products/slendr/slendr2.webp",
+            "../src/assets/products/slendr/slendr3.webp"
         ]
     },
     {
@@ -11438,18 +10287,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684082383.jpg",
+        "img": "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug1.webp",
         "designSpecifications": [
             "E - CUP, thinkPrint, 39239090, Natural, 70mm diameter x 150mm height, Single Wall Stainless Steel, 250g, 50mm x 70mm, Laser Engraving/Pad Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684082383.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-11-2023/1701258904728.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684071083.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684075501.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684078883.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684082383.jpg"
+            "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug2.webp",
+            "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug3.webp",
+            "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug4.webp",
+            "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug5.webp"
         ]
     },
     {
@@ -11460,18 +10307,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684320199.jpg",
+        "img": "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup1.webp",
         "designSpecifications": [
             "Natura Bottle, thinkPrint, 39239090, Natural Beige, 70mm diameter x 180mm height, Wheat Straw Plastic, 120g, 50mm x 80mm, Pad Printing, No RGB Lighting, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684320199.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-11-2023/1701256465770.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684302360.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684305857.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684309498.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-12-2023/1701684312957.jpg"
+            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup2.webp",
+            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup3.webp",
+            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup4.webp",
+            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup5.webp",
+            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup6.webp"
         ]
     },
     {
@@ -11482,18 +10328,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169844309.jpeg",
+        "img": "../src/assets/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set1.webp",
         "designSpecifications": [
             "ECO - CUTLERY, thinkPrint, 39241090, Natural, 20cm x 6cm x 3cm, Wheat Straw, 150g, 5cm x 2cm, Pad Printing, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169844309.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169844309.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169844309.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/28-11-2023/1701169844309.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-11-2023/1701256465770.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-11-2023/1701258904728.jpeg"
+            "../src/assets/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set2.webp",
+            "../src/assets/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set3.webp"
         ]
     },
     {
@@ -11504,18 +10346,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472499871.jpeg",
+        "img": "../src/assets/products/boro_cafe/boro_cafe1.webp",
         "designSpecifications": [
             "BORO CAFE, thinkPrint, 70139900, Transparent, 8.5 x 12 x 8.5 cm, Borosilicate Glass, 120 gms, 5 x 5 cm, Engrave/Screen Printing/UV Printing/DTF Sticker, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472499871.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472473833.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472477366.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472481152.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472484860.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/25-02-2025/1740472488263.jpg"
+            "../src/assets/products/boro_cafe/boro_cafe2.webp",
+            "../src/assets/products/boro_cafe/boro_cafe3.webp",
+            "../src/assets/products/boro_cafe/boro_cafe4.webp",
+            "../src/assets/products/boro_cafe/boro_cafe5.webp",
+            "../src/assets/products/boro_cafe/boro_cafe6.webp"
         ]
     },
     {
@@ -11526,17 +10367,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739263623009.jpeg",
+        "img": "../src/assets/products/borosilicate_glass/borosilicate_glass1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739263623009.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739263623009.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739263623009.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708938342969.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708944700266.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739263623009.jpeg"
+            "../src/assets/products/borosilicate_glass/borosilicate_glass2.webp",
+            "../src/assets/products/borosilicate_glass/borosilicate_glass3.webp"
         ]
     },
     {
@@ -11547,17 +10384,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708944700266.jpeg",
+        "img": "../src/assets/products/eco_goblet/eco_goblet1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708944700266.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708944700266.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708944700266.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708938342969.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708944700266.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-02-2025/1739263623009.jpeg"
+            "../src/assets/products/eco_goblet/eco_goblet2.webp",
+            "../src/assets/products/eco_goblet/eco_goblet3.webp"
         ]
     },
     {
@@ -11568,17 +10401,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-08-2024/1722852950459.jpeg",
+        "img": "../src/assets/products/goblet/goblet1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-08-2024/1722852950459.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708938342969.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-08-2024/1722852950459.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708938342969.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708938342969.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/26-02-2024/1708938342969.jpeg"
+            "../src/assets/products/goblet/goblet2.webp"
         ]
     },
     {
@@ -11589,18 +10417,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-10-2023/1698411687237.jpeg",
+        "img": "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket1.webp",
         "designSpecifications": [
             "WINBARG Soft Shell Jacket, thinkPrint, 620190, Black, S-XXL, 90% Polyester/10% Viscose, 700g, 10cm x 10cm (Inside Hidden Zip Area), Embroidery, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-10-2023/1698411687237.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-10-2023/1698413481940.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-10-2023/1698413486373.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-10-2023/1698413490308.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-10-2023/1698413494040.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-10-2023/1698413497624.jpg"
+            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket2.webp",
+            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket3.webp",
+            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket4.webp",
+            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket5.webp",
+            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket6.webp"
         ]
     },
     {
@@ -11611,7 +10438,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670307811416.jpeg",
+        "img": "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg1.webp",
         "designSpecifications": [
             "WINBARG, thinkPrint, 62033200, BLACK, Available in sizes S-XXL, Bonded Fleece (90% Polyester, 10% Spandex), 0.75 lbs",
             "WINBARG, thinkPrint, 62033200, BLACK, Available in sizes S-XXL, Breathable Knit Backing, N/A, N/A",
@@ -11620,12 +10447,10 @@ export const products = [
             "WINBARG, thinkPrint, 62033200, BLACK, Available in sizes S-XXL, Bonded Fleece (90% Polyester, 10% Spandex), N/A, Heat Transfer, N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670307811416.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670307815616.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670307818999.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670307822236.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670307825657.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-12-2022/1670307811416.jpeg"
+            "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg2.webp",
+            "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg3.webp",
+            "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg4.webp",
+            "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg5.webp"
         ]
     },
     {
@@ -11636,18 +10461,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/23-12-2021/1640254451128.jpeg",
+        "img": "../src/assets/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg1.webp",
         "designSpecifications": [
             "Winbarg Bonded Fleece Jacket, thinkPrint, 62033200, Black, Available in sizes S-XXL (specific dimensions chart to be provided), Bonded Fleece with Neudri Technology, Approximately 500g (size M), Left Chest & Back Yoke, Embroidery & Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-12-2021/1640254451128.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-12-2021/1640254264719.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-12-2021/1640254443740.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-12-2021/1640254447480.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-12-2021/1640254451128.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/23-12-2021/1640254264719.jpeg"
+            "../src/assets/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg2.webp",
+            "../src/assets/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg3.webp",
+            "../src/assets/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg4.webp"
         ]
     },
     {
@@ -11658,7 +10480,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2021/1628584960385.jpg",
+        "img": "../src/assets/products/north_pole/north_pole1.webp",
         "designSpecifications": [
             "HIGH NECK - NORTH POLE, thinkPrint, 620332, Navy Blue, S-XXL, Polyester, 600g, Left Chest, Embroidery, None, None, None",
             "HIGH NECK - NORTH POLE, thinkPrint, 620332, Charcoal Grey, S-XXL, Polyester, 600g, Left Sleeve, Screen Printing, None, None, None",
@@ -11667,12 +10489,10 @@ export const products = [
             "HIGH NECK - NORTH POLE, thinkPrint, 620332, Beige, S-XXL, Polyester, 600g, Center Back, Woven Label, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2021/1628584960385.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2021/1628584928515.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2021/1628584946767.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2021/1628584950828.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2021/1628584954930.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-08-2021/1628584960385.jpg"
+            "../src/assets/products/north_pole/north_pole2.webp",
+            "../src/assets/products/north_pole/north_pole3.webp",
+            "../src/assets/products/north_pole/north_pole4.webp",
+            "../src/assets/products/north_pole/north_pole5.webp"
         ]
     },
     {
@@ -11683,18 +10503,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676533086333.jpg",
+        "img": "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip1.webp",
         "designSpecifications": [
             "Unisex Hooded Sweatshirt, Pikmee, 611300, Customizable, Varies by Size (S-XXL), Duranit Cotton Fleece, 450-600g (Varies by Size), Chest/Back/Sleeves, Screen Printing/Embroidery, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676533086333.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676531723444.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676533075178.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676533080041.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676533083218.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676533086333.jpg"
+            "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip2.webp",
+            "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip3.webp",
+            "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip4.webp",
+            "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip5.webp"
         ]
     },
     {
@@ -11705,17 +10523,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2023/1672916134099.jpeg",
+        "img": "../src/assets/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2023/1672916134099.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-02-2021/1612430671280.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2023/1672916291973.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2023/1672916295243.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/05-01-2023/1672916134099.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/04-02-2021/1612430671280.png"
+            "../src/assets/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt2.webp",
+            "../src/assets/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt3.webp",
+            "../src/assets/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt4.webp"
         ]
     },
     {
@@ -11726,18 +10541,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762311524.jpeg",
+        "img": "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic1.webp",
         "designSpecifications": [
             "Pikmee Track Jacket, Pikmee, 620333, Black, XS-XXL (Size Range), 100% Micro Polyester, 300g (Size M), Chest: 4\" x 4\", Embroidery/Screen Print, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762311524.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609228672291.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762294640.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762299197.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762306594.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762311524.jpeg"
+            "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic2.webp",
+            "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic3.webp",
+            "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic4.webp",
+            "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic5.webp"
         ]
     },
     {
@@ -11748,18 +10561,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600760581168.png",
+        "img": "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris1.webp",
         "designSpecifications": [
             "Polaris Hoodie, Pikmee, 611300, To be specified, Sizes XS-XXL, Duranit CVC, 500g (Average), 4\" x 4\" (Chest), thinkPrint, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600760581168.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676537126076.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676536605394.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676536610067.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/16-02-2023/1676536613673.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600760564097.png"
+            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris2.webp",
+            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris3.webp",
+            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris4.webp",
+            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris5.webp",
+            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris6.webp"
         ]
     },
     {
@@ -11770,7 +10582,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596261229260.jpeg",
+        "img": "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree1.webp",
         "designSpecifications": [
             "Zero Degree Jacket, Pikmee, 611300, Navy Blue, S-XXL, Duranit Cotton, 600g, Left Chest (4\"x4\"), Embroidery, None, None, None",
             "Zero Degree Jacket, Pikmee, 611300, Charcoal Grey, S-XXL, Compacted Pre-shrunk Fabric, 600g, Back Yoke (8\"x2\"), Screen Printing, None, None, None",
@@ -11779,12 +10591,11 @@ export const products = [
             "Zero Degree Jacket, Pikmee, 611300, Burgundy, S-XXL, Duranit Cotton, 600g, Back Center (10\"x4\"), Sublimation, None, None, None"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596261229260.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609228909128.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/10-02-2023/1676034021921.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596261212639.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596261217045.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-08-2020/1596261221505.jpg"
+            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree2.webp",
+            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree3.webp",
+            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree4.webp",
+            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree5.webp",
+            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree6.webp"
         ]
     },
     {
@@ -11795,7 +10606,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600758826437.png",
+        "img": "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree1.webp",
         "designSpecifications": [
             "Pikmee Hoodie, Pikmee, 611300, Navy Blue, XS-XXL, Duranit Cotton, 450g, Chest, Screen Printing, None, None, None.",
             "Pikmee Hoodie, Pikmee, 611300, Charcoal Grey, XS-XXL, Compacted Pre-Shrunk Fabric, 450g, Sleeve, Embroidery, None, None, None.",
@@ -11804,12 +10615,11 @@ export const products = [
             "Pikmee Hoodie, Pikmee, 611300, Burgundy, XS-XXL, Double Needle Stitched Duranit Cotton, 450g, Pocket, Pad Printing, None, None, None."
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600758826437.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-09-2020/1598952551006.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-12-2023/1702301622463.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-12-2023/1702301626665.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-12-2023/1702301629891.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/11-12-2023/1702301633164.jpg"
+            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree2.webp",
+            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree3.webp",
+            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree4.webp",
+            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree5.webp",
+            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree6.webp"
         ]
     },
     {
@@ -11820,18 +10630,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/06-03-2021/1615028285087.jpg",
+        "img": "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go1.webp",
         "designSpecifications": [
             "Acti-Go Performance Wear, thinkPrint, 610990, Navy Blue, XS-XXL, 100% Micro Polyester, 130 G/M2, Chest: 40\"-52\", Screen Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-03-2021/1615028285087.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-03-2021/1615027801571.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-03-2021/1615028259773.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-03-2021/1615028266067.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-03-2021/1615028272382.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/06-03-2021/1615028278880.jpg"
+            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go2.webp",
+            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go3.webp",
+            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go4.webp",
+            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go5.webp",
+            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go6.webp"
         ]
     },
     {
@@ -11842,17 +10651,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/21-04-2020/1587482016148.png",
+        "img": "../src/assets/products/bio_wash_collection_-_organic_cotton_t-shirts/bio_wash_collection_-_organic_cotton_t-shirts1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-04-2020/1587482016148.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-09-2020/1598952330596.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/21-04-2020/1587482016148.png",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-09-2020/1598952330596.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-09-2020/1598952330596.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-09-2020/1598952330596.jpeg"
+            "../src/assets/products/bio_wash_collection_-_organic_cotton_t-shirts/bio_wash_collection_-_organic_cotton_t-shirts2.webp"
         ]
     },
     {
@@ -11863,17 +10667,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687864271182.jpg",
+        "img": "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687864271182.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687864380942.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687864231074.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687864234221.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687864237414.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/27-06-2023/1687864240917.jpg"
+            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt2.webp",
+            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt3.webp",
+            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt4.webp",
+            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt5.webp",
+            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt6.webp"
         ]
     },
     {
@@ -11884,17 +10687,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762414418.jpeg",
+        "img": "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762414418.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/01-09-2020/1598952156660.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762398357.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762401830.jpeg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762406636.JPG",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/22-09-2020/1600762410406.jpeg"
+            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic2.webp",
+            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic3.webp",
+            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic4.webp",
+            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic5.webp",
+            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic6.webp"
         ]
     },
     {
@@ -11905,17 +10707,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229712697.jpg",
+        "img": "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229712697.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598696591717.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229687241.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229691437.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229695706.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229699963.jpg"
+            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black2.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black3.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black4.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black5.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black6.webp"
         ]
     },
     {
@@ -11926,17 +10727,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229682473.jpg",
+        "img": "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229682473.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598696341499.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229657490.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229661526.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229665579.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229669433.jpg"
+            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple2.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple3.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple4.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple5.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple6.webp"
         ]
     },
     {
@@ -11947,17 +10747,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229587255.jpg",
+        "img": "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229587255.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598696053328.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229562343.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229566300.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229570732.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229575148.jpg"
+            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple2.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple3.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple4.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple5.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple6.webp"
         ]
     },
     {
@@ -11968,17 +10767,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229506465.jpg",
+        "img": "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirt, Pikmee, 6205, Blue, S(38)-XXL(46) sizes available, Filafil"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229506465.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598695096162.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229482903.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229486790.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229490624.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229494554.jpg"
+            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue2.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue3.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue4.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue5.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue6.webp"
         ]
     },
     {
@@ -11989,18 +10787,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229462612.jpg",
+        "img": "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirts, Pikmee, 6205, Peach, S(38), M(40), L(42), XL(44), XXL(46), Filafil, Not Applicable, Not Applicable, thinkPrint Label Area, Woven Label, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229462612.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598694567024.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229438664.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229442714.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229446920.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229450715.jpg"
+            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach2.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach3.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach4.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach5.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach6.webp"
         ]
     },
     {
@@ -12011,18 +10808,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598694157355.jpg",
+        "img": "../src/assets/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirts, Pikmee, 6205, White, S(38), M(40), L(42), XL(44), XXL(46), Plan fine Quality, N/A, N/A, thinkPrint area on collar, Embroidery, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598694157355.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598694157355.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598694157355.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598691826716.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598692273305.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598694157355.jpg"
+            "../src/assets/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white2.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white3.webp"
         ]
     },
     {
@@ -12033,18 +10826,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229320526.jpg",
+        "img": "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirt, Pikmee, 6205, Light Blue, S(38) to XXL(46), Filafil, 250g, Chest Pocket, Embroidery, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229320526.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598692273305.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229296575.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229300693.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229304689.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229308575.jpg"
+            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue2.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue3.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue4.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue5.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue6.webp"
         ]
     },
     {
@@ -12055,7 +10847,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229153473.jpg",
+        "img": "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirt, Pikmee, 6205, Grey, Sizes: S(38), M(40), L(42), XL(44), XXL(46), Fabric: Filafil",
             "Monte Franco Formal Shirt, Pikmee, 6205, Grey, Fit: Comfort Fit",
@@ -12064,14 +10856,13 @@ export const products = [
             "Monte Franco Formal Shirt, Pikmee, 6205, Grey, No Battery"
         ],
         "thumbnailImages": [
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229153473.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-08-2020/1598691826716.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229135627.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229140265.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229144705.jpg",
-            "https://imagesm.plexussquare.in/URBANGEAR/Images/29-12-2020/1609229149028.jpg"
+            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey2.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey3.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey4.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey5.webp",
+            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey6.webp"
         ]
-    },
+    },  
 {
     "id": 545,
     "title": "Visiting Cards",
@@ -12087,14 +10878,14 @@ export const products = [
         "Note: Please do not print designs belonging to Government/Quasi Government bodies"
     ],
     "offer": "Min. 50% Off",
-    "img": visitingcard1,
+    "img": "../src/assets/products//visiting-cards/visitingcard-1.webp",
     "price": 250,
     "ratingCount": 150,
     "bestDeal": true,
     "category": "Visiting Cards",
     "recommended": true,
     "thumbnailImages": [
-        visitingcard2,visitingcard3,visitingcard4
+        "../src/assets/products//visiting-cards/visitingcard-2.webp","../src/assets/products//visiting-cards/visitingcard-3.webp","../src/assets/products//visiting-cards/visitingcard-4.webp"
     ]
 },
 {
@@ -12105,7 +10896,7 @@ export const products = [
     "price": 399,
     "ratingCount": 150,
     "category": "Personalized Clothing",
-    "img": mentshirt1,
+    "img": "../src/assets/products//tshirt-men/men-tshirt-1.webp",
     "designSpecifications": [
         "Available in sizes S to XXL",
         "Made from breathable, quick-drying polyester fabric",
@@ -12113,7 +10904,7 @@ export const products = [
         "Ideal for sports or casual wear"
     ],
     "thumbnailImages": [
-        mentshirt2,mentshirt3,mentshirt4,mentshirt5,mentshirt6
+        "../src/assets/products//tshirt-men/men-tshirt-2.webp","../src/assets/products//tshirt-men/men-tshirt-3.webp","../src/assets/products//tshirt-men/men-tshirt-4.webp","../src/assets/products//tshirt-men/men-tshirt-5.webp","../src/assets/products//tshirt-men/men-tshirt-6.webp"
     ]
 },
 {
@@ -12124,7 +10915,7 @@ export const products = [
     "price": 599,
     "ratingCount": 200,
     "category": "Personalized Clothing",
-    "img": womentshirt1,
+    "img": "../src/assets/products//tshirt-women/women-tshirt-1.webp",
     "designSpecifications": [
         "Made with 100% premium cotton",
         "Available in sizes S to XXL",
@@ -12132,7 +10923,7 @@ export const products = [
         "Great for personalization with vibrant prints"
     ],
     "thumbnailImages": [
-        womentshirt2,womentshirt3,womentshirt4
+        "../src/assets/products//tshirt-women/women-tshirt-2.webp","../src/assets/products//tshirt-women/women-tshirt-3.webp","../src/assets/products//tshirt-women/women-tshirt-4.webp"
     ]
 },
 {
@@ -12143,14 +10934,14 @@ export const products = [
     "price": 499,
     "ratingCount": 180,
     "category": "Custom Stamps & Ink",
-    "img": paperembosser1,
+    "img": "../src/assets/products//paperembosser/paperembosser-1.webp",
     "designSpecifications": [
         "Size: 41 mm (4.1 cm) diameter for precise and clear embossing.",
         "Preview: Black output shown is for representation.",
         "Compliance: Government-related designs are not allowed; users are responsible for proper usage."
     ],
     "thumbnailImages": [
-        paperembosser2,paperembosser3,paperembosser4
+        "../src/assets/products//paperembosser/paperembosser-2.webp","../src/assets/products//paperembosser/paperembosser-3.webp","../src/assets/products//paperembosser/paperembosser-4.webp"
     ]
 },
 {
@@ -12161,14 +10952,14 @@ export const products = [
     "price": 699,
     "ratingCount": 100,
     "category": "Custom Stamps & Ink",
-    "img": stamppads1,
+    "img": "../src/assets/products//stamppads/stamppads-1.webp",
     "designSpecifications": [
         "Ink Quality: Quick-drying, fade-resistant ink for clear and precise impressions.",
         "Color Options: Available in multiple colors for versatile applications.",
         "Durability: Long-lasting ink retention with a smooth, even distribution system."
     ],
     "thumbnailImages": [
-        stamppads2,stamppads3
+        "../src/assets/products//stamppads/stamppads-2.webp","../src/assets/products//stamppads/stamppads-3.webp"
     ]
 },
 {
@@ -12179,7 +10970,7 @@ export const products = [
     "price": 799,
     "ratingCount": 250,
     "category": "Photo Gifts",
-    "img": photoalbum1,
+    "img": "../src/assets/products//photoalbums/photoalbum-1.webp",
     "designSpecifications": [
         "Available in hardcover and softcover options",
         "High-quality glossy/matte finish pages",
@@ -12187,7 +10978,7 @@ export const products = [
         "Customizable cover with text and images"
     ],
     "thumbnailImages": [
-        photoalbum2
+        "../src/assets/products//photoalbums/photoalbum-2.webp"
     ]
 },
 {
@@ -12198,7 +10989,7 @@ export const products = [
     "price": 399,
     "ratingCount": 120,
     "category": "Photo Gifts",
-    "img": mugs1,
+    "img": "../src/assets/products//mugs/mugs-1.webp",
     "designSpecifications": [
         "Glossy and matte finishes available",
         "Full wrap-around print capability",
@@ -12206,7 +10997,7 @@ export const products = [
         "Custom text and image printing"
     ],
     "thumbnailImages": [
-        mugs2,mugs3
+        "../src/assets/products//mugs/mugs-2.webp","../src/assets/products//mugs/mugs-3.webp"
     ]
 },
 {
@@ -12217,7 +11008,7 @@ export const products = [
     "price": 499,
     "ratingCount": 150,
     "category": "Photo Gifts",
-    "img": bottles1,
+    "img": "../src/assets/products//bottles/bottles-1.webp",
     "designSpecifications": [
         "Available in 500ml, 750ml, and 1L sizes",
         "Soft cotton fabric for all-day comfortStainless steel, BPA-free material",
@@ -12225,7 +11016,7 @@ export const products = [
         "Custom printing and engraving available"
     ],
     "thumbnailImages": [
-        bottles2,bottles3
+        "../src/assets/products//bottles/bottles-2.webp","../src/assets/products//bottles/bottles-3.webp"
     ]
 },
 {
@@ -12236,7 +11027,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": canvasprint1,
+    "img": "../src/assets/products//canvasprint/canvasprint-1.webp",
     "designSpecifications": [
         "Cotton/Polyester canvas",
         "Stretched on a wooden frame",
@@ -12244,7 +11035,7 @@ export const products = [
         "Sizes: 8x8,12x12,16x20,24x36."
     ],
     "thumbnailImages": [
-        canvasprint2
+        "../src/assets/products//canvasprint/canvasprint-2.webp"
     ]
 },
 {
@@ -12255,7 +11046,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": photoframe1,
+    "img": "../src/assets/products//photoframe/photoframe1.webp",
     "designSpecifications": [
         "Wood/Metal/Acrylic",
         "Multiple sizes & orientations",
@@ -12263,7 +11054,7 @@ export const products = [
         "Protective glass."
     ],
     "thumbnailImages": [
-        photoframe2
+        "../src/assets/products//photoframe/photoframe2.webp"
     ]
 },
 {
@@ -12274,7 +11065,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": fridgemagnet1,
+    "img": "../src/assets/products//fridgemagnet/fridgemagnet1.webp",
     "designSpecifications": [
         "High-quality magnetic material",
         "Glossy/Matte finish",
@@ -12282,7 +11073,7 @@ export const products = [
         "Sizes: 2x2,3x3,4x4 inches."
     ],
     "thumbnailImages": [
-        fridgemagnet2,fridgemagnet3
+        "../src/assets/products//fridgemagnet/fridgemagnet2.webp","../src/assets/products//fridgemagnet/fridgemagnet3.webp"
     ]
 },
 {
@@ -12293,7 +11084,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": calenders1,
+    "img": "../src/assets/products//calenders/calenders1.webp",
     "designSpecifications": [
         "Wall",
         "Desk",
@@ -12303,7 +11094,7 @@ export const products = [
         "Custom start month/year."
     ],
     "thumbnailImages": [
-        calenders2
+        "../src/assets/products//calenders/calenders2.webp"
     ]
 },
 {
@@ -12314,7 +11105,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": playingcards1,
+    "img": "../src/assets/products//playingcards/playingcards1.webp",
     "designSpecifications": [
         "54-card deck",
         "Glossy/Matte finish",
@@ -12322,7 +11113,7 @@ export const products = [
         "Premium cardstock."
     ],
     "thumbnailImages": [
-        playingcards2
+        '../src/assets/products/playingcards/playingcards2.webp'
     ]
 },
 {
@@ -12333,7 +11124,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Labels, Stickers & Packaging",
-    "img": packinglabels1,
+    "img": "../src/assets/products//packinglabels/packinglabels1.webp",
     "designSpecifications": [
         "Paper/Vinyl material",
         "Glossy/Matte finish",
@@ -12342,7 +11133,7 @@ export const products = [
         "Custom sizes."
     ],
     "thumbnailImages": [
-        packinglabels2
+        "../src/assets/products//packinglabels/packinglabels2.webp"
     ]
 },
 {
@@ -12353,7 +11144,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Labels, Stickers & Packaging",
-    "img": qrcode1,
+    "img": "../src/assets/products//qrcode/qrcodestickers1.webp",
     "designSpecifications": [
         "Vinyl/Paper material",
         "Waterproof",
@@ -12361,7 +11152,7 @@ export const products = [
         "High-resolution QR printing."
     ],
     "thumbnailImages": [
-        qrcode2
+        "../src/assets/products//qrcode/qrcodestickers2.webp"
     ]
 },
 {
@@ -12372,7 +11163,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Labels, Stickers & Packaging",
-    "img": cricketbat1,
+    "img": "../src/assets/products//cricketbat/cricketbat1.webp",
     "designSpecifications": [
         "Vinyl material",
         "Waterproof & scratch-resistant",
@@ -12380,7 +11171,7 @@ export const products = [
         "Glossy finish."
     ],
     "thumbnailImages": [
-        cricketbat2
+        "../src/assets/products//cricketbat/cricketbat2.webp"
     ]
 },
 {
@@ -12391,14 +11182,14 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": letterhead1,
+    "img": "../src/assets/products//letterhead/letterhead1.webp",
     "designSpecifications": [
         "High-quality paper (90-120 GSM),A4 size",
         "Single/Double-sided print",
         "Matte/Glossy finish."
     ],
     "thumbnailImages": [
-        letterhead2,letterhead3
+        "../src/assets/products//letterhead/letterhead2.webp","../src/assets/products//letterhead/letterhead3.webp"
     ]
 },
 {
@@ -12409,7 +11200,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": mousepad1,
+    "img": "../src/assets/products//mousepad/mousepad1.webp",
     "designSpecifications": [
         "Rubber base",
         "Fabric top",
@@ -12418,9 +11209,9 @@ export const products = [
         "Full-color printing."
     ],
     "thumbnailImages": [
-        mousepad2,
-        mousepad3,
-        mousepad4
+        "../src/assets/products//mousepad/mousepad2.webp",
+        "../src/assets/products//mousepad/mousepad3.webp",
+        "../src/assets/products//mousepad/mousepad4.webp"
     ]
 },
 {
@@ -12431,7 +11222,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": notebook1,
+    "img": "../src/assets/products//notebook/notebook1.webp",
     "designSpecifications": [
         "A5/B5/A4 sizes",
         "80-200 pages",
@@ -12439,7 +11230,7 @@ export const products = [
         "Spiral or Bound options."
     ],
     "thumbnailImages": [
-        notebook2
+        "../src/assets/products//notebook/notebook2.webp"
     ]
 },
 {
@@ -12450,7 +11241,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": envelope1,
+    "img": "../src/assets/products//envelope/envelope1.webp",
     "designSpecifications": [
         "Paper (100-150 GSM)",
         "Standard & custom sizes",
@@ -12458,7 +11249,7 @@ export const products = [
         "Adhesive strip option."
     ],
     "thumbnailImages": [
-        envelope2
+        "../src/assets/products//envelope/envelope2.webp"
     ]
 },
 {
@@ -12469,7 +11260,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": thankyou1,
+    "img": "../src/assets/products//thankyou/thankyou1.webp",
     "designSpecifications": [
         "Premium cardstock (250-350 GSM)",
         "Folded or Flat",
@@ -12477,7 +11268,7 @@ export const products = [
         "Custom sizes & envelopes."
     ],
     "thumbnailImages": [
-        thankyou2
+        "../src/assets/products//thankyou/thankyou2.webp"
     ]
 },
 {
@@ -12488,7 +11279,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": stationery1,
+    "img": "../src/assets/products//stationery/stationery1.webp",
     "designSpecifications": [
         "Customizable branding",
         "High-quality materials",
@@ -12496,7 +11287,7 @@ export const products = [
         "Packaging in a premium box."
     ],
     "thumbnailImages": [
-        stationery2
+        "../src/assets/products//stationery/stationery2.webp"
     ]
 },
 {
@@ -12507,7 +11298,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": flyer1,
+    "img": "../src/assets/products//flyers/flyers1.webp",
     "designSpecifications": [
         "Custom sizes",
         "Glossy/matte finish",
@@ -12515,7 +11306,7 @@ export const products = [
         "Vibrant color options."
     ],
     "thumbnailImages": [
-        flyer2
+        "../src/assets/products//flyers/flyers2.webp"
     ]
 },
 {
@@ -12526,14 +11317,14 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": poster1,
+    "img": "../src/assets/products//poster/poster1.webp",
     "designSpecifications": [
         "Available in A3,A2,A1 sizes",
         "High-resolution printing",
         "Tear-resistant material."
     ],
     "thumbnailImages": [
-        poster2
+        "../src/assets/products//poster/poster2.webp"
     ]
 },
 {
@@ -12544,14 +11335,14 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": banner1,
+    "img": "../src/assets/products//banners/banner1.webp",
     "designSpecifications": [
         "Vinyl/Fabric options",
         "Grommets for easy hanging",
         "UV-resistant print."
     ],
     "thumbnailImages": [
-        banner2
+        "../src/assets/products//banners/banner2.webp"
     ]
 },
 {
@@ -12562,7 +11353,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": brouchure1,
+    "img": "../src/assets/products//brouchure/brouchure1.webp",
     "designSpecifications": [
         "Premium paper",
         "Various fold styles",
@@ -12570,7 +11361,7 @@ export const products = [
         "Custom branding."
     ],
     "thumbnailImages": [
-        brouchure2,brouchure3
+        "../src/assets/products//brouchure/brouchure2.webp","../src/assets/products//brouchure/brouchure3.webp"
     ]
 },
 {
@@ -12581,7 +11372,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": booklet1,
+    "img": "../src/assets/products//booklet/booklets1.webp",
     "designSpecifications": [
         "Saddle-stitched or perfect bound",
         "Custom sizes",
@@ -12589,7 +11380,7 @@ export const products = [
         "Matte or glossy finish."
     ],
     "thumbnailImages": [
-        booklet2
+        "../src/assets/products//booklet/booklets2.webp"
     ]
 },
 {
@@ -12600,7 +11391,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Caps",
-    "img": caps1,
+    "img": "../src/assets/products//caps/caps1.webp",
     "designSpecifications": [
         "Adjustable strap",
         "Cotton/Polyester blend",
@@ -12608,7 +11399,7 @@ export const products = [
         "One-size-fits-most design."
     ],
     "thumbnailImages": [
-        caps2,caps3
+        "../src/assets/products//caps/caps2.webp","../src/assets/products//caps/caps3.webp"
     ]
 },
 {
@@ -12619,7 +11410,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": duffel1,
+    "img": "../src/assets/products//duffel/duffel1.webp",
     "designSpecifications": [
         "Large compartments",
         "adjustable straps",
@@ -12627,7 +11418,7 @@ export const products = [
         "water-resistant material options."
     ],
     "thumbnailImages": [
-        duffel2,duffel3
+        "../src/assets/products//duffel/duffel2.webp","../src/assets/products//duffel/duffel3.webp"
     ]
 },
 {
@@ -12638,7 +11429,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": tote1,
+    "img": "../src/assets/products//tote/tote1.webp",
     "designSpecifications": [
         "Sturdy handles",
         "spacious design",
@@ -12646,7 +11437,7 @@ export const products = [
         "eco-friendly materials."
     ],
     "thumbnailImages": [
-        tote2
+        "../src/assets/products//tote/tote2.webp"
     ]
 },
 {
@@ -12657,7 +11448,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": pouch1,
+    "img": "../src/assets/products//pouch/pouch1.webp",
     "designSpecifications": [
         "Zipper closure",
         "portable size",
@@ -12665,7 +11456,7 @@ export const products = [
         "customizable prints."
     ],
     "thumbnailImages": [
-        pouch2
+        "../src/assets/products//pouch/pouch2.webp"
     ]
 },
 {
@@ -12676,7 +11467,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": luggage1,
+    "img": "../src/assets/products//luggage/luggage1.webp",
     "designSpecifications": [
         "TSA lock",
         "expandable compartments",
@@ -12684,7 +11475,7 @@ export const products = [
         "retractable handle."
     ],
     "thumbnailImages": [
-        luggage2,luggage3
+        "../src/assets/products//luggage/luggage2.webp","../src/assets/products//luggage/luggage3.webp"
     ]
 },
 {
@@ -12695,7 +11486,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": backpack1,
+    "img": "../src/assets/products//backpack/backpack1.webp",
     "designSpecifications": [
         "Padded shoulder straps",
         "laptop compartment",
@@ -12703,7 +11494,7 @@ export const products = [
         "ergonomic back support."
     ],
     "thumbnailImages": [
-        backpack2
+        "../src/assets/products//backpack/backpack2.webp"
     ]
 },
 {
@@ -12714,7 +11505,7 @@ export const products = [
     "price": 1299,
     "ratingCount": 250,
     "category": "Personalized Clothing",
-    "img": menshirt1,
+    "img": "../src/assets/products//menshirt/menshirt1.webp",
     "designSpecifications": [
         "100% Cotton",
         "Slim Fit",
@@ -12722,7 +11513,7 @@ export const products = [
         "Wrinkle Resistant"
     ],
     "thumbnailImages": [
-        menshirt2
+        "../src/assets/products//menshirt/menshirt2.webp"
     ]
 },
 {
@@ -12733,7 +11524,7 @@ export const products = [
     "price": 1499,
     "ratingCount": 180,
     "category": "Personalized Clothing",
-    "img": womenshirt1,
+    "img": "../src/assets/products//womenshirt/womenshirt1.webp",
     "designSpecifications": [
         "Premium Polyester Blend",
         "Stretchable & Breathable Fabric",
@@ -12741,7 +11532,7 @@ export const products = [
         "Regular Fit"
     ],
     "thumbnailImages": [
-       womenshirt2
+       "../src/assets/products//womenshirt/womenshirt2.webp"
     ]
 },
 {
@@ -12752,7 +11543,7 @@ export const products = [
     "price": 1599,
     "ratingCount": 350,
     "category": "Personalized Clothing",
-    "img":hoodie1,
+    "img":"../src/assets/products//hoodie/hoodie1.webp",
     "designSpecifications": [
         "Fleece-Lined for Warmth",
         "Adjustable Hood",
@@ -12760,7 +11551,7 @@ export const products = [
         "Durable Stitching"
     ],
     "thumbnailImages": [
-        hoodie2,hoodie3,hoodie4
+        "../src/assets/products//hoodie/hoodie2.webp","../src/assets/products//hoodie/hoodie3.webp","../src/assets/products//hoodie/hoodie4.webp"
     ]
 },
 {
@@ -12771,7 +11562,7 @@ export const products = [
     "price": 1899,
     "ratingCount": 270,
     "category": "Personalized Clothing",
-    "img": sweater1,
+    "img": "../src/assets/products//sweater/sweater1.webp",
     "designSpecifications": [
         "Soft Wool Blend",
         "Ribbed Cuffs & Hem",
@@ -12779,7 +11570,7 @@ export const products = [
         "Easy to Layer"
     ],
     "thumbnailImages": [
-        sweater2,sweater3
+        "../src/assets/products//sweater/sweater2.webp","../src/assets/products//sweater/sweater3.webp"
     ]
 },
 {
@@ -12790,7 +11581,7 @@ export const products = [
     "price": 1499,
     "ratingCount": 320,
     "category": "Custom Drinkware",
-    "img": flask1,
+    "img": "../src/assets/products//flask/flask1.webp",
     "customDesignOptions": [
         "Engraved name or logo",
         "Full-color print design",
@@ -12798,7 +11589,7 @@ export const products = [
         "Custom packaging"
     ],
     "thumbnailImages": [
-        flask2
+        "../src/assets/products//flask/flask2.webp"
     ]
 },
 {
@@ -12809,7 +11600,7 @@ export const products = [
     "price": 1799,
     "ratingCount": 280,
     "category": "Custom Drinkware",
-    "img": stainless1,
+    "img": "../src/assets/products//stainless/stainless1.webp",
     "customDesignOptions": [
         "Laser-engraved logo",
         "Various color choices",
@@ -12817,7 +11608,7 @@ export const products = [
         "Eco-friendly packaging"
     ],
     "thumbnailImages": [
-        stainless2
+        "../src/assets/products//stainless/stainless2.webp"
     ]
 },
 {
@@ -12828,7 +11619,7 @@ export const products = [
     "price": 1299,
     "ratingCount": 290,
     "category": "Custom Drinkware",
-    "img": sportsbottle1,
+    "img": "../src/assets/products//sportsbottle/sportsbottle1.webp",
     "customDesignOptions": [
         "Printed name or logo",
         "Variety of color options",
@@ -12836,7 +11627,7 @@ export const products = [
         "BPA-free material"
     ],
     "thumbnailImages": [
-        sportsbottle2
+        "../src/assets/products//sportsbottle/sportsbottle2.webp"
     ]
 },
 {
@@ -12847,7 +11638,7 @@ export const products = [
     "price": 1599,
     "ratingCount": 330,
     "category": "Custom Drinkware",
-    "img": mugs1,
+    "img": "../src/assets/products//mugs/mugs-1.webp",
     "customDesignOptions": [
         "Engraved name or quote",
         "Custom printed logo",
@@ -12855,7 +11646,7 @@ export const products = [
         "Thermal insulation options"
     ],
     "thumbnailImages": [
-        mugs2
+        "../src/assets/products//mugs/mugs-2.webp"
     ]
 },
 {
@@ -12866,7 +11657,7 @@ export const products = [
     "price": 2499,
     "ratingCount": 280,
     "category": "Promotional Gifts",
-    "img": desktopset1,
+    "img": "../src/assets/products//desktopset/desktopset1.webp",
     "customDesignOptions": [
         "Engraved company logo",
         "Custom name printing",
@@ -12874,7 +11665,7 @@ export const products = [
         "Custom gift packaging"
     ],
     "thumbnailImages": [
-        desktopset2,desktopset3
+        "../src/assets/products//desktopset/desktopset2.webp","../src/assets/products//desktopset/desktopset3.webp"
     ]
 },
 {
@@ -12885,7 +11676,7 @@ export const products = [
     "price": 499,
     "ratingCount": 350,
     "category": "Promotional Gifts",
-    "img": pens1,
+    "img": "../src/assets/products//pens/pens1.webp",
     "customDesignOptions": [
         "Printed company logo",
         "Variety of ink colors",
@@ -12893,7 +11684,7 @@ export const products = [
         "Custom grip and finish"
     ],
     "thumbnailImages": [
-        pens2,pens3,pens4
+        "../src/assets/products//pens/pens2.webp","../src/assets/products//pens/pens3.webp","../src/assets/products//pens/pens4.webp"
     ]
 },
 {
@@ -12904,7 +11695,7 @@ export const products = [
     "price": 999,
     "ratingCount": 290,
     "category": "Promotional Gifts",
-    "img": businesscard1,
+    "img": "../src/assets/products//businesscard/businesscard1.webp",
     "customDesignOptions": [
         "Laser-engraved name or logo",
         "Metal, leather, or bamboo options",
@@ -12912,7 +11703,7 @@ export const products = [
         "Customizable compartments"
     ],
     "thumbnailImages": [
-        businesscard2
+        "../src/assets/products//businesscard/businesscard2.webp"
     ]
 },
 {
@@ -12923,7 +11714,7 @@ export const products = [
     "price": 899,
     "ratingCount": 280,
     "category": "Promotional Gifts",
-    "img": keychain1,
+    "img": "../src/assets/products//keychain/keychain1.webp",
     "customDesignOptions": [
         "Laser-engraved company logo",
         "Multi-tool keychain options",
@@ -12931,7 +11722,7 @@ export const products = [
         "Compact and lightweight design"
     ],
     "thumbnailImages": [
-        keychain2
+        "../src/assets/products//keychain/keychain2.webp"
     ]
 },
 {
@@ -12942,7 +11733,7 @@ export const products = [
     "price": 1599,
     "ratingCount": 300,
     "category": "Promotional Gifts",
-    "img": mobileaccessories1,
+    "img": "../src/assets/products//mobileaccessories/mobileacc1.webp",
     "customDesignOptions": [
         "Printed or engraved branding",
         "Wireless charging options",
@@ -12950,7 +11741,7 @@ export const products = [
         "Compatible with all devices"
     ],
     "thumbnailImages": [
-        mobileaccessories2
+        "../src/assets/products//mobileaccessories/mobileacc2.webp"
     ]
 },
 {
@@ -12961,7 +11752,7 @@ export const products = [
     "price": 999,
     "ratingCount": 180,
     "category": "Stationery & Calendars",
-    "img": multiyearcalendar1,
+    "img": "../src/assets/products//multiyearcalendar/multiyearcalendar1.png",
     "designSpecifications": [
         "Covers up to 5 years of planning",
         "High-quality paper with a glossy/matte finish",
@@ -12979,7 +11770,7 @@ export const products = [
     "price": 299,
     "ratingCount": 120,
     "category": "Custom Stationery",
-    "img": idcard1,
+    "img": "../src/assets/products//idcards/idcards1.webp",
     "designSpecifications": [
         "Material: PVC 0.8 mm thickness",
         "Finish: Semi-Gloss",
@@ -12988,7 +11779,7 @@ export const products = [
         "Decoration Technology: Digital Printing"
     ],
     "thumbnailImages": [
-        idcard2,idcard3
+        "../src/assets/products//idcards/idcards2.webp","../src/assets/products//idcards/idcards3.webp"
     ]
 }
 ]
