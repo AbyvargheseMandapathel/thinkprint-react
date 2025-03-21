@@ -30,9 +30,9 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/samba1/samba12.webp",
-            "../src/assets/products/samba1/samba13.webp",
-            "../src/assets/products/samba1/samba14.webp"
+            "/products/samba1/samba12.webp",
+            "/products/samba1/samba13.webp",
+            "/products/samba1/samba14.webp"
         ]
     },
     {
@@ -43,15 +43,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/tango/tango1.webp",
+        "img": "/products/tango/tango1.webp",
         "designSpecifications": [
             "Tango, thinkPrint, 85182200, Black, 10x4.1cm, ABS Plastic, 200g, 6x2cm, Engrave/Screen Print/UV Print/DTF Sticker, Multi-Color LED, 5W, 4 Hour Play Time/10m Range",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/tango/tango2.webp",
-            "../src/assets/products/tango/tango3.webp",
-            "../src/assets/products/tango/tango4.webp"
+            "/products/tango/tango2.webp",
+            "/products/tango/tango3.webp",
+            "/products/tango/tango4.webp"
         ]
     },
     {
@@ -62,13 +62,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/buzz/buzz1.webp",
+        "img": "/products/buzz/buzz1.webp",
         "designSpecifications": [
             "BUZZ, thinkPrint, 85182200, Black, 10.5 x 5.5 x 7.5cm, ABS Plastic, 300g, 8 x 4cm, UV Printing, None, 5W, 2000mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/buzz/buzz2.webp"
+            "/products/buzz/buzz2.webp"
         ]
     },
     {
@@ -79,17 +79,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand1.webp",
+        "img": "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand1.webp",
         "designSpecifications": [
             "TIC-TOC, thinkPrint, 48201090, Matte Black, 150mm x 80mm x 60mm, ABS Plastic, 250g, 40mm x 15mm, Pad Printing, Customizable, 1W, 2000 mAh Lithium-ion.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand2.webp",
-            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand3.webp",
-            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand4.webp",
-            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand5.webp",
-            "../src/assets/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand6.webp"
+            "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand2.webp",
+            "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand3.webp",
+            "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand4.webp",
+            "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand5.webp",
+            "/products/tic-toc_alarm_clock_with_mobile_stand/tic-toc_alarm_clock_with_mobile_stand6.webp"
         ]
     },
     {
@@ -100,17 +100,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker1.webp",
+        "img": "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker1.webp",
         "designSpecifications": [
             "NANO-Pocket Bluetooth Speaker, thinkPrint, 85182100, Black, 9.1x1.5x4.7cm, Aluminum/Faux Leather, 4-hour Playback, 5W Speaker Output, 450mAh Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker2.webp",
-            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker3.webp",
-            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker4.webp",
-            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker5.webp",
-            "../src/assets/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker6.webp"
+            "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker2.webp",
+            "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker3.webp",
+            "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker4.webp",
+            "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker5.webp",
+            "/products/nano-_pocket_bluetooth_speaker/nano-_pocket_bluetooth_speaker6.webp"
         ]
     },
     {
@@ -121,17 +121,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum1.webp",
+        "img": "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum1.webp",
         "designSpecifications": [
             "DRUM, thinkPrint, 85189000, Black, 6 x 6 x 9 cm, ABS Plastic, 200g, 4 x 2 cm, Pad Printing, Bottom RGB Ambient, 3W.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum2.webp",
-            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum3.webp",
-            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum4.webp",
-            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum5.webp",
-            "../src/assets/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum6.webp"
+            "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum2.webp",
+            "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum3.webp",
+            "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum4.webp",
+            "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum5.webp",
+            "/products/bluetooth_speaker_-_drum/bluetooth_speaker_-_drum6.webp"
         ]
     },
     {
@@ -142,17 +142,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock1.webp",
+        "img": "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock1.webp",
         "designSpecifications": [
             "KRONO, thinkPrint, 85182100, Black, 9.5*7.5*6.5cm, ABS Plastic, 200g, 4*2cm, Pad Printing, Ambient Night Light, 5W",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock2.webp",
-            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock3.webp",
-            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock4.webp",
-            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock5.webp",
-            "../src/assets/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock6.webp"
+            "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock2.webp",
+            "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock3.webp",
+            "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock4.webp",
+            "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock5.webp",
+            "/products/bluetooth_speaker_with_alarm_clock/bluetooth_speaker_with_alarm_clock6.webp"
         ]
     },
     {
@@ -163,16 +163,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky1.webp",
+        "img": "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky1.webp",
         "designSpecifications": [
             "CLOCKY, thinkPrint, 851821, Black, 12.8*4.6*6.3cm, Premium Rubber Finish, 5W, 1600mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky2.webp",
-            "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky3.webp",
-            "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky4.webp",
-            "../src/assets/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky5.webp"
+            "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky2.webp",
+            "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky3.webp",
+            "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky4.webp",
+            "/products/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky/bluetooth_speaker_&_mirrored_alarm_clock_-_clocky5.webp"
         ]
     },
     {
@@ -183,16 +183,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats1.webp",
+        "img": "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats1.webp",
         "designSpecifications": [
             "AQUA BEATS, thinkPrint, 851821, Gunmetal Grey, 80mm x 80mm x 40mm, Aluminum Alloy, 150g, 50mm x 20mm, Laser Engraving, None, 3W, 400mAh.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats2.webp",
-            "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats3.webp",
-            "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats4.webp",
-            "../src/assets/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats5.webp"
+            "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats2.webp",
+            "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats3.webp",
+            "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats4.webp",
+            "/products/splash_proof_bluetooth_speaker_-_aqua_beats/splash_proof_bluetooth_speaker_-_aqua_beats5.webp"
         ]
     },
     {
@@ -203,16 +203,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny1.webp",
+        "img": "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny1.webp",
         "designSpecifications": [
             "BUNNY, thinkPrint, 851829, Undefined, 70mm x 70mm x 50mm, ABS Plastic with Cotton Mesh, 150g, 40mm x 20mm, Pad Printing, No RGB, 3W, 400mAh"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny2.webp",
-            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny3.webp",
-            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny4.webp",
-            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny5.webp",
-            "../src/assets/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny6.webp"
+            "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny2.webp",
+            "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny3.webp",
+            "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny4.webp",
+            "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny5.webp",
+            "/products/bluetooth_speaker_-_bunny/bluetooth_speaker_-_bunny6.webp"
         ]
     },
     {
@@ -223,17 +223,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.01.webp",
+        "img": "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.01.webp",
         "designSpecifications": [
             "MIST 2.0, thinkPrint, 851821, Black, 85mm x 85mm x 50mm, ABS Plastic, 200g, 40mm x 20mm, Pad Printing, None, 3W, 400mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.02.webp",
-            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.03.webp",
-            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.04.webp",
-            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.05.webp",
-            "../src/assets/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.06.webp"
+            "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.02.webp",
+            "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.03.webp",
+            "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.04.webp",
+            "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.05.webp",
+            "/products/waterproof_bluetooth_shower_speaker_-_mist_2.0/waterproof_bluetooth_shower_speaker_-_mist_2.06.webp"
         ]
     },
     {
@@ -244,17 +244,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones1.webp",
+        "img": "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones1.webp",
         "designSpecifications": [
             "BLITZ, thinkPrint, 851830, Matte Black, 170mm x 190mm x 75mm (Folded), ABS Plastic, 150g, 40mm x 10mm (Earcup), Pad Print, None, 20mW, 200mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones2.webp",
-            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones3.webp",
-            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones4.webp",
-            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones5.webp",
-            "../src/assets/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones6.webp"
+            "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones2.webp",
+            "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones3.webp",
+            "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones4.webp",
+            "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones5.webp",
+            "/products/blitz_bluetooth_stereo_headphones/blitz_bluetooth_stereo_headphones6.webp"
         ]
     },
     {
@@ -265,17 +265,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.01.webp",
+        "img": "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.01.webp",
         "designSpecifications": [
             "LOOP 2.0, thinkPrint, 851830, Black, 13.5*1*43cm, ABS Plastic, 50g, 4*2cm, Pad Printing, No RGB, 20mW, 400mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.02.webp",
-            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.03.webp",
-            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.04.webp",
-            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.05.webp",
-            "../src/assets/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.06.webp"
+            "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.02.webp",
+            "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.03.webp",
+            "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.04.webp",
+            "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.05.webp",
+            "/products/bluetooth_sports_neckband_-_loop_2.0/bluetooth_sports_neckband_-_loop_2.06.webp"
         ]
     },
     {
@@ -286,7 +286,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins1.webp",
+        "img": "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins1.webp",
         "designSpecifications": [
             "UG NAME TWINS, thinkPrint, 851830, Black, 60mm x 40mm x 25mm, ABS Plastic, 40g, 20mm x 10mm, Pad Printing, None, 3mW, Headset: 35mAh, Charge Base: 300mAh",
             "UG NAME TWINS, thinkPrint, 851830, Black, Playback: 2.5-3 hrs, Standby: 100 hrs, Charging Time: 1 hour",
@@ -295,11 +295,11 @@ export const products = [
             "UG NAME TWINS, thinkPrint, 851830, Black,  Ergonomic Earbud Design"
         ],
         "thumbnailImages": [
-            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins2.webp",
-            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins3.webp",
-            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins4.webp",
-            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins5.webp",
-            "../src/assets/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins6.webp"
+            "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins2.webp",
+            "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins3.webp",
+            "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins4.webp",
+            "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins5.webp",
+            "/products/true_wireless_stereo_headset_-_twins/true_wireless_stereo_headset_-_twins6.webp"
         ]
     },
     {
@@ -310,16 +310,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze1.webp",
+        "img": "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze1.webp",
         "designSpecifications": [
             "BLAZE, thinkPrint, 851830, Matte Black, 180mm x 150mm x 75mm (folded), ABS Plastic, 220g, 40mm x 10mm (earcup), Pad Print, Single Color LED (power indicator), 35mW, 300mAh Lithium-ion",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze2.webp",
-            "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze3.webp",
-            "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze4.webp",
-            "../src/assets/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze5.webp"
+            "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze2.webp",
+            "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze3.webp",
+            "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze4.webp",
+            "/products/bluetooth_stereo_headphones_-_blaze/bluetooth_stereo_headphones_-_blaze5.webp"
         ]
     },
     {
@@ -330,17 +330,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro1.webp",
+        "img": "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro1.webp",
         "designSpecifications": [
             "BASS PRO, thinkPrint, 851830, Matte Black, 180mm x 150mm x 70mm (folded), ABS Plastic, 220g, 40mm x 10mm on Earcup, Pad Printing, None, 50mW",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro2.webp",
-            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro3.webp",
-            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro4.webp",
-            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro5.webp",
-            "../src/assets/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro6.webp"
+            "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro2.webp",
+            "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro3.webp",
+            "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro4.webp",
+            "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro5.webp",
+            "/products/stereo_headphones_-_bass_pro/stereo_headphones_-_bass_pro6.webp"
         ]
     },
     {
@@ -351,7 +351,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.01.webp",
+        "img": "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.01.webp",
         "designSpecifications": [
             "BASS 2.0, thinkPrint, 8518, Black, 15.5*7.5*19.5 cm, ABS Plastic, 200g, Earcup Side, Pad Printing, None, 50mW",
             "BASS 2.0, thinkPrint, 8518, Black, 15.5*7.5*19.5 cm, ABS Plastic, 200g, Headband Top, Laser Engraving, None, 20Hz to 20kHz",
@@ -360,11 +360,11 @@ export const products = [
             "BASS 2.0, thinkPrint, 8518, Black, 15.5*7.5*19.5 cm, ABS Plastic, 200g, Earcup Side, Pad Printing, None, Titanium-Coated Diaphragms"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.02.webp",
-            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.03.webp",
-            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.04.webp",
-            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.05.webp",
-            "../src/assets/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.06.webp"
+            "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.02.webp",
+            "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.03.webp",
+            "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.04.webp",
+            "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.05.webp",
+            "/products/stereo_headphones_-_bass_2.0/stereo_headphones_-_bass_2.06.webp"
         ]
     },
     {
@@ -375,17 +375,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/cube_pro/cube_pro1.webp",
+        "img": "/products/cube_pro/cube_pro1.webp",
         "designSpecifications": [
             "Cube Pro, thinkPrint, 39269099, Black, 4.5 x 5.6 x 5 cm, Polycarbonate, 100g, 2 x 2 cm, UV Printing",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/cube_pro/cube_pro2.webp",
-            "../src/assets/products/cube_pro/cube_pro3.webp",
-            "../src/assets/products/cube_pro/cube_pro4.webp",
-            "../src/assets/products/cube_pro/cube_pro5.webp",
-            "../src/assets/products/cube_pro/cube_pro6.webp"
+            "/products/cube_pro/cube_pro2.webp",
+            "/products/cube_pro/cube_pro3.webp",
+            "/products/cube_pro/cube_pro4.webp",
+            "/products/cube_pro/cube_pro5.webp",
+            "/products/cube_pro/cube_pro6.webp"
         ]
     },
     {
@@ -396,16 +396,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo1.webp",
+        "img": "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo1.webp",
         "designSpecifications": [
             "DUO, thinkPrint, 853690, Black, 3.5 x 2 x 1.2 inches, ABS Plastic, 2.4 Ounces, 1 x 0.5 inches, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo2.webp",
-            "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo3.webp",
-            "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo4.webp",
-            "../src/assets/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo5.webp"
+            "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo2.webp",
+            "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo3.webp",
+            "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo4.webp",
+            "/products/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo/2_in_1_car_and_home_charger_with_2_usb_ports_-_duo5.webp"
         ]
     },
     {
@@ -416,16 +416,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube1.webp",
+        "img": "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube1.webp",
         "designSpecifications": [
             "CUBE, thinkPrint, 853669, Black, 70mm x 55mm x 50mm, Polycarbonate, 120g, 20mm x 20mm, Pad Printing, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube2.webp",
-            "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube3.webp",
-            "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube4.webp",
-            "../src/assets/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube5.webp"
+            "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube2.webp",
+            "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube3.webp",
+            "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube4.webp",
+            "/products/universal_travel_adapter_with_usb_-_cube/universal_travel_adapter_with_usb_-_cube5.webp"
         ]
     },
     {
@@ -436,17 +436,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on1.webp",
+        "img": "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on1.webp",
         "designSpecifications": [
             "World Travel Adapter, thinkPrint, 853669, Black, 80mm x 50mm x 40mm, Polycarbonate, 120g, 20mm x 10mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on2.webp",
-            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on3.webp",
-            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on4.webp",
-            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on5.webp",
-            "../src/assets/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on6.webp"
+            "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on2.webp",
+            "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on3.webp",
+            "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on4.webp",
+            "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on5.webp",
+            "/products/universal_travel_adapter_with_case_-_on/universal_travel_adapter_with_case_-_on6.webp"
         ]
     },
     {
@@ -457,17 +457,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/webcam_cover/webcam_cover1.webp",
+        "img": "/products/webcam_cover/webcam_cover1.webp",
         "designSpecifications": [
             "WEBCAM COVER, thinkPrint, 39269099, Black, 4.3 x 1.6 cm, ABS Plastic, 2g, 2.5 x 1 cm, Screen Printing",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/webcam_cover/webcam_cover2.webp",
-            "../src/assets/products/webcam_cover/webcam_cover3.webp",
-            "../src/assets/products/webcam_cover/webcam_cover4.webp",
-            "../src/assets/products/webcam_cover/webcam_cover5.webp",
-            "../src/assets/products/webcam_cover/webcam_cover6.webp"
+            "/products/webcam_cover/webcam_cover2.webp",
+            "/products/webcam_cover/webcam_cover3.webp",
+            "/products/webcam_cover/webcam_cover4.webp",
+            "/products/webcam_cover/webcam_cover5.webp",
+            "/products/webcam_cover/webcam_cover6.webp"
         ]
     },
     {
@@ -478,17 +478,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/cdo/cdo1.webp",
+        "img": "/products/cdo/cdo1.webp",
         "designSpecifications": [
             "Charger Desk Organizer, thinkPrint, 39269099, Beige, 8.5 x 8.5 x 7cm, Wheat Fiber, 250g, 6 x 6cm, Engrave/Screen Printing, No RGB Lighting Effects",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/cdo/cdo2.webp",
-            "../src/assets/products/cdo/cdo3.webp",
-            "../src/assets/products/cdo/cdo4.webp",
-            "../src/assets/products/cdo/cdo5.webp",
-            "../src/assets/products/cdo/cdo6.webp"
+            "/products/cdo/cdo2.webp",
+            "/products/cdo/cdo3.webp",
+            "/products/cdo/cdo4.webp",
+            "/products/cdo/cdo5.webp",
+            "/products/cdo/cdo6.webp"
         ]
     },
     {
@@ -499,17 +499,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/hubpad/hubpad1.webp",
+        "img": "/products/hubpad/hubpad1.webp",
         "designSpecifications": [
             "HUBPAD, thinkPrint, 39269099, Natural Bamboo, 12.8 x 8.5 x 1.8cm, Bamboo, 100g (est.), 6 x 4cm (top surface), Engrave, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hubpad/hubpad2.webp",
-            "../src/assets/products/hubpad/hubpad3.webp",
-            "../src/assets/products/hubpad/hubpad4.webp",
-            "../src/assets/products/hubpad/hubpad5.webp",
-            "../src/assets/products/hubpad/hubpad6.webp"
+            "/products/hubpad/hubpad2.webp",
+            "/products/hubpad/hubpad3.webp",
+            "/products/hubpad/hubpad4.webp",
+            "/products/hubpad/hubpad5.webp",
+            "/products/hubpad/hubpad6.webp"
         ]
     },
     {
@@ -520,7 +520,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/ug-cc33/ug-cc331.webp",
+        "img": "/products/ug-cc33/ug-cc331.webp",
         "designSpecifications": [
             "iCharge, thinkPrint, 39269099, Bamboo, 9.5 x 0.5cm",
             "Branding Area, Engrave, Screen Printing",
@@ -529,11 +529,11 @@ export const products = [
             "75% Charge"
         ],
         "thumbnailImages": [
-            "../src/assets/products/ug-cc33/ug-cc332.webp",
-            "../src/assets/products/ug-cc33/ug-cc333.webp",
-            "../src/assets/products/ug-cc33/ug-cc334.webp",
-            "../src/assets/products/ug-cc33/ug-cc335.webp",
-            "../src/assets/products/ug-cc33/ug-cc336.webp"
+            "/products/ug-cc33/ug-cc332.webp",
+            "/products/ug-cc33/ug-cc333.webp",
+            "/products/ug-cc33/ug-cc334.webp",
+            "/products/ug-cc33/ug-cc335.webp",
+            "/products/ug-cc33/ug-cc336.webp"
         ]
     },
     {
@@ -544,17 +544,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo1.webp",
+        "img": "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo1.webp",
         "designSpecifications": [
             "USB Memo, thinkPrint, 482190, Black, 90mm x 60mm x 20mm, ABS Plastic, 50g, 50mm x 20mm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo2.webp",
-            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo3.webp",
-            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo4.webp",
-            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo5.webp",
-            "../src/assets/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo6.webp"
+            "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo2.webp",
+            "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo3.webp",
+            "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo4.webp",
+            "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo5.webp",
+            "/products/multi-utility_usb_hub_-_usb_memo/multi-utility_usb_hub_-_usb_memo6.webp"
         ]
     },
     {
@@ -565,16 +565,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub1.webp",
+        "img": "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub1.webp",
         "designSpecifications": [
             "MobiHub, thinkPrint, 8473, Black, 120mm x 80mm x 50mm, ABS Plastic, 150g, 50mm x 20mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub2.webp",
-            "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub3.webp",
-            "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub4.webp",
-            "../src/assets/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub5.webp"
+            "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub2.webp",
+            "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub3.webp",
+            "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub4.webp",
+            "/products/usb_hub_with_mobile_holder_-_mobihub/usb_hub_with_mobile_holder_-_mobihub5.webp"
         ]
     },
     {
@@ -585,15 +585,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.01.webp",
+        "img": "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.01.webp",
         "designSpecifications": [
             "E-TUB 2.0, thinkPrint, 8473, White, 20cm x 10cm x 8cm, ABS Plastic, 300g, 5cm x 3cm, Pad Printing, 2 Level Brightness",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.02.webp",
-            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.03.webp",
-            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.04.webp"
+            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.02.webp",
+            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.03.webp",
+            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.0/usb_hub_with_stationery_&_mobile_holder_-_e-tub_2.04.webp"
         ]
     },
     {
@@ -604,17 +604,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub1.webp",
+        "img": "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub1.webp",
         "designSpecifications": [
             "E-TUB, thinkPrint, 8473, Blue, 9x7x9cm, ABS Plastic, 150g, 4x2cm, Pad Printing, None, 0.5W, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub2.webp",
-            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub3.webp",
-            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub4.webp",
-            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub5.webp",
-            "../src/assets/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub6.webp"
+            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub2.webp",
+            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub3.webp",
+            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub4.webp",
+            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub5.webp",
+            "/products/usb_hub_with_stationery_&_mobile_holder_-_e-tub/usb_hub_with_stationery_&_mobile_holder_-_e-tub6.webp"
         ]
     },
     {
@@ -625,17 +625,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/jiggle/jiggle1.webp",
+        "img": "/products/jiggle/jiggle1.webp",
         "designSpecifications": [
             "JIGGLE, thinkPrint, 85444299, Natural Bamboo, 6.5 x 3 x 1 cm, Bamboo, 599g, Ample branding space, Screen Printing/UV Printing/DTF Sticker, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/jiggle/jiggle2.webp",
-            "../src/assets/products/jiggle/jiggle3.webp",
-            "../src/assets/products/jiggle/jiggle4.webp",
-            "../src/assets/products/jiggle/jiggle5.webp",
-            "../src/assets/products/jiggle/jiggle6.webp"
+            "/products/jiggle/jiggle2.webp",
+            "/products/jiggle/jiggle3.webp",
+            "/products/jiggle/jiggle4.webp",
+            "/products/jiggle/jiggle5.webp",
+            "/products/jiggle/jiggle6.webp"
         ]
     },
     {
@@ -646,15 +646,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/yoyo_bolt/yoyo_bolt1.webp",
+        "img": "/products/yoyo_bolt/yoyo_bolt1.webp",
         "designSpecifications": [
             "YOYO-BOLT, thinkPrint, 85444299, Black, 1200mm length, TPE + Copper + Aluminium Alloy, 50g, 40mm x 20mm, Engrave/Screen Print, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/yoyo_bolt/yoyo_bolt2.webp",
-            "../src/assets/products/yoyo_bolt/yoyo_bolt3.webp",
-            "../src/assets/products/yoyo_bolt/yoyo_bolt4.webp"
+            "/products/yoyo_bolt/yoyo_bolt2.webp",
+            "/products/yoyo_bolt/yoyo_bolt3.webp",
+            "/products/yoyo_bolt/yoyo_bolt4.webp"
         ]
     },
     {
@@ -665,7 +665,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/sonic/sonic1.webp",
+        "img": "/products/sonic/sonic1.webp",
         "designSpecifications": [
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Nylon Wire, Screen Printing",
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Copper Wire, UV Printing",
@@ -674,9 +674,9 @@ export const products = [
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Nylon Wire, Luminous Chip"
         ],
         "thumbnailImages": [
-            "../src/assets/products/sonic/sonic2.webp",
-            "../src/assets/products/sonic/sonic3.webp",
-            "../src/assets/products/sonic/sonic4.webp"
+            "/products/sonic/sonic2.webp",
+            "/products/sonic/sonic3.webp",
+            "/products/sonic/sonic4.webp"
         ]
     },
     {
@@ -687,7 +687,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro1.webp",
+        "img": "/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro1.webp",
         "designSpecifications": [
             "Compact and portable size: 5*6*1.8 cm",
             "Cable length: 1000mm",
@@ -698,9 +698,9 @@ export const products = [
             "Built-in mobile stand for hands-free use"
         ],
         "thumbnailImages": [
-            "../src/assets/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro2.webp",
-            "../src/assets/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro3.webp",
-            "../src/assets/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro4.webp"
+            "/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro2.webp",
+            "/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro3.webp",
+            "/products/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro/retractable_3_in_1_data_+_charging_cable_+_mobile_stand_yoyo_drops_pro4.webp"
         ]
     },
     {
@@ -711,7 +711,7 @@ export const products = [
         "price": 599,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand1.webp",
+        "img": "/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand1.webp",
         "designSpecifications": [
             "Compact dimensions: 5 x 7 x 2.3 cm",
             "Retractable cable with a maximum length of 1000mm",
@@ -723,9 +723,9 @@ export const products = [
             "Allows simultaneous charging of multiple devices"
         ],
         "thumbnailImages": [
-            "../src/assets/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand2.webp",
-            "../src/assets/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand3.webp",
-            "../src/assets/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand4.webp"
+            "/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand2.webp",
+            "/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand3.webp",
+            "/products/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand/retractable_3-in-1_data_+_charging_cable_with_mobile_stand_-_yoyo_stand4.webp"
         ]
     },
     {
@@ -736,7 +736,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable1.webp",
+        "img": "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable1.webp",
         "designSpecifications": [
             "Compact dimensions: 5 x 6 x 1.8 cm",
             "Retractable cable with a maximum length of 1000mm",
@@ -749,11 +749,11 @@ export const products = [
             "Sleek black color"
         ],
         "thumbnailImages": [
-            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable2.webp",
-            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable3.webp",
-            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable4.webp",
-            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable5.webp",
-            "../src/assets/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable6.webp"
+            "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable2.webp",
+            "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable3.webp",
+            "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable4.webp",
+            "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable5.webp",
+            "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable6.webp"
         ]
     },
     {
@@ -764,7 +764,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel1.webp",
+        "img": "/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel1.webp",
         "designSpecifications": [
             "YOYO PRO PASTEL, thinkPrint, 854442, Intended Color , 5X1.5X21.5CM",
             "Copper Wire + TPE, 5V - 2.1A, 120mm Retractable Cable",
@@ -773,9 +773,9 @@ export const products = [
             "No Branding Area, No Branding Methods"
         ],
         "thumbnailImages": [
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel2.webp",
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel3.webp",
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel4.webp"
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel2.webp",
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel3.webp",
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel/retractable_3-in-1_charging_cable_-_yoyo_pro_pastel4.webp"
         ]
     },
     {
@@ -786,15 +786,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/wireless_charger_-_bolt/wireless_charger_-_bolt1.webp",
+        "img": "/products/wireless_charger_-_bolt/wireless_charger_-_bolt1.webp",
         "designSpecifications": [
             "Wireless Charger - BOLT, thinkPrint, 8505, WHITE, 7x7x1Cm, ABS Plastic, 50g, 5x5Cm, Pad Printing, Red/Blue",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/wireless_charger_-_bolt/wireless_charger_-_bolt2.webp",
-            "../src/assets/products/wireless_charger_-_bolt/wireless_charger_-_bolt3.webp",
-            "../src/assets/products/wireless_charger_-_bolt/wireless_charger_-_bolt4.webp"
+            "/products/wireless_charger_-_bolt/wireless_charger_-_bolt2.webp",
+            "/products/wireless_charger_-_bolt/wireless_charger_-_bolt3.webp",
+            "/products/wireless_charger_-_bolt/wireless_charger_-_bolt4.webp"
         ]
     },
     {
@@ -805,15 +805,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+1.webp",
+        "img": "/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+1.webp",
         "designSpecifications": [
             "Yoyo C+, thinkPrint, 8544, Black, 13x1.5x4cm, ABS Plastic, 45g, 2x1cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+2.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+3.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+4.webp"
+            "/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+2.webp",
+            "/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+3.webp",
+            "/products/3-in-1_charging_cable_-_yoyo_c+/3-in-1_charging_cable_-_yoyo_c+4.webp"
         ]
     },
     {
@@ -824,17 +824,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro1.webp",
+        "img": "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro1.webp",
         "designSpecifications": [
             "YOYO PRO, thinkPrint, 854442, Black, 50mm x 50mm x 20mm, TPE, 45g, 20mm x 10mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro2.webp",
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro3.webp",
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro4.webp",
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro5.webp",
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro6.webp"
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro2.webp",
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro3.webp",
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro4.webp",
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro5.webp",
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_pro/retractable_3-in-1_charging_cable_-_yoyo_pro6.webp"
         ]
     },
     {
@@ -845,17 +845,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg1.webp",
+        "img": "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg1.webp",
         "designSpecifications": [
             "3-In-1 Charging Cable with Mobile Stand, thinkPrint, 854442, Black, 4\" x 2\" x 0.5\", ABS Plastic, 1.5 oz, 1\" x 0.5\", Pad Printing, None,",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg2.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg3.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg4.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg5.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg6.webp"
+            "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg2.webp",
+            "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg3.webp",
+            "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg4.webp",
+            "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg5.webp",
+            "/products/3-in-1_charging_cable_-_m_chrg/3-in-1_charging_cable_-_m_chrg6.webp"
         ]
     },
     {
@@ -866,15 +866,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal1.webp",
+        "img": "/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal1.webp",
         "designSpecifications": [
             "YOYO METAL, thinkPrint, 854442, Black, 5cm x 5cm x 2cm, Aluminum Alloy, 60g, 1cm x 1cm, Laser Engraving, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal2.webp",
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal3.webp",
-            "../src/assets/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal4.webp"
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal2.webp",
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal3.webp",
+            "/products/retractable_3-in-1_charging_cable_-_yoyo_metal/retractable_3-in-1_charging_cable_-_yoyo_metal4.webp"
         ]
     },
     {
@@ -885,17 +885,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg1.webp",
+        "img": "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg1.webp",
         "designSpecifications": [
             "CLIP N CHRG, thinkPrint, 854442, Black, 3.5\" x 1.5\" x 0.75\", ABS Plastic, 1.5 oz, 2\" x 0.5\", Pad Print, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg2.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg3.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg4.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg5.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg6.webp"
+            "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg2.webp",
+            "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg3.webp",
+            "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg4.webp",
+            "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg5.webp",
+            "/products/3-in-1_charging_cable_-_clip_n_chrg/3-in-1_charging_cable_-_clip_n_chrg6.webp"
         ]
     },
     {
@@ -906,16 +906,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky1.webp",
+        "img": "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky1.webp",
         "designSpecifications": [
             "KIKY, thinkPrint, 854442, Black, 8cm x 3cm x 1.5cm, Silicon, 25g, 1cm x 1cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky2.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky3.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky4.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky5.webp"
+            "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky2.webp",
+            "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky3.webp",
+            "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky4.webp",
+            "/products/3-in-1_charging_cable_-_kiky/3-in-1_charging_cable_-_kiky5.webp"
         ]
     },
     {
@@ -926,16 +926,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c1.webp",
+        "img": "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c1.webp",
         "designSpecifications": [
             "LAN-C, thinkPrint, 854449, Black, 100cm Length, TPU, 25g, 1cm x 1cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c2.webp",
-            "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c3.webp",
-            "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c4.webp",
-            "../src/assets/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c5.webp"
+            "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c2.webp",
+            "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c3.webp",
+            "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c4.webp",
+            "/products/3-in-1_charging_cable_with_lanyard_-_lan-c/3-in-1_charging_cable_with_lanyard_-_lan-c5.webp"
         ]
     },
     {
@@ -946,15 +946,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c1.webp",
+        "img": "/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c1.webp",
         "designSpecifications": [
             "KORD-C, thinkPrint, 854442, White, 90mm x 25mm x 20mm, ABS Plastic, 60g, 15mm x 10mm, Pad Printing, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c2.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c3.webp",
-            "../src/assets/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c4.webp"
+            "/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c2.webp",
+            "/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c3.webp",
+            "/products/3-in-1_charging_cable_-_kord-c/3-in-1_charging_cable_-_kord-c4.webp"
         ]
     },
     {
@@ -965,14 +965,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/charge-x/charge-x1.webp",
+        "img": "/products/charge-x/charge-x1.webp",
         "designSpecifications": [
             "CHARGE-X, thinkPrint, 8507, Black, 7 x 13.5 x 1 cm, ABS Plastic, 220g, 5 x 3 cm, Pad Printing, None, None, 10000 mAh Li-Polymer",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/charge-x/charge-x2.webp",
-            "../src/assets/products/charge-x/charge-x3.webp"
+            "/products/charge-x/charge-x2.webp",
+            "/products/charge-x/charge-x3.webp"
         ]
     },
     {
@@ -983,18 +983,18 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display1.webp",
+        "img": "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display1.webp",
         "designSpecifications": [
             "4-IN-1 Power Bank With Mobile Stand & Built-IN Cables - POWER 10 DISPLAY, thinkPrint, 85076000, Black, 14.5X1.8X6.7cm",
             "Casing Material: ABS Plastic, Battery: 10,000mAh Lithium Polymer, Input: Type-C & Micro USB DC 5V / 2.1A, Output: Inbuilt USB, Micro, Type-C, Lightning DC 5V/ 2.1A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display2.webp",
-            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display3.webp",
-            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display4.webp",
-            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display5.webp",
-            "../src/assets/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display6.webp"
+            "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display2.webp",
+            "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display3.webp",
+            "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display4.webp",
+            "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display5.webp",
+            "/products/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display/4-in-1_power_bank_with_mobile_stand_&_built-in_cables_-_power_10_display6.webp"
         ]
     },
     {
@@ -1005,17 +1005,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display1.webp",
+        "img": "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display1.webp",
         "designSpecifications": [
             "PALM 5 DISPLAY, thinkPrint, 850790, Black, 125mm x 68mm x 10mm, ABS Plastic, 120g, 50mm x 30mm, Silkscreen Printing, None, None, Lithium Polymer 5000mAh.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display2.webp",
-            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display3.webp",
-            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display4.webp",
-            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display5.webp",
-            "../src/assets/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display6.webp"
+            "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display2.webp",
+            "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display3.webp",
+            "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display4.webp",
+            "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display5.webp",
+            "/products/slim_power_bank_-_palm_5_display/slim_power_bank_-_palm_5_display6.webp"
         ]
     },
     {
@@ -1026,15 +1026,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_101.webp",
+        "img": "/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_101.webp",
         "designSpecifications": [
             "PALM 10, thinkPrint, 8507, White, 135mm x 70mm x 15mm, ABS Plastic, 220g, 50mm x 80mm, Pad Printing, None, 10000mAh Lithium Polymer",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_102.webp",
-            "../src/assets/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_103.webp",
-            "../src/assets/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_104.webp"
+            "/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_102.webp",
+            "/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_103.webp",
+            "/products/slim_power_bank_-_palm_10/slim_power_bank_-_palm_104.webp"
         ]
     },
     {
@@ -1045,14 +1045,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_51.webp",
+        "img": "/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_51.webp",
         "designSpecifications": [
             "Palm 5, thinkPrint, 850790, White, 130mm x 65mm x 10mm, ABS Plastic, 120g, 50mm x 30mm, Pad Printing, None, 5000mAh Lithium Polymer"
         ],
         "thumbnailImages": [
-            "../src/assets/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_52.webp",
-            "../src/assets/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_53.webp",
-            "../src/assets/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_54.webp"
+            "/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_52.webp",
+            "/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_53.webp",
+            "/products/slim_power_bank_-_palm_5/slim_power_bank_-_palm_54.webp"
         ]
     },
     {
@@ -1063,15 +1063,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/webcam_cover/webcam_cover1.webp",
+        "img": "/products/webcam_cover/webcam_cover1.webp",
         "designSpecifications": [
             "UG NAME WEBCAM COVER, thinkPrint, 85299090, Black, 4.3 x 1.6 cm, ABS Plastic, 2g, 2 x 0.5 cm, Screen Printing,",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/webcam_cover/webcam_cover2.webp",
-            "../src/assets/products/webcam_cover/webcam_cover3.webp",
-            "../src/assets/products/webcam_cover/webcam_cover4.webp"
+            "/products/webcam_cover/webcam_cover2.webp",
+            "/products/webcam_cover/webcam_cover3.webp",
+            "/products/webcam_cover/webcam_cover4.webp"
         ]
     },
     {
@@ -1082,15 +1082,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/dazzle/dazzle1.webp",
+        "img": "/products/dazzle/dazzle1.webp",
         "designSpecifications": [
             "Dazzle LED Lamp with Wireless Charger & Phone Holder, thinkPrint, 94051090, Black, 11 x 1.5 x 21cm, ABS Plastic, 250g, 6 x 4cm, DTF Sticker, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/dazzle/dazzle2.webp",
-            "../src/assets/products/dazzle/dazzle3.webp",
-            "../src/assets/products/dazzle/dazzle4.webp"
+            "/products/dazzle/dazzle2.webp",
+            "/products/dazzle/dazzle3.webp",
+            "/products/dazzle/dazzle4.webp"
         ]
     },
     {
@@ -1101,15 +1101,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/smiley/smiley1.webp",
+        "img": "/products/smiley/smiley1.webp",
         "designSpecifications": [
             "Table Clock, thinkPrint, 91099990, Customizable, 12.5 x 7.5 x 12.5cm, ABS Plastic, 250g, 6 x 4cm, Engrave/UV Print/Screen Print/DTF Sticker, No RGB, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/smiley/smiley2.webp",
-            "../src/assets/products/smiley/smiley3.webp",
-            "../src/assets/products/smiley/smiley4.webp"
+            "/products/smiley/smiley2.webp",
+            "/products/smiley/smiley3.webp",
+            "/products/smiley/smiley4.webp"
         ]
     },
     {
@@ -1120,17 +1120,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/laplite/laplite1.webp",
+        "img": "/products/laplite/laplite1.webp",
         "designSpecifications": [
             "LAPLITE, thinkPrint, 85437090, Space Gray, 300mm x 210mm x 15mm, Aluminum Alloy, 650g, 50mm x 20mm, Laser Engraving, Customizable, 3W, 5000mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/laplite/laplite2.webp",
-            "../src/assets/products/laplite/laplite3.webp",
-            "../src/assets/products/laplite/laplite4.webp",
-            "../src/assets/products/laplite/laplite5.webp",
-            "../src/assets/products/laplite/laplite6.webp"
+            "/products/laplite/laplite2.webp",
+            "/products/laplite/laplite3.webp",
+            "/products/laplite/laplite4.webp",
+            "/products/laplite/laplite5.webp",
+            "/products/laplite/laplite6.webp"
         ]
     },
     {
@@ -1141,17 +1141,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass1.webp",
+        "img": "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass1.webp",
         "designSpecifications": [
             "BLEU, thinkPrint, 9004.10.00, Black, 145mm-18mm-142mm, Polycarbonate/Bamboo, 25g, 45mm x 6mm (arm), Laser Engraving",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass2.webp",
-            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass3.webp",
-            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass4.webp",
-            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass5.webp",
-            "../src/assets/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass6.webp"
+            "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass2.webp",
+            "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass3.webp",
+            "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass4.webp",
+            "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass5.webp",
+            "/products/bleu_mirror_lens_bamboo_sunglass/bleu_mirror_lens_bamboo_sunglass6.webp"
         ]
     },
     {
@@ -1162,13 +1162,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/shades_fashion_sunglasses/shades_fashion_sunglasses1.webp",
+        "img": "/products/shades_fashion_sunglasses/shades_fashion_sunglasses1.webp",
         "designSpecifications": [
             "SHADES, thinkPrint, 42023290, Black, 145mm lens width, Acetate, 28g, 5mm x 20mm temple, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/shades_fashion_sunglasses/shades_fashion_sunglasses2.webp"
+            "/products/shades_fashion_sunglasses/shades_fashion_sunglasses2.webp"
         ]
     },
     {
@@ -1179,15 +1179,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain1.webp",
+        "img": "/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain1.webp",
         "designSpecifications": [
             "Bamboo Phone Holder Keychain, thinkPrint, 39269099, Natural, 8cm x 3cm x 1cm, Bamboo, 20g, 2cm x 1cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain2.webp",
-            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain3.webp",
-            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain4.webp"
+            "/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain2.webp",
+            "/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain3.webp",
+            "/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain4.webp"
         ]
     },
     {
@@ -1198,17 +1198,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi1.webp",
+        "img": "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi1.webp",
         "designSpecifications": [
             "LUMI, thinkPrint, 853669, Cool White, 5.5*3.5*9cm, ABS Plastic, 85g, 4*2cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi2.webp",
-            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi3.webp",
-            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi4.webp",
-            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi5.webp",
-            "../src/assets/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi6.webp"
+            "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi2.webp",
+            "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi3.webp",
+            "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi4.webp",
+            "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi5.webp",
+            "/products/2-in-1_night_lamp_with_2_usb_charger_-_lumi/2-in-1_night_lamp_with_2_usb_charger_-_lumi6.webp"
         ]
     },
     {
@@ -1219,15 +1219,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan1.webp",
+        "img": "/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan1.webp",
         "designSpecifications": [
             "POWRFAN, thinkPrint, 841415, White, 15cm x 10cm x 20cm, ABS Plastic, 300g, 5cm x 3cm, Pad Printing, None, None, 2200mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan2.webp",
-            "../src/assets/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan3.webp",
-            "../src/assets/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan4.webp"
+            "/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan2.webp",
+            "/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan3.webp",
+            "/products/2-in-1_portable_fan_&_power_bank_-_powrfan/2-in-1_portable_fan_&_power_bank_-_powrfan4.webp"
         ]
     },
     {
@@ -1238,17 +1238,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/usb_metal_pen/usb_metal_pen1.webp",
+        "img": "/products/usb_metal_pen/usb_metal_pen1.webp",
         "designSpecifications": [
             "USB PEN (16 GB), thinkPrint, 9608, Black, 140mm x 13mm diameter, Metallic Alloy, 35g, 30mm x 6mm, Laser Engraving, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/usb_metal_pen/usb_metal_pen2.webp",
-            "../src/assets/products/usb_metal_pen/usb_metal_pen3.webp",
-            "../src/assets/products/usb_metal_pen/usb_metal_pen4.webp",
-            "../src/assets/products/usb_metal_pen/usb_metal_pen5.webp",
-            "../src/assets/products/usb_metal_pen/usb_metal_pen6.webp"
+            "/products/usb_metal_pen/usb_metal_pen2.webp",
+            "/products/usb_metal_pen/usb_metal_pen3.webp",
+            "/products/usb_metal_pen/usb_metal_pen4.webp",
+            "/products/usb_metal_pen/usb_metal_pen5.webp",
+            "/products/usb_metal_pen/usb_metal_pen6.webp"
         ]
     },
     {
@@ -1259,16 +1259,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast1.webp",
+        "img": "/products/key_finder_-trackfast/key_finder_-trackfast1.webp",
         "designSpecifications": [
             "TRACKFAST, thinkPrint, 854370, Black, 35mm x 35mm x 8mm, ABS Plastic, 9g, 20mm x 15mm, Pad Printing, No, 90dB, CR2032",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast2.webp",
-            "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast3.webp",
-            "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast4.webp",
-            "../src/assets/products/key_finder_-trackfast/key_finder_-trackfast5.webp"
+            "/products/key_finder_-trackfast/key_finder_-trackfast2.webp",
+            "/products/key_finder_-trackfast/key_finder_-trackfast3.webp",
+            "/products/key_finder_-trackfast/key_finder_-trackfast4.webp",
+            "/products/key_finder_-trackfast/key_finder_-trackfast5.webp"
         ]
     },
     {
@@ -1279,7 +1279,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/tornado/tornado1.webp",
+        "img": "/products/tornado/tornado1.webp",
         "designSpecifications": [
             "TORNADO, thinkPrint, 94051090, BLACK/white, 12 x 7.5 x 39.5cm",
             "Built-in Mobile Stand, Stationery/Pen Holder, Adjustable Gooseneck, 15W Wireless Charger",
@@ -1288,11 +1288,11 @@ export const products = [
             "Not applicable"
         ],
         "thumbnailImages": [
-            "../src/assets/products/tornado/tornado2.webp",
-            "../src/assets/products/tornado/tornado3.webp",
-            "../src/assets/products/tornado/tornado4.webp",
-            "../src/assets/products/tornado/tornado5.webp",
-            "../src/assets/products/tornado/tornado6.webp"
+            "/products/tornado/tornado2.webp",
+            "/products/tornado/tornado3.webp",
+            "/products/tornado/tornado4.webp",
+            "/products/tornado/tornado5.webp",
+            "/products/tornado/tornado6.webp"
         ]
     },
     {
@@ -1303,17 +1303,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/glo_beats_pro/glo_beats_pro1.webp",
+        "img": "/products/glo_beats_pro/glo_beats_pro1.webp",
         "designSpecifications": [
             "GLO BEATS PRO, thinkPrint, 96089910, Black, 11 x 11 x 44cm, ABS Plastic, 400g, 50 x 20mm, Pad Printing, Ambient RGB Base, 3W, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/glo_beats_pro/glo_beats_pro2.webp",
-            "../src/assets/products/glo_beats_pro/glo_beats_pro3.webp",
-            "../src/assets/products/glo_beats_pro/glo_beats_pro4.webp",
-            "../src/assets/products/glo_beats_pro/glo_beats_pro5.webp",
-            "../src/assets/products/glo_beats_pro/glo_beats_pro6.webp"
+            "/products/glo_beats_pro/glo_beats_pro2.webp",
+            "/products/glo_beats_pro/glo_beats_pro3.webp",
+            "/products/glo_beats_pro/glo_beats_pro4.webp",
+            "/products/glo_beats_pro/glo_beats_pro5.webp",
+            "/products/glo_beats_pro/glo_beats_pro6.webp"
         ]
     },
     {
@@ -1324,17 +1324,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder1.webp",
+        "img": "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder1.webp",
         "designSpecifications": [
             "THUNDER, thinkPrint, 94054900, Black, 16x7.7x42.5cm, ABS Plastic, 400g, 4x2cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder2.webp",
-            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder3.webp",
-            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder4.webp",
-            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder5.webp",
-            "../src/assets/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder6.webp"
+            "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder2.webp",
+            "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder3.webp",
+            "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder4.webp",
+            "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder5.webp",
+            "/products/15w_super_quick_charge-thunder/15w_super_quick_charge-thunder6.webp"
         ]
     },
     {
@@ -1345,17 +1345,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt1.webp",
+        "img": "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt1.webp",
         "designSpecifications": [
             "BOLT, thinkPrint, 94054900, Black, 11x6.5x42.5cm, ABS Plastic, 350g, 4x2cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt2.webp",
-            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt3.webp",
-            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt4.webp",
-            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt5.webp",
-            "../src/assets/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt6.webp"
+            "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt2.webp",
+            "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt3.webp",
+            "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt4.webp",
+            "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt5.webp",
+            "/products/15w_super_quick_charge-bolt/15w_super_quick_charge-bolt6.webp"
         ]
     },
     {
@@ -1366,17 +1366,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite1.webp",
+        "img": "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite1.webp",
         "designSpecifications": [
             "DESKLITE, thinkPrint, 00000000, White, 11.5 x 11.5 x 34.5 cm, ABS Plastic, 500g, 5 x 2 cm, Pad Printing, No RGB Lighting Effects, No Speaker, 1200 mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite2.webp",
-            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite3.webp",
-            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite4.webp",
-            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite5.webp",
-            "../src/assets/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite6.webp"
+            "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite2.webp",
+            "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite3.webp",
+            "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite4.webp",
+            "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite5.webp",
+            "/products/4-in-1_desk_lamp_with_stationery_holder_-_desklite/4-in-1_desk_lamp_with_stationery_holder_-_desklite6.webp"
         ]
     },
     {
@@ -1387,14 +1387,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom1.webp",
+        "img": "/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom1.webp",
         "designSpecifications": [
             "ZOOM, thinkPrint, 7326, BLACK, 9x2x2 cm, Heavy Duty Aluminum, 60g, 4x1 cm, Laser Engraving, No RGB, No Speaker, Bolt AA x 1",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom2.webp",
-            "../src/assets/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom3.webp"
+            "/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom2.webp",
+            "/products/cob_led_flash_light_-_zoom/cob_led_flash_light_-_zoom3.webp"
         ]
     },
     {
@@ -1405,17 +1405,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu1.webp",
+        "img": "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu1.webp",
         "designSpecifications": [
             "LAMPU, thinkPrint, 940520, White, 15cm x 15cm x 50cm, ABS Plastic, 500g, 5cm x 3cm, Pad Printing, No RGB, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu2.webp",
-            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu3.webp",
-            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu4.webp",
-            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu5.webp",
-            "../src/assets/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu6.webp"
+            "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu2.webp",
+            "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu3.webp",
+            "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu4.webp",
+            "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu5.webp",
+            "/products/5-in-1_desk_lampu_-_lampu/5-in-1_desk_lampu_-_lampu6.webp"
         ]
     },
     {
@@ -1426,16 +1426,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro1.webp",
+        "img": "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro1.webp",
         "designSpecifications": [
             "ZOOM PRO, thinkPrint, 851310, Black, 120mm x 25mm x 25mm, Heavy Duty Aluminum, 120g, 30mm x 10mm, Laser Engraving, No RGB, No Speaker, Rechargeable Lithium-ion",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro2.webp",
-            "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro3.webp",
-            "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro4.webp",
-            "../src/assets/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro5.webp"
+            "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro2.webp",
+            "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro3.webp",
+            "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro4.webp",
+            "/products/led_flash_light_-_zoom_pro/led_flash_light_-_zoom_pro5.webp"
         ]
     },
     {
@@ -1446,16 +1446,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy1.webp",
+        "img": "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy1.webp",
         "designSpecifications": [
             "GLOWY, thinkPrint, 851310, Matte Black, 25cm x 8cm x 8cm, ABS Plastic, 300g, 5cm x 2cm, Pad Printing, 3000mAh Rechargeable Lithium-Ion.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy2.webp",
-            "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy3.webp",
-            "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy4.webp",
-            "../src/assets/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy5.webp"
+            "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy2.webp",
+            "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy3.webp",
+            "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy4.webp",
+            "/products/2-in-1_torch_with_table_lamp_-_glowy/2-in-1_torch_with_table_lamp_-_glowy5.webp"
         ]
     },
     {
@@ -1466,15 +1466,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite1.webp",
+        "img": "/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite1.webp",
         "designSpecifications": [
             "DUOLITE, thinkPrint, 9405, Black, 20cm x 5cm x 3cm, ABS Plastic, 150g, 2cm x 1cm, Pad Printing, None, None, 2 x AA (Not Included)",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite2.webp",
-            "../src/assets/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite3.webp",
-            "../src/assets/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite4.webp"
+            "/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite2.webp",
+            "/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite3.webp",
+            "/products/2-in-1_torch_with_table_lamp_-_duolite/2-in-1_torch_with_table_lamp_-_duolite4.webp"
         ]
     },
     {
@@ -1485,16 +1485,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.01.webp",
+        "img": "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.01.webp",
         "designSpecifications": [
             "BRYTO 2.0, thinkPrint, 8513, White, 5\" x 5\" x 18\", ABS Plastic, 1.2 lbs, 2\" x 0.5\" , Pad Printing, No RGB Lighting Effects, No Speaker Output, 1800 mAh Lithium-Ion",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.02.webp",
-            "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.03.webp",
-            "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.04.webp",
-            "../src/assets/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.05.webp"
+            "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.02.webp",
+            "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.03.webp",
+            "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.04.webp",
+            "/products/desk_lamp_with_mobile_stand_-_bryto_2.0/desk_lamp_with_mobile_stand_-_bryto_2.05.webp"
         ]
     },
     {
@@ -1505,17 +1505,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-31.webp",
+        "img": "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-31.webp",
         "designSpecifications": [
             "KAR-3 Travel Charger, thinkPrint, 850490, Black, 3.5 x 1.5 x 1.0 inches, ABS Plastic, 2.4 ounces, 0.5 x 0.5 inches, Pad Printing, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-32.webp",
-            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-33.webp",
-            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-34.webp",
-            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-35.webp",
-            "../src/assets/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-36.webp"
+            "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-32.webp",
+            "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-33.webp",
+            "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-34.webp",
+            "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-35.webp",
+            "/products/2-in-1_usb_car_charger_with_window_breaker_-_kar-3/2-in-1_usb_car_charger_with_window_breaker_-_kar-36.webp"
         ]
     },
     {
@@ -1526,16 +1526,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-21.webp",
+        "img": "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-21.webp",
         "designSpecifications": [
             "Travel Car Charger, thinkPrint, 8504, Black, 2.5\" x 1\" x 1\", ABS Plastic, 1 oz, 0.75\" x 0.5\", Pad Printing, Blue LED Ring",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-22.webp",
-            "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-23.webp",
-            "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-24.webp",
-            "../src/assets/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-25.webp"
+            "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-22.webp",
+            "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-23.webp",
+            "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-24.webp",
+            "/products/usb_car_charger_(2_ports)_-_kar-2/usb_car_charger_(2_ports)_-_kar-25.webp"
         ]
     },
     {
@@ -1546,17 +1546,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro1.webp",
+        "img": "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro1.webp",
         "designSpecifications": [
             "DUFL PRO, thinkPrint, 42029900, Jet Black, 37 x 43 x 17 cm, Water Resistant Nylon, 600g, 5 x 10 cm, Screen Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro2.webp",
-            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro3.webp",
-            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro4.webp",
-            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro5.webp",
-            "../src/assets/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro6.webp"
+            "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro2.webp",
+            "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro3.webp",
+            "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro4.webp",
+            "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro5.webp",
+            "/products/folding_duffel_bag_-_dufl_pro/folding_duffel_bag_-_dufl_pro6.webp"
         ]
     },
     {
@@ -1567,17 +1567,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/ipacy_pro/ipacy_pro1.webp",
+        "img": "/products/ipacy_pro/ipacy_pro1.webp",
         "designSpecifications": [
             "Ipacy Pro, thinkPrint, 420232, Black, 42x27x13cm, Water Resistant Material, 200g, 5x5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/ipacy_pro/ipacy_pro2.webp",
-            "../src/assets/products/ipacy_pro/ipacy_pro3.webp",
-            "../src/assets/products/ipacy_pro/ipacy_pro4.webp",
-            "../src/assets/products/ipacy_pro/ipacy_pro5.webp",
-            "../src/assets/products/ipacy_pro/ipacy_pro6.webp"
+            "/products/ipacy_pro/ipacy_pro2.webp",
+            "/products/ipacy_pro/ipacy_pro3.webp",
+            "/products/ipacy_pro/ipacy_pro4.webp",
+            "/products/ipacy_pro/ipacy_pro5.webp",
+            "/products/ipacy_pro/ipacy_pro6.webp"
         ]
     },
     {
@@ -1588,16 +1588,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)1.webp",
+        "img": "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)1.webp",
         "designSpecifications": [
             "DUFLPAC (SPORT), thinkPrint, 420222, Charcoal Gray, 24\" x 12\" x 12\" (Unfolded), Premium Nylon, 1.5 lbs, 6\" x 4\" (Front Panel), Screen Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)2.webp",
-            "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)3.webp",
-            "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)4.webp",
-            "../src/assets/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)5.webp"
+            "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)2.webp",
+            "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)3.webp",
+            "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)4.webp",
+            "/products/foldable_duffel_bag_-_duflpac_(sport)/foldable_duffel_bag_-_duflpac_(sport)5.webp"
         ]
     },
     {
@@ -1608,17 +1608,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac1.webp",
+        "img": "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac1.webp",
         "designSpecifications": [
             "DUFLPAC, thinkPrint, 420232, Indigo Denim, 19*20*3cm (folded), Premium Denim (Water-Resistant Coated), <500g, Front Compartment (10cm x 15cm), Screen Printing, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac2.webp",
-            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac3.webp",
-            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac4.webp",
-            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac5.webp",
-            "../src/assets/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac6.webp"
+            "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac2.webp",
+            "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac3.webp",
+            "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac4.webp",
+            "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac5.webp",
+            "/products/foldable_duffel_bag_-_duflpac/foldable_duffel_bag_-_duflpac6.webp"
         ]
     },
     {
@@ -1629,17 +1629,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.01.webp",
+        "img": "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.01.webp",
         "designSpecifications": [
             "iPACY 2.0, thinkPrint, 420232, Indigo Denim, 45cm x 30cm x 20cm (Unfolded), Premium Denim (Water Resistant Coated), 0.7kg, 10cm x 5cm (Front Top Center), Embroidery/Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.02.webp",
-            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.03.webp",
-            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.04.webp",
-            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.05.webp",
-            "../src/assets/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.06.webp"
+            "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.02.webp",
+            "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.03.webp",
+            "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.04.webp",
+            "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.05.webp",
+            "/products/foldable_backpack_-_ipacy_2.0/foldable_backpack_-_ipacy_2.06.webp"
         ]
     },
     {
@@ -1650,7 +1650,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro1.webp",
+        "img": "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro1.webp",
         "designSpecifications": [
             "Compact when folded: 16 x 22 cm",
             "Expanded size: 42 x 27 x 13 cm (15L capacity)",
@@ -1664,11 +1664,11 @@ export const products = [
             "HSN Code: 420232"
         ],
         "thumbnailImages": [
-            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro2.webp",
-            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro3.webp",
-            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro4.webp",
-            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro5.webp",
-            "../src/assets/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro6.webp"
+            "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro2.webp",
+            "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro3.webp",
+            "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro4.webp",
+            "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro5.webp",
+            "/products/foldable_backpack_-_ipacy_pro/foldable_backpack_-_ipacy_pro6.webp"
         ]
     },
     {
@@ -1679,16 +1679,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/folio/folio1.webp",
+        "img": "/products/folio/folio1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/folio/folio2.webp",
-            "../src/assets/products/folio/folio3.webp",
-            "../src/assets/products/folio/folio4.webp",
-            "../src/assets/products/folio/folio5.webp",
-            "../src/assets/products/folio/folio6.webp"
+            "/products/folio/folio2.webp",
+            "/products/folio/folio3.webp",
+            "/products/folio/folio4.webp",
+            "/products/folio/folio5.webp",
+            "/products/folio/folio6.webp"
         ]
     },
     {
@@ -1699,15 +1699,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/dual_sleeve/dual_sleeve1.webp",
+        "img": "/products/dual_sleeve/dual_sleeve1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/dual_sleeve/dual_sleeve3.webp",
-            "../src/assets/products/dual_sleeve/dual_sleeve4.webp",
-            "../src/assets/products/dual_sleeve/dual_sleeve5.webp",
-            "../src/assets/products/dual_sleeve/dual_sleeve6.webp"
+            "/products/dual_sleeve/dual_sleeve3.webp",
+            "/products/dual_sleeve/dual_sleeve4.webp",
+            "/products/dual_sleeve/dual_sleeve5.webp",
+            "/products/dual_sleeve/dual_sleeve6.webp"
         ]
     },
     {
@@ -1718,16 +1718,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag1.webp",
+        "img": "/products/office_bag_computer_bag/office_bag_computer_bag1.webp",
         "designSpecifications": [
             "Office Bag, thinkPrint, 42029900, Charcoal Grey, 39*28*2Cm, Velour, 0.6 Kg, 5x5Cm, Embroidery/Screen Printing, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag2.webp",
-            "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag3.webp",
-            "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag4.webp",
-            "../src/assets/products/office_bag_computer_bag/office_bag_computer_bag5.webp"
+            "/products/office_bag_computer_bag/office_bag_computer_bag2.webp",
+            "/products/office_bag_computer_bag/office_bag_computer_bag3.webp",
+            "/products/office_bag_computer_bag/office_bag_computer_bag4.webp",
+            "/products/office_bag_computer_bag/office_bag_computer_bag5.webp"
         ]
     },
     {
@@ -1738,15 +1738,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro1.webp",
+        "img": "/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro1.webp",
         "designSpecifications": [
             "CAREPAC PRO, thinkPrint, 42029900, Black, 25cm x 18cm x 10cm, 600D Polyester, 300g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro2.webp",
-            "../src/assets/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro3.webp",
-            "../src/assets/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro4.webp"
+            "/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro2.webp",
+            "/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro3.webp",
+            "/products/travel_toiletry_pouch_carepac_pro/travel_toiletry_pouch_carepac_pro4.webp"
         ]
     },
     {
@@ -1757,17 +1757,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/digipouch_2.0/digipouch_2.01.webp",
+        "img": "/products/digipouch_2.0/digipouch_2.01.webp",
         "designSpecifications": [
             "DIGIPOUCH 2.0, thinkPrint, 4202, Indigo Denim, 24*17.5*3cm (Closed), Premium Denim, 250g, 5x5cm (Front), Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/digipouch_2.0/digipouch_2.02.webp",
-            "../src/assets/products/digipouch_2.0/digipouch_2.03.webp",
-            "../src/assets/products/digipouch_2.0/digipouch_2.04.webp",
-            "../src/assets/products/digipouch_2.0/digipouch_2.05.webp",
-            "../src/assets/products/digipouch_2.0/digipouch_2.06.webp"
+            "/products/digipouch_2.0/digipouch_2.02.webp",
+            "/products/digipouch_2.0/digipouch_2.03.webp",
+            "/products/digipouch_2.0/digipouch_2.04.webp",
+            "/products/digipouch_2.0/digipouch_2.05.webp",
+            "/products/digipouch_2.0/digipouch_2.06.webp"
         ]
     },
     {
@@ -1778,17 +1778,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/lappy/lappy1.webp",
+        "img": "/products/lappy/lappy1.webp",
         "designSpecifications": [
             "LAPPY Cushioned Laptop Sleeve, thinkPrint, 42021250, Undefined, 40 x 28 cm, Vegan Leather + Canvas, 300g, 5 x 5 cm, Screen Printing, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/lappy/lappy2.webp",
-            "../src/assets/products/lappy/lappy3.webp",
-            "../src/assets/products/lappy/lappy4.webp",
-            "../src/assets/products/lappy/lappy5.webp",
-            "../src/assets/products/lappy/lappy6.webp"
+            "/products/lappy/lappy2.webp",
+            "/products/lappy/lappy3.webp",
+            "/products/lappy/lappy4.webp",
+            "/products/lappy/lappy5.webp",
+            "/products/lappy/lappy6.webp"
         ]
     },
     {
@@ -1799,15 +1799,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.01.webp",
+        "img": "/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.01.webp",
         "designSpecifications": [
             "CAREPAC 2.0, thinkPrint, 420232, Blue, 25cm x 15cm x 10cm, Premium Denim with Water-Resistant Coating, 250g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.02.webp",
-            "../src/assets/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.03.webp",
-            "../src/assets/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.04.webp"
+            "/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.02.webp",
+            "/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.03.webp",
+            "/products/travel_toiletry_pouch_-_carepac_2.0/travel_toiletry_pouch_-_carepac_2.04.webp"
         ]
     },
     {
@@ -1818,16 +1818,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact1.webp",
+        "img": "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact2.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact3.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact4.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact5.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact6.webp"
+            "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact2.webp",
+            "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact3.webp",
+            "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact4.webp",
+            "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact5.webp",
+            "/products/travel_digital_pouch_-_digipouch_compact/travel_digital_pouch_-_digipouch_compact6.webp"
         ]
     },
     {
@@ -1838,16 +1838,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro1.webp",
+        "img": "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro2.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro3.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro4.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro5.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro6.webp"
+            "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro2.webp",
+            "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro3.webp",
+            "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro4.webp",
+            "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro5.webp",
+            "/products/travel_digital_pouch_-_digipouch_pro/travel_digital_pouch_-_digipouch_pro6.webp"
         ]
     },
     {
@@ -1858,16 +1858,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch1.webp",
+        "img": "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch2.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch3.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch4.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch5.webp",
-            "../src/assets/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch6.webp"
+            "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch2.webp",
+            "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch3.webp",
+            "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch4.webp",
+            "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch5.webp",
+            "/products/travel_digital_pouch_-_digipouch/travel_digital_pouch_-_digipouch6.webp"
         ]
     },
     {
@@ -1878,15 +1878,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac1.webp",
+        "img": "/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac1.webp",
         "designSpecifications": [
             "MULTIPAC, thinkPrint, 420212, Grey, 25cm x 18cm x 8cm, Water-resistant Nylon, 250g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac2.webp",
-            "../src/assets/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac3.webp",
-            "../src/assets/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac4.webp"
+            "/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac2.webp",
+            "/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac3.webp",
+            "/products/travel_multipurpose_pouch_-_multipac/travel_multipurpose_pouch_-_multipac4.webp"
         ]
     },
     {
@@ -1897,16 +1897,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr1.webp",
+        "img": "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr2.webp",
-            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr3.webp",
-            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr4.webp",
-            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr5.webp",
-            "../src/assets/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr6.webp"
+            "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr2.webp",
+            "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr3.webp",
+            "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr4.webp",
+            "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr5.webp",
+            "/products/travel_passport_case_-_trvlpac_jr/travel_passport_case_-_trvlpac_jr6.webp"
         ]
     },
     {
@@ -1917,16 +1917,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac1.webp",
+        "img": "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac2.webp",
-            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac3.webp",
-            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac4.webp",
-            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac5.webp",
-            "../src/assets/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac6.webp"
+            "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac2.webp",
+            "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac3.webp",
+            "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac4.webp",
+            "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac5.webp",
+            "/products/travel_passport_case_-_trvlpac/travel_passport_case_-_trvlpac6.webp"
         ]
     },
     {
@@ -1937,17 +1937,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator1.webp",
+        "img": "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator1.webp",
         "designSpecifications": [
             "AVIATOR, thinkPrint, 420212, Neutral Black, 9.8*17.8*0.7 cm (Closed), High Quality Faux Leather, 80g, 2x2 cm, Debossing, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator2.webp",
-            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator3.webp",
-            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator4.webp",
-            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator5.webp",
-            "../src/assets/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator6.webp"
+            "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator2.webp",
+            "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator3.webp",
+            "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator4.webp",
+            "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator5.webp",
+            "/products/travel_mobile_&_passport_cover_-_aviator/travel_mobile_&_passport_cover_-_aviator6.webp"
         ]
     },
     {
@@ -1958,16 +1958,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.1.webp",
+        "img": "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.1.webp",
         "designSpecifications": [
             "AVION JR. Passport Cover, thinkPrint, 420212, Black, 15cm x 11cm x 1.5cm, High-Quality Faux Leather, 85g, 5cm x 2cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.2.webp",
-            "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.3.webp",
-            "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.4.webp",
-            "../src/assets/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.5.webp"
+            "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.2.webp",
+            "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.3.webp",
+            "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.4.webp",
+            "/products/travel_passport_cover_-_avion_jr./travel_passport_cover_-_avion_jr.5.webp"
         ]
     },
     {
@@ -1978,16 +1978,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion1.webp",
+        "img": "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion1.webp",
         "designSpecifications": [
             "AVION Travel Passport Cover, thinkPrint, 420299, Jet Black, 15cm x 11cm x 1.5cm, Premium Faux Leather, 85g, 5cm x 2cm, Debossing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion2.webp",
-            "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion3.webp",
-            "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion4.webp",
-            "../src/assets/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion5.webp"
+            "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion2.webp",
+            "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion3.webp",
+            "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion4.webp",
+            "/products/travel_passport_cover_-_avion/travel_passport_cover_-_avion5.webp"
         ]
     },
     {
@@ -1998,15 +1998,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch1.webp",
+        "img": "/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch1.webp",
         "designSpecifications": [
             "MULTI POUCH, thinkPrint, 42029900, Black, 18.5*7.5*11 cm, Polyester, 150g (estimated), 5x5 cm (front panel), Screen Printing, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch2.webp",
-            "../src/assets/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch3.webp",
-            "../src/assets/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch4.webp"
+            "/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch2.webp",
+            "/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch3.webp",
+            "/products/multi_pouch_travel_multi_purpose_pouch/multi_pouch_travel_multi_purpose_pouch4.webp"
         ]
     },
     {
@@ -2017,17 +2017,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer1.webp",
+        "img": "/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer1.webp",
         "designSpecifications": [
             "TECHIE DUAL POUCH, thinkPrint, 39269099, Grey, 28*21*9 Cm, Polyester + Faux Leather, Adjustable Velcro Partition, Screen Printing, No RGB Lighting Effects.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer2.webp",
-            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer3.webp",
-            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer4.webp",
-            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer5.webp",
-            "../src/assets/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer6.webp"
+            "/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer2.webp",
+            "/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer3.webp",
+            "/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer4.webp",
+            "/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer5.webp",
+            "/products/techie_dual_pouch_travel_digital_bag_organizer/techie_dual_pouch_travel_digital_bag_organizer6.webp"
         ]
     },
     {
@@ -2038,16 +2038,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer1.webp",
+        "img": "/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer2.webp",
-            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer3.webp",
-            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer4.webp",
-            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer5.webp",
-            "../src/assets/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer6.webp"
+            "/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer2.webp",
+            "/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer3.webp",
+            "/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer4.webp",
+            "/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer5.webp",
+            "/products/techie_pouch_pro_travel_digital_bag_organizer/techie_pouch_pro_travel_digital_bag_organizer6.webp"
         ]
     },
     {
@@ -2058,16 +2058,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer1.webp",
+        "img": "/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer2.webp",
-            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer3.webp",
-            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer4.webp",
-            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer5.webp",
-            "../src/assets/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer6.webp"
+            "/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer2.webp",
+            "/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer3.webp",
+            "/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer4.webp",
+            "/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer5.webp",
+            "/products/techie_pouch_compact_travel_digital_organizer/techie_pouch_compact_travel_digital_organizer6.webp"
         ]
     },
     {
@@ -2078,16 +2078,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer1.webp",
+        "img": "/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer2.webp",
-            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer3.webp",
-            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer4.webp",
-            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer5.webp",
-            "../src/assets/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer6.webp"
+            "/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer2.webp",
+            "/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer3.webp",
+            "/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer4.webp",
+            "/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer5.webp",
+            "/products/techie_pouch_travel_digital_organizer/techie_pouch_travel_digital_organizer6.webp"
         ]
     },
     {
@@ -2098,16 +2098,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag1.webp",
+        "img": "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag2.webp",
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag3.webp",
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag4.webp",
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag5.webp",
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag6.webp"
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag2.webp",
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag3.webp",
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag4.webp",
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag5.webp",
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag6.webp"
         ]
     },
     {
@@ -2118,16 +2118,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ1.webp",
+        "img": "/products/travel_organizer_-_champ/travel_organizer_-_champ1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ2.webp",
-            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ3.webp",
-            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ4.webp",
-            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ5.webp",
-            "../src/assets/products/travel_organizer_-_champ/travel_organizer_-_champ6.webp"
+            "/products/travel_organizer_-_champ/travel_organizer_-_champ2.webp",
+            "/products/travel_organizer_-_champ/travel_organizer_-_champ3.webp",
+            "/products/travel_organizer_-_champ/travel_organizer_-_champ4.webp",
+            "/products/travel_organizer_-_champ/travel_organizer_-_champ5.webp",
+            "/products/travel_organizer_-_champ/travel_organizer_-_champ6.webp"
         ]
     },
     {
@@ -2138,13 +2138,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon1.webp",
+        "img": "/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon2.webp",
-            "../src/assets/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon3.webp"
+            "/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon2.webp",
+            "/products/travel_mobile_organizer_-_tycoon/travel_mobile_organizer_-_tycoon3.webp"
         ]
     },
     {
@@ -2155,14 +2155,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac1.webp",
+        "img": "/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac2.webp",
-            "../src/assets/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac3.webp",
-            "../src/assets/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac4.webp"
+            "/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac2.webp",
+            "/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac3.webp",
+            "/products/travel_manicure_kit_-_manipac/travel_manicure_kit_-_manipac4.webp"
         ]
     },
     {
@@ -2173,15 +2173,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/buddy_combo/buddy_combo1.webp",
+        "img": "/products/buddy_combo/buddy_combo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/buddy_combo/buddy_combo2.webp",
-            "../src/assets/products/buddy_combo/buddy_combo3.webp",
-            "../src/assets/products/buddy_combo/buddy_combo4.webp",
-            "../src/assets/products/buddy_combo/buddy_combo5.webp"
+            "/products/buddy_combo/buddy_combo2.webp",
+            "/products/buddy_combo/buddy_combo3.webp",
+            "/products/buddy_combo/buddy_combo4.webp",
+            "/products/buddy_combo/buddy_combo5.webp"
         ]
     },
     {
@@ -2192,16 +2192,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate1.webp",
+        "img": "/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate2.webp",
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate3.webp",
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate4.webp",
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate5.webp",
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate6.webp"
+            "/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate2.webp",
+            "/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate3.webp",
+            "/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate4.webp",
+            "/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate5.webp",
+            "/products/foldable_memory_foam_neck_pillow_-_trvlmate/foldable_memory_foam_neck_pillow_-_trvlmate6.webp"
         ]
     },
     {
@@ -2212,15 +2212,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie1.webp",
+        "img": "/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie1.webp",
         "designSpecifications": [
             "Hoodie Neck Pillow, thinkPrint, 9404, Grey, 30x30x10 cm, Memory Foam & Polyester Cover, 350g, 10x5 cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie2.webp",
-            "../src/assets/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie3.webp",
-            "../src/assets/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie4.webp"
+            "/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie2.webp",
+            "/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie3.webp",
+            "/products/memory_foam_neck_pillow_with_hoodie_-_hoodie/memory_foam_neck_pillow_with_hoodie_-_hoodie4.webp"
         ]
     },
     {
@@ -2231,17 +2231,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.01.webp",
+        "img": "/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.01.webp",
         "designSpecifications": [
             "BUDDY 2.0, thinkPrint, 392113, Charcoal Gray, 28*30*8cm (folded), Memory Foam & Breathable Fabric, 350g, 10x5cm, Screen Printing/Embroidery, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.02.webp",
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.03.webp",
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.04.webp",
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.05.webp",
-            "../src/assets/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.06.webp"
+            "/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.02.webp",
+            "/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.03.webp",
+            "/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.04.webp",
+            "/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.05.webp",
+            "/products/foldable_memory_foam_neck_pillow_-_buddy_2.0/foldable_memory_foam_neck_pillow_-_buddy_2.06.webp"
         ]
     },
     {
@@ -2252,17 +2252,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/torchella/torchella1.webp",
+        "img": "/products/torchella/torchella1.webp",
         "designSpecifications": [
             "Torchella, thinkPrint, 66019900, Black, 32 inch Arc, Aluminium Alloy, 450g, 6 x 2 inch, Screen Printing, UV Printing, DTF Sticker",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/torchella/torchella2.webp",
-            "../src/assets/products/torchella/torchella3.webp",
-            "../src/assets/products/torchella/torchella4.webp",
-            "../src/assets/products/torchella/torchella5.webp",
-            "../src/assets/products/torchella/torchella6.webp"
+            "/products/torchella/torchella2.webp",
+            "/products/torchella/torchella3.webp",
+            "/products/torchella/torchella4.webp",
+            "/products/torchella/torchella5.webp",
+            "/products/torchella/torchella6.webp"
         ]
     },
     {
@@ -2273,17 +2273,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/klipp/klipp1.webp",
+        "img": "/products/klipp/klipp1.webp",
         "designSpecifications": [
             "KLIPP Automatic Umbrella, thinkPrint, 66019900, Black, 3-Fold (Collapsed: 12 inches length), Aluminum Alloy, 0.8 lbs, 2 x 2 inches on canopy, UV Printing/DTF Sticker, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/klipp/klipp2.webp",
-            "../src/assets/products/klipp/klipp3.webp",
-            "../src/assets/products/klipp/klipp4.webp",
-            "../src/assets/products/klipp/klipp5.webp",
-            "../src/assets/products/klipp/klipp6.webp"
+            "/products/klipp/klipp2.webp",
+            "/products/klipp/klipp3.webp",
+            "/products/klipp/klipp4.webp",
+            "/products/klipp/klipp5.webp",
+            "/products/klipp/klipp6.webp"
         ]
     },
     {
@@ -2294,17 +2294,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case1.webp",
+        "img": "/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case1.webp",
         "designSpecifications": [
             "CHATRI UV PRO, thinkPrint, 66019900, Black, 50cm Radius x 15cm Closed Height, EVA Case, TBD, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case2.webp",
-            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case3.webp",
-            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case4.webp",
-            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case5.webp",
-            "../src/assets/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case6.webp"
+            "/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case2.webp",
+            "/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case3.webp",
+            "/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case4.webp",
+            "/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case5.webp",
+            "/products/chatri_uv_pro_pocket_travel_umbrella_with_case/chatri_uv_pro_pocket_travel_umbrella_with_case6.webp"
         ]
     },
     {
@@ -2315,17 +2315,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella1.webp",
+        "img": "/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella1.webp",
         "designSpecifications": [
             "MATIC Automatic Open-Close Umbrella, thinkPrint, 66019900, Black, 55cm Radius x 28cm Height (Closed), 99% UV Protection.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella2.webp",
-            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella3.webp",
-            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella4.webp",
-            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella5.webp",
-            "../src/assets/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella6.webp"
+            "/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella2.webp",
+            "/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella3.webp",
+            "/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella4.webp",
+            "/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella5.webp",
+            "/products/matic_automatic_open-close_umbrella/matic_automatic_open-close_umbrella6.webp"
         ]
     },
     {
@@ -2336,16 +2336,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri1.webp",
+        "img": "/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri2.webp",
-            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri3.webp",
-            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri4.webp",
-            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri5.webp",
-            "../src/assets/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri6.webp"
+            "/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri2.webp",
+            "/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri3.webp",
+            "/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri4.webp",
+            "/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri5.webp",
+            "/products/pocket_travel_umbrella_with_case_-_chatri/pocket_travel_umbrella_with_case_-_chatri6.webp"
         ]
     },
     {
@@ -2356,14 +2356,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl1.webp",
+        "img": "/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl2.webp",
-            "../src/assets/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl3.webp",
-            "../src/assets/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl4.webp"
+            "/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl2.webp",
+            "/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl3.webp",
+            "/products/folding_umbrella_in_a_bottle_-_botl/folding_umbrella_in_a_bottle_-_botl4.webp"
         ]
     },
     {
@@ -2374,16 +2374,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/deux/deux1.webp",
+        "img": "/products/deux/deux1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/deux/deux2.webp",
-            "../src/assets/products/deux/deux3.webp",
-            "../src/assets/products/deux/deux4.webp",
-            "../src/assets/products/deux/deux5.webp",
-            "../src/assets/products/deux/deux6.webp"
+            "/products/deux/deux2.webp",
+            "/products/deux/deux3.webp",
+            "/products/deux/deux4.webp",
+            "/products/deux/deux5.webp",
+            "/products/deux/deux6.webp"
         ]
     },
     {
@@ -2394,16 +2394,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/zipcase/zipcase1.webp",
+        "img": "/products/zipcase/zipcase1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/zipcase/zipcase2.webp",
-            "../src/assets/products/zipcase/zipcase3.webp",
-            "../src/assets/products/zipcase/zipcase4.webp",
-            "../src/assets/products/zipcase/zipcase5.webp",
-            "../src/assets/products/zipcase/zipcase6.webp"
+            "/products/zipcase/zipcase2.webp",
+            "/products/zipcase/zipcase3.webp",
+            "/products/zipcase/zipcase4.webp",
+            "/products/zipcase/zipcase5.webp",
+            "/products/zipcase/zipcase6.webp"
         ]
     },
     {
@@ -2414,16 +2414,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/edge/edge1.webp",
+        "img": "/products/edge/edge1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/edge/edge2.webp",
-            "../src/assets/products/edge/edge3.webp",
-            "../src/assets/products/edge/edge4.webp",
-            "../src/assets/products/edge/edge5.webp",
-            "../src/assets/products/edge/edge6.webp"
+            "/products/edge/edge2.webp",
+            "/products/edge/edge3.webp",
+            "/products/edge/edge4.webp",
+            "/products/edge/edge5.webp",
+            "/products/edge/edge6.webp"
         ]
     },
     {
@@ -2434,16 +2434,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter1.webp",
+        "img": "/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter2.webp",
-            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter3.webp",
-            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter4.webp",
-            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter5.webp",
-            "../src/assets/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter6.webp"
+            "/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter2.webp",
+            "/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter3.webp",
+            "/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter4.webp",
+            "/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter5.webp",
+            "/products/weekender_executive_-_business_bag_with_overnighter/weekender_executive_-_business_bag_with_overnighter6.webp"
         ]
     },
     {
@@ -2454,16 +2454,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack1.webp",
+        "img": "/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack2.webp",
-            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack3.webp",
-            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack4.webp",
-            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack5.webp",
-            "../src/assets/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack6.webp"
+            "/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack2.webp",
+            "/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack3.webp",
+            "/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack4.webp",
+            "/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack5.webp",
+            "/products/linear_classic_laptop_backpack/linear_classic_laptop_backpack6.webp"
         ]
     },
     {
@@ -2474,16 +2474,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter1.webp",
+        "img": "/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter2.webp",
-            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter3.webp",
-            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter4.webp",
-            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter5.webp",
-            "../src/assets/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter6.webp"
+            "/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter2.webp",
+            "/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter3.webp",
+            "/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter4.webp",
+            "/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter5.webp",
+            "/products/weekender_slim_laptop_backpack_with_overnighter/weekender_slim_laptop_backpack_with_overnighter6.webp"
         ]
     },
     {
@@ -2508,7 +2508,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack1.webp",
+        "img": "/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack1.webp",
         "designSpecifications": [
             "NEXUS, thinkPrint, 420299, Black, 43x32x16cm",
             "Padded Laptop Compartment Upto 15.6\"",
@@ -2517,11 +2517,11 @@ export const products = [
             "Trolley Belt"
         ],
         "thumbnailImages": [
-            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack2.webp",
-            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack3.webp",
-            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack4.webp",
-            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack5.webp",
-            "../src/assets/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack6.webp"
+            "/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack2.webp",
+            "/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack3.webp",
+            "/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack4.webp",
+            "/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack5.webp",
+            "/products/nexus_lifestyle_back_pack/nexus_lifestyle_back_pack6.webp"
         ]
     },
     {
@@ -2532,17 +2532,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello1.webp",
+        "img": "/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello1.webp",
         "designSpecifications": [
             "TRAVELLO, thinkPrint, 42029900, Black, 47 x 29 x 24 cm, Hand-washable Polyester, 1.2 kg, 10 x 5 cm, Screen Printing/Embroidery, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello2.webp",
-            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello3.webp",
-            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello4.webp",
-            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello5.webp",
-            "../src/assets/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello6.webp"
+            "/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello2.webp",
+            "/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello3.webp",
+            "/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello4.webp",
+            "/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello5.webp",
+            "/products/business_bag_with_overnighter_-_travello/business_bag_with_overnighter_-_travello6.webp"
         ]
     },
     {
@@ -2553,16 +2553,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/slim_backpack-prime/slim_backpack-prime1.webp",
+        "img": "/products/slim_backpack-prime/slim_backpack-prime1.webp",
         "designSpecifications": [
             "PRIME, thinkPrint, 42021250, Black, 16*11*4.5cm, Hand-wash Material, 400g, 5x5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/slim_backpack-prime/slim_backpack-prime2.webp",
-            "../src/assets/products/slim_backpack-prime/slim_backpack-prime3.webp",
-            "../src/assets/products/slim_backpack-prime/slim_backpack-prime4.webp",
-            "../src/assets/products/slim_backpack-prime/slim_backpack-prime5.webp"
+            "/products/slim_backpack-prime/slim_backpack-prime2.webp",
+            "/products/slim_backpack-prime/slim_backpack-prime3.webp",
+            "/products/slim_backpack-prime/slim_backpack-prime4.webp",
+            "/products/slim_backpack-prime/slim_backpack-prime5.webp"
         ]
     },
     {
@@ -2573,17 +2573,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy1.webp",
+        "img": "/products/classic_backpack-gypsy/classic_backpack-gypsy1.webp",
         "designSpecifications": [
             "GYPSY, thinkPrint, 42021250, Grey / Dark Grey, 45cm x 30cm x 15cm, 600D Polyester, 600g, 10cm x 5cm, Screen Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy2.webp",
-            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy3.webp",
-            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy4.webp",
-            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy5.webp",
-            "../src/assets/products/classic_backpack-gypsy/classic_backpack-gypsy6.webp"
+            "/products/classic_backpack-gypsy/classic_backpack-gypsy2.webp",
+            "/products/classic_backpack-gypsy/classic_backpack-gypsy3.webp",
+            "/products/classic_backpack-gypsy/classic_backpack-gypsy4.webp",
+            "/products/classic_backpack-gypsy/classic_backpack-gypsy5.webp",
+            "/products/classic_backpack-gypsy/classic_backpack-gypsy6.webp"
         ]
     },
     {
@@ -2594,17 +2594,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender1.webp",
+        "img": "/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender1.webp",
         "designSpecifications": [
             "WEEKENDER, thinkPrint, 42029900, Black, 43*31*12cm, Hand-Washable Fabric, 1.5kg, 5x5cm, Screen Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender2.webp",
-            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender3.webp",
-            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender4.webp",
-            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender5.webp",
-            "../src/assets/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender6.webp"
+            "/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender2.webp",
+            "/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender3.webp",
+            "/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender4.webp",
+            "/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender5.webp",
+            "/products/business_bag_with_overnighter-weekender/business_bag_with_overnighter-weekender6.webp"
         ]
     },
     {
@@ -2615,17 +2615,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm1.webp",
+        "img": "/products/slim_backpack_-slimm/slim_backpack_-slimm1.webp",
         "designSpecifications": [
             "SLIMM, thinkPrint, 420299, Undefined, 41*29*12cm, Durable Polyester Fabric, Undefined, Undefined, Undefined, Undefined, Undefined, Undefined",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm2.webp",
-            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm3.webp",
-            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm4.webp",
-            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm5.webp",
-            "../src/assets/products/slim_backpack_-slimm/slim_backpack_-slimm6.webp"
+            "/products/slim_backpack_-slimm/slim_backpack_-slimm2.webp",
+            "/products/slim_backpack_-slimm/slim_backpack_-slimm3.webp",
+            "/products/slim_backpack_-slimm/slim_backpack_-slimm4.webp",
+            "/products/slim_backpack_-slimm/slim_backpack_-slimm5.webp",
+            "/products/slim_backpack_-slimm/slim_backpack_-slimm6.webp"
         ]
     },
     {
@@ -2636,16 +2636,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter1.webp",
+        "img": "/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter2.webp",
-            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter3.webp",
-            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter4.webp",
-            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter5.webp",
-            "../src/assets/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter6.webp"
+            "/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter2.webp",
+            "/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter3.webp",
+            "/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter4.webp",
+            "/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter5.webp",
+            "/products/secura_anti-theft_bag_with_overnighter/secura_anti-theft_bag_with_overnighter6.webp"
         ]
     },
     {
@@ -2656,16 +2656,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Bags",
-        "img": "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag1.webp",
+        "img": "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag2.webp",
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag3.webp",
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag4.webp",
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag5.webp",
-            "../src/assets/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag6.webp"
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag2.webp",
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag3.webp",
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag4.webp",
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag5.webp",
+            "/products/karbon_anti-theft_laptop_bag/karbon_anti-theft_laptop_bag6.webp"
         ]
     },
     {
@@ -2676,17 +2676,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/card_holder-cardy_3/card_holder-cardy_31.webp",
+        "img": "/products/card_holder-cardy_3/card_holder-cardy_31.webp",
         "designSpecifications": [
             "UG NAME CARDY 3, thinkPrint, 42023110, Black, 9.5*1.3*6CM, Faux Leather, 50g, 5*2CM, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_32.webp",
-            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_33.webp",
-            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_34.webp",
-            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_35.webp",
-            "../src/assets/products/card_holder-cardy_3/card_holder-cardy_36.webp"
+            "/products/card_holder-cardy_3/card_holder-cardy_32.webp",
+            "/products/card_holder-cardy_3/card_holder-cardy_33.webp",
+            "/products/card_holder-cardy_3/card_holder-cardy_34.webp",
+            "/products/card_holder-cardy_3/card_holder-cardy_35.webp",
+            "/products/card_holder-cardy_3/card_holder-cardy_36.webp"
         ]
     },
     {
@@ -2697,14 +2697,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play1.webp",
+        "img": "/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play1.webp",
         "designSpecifications": [
             "DESK PLAY, thinkPrint, 4202, Charcoal Grey, 74*36cm, Felt with Anti-Skid Rubber, 450g, 10*5cm, Screen Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play2.webp",
-            "../src/assets/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play3.webp"
+            "/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play2.webp",
+            "/products/anti_-_skid_desk_mat_-_desk_play/anti_-_skid_desk_mat_-_desk_play3.webp"
         ]
     },
     {
@@ -2715,17 +2715,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn1.webp",
+        "img": "/products/metal_pens_-_flynn/metal_pens_-_flynn1.webp",
         "designSpecifications": [
             "FLYNN, thinkPrint, 960810, Metallic Silver, 1*1.5*14.3cm, Aluminum Alloy, 25g, 0.5*3cm, Laser Engraving & Color Fill, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn2.webp",
-            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn3.webp",
-            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn4.webp",
-            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn5.webp",
-            "../src/assets/products/metal_pens_-_flynn/metal_pens_-_flynn6.webp"
+            "/products/metal_pens_-_flynn/metal_pens_-_flynn2.webp",
+            "/products/metal_pens_-_flynn/metal_pens_-_flynn3.webp",
+            "/products/metal_pens_-_flynn/metal_pens_-_flynn4.webp",
+            "/products/metal_pens_-_flynn/metal_pens_-_flynn5.webp",
+            "/products/metal_pens_-_flynn/metal_pens_-_flynn6.webp"
         ]
     },
     {
@@ -2736,16 +2736,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.01.webp",
+        "img": "/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.01.webp",
         "designSpecifications": [
             "TIME FRAME 2.0, thinkPrint, 392690, Silver, 4.5 x 4.5 x 1.5 inches, Brushed Silver Aluminium, 0.75 lbs, 2 x 0.5 inches, Laser Engraving, None, None, CR2032",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.02.webp",
-            "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.03.webp",
-            "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.04.webp",
-            "../src/assets/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.05.webp"
+            "/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.02.webp",
+            "/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.03.webp",
+            "/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.04.webp",
+            "/products/photo_frame_clock_-_time_frame_2.0/photo_frame_clock_-_time_frame_2.05.webp"
         ]
     },
     {
@@ -2756,16 +2756,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame1.webp",
+        "img": "/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame1.webp",
         "designSpecifications": [
             "TIME FRAME, thinkPrint, 851821, Silver, 5 x 3.5 inches, Brushed Silver Aluminium, 200g, 1 x 0.5 inches, Laser Engraving, No RGB Lighting Effects, No Speaker Output, CR2032 Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame2.webp",
-            "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame3.webp",
-            "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame4.webp",
-            "../src/assets/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame5.webp"
+            "/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame2.webp",
+            "/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame3.webp",
+            "/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame4.webp",
+            "/products/photo_frame_clock_-_time_frame/photo_frame_clock_-_time_frame5.webp"
         ]
     },
     {
@@ -2776,14 +2776,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix1.webp",
+        "img": "/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix2.webp",
-            "../src/assets/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix3.webp",
-            "../src/assets/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix4.webp"
+            "/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix2.webp",
+            "/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix3.webp",
+            "/products/photo_frame_with_white_board_-_mark_&_pix/photo_frame_with_white_board_-_mark_&_pix4.webp"
         ]
     },
     {
@@ -2794,14 +2794,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix1.webp",
+        "img": "/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix2.webp",
-            "../src/assets/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix3.webp",
-            "../src/assets/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix4.webp"
+            "/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix2.webp",
+            "/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix3.webp",
+            "/products/elegant_photo_frame_-_multipix/elegant_photo_frame_-_multipix4.webp"
         ]
     },
     {
@@ -2812,15 +2812,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/bilbao/bilbao1.webp",
+        "img": "/products/bilbao/bilbao1.webp",
         "designSpecifications": [
             "BILBAO PREMIUM ECO METAL PEN, thinkPrint, 96081019, Silver, 14.5 x 1 x 1.4cm, Metal with Cork and Bamboo Clip, 15g, 5 x 0.7cm (Barrel), ENGRAVE, SCREEN PRINTING, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bilbao/bilbao2.webp",
-            "../src/assets/products/bilbao/bilbao3.webp",
-            "../src/assets/products/bilbao/bilbao4.webp"
+            "/products/bilbao/bilbao2.webp",
+            "/products/bilbao/bilbao3.webp",
+            "/products/bilbao/bilbao4.webp"
         ]
     },
     {
@@ -2831,17 +2831,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/valencia_metal_pen/valencia_metal_pen1.webp",
+        "img": "/products/valencia_metal_pen/valencia_metal_pen1.webp",
         "designSpecifications": [
             "VALENCIA METAL PEN, thinkPrint, 960810, Black, 1*1.2*13 cm, Sleek Metal, 25g, 4*0.7 cm, Engrave and Print, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/valencia_metal_pen/valencia_metal_pen2.webp",
-            "../src/assets/products/valencia_metal_pen/valencia_metal_pen3.webp",
-            "../src/assets/products/valencia_metal_pen/valencia_metal_pen4.webp",
-            "../src/assets/products/valencia_metal_pen/valencia_metal_pen5.webp",
-            "../src/assets/products/valencia_metal_pen/valencia_metal_pen6.webp"
+            "/products/valencia_metal_pen/valencia_metal_pen2.webp",
+            "/products/valencia_metal_pen/valencia_metal_pen3.webp",
+            "/products/valencia_metal_pen/valencia_metal_pen4.webp",
+            "/products/valencia_metal_pen/valencia_metal_pen5.webp",
+            "/products/valencia_metal_pen/valencia_metal_pen6.webp"
         ]
     },
     {
@@ -2852,17 +2852,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/bamboo_pen/bamboo_pen1.webp",
+        "img": "/products/bamboo_pen/bamboo_pen1.webp",
         "designSpecifications": [
             "Bamboo Pen Stylus Metal Pens, thinkPrint, 960810, Natural Bamboo, 14*1*1.5cm, Bamboo & Metal, 15g, 5*0.7cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bamboo_pen/bamboo_pen2.webp",
-            "../src/assets/products/bamboo_pen/bamboo_pen3.webp",
-            "../src/assets/products/bamboo_pen/bamboo_pen4.webp",
-            "../src/assets/products/bamboo_pen/bamboo_pen5.webp",
-            "../src/assets/products/bamboo_pen/bamboo_pen6.webp"
+            "/products/bamboo_pen/bamboo_pen2.webp",
+            "/products/bamboo_pen/bamboo_pen3.webp",
+            "/products/bamboo_pen/bamboo_pen4.webp",
+            "/products/bamboo_pen/bamboo_pen5.webp",
+            "/products/bamboo_pen/bamboo_pen6.webp"
         ]
     },
     {
@@ -2873,17 +2873,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin1.webp",
+        "img": "/products/premium_metal_pen-turin/premium_metal_pen-turin1.webp",
         "designSpecifications": [
             "TURIN, thinkPrint, 96081019, Black, 1x1.5x13.7cm, Aluminum Alloy, 25g, 0.8x3cm, Laser Engraving, None, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin2.webp",
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin3.webp",
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin4.webp",
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin5.webp",
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin6.webp"
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin2.webp",
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin3.webp",
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin4.webp",
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin5.webp",
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin6.webp"
         ]
     },
     {
@@ -2894,17 +2894,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper1.webp",
+        "img": "/products/metal_pens_-_gripper/metal_pens_-_gripper1.webp",
         "designSpecifications": [
             "GRIPPER, thinkPrint, 96081019, Matte Black, 1 x 1.5 x 13.8 cm, Metal, 30g, 0.8 x 4 cm, Engrave & Print, No RGB Lighting Effects, No Speaker Output, No Battery.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper2.webp",
-            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper3.webp",
-            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper4.webp",
-            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper5.webp",
-            "../src/assets/products/metal_pens_-_gripper/metal_pens_-_gripper6.webp"
+            "/products/metal_pens_-_gripper/metal_pens_-_gripper2.webp",
+            "/products/metal_pens_-_gripper/metal_pens_-_gripper3.webp",
+            "/products/metal_pens_-_gripper/metal_pens_-_gripper4.webp",
+            "/products/metal_pens_-_gripper/metal_pens_-_gripper5.webp",
+            "/products/metal_pens_-_gripper/metal_pens_-_gripper6.webp"
         ]
     },
     {
@@ -2915,17 +2915,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta1.webp",
+        "img": "/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta1.webp",
         "designSpecifications": [
             "BRIO VELVETTA, thinkPrint, 96081019, Blue, 1 x 1.3 x 13.5 cms, ABS Plastic, 15 grams, 0.5 x 3 cms, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta2.webp",
-            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta3.webp",
-            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta4.webp",
-            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta5.webp",
-            "../src/assets/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta6.webp"
+            "/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta2.webp",
+            "/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta3.webp",
+            "/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta4.webp",
+            "/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta5.webp",
+            "/products/premium_velvetta_finish_with_satin_parts_-_brio_velvetta/premium_velvetta_finish_with_satin_parts_-_brio_velvetta6.webp"
         ]
     },
     {
@@ -2936,15 +2936,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa1.webp",
+        "img": "/products/metal_pens_-_hexa/metal_pens_-_hexa1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa2.webp",
-            "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa3.webp",
-            "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa4.webp",
-            "../src/assets/products/metal_pens_-_hexa/metal_pens_-_hexa5.webp"
+            "/products/metal_pens_-_hexa/metal_pens_-_hexa2.webp",
+            "/products/metal_pens_-_hexa/metal_pens_-_hexa3.webp",
+            "/products/metal_pens_-_hexa/metal_pens_-_hexa4.webp",
+            "/products/metal_pens_-_hexa/metal_pens_-_hexa5.webp"
         ]
     },
     {
@@ -2955,16 +2955,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/proton/proton1.webp",
+        "img": "/products/proton/proton1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/proton/proton2.webp",
-            "../src/assets/products/proton/proton3.webp",
-            "../src/assets/products/proton/proton4.webp",
-            "../src/assets/products/proton/proton5.webp",
-            "../src/assets/products/proton/proton6.webp"
+            "/products/proton/proton2.webp",
+            "/products/proton/proton3.webp",
+            "/products/proton/proton4.webp",
+            "/products/proton/proton5.webp",
+            "/products/proton/proton6.webp"
         ]
     },
     {
@@ -2975,16 +2975,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio1.webp",
+        "img": "/products/metal_pen_-_brio/metal_pen_-_brio1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio2.webp",
-            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio3.webp",
-            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio4.webp",
-            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio5.webp",
-            "../src/assets/products/metal_pen_-_brio/metal_pen_-_brio6.webp"
+            "/products/metal_pen_-_brio/metal_pen_-_brio2.webp",
+            "/products/metal_pen_-_brio/metal_pen_-_brio3.webp",
+            "/products/metal_pen_-_brio/metal_pen_-_brio4.webp",
+            "/products/metal_pen_-_brio/metal_pen_-_brio5.webp",
+            "/products/metal_pen_-_brio/metal_pen_-_brio6.webp"
         ]
     },
     {
@@ -2995,13 +2995,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-verona/metal_pens_-verona1.webp",
+        "img": "/products/metal_pens_-verona/metal_pens_-verona1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-verona/metal_pens_-verona2.webp",
-            "../src/assets/products/metal_pens_-verona/metal_pens_-verona3.webp"
+            "/products/metal_pens_-verona/metal_pens_-verona2.webp",
+            "/products/metal_pens_-verona/metal_pens_-verona3.webp"
         ]
     },
     {
@@ -3012,13 +3012,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_recoil/metal_pens_-_recoil1.webp",
+        "img": "/products/metal_pens_-_recoil/metal_pens_-_recoil1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_recoil/metal_pens_-_recoil2.webp",
-            "../src/assets/products/metal_pens_-_recoil/metal_pens_-_recoil3.webp"
+            "/products/metal_pens_-_recoil/metal_pens_-_recoil2.webp",
+            "/products/metal_pens_-_recoil/metal_pens_-_recoil3.webp"
         ]
     },
     {
@@ -3029,16 +3029,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice1.webp",
+        "img": "/products/metal_pens_-_venice/metal_pens_-_venice1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice2.webp",
-            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice3.webp",
-            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice4.webp",
-            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice5.webp",
-            "../src/assets/products/metal_pens_-_venice/metal_pens_-_venice6.webp"
+            "/products/metal_pens_-_venice/metal_pens_-_venice2.webp",
+            "/products/metal_pens_-_venice/metal_pens_-_venice3.webp",
+            "/products/metal_pens_-_venice/metal_pens_-_venice4.webp",
+            "/products/metal_pens_-_venice/metal_pens_-_venice5.webp",
+            "/products/metal_pens_-_venice/metal_pens_-_venice6.webp"
         ]
     },
     {
@@ -3049,16 +3049,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen1.webp",
+        "img": "/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen2.webp",
-            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen3.webp",
-            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen4.webp",
-            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen5.webp",
-            "../src/assets/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen6.webp"
+            "/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen2.webp",
+            "/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen3.webp",
+            "/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen4.webp",
+            "/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen5.webp",
+            "/products/6-in-1_tool_pen_-_tool_pen/6-in-1_tool_pen_-_tool_pen6.webp"
         ]
     },
     {
@@ -3069,16 +3069,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter1.webp",
+        "img": "/products/metal_pens_-_styliter/metal_pens_-_styliter1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter2.webp",
-            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter3.webp",
-            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter4.webp",
-            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter5.webp",
-            "../src/assets/products/metal_pens_-_styliter/metal_pens_-_styliter6.webp"
+            "/products/metal_pens_-_styliter/metal_pens_-_styliter2.webp",
+            "/products/metal_pens_-_styliter/metal_pens_-_styliter3.webp",
+            "/products/metal_pens_-_styliter/metal_pens_-_styliter4.webp",
+            "/products/metal_pens_-_styliter/metal_pens_-_styliter5.webp",
+            "/products/metal_pens_-_styliter/metal_pens_-_styliter6.webp"
         ]
     },
     {
@@ -3089,16 +3089,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva1.webp",
+        "img": "/products/basic_pens_-_reva/basic_pens_-_reva1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva2.webp",
-            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva3.webp",
-            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva4.webp",
-            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva5.webp",
-            "../src/assets/products/basic_pens_-_reva/basic_pens_-_reva6.webp"
+            "/products/basic_pens_-_reva/basic_pens_-_reva2.webp",
+            "/products/basic_pens_-_reva/basic_pens_-_reva3.webp",
+            "/products/basic_pens_-_reva/basic_pens_-_reva4.webp",
+            "/products/basic_pens_-_reva/basic_pens_-_reva5.webp",
+            "/products/basic_pens_-_reva/basic_pens_-_reva6.webp"
         ]
     },
     {
@@ -3109,17 +3109,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/pastello_metal_pen/pastello_metal_pen1.webp",
+        "img": "/products/pastello_metal_pen/pastello_metal_pen1.webp",
         "designSpecifications": [
             "PASTELLO, thinkPrint, 96081019, Pastel Pink, 1*1.2*13.7Cm, Metal Alloy, 15g, 0.5*3Cm, Laser Engrave/Pad Print, No, No, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen2.webp",
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen3.webp",
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen4.webp",
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen5.webp",
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen6.webp"
+            "/products/pastello_metal_pen/pastello_metal_pen2.webp",
+            "/products/pastello_metal_pen/pastello_metal_pen3.webp",
+            "/products/pastello_metal_pen/pastello_metal_pen4.webp",
+            "/products/pastello_metal_pen/pastello_metal_pen5.webp",
+            "/products/pastello_metal_pen/pastello_metal_pen6.webp"
         ]
     },
     {
@@ -3130,17 +3130,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/pastello_metal_pen/pastello_metal_pen1.webp",
+        "img": "/products/pastello_metal_pen/pastello_metal_pen1.webp",
         "designSpecifications": [
             "PASTELLO, thinkPrint, 96081019, Pastel Blue, 1*1.2*13.7cm, Metal, 15g, 0.5*3cm, Engrave & Print, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen2.webp",
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen3.webp",
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen4.webp",
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen5.webp",
-            "../src/assets/products/pastello_metal_pen/pastello_metal_pen6.webp"
+            "/products/pastello_metal_pen/pastello_metal_pen2.webp",
+            "/products/pastello_metal_pen/pastello_metal_pen3.webp",
+            "/products/pastello_metal_pen/pastello_metal_pen4.webp",
+            "/products/pastello_metal_pen/pastello_metal_pen5.webp",
+            "/products/pastello_metal_pen/pastello_metal_pen6.webp"
         ]
     },
     {
@@ -3151,17 +3151,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set1.webp",
+        "img": "/products/duet_metal_pen_set/duet_metal_pen_set1.webp",
         "designSpecifications": [
             "DUET, thinkPrint, 96081019, Black, 1x1.5x13.2 cm, Metal, 30g, 0.5x3 cm, Ball Engrave & Print, No, No, No Battery.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set2.webp",
-            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set3.webp",
-            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set4.webp",
-            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set5.webp",
-            "../src/assets/products/duet_metal_pen_set/duet_metal_pen_set6.webp"
+            "/products/duet_metal_pen_set/duet_metal_pen_set2.webp",
+            "/products/duet_metal_pen_set/duet_metal_pen_set3.webp",
+            "/products/duet_metal_pen_set/duet_metal_pen_set4.webp",
+            "/products/duet_metal_pen_set/duet_metal_pen_set5.webp",
+            "/products/duet_metal_pen_set/duet_metal_pen_set6.webp"
         ]
     },
     {
@@ -3172,7 +3172,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus1.webp",
+        "img": "/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus1.webp",
         "designSpecifications": [
             "Latina Pen, thinkPrint, 96081019, Matte Black, 1*1.2*13.7cm, Rubberized Metal, 20g, 4*0.5cm, Engrave & Print, No RGB Lighting Effects",
             "Latina Pen, thinkPrint, 96081019, Silver, 1*1.2*13.7cm, Metallic cap and rubberized body, 20g, 4*0.5cm, Engrave & Print, No RGB Lighting Effects",
@@ -3181,11 +3181,11 @@ export const products = [
             "Latina Pen, thinkPrint, 96081019, Silver, 1*1.2*13.7cm, Metal with Rubberized Body, 20g, 4*0.5cm, Engrave & Print, No RGB Lighting Effects"
         ],
         "thumbnailImages": [
-            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus2.webp",
-            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus3.webp",
-            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus4.webp",
-            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus5.webp",
-            "../src/assets/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus6.webp"
+            "/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus2.webp",
+            "/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus3.webp",
+            "/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus4.webp",
+            "/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus5.webp",
+            "/products/latina_metal_pen_with_stylus/latina_metal_pen_with_stylus6.webp"
         ]
     },
     {
@@ -3196,7 +3196,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/pisa_metal_pen/pisa_metal_pen1.webp",
+        "img": "/products/pisa_metal_pen/pisa_metal_pen1.webp",
         "designSpecifications": [
             "PISA, thinkPrint, 96081019, Space Gray, 1*1.2*14.5cm, Aluminum Alloy, 15g, 0.8*3cm, Laser Engrave/Print, None, None, None",
             "PISA, thinkPrint, 96081019, Midnight Black, 1*1.2*14.5cm, Aluminum Alloy, 15g, 0.8*3cm, Laser Engrave/Print, None, None, None",
@@ -3205,11 +3205,11 @@ export const products = [
             "PISA, thinkPrint, 96081019, Forest Green, 1*1.2*14.5cm, Aluminum Alloy, 15g, 0.8*3cm, Laser Engrave/Print, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/pisa_metal_pen/pisa_metal_pen2.webp",
-            "../src/assets/products/pisa_metal_pen/pisa_metal_pen3.webp",
-            "../src/assets/products/pisa_metal_pen/pisa_metal_pen4.webp",
-            "../src/assets/products/pisa_metal_pen/pisa_metal_pen5.webp",
-            "../src/assets/products/pisa_metal_pen/pisa_metal_pen6.webp"
+            "/products/pisa_metal_pen/pisa_metal_pen2.webp",
+            "/products/pisa_metal_pen/pisa_metal_pen3.webp",
+            "/products/pisa_metal_pen/pisa_metal_pen4.webp",
+            "/products/pisa_metal_pen/pisa_metal_pen5.webp",
+            "/products/pisa_metal_pen/pisa_metal_pen6.webp"
         ]
     },
     {
@@ -3220,16 +3220,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin1.webp",
+        "img": "/products/premium_metal_pen-turin/premium_metal_pen-turin1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin2.webp",
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin3.webp",
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin4.webp",
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin5.webp",
-            "../src/assets/products/premium_metal_pen-turin/premium_metal_pen-turin6.webp"
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin2.webp",
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin3.webp",
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin4.webp",
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin5.webp",
+            "/products/premium_metal_pen-turin/premium_metal_pen-turin6.webp"
         ]
     },
     {
@@ -3240,16 +3240,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pen-_milan/metal_pen-_milan1.webp",
+        "img": "/products/metal_pen-_milan/metal_pen-_milan1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pen-_milan/metal_pen-_milan2.webp",
-            "../src/assets/products/metal_pen-_milan/metal_pen-_milan3.webp",
-            "../src/assets/products/metal_pen-_milan/metal_pen-_milan4.webp",
-            "../src/assets/products/metal_pen-_milan/metal_pen-_milan5.webp",
-            "../src/assets/products/metal_pen-_milan/metal_pen-_milan6.webp"
+            "/products/metal_pen-_milan/metal_pen-_milan2.webp",
+            "/products/metal_pen-_milan/metal_pen-_milan3.webp",
+            "/products/metal_pen-_milan/metal_pen-_milan4.webp",
+            "/products/metal_pen-_milan/metal_pen-_milan5.webp",
+            "/products/metal_pen-_milan/metal_pen-_milan6.webp"
         ]
     },
     {
@@ -3260,16 +3260,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen1.webp",
+        "img": "/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen2.webp",
-            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen3.webp",
-            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen4.webp",
-            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen5.webp",
-            "../src/assets/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen6.webp"
+            "/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen2.webp",
+            "/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen3.webp",
+            "/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen4.webp",
+            "/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen5.webp",
+            "/products/premium_rubberized_metal_pens_with_stylus_-_stypen/premium_rubberized_metal_pens_with_stylus_-_stypen6.webp"
         ]
     },
     {
@@ -3280,16 +3280,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism1.webp",
+        "img": "/products/metal_pen_-_prism/metal_pen_-_prism1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism2.webp",
-            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism3.webp",
-            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism4.webp",
-            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism5.webp",
-            "../src/assets/products/metal_pen_-_prism/metal_pen_-_prism6.webp"
+            "/products/metal_pen_-_prism/metal_pen_-_prism2.webp",
+            "/products/metal_pen_-_prism/metal_pen_-_prism3.webp",
+            "/products/metal_pen_-_prism/metal_pen_-_prism4.webp",
+            "/products/metal_pen_-_prism/metal_pen_-_prism5.webp",
+            "/products/metal_pen_-_prism/metal_pen_-_prism6.webp"
         ]
     },
     {
@@ -3300,14 +3300,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_roma/metal_pens_-_roma1.webp",
+        "img": "/products/metal_pens_-_roma/metal_pens_-_roma1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_roma/metal_pens_-_roma2.webp",
-            "../src/assets/products/metal_pens_-_roma/metal_pens_-_roma3.webp",
-            "../src/assets/products/metal_pens_-_roma/metal_pens_-_roma4.webp"
+            "/products/metal_pens_-_roma/metal_pens_-_roma2.webp",
+            "/products/metal_pens_-_roma/metal_pens_-_roma3.webp",
+            "/products/metal_pens_-_roma/metal_pens_-_roma4.webp"
         ]
     },
     {
@@ -3318,14 +3318,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_turin/metal_pens_-_turin1.webp",
+        "img": "/products/metal_pens_-_turin/metal_pens_-_turin1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_turin/metal_pens_-_turin2.webp",
-            "../src/assets/products/metal_pens_-_turin/metal_pens_-_turin3.webp",
-            "../src/assets/products/metal_pens_-_turin/metal_pens_-_turin4.webp"
+            "/products/metal_pens_-_turin/metal_pens_-_turin2.webp",
+            "/products/metal_pens_-_turin/metal_pens_-_turin3.webp",
+            "/products/metal_pens_-_turin/metal_pens_-_turin4.webp"
         ]
     },
     {
@@ -3336,14 +3336,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_parma/metal_pens_-_parma1.webp",
+        "img": "/products/metal_pens_-_parma/metal_pens_-_parma1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_parma/metal_pens_-_parma2.webp",
-            "../src/assets/products/metal_pens_-_parma/metal_pens_-_parma3.webp",
-            "../src/assets/products/metal_pens_-_parma/metal_pens_-_parma4.webp"
+            "/products/metal_pens_-_parma/metal_pens_-_parma2.webp",
+            "/products/metal_pens_-_parma/metal_pens_-_parma3.webp",
+            "/products/metal_pens_-_parma/metal_pens_-_parma4.webp"
         ]
     },
     {
@@ -3354,12 +3354,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_pens_-_naples/metal_pens_-_naples1.webp",
+        "img": "/products/metal_pens_-_naples/metal_pens_-_naples1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_pens_-_naples/metal_pens_-_naples2.webp"
+            "/products/metal_pens_-_naples/metal_pens_-_naples2.webp"
         ]
     },
     {
@@ -3370,13 +3370,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/card_holder_-_cardy/card_holder_-_cardy1.webp",
+        "img": "/products/card_holder_-_cardy/card_holder_-_cardy1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/card_holder_-_cardy/card_holder_-_cardy2.webp",
-            "../src/assets/products/card_holder_-_cardy/card_holder_-_cardy3.webp"
+            "/products/card_holder_-_cardy/card_holder_-_cardy2.webp",
+            "/products/card_holder_-_cardy/card_holder_-_cardy3.webp"
         ]
     },
     {
@@ -3387,17 +3387,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard1.webp",
+        "img": "/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard1.webp",
         "designSpecifications": [
             "GUARD, thinkPrint, 420231, Black, 10.3*6.7*1.9cm, Premium Faux Leather, 85g, 4*1cm, Deboss/Print, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard2.webp",
-            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard3.webp",
-            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard4.webp",
-            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard5.webp",
-            "../src/assets/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard6.webp"
+            "/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard2.webp",
+            "/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard3.webp",
+            "/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard4.webp",
+            "/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard5.webp",
+            "/products/smart_wallet_with_rfid_blocking_-_guard/smart_wallet_with_rfid_blocking_-_guard6.webp"
         ]
     },
     {
@@ -3408,16 +3408,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo1.webp",
+        "img": "/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo1.webp",
         "designSpecifications": [
             "UG NAME CARDUO, thinkPrint, 830630, Black, 10cm x 7cm x 1cm, Premium Faux Leather, 50g, 4cm x 2cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo2.webp",
-            "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo3.webp",
-            "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo4.webp",
-            "../src/assets/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo5.webp"
+            "/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo2.webp",
+            "/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo3.webp",
+            "/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo4.webp",
+            "/products/2-in-1_desktop_card_holder_-_carduo/2-in-1_desktop_card_holder_-_carduo5.webp"
         ]
     },
     {
@@ -3428,17 +3428,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/metal_torch/metal_torch1.webp",
+        "img": "/products/metal_torch/metal_torch1.webp",
         "designSpecifications": [
             "METAL TORCH, thinkPrint, 851310, Black, 110mm x 25mm x 25mm, Premium Grade Aluminium Alloy, 85g (without batteries), 40mm x 10mm, Laser Engraving, Not Applicable, Not Applicable, AAA x 3 (Not Included)",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_torch/metal_torch2.webp",
-            "../src/assets/products/metal_torch/metal_torch3.webp",
-            "../src/assets/products/metal_torch/metal_torch4.webp",
-            "../src/assets/products/metal_torch/metal_torch5.webp",
-            "../src/assets/products/metal_torch/metal_torch6.webp"
+            "/products/metal_torch/metal_torch2.webp",
+            "/products/metal_torch/metal_torch3.webp",
+            "/products/metal_torch/metal_torch4.webp",
+            "/products/metal_torch/metal_torch5.webp",
+            "/products/metal_torch/metal_torch6.webp"
         ]
     },
     {
@@ -3449,16 +3449,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite1.webp",
+        "img": "/products/led_book_light_-retro_lite/led_book_light_-retro_lite1.webp",
         "designSpecifications": [
             "Retro Lite, thinkPrint, 8513, Matte Black, 6cm x 4cm x 2cm, ABS Plastic, 35g, 2cm x 1cm, Pad Printing, None, None, Button cell (included).",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite2.webp",
-            "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite3.webp",
-            "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite4.webp",
-            "../src/assets/products/led_book_light_-retro_lite/led_book_light_-retro_lite5.webp"
+            "/products/led_book_light_-retro_lite/led_book_light_-retro_lite2.webp",
+            "/products/led_book_light_-retro_lite/led_book_light_-retro_lite3.webp",
+            "/products/led_book_light_-retro_lite/led_book_light_-retro_lite4.webp",
+            "/products/led_book_light_-retro_lite/led_book_light_-retro_lite5.webp"
         ]
     },
     {
@@ -3469,15 +3469,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/led_book_light/led_book_light1.webp",
+        "img": "/products/led_book_light/led_book_light1.webp",
         "designSpecifications": [
             "LED Book Light, thinkPrint, 9405, Black, 3\" x 1\" x 0.5\", ABS Plastic, 0.8 oz, 0.5\" x 0.3\", Pad Print, No, No, Button Batteries.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/led_book_light/led_book_light2.webp",
-            "../src/assets/products/led_book_light/led_book_light3.webp",
-            "../src/assets/products/led_book_light/led_book_light4.webp"
+            "/products/led_book_light/led_book_light2.webp",
+            "/products/led_book_light/led_book_light3.webp",
+            "/products/led_book_light/led_book_light4.webp"
         ]
     },
     {
@@ -3488,14 +3488,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite1.webp",
+        "img": "/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite2.webp",
-            "../src/assets/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite3.webp",
-            "../src/assets/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite4.webp"
+            "/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite2.webp",
+            "/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite3.webp",
+            "/products/flexible_led_book_light_-_flexilite/flexible_led_book_light_-_flexilite4.webp"
         ]
     },
     {
@@ -3506,16 +3506,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/scrood/scrood1.webp",
+        "img": "/products/scrood/scrood1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/scrood/scrood2.webp",
-            "../src/assets/products/scrood/scrood3.webp",
-            "../src/assets/products/scrood/scrood4.webp",
-            "../src/assets/products/scrood/scrood5.webp",
-            "../src/assets/products/scrood/scrood6.webp"
+            "/products/scrood/scrood2.webp",
+            "/products/scrood/scrood3.webp",
+            "/products/scrood/scrood4.webp",
+            "/products/scrood/scrood5.webp",
+            "/products/scrood/scrood6.webp"
         ]
     },
     {
@@ -3526,13 +3526,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/stitch_keychain/stitch_keychain1.webp",
+        "img": "/products/stitch_keychain/stitch_keychain1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stitch_keychain/stitch_keychain2.webp",
-            "../src/assets/products/stitch_keychain/stitch_keychain3.webp"
+            "/products/stitch_keychain/stitch_keychain2.webp",
+            "/products/stitch_keychain/stitch_keychain3.webp"
         ]
     },
     {
@@ -3543,14 +3543,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/lofty-keychain/lofty-keychain1.webp",
+        "img": "/products/lofty-keychain/lofty-keychain1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/lofty-keychain/lofty-keychain2.webp",
-            "../src/assets/products/lofty-keychain/lofty-keychain3.webp",
-            "../src/assets/products/lofty-keychain/lofty-keychain4.webp"
+            "/products/lofty-keychain/lofty-keychain2.webp",
+            "/products/lofty-keychain/lofty-keychain3.webp",
+            "/products/lofty-keychain/lofty-keychain4.webp"
         ]
     },
     {
@@ -3561,14 +3561,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/hook-keychain/hook-keychain1.webp",
+        "img": "/products/hook-keychain/hook-keychain1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hook-keychain/hook-keychain2.webp",
-            "../src/assets/products/hook-keychain/hook-keychain3.webp",
-            "../src/assets/products/hook-keychain/hook-keychain4.webp"
+            "/products/hook-keychain/hook-keychain2.webp",
+            "/products/hook-keychain/hook-keychain3.webp",
+            "/products/hook-keychain/hook-keychain4.webp"
         ]
     },
     {
@@ -3579,14 +3579,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain1.webp",
+        "img": "/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain2.webp",
-            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain3.webp",
-            "../src/assets/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain4.webp"
+            "/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain2.webp",
+            "/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain3.webp",
+            "/products/bamboo_phone_holder_keychain/bamboo_phone_holder_keychain4.webp"
         ]
     },
     {
@@ -3597,14 +3597,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/blak_keychains/blak_keychains1.webp",
+        "img": "/products/blak_keychains/blak_keychains1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/blak_keychains/blak_keychains2.webp",
-            "../src/assets/products/blak_keychains/blak_keychains3.webp",
-            "../src/assets/products/blak_keychains/blak_keychains4.webp"
+            "/products/blak_keychains/blak_keychains2.webp",
+            "/products/blak_keychains/blak_keychains3.webp",
+            "/products/blak_keychains/blak_keychains4.webp"
         ]
     },
     {
@@ -3615,14 +3615,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/dotty_keychains/dotty_keychains1.webp",
+        "img": "/products/dotty_keychains/dotty_keychains1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/dotty_keychains/dotty_keychains2.webp",
-            "../src/assets/products/dotty_keychains/dotty_keychains3.webp",
-            "../src/assets/products/dotty_keychains/dotty_keychains4.webp"
+            "/products/dotty_keychains/dotty_keychains2.webp",
+            "/products/dotty_keychains/dotty_keychains3.webp",
+            "/products/dotty_keychains/dotty_keychains4.webp"
         ]
     },
     {
@@ -3633,14 +3633,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/cork_keychains/cork_keychains1.webp",
+        "img": "/products/cork_keychains/cork_keychains1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/cork_keychains/cork_keychains2.webp",
-            "../src/assets/products/cork_keychains/cork_keychains3.webp",
-            "../src/assets/products/cork_keychains/cork_keychains4.webp"
+            "/products/cork_keychains/cork_keychains2.webp",
+            "/products/cork_keychains/cork_keychains3.webp",
+            "/products/cork_keychains/cork_keychains4.webp"
         ]
     },
     {
@@ -3651,17 +3651,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/pu_keychains/pu_keychains1.webp",
+        "img": "/products/pu_keychains/pu_keychains1.webp",
         "designSpecifications": [
             "PU Keychains, thinkPrint, 78269099, Black, 8cm x 3cm x 1cm, Polyurethane Leather, 15g, 2cm x 1cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/pu_keychains/pu_keychains2.webp",
-            "../src/assets/products/pu_keychains/pu_keychains3.webp",
-            "../src/assets/products/pu_keychains/pu_keychains4.webp",
-            "../src/assets/products/pu_keychains/pu_keychains5.webp",
-            "../src/assets/products/pu_keychains/pu_keychains6.webp"
+            "/products/pu_keychains/pu_keychains2.webp",
+            "/products/pu_keychains/pu_keychains3.webp",
+            "/products/pu_keychains/pu_keychains4.webp",
+            "/products/pu_keychains/pu_keychains5.webp",
+            "/products/pu_keychains/pu_keychains6.webp"
         ]
     },
     {
@@ -3672,16 +3672,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder1.webp",
+        "img": "/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder1.webp",
         "designSpecifications": [
             "Whistle Key Finder, thinkPrint, 732690, Black, 50mm x 30mm x 15mm, ABS Plastic, 15g, 20mm x 10mm, Pad Printing, N/A, 70dB, CR2032",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder2.webp",
-            "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder3.webp",
-            "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder4.webp",
-            "../src/assets/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder5.webp"
+            "/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder2.webp",
+            "/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder3.webp",
+            "/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder4.webp",
+            "/products/key_finder_-_whistle_key_finder/key_finder_-_whistle_key_finder5.webp"
         ]
     },
     {
@@ -3692,16 +3692,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)1.webp",
+        "img": "/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)1.webp",
         "designSpecifications": [
             "WHISTLE KEY FINDER (CAR), thinkPrint, 392690, White, 50mm x 30mm x 15mm, ABS Plastic, 20g, 20mm x 10mm, Pad Printing, Red LED Torch, Button Cells (included)",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)2.webp",
-            "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)3.webp",
-            "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)4.webp",
-            "../src/assets/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)5.webp"
+            "/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)2.webp",
+            "/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)3.webp",
+            "/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)4.webp",
+            "/products/key_finder_-_whistle_key_finder_(car)/key_finder_-_whistle_key_finder_(car)5.webp"
         ]
     },
     {
@@ -3712,16 +3712,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby1.webp",
+        "img": "/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby1.webp",
         "designSpecifications": [
             "Mini COB Flashlight, thinkPrint, 732690, Black, 70mm x 35mm x 20mm, ABS Plastic, 30g, 25mm x 15mm, Pad Printing, None, None, 3 x AAA",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby2.webp",
-            "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby3.webp",
-            "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby4.webp",
-            "../src/assets/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby5.webp"
+            "/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby2.webp",
+            "/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby3.webp",
+            "/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby4.webp",
+            "/products/mini_cob_led_flashlight_-_coby/mini_cob_led_flashlight_-_coby5.webp"
         ]
     },
     {
@@ -3732,14 +3732,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey1.webp",
+        "img": "/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey1.webp",
         "designSpecifications": [
             "HOLDEY, thinkPrint, 392690, Matte Black, 70mm x 30mm x 15mm, ABS Plastic, 30g, 50mm x 15mm, Pad Printing, None, None, 2 x CR2032 Button Cells",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey2.webp",
-            "../src/assets/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey3.webp"
+            "/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey2.webp",
+            "/products/3-in-1_torch_with_mobile_stand_-_holdey/3-in-1_torch_with_mobile_stand_-_holdey3.webp"
         ]
     },
     {
@@ -3750,15 +3750,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre1.webp",
+        "img": "/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre2.webp",
-            "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre3.webp",
-            "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre4.webp",
-            "../src/assets/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre5.webp"
+            "/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre2.webp",
+            "/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre3.webp",
+            "/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre4.webp",
+            "/products/car_tool_kit_-_tyre/car_tool_kit_-_tyre5.webp"
         ]
     },
     {
@@ -3769,16 +3769,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/mobile_stand/mobile_stand1.webp",
+        "img": "/products/mobile_stand/mobile_stand1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/mobile_stand/mobile_stand2.webp",
-            "../src/assets/products/mobile_stand/mobile_stand3.webp",
-            "../src/assets/products/mobile_stand/mobile_stand4.webp",
-            "../src/assets/products/mobile_stand/mobile_stand5.webp",
-            "../src/assets/products/mobile_stand/mobile_stand6.webp"
+            "/products/mobile_stand/mobile_stand2.webp",
+            "/products/mobile_stand/mobile_stand3.webp",
+            "/products/mobile_stand/mobile_stand4.webp",
+            "/products/mobile_stand/mobile_stand5.webp",
+            "/products/mobile_stand/mobile_stand6.webp"
         ]
     },
     {
@@ -3789,13 +3789,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/universal_sports_arm_band/universal_sports_arm_band1.webp",
+        "img": "/products/universal_sports_arm_band/universal_sports_arm_band1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/universal_sports_arm_band/universal_sports_arm_band2.webp",
-            "../src/assets/products/universal_sports_arm_band/universal_sports_arm_band3.webp"
+            "/products/universal_sports_arm_band/universal_sports_arm_band2.webp",
+            "/products/universal_sports_arm_band/universal_sports_arm_band3.webp"
         ]
     },
     {
@@ -3806,16 +3806,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/pop_stand/pop_stand1.webp",
+        "img": "/products/pop_stand/pop_stand1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/pop_stand/pop_stand2.webp",
-            "../src/assets/products/pop_stand/pop_stand3.webp",
-            "../src/assets/products/pop_stand/pop_stand4.webp",
-            "../src/assets/products/pop_stand/pop_stand5.webp",
-            "../src/assets/products/pop_stand/pop_stand6.webp"
+            "/products/pop_stand/pop_stand2.webp",
+            "/products/pop_stand/pop_stand3.webp",
+            "/products/pop_stand/pop_stand4.webp",
+            "/products/pop_stand/pop_stand5.webp",
+            "/products/pop_stand/pop_stand6.webp"
         ]
     },
     {
@@ -3826,14 +3826,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring1.webp",
+        "img": "/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring2.webp",
-            "../src/assets/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring3.webp",
-            "../src/assets/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring4.webp"
+            "/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring2.webp",
+            "/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring3.webp",
+            "/products/finger_ring_&_mobile_stand_-_ring/finger_ring_&_mobile_stand_-_ring4.webp"
         ]
     },
     {
@@ -3844,14 +3844,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/universal_mobile_stand/universal_mobile_stand1.webp",
+        "img": "/products/universal_mobile_stand/universal_mobile_stand1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/universal_mobile_stand/universal_mobile_stand2.webp",
-            "../src/assets/products/universal_mobile_stand/universal_mobile_stand3.webp",
-            "../src/assets/products/universal_mobile_stand/universal_mobile_stand4.webp"
+            "/products/universal_mobile_stand/universal_mobile_stand2.webp",
+            "/products/universal_mobile_stand/universal_mobile_stand3.webp",
+            "/products/universal_mobile_stand/universal_mobile_stand4.webp"
         ]
     },
     {
@@ -3862,16 +3862,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Promotional Gifts",
-        "img": "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man1.webp",
+        "img": "/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man2.webp",
-            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man3.webp",
-            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man4.webp",
-            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man5.webp",
-            "../src/assets/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man6.webp"
+            "/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man2.webp",
+            "/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man3.webp",
+            "/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man4.webp",
+            "/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man5.webp",
+            "/products/mobile_holder_-_silicon_man/mobile_holder_-_silicon_man6.webp"
         ]
     },
     {
@@ -3882,17 +3882,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/slant/slant1.webp",
+        "img": "/products/slant/slant1.webp",
         "designSpecifications": [
             "SLANT, thinkPrint, 48201090, Undetermined, 14.5 x 21 cm, Faux Leather Hard Bound, Undetermined, Undetermined, Screen Printing, DTF Printing, Deboss, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/slant/slant2.webp",
-            "../src/assets/products/slant/slant3.webp",
-            "../src/assets/products/slant/slant4.webp",
-            "../src/assets/products/slant/slant5.webp",
-            "../src/assets/products/slant/slant6.webp"
+            "/products/slant/slant2.webp",
+            "/products/slant/slant3.webp",
+            "/products/slant/slant4.webp",
+            "/products/slant/slant5.webp",
+            "/products/slant/slant6.webp"
         ]
     },
     {
@@ -3903,7 +3903,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/crest/crest1.webp",
+        "img": "/products/crest/crest1.webp",
         "designSpecifications": [
             "Executive Organizer Diary, thinkPrint, 48201090, Black, 17 x 23 cm, Faux Leather",
             "A5, Screen Printing, DTF Printing",
@@ -3912,11 +3912,11 @@ export const products = [
             "12 Planner/175 Ruled/16 Grid/16 Plain pages"
         ],
         "thumbnailImages": [
-            "../src/assets/products/crest/crest2.webp",
-            "../src/assets/products/crest/crest3.webp",
-            "../src/assets/products/crest/crest4.webp",
-            "../src/assets/products/crest/crest5.webp",
-            "../src/assets/products/crest/crest6.webp"
+            "/products/crest/crest2.webp",
+            "/products/crest/crest3.webp",
+            "/products/crest/crest4.webp",
+            "/products/crest/crest5.webp",
+            "/products/crest/crest6.webp"
         ]
     },
     {
@@ -3927,16 +3927,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/vogue/vogue1.webp",
+        "img": "/products/vogue/vogue1.webp",
         "designSpecifications": [
             "VOGUE Executive Organizer Diary, thinkPrint, 48201090, BLACK/GREY, 17.5 x 23 cm, Faux Leather, 450g, 5 x 8 cm, Screen Printing/DTF Printing/Deboss",
             "NAPLES PREMIUM METAL PEN, thinkPrint, N/A, BLACK/GREY, 14 cm Length, Metal, 30g, 1 x 5 cm, Screen Printing/Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/vogue/vogue2.webp",
-            "../src/assets/products/vogue/vogue3.webp",
-            "../src/assets/products/vogue/vogue4.webp"
+            "/products/vogue/vogue2.webp",
+            "/products/vogue/vogue3.webp",
+            "/products/vogue/vogue4.webp"
         ]
     },
     {
@@ -3947,17 +3947,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/zigy_pro/zigy_pro1.webp",
+        "img": "/products/zigy_pro/zigy_pro1.webp",
         "designSpecifications": [
             "ZIGY PRO, thinkPrint, 48201090, BLACK, 14.5 x 21 cm, Faux Leather, 350g, 5 x 5 cm, Screen Printing/DTF/Deboss",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/zigy_pro/zigy_pro2.webp",
-            "../src/assets/products/zigy_pro/zigy_pro3.webp",
-            "../src/assets/products/zigy_pro/zigy_pro4.webp",
-            "../src/assets/products/zigy_pro/zigy_pro5.webp",
-            "../src/assets/products/zigy_pro/zigy_pro6.webp"
+            "/products/zigy_pro/zigy_pro2.webp",
+            "/products/zigy_pro/zigy_pro3.webp",
+            "/products/zigy_pro/zigy_pro4.webp",
+            "/products/zigy_pro/zigy_pro5.webp",
+            "/products/zigy_pro/zigy_pro6.webp"
         ]
     },
     {
@@ -3968,17 +3968,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy1.webp",
+        "img": "/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy1.webp",
         "designSpecifications": [
             "Polygon Refillable Dairy, thinkPrint, 48202000, Brown, 17.5*23cm (A5), Faux Leather, 450g, 5x5 cm, Debossing",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy2.webp",
-            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy3.webp",
-            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy4.webp",
-            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy5.webp",
-            "../src/assets/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy6.webp"
+            "/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy2.webp",
+            "/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy3.webp",
+            "/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy4.webp",
+            "/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy5.webp",
+            "/products/polygon_executive_organizer_dairy/polygon_executive_organizer_dairy6.webp"
         ]
     },
     {
@@ -3989,17 +3989,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest1.webp",
+        "img": "/products/executive_organizer_diary-quest/executive_organizer_diary-quest1.webp",
         "designSpecifications": [
             "QUEST, thinkPrint, 48201010, Undefined, 23x17x1.7cm, Vegan Leather, Undefined, Undefined, Debossing, Undefined, Undefined, Undefined.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest2.webp",
-            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest3.webp",
-            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest4.webp",
-            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest5.webp",
-            "../src/assets/products/executive_organizer_diary-quest/executive_organizer_diary-quest6.webp"
+            "/products/executive_organizer_diary-quest/executive_organizer_diary-quest2.webp",
+            "/products/executive_organizer_diary-quest/executive_organizer_diary-quest3.webp",
+            "/products/executive_organizer_diary-quest/executive_organizer_diary-quest4.webp",
+            "/products/executive_organizer_diary-quest/executive_organizer_diary-quest5.webp",
+            "/products/executive_organizer_diary-quest/executive_organizer_diary-quest6.webp"
         ]
     },
     {
@@ -4010,16 +4010,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage1.webp",
+        "img": "/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage1.webp",
         "designSpecifications": [
             "HERITAGE, thinkPrint, 482090, Black, A5 (148mm x 210mm), High-Quality Faux Leather, 350g, 60mm x 15mm, Laser Engraving, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage2.webp",
-            "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage3.webp",
-            "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage4.webp",
-            "../src/assets/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage5.webp"
+            "/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage2.webp",
+            "/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage3.webp",
+            "/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage4.webp",
+            "/products/executive_organizer_diary_-_heritage/executive_organizer_diary_-_heritage5.webp"
         ]
     },
     {
@@ -4030,16 +4030,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate1.webp",
+        "img": "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate2.webp",
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate3.webp",
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate4.webp",
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate5.webp",
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate6.webp"
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate2.webp",
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate3.webp",
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate4.webp",
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate5.webp",
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate6.webp"
         ]
     },
     {
@@ -4050,16 +4050,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant1.webp",
+        "img": "/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant2.webp",
-            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant3.webp",
-            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant4.webp",
-            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant5.webp",
-            "../src/assets/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant6.webp"
+            "/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant2.webp",
+            "/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant3.webp",
+            "/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant4.webp",
+            "/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant5.webp",
+            "/products/executive_organizer_diary_-_elegant/executive_organizer_diary_-_elegant6.webp"
         ]
     },
     {
@@ -4070,16 +4070,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic1.webp",
+        "img": "/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic2.webp",
-            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic3.webp",
-            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic4.webp",
-            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic5.webp",
-            "../src/assets/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic6.webp"
+            "/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic2.webp",
+            "/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic3.webp",
+            "/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic4.webp",
+            "/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic5.webp",
+            "/products/executive_organizer_diary_-_classic/executive_organizer_diary_-_classic6.webp"
         ]
     },
     {
@@ -4090,16 +4090,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate1.webp",
+        "img": "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate2.webp",
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate3.webp",
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate4.webp",
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate5.webp",
-            "../src/assets/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate6.webp"
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate2.webp",
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate3.webp",
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate4.webp",
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate5.webp",
+            "/products/executive_organizer_diary_-_senate/executive_organizer_diary_-_senate6.webp"
         ]
     },
     {
@@ -4110,16 +4110,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer1.webp",
+        "img": "/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer2.webp",
-            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer3.webp",
-            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer4.webp",
-            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer5.webp",
-            "../src/assets/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer6.webp"
+            "/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer2.webp",
+            "/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer3.webp",
+            "/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer4.webp",
+            "/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer5.webp",
+            "/products/mystic_mini_executive_organizer/mystic_mini_executive_organizer6.webp"
         ]
     },
     {
@@ -4130,16 +4130,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium1.webp",
+        "img": "/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium2.webp",
-            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium3.webp",
-            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium4.webp",
-            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium5.webp",
-            "../src/assets/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium6.webp"
+            "/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium2.webp",
+            "/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium3.webp",
+            "/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium4.webp",
+            "/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium5.webp",
+            "/products/premium_notebook_-_korsa_premium/premium_notebook_-_korsa_premium6.webp"
         ]
     },
     {
@@ -4150,16 +4150,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa1.webp",
+        "img": "/products/premium_notebook_-_korsa/premium_notebook_-_korsa1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa2.webp",
-            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa3.webp",
-            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa4.webp",
-            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa5.webp",
-            "../src/assets/products/premium_notebook_-_korsa/premium_notebook_-_korsa6.webp"
+            "/products/premium_notebook_-_korsa/premium_notebook_-_korsa2.webp",
+            "/products/premium_notebook_-_korsa/premium_notebook_-_korsa3.webp",
+            "/products/premium_notebook_-_korsa/premium_notebook_-_korsa4.webp",
+            "/products/premium_notebook_-_korsa/premium_notebook_-_korsa5.webp",
+            "/products/premium_notebook_-_korsa/premium_notebook_-_korsa6.webp"
         ]
     },
     {
@@ -4170,16 +4170,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold1.webp",
+        "img": "/products/premium_notebook_-_fold/premium_notebook_-_fold1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold2.webp",
-            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold3.webp",
-            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold4.webp",
-            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold5.webp",
-            "../src/assets/products/premium_notebook_-_fold/premium_notebook_-_fold6.webp"
+            "/products/premium_notebook_-_fold/premium_notebook_-_fold2.webp",
+            "/products/premium_notebook_-_fold/premium_notebook_-_fold3.webp",
+            "/products/premium_notebook_-_fold/premium_notebook_-_fold4.webp",
+            "/products/premium_notebook_-_fold/premium_notebook_-_fold5.webp",
+            "/products/premium_notebook_-_fold/premium_notebook_-_fold6.webp"
         ]
     },
     {
@@ -4190,16 +4190,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima1.webp",
+        "img": "/products/premium_notebook_-_optima/premium_notebook_-_optima1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima2.webp",
-            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima3.webp",
-            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima4.webp",
-            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima5.webp",
-            "../src/assets/products/premium_notebook_-_optima/premium_notebook_-_optima6.webp"
+            "/products/premium_notebook_-_optima/premium_notebook_-_optima2.webp",
+            "/products/premium_notebook_-_optima/premium_notebook_-_optima3.webp",
+            "/products/premium_notebook_-_optima/premium_notebook_-_optima4.webp",
+            "/products/premium_notebook_-_optima/premium_notebook_-_optima5.webp",
+            "/products/premium_notebook_-_optima/premium_notebook_-_optima6.webp"
         ]
     },
     {
@@ -4210,17 +4210,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo1.webp",
+        "img": "/products/premium_notebook_-_stylo/premium_notebook_-_stylo1.webp",
         "designSpecifications": [
             "STYLO, thinkPrint, 482090, Black, 210mm x 148mm, Faux Leather, 350g, 50mm x 20mm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo2.webp",
-            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo3.webp",
-            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo4.webp",
-            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo5.webp",
-            "../src/assets/products/premium_notebook_-_stylo/premium_notebook_-_stylo6.webp"
+            "/products/premium_notebook_-_stylo/premium_notebook_-_stylo2.webp",
+            "/products/premium_notebook_-_stylo/premium_notebook_-_stylo3.webp",
+            "/products/premium_notebook_-_stylo/premium_notebook_-_stylo4.webp",
+            "/products/premium_notebook_-_stylo/premium_notebook_-_stylo5.webp",
+            "/products/premium_notebook_-_stylo/premium_notebook_-_stylo6.webp"
         ]
     },
     {
@@ -4231,7 +4231,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo1.webp",
+        "img": "/products/premium_notebook_-_primo/premium_notebook_-_primo1.webp",
         "designSpecifications": [
             "PRIMO Notebook, thinkPrint, 482010, Black, 15*22*2cm, Faux Leather with Cushioned Hardcover",
             "PRIMO Notebook, thinkPrint, 482010, Black, 350g, 4x4 cm bottom right, Deboss",
@@ -4240,11 +4240,11 @@ export const products = [
             "PRIMO Notebook, thinkPrint, 482010, Black, Integrated Pen Loop, Pen Not Included"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo2.webp",
-            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo3.webp",
-            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo4.webp",
-            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo5.webp",
-            "../src/assets/products/premium_notebook_-_primo/premium_notebook_-_primo6.webp"
+            "/products/premium_notebook_-_primo/premium_notebook_-_primo2.webp",
+            "/products/premium_notebook_-_primo/premium_notebook_-_primo3.webp",
+            "/products/premium_notebook_-_primo/premium_notebook_-_primo4.webp",
+            "/products/premium_notebook_-_primo/premium_notebook_-_primo5.webp",
+            "/products/premium_notebook_-_primo/premium_notebook_-_primo6.webp"
         ]
     },
     {
@@ -4255,17 +4255,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy1.webp",
+        "img": "/products/premium_notebook_-_zigy/premium_notebook_-_zigy1.webp",
         "designSpecifications": [
             "Zigy Notebook, thinkPrint, 482090, Charcoal Grey, A5 (148mm x 210mm), Hardbound, 300g, Cover (50mm x 50mm), Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy2.webp",
-            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy3.webp",
-            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy4.webp",
-            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy5.webp",
-            "../src/assets/products/premium_notebook_-_zigy/premium_notebook_-_zigy6.webp"
+            "/products/premium_notebook_-_zigy/premium_notebook_-_zigy2.webp",
+            "/products/premium_notebook_-_zigy/premium_notebook_-_zigy3.webp",
+            "/products/premium_notebook_-_zigy/premium_notebook_-_zigy4.webp",
+            "/products/premium_notebook_-_zigy/premium_notebook_-_zigy5.webp",
+            "/products/premium_notebook_-_zigy/premium_notebook_-_zigy6.webp"
         ]
     },
     {
@@ -4276,15 +4276,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/milky_spiral/milky_spiral1.webp",
+        "img": "/products/milky_spiral/milky_spiral1.webp",
         "designSpecifications": [
             "Milky Spiral, thinkPrint, 48201090, White, 14.5 x 21 cm, Recycled Milk Carton, N/A, Recommended Area, Screen Printing/DTF Printing/Deboss, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/milky_spiral/milky_spiral2.webp",
-            "../src/assets/products/milky_spiral/milky_spiral3.webp",
-            "../src/assets/products/milky_spiral/milky_spiral4.webp"
+            "/products/milky_spiral/milky_spiral2.webp",
+            "/products/milky_spiral/milky_spiral3.webp",
+            "/products/milky_spiral/milky_spiral4.webp"
         ]
     },
     {
@@ -4295,15 +4295,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/strap-cork/strap-cork1.webp",
+        "img": "/products/strap-cork/strap-cork1.webp",
         "designSpecifications": [
             "STRAP-CORK, thinkPrint, 48201090, Natural Cork, 14.5 x 21 cm, Hard Bound Cork, N/A, 8 x 12 cm, Screen Printing/DTF Printing/Deboss, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/strap-cork/strap-cork2.webp",
-            "../src/assets/products/strap-cork/strap-cork3.webp",
-            "../src/assets/products/strap-cork/strap-cork4.webp"
+            "/products/strap-cork/strap-cork2.webp",
+            "/products/strap-cork/strap-cork3.webp",
+            "/products/strap-cork/strap-cork4.webp"
         ]
     },
     {
@@ -4314,16 +4314,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/rpet_-_spiral/rpet_-_spiral1.webp",
+        "img": "/products/rpet_-_spiral/rpet_-_spiral1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/rpet_-_spiral/rpet_-_spiral2.webp",
-            "../src/assets/products/rpet_-_spiral/rpet_-_spiral3.webp",
-            "../src/assets/products/rpet_-_spiral/rpet_-_spiral4.webp",
-            "../src/assets/products/rpet_-_spiral/rpet_-_spiral5.webp",
-            "../src/assets/products/rpet_-_spiral/rpet_-_spiral6.webp"
+            "/products/rpet_-_spiral/rpet_-_spiral2.webp",
+            "/products/rpet_-_spiral/rpet_-_spiral3.webp",
+            "/products/rpet_-_spiral/rpet_-_spiral4.webp",
+            "/products/rpet_-_spiral/rpet_-_spiral5.webp",
+            "/products/rpet_-_spiral/rpet_-_spiral6.webp"
         ]
     },
     {
@@ -4334,16 +4334,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/milky/milky1.webp",
+        "img": "/products/milky/milky1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/milky/milky2.webp",
-            "../src/assets/products/milky/milky3.webp",
-            "../src/assets/products/milky/milky4.webp",
-            "../src/assets/products/milky/milky5.webp",
-            "../src/assets/products/milky/milky6.webp"
+            "/products/milky/milky2.webp",
+            "/products/milky/milky3.webp",
+            "/products/milky/milky4.webp",
+            "/products/milky/milky5.webp",
+            "/products/milky/milky6.webp"
         ]
     },
     {
@@ -4354,15 +4354,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/tritan/tritan1.webp",
+        "img": "/products/tritan/tritan1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/tritan/tritan2.webp",
-            "../src/assets/products/tritan/tritan3.webp",
-            "../src/assets/products/tritan/tritan4.webp",
-            "../src/assets/products/tritan/tritan5.webp"
+            "/products/tritan/tritan2.webp",
+            "/products/tritan/tritan3.webp",
+            "/products/tritan/tritan4.webp",
+            "/products/tritan/tritan5.webp"
         ]
     },
     {
@@ -4373,16 +4373,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/sugar/sugar1.webp",
+        "img": "/products/sugar/sugar1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/sugar/sugar2.webp",
-            "../src/assets/products/sugar/sugar3.webp",
-            "../src/assets/products/sugar/sugar4.webp",
-            "../src/assets/products/sugar/sugar5.webp",
-            "../src/assets/products/sugar/sugar6.webp"
+            "/products/sugar/sugar2.webp",
+            "/products/sugar/sugar3.webp",
+            "/products/sugar/sugar4.webp",
+            "/products/sugar/sugar5.webp",
+            "/products/sugar/sugar6.webp"
         ]
     },
     {
@@ -4393,16 +4393,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/crest/crest1.webp",
+        "img": "/products/crest/crest1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/crest/crest2.webp",
-            "../src/assets/products/crest/crest3.webp",
-            "../src/assets/products/crest/crest4.webp",
-            "../src/assets/products/crest/crest5.webp",
-            "../src/assets/products/crest/crest6.webp"
+            "/products/crest/crest2.webp",
+            "/products/crest/crest3.webp",
+            "/products/crest/crest4.webp",
+            "/products/crest/crest5.webp",
+            "/products/crest/crest6.webp"
         ]
     },
     {
@@ -4413,14 +4413,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/athena/athena1.webp",
+        "img": "/products/athena/athena1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/athena/athena2.webp",
-            "../src/assets/products/athena/athena3.webp",
-            "../src/assets/products/athena/athena4.webp"
+            "/products/athena/athena2.webp",
+            "/products/athena/athena3.webp",
+            "/products/athena/athena4.webp"
         ]
     },
     {
@@ -4431,14 +4431,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/bambu/bambu1.webp",
+        "img": "/products/bambu/bambu1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bambu/bambu2.webp",
-            "../src/assets/products/bambu/bambu3.webp",
-            "../src/assets/products/bambu/bambu4.webp"
+            "/products/bambu/bambu2.webp",
+            "/products/bambu/bambu3.webp",
+            "/products/bambu/bambu4.webp"
         ]
     },
     {
@@ -4449,16 +4449,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/capri_rpet/capri_rpet1.webp",
+        "img": "/products/capri_rpet/capri_rpet1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/capri_rpet/capri_rpet2.webp",
-            "../src/assets/products/capri_rpet/capri_rpet3.webp",
-            "../src/assets/products/capri_rpet/capri_rpet4.webp",
-            "../src/assets/products/capri_rpet/capri_rpet5.webp",
-            "../src/assets/products/capri_rpet/capri_rpet6.webp"
+            "/products/capri_rpet/capri_rpet2.webp",
+            "/products/capri_rpet/capri_rpet3.webp",
+            "/products/capri_rpet/capri_rpet4.webp",
+            "/products/capri_rpet/capri_rpet5.webp",
+            "/products/capri_rpet/capri_rpet6.webp"
         ]
     },
     {
@@ -4469,17 +4469,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/zigy_pro/zigy_pro1.webp",
+        "img": "/products/zigy_pro/zigy_pro1.webp",
         "designSpecifications": [
             "ZIGY PRO, thinkPrint, 48201090, BLACK BROWN BLUE, 14.5 x 21 cm A5, Faux Leather Hard Bound, 380g (estimated), 10 x 15 cm (cover), Screen Printing DTF Printing Deboss",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/zigy_pro/zigy_pro2.webp",
-            "../src/assets/products/zigy_pro/zigy_pro3.webp",
-            "../src/assets/products/zigy_pro/zigy_pro4.webp",
-            "../src/assets/products/zigy_pro/zigy_pro5.webp",
-            "../src/assets/products/zigy_pro/zigy_pro6.webp"
+            "/products/zigy_pro/zigy_pro2.webp",
+            "/products/zigy_pro/zigy_pro3.webp",
+            "/products/zigy_pro/zigy_pro4.webp",
+            "/products/zigy_pro/zigy_pro5.webp",
+            "/products/zigy_pro/zigy_pro6.webp"
         ]
     },
     {
@@ -4490,17 +4490,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/korsa_2.0/korsa_2.01.webp",
+        "img": "/products/korsa_2.0/korsa_2.01.webp",
         "designSpecifications": [
             "KORSA 2.0, thinkPrint, 48202000, Customizable, 14.5 x 21 cm (A5), Faux Leather Cushioned Hard Bound, 450g (estimated), 10 x 10 cm (estimated), Screen Printing/DTF Printing/Deboss, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/korsa_2.0/korsa_2.02.webp",
-            "../src/assets/products/korsa_2.0/korsa_2.03.webp",
-            "../src/assets/products/korsa_2.0/korsa_2.04.webp",
-            "../src/assets/products/korsa_2.0/korsa_2.05.webp",
-            "../src/assets/products/korsa_2.0/korsa_2.06.webp"
+            "/products/korsa_2.0/korsa_2.02.webp",
+            "/products/korsa_2.0/korsa_2.03.webp",
+            "/products/korsa_2.0/korsa_2.04.webp",
+            "/products/korsa_2.0/korsa_2.05.webp",
+            "/products/korsa_2.0/korsa_2.06.webp"
         ]
     },
     {
@@ -4511,13 +4511,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/primus/primus1.webp",
+        "img": "/products/primus/primus1.webp",
         "designSpecifications": [
             "Primus Notebook, thinkPrint, 48201090, Black/Brown, 14.5 x 21 cm, Faux Leather, 400g (estimated), 5 x 5 cm, Screen Printing/DTF Printing/Deboss, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/primus/primus2.webp"
+            "/products/primus/primus2.webp"
         ]
     },
     {
@@ -4528,15 +4528,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/strap-cork/strap-cork1.webp",
+        "img": "/products/strap-cork/strap-cork1.webp",
         "designSpecifications": [
             "STRAP-CORK, thinkPrint, 48201090, Natural Cork, 14.5 x 21 cm, Cork & Paper, 400g (est.), 10 x 5 cm, Screen Printing/DTF/Deboss",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/strap-cork/strap-cork2.webp",
-            "../src/assets/products/strap-cork/strap-cork3.webp",
-            "../src/assets/products/strap-cork/strap-cork4.webp"
+            "/products/strap-cork/strap-cork2.webp",
+            "/products/strap-cork/strap-cork3.webp",
+            "/products/strap-cork/strap-cork4.webp"
         ]
     },
     {
@@ -4547,17 +4547,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook1.webp",
+        "img": "/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "FLIP, thinkPrint, 48202000, Black, 14.5 x 21 cm, Faux Leather, 350g, 5 x 5 cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook2.webp",
-            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook3.webp",
-            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook4.webp",
-            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook5.webp",
-            "../src/assets/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook6.webp"
+            "/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook2.webp",
+            "/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook3.webp",
+            "/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook4.webp",
+            "/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook5.webp",
+            "/products/flip_premium_traveller_notebook/flip_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -4568,16 +4568,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook1.webp",
+        "img": "/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook2.webp",
-            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook3.webp",
-            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook4.webp",
-            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook5.webp",
-            "../src/assets/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook6.webp"
+            "/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook2.webp",
+            "/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook3.webp",
+            "/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook4.webp",
+            "/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook5.webp",
+            "/products/pocket_premium_traveller_notebook/pocket_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -4588,16 +4588,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook1.webp",
+        "img": "/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook2.webp",
-            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook3.webp",
-            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook4.webp",
-            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook5.webp",
-            "../src/assets/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook6.webp"
+            "/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook2.webp",
+            "/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook3.webp",
+            "/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook4.webp",
+            "/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook5.webp",
+            "/products/hardy_premium_premium_traveller_notebook/hardy_premium_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -4608,16 +4608,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook1.webp",
+        "img": "/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook2.webp",
-            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook3.webp",
-            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook4.webp",
-            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook5.webp",
-            "../src/assets/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook6.webp"
+            "/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook2.webp",
+            "/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook3.webp",
+            "/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook4.webp",
+            "/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook5.webp",
+            "/products/flappy_premium_traveller_notebook/flappy_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -4628,16 +4628,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook1.webp",
+        "img": "/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook2.webp",
-            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook3.webp",
-            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook4.webp",
-            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook5.webp",
-            "../src/assets/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook6.webp"
+            "/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook2.webp",
+            "/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook3.webp",
+            "/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook4.webp",
+            "/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook5.webp",
+            "/products/elements-jute_premium_traveller_notebook/elements-jute_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -4648,16 +4648,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books1.webp",
+        "img": "/products/kriss_premium_note_books/kriss_premium_note_books1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books2.webp",
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books3.webp",
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books4.webp",
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books5.webp",
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books6.webp"
+            "/products/kriss_premium_note_books/kriss_premium_note_books2.webp",
+            "/products/kriss_premium_note_books/kriss_premium_note_books3.webp",
+            "/products/kriss_premium_note_books/kriss_premium_note_books4.webp",
+            "/products/kriss_premium_note_books/kriss_premium_note_books5.webp",
+            "/products/kriss_premium_note_books/kriss_premium_note_books6.webp"
         ]
     },
     {
@@ -4668,16 +4668,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook1.webp",
+        "img": "/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook2.webp",
-            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook3.webp",
-            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook4.webp",
-            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook5.webp",
-            "../src/assets/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook6.webp"
+            "/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook2.webp",
+            "/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook3.webp",
+            "/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook4.webp",
+            "/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook5.webp",
+            "/products/korki_notes_premium_eco-friendly_notebook/korki_notes_premium_eco-friendly_notebook6.webp"
         ]
     },
     {
@@ -4688,16 +4688,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook1.webp",
+        "img": "/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook2.webp",
-            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook3.webp",
-            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook4.webp",
-            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook5.webp",
-            "../src/assets/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook6.webp"
+            "/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook2.webp",
+            "/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook3.webp",
+            "/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook4.webp",
+            "/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook5.webp",
+            "/products/lumber_notes_-_premium_eco_-_friendly_notebook/lumber_notes_-_premium_eco_-_friendly_notebook6.webp"
         ]
     },
     {
@@ -4708,16 +4708,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook1.webp",
+        "img": "/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook2.webp",
-            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook3.webp",
-            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook4.webp",
-            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook5.webp",
-            "../src/assets/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook6.webp"
+            "/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook2.webp",
+            "/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook3.webp",
+            "/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook4.webp",
+            "/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook5.webp",
+            "/products/rpet_notes_premium_eco_-_friendly_notebook/rpet_notes_premium_eco_-_friendly_notebook6.webp"
         ]
     },
     {
@@ -4728,16 +4728,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook1.webp",
+        "img": "/products/black_premium_traveller_notebook/black_premium_traveller_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook2.webp",
-            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook3.webp",
-            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook4.webp",
-            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook5.webp",
-            "../src/assets/products/black_premium_traveller_notebook/black_premium_traveller_notebook6.webp"
+            "/products/black_premium_traveller_notebook/black_premium_traveller_notebook2.webp",
+            "/products/black_premium_traveller_notebook/black_premium_traveller_notebook3.webp",
+            "/products/black_premium_traveller_notebook/black_premium_traveller_notebook4.webp",
+            "/products/black_premium_traveller_notebook/black_premium_traveller_notebook5.webp",
+            "/products/black_premium_traveller_notebook/black_premium_traveller_notebook6.webp"
         ]
     },
     {
@@ -4748,17 +4748,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/dual_premium_notebook/dual_premium_notebook1.webp",
+        "img": "/products/dual_premium_notebook/dual_premium_notebook1.webp",
         "designSpecifications": [
             "DUAL PREMIUM NOTEBOOK, thinkPrint, 48201010, Assorted, 15.2 x 21 x 1.5 cm, Faux Leather, 350g (estimated), 5 x 5 cm, Debossing, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/dual_premium_notebook/dual_premium_notebook2.webp",
-            "../src/assets/products/dual_premium_notebook/dual_premium_notebook3.webp",
-            "../src/assets/products/dual_premium_notebook/dual_premium_notebook4.webp",
-            "../src/assets/products/dual_premium_notebook/dual_premium_notebook5.webp",
-            "../src/assets/products/dual_premium_notebook/dual_premium_notebook6.webp"
+            "/products/dual_premium_notebook/dual_premium_notebook2.webp",
+            "/products/dual_premium_notebook/dual_premium_notebook3.webp",
+            "/products/dual_premium_notebook/dual_premium_notebook4.webp",
+            "/products/dual_premium_notebook/dual_premium_notebook5.webp",
+            "/products/dual_premium_notebook/dual_premium_notebook6.webp"
         ]
     },
     {
@@ -4769,17 +4769,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt1.webp",
+        "img": "/products/premium_notebook_-_belt/premium_notebook_-_belt1.webp",
         "designSpecifications": [
             "A5 Notebook, thinkPrint, 48201090, Undefined, 14.7x21.5x1.7cm, Vegan Leather, Undefined, Undefined, Undefined, Undefined, Undefined, Undefined",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt2.webp",
-            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt3.webp",
-            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt4.webp",
-            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt5.webp",
-            "../src/assets/products/premium_notebook_-_belt/premium_notebook_-_belt6.webp"
+            "/products/premium_notebook_-_belt/premium_notebook_-_belt2.webp",
+            "/products/premium_notebook_-_belt/premium_notebook_-_belt3.webp",
+            "/products/premium_notebook_-_belt/premium_notebook_-_belt4.webp",
+            "/products/premium_notebook_-_belt/premium_notebook_-_belt5.webp",
+            "/products/premium_notebook_-_belt/premium_notebook_-_belt6.webp"
         ]
     },
     {
@@ -4790,17 +4790,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook-athena/premium_notebook-athena1.webp",
+        "img": "/products/premium_notebook-athena/premium_notebook-athena1.webp",
         "designSpecifications": [
             "Athena Notebook, thinkPrint, 48201010, Undefined, 15.5x21x1.5cm, Vegan Leather, Undefined, Undefined, Undefined, Undefined, Undefined, Undefined",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena2.webp",
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena3.webp",
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena4.webp",
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena5.webp",
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena6.webp"
+            "/products/premium_notebook-athena/premium_notebook-athena2.webp",
+            "/products/premium_notebook-athena/premium_notebook-athena3.webp",
+            "/products/premium_notebook-athena/premium_notebook-athena4.webp",
+            "/products/premium_notebook-athena/premium_notebook-athena5.webp",
+            "/products/premium_notebook-athena/premium_notebook-athena6.webp"
         ]
     },
     {
@@ -4811,17 +4811,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook-vector/premium_notebook-vector1.webp",
+        "img": "/products/premium_notebook-vector/premium_notebook-vector1.webp",
         "designSpecifications": [
             "Vector Notebook, thinkPrint, 48201090, To be Defined, 14.5x21x1.5cm, Vegan Leather, 350g, 5x5cm, Deboss/Foil Stamp, No RGB Lighting, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook-vector/premium_notebook-vector2.webp",
-            "../src/assets/products/premium_notebook-vector/premium_notebook-vector3.webp",
-            "../src/assets/products/premium_notebook-vector/premium_notebook-vector4.webp",
-            "../src/assets/products/premium_notebook-vector/premium_notebook-vector5.webp",
-            "../src/assets/products/premium_notebook-vector/premium_notebook-vector6.webp"
+            "/products/premium_notebook-vector/premium_notebook-vector2.webp",
+            "/products/premium_notebook-vector/premium_notebook-vector3.webp",
+            "/products/premium_notebook-vector/premium_notebook-vector4.webp",
+            "/products/premium_notebook-vector/premium_notebook-vector5.webp",
+            "/products/premium_notebook-vector/premium_notebook-vector6.webp"
         ]
     },
     {
@@ -4832,7 +4832,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy1.webp",
+        "img": "/products/premium_notebook-boxy/premium_notebook-boxy1.webp",
         "designSpecifications": [
             "BOXY, thinkPrint, 48201090, Undefined, 14.5x21x1.5cm",
             "Vegan Leather, 80gsm A5, Hard Bound",
@@ -4841,11 +4841,11 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy2.webp",
-            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy3.webp",
-            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy4.webp",
-            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy5.webp",
-            "../src/assets/products/premium_notebook-boxy/premium_notebook-boxy6.webp"
+            "/products/premium_notebook-boxy/premium_notebook-boxy2.webp",
+            "/products/premium_notebook-boxy/premium_notebook-boxy3.webp",
+            "/products/premium_notebook-boxy/premium_notebook-boxy4.webp",
+            "/products/premium_notebook-boxy/premium_notebook-boxy5.webp",
+            "/products/premium_notebook-boxy/premium_notebook-boxy6.webp"
         ]
     },
     {
@@ -4856,16 +4856,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus1.webp",
+        "img": "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus2.webp",
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus3.webp",
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus4.webp",
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus5.webp",
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus6.webp"
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus2.webp",
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus3.webp",
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus4.webp",
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus5.webp",
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus6.webp"
         ]
     },
     {
@@ -4876,16 +4876,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook-piano/premium_notebook-piano1.webp",
+        "img": "/products/premium_notebook-piano/premium_notebook-piano1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook-piano/premium_notebook-piano2.webp",
-            "../src/assets/products/premium_notebook-piano/premium_notebook-piano3.webp",
-            "../src/assets/products/premium_notebook-piano/premium_notebook-piano4.webp",
-            "../src/assets/products/premium_notebook-piano/premium_notebook-piano5.webp",
-            "../src/assets/products/premium_notebook-piano/premium_notebook-piano6.webp"
+            "/products/premium_notebook-piano/premium_notebook-piano2.webp",
+            "/products/premium_notebook-piano/premium_notebook-piano3.webp",
+            "/products/premium_notebook-piano/premium_notebook-piano4.webp",
+            "/products/premium_notebook-piano/premium_notebook-piano5.webp",
+            "/products/premium_notebook-piano/premium_notebook-piano6.webp"
         ]
     },
     {
@@ -4896,16 +4896,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook-blox/premium_notebook-blox1.webp",
+        "img": "/products/premium_notebook-blox/premium_notebook-blox1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook-blox/premium_notebook-blox2.webp",
-            "../src/assets/products/premium_notebook-blox/premium_notebook-blox3.webp",
-            "../src/assets/products/premium_notebook-blox/premium_notebook-blox4.webp",
-            "../src/assets/products/premium_notebook-blox/premium_notebook-blox5.webp",
-            "../src/assets/products/premium_notebook-blox/premium_notebook-blox6.webp"
+            "/products/premium_notebook-blox/premium_notebook-blox2.webp",
+            "/products/premium_notebook-blox/premium_notebook-blox3.webp",
+            "/products/premium_notebook-blox/premium_notebook-blox4.webp",
+            "/products/premium_notebook-blox/premium_notebook-blox5.webp",
+            "/products/premium_notebook-blox/premium_notebook-blox6.webp"
         ]
     },
     {
@@ -4916,16 +4916,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/colors_neo/colors_neo1.webp",
+        "img": "/products/colors_neo/colors_neo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/colors_neo/colors_neo2.webp",
-            "../src/assets/products/colors_neo/colors_neo3.webp",
-            "../src/assets/products/colors_neo/colors_neo4.webp",
-            "../src/assets/products/colors_neo/colors_neo5.webp",
-            "../src/assets/products/colors_neo/colors_neo6.webp"
+            "/products/colors_neo/colors_neo2.webp",
+            "/products/colors_neo/colors_neo3.webp",
+            "/products/colors_neo/colors_neo4.webp",
+            "/products/colors_neo/colors_neo5.webp",
+            "/products/colors_neo/colors_neo6.webp"
         ]
     },
     {
@@ -4936,16 +4936,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro1.webp",
+        "img": "/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro2.webp",
-            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro3.webp",
-            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro4.webp",
-            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro5.webp",
-            "../src/assets/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro6.webp"
+            "/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro2.webp",
+            "/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro3.webp",
+            "/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro4.webp",
+            "/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro5.webp",
+            "/products/premium_notebook_-_zigy_pro/premium_notebook_-_zigy_pro6.webp"
         ]
     },
     {
@@ -4956,16 +4956,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco1.webp",
+        "img": "/products/premium_notebook_-_croco/premium_notebook_-_croco1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco2.webp",
-            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco3.webp",
-            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco4.webp",
-            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco5.webp",
-            "../src/assets/products/premium_notebook_-_croco/premium_notebook_-_croco6.webp"
+            "/products/premium_notebook_-_croco/premium_notebook_-_croco2.webp",
+            "/products/premium_notebook_-_croco/premium_notebook_-_croco3.webp",
+            "/products/premium_notebook_-_croco/premium_notebook_-_croco4.webp",
+            "/products/premium_notebook_-_croco/premium_notebook_-_croco5.webp",
+            "/products/premium_notebook_-_croco/premium_notebook_-_croco6.webp"
         ]
     },
     {
@@ -4976,16 +4976,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap1.webp",
+        "img": "/products/premium_notebook_-_flap/premium_notebook_-_flap1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap2.webp",
-            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap3.webp",
-            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap4.webp",
-            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap5.webp",
-            "../src/assets/products/premium_notebook_-_flap/premium_notebook_-_flap6.webp"
+            "/products/premium_notebook_-_flap/premium_notebook_-_flap2.webp",
+            "/products/premium_notebook_-_flap/premium_notebook_-_flap3.webp",
+            "/products/premium_notebook_-_flap/premium_notebook_-_flap4.webp",
+            "/products/premium_notebook_-_flap/premium_notebook_-_flap5.webp",
+            "/products/premium_notebook_-_flap/premium_notebook_-_flap6.webp"
         ]
     },
     {
@@ -4996,16 +4996,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion1.webp",
+        "img": "/products/premium_notebook_-_fusion/premium_notebook_-_fusion1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion2.webp",
-            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion3.webp",
-            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion4.webp",
-            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion5.webp",
-            "../src/assets/products/premium_notebook_-_fusion/premium_notebook_-_fusion6.webp"
+            "/products/premium_notebook_-_fusion/premium_notebook_-_fusion2.webp",
+            "/products/premium_notebook_-_fusion/premium_notebook_-_fusion3.webp",
+            "/products/premium_notebook_-_fusion/premium_notebook_-_fusion4.webp",
+            "/products/premium_notebook_-_fusion/premium_notebook_-_fusion5.webp",
+            "/products/premium_notebook_-_fusion/premium_notebook_-_fusion6.webp"
         ]
     },
     {
@@ -5016,17 +5016,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey1.webp",
+        "img": "/products/premium_notebook_-_jutey/premium_notebook_-_jutey1.webp",
         "designSpecifications": [
             "Jute Feel Notebook, thinkPrint, 48201090, Beige, 14.8x20.6x1.4cm, Faux Leather Jute Feel, 250g, 5x5cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey2.webp",
-            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey3.webp",
-            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey4.webp",
-            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey5.webp",
-            "../src/assets/products/premium_notebook_-_jutey/premium_notebook_-_jutey6.webp"
+            "/products/premium_notebook_-_jutey/premium_notebook_-_jutey2.webp",
+            "/products/premium_notebook_-_jutey/premium_notebook_-_jutey3.webp",
+            "/products/premium_notebook_-_jutey/premium_notebook_-_jutey4.webp",
+            "/products/premium_notebook_-_jutey/premium_notebook_-_jutey5.webp",
+            "/products/premium_notebook_-_jutey/premium_notebook_-_jutey6.webp"
         ]
     },
     {
@@ -5037,17 +5037,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy1.webp",
+        "img": "/products/premium_notebook_-_softy/premium_notebook_-_softy1.webp",
         "designSpecifications": [
             "Softy Notebook, thinkPrint, 48201090, Assorted, 14.9x20.6x1.4cm, Faux Leather, 250g, 5x5cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy2.webp",
-            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy3.webp",
-            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy4.webp",
-            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy5.webp",
-            "../src/assets/products/premium_notebook_-_softy/premium_notebook_-_softy6.webp"
+            "/products/premium_notebook_-_softy/premium_notebook_-_softy2.webp",
+            "/products/premium_notebook_-_softy/premium_notebook_-_softy3.webp",
+            "/products/premium_notebook_-_softy/premium_notebook_-_softy4.webp",
+            "/products/premium_notebook_-_softy/premium_notebook_-_softy5.webp",
+            "/products/premium_notebook_-_softy/premium_notebook_-_softy6.webp"
         ]
     },
     {
@@ -5058,17 +5058,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge1.webp",
+        "img": "/products/premium_notebook_-_edge/premium_notebook_-_edge1.webp",
         "designSpecifications": [
             "EDGE Notebook, thinkPrint, 48201000, Black, 14.5*21.5*1.5cm, Faux Leather, 350g, 5x5cm, Debossing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge2.webp",
-            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge3.webp",
-            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge4.webp",
-            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge5.webp",
-            "../src/assets/products/premium_notebook_-_edge/premium_notebook_-_edge6.webp"
+            "/products/premium_notebook_-_edge/premium_notebook_-_edge2.webp",
+            "/products/premium_notebook_-_edge/premium_notebook_-_edge3.webp",
+            "/products/premium_notebook_-_edge/premium_notebook_-_edge4.webp",
+            "/products/premium_notebook_-_edge/premium_notebook_-_edge5.webp",
+            "/products/premium_notebook_-_edge/premium_notebook_-_edge6.webp"
         ]
     },
     {
@@ -5079,7 +5079,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_color/premium_notebook_-_color1.webp",
+        "img": "/products/premium_notebook_-_color/premium_notebook_-_color1.webp",
         "designSpecifications": [
             "Notebook, thinkPrint, 482010, Gray, A5 (148 x 210 mm), Premium Italian Leatherette, 250g, 50 x 50 mm, Engraved, N/A, N/A, N/A",
             "Logo Color Matches Elastic Band",
@@ -5088,9 +5088,9 @@ export const products = [
             "Cover Material - Premium Italian Leatherette"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_color/premium_notebook_-_color2.webp",
-            "../src/assets/products/premium_notebook_-_color/premium_notebook_-_color3.webp",
-            "../src/assets/products/premium_notebook_-_color/premium_notebook_-_color4.webp"
+            "/products/premium_notebook_-_color/premium_notebook_-_color2.webp",
+            "/products/premium_notebook_-_color/premium_notebook_-_color3.webp",
+            "/products/premium_notebook_-_color/premium_notebook_-_color4.webp"
         ]
     },
     {
@@ -5101,17 +5101,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element1.webp",
+        "img": "/products/premium_notebook_-_element/premium_notebook_-_element1.webp",
         "designSpecifications": [
             "Element Notebook, thinkPrint, 482090, Charcoal Black, 15.5*21*1.7cm, Double PU Faux Leather, 350g, 5x5cm (back cover), Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element2.webp",
-            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element3.webp",
-            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element4.webp",
-            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element5.webp",
-            "../src/assets/products/premium_notebook_-_element/premium_notebook_-_element6.webp"
+            "/products/premium_notebook_-_element/premium_notebook_-_element2.webp",
+            "/products/premium_notebook_-_element/premium_notebook_-_element3.webp",
+            "/products/premium_notebook_-_element/premium_notebook_-_element4.webp",
+            "/products/premium_notebook_-_element/premium_notebook_-_element5.webp",
+            "/products/premium_notebook_-_element/premium_notebook_-_element6.webp"
         ]
     },
     {
@@ -5122,16 +5122,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle1.webp",
+        "img": "/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle1.webp",
         "designSpecifications": [
             "UG NAME WRINKLE, thinkPrint, 482090, Brown, 16*22*1.5cm, High Quality Faux Leather, A5 Size Replaceable Diary, Laser Engraving, Elastic Band Closure",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle2.webp",
-            "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle3.webp",
-            "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle4.webp",
-            "../src/assets/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle5.webp"
+            "/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle2.webp",
+            "/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle3.webp",
+            "/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle4.webp",
+            "/products/premium_notebook_-_wrinkle/premium_notebook_-_wrinkle5.webp"
         ]
     },
     {
@@ -5142,16 +5142,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck1.webp",
+        "img": "/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck2.webp",
-            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck3.webp",
-            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck4.webp",
-            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck5.webp",
-            "../src/assets/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck6.webp"
+            "/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck2.webp",
+            "/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck3.webp",
+            "/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck4.webp",
+            "/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck5.webp",
+            "/products/premium_notebook_-_double_deck/premium_notebook_-_double_deck6.webp"
         ]
     },
     {
@@ -5162,16 +5162,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika1.webp",
+        "img": "/products/premium_notebook_-_trika/premium_notebook_-_trika1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika2.webp",
-            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika3.webp",
-            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika4.webp",
-            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika5.webp",
-            "../src/assets/products/premium_notebook_-_trika/premium_notebook_-_trika6.webp"
+            "/products/premium_notebook_-_trika/premium_notebook_-_trika2.webp",
+            "/products/premium_notebook_-_trika/premium_notebook_-_trika3.webp",
+            "/products/premium_notebook_-_trika/premium_notebook_-_trika4.webp",
+            "/products/premium_notebook_-_trika/premium_notebook_-_trika5.webp",
+            "/products/premium_notebook_-_trika/premium_notebook_-_trika6.webp"
         ]
     },
     {
@@ -5182,16 +5182,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/korsa_2.0/korsa_2.01.webp",
+        "img": "/products/korsa_2.0/korsa_2.01.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/korsa_2.0/korsa_2.02.webp",
-            "../src/assets/products/korsa_2.0/korsa_2.03.webp",
-            "../src/assets/products/korsa_2.0/korsa_2.04.webp",
-            "../src/assets/products/korsa_2.0/korsa_2.05.webp",
-            "../src/assets/products/korsa_2.0/korsa_2.06.webp"
+            "/products/korsa_2.0/korsa_2.02.webp",
+            "/products/korsa_2.0/korsa_2.03.webp",
+            "/products/korsa_2.0/korsa_2.04.webp",
+            "/products/korsa_2.0/korsa_2.05.webp",
+            "/products/korsa_2.0/korsa_2.06.webp"
         ]
     },
     {
@@ -5202,15 +5202,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook1.webp",
+        "img": "/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook2.webp",
-            "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook3.webp",
-            "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook4.webp",
-            "../src/assets/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook5.webp"
+            "/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook2.webp",
+            "/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook3.webp",
+            "/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook4.webp",
+            "/products/e_-_cork_notes_premium_eco_-_friendly_notebook/e_-_cork_notes_premium_eco_-_friendly_notebook5.webp"
         ]
     },
     {
@@ -5221,16 +5221,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook1.webp",
+        "img": "/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook2.webp",
-            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook3.webp",
-            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook4.webp",
-            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook5.webp",
-            "../src/assets/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook6.webp"
+            "/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook2.webp",
+            "/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook3.webp",
+            "/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook4.webp",
+            "/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook5.webp",
+            "/products/ecokraft-premium_eco-friendly_notebook/ecokraft-premium_eco-friendly_notebook6.webp"
         ]
     },
     {
@@ -5241,16 +5241,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.01.webp",
+        "img": "/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.01.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.02.webp",
-            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.03.webp",
-            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.04.webp",
-            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.05.webp",
-            "../src/assets/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.06.webp"
+            "/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.02.webp",
+            "/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.03.webp",
+            "/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.04.webp",
+            "/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.05.webp",
+            "/products/notebook_-_hardy_plus_2.0/notebook_-_hardy_plus_2.06.webp"
         ]
     },
     {
@@ -5261,16 +5261,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/vogue_-_note_book/vogue_-_note_book1.webp",
+        "img": "/products/vogue_-_note_book/vogue_-_note_book1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/vogue_-_note_book/vogue_-_note_book2.webp",
-            "../src/assets/products/vogue_-_note_book/vogue_-_note_book3.webp",
-            "../src/assets/products/vogue_-_note_book/vogue_-_note_book4.webp",
-            "../src/assets/products/vogue_-_note_book/vogue_-_note_book5.webp",
-            "../src/assets/products/vogue_-_note_book/vogue_-_note_book6.webp"
+            "/products/vogue_-_note_book/vogue_-_note_book2.webp",
+            "/products/vogue_-_note_book/vogue_-_note_book3.webp",
+            "/products/vogue_-_note_book/vogue_-_note_book4.webp",
+            "/products/vogue_-_note_book/vogue_-_note_book5.webp",
+            "/products/vogue_-_note_book/vogue_-_note_book6.webp"
         ]
     },
     {
@@ -5281,15 +5281,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook1.webp",
+        "img": "/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook2.webp",
-            "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook3.webp",
-            "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook4.webp",
-            "../src/assets/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook5.webp"
+            "/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook2.webp",
+            "/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook3.webp",
+            "/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook4.webp",
+            "/products/book_with_pen_holder_-_wytbook/book_with_pen_holder_-_wytbook5.webp"
         ]
     },
     {
@@ -5300,16 +5300,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon1.webp",
+        "img": "/products/premium_note_book_-_neon/premium_note_book_-_neon1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon2.webp",
-            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon3.webp",
-            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon4.webp",
-            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon5.webp",
-            "../src/assets/products/premium_note_book_-_neon/premium_note_book_-_neon6.webp"
+            "/products/premium_note_book_-_neon/premium_note_book_-_neon2.webp",
+            "/products/premium_note_book_-_neon/premium_note_book_-_neon3.webp",
+            "/products/premium_note_book_-_neon/premium_note_book_-_neon4.webp",
+            "/products/premium_note_book_-_neon/premium_note_book_-_neon5.webp",
+            "/products/premium_note_book_-_neon/premium_note_book_-_neon6.webp"
         ]
     },
     {
@@ -5320,16 +5320,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor1.webp",
+        "img": "/products/note_books_-_vibgyor/note_books_-_vibgyor1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor2.webp",
-            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor3.webp",
-            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor4.webp",
-            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor5.webp",
-            "../src/assets/products/note_books_-_vibgyor/note_books_-_vibgyor6.webp"
+            "/products/note_books_-_vibgyor/note_books_-_vibgyor2.webp",
+            "/products/note_books_-_vibgyor/note_books_-_vibgyor3.webp",
+            "/products/note_books_-_vibgyor/note_books_-_vibgyor4.webp",
+            "/products/note_books_-_vibgyor/note_books_-_vibgyor5.webp",
+            "/products/note_books_-_vibgyor/note_books_-_vibgyor6.webp"
         ]
     },
     {
@@ -5340,16 +5340,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus1.webp",
+        "img": "/products/notebook_-_hardy_plus/notebook_-_hardy_plus1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus2.webp",
-            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus3.webp",
-            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus4.webp",
-            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus5.webp",
-            "../src/assets/products/notebook_-_hardy_plus/notebook_-_hardy_plus6.webp"
+            "/products/notebook_-_hardy_plus/notebook_-_hardy_plus2.webp",
+            "/products/notebook_-_hardy_plus/notebook_-_hardy_plus3.webp",
+            "/products/notebook_-_hardy_plus/notebook_-_hardy_plus4.webp",
+            "/products/notebook_-_hardy_plus/notebook_-_hardy_plus5.webp",
+            "/products/notebook_-_hardy_plus/notebook_-_hardy_plus6.webp"
         ]
     },
     {
@@ -5360,7 +5360,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/notebook_-_hardy/notebook_-_hardy1.webp",
+        "img": "/products/notebook_-_hardy/notebook_-_hardy1.webp",
         "designSpecifications": [
             "HARDY Notebook, thinkPrint, 482010, Black, A5 (148 x 210 mm), Hardbound, 250g",
             "HARDY Notebook, thinkPrint, 482010, Black, 70 Sheets (140 Pages), 70 GSM Paper, N/A",
@@ -5369,11 +5369,11 @@ export const products = [
             "HARDY Notebook, thinkPrint, 482010, Black, Cover: Black PU Leather, Paper: White/Cream, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/notebook_-_hardy/notebook_-_hardy2.webp",
-            "../src/assets/products/notebook_-_hardy/notebook_-_hardy3.webp",
-            "../src/assets/products/notebook_-_hardy/notebook_-_hardy4.webp",
-            "../src/assets/products/notebook_-_hardy/notebook_-_hardy5.webp",
-            "../src/assets/products/notebook_-_hardy/notebook_-_hardy6.webp"
+            "/products/notebook_-_hardy/notebook_-_hardy2.webp",
+            "/products/notebook_-_hardy/notebook_-_hardy3.webp",
+            "/products/notebook_-_hardy/notebook_-_hardy4.webp",
+            "/products/notebook_-_hardy/notebook_-_hardy5.webp",
+            "/products/notebook_-_hardy/notebook_-_hardy6.webp"
         ]
     },
     {
@@ -5384,17 +5384,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/stripes/stripes1.webp",
+        "img": "/products/stripes/stripes1.webp",
         "designSpecifications": [
             "STRIPES Premium Notebook, thinkPrint, 48202000, Assorted, 14.5 x 21 cm, Faux Leather, 300g, 5 x 2 cm, Debossing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stripes/stripes2.webp",
-            "../src/assets/products/stripes/stripes3.webp",
-            "../src/assets/products/stripes/stripes4.webp",
-            "../src/assets/products/stripes/stripes5.webp",
-            "../src/assets/products/stripes/stripes6.webp"
+            "/products/stripes/stripes2.webp",
+            "/products/stripes/stripes3.webp",
+            "/products/stripes/stripes4.webp",
+            "/products/stripes/stripes5.webp",
+            "/products/stripes/stripes6.webp"
         ]
     },
     {
@@ -5405,17 +5405,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books1.webp",
+        "img": "/products/kriss_premium_note_books/kriss_premium_note_books1.webp",
         "designSpecifications": [
             "KRISS Premium Notebook, thinkPrint, 48201090, Undefined, 15.2*21*1.2cm, Soft Bound PU, Undefined, 4x4 cm, Foil Stamping, No, No, No.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books2.webp",
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books3.webp",
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books4.webp",
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books5.webp",
-            "../src/assets/products/kriss_premium_note_books/kriss_premium_note_books6.webp"
+            "/products/kriss_premium_note_books/kriss_premium_note_books2.webp",
+            "/products/kriss_premium_note_books/kriss_premium_note_books3.webp",
+            "/products/kriss_premium_note_books/kriss_premium_note_books4.webp",
+            "/products/kriss_premium_note_books/kriss_premium_note_books5.webp",
+            "/products/kriss_premium_note_books/kriss_premium_note_books6.webp"
         ]
     },
     {
@@ -5426,17 +5426,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook-athena/premium_notebook-athena1.webp",
+        "img": "/products/premium_notebook-athena/premium_notebook-athena1.webp",
         "designSpecifications": [
             "ATHENA Notebook, thinkPrint, 48201010, Undefined, 15.5x21x1.5cm, Vegan Leather, Undefined, Undefined, Debossing, Undefined, Undefined, Undefined.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena2.webp",
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena3.webp",
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena4.webp",
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena5.webp",
-            "../src/assets/products/premium_notebook-athena/premium_notebook-athena6.webp"
+            "/products/premium_notebook-athena/premium_notebook-athena2.webp",
+            "/products/premium_notebook-athena/premium_notebook-athena3.webp",
+            "/products/premium_notebook-athena/premium_notebook-athena4.webp",
+            "/products/premium_notebook-athena/premium_notebook-athena5.webp",
+            "/products/premium_notebook-athena/premium_notebook-athena6.webp"
         ]
     },
     {
@@ -5447,17 +5447,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus1.webp",
+        "img": "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus1.webp",
         "designSpecifications": [
             "CYRUS, thinkPrint, 48201010, Undefined, 15.2x21x1.5cm, Faux Leather, Undefined, Undefined, Undefined, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus2.webp",
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus3.webp",
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus4.webp",
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus5.webp",
-            "../src/assets/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus6.webp"
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus2.webp",
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus3.webp",
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus4.webp",
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus5.webp",
+            "/products/premium_notebook_-_cyrus/premium_notebook_-_cyrus6.webp"
         ]
     },
     {
@@ -5468,15 +5468,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook1.webp",
+        "img": "/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook2.webp",
-            "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook3.webp",
-            "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook4.webp",
-            "../src/assets/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook5.webp"
+            "/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook2.webp",
+            "/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook3.webp",
+            "/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook4.webp",
+            "/products/eco_notes-_premium_eco-friendly_notebook/eco_notes-_premium_eco-friendly_notebook5.webp"
         ]
     },
     {
@@ -5487,17 +5487,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus1.webp",
+        "img": "/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus1.webp",
         "designSpecifications": [
             "BASIC PLUS, thinkPrint, 482010, Grey, A5 (148 x 210 mm), Soft Bound, 250g, 50 x 50 mm (Back Cover), Screen Printing, No RGB Lighting Effects, No Speaker Output, No Battery.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus2.webp",
-            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus3.webp",
-            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus4.webp",
-            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus5.webp",
-            "../src/assets/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus6.webp"
+            "/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus2.webp",
+            "/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus3.webp",
+            "/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus4.webp",
+            "/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus5.webp",
+            "/products/premium_note_book_-_basic_plus/premium_note_book_-_basic_plus6.webp"
         ]
     },
     {
@@ -5508,15 +5508,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic1.webp",
+        "img": "/products/premium_note_book_-_basic/premium_note_book_-_basic1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic2.webp",
-            "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic3.webp",
-            "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic4.webp",
-            "../src/assets/products/premium_note_book_-_basic/premium_note_book_-_basic5.webp"
+            "/products/premium_note_book_-_basic/premium_note_book_-_basic2.webp",
+            "/products/premium_note_book_-_basic/premium_note_book_-_basic3.webp",
+            "/products/premium_note_book_-_basic/premium_note_book_-_basic4.webp",
+            "/products/premium_note_book_-_basic/premium_note_book_-_basic5.webp"
         ]
     },
     {
@@ -5527,16 +5527,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.01.webp",
+        "img": "/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.01.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.02.webp",
-            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.03.webp",
-            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.04.webp",
-            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.05.webp",
-            "../src/assets/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.06.webp"
+            "/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.02.webp",
+            "/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.03.webp",
+            "/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.04.webp",
+            "/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.05.webp",
+            "/products/refillable_travel_journal_-_traveller_2.0/refillable_travel_journal_-_traveller_2.06.webp"
         ]
     },
     {
@@ -5547,16 +5547,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal1.webp",
+        "img": "/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal2.webp",
-            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal3.webp",
-            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal4.webp",
-            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal5.webp",
-            "../src/assets/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal6.webp"
+            "/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal2.webp",
+            "/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal3.webp",
+            "/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal4.webp",
+            "/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal5.webp",
+            "/products/refillable_travel_journal_-_regal/refillable_travel_journal_-_regal6.webp"
         ]
     },
     {
@@ -5567,15 +5567,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller1.webp",
+        "img": "/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller2.webp",
-            "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller3.webp",
-            "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller4.webp",
-            "../src/assets/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller5.webp"
+            "/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller2.webp",
+            "/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller3.webp",
+            "/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller4.webp",
+            "/products/refillable_travel_journal_-_traveller/refillable_travel_journal_-_traveller5.webp"
         ]
     },
     {
@@ -5586,14 +5586,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)1.webp",
+        "img": "/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)2.webp",
-            "../src/assets/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)3.webp",
-            "../src/assets/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)4.webp"
+            "/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)2.webp",
+            "/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)3.webp",
+            "/products/power_bank_diary_-_powrbook_2.0_(usb)/power_bank_diary_-_powrbook_2.0_(usb)4.webp"
         ]
     },
     {
@@ -5604,15 +5604,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "NOTEPADS & DIARIES",
-        "img": "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power1.webp",
+        "img": "/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power2.webp",
-            "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power3.webp",
-            "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power4.webp",
-            "../src/assets/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power5.webp"
+            "/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power2.webp",
+            "/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power3.webp",
+            "/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power4.webp",
+            "/products/power_bank_diary_-_heritage_power/power_bank_diary_-_heritage_power5.webp"
         ]
     },
     {
@@ -5623,13 +5623,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/digital_kit/digital_kit1.webp",
+        "img": "/products/digital_kit/digital_kit1.webp",
         "designSpecifications": [
             "Digital Kit, thinkPrint, 48201090, Black, 25cm x 18cm x 8cm, Nylon, 450g, 5cm x 5cm, Screen Printing, No RGB Lighting, 3W, 500 mAh.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/digital_kit/digital_kit2.webp"
+            "/products/digital_kit/digital_kit2.webp"
         ]
     },
     {
@@ -5640,7 +5640,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/travel_gift_set/travel_gift_set1.webp",
+        "img": "/products/travel_gift_set/travel_gift_set1.webp",
         "designSpecifications": [
             "Tech Pouch - Digi Pro, thinkPrint, 42021250, Grey, 25cm x 18cm x 5cm, 600D Polyester, 200g, 8cm x 5cm, Screen Printing, None, N/A, N/A",
             "Bluetooth Speaker - Buzz, thinkPrint, 85182100, Black, 8cm Diameter x 4cm, ABS Plastic, 150g, 3cm x 2cm, Pad Printing, None, 3W, 500 mAh",
@@ -5649,7 +5649,7 @@ export const products = [
             "Powerbank 10k mAh Charge-X, thinkPrint, 85076000, Black, 14cm x 7cm x 1.5cm, Aluminium Alloy, 250g, 5cm x 2cm, Laser Engraving, None, N/A, 10000 mAh"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_gift_set/travel_gift_set2.webp"
+            "/products/travel_gift_set/travel_gift_set2.webp"
         ]
     },
     {
@@ -5660,14 +5660,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/travel_gift_set/travel_gift_set1.webp",
+        "img": "/products/travel_gift_set/travel_gift_set1.webp",
         "designSpecifications": [
             "Dazzle Lamp + Charger, thinkPrint, 85131000, Black, 15cm x 5cm x 5cm, ABS Plastic, 200g, 3cm x 3cm, Laser Engraving, Rainbow Cycle, N/A, 2000mAh.",
             "Sonic 3-in-1 Charging Cable, thinkPrint, 85444290, Grey, 15cm length, Braided Nylon, 50g, 1cm x 1cm, Pad Printing, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_gift_set/travel_gift_set2.webp"
+            "/products/travel_gift_set/travel_gift_set2.webp"
         ]
     },
     {
@@ -5678,7 +5678,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/rose_bottle/rose_bottle1.webp",
+        "img": "/products/rose_bottle/rose_bottle1.webp",
         "designSpecifications": [
             "Rose Bottle, thinkPrint, 48201090, Rose Gold, 250mm Height x 70mm Diameter, Stainless Steel, 300g, 50mm x 30mm, Laser Engraving, None, None, None",
             "Hardy Series Notebook, thinkPrint, 48201090, Charcoal Gray, A5 (148mm x 210mm), Hardcover, 250g, 80mm x 30mm, Debossing, None, None, None",
@@ -5687,11 +5687,11 @@ export const products = [
             "Hardy Series Notebook, thinkPrint, 48201090, Forest Green, A5 (148mm x 210mm), Hardcover, 250g, 80mm x 30mm, Screen Printing, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/rose_bottle/rose_bottle2.webp",
-            "../src/assets/products/rose_bottle/rose_bottle3.webp",
-            "../src/assets/products/rose_bottle/rose_bottle4.webp",
-            "../src/assets/products/rose_bottle/rose_bottle5.webp",
-            "../src/assets/products/rose_bottle/rose_bottle6.webp"
+            "/products/rose_bottle/rose_bottle2.webp",
+            "/products/rose_bottle/rose_bottle3.webp",
+            "/products/rose_bottle/rose_bottle4.webp",
+            "/products/rose_bottle/rose_bottle5.webp",
+            "/products/rose_bottle/rose_bottle6.webp"
         ]
     },
     {
@@ -5702,7 +5702,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set1.webp",
+        "img": "/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set1.webp",
         "designSpecifications": [
             "Zeta Bottle, thinkPrint, 39241010, Charcoal Grey, 250mm x 75mm, Tritan Plastic, 300g, 50mm x 30mm, Laser Engraving, None, None, None",
             "Mini Mug, thinkPrint, 69111000, Matte Black, 80mm x 60mm, Ceramic, 150g, 30mm x 20mm, Pad Printing, None, None, None",
@@ -5711,11 +5711,11 @@ export const products = [
             "Zeta Dri N Kwar E Set, thinkPrint, 73239100, Slate Grey, 280mm x 160mm x 80mm, Cardboard, 800g, 60mm x 40mm, Full Color Print, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set2.webp",
-            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set3.webp",
-            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set4.webp",
-            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set5.webp",
-            "../src/assets/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set6.webp"
+            "/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set2.webp",
+            "/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set3.webp",
+            "/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set4.webp",
+            "/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set5.webp",
+            "/products/zeta_dri_n_kwar_e_set/zeta_dri_n_kwar_e_set6.webp"
         ]
     },
     {
@@ -5726,7 +5726,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/zeta_gift_set/zeta_gift_set1.webp",
+        "img": "/products/zeta_gift_set/zeta_gift_set1.webp",
         "designSpecifications": [
             "Zeta Bottle, thinkPrint, GS07, Matte Black, 250mm Height, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Kone Mug, thinkPrint, GS07, Ceramic White, 95mm Height, Ceramic, 350g, 40mm x 40mm, Pad Printing, N/A, N/A, N/A",
@@ -5735,11 +5735,11 @@ export const products = [
             "Venice Pen, thinkPrint, GS07, Gunmetal, 140mm Length, Aluminum, 25g, 40mm x 5mm, Laser Engraving, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/zeta_gift_set/zeta_gift_set2.webp",
-            "../src/assets/products/zeta_gift_set/zeta_gift_set3.webp",
-            "../src/assets/products/zeta_gift_set/zeta_gift_set4.webp",
-            "../src/assets/products/zeta_gift_set/zeta_gift_set5.webp",
-            "../src/assets/products/zeta_gift_set/zeta_gift_set6.webp"
+            "/products/zeta_gift_set/zeta_gift_set2.webp",
+            "/products/zeta_gift_set/zeta_gift_set3.webp",
+            "/products/zeta_gift_set/zeta_gift_set4.webp",
+            "/products/zeta_gift_set/zeta_gift_set5.webp",
+            "/products/zeta_gift_set/zeta_gift_set6.webp"
         ]
     },
     {
@@ -5750,16 +5750,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/mexico_gift_set/mexico_gift_set1.webp",
+        "img": "/products/mexico_gift_set/mexico_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/mexico_gift_set/mexico_gift_set2.webp",
-            "../src/assets/products/mexico_gift_set/mexico_gift_set3.webp",
-            "../src/assets/products/mexico_gift_set/mexico_gift_set4.webp",
-            "../src/assets/products/mexico_gift_set/mexico_gift_set5.webp",
-            "../src/assets/products/mexico_gift_set/mexico_gift_set6.webp"
+            "/products/mexico_gift_set/mexico_gift_set2.webp",
+            "/products/mexico_gift_set/mexico_gift_set3.webp",
+            "/products/mexico_gift_set/mexico_gift_set4.webp",
+            "/products/mexico_gift_set/mexico_gift_set5.webp",
+            "/products/mexico_gift_set/mexico_gift_set6.webp"
         ]
     },
     {
@@ -5770,16 +5770,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/rose_gir_set/rose_gir_set1.webp",
+        "img": "/products/rose_gir_set/rose_gir_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/rose_gir_set/rose_gir_set2.webp",
-            "../src/assets/products/rose_gir_set/rose_gir_set3.webp",
-            "../src/assets/products/rose_gir_set/rose_gir_set4.webp",
-            "../src/assets/products/rose_gir_set/rose_gir_set5.webp",
-            "../src/assets/products/rose_gir_set/rose_gir_set6.webp"
+            "/products/rose_gir_set/rose_gir_set2.webp",
+            "/products/rose_gir_set/rose_gir_set3.webp",
+            "/products/rose_gir_set/rose_gir_set4.webp",
+            "/products/rose_gir_set/rose_gir_set5.webp",
+            "/products/rose_gir_set/rose_gir_set6.webp"
         ]
     },
     {
@@ -5790,15 +5790,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/corky_mug_hamper/corky_mug_hamper1.webp",
+        "img": "/products/corky_mug_hamper/corky_mug_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/corky_mug_hamper/corky_mug_hamper2.webp",
-            "../src/assets/products/corky_mug_hamper/corky_mug_hamper3.webp",
-            "../src/assets/products/corky_mug_hamper/corky_mug_hamper4.webp",
-            "../src/assets/products/corky_mug_hamper/corky_mug_hamper5.webp"
+            "/products/corky_mug_hamper/corky_mug_hamper2.webp",
+            "/products/corky_mug_hamper/corky_mug_hamper3.webp",
+            "/products/corky_mug_hamper/corky_mug_hamper4.webp",
+            "/products/corky_mug_hamper/corky_mug_hamper5.webp"
         ]
     },
     {
@@ -5809,15 +5809,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/cardy4_gift_set/cardy4_gift_set1.webp",
+        "img": "/products/cardy4_gift_set/cardy4_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/cardy4_gift_set/cardy4_gift_set3.webp",
-            "../src/assets/products/cardy4_gift_set/cardy4_gift_set4.webp",
-            "../src/assets/products/cardy4_gift_set/cardy4_gift_set5.webp",
-            "../src/assets/products/cardy4_gift_set/cardy4_gift_set6.webp"
+            "/products/cardy4_gift_set/cardy4_gift_set3.webp",
+            "/products/cardy4_gift_set/cardy4_gift_set4.webp",
+            "/products/cardy4_gift_set/cardy4_gift_set5.webp",
+            "/products/cardy4_gift_set/cardy4_gift_set6.webp"
         ]
     },
     {
@@ -5828,15 +5828,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper1.webp",
+        "img": "/products/eco_rfid_hamper/eco_rfid_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper2.webp",
-            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper3.webp",
-            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper4.webp",
-            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper5.webp"
+            "/products/eco_rfid_hamper/eco_rfid_hamper2.webp",
+            "/products/eco_rfid_hamper/eco_rfid_hamper3.webp",
+            "/products/eco_rfid_hamper/eco_rfid_hamper4.webp",
+            "/products/eco_rfid_hamper/eco_rfid_hamper5.webp"
         ]
     },
     {
@@ -5847,7 +5847,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/eco_tees_hamper/eco_tees_hamper1.webp",
+        "img": "/products/eco_tees_hamper/eco_tees_hamper1.webp",
         "designSpecifications": [
             "Eco Tees T Shirt, thinkPrint, N/A, Forest Green, Varies by Size (S-XXL), Organic Cotton, 150-200g, 4\" x 4\", Screen Printing, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, N/A, Natural Bamboo, 14cm Length, Bamboo, 15g, 2\" x 0.5\", Laser Engraving, N/A, N/A, N/A",
@@ -5856,10 +5856,10 @@ export const products = [
             "Eco Tees Hamper, thinkPrint, N/A, Natural Kraft, 25cm x 20cm x 10cm, Recycled Cardboard, 800g, 6\" x 4\", Pad Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_tees_hamper/eco_tees_hamper2.webp",
-            "../src/assets/products/eco_tees_hamper/eco_tees_hamper3.webp",
-            "../src/assets/products/eco_tees_hamper/eco_tees_hamper4.webp",
-            "../src/assets/products/eco_tees_hamper/eco_tees_hamper5.webp"
+            "/products/eco_tees_hamper/eco_tees_hamper2.webp",
+            "/products/eco_tees_hamper/eco_tees_hamper3.webp",
+            "/products/eco_tees_hamper/eco_tees_hamper4.webp",
+            "/products/eco_tees_hamper/eco_tees_hamper5.webp"
         ]
     },
     {
@@ -5870,7 +5870,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/eco_korki_hamper/eco_korki_hamper1.webp",
+        "img": "/products/eco_korki_hamper/eco_korki_hamper1.webp",
         "designSpecifications": [
             "Grain Eco Bottle, thinkPrint, N/A, Natural, 25cm x 7cm, Stainless Steel/Bamboo, 300g, 5cm x 5cm, Laser Engraving, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, N/A, Natural, 15cm x 1cm, Bamboo, 20g, 3cm x 0.5cm, Laser Engraving, N/A, N/A, N/A",
@@ -5879,10 +5879,10 @@ export const products = [
             "Bamboo Keychain, thinkPrint, N/A, Natural, 8cm x 2cm, Bamboo, 15g, 2cm x 1cm, Laser Engraving, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_korki_hamper/eco_korki_hamper2.webp",
-            "../src/assets/products/eco_korki_hamper/eco_korki_hamper3.webp",
-            "../src/assets/products/eco_korki_hamper/eco_korki_hamper4.webp",
-            "../src/assets/products/eco_korki_hamper/eco_korki_hamper5.webp"
+            "/products/eco_korki_hamper/eco_korki_hamper2.webp",
+            "/products/eco_korki_hamper/eco_korki_hamper3.webp",
+            "/products/eco_korki_hamper/eco_korki_hamper4.webp",
+            "/products/eco_korki_hamper/eco_korki_hamper5.webp"
         ]
     },
     {
@@ -5893,7 +5893,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper1.webp",
+        "img": "/products/eco_rpet_hamper/eco_rpet_hamper1.webp",
         "designSpecifications": [
             "Ebony Flask, thinkPrint, 73239990, Ebony Black, 250mm x 70mm, Stainless Steel, 350g, 50mm x 30mm, Laser Engraving, None, None, None",
             "Rpet Book, thinkPrint, 48201090, Light Grey, A5 (210mm x 148mm), Recycled PET Fabric, 200g, 80mm x 40mm, Screen Printing, None, None, None",
@@ -5902,8 +5902,8 @@ export const products = [
             "Eco Rpet Hamper, thinkPrint, 48201090, Charcoal Grey, 300mm x 200mm x 100mm, Recycled PET Fabric, 500g, 100mm x 50mm, Embroidery, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper2.webp",
-            "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper3.webp"
+            "/products/eco_rpet_hamper/eco_rpet_hamper2.webp",
+            "/products/eco_rpet_hamper/eco_rpet_hamper3.webp"
         ]
     },
     {
@@ -5914,7 +5914,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/wheat_mug_hamper/wheat_mug_hamper1.webp",
+        "img": "/products/wheat_mug_hamper/wheat_mug_hamper1.webp",
         "designSpecifications": [
             "Wheat Eco Mug, thinkPrint, 48201090, Natural Wheat, 90mm x 120mm, Wheat Fiber Composite, 150g, 50mm x 50mm, Pad Printing, None, None, None",
             "Bamboo Pen, thinkPrint, 48201090, Natural Bamboo, 140mm x 12mm, Bamboo, 20g, 30mm x 6mm, Laser Engraving, None, None, None",
@@ -5923,7 +5923,7 @@ export const products = [
             "Cork Card Holder, thinkPrint, 48201090, Natural Cork, 100mm x 70mm, Cork, 40g, 40mm x 20mm, Debossing, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/wheat_mug_hamper/wheat_mug_hamper2.webp"
+            "/products/wheat_mug_hamper/wheat_mug_hamper2.webp"
         ]
     },
     {
@@ -5934,7 +5934,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/orion_gift_set/orion_gift_set1.webp",
+        "img": "/products/orion_gift_set/orion_gift_set1.webp",
         "designSpecifications": [
             "Orion Hot & Cold Flask, thinkPrint, 73239390, Matte Black, 26cm x 7cm diameter, 304 Stainless Steel, 350g, 5cm x 5cm, Laser Engraving, None, None, None",
             "Flap / Fusion Book, thinkPrint, 48201090, Navy Blue, A5 (21cm x 14.8cm), PU Leather, 300g, 8cm x 3cm, Debossing, None, None, None",
@@ -5943,11 +5943,11 @@ export const products = [
             "Vento Travel Mug, thinkPrint, 73239390, Gunmetal Grey, 18cm x 8cm diameter, 304 Stainless Steel, 280g, 5cm x 4cm, Pad Printing, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/orion_gift_set/orion_gift_set2.webp",
-            "../src/assets/products/orion_gift_set/orion_gift_set3.webp",
-            "../src/assets/products/orion_gift_set/orion_gift_set4.webp",
-            "../src/assets/products/orion_gift_set/orion_gift_set5.webp",
-            "../src/assets/products/orion_gift_set/orion_gift_set6.webp"
+            "/products/orion_gift_set/orion_gift_set2.webp",
+            "/products/orion_gift_set/orion_gift_set3.webp",
+            "/products/orion_gift_set/orion_gift_set4.webp",
+            "/products/orion_gift_set/orion_gift_set5.webp",
+            "/products/orion_gift_set/orion_gift_set6.webp"
         ]
     },
     {
@@ -5958,7 +5958,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set1.webp",
+        "img": "/products/electra_flip_gift_set/electra_flip_gift_set1.webp",
         "designSpecifications": [
             "Electra Flip SS Bottle, thinkPrint, 73239390, Silver, 2.75\" x 10.5\", Stainless Steel, 12 oz, 2\" x 4\", Laser Engraving, None, None, None",
             "Dual Book, thinkPrint, 48201090, Gray, 6\" x 8.5\", Cardboard, 8 oz, 4\" x 1\", Screen Printing, None, None, None",
@@ -5967,11 +5967,11 @@ export const products = [
             "Toby Travel Mug, thinkPrint, 73239390, Blue, 3.5\" x 7\", Stainless Steel, 10 oz, 2\" x 2\", Laser Engraving, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set2.webp",
-            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set3.webp",
-            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set4.webp",
-            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set5.webp",
-            "../src/assets/products/electra_flip_gift_set/electra_flip_gift_set6.webp"
+            "/products/electra_flip_gift_set/electra_flip_gift_set2.webp",
+            "/products/electra_flip_gift_set/electra_flip_gift_set3.webp",
+            "/products/electra_flip_gift_set/electra_flip_gift_set4.webp",
+            "/products/electra_flip_gift_set/electra_flip_gift_set5.webp",
+            "/products/electra_flip_gift_set/electra_flip_gift_set6.webp"
         ]
     },
     {
@@ -5982,12 +5982,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/zeta_gift_set/zeta_gift_set1.webp",
+        "img": "/products/zeta_gift_set/zeta_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/zeta_gift_set/zeta_gift_set2.webp"
+            "/products/zeta_gift_set/zeta_gift_set2.webp"
         ]
     },
     {
@@ -5998,14 +5998,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/magnetic_gift_sets/magnetic_gift_sets1.webp",
+        "img": "/products/magnetic_gift_sets/magnetic_gift_sets1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/magnetic_gift_sets/magnetic_gift_sets2.webp",
-            "../src/assets/products/magnetic_gift_sets/magnetic_gift_sets3.webp",
-            "../src/assets/products/magnetic_gift_sets/magnetic_gift_sets4.webp"
+            "/products/magnetic_gift_sets/magnetic_gift_sets2.webp",
+            "/products/magnetic_gift_sets/magnetic_gift_sets3.webp",
+            "/products/magnetic_gift_sets/magnetic_gift_sets4.webp"
         ]
     },
     {
@@ -6016,13 +6016,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/executive_hampers/executive_hampers1.webp",
+        "img": "/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_hampers/executive_hampers2.webp",
-            "../src/assets/products/executive_hampers/executive_hampers3.webp"
+            "/products/executive_hampers/executive_hampers2.webp",
+            "/products/executive_hampers/executive_hampers3.webp"
         ]
     },
     {
@@ -6033,13 +6033,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/executive_hampers/executive_hampers1.webp",
+        "img": "/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_hampers/executive_hampers2.webp",
-            "../src/assets/products/executive_hampers/executive_hampers3.webp"
+            "/products/executive_hampers/executive_hampers2.webp",
+            "/products/executive_hampers/executive_hampers3.webp"
         ]
     },
     {
@@ -6050,13 +6050,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/executive_hampers/executive_hampers1.webp",
+        "img": "/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_hampers/executive_hampers2.webp",
-            "../src/assets/products/executive_hampers/executive_hampers3.webp"
+            "/products/executive_hampers/executive_hampers2.webp",
+            "/products/executive_hampers/executive_hampers3.webp"
         ]
     },
     {
@@ -6067,16 +6067,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/ug_hm07/ug_hm071.webp",
+        "img": "/products/ug_hm07/ug_hm071.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/ug_hm07/ug_hm072.webp",
-            "../src/assets/products/ug_hm07/ug_hm073.webp",
-            "../src/assets/products/ug_hm07/ug_hm074.webp",
-            "../src/assets/products/ug_hm07/ug_hm075.webp",
-            "../src/assets/products/ug_hm07/ug_hm076.webp"
+            "/products/ug_hm07/ug_hm072.webp",
+            "/products/ug_hm07/ug_hm073.webp",
+            "/products/ug_hm07/ug_hm074.webp",
+            "/products/ug_hm07/ug_hm075.webp",
+            "/products/ug_hm07/ug_hm076.webp"
         ]
     },
     {
@@ -6087,7 +6087,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/executive_hampers/executive_hampers1.webp",
+        "img": "/products/executive_hampers/executive_hampers1.webp",
         "designSpecifications": [
             "Chill Bottle, thinkPrint, 48201090, White, 25cm Height x 7cm Diameter, Stainless Steel, 350g, 5cm x 5cm, Laser Engraving, None, None, None",
             "Cookie Mug, thinkPrint, 48201090, White, 12cm Height x 9cm Diameter, Ceramic, 400g, 4cm x 4cm, Pad Printing, None, None, None",
@@ -6096,8 +6096,8 @@ export const products = [
             "Stypen, thinkPrint, 48201090, White, 14cm Length x 1cm Diameter, Aluminum, 30g, 4cm x 0.5cm, Laser Engraving, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/executive_hampers/executive_hampers2.webp",
-            "../src/assets/products/executive_hampers/executive_hampers3.webp"
+            "/products/executive_hampers/executive_hampers2.webp",
+            "/products/executive_hampers/executive_hampers3.webp"
         ]
     },
     {
@@ -6108,13 +6108,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/ug-hm02/ug-hm021.webp",
+        "img": "/products/ug-hm02/ug-hm021.webp",
         "designSpecifications": [
             "GREY HAMPER, thinkPrint, 48201090, Grey, 18\" x 14\" x 24\", Canvas, 2 lbs, 4\" x 6\", Silkscreen, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/ug-hm02/ug-hm022.webp"
+            "/products/ug-hm02/ug-hm022.webp"
         ]
     },
     {
@@ -6125,16 +6125,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/orion_gift_set/orion_gift_set1.webp",
+        "img": "/products/orion_gift_set/orion_gift_set1.webp",
         "designSpecifications": [
             "Orion Gift Set, thinkPrint, 96170019, Black, 25 x 20 x 8 cm, Cardboard, 500g, 5 x 5 cm, Screen Print, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/orion_gift_set/orion_gift_set2.webp",
-            "../src/assets/products/orion_gift_set/orion_gift_set3.webp",
-            "../src/assets/products/orion_gift_set/orion_gift_set4.webp",
-            "../src/assets/products/orion_gift_set/orion_gift_set5.webp"
+            "/products/orion_gift_set/orion_gift_set2.webp",
+            "/products/orion_gift_set/orion_gift_set3.webp",
+            "/products/orion_gift_set/orion_gift_set4.webp",
+            "/products/orion_gift_set/orion_gift_set5.webp"
         ]
     },
     {
@@ -6145,17 +6145,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/orion_drinkware_set/orion_drinkware_set1.webp",
+        "img": "/products/orion_drinkware_set/orion_drinkware_set1.webp",
         "designSpecifications": [
             "Orion Drinkware Set, thinkPrint, 96170019, Matte Black, Bottle: 25cm height x 7cm diameter, Mug: 8cm height x 6cm diameter, Stainless Steel, Bottle: 350g, Mug: 150g, Bottle: 5cm x 3cm, Mug: 3cm x 2cm, Laser Engraving, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/orion_drinkware_set/orion_drinkware_set2.webp",
-            "../src/assets/products/orion_drinkware_set/orion_drinkware_set3.webp",
-            "../src/assets/products/orion_drinkware_set/orion_drinkware_set4.webp",
-            "../src/assets/products/orion_drinkware_set/orion_drinkware_set5.webp",
-            "../src/assets/products/orion_drinkware_set/orion_drinkware_set6.webp"
+            "/products/orion_drinkware_set/orion_drinkware_set2.webp",
+            "/products/orion_drinkware_set/orion_drinkware_set3.webp",
+            "/products/orion_drinkware_set/orion_drinkware_set4.webp",
+            "/products/orion_drinkware_set/orion_drinkware_set5.webp",
+            "/products/orion_drinkware_set/orion_drinkware_set6.webp"
         ]
     },
     {
@@ -6166,14 +6166,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/junior_eco_gift_set/junior_eco_gift_set1.webp",
+        "img": "/products/junior_eco_gift_set/junior_eco_gift_set1.webp",
         "designSpecifications": [
             "Junior Eco Gift Set, thinkPrint, 96170019, Natural Wood, 20cm x 15cm x 8cm, Recycled Cardboard, 350g, 5cm x 5cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/junior_eco_gift_set/junior_eco_gift_set2.webp",
-            "../src/assets/products/junior_eco_gift_set/junior_eco_gift_set3.webp"
+            "/products/junior_eco_gift_set/junior_eco_gift_set2.webp",
+            "/products/junior_eco_gift_set/junior_eco_gift_set3.webp"
         ]
     },
     {
@@ -6184,14 +6184,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/eco_gift_set/eco_gift_set1.webp",
+        "img": "/products/eco_gift_set/eco_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_gift_set/eco_gift_set2.webp",
-            "../src/assets/products/eco_gift_set/eco_gift_set3.webp",
-            "../src/assets/products/eco_gift_set/eco_gift_set4.webp"
+            "/products/eco_gift_set/eco_gift_set2.webp",
+            "/products/eco_gift_set/eco_gift_set3.webp",
+            "/products/eco_gift_set/eco_gift_set4.webp"
         ]
     },
     {
@@ -6202,16 +6202,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/festive_gift_set/festive_gift_set1.webp",
+        "img": "/products/festive_gift_set/festive_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/festive_gift_set/festive_gift_set2.webp",
-            "../src/assets/products/festive_gift_set/festive_gift_set3.webp",
-            "../src/assets/products/festive_gift_set/festive_gift_set4.webp",
-            "../src/assets/products/festive_gift_set/festive_gift_set5.webp",
-            "../src/assets/products/festive_gift_set/festive_gift_set6.webp"
+            "/products/festive_gift_set/festive_gift_set2.webp",
+            "/products/festive_gift_set/festive_gift_set3.webp",
+            "/products/festive_gift_set/festive_gift_set4.webp",
+            "/products/festive_gift_set/festive_gift_set5.webp",
+            "/products/festive_gift_set/festive_gift_set6.webp"
         ]
     },
     {
@@ -6222,15 +6222,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/travel_gift_set/travel_gift_set1.webp",
+        "img": "/products/travel_gift_set/travel_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/travel_gift_set/travel_gift_set2.webp",
-            "../src/assets/products/travel_gift_set/travel_gift_set3.webp",
-            "../src/assets/products/travel_gift_set/travel_gift_set4.webp",
-            "../src/assets/products/travel_gift_set/travel_gift_set5.webp"
+            "/products/travel_gift_set/travel_gift_set2.webp",
+            "/products/travel_gift_set/travel_gift_set3.webp",
+            "/products/travel_gift_set/travel_gift_set4.webp",
+            "/products/travel_gift_set/travel_gift_set5.webp"
         ]
     },
     {
@@ -6241,16 +6241,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/krono_gift_set/krono_gift_set1.webp",
+        "img": "/products/krono_gift_set/krono_gift_set1.webp",
         "designSpecifications": [
             "KRONO Gift Set, thinkPrint, 85437090, Black, 25 x 20 x 8 cm, Cardboard, 600g, 5 x 5 cm, Screen Printing, None, 3W, 1200mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/krono_gift_set/krono_gift_set2.webp",
-            "../src/assets/products/krono_gift_set/krono_gift_set3.webp",
-            "../src/assets/products/krono_gift_set/krono_gift_set4.webp",
-            "../src/assets/products/krono_gift_set/krono_gift_set5.webp"
+            "/products/krono_gift_set/krono_gift_set2.webp",
+            "/products/krono_gift_set/krono_gift_set3.webp",
+            "/products/krono_gift_set/krono_gift_set4.webp",
+            "/products/krono_gift_set/krono_gift_set5.webp"
         ]
     },
     {
@@ -6261,14 +6261,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/clint_gift_set/clint_gift_set1.webp",
+        "img": "/products/clint_gift_set/clint_gift_set1.webp",
         "designSpecifications": [
             "CLINT Gift Set, thinkPrint, 96170019, Black, Bottle: 25cm height, Mug: 7cm height, Speaker: 8cm diameter, Stainless Steel (Bottle & Mug), ABS Plastic (Speaker), 800g (total set), 5cm x 5cm (Speaker), Laser Engraving/Pad Printing, Single color indicator, 3W, 1200mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/clint_gift_set/clint_gift_set2.webp",
-            "../src/assets/products/clint_gift_set/clint_gift_set3.webp"
+            "/products/clint_gift_set/clint_gift_set2.webp",
+            "/products/clint_gift_set/clint_gift_set3.webp"
         ]
     },
     {
@@ -6279,15 +6279,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/clint_drinkware_set/clint_drinkware_set1.webp",
+        "img": "/products/clint_drinkware_set/clint_drinkware_set1.webp",
         "designSpecifications": [
             "CLINT Bottle, thinkPrint, 96170019, Black, 28cm x 8cm, Stainless Steel, 450g, 5cm x 5cm, Laser Engraving, No RGB Lighting Effects",
             "Mini Mug, thinkPrint, 96170019, Black, 8cm x 6cm, Ceramic, 250g, 3cm x 3cm, Pad Printing, No RGB Lighting Effects",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/clint_drinkware_set/clint_drinkware_set2.webp",
-            "../src/assets/products/clint_drinkware_set/clint_drinkware_set3.webp"
+            "/products/clint_drinkware_set/clint_drinkware_set2.webp",
+            "/products/clint_drinkware_set/clint_drinkware_set3.webp"
         ]
     },
     {
@@ -6298,7 +6298,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/zen_drinkware_set/zen_drinkware_set1.webp",
+        "img": "/products/zen_drinkware_set/zen_drinkware_set1.webp",
         "designSpecifications": [
             "ZEN 500 Bottle, thinkPrint, 96170019, Matte Black, 73mm diameter x 215mm height, Stainless Steel 304, 300g, 50mm x 50mm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
             "Lisbon Mug 2, thinkPrint, 96170019, Gloss White, 85mm diameter x 95mm height, Ceramic, 350g, 40mm x 60mm, Pad Printing, Not Applicable, Not Applicable, Not Applicable",
@@ -6307,11 +6307,11 @@ export const products = [
             "Lisbon Mug 2, thinkPrint, 96170019, Interior - White, 85mm diameter x 95mm height, Ceramic, 350g, Not Applicable, Not Applicable, Not Applicable, Not Applicable, Not Applicable"
         ],
         "thumbnailImages": [
-            "../src/assets/products/zen_drinkware_set/zen_drinkware_set2.webp",
-            "../src/assets/products/zen_drinkware_set/zen_drinkware_set3.webp",
-            "../src/assets/products/zen_drinkware_set/zen_drinkware_set4.webp",
-            "../src/assets/products/zen_drinkware_set/zen_drinkware_set5.webp",
-            "../src/assets/products/zen_drinkware_set/zen_drinkware_set6.webp"
+            "/products/zen_drinkware_set/zen_drinkware_set2.webp",
+            "/products/zen_drinkware_set/zen_drinkware_set3.webp",
+            "/products/zen_drinkware_set/zen_drinkware_set4.webp",
+            "/products/zen_drinkware_set/zen_drinkware_set5.webp",
+            "/products/zen_drinkware_set/zen_drinkware_set6.webp"
         ]
     },
     {
@@ -6322,17 +6322,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/zen_gift_set/zen_gift_set1.webp",
+        "img": "/products/zen_gift_set/zen_gift_set1.webp",
         "designSpecifications": [
             "ZEN Gift Set, thinkPrint, 96170019, Black, 25cm x 20cm x 10cm, Mixed, 1.2kg, 5cm x 5cm, Laser Engraving, None, 3W, 1200mAh",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/zen_gift_set/zen_gift_set2.webp",
-            "../src/assets/products/zen_gift_set/zen_gift_set3.webp",
-            "../src/assets/products/zen_gift_set/zen_gift_set4.webp",
-            "../src/assets/products/zen_gift_set/zen_gift_set5.webp",
-            "../src/assets/products/zen_gift_set/zen_gift_set6.webp"
+            "/products/zen_gift_set/zen_gift_set2.webp",
+            "/products/zen_gift_set/zen_gift_set3.webp",
+            "/products/zen_gift_set/zen_gift_set4.webp",
+            "/products/zen_gift_set/zen_gift_set5.webp",
+            "/products/zen_gift_set/zen_gift_set6.webp"
         ]
     },
     {
@@ -6343,17 +6343,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)1.webp",
+        "img": "/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)1.webp",
         "designSpecifications": [
             "EMPLOYEE ESSENTIAL KIT ORION COLLECTION, thinkPrint, 48201090, Assorted, 25cm x 20cm x 8cm, Cardboard, 800g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)2.webp",
-            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)3.webp",
-            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)4.webp",
-            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)5.webp",
-            "../src/assets/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)6.webp"
+            "/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)2.webp",
+            "/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)3.webp",
+            "/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)4.webp",
+            "/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)5.webp",
+            "/products/employee_essential_kit_orion_collection_(gift_set)/employee_essential_kit_orion_collection_(gift_set)6.webp"
         ]
     },
     {
@@ -6364,17 +6364,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)1.webp",
+        "img": "/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)1.webp",
         "designSpecifications": [
             "EMPLOYEE ESSENTIAL KIT, thinkPrint, 48201090, Black, 25cm x 18cm x 8cm, ABS Plastic, 500g, 5cm x 5cm, Laser Engraving, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)2.webp",
-            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)3.webp",
-            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)4.webp",
-            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)5.webp",
-            "../src/assets/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)6.webp"
+            "/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)2.webp",
+            "/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)3.webp",
+            "/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)4.webp",
+            "/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)5.webp",
+            "/products/employee_essential_kit_dual_collection_(gift_set)/employee_essential_kit_dual_collection_(gift_set)6.webp"
         ]
     },
     {
@@ -6385,16 +6385,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper1.webp",
+        "img": "/products/drinkware_gift_set-camper/drinkware_gift_set-camper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper2.webp",
-            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper3.webp",
-            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper4.webp",
-            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper5.webp",
-            "../src/assets/products/drinkware_gift_set-camper/drinkware_gift_set-camper6.webp"
+            "/products/drinkware_gift_set-camper/drinkware_gift_set-camper2.webp",
+            "/products/drinkware_gift_set-camper/drinkware_gift_set-camper3.webp",
+            "/products/drinkware_gift_set-camper/drinkware_gift_set-camper4.webp",
+            "/products/drinkware_gift_set-camper/drinkware_gift_set-camper5.webp",
+            "/products/drinkware_gift_set-camper/drinkware_gift_set-camper6.webp"
         ]
     },
     {
@@ -6405,16 +6405,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca1.webp",
+        "img": "/products/notebook_gift_set-roca/notebook_gift_set-roca1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca2.webp",
-            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca3.webp",
-            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca4.webp",
-            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca5.webp",
-            "../src/assets/products/notebook_gift_set-roca/notebook_gift_set-roca6.webp"
+            "/products/notebook_gift_set-roca/notebook_gift_set-roca2.webp",
+            "/products/notebook_gift_set-roca/notebook_gift_set-roca3.webp",
+            "/products/notebook_gift_set-roca/notebook_gift_set-roca4.webp",
+            "/products/notebook_gift_set-roca/notebook_gift_set-roca5.webp",
+            "/products/notebook_gift_set-roca/notebook_gift_set-roca6.webp"
         ]
     },
     {
@@ -6425,16 +6425,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree1.webp",
+        "img": "/products/drinkware_gift_set-degree/drinkware_gift_set-degree1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree2.webp",
-            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree3.webp",
-            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree4.webp",
-            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree5.webp",
-            "../src/assets/products/drinkware_gift_set-degree/drinkware_gift_set-degree6.webp"
+            "/products/drinkware_gift_set-degree/drinkware_gift_set-degree2.webp",
+            "/products/drinkware_gift_set-degree/drinkware_gift_set-degree3.webp",
+            "/products/drinkware_gift_set-degree/drinkware_gift_set-degree4.webp",
+            "/products/drinkware_gift_set-degree/drinkware_gift_set-degree5.webp",
+            "/products/drinkware_gift_set-degree/drinkware_gift_set-degree6.webp"
         ]
     },
     {
@@ -6445,14 +6445,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud1.webp",
+        "img": "/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud2.webp",
-            "../src/assets/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud3.webp",
-            "../src/assets/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud4.webp"
+            "/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud2.webp",
+            "/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud3.webp",
+            "/products/drinkware_gift_set-cloud/drinkware_gift_set-cloud4.webp"
         ]
     },
     {
@@ -6463,14 +6463,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/drinkware_gift_set-clint/drinkware_gift_set-clint1.webp",
+        "img": "/products/drinkware_gift_set-clint/drinkware_gift_set-clint1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/drinkware_gift_set-clint/drinkware_gift_set-clint2.webp",
-            "../src/assets/products/drinkware_gift_set-clint/drinkware_gift_set-clint3.webp",
-            "../src/assets/products/drinkware_gift_set-clint/drinkware_gift_set-clint4.webp"
+            "/products/drinkware_gift_set-clint/drinkware_gift_set-clint2.webp",
+            "/products/drinkware_gift_set-clint/drinkware_gift_set-clint3.webp",
+            "/products/drinkware_gift_set-clint/drinkware_gift_set-clint4.webp"
         ]
     },
     {
@@ -6481,16 +6481,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
+        "img": "/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set5.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set6.webp"
+            "/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set5.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set6.webp"
         ]
     },
     {
@@ -6501,7 +6501,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
+        "img": "/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
         "designSpecifications": [
             "Bottle-Sigma Pro, thinkPrint, N/A, Matte Black, 25cm height x 7cm diameter, Stainless Steel, 350g, 5cm x 5cm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Primo, thinkPrint, 482010, Charcoal Grey, A5 (14.8cm x 21cm), Faux Leather, 250g, 8cm x 3cm, Debossing, N/A, N/A, N/A",
@@ -6510,10 +6510,10 @@ export const products = [
             "thinkPrint, thinkPrint, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set5.webp"
+            "/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set5.webp"
         ]
     },
     {
@@ -6524,7 +6524,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set1.webp",
+        "img": "/products/7-in-1_gift_set/7-in-1_gift_set1.webp",
         "designSpecifications": [
             "Bottle-Orion, thinkPrint, 482010, Matte Black, 250mm Height x 75mm Diameter, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Hardy Plus, thinkPrint, 482010, Navy Blue, A5 (210mm x 148mm), Faux Leather, 400g, 80mm x 30mm, Debossing, N/A, N/A, N/A",
@@ -6533,11 +6533,11 @@ export const products = [
             "Key Chain-PU Key Chain, thinkPrint, 482010, Brown, 90mm Length x 30mm Width, PU Leather, 30g, 20mm x 10mm, Embossing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set2.webp",
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set3.webp",
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set4.webp",
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set5.webp",
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set6.webp"
+            "/products/7-in-1_gift_set/7-in-1_gift_set2.webp",
+            "/products/7-in-1_gift_set/7-in-1_gift_set3.webp",
+            "/products/7-in-1_gift_set/7-in-1_gift_set4.webp",
+            "/products/7-in-1_gift_set/7-in-1_gift_set5.webp",
+            "/products/7-in-1_gift_set/7-in-1_gift_set6.webp"
         ]
     },
     {
@@ -6548,7 +6548,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
+        "img": "/products/3-in-1_gift_set/3-in-1_gift_set1.webp",
         "designSpecifications": [
             "Bottle-Orion, thinkPrint, N/A, Matte Black, 250mm x 75mm, Stainless Steel, 350g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Softy, thinkPrint, 482010, Charcoal Gray, A5 (210mm x 148mm), Faux Leather, 250g, 100mm x 20mm, Debossing, N/A, N/A, N/A",
@@ -6557,11 +6557,11 @@ export const products = [
             "N/A, thinkPrint, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set5.webp",
-            "../src/assets/products/3-in-1_gift_set/3-in-1_gift_set6.webp"
+            "/products/3-in-1_gift_set/3-in-1_gift_set2.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set3.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set4.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set5.webp",
+            "/products/3-in-1_gift_set/3-in-1_gift_set6.webp"
         ]
     },
     {
@@ -6572,7 +6572,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set1.webp",
+        "img": "/products/7-in-1_gift_set/7-in-1_gift_set1.webp",
         "designSpecifications": [
             "Bottle-Silica, thinkPrint, 482010, Transparent, 250mm x 70mm, Silica Glass, 350g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Diary-Capri, thinkPrint, 482010, Navy Blue, A5 (210mm x 148mm), Faux Leather, 250g, 80mm x 40mm, Debossing, N/A, N/A, N/A",
@@ -6581,11 +6581,11 @@ export const products = [
             "Bluetooth Speaker-Nano, thinkPrint, 482010, Matte Black, 50mm x 50mm x 30mm, ABS Plastic, 80g, 20mm x 10mm, Pad Printing, Red, 3W, 400mAh"
         ],
         "thumbnailImages": [
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set2.webp",
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set3.webp",
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set4.webp",
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set5.webp",
-            "../src/assets/products/7-in-1_gift_set/7-in-1_gift_set6.webp"
+            "/products/7-in-1_gift_set/7-in-1_gift_set2.webp",
+            "/products/7-in-1_gift_set/7-in-1_gift_set3.webp",
+            "/products/7-in-1_gift_set/7-in-1_gift_set4.webp",
+            "/products/7-in-1_gift_set/7-in-1_gift_set5.webp",
+            "/products/7-in-1_gift_set/7-in-1_gift_set6.webp"
         ]
     },
     {
@@ -6596,16 +6596,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set1.webp",
+        "img": "/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set1.webp",
         "designSpecifications": [
             "CALYPSO -DRINKWARE GIFT SET, thinkPrint, 96170090, Matte Black, 25cm x 20cm x 10cm, Stainless Steel, 800g, 5cm x 5cm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set2.webp",
-            "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set3.webp",
-            "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set4.webp",
-            "../src/assets/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set5.webp"
+            "/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set2.webp",
+            "/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set3.webp",
+            "/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set4.webp",
+            "/products/calypso_-drinkware_gift_set/calypso_-drinkware_gift_set5.webp"
         ]
     },
     {
@@ -6616,14 +6616,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/softy_gift_set/softy_gift_set1.webp",
+        "img": "/products/softy_gift_set/softy_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/softy_gift_set/softy_gift_set2.webp",
-            "../src/assets/products/softy_gift_set/softy_gift_set3.webp",
-            "../src/assets/products/softy_gift_set/softy_gift_set4.webp"
+            "/products/softy_gift_set/softy_gift_set2.webp",
+            "/products/softy_gift_set/softy_gift_set3.webp",
+            "/products/softy_gift_set/softy_gift_set4.webp"
         ]
     },
     {
@@ -6634,14 +6634,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set1.webp",
+        "img": "/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set2.webp",
-            "../src/assets/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set3.webp",
-            "../src/assets/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set4.webp"
+            "/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set2.webp",
+            "/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set3.webp",
+            "/products/turtle_neck_-_gift_set/turtle_neck_-_gift_set4.webp"
         ]
     },
     {
@@ -6652,14 +6652,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set1.webp",
+        "img": "/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set2.webp",
-            "../src/assets/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set3.webp",
-            "../src/assets/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set4.webp"
+            "/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set2.webp",
+            "/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set3.webp",
+            "/products/winter_collection_-_hoodies_gift_set/winter_collection_-_hoodies_gift_set4.webp"
         ]
     },
     {
@@ -6670,13 +6670,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set1.webp",
+        "img": "/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set2.webp",
-            "../src/assets/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set3.webp"
+            "/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set2.webp",
+            "/products/north_pole_-_polar_fleece_gift_set/north_pole_-_polar_fleece_gift_set3.webp"
         ]
     },
     {
@@ -6687,15 +6687,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection1.webp",
+        "img": "/products/joining_kit_december_collection/joining_kit_december_collection1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection2.webp",
-            "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection3.webp",
-            "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection4.webp",
-            "../src/assets/products/joining_kit_december_collection/joining_kit_december_collection5.webp"
+            "/products/joining_kit_december_collection/joining_kit_december_collection2.webp",
+            "/products/joining_kit_december_collection/joining_kit_december_collection3.webp",
+            "/products/joining_kit_december_collection/joining_kit_december_collection4.webp",
+            "/products/joining_kit_december_collection/joining_kit_december_collection5.webp"
         ]
     },
     {
@@ -6706,15 +6706,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/mini_welcome_kit/mini_welcome_kit1.webp",
+        "img": "/products/mini_welcome_kit/mini_welcome_kit1.webp",
         "designSpecifications": [
             "UG MINI WELCOME KIT, thinkPrint, 490700, Black, 250mm x 200mm x 80mm, Cardboard, 500g, 80mm x 50mm, Screen Printing, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/mini_welcome_kit/mini_welcome_kit2.webp",
-            "../src/assets/products/mini_welcome_kit/mini_welcome_kit3.webp",
-            "../src/assets/products/mini_welcome_kit/mini_welcome_kit4.webp"
+            "/products/mini_welcome_kit/mini_welcome_kit2.webp",
+            "/products/mini_welcome_kit/mini_welcome_kit3.webp",
+            "/products/mini_welcome_kit/mini_welcome_kit4.webp"
         ]
     },
     {
@@ -6725,7 +6725,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/junior_joining_kits/junior_joining_kits1.webp",
+        "img": "/products/junior_joining_kits/junior_joining_kits1.webp",
         "designSpecifications": [
             "Tulip, thinkPrint, 42029200, Grey, 20cm x 15cm x 5cm, Cardboard, 300g, 5cm x 5cm, Screen Printing, No, N/A, N/A",
             "Matte, thinkPrint, 39269099, Red, 18cm x 12cm x 4cm, Plastic, 250g, 4cm x 4cm, Pad Printing, No, N/A, N/A",
@@ -6734,10 +6734,10 @@ export const products = [
             "UG NAME Set -2, thinkPrint, 49111000, Assorted, 25cm x 18cm x 7cm, Varies, 400g, 7cm x 7cm, Varies, No, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/junior_joining_kits/junior_joining_kits2.webp",
-            "../src/assets/products/junior_joining_kits/junior_joining_kits3.webp",
-            "../src/assets/products/junior_joining_kits/junior_joining_kits4.webp",
-            "../src/assets/products/junior_joining_kits/junior_joining_kits5.webp"
+            "/products/junior_joining_kits/junior_joining_kits2.webp",
+            "/products/junior_joining_kits/junior_joining_kits3.webp",
+            "/products/junior_joining_kits/junior_joining_kits4.webp",
+            "/products/junior_joining_kits/junior_joining_kits5.webp"
         ]
     },
     {
@@ -6748,7 +6748,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/junior_joining_kits/junior_joining_kits1.webp",
+        "img": "/products/junior_joining_kits/junior_joining_kits1.webp",
         "designSpecifications": [
             "Employee Welcome Kit Set-1, thinkPrint, 49149000, Black, 250 x 200 x 80 mm, Cardboard, 500g, 100 x 50 mm, Screen Printing, No, No, No",
             "Employee Welcome Kit Set-1, thinkPrint, 49149000, Yellow, 250 x 200 x 80 mm, Cardboard, 500g, 100 x 50 mm, Screen Printing, No, No, No",
@@ -6757,10 +6757,10 @@ export const products = [
             "Employee Welcome Kit Set-1, thinkPrint, 49149000, Assorted, 250 x 200 x 80 mm, Cardboard, 500g, 100 x 50 mm, Screen Printing, No, No, No"
         ],
         "thumbnailImages": [
-            "../src/assets/products/junior_joining_kits/junior_joining_kits2.webp",
-            "../src/assets/products/junior_joining_kits/junior_joining_kits3.webp",
-            "../src/assets/products/junior_joining_kits/junior_joining_kits4.webp",
-            "../src/assets/products/junior_joining_kits/junior_joining_kits5.webp"
+            "/products/junior_joining_kits/junior_joining_kits2.webp",
+            "/products/junior_joining_kits/junior_joining_kits3.webp",
+            "/products/junior_joining_kits/junior_joining_kits4.webp",
+            "/products/junior_joining_kits/junior_joining_kits5.webp"
         ]
     },
     {
@@ -6771,7 +6771,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b1.webp",
+        "img": "/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b1.webp",
         "designSpecifications": [
             "Bottle, Elite, N/A, Grey, 250mm x 70mm, Stainless Steel, 250g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Book, Trika, 482010, Grey, 210mm x 148mm, Hardcover, 400g, 80mm x 20mm, Screen Printing, N/A, N/A, N/A",
@@ -6780,9 +6780,9 @@ export const products = [
             "Folding Duffel Bag, Duflpac Sports, N/A, Grey, 500mm x 250mm x 250mm, Polyester, 300g, 100mm x 50mm, Screen Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b4.webp"
+            "/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b2.webp",
+            "/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b3.webp",
+            "/products/joining_kit_gift_set_-_7b/joining_kit_gift_set_-_7b4.webp"
         ]
     },
     {
@@ -6793,7 +6793,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a1.webp",
+        "img": "/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a1.webp",
         "designSpecifications": [
             "Bottle, thinkPrint, 482010, Grey, 250mm height, Silica, 300g, 50mm x 50mm, Laser Engraving, None, N/A, N/A",
             "Book, thinkPrint, 482010, Grey, A5 size, Korsa Premium, 400g, 80mm x 30mm, Screen Printing, None, N/A, N/A",
@@ -6802,9 +6802,9 @@ export const products = [
             "Speaker, thinkPrint, 482010, Grey, 70mm diameter, Aquabeats, 150g, 30mm x 20mm, Pad Printing, Yes, 3W, 500mAh"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a4.webp"
+            "/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a2.webp",
+            "/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a3.webp",
+            "/products/joining_kit_gift_set_-_7a/joining_kit_gift_set_-_7a4.webp"
         ]
     },
     {
@@ -6815,14 +6815,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b1.webp",
+        "img": "/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b4.webp"
+            "/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b2.webp",
+            "/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b3.webp",
+            "/products/joining_kit_gift_set_-_5b/joining_kit_gift_set_-_5b4.webp"
         ]
     },
     {
@@ -6833,14 +6833,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b1.webp",
+        "img": "/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b4.webp"
+            "/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b2.webp",
+            "/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b3.webp",
+            "/products/joining_kit_gift_set_-_4b/joining_kit_gift_set_-_4b4.webp"
         ]
     },
     {
@@ -6851,14 +6851,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b1.webp",
+        "img": "/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b4.webp"
+            "/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b2.webp",
+            "/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b3.webp",
+            "/products/joining_kit_gift_set_-_3b/joining_kit_gift_set_-_3b4.webp"
         ]
     },
     {
@@ -6869,14 +6869,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b1.webp",
+        "img": "/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b4.webp"
+            "/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b2.webp",
+            "/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b3.webp",
+            "/products/joining_kit_gift_set_-_2b/joining_kit_gift_set_-_2b4.webp"
         ]
     },
     {
@@ -6887,14 +6887,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b1.webp",
+        "img": "/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b2.webp",
-            "../src/assets/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b3.webp",
-            "../src/assets/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b4.webp"
+            "/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b2.webp",
+            "/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b3.webp",
+            "/products/joining_kit_gift_set_-1b/joining_kit_gift_set_-1b4.webp"
         ]
     },
     {
@@ -6905,7 +6905,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b1.webp",
+        "img": "/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b1.webp",
         "designSpecifications": [
             "Mobilo Bottle, thinkPrint, N/A, White, 270mm height, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Hardy Plus Book, thinkPrint, 482010, White, A5, Paper, 250g, 80mm x 30mm, Screen Printing, N/A, N/A, N/A",
@@ -6914,9 +6914,9 @@ export const products = [
             "Acti-Go T-shirt, thinkPrint, N/A, White, Varies with Size, Cotton, 150g, 100mm x 100mm, Screen Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b4.webp"
+            "/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b2.webp",
+            "/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b3.webp",
+            "/products/joining_kit_gift_set_-_6b/joining_kit_gift_set_-_6b4.webp"
         ]
     },
     {
@@ -6927,7 +6927,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a1.webp",
+        "img": "/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a1.webp",
         "designSpecifications": [
             "Bottle, thinkPrint, N/A, White, 220mm height x 70mm diameter, Stainless Steel, 200g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Book, thinkPrint, 482010, White, A5 (148mm x 210mm), Hardcover, 300g, 100mm x 50mm, Screen Printing, N/A, N/A, N/A",
@@ -6936,9 +6936,9 @@ export const products = [
             "Charging Cable, thinkPrint, N/A, White, 1m length, TPE, 30g, 10mm x 5mm, Pad Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a4.webp"
+            "/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a2.webp",
+            "/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a3.webp",
+            "/products/joining_kit_gift_set_-_6a/joining_kit_gift_set_-_6a4.webp"
         ]
     },
     {
@@ -6949,7 +6949,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a1.webp",
+        "img": "/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a1.webp",
         "designSpecifications": [
             "Bottle, thinkPrint, 482010, Translucent, 25cm height x 7cm diameter, Tritan, 150g, 5cm x 5cm, Screen Printing, None, N/A, N/A",
             "Book, thinkPrint, 482010, Zigy Pattern, A5, Paper, 200g, 10cm x 5cm, Foil Stamping, None, N/A, N/A",
@@ -6958,9 +6958,9 @@ export const products = [
             "Key chain, thinkPrint, 482010, Blue, 7cm length x 3cm width, Metal Alloy, 50g, 2cm x 1cm, Epoxy Dome, None, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a2.webp",
-            "../src/assets/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a3.webp",
-            "../src/assets/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a4.webp"
+            "/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a2.webp",
+            "/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a3.webp",
+            "/products/joining_kit_gift_set_-3a/joining_kit_gift_set_-3a4.webp"
         ]
     },
     {
@@ -6971,7 +6971,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a1.webp",
+        "img": "/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a1.webp",
         "designSpecifications": [
             "Bottle, thinkPrint, 482010, Green Combo, 25cm Height, Tritan, 200g, 5cm x 5cm, Screen Printing, None, None, None",
             "Book, thinkPrint, 482010, Green Combo, A5, Cardboard, 300g, 8cm x 3cm, Debossing, None, None, None",
@@ -6980,9 +6980,9 @@ export const products = [
             "Lamp, thinkPrint, 482010, Green Combo, 15cm Height, ABS Plastic, 180g, 4cm x 2cm, Pad Printing, Warm White, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a2.webp",
-            "../src/assets/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a3.webp",
-            "../src/assets/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a4.webp"
+            "/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a2.webp",
+            "/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a3.webp",
+            "/products/joining_kit_gift_set_-4a/joining_kit_gift_set_-4a4.webp"
         ]
     },
     {
@@ -6993,7 +6993,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a1.webp",
+        "img": "/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a1.webp",
         "designSpecifications": [
             "Joining Kit Gift Set - 5A, thinkPrint, 482010, Orange Combo, Variable, Silica, Variable, Varies by Item, Screen Printing/Laser Engraving, None, None, None",
             "Joining Kit Gift Set - 5A, thinkPrint, 482010, Orange Combo, Variable, Roca, Variable, Varies by Item, Screen Printing/Laser Engraving, None, None, None",
@@ -7002,9 +7002,9 @@ export const products = [
             "Joining Kit Gift Set - 5A, thinkPrint, 482010, Orange Combo, Variable, Toby, Variable, Varies by Item, Screen Printing/Laser Engraving, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a2.webp",
-            "../src/assets/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a3.webp",
-            "../src/assets/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a4.webp"
+            "/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a2.webp",
+            "/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a3.webp",
+            "/products/joining_kit_gift_set_-_5a/joining_kit_gift_set_-_5a4.webp"
         ]
     },
     {
@@ -7015,16 +7015,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/3-_in-1-_gift_set/3-_in-1-_gift_set1.webp",
+        "img": "/products/3-_in-1-_gift_set/3-_in-1-_gift_set1.webp",
         "designSpecifications": [
             "RFID Card Holder Smart Wallet, thinkPrint, 42020000, Black, 10cm x 7cm x 2cm, Faux Leather & Metal, 85g, 5cm x 2cm, Laser Engraving, N/A, N/A, N/A",
             "Premium Metal Pen, thinkPrint, 96081010, Silver, 13.5cm x 1cm x 1cm, Metal, 25g, 4cm x 0.5cm, Laser Engraving, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/3-_in-1-_gift_set/3-_in-1-_gift_set2.webp",
-            "../src/assets/products/3-_in-1-_gift_set/3-_in-1-_gift_set3.webp",
-            "../src/assets/products/3-_in-1-_gift_set/3-_in-1-_gift_set4.webp"
+            "/products/3-_in-1-_gift_set/3-_in-1-_gift_set2.webp",
+            "/products/3-_in-1-_gift_set/3-_in-1-_gift_set3.webp",
+            "/products/3-_in-1-_gift_set/3-_in-1-_gift_set4.webp"
         ]
     },
     {
@@ -7035,14 +7035,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/power_bank_-_gift_set/power_bank_-_gift_set1.webp",
+        "img": "/products/power_bank_-_gift_set/power_bank_-_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/power_bank_-_gift_set/power_bank_-_gift_set2.webp",
-            "../src/assets/products/power_bank_-_gift_set/power_bank_-_gift_set3.webp",
-            "../src/assets/products/power_bank_-_gift_set/power_bank_-_gift_set4.webp"
+            "/products/power_bank_-_gift_set/power_bank_-_gift_set2.webp",
+            "/products/power_bank_-_gift_set/power_bank_-_gift_set3.webp",
+            "/products/power_bank_-_gift_set/power_bank_-_gift_set4.webp"
         ]
     },
     {
@@ -7053,14 +7053,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/roman_pen_-_gift_set/roman_pen_-_gift_set1.webp",
+        "img": "/products/roman_pen_-_gift_set/roman_pen_-_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/roman_pen_-_gift_set/roman_pen_-_gift_set2.webp",
-            "../src/assets/products/roman_pen_-_gift_set/roman_pen_-_gift_set3.webp",
-            "../src/assets/products/roman_pen_-_gift_set/roman_pen_-_gift_set4.webp"
+            "/products/roman_pen_-_gift_set/roman_pen_-_gift_set2.webp",
+            "/products/roman_pen_-_gift_set/roman_pen_-_gift_set3.webp",
+            "/products/roman_pen_-_gift_set/roman_pen_-_gift_set4.webp"
         ]
     },
     {
@@ -7071,13 +7071,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/turin_pen_gift_set/turin_pen_gift_set1.webp",
+        "img": "/products/turin_pen_gift_set/turin_pen_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/turin_pen_gift_set/turin_pen_gift_set2.webp",
-            "../src/assets/products/turin_pen_gift_set/turin_pen_gift_set3.webp"
+            "/products/turin_pen_gift_set/turin_pen_gift_set2.webp",
+            "/products/turin_pen_gift_set/turin_pen_gift_set3.webp"
         ]
     },
     {
@@ -7088,14 +7088,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a1.webp",
+        "img": "/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a2.webp",
-            "../src/assets/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a3.webp",
-            "../src/assets/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a4.webp"
+            "/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a2.webp",
+            "/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a3.webp",
+            "/products/joining_kit_gift_set_-2a/joining_kit_gift_set_-2a4.webp"
         ]
     },
     {
@@ -7106,14 +7106,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a1.webp",
+        "img": "/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a2.webp",
-            "../src/assets/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a3.webp",
-            "../src/assets/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a4.webp"
+            "/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a2.webp",
+            "/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a3.webp",
+            "/products/joining_kit_gift_set_-1a/joining_kit_gift_set_-1a4.webp"
         ]
     },
     {
@@ -7124,16 +7124,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/stylo_gift_set/stylo_gift_set1.webp",
+        "img": "/products/stylo_gift_set/stylo_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stylo_gift_set/stylo_gift_set2.webp",
-            "../src/assets/products/stylo_gift_set/stylo_gift_set3.webp",
-            "../src/assets/products/stylo_gift_set/stylo_gift_set4.webp",
-            "../src/assets/products/stylo_gift_set/stylo_gift_set5.webp",
-            "../src/assets/products/stylo_gift_set/stylo_gift_set6.webp"
+            "/products/stylo_gift_set/stylo_gift_set2.webp",
+            "/products/stylo_gift_set/stylo_gift_set3.webp",
+            "/products/stylo_gift_set/stylo_gift_set4.webp",
+            "/products/stylo_gift_set/stylo_gift_set5.webp",
+            "/products/stylo_gift_set/stylo_gift_set6.webp"
         ]
     },
     {
@@ -7144,16 +7144,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/mobi_gift_set/mobi_gift_set1.webp",
+        "img": "/products/mobi_gift_set/mobi_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/mobi_gift_set/mobi_gift_set2.webp",
-            "../src/assets/products/mobi_gift_set/mobi_gift_set3.webp",
-            "../src/assets/products/mobi_gift_set/mobi_gift_set4.webp",
-            "../src/assets/products/mobi_gift_set/mobi_gift_set5.webp",
-            "../src/assets/products/mobi_gift_set/mobi_gift_set6.webp"
+            "/products/mobi_gift_set/mobi_gift_set2.webp",
+            "/products/mobi_gift_set/mobi_gift_set3.webp",
+            "/products/mobi_gift_set/mobi_gift_set4.webp",
+            "/products/mobi_gift_set/mobi_gift_set5.webp",
+            "/products/mobi_gift_set/mobi_gift_set6.webp"
         ]
     },
     {
@@ -7164,17 +7164,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/regal_gift_set/regal_gift_set1.webp",
+        "img": "/products/regal_gift_set/regal_gift_set1.webp",
         "designSpecifications": [
             "UG REGAL GIFT SET (PEN - TURIN), thinkPrint, 48201000, Deep Brown, 8.5\" x 6.5\" x 1.5\", Faux Leather, 1.5 lbs, 2\" x 2\", Debossing, No, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/regal_gift_set/regal_gift_set2.webp",
-            "../src/assets/products/regal_gift_set/regal_gift_set3.webp",
-            "../src/assets/products/regal_gift_set/regal_gift_set4.webp",
-            "../src/assets/products/regal_gift_set/regal_gift_set5.webp",
-            "../src/assets/products/regal_gift_set/regal_gift_set6.webp"
+            "/products/regal_gift_set/regal_gift_set2.webp",
+            "/products/regal_gift_set/regal_gift_set3.webp",
+            "/products/regal_gift_set/regal_gift_set4.webp",
+            "/products/regal_gift_set/regal_gift_set5.webp",
+            "/products/regal_gift_set/regal_gift_set6.webp"
         ]
     },
     {
@@ -7185,7 +7185,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set1.webp",
+        "img": "/products/traveller_2.0_gift_set/traveller_2.0_gift_set1.webp",
         "designSpecifications": [
             "TRAVELLER 2.0 GIFT SET (PEN - TURIN), thinkPrint, 482010, Brown, 8.5 x 6.5 x 1.25 inches, Faux Leather, 1.2 lbs, 2 x 2 inches, Debossing",
             "TRAVELLER 2.0 GIFT SET (PEN - TURIN), thinkPrint, 482010, Brown, Refillable Journal, Button Closure, N/A",
@@ -7194,11 +7194,11 @@ export const products = [
             "TRAVELLER 2.0 GIFT SET (PEN - TURIN), thinkPrint, 482010, Brown, Executive Look, Zipper Wallet, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set2.webp",
-            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set3.webp",
-            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set4.webp",
-            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set5.webp",
-            "../src/assets/products/traveller_2.0_gift_set/traveller_2.0_gift_set6.webp"
+            "/products/traveller_2.0_gift_set/traveller_2.0_gift_set2.webp",
+            "/products/traveller_2.0_gift_set/traveller_2.0_gift_set3.webp",
+            "/products/traveller_2.0_gift_set/traveller_2.0_gift_set4.webp",
+            "/products/traveller_2.0_gift_set/traveller_2.0_gift_set5.webp",
+            "/products/traveller_2.0_gift_set/traveller_2.0_gift_set6.webp"
         ]
     },
     {
@@ -7209,17 +7209,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/traveller_gift_set/traveller_gift_set1.webp",
+        "img": "/products/traveller_gift_set/traveller_gift_set1.webp",
         "designSpecifications": [
             "UG NAME TRAVELLER GIFT SET (PEN - VERONA), thinkPrint, 482010, Brown, 8.5 x 6.25 x 1.25 inches, Faux Leather, 1.2 lbs, 2 x 2 inches, Debossing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/traveller_gift_set/traveller_gift_set2.webp",
-            "../src/assets/products/traveller_gift_set/traveller_gift_set3.webp",
-            "../src/assets/products/traveller_gift_set/traveller_gift_set4.webp",
-            "../src/assets/products/traveller_gift_set/traveller_gift_set5.webp",
-            "../src/assets/products/traveller_gift_set/traveller_gift_set6.webp"
+            "/products/traveller_gift_set/traveller_gift_set2.webp",
+            "/products/traveller_gift_set/traveller_gift_set3.webp",
+            "/products/traveller_gift_set/traveller_gift_set4.webp",
+            "/products/traveller_gift_set/traveller_gift_set5.webp",
+            "/products/traveller_gift_set/traveller_gift_set6.webp"
         ]
     },
     {
@@ -7230,17 +7230,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/color_gift_set/color_gift_set1.webp",
+        "img": "/products/color_gift_set/color_gift_set1.webp",
         "designSpecifications": [
             "UG NAME COLOR GIFT SET (PEN - FLYNN), thinkPrint, 482010, Natural Shade, 6\" x 8\" x 0.75\", Premium Italian Leatherette, 350g, 2\" x 2\", Engrave & Color Fill, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/color_gift_set/color_gift_set2.webp",
-            "../src/assets/products/color_gift_set/color_gift_set3.webp",
-            "../src/assets/products/color_gift_set/color_gift_set4.webp",
-            "../src/assets/products/color_gift_set/color_gift_set5.webp",
-            "../src/assets/products/color_gift_set/color_gift_set6.webp"
+            "/products/color_gift_set/color_gift_set2.webp",
+            "/products/color_gift_set/color_gift_set3.webp",
+            "/products/color_gift_set/color_gift_set4.webp",
+            "/products/color_gift_set/color_gift_set5.webp",
+            "/products/color_gift_set/color_gift_set6.webp"
         ]
     },
     {
@@ -7251,15 +7251,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/element_gift_set/element_gift_set1.webp",
+        "img": "/products/element_gift_set/element_gift_set1.webp",
         "designSpecifications": [
             "UG NAME ELEMENT GIFT SET (PEN - STYLITER), thinkPrint, 48201090, Charcoal Black, A5 (148 x 210 mm), High Quality Faux Leather, 400g, 50 x 30mm, Debossing",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/element_gift_set/element_gift_set2.webp",
-            "../src/assets/products/element_gift_set/element_gift_set3.webp",
-            "../src/assets/products/element_gift_set/element_gift_set4.webp"
+            "/products/element_gift_set/element_gift_set2.webp",
+            "/products/element_gift_set/element_gift_set3.webp",
+            "/products/element_gift_set/element_gift_set4.webp"
         ]
     },
     {
@@ -7270,14 +7270,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/roca_gift_set/roca_gift_set1.webp",
+        "img": "/products/roca_gift_set/roca_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/roca_gift_set/roca_gift_set2.webp",
-            "../src/assets/products/roca_gift_set/roca_gift_set3.webp",
-            "../src/assets/products/roca_gift_set/roca_gift_set4.webp"
+            "/products/roca_gift_set/roca_gift_set2.webp",
+            "/products/roca_gift_set/roca_gift_set3.webp",
+            "/products/roca_gift_set/roca_gift_set4.webp"
         ]
     },
     {
@@ -7288,16 +7288,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set1.webp",
+        "img": "/products/korsa_premium_gift_set/korsa_premium_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set2.webp",
-            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set3.webp",
-            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set4.webp",
-            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set5.webp",
-            "../src/assets/products/korsa_premium_gift_set/korsa_premium_gift_set6.webp"
+            "/products/korsa_premium_gift_set/korsa_premium_gift_set2.webp",
+            "/products/korsa_premium_gift_set/korsa_premium_gift_set3.webp",
+            "/products/korsa_premium_gift_set/korsa_premium_gift_set4.webp",
+            "/products/korsa_premium_gift_set/korsa_premium_gift_set5.webp",
+            "/products/korsa_premium_gift_set/korsa_premium_gift_set6.webp"
         ]
     },
     {
@@ -7308,16 +7308,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/korsa_gift_set/korsa_gift_set1.webp",
+        "img": "/products/korsa_gift_set/korsa_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/korsa_gift_set/korsa_gift_set2.webp",
-            "../src/assets/products/korsa_gift_set/korsa_gift_set3.webp",
-            "../src/assets/products/korsa_gift_set/korsa_gift_set4.webp",
-            "../src/assets/products/korsa_gift_set/korsa_gift_set5.webp",
-            "../src/assets/products/korsa_gift_set/korsa_gift_set6.webp"
+            "/products/korsa_gift_set/korsa_gift_set2.webp",
+            "/products/korsa_gift_set/korsa_gift_set3.webp",
+            "/products/korsa_gift_set/korsa_gift_set4.webp",
+            "/products/korsa_gift_set/korsa_gift_set5.webp",
+            "/products/korsa_gift_set/korsa_gift_set6.webp"
         ]
     },
     {
@@ -7328,16 +7328,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/fold_gift_set/fold_gift_set1.webp",
+        "img": "/products/fold_gift_set/fold_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/fold_gift_set/fold_gift_set2.webp",
-            "../src/assets/products/fold_gift_set/fold_gift_set3.webp",
-            "../src/assets/products/fold_gift_set/fold_gift_set4.webp",
-            "../src/assets/products/fold_gift_set/fold_gift_set5.webp",
-            "../src/assets/products/fold_gift_set/fold_gift_set6.webp"
+            "/products/fold_gift_set/fold_gift_set2.webp",
+            "/products/fold_gift_set/fold_gift_set3.webp",
+            "/products/fold_gift_set/fold_gift_set4.webp",
+            "/products/fold_gift_set/fold_gift_set5.webp",
+            "/products/fold_gift_set/fold_gift_set6.webp"
         ]
     },
     {
@@ -7348,14 +7348,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/wytbook_gift_set/wytbook_gift_set1.webp",
+        "img": "/products/wytbook_gift_set/wytbook_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/wytbook_gift_set/wytbook_gift_set2.webp",
-            "../src/assets/products/wytbook_gift_set/wytbook_gift_set3.webp",
-            "../src/assets/products/wytbook_gift_set/wytbook_gift_set4.webp"
+            "/products/wytbook_gift_set/wytbook_gift_set2.webp",
+            "/products/wytbook_gift_set/wytbook_gift_set3.webp",
+            "/products/wytbook_gift_set/wytbook_gift_set4.webp"
         ]
     },
     {
@@ -7366,16 +7366,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/optima_gift_set/optima_gift_set1.webp",
+        "img": "/products/optima_gift_set/optima_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/optima_gift_set/optima_gift_set2.webp",
-            "../src/assets/products/optima_gift_set/optima_gift_set3.webp",
-            "../src/assets/products/optima_gift_set/optima_gift_set4.webp",
-            "../src/assets/products/optima_gift_set/optima_gift_set5.webp",
-            "../src/assets/products/optima_gift_set/optima_gift_set6.webp"
+            "/products/optima_gift_set/optima_gift_set2.webp",
+            "/products/optima_gift_set/optima_gift_set3.webp",
+            "/products/optima_gift_set/optima_gift_set4.webp",
+            "/products/optima_gift_set/optima_gift_set5.webp",
+            "/products/optima_gift_set/optima_gift_set6.webp"
         ]
     },
     {
@@ -7386,16 +7386,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/primo_gift_set/primo_gift_set1.webp",
+        "img": "/products/primo_gift_set/primo_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/primo_gift_set/primo_gift_set2.webp",
-            "../src/assets/products/primo_gift_set/primo_gift_set3.webp",
-            "../src/assets/products/primo_gift_set/primo_gift_set4.webp",
-            "../src/assets/products/primo_gift_set/primo_gift_set5.webp",
-            "../src/assets/products/primo_gift_set/primo_gift_set6.webp"
+            "/products/primo_gift_set/primo_gift_set2.webp",
+            "/products/primo_gift_set/primo_gift_set3.webp",
+            "/products/primo_gift_set/primo_gift_set4.webp",
+            "/products/primo_gift_set/primo_gift_set5.webp",
+            "/products/primo_gift_set/primo_gift_set6.webp"
         ]
     },
     {
@@ -7406,14 +7406,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/zigy_gift_set/zigy_gift_set1.webp",
+        "img": "/products/zigy_gift_set/zigy_gift_set1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/zigy_gift_set/zigy_gift_set2.webp",
-            "../src/assets/products/zigy_gift_set/zigy_gift_set3.webp",
-            "../src/assets/products/zigy_gift_set/zigy_gift_set4.webp"
+            "/products/zigy_gift_set/zigy_gift_set2.webp",
+            "/products/zigy_gift_set/zigy_gift_set3.webp",
+            "/products/zigy_gift_set/zigy_gift_set4.webp"
         ]
     },
     {
@@ -7424,7 +7424,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set1.webp",
+        "img": "/products/hardy_plus_gift_set/hardy_plus_gift_set1.webp",
         "designSpecifications": [
             "HARDY PLUS GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, Hardbound Cover, 350g",
             "HARDY PLUS GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, 70 Sheets, 350g",
@@ -7433,11 +7433,11 @@ export const products = [
             "HARDY PLUS GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, Ribbon Bookmark, 350g"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set2.webp",
-            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set3.webp",
-            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set4.webp",
-            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set5.webp",
-            "../src/assets/products/hardy_plus_gift_set/hardy_plus_gift_set6.webp"
+            "/products/hardy_plus_gift_set/hardy_plus_gift_set2.webp",
+            "/products/hardy_plus_gift_set/hardy_plus_gift_set3.webp",
+            "/products/hardy_plus_gift_set/hardy_plus_gift_set4.webp",
+            "/products/hardy_plus_gift_set/hardy_plus_gift_set5.webp",
+            "/products/hardy_plus_gift_set/hardy_plus_gift_set6.webp"
         ]
     },
     {
@@ -7448,7 +7448,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/hardy_gift_set/hardy_gift_set1.webp",
+        "img": "/products/hardy_gift_set/hardy_gift_set1.webp",
         "designSpecifications": [
             "HARDY GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, Hardbound Cover, 150 g",
             "",
@@ -7457,9 +7457,9 @@ export const products = [
             "HARDY GIFT SET (PEN - RECOIL), thinkPrint, 482010, Black, A5, 70 Sheets, 100 g"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hardy_gift_set/hardy_gift_set2.webp",
-            "../src/assets/products/hardy_gift_set/hardy_gift_set3.webp",
-            "../src/assets/products/hardy_gift_set/hardy_gift_set4.webp"
+            "/products/hardy_gift_set/hardy_gift_set2.webp",
+            "/products/hardy_gift_set/hardy_gift_set3.webp",
+            "/products/hardy_gift_set/hardy_gift_set4.webp"
         ]
     },
     {
@@ -7470,17 +7470,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/basic_gift_set/basic_gift_set1.webp",
+        "img": "/products/basic_gift_set/basic_gift_set1.webp",
         "designSpecifications": [
             "BASIC GIFT SET (PEN -REVA), thinkPrint, 482090, Undefined, A5, Faux Leather, Undefined, Undefined, Debossing, Undefined, Undefined, Undefined.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/basic_gift_set/basic_gift_set2.webp",
-            "../src/assets/products/basic_gift_set/basic_gift_set3.webp",
-            "../src/assets/products/basic_gift_set/basic_gift_set4.webp",
-            "../src/assets/products/basic_gift_set/basic_gift_set5.webp",
-            "../src/assets/products/basic_gift_set/basic_gift_set6.webp"
+            "/products/basic_gift_set/basic_gift_set2.webp",
+            "/products/basic_gift_set/basic_gift_set3.webp",
+            "/products/basic_gift_set/basic_gift_set4.webp",
+            "/products/basic_gift_set/basic_gift_set5.webp",
+            "/products/basic_gift_set/basic_gift_set6.webp"
         ]
     },
     {
@@ -7491,17 +7491,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Giftsets",
-        "img": "../src/assets/products/capri_gift_set/capri_gift_set1.webp",
+        "img": "/products/capri_gift_set/capri_gift_set1.webp",
         "designSpecifications": [
             "CAPRI GIFT SET (PEN - TURIN), thinkPrint, 482090, Black, A5, Faux Leather, 400g, 50mm x 20mm, Engraving, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/capri_gift_set/capri_gift_set2.webp",
-            "../src/assets/products/capri_gift_set/capri_gift_set3.webp",
-            "../src/assets/products/capri_gift_set/capri_gift_set4.webp",
-            "../src/assets/products/capri_gift_set/capri_gift_set5.webp",
-            "../src/assets/products/capri_gift_set/capri_gift_set6.webp"
+            "/products/capri_gift_set/capri_gift_set2.webp",
+            "/products/capri_gift_set/capri_gift_set3.webp",
+            "/products/capri_gift_set/capri_gift_set4.webp",
+            "/products/capri_gift_set/capri_gift_set5.webp",
+            "/products/capri_gift_set/capri_gift_set6.webp"
         ]
     },
     {
@@ -7512,7 +7512,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/pro_covid_kit_2.0/pro_covid_kit_2.01.webp",
+        "img": "/products/pro_covid_kit_2.0/pro_covid_kit_2.01.webp",
         "designSpecifications": [
             "Hearttex Pro COVID Kit 2.0, Hearttex, 340220, Black, 20cm x 15cm x 7cm, Nylon, 350g, 5cm x 5cm, thinkPrint silk screen printing, None, None, None",
             ""
@@ -7527,15 +7527,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)1.webp",
+        "img": "/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)1.webp",
         "designSpecifications": [
             "Suraksha COVID Kit (Upgrade), Hearttex, 340220, Black, 20cm x 15cm x 8cm, Nylon, 450g, 5cm x 5cm, Screen Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)2.webp",
-            "../src/assets/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)3.webp",
-            "../src/assets/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)4.webp"
+            "/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)2.webp",
+            "/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)3.webp",
+            "/products/10-in-1_suraksha_covid_kit_(upgrade)/10-in-1_suraksha_covid_kit_(upgrade)4.webp"
         ]
     },
     {
@@ -7546,15 +7546,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit1.webp",
+        "img": "/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit1.webp",
         "designSpecifications": [
             "Travel Out Door Prop Kit, Pikmee, 630790, Teal, 20cm x 15cm x 5cm, Cotton Canvas, 250g, 5cm x 5cm, thinkPrint Silkscreen, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit2.webp",
-            "../src/assets/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit3.webp",
-            "../src/assets/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit4.webp"
+            "/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit2.webp",
+            "/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit3.webp",
+            "/products/6-in-1_travel_out_door_prop_kit/6-in-1_travel_out_door_prop_kit4.webp"
         ]
     },
     {
@@ -7565,15 +7565,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit1.webp",
+        "img": "/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit1.webp",
         "designSpecifications": [
             "Suraksha COVID Kit, thinkPrint, 340220, Black, 20cm x 15cm x 8cm, Nylon, 500g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit2.webp",
-            "../src/assets/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit3.webp",
-            "../src/assets/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit4.webp"
+            "/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit2.webp",
+            "/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit3.webp",
+            "/products/10_in_1_suraksha_covid_kit/10_in_1_suraksha_covid_kit4.webp"
         ]
     },
     {
@@ -7584,15 +7584,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)1.webp",
+        "img": "/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)1.webp",
         "designSpecifications": [
             "COVID Safety Kit 2.0 (Upgrade), Hearttex, 340220, Black, 20cm x 15cm x 8cm, Nylon, 350g, 5cm x 5cm, Screen Printing, None, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)2.webp",
-            "../src/assets/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)3.webp",
-            "../src/assets/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)4.webp"
+            "/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)2.webp",
+            "/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)3.webp",
+            "/products/covid_safety_kit_2.0_(upgrade)/covid_safety_kit_2.0_(upgrade)4.webp"
         ]
     },
     {
@@ -7603,15 +7603,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)1.webp",
+        "img": "/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)1.webp",
         "designSpecifications": [
             "Pro COVID Kit, Hearttex, 340220, Black, 20cm x 15cm x 8cm, Nylon, 500g, 5cm x 5cm, thinkPrint Silkscreen, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)2.webp",
-            "../src/assets/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)3.webp",
-            "../src/assets/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)4.webp"
+            "/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)2.webp",
+            "/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)3.webp",
+            "/products/pro_covid_kit_(upgraded)/pro_covid_kit_(upgraded)4.webp"
         ]
     },
     {
@@ -7622,15 +7622,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml1.webp",
+        "img": "/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml1.webp",
         "designSpecifications": [
             "Hanging Germ Kill Gel 30ml, thinkPrint, 340220, Translucent Blue, 40mm x 80mm x 20mm, ABS Plastic, 45g, 20mm x 10mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml2.webp",
-            "../src/assets/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml3.webp",
-            "../src/assets/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml4.webp"
+            "/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml2.webp",
+            "/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml3.webp",
+            "/products/hanging_germ_kill_gel_30ml/hanging_germ_kill_gel_30ml4.webp"
         ]
     },
     {
@@ -7641,15 +7641,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/sanitizer_spray_25ml/sanitizer_spray_25ml1.webp",
+        "img": "/products/sanitizer_spray_25ml/sanitizer_spray_25ml1.webp",
         "designSpecifications": [
             "Sanitizer Spray 25ml, thinkPrint, 340220, Transparent, 25mm x 100mm, PET Plastic, 30g, 15mm x 40mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/sanitizer_spray_25ml/sanitizer_spray_25ml2.webp",
-            "../src/assets/products/sanitizer_spray_25ml/sanitizer_spray_25ml3.webp",
-            "../src/assets/products/sanitizer_spray_25ml/sanitizer_spray_25ml4.webp"
+            "/products/sanitizer_spray_25ml/sanitizer_spray_25ml2.webp",
+            "/products/sanitizer_spray_25ml/sanitizer_spray_25ml3.webp",
+            "/products/sanitizer_spray_25ml/sanitizer_spray_25ml4.webp"
         ]
     },
     {
@@ -7660,15 +7660,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/covid_prop_kit_2.0/covid_prop_kit_2.01.webp",
+        "img": "/products/covid_prop_kit_2.0/covid_prop_kit_2.01.webp",
         "designSpecifications": [
             "COVID Prop Kit 2.0, thinkPrint, 340220, Black, 20cm x 15cm x 5cm, Reusable String pouch, 300g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/covid_prop_kit_2.0/covid_prop_kit_2.02.webp",
-            "../src/assets/products/covid_prop_kit_2.0/covid_prop_kit_2.03.webp",
-            "../src/assets/products/covid_prop_kit_2.0/covid_prop_kit_2.04.webp"
+            "/products/covid_prop_kit_2.0/covid_prop_kit_2.02.webp",
+            "/products/covid_prop_kit_2.0/covid_prop_kit_2.03.webp",
+            "/products/covid_prop_kit_2.0/covid_prop_kit_2.04.webp"
         ]
     },
     {
@@ -7679,15 +7679,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/covid_safety_kit_2.0/covid_safety_kit_2.01.webp",
+        "img": "/products/covid_safety_kit_2.0/covid_safety_kit_2.01.webp",
         "designSpecifications": [
             "COVID Safety Kit 2.0, thinkPrint, 3402, Black, 20cm x 15cm x 5cm, Nylon, 300g, 5cm x 5cm, Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/covid_safety_kit_2.0/covid_safety_kit_2.02.webp",
-            "../src/assets/products/covid_safety_kit_2.0/covid_safety_kit_2.03.webp",
-            "../src/assets/products/covid_safety_kit_2.0/covid_safety_kit_2.04.webp"
+            "/products/covid_safety_kit_2.0/covid_safety_kit_2.02.webp",
+            "/products/covid_safety_kit_2.0/covid_safety_kit_2.03.webp",
+            "/products/covid_safety_kit_2.0/covid_safety_kit_2.04.webp"
         ]
     },
     {
@@ -7698,12 +7698,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/medical_infrared_forehead_thermometer/medical_infrared_forehead_thermometer1.webp",
+        "img": "/products/medical_infrared_forehead_thermometer/medical_infrared_forehead_thermometer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/medical_infrared_forehead_thermometer/medical_infrared_forehead_thermometer2.webp"
+            "/products/medical_infrared_forehead_thermometer/medical_infrared_forehead_thermometer2.webp"
         ]
     },
     {
@@ -7714,14 +7714,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/spray_pen/spray_pen1.webp",
+        "img": "/products/spray_pen/spray_pen1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/spray_pen/spray_pen2.webp",
-            "../src/assets/products/spray_pen/spray_pen3.webp",
-            "../src/assets/products/spray_pen/spray_pen4.webp"
+            "/products/spray_pen/spray_pen2.webp",
+            "/products/spray_pen/spray_pen3.webp",
+            "/products/spray_pen/spray_pen4.webp"
         ]
     },
     {
@@ -7732,12 +7732,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/touch_guard_key/touch_guard_key1.webp",
+        "img": "/products/touch_guard_key/touch_guard_key1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/touch_guard_key/touch_guard_key2.webp"
+            "/products/touch_guard_key/touch_guard_key2.webp"
         ]
     },
     {
@@ -7748,13 +7748,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit1.webp",
+        "img": "/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit2.webp",
-            "../src/assets/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit3.webp"
+            "/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit2.webp",
+            "/products/pikmee_covid_prop_kit/pikmee_covid_prop_kit3.webp"
         ]
     },
     {
@@ -7765,13 +7765,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/ppe_kit/ppe_kit1.webp",
+        "img": "/products/ppe_kit/ppe_kit1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/ppe_kit/ppe_kit2.webp",
-            "../src/assets/products/ppe_kit/ppe_kit3.webp"
+            "/products/ppe_kit/ppe_kit2.webp",
+            "/products/ppe_kit/ppe_kit3.webp"
         ]
     },
     {
@@ -7782,14 +7782,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1021.webp",
+        "img": "/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1021.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1022.webp",
-            "../src/assets/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1023.webp",
-            "../src/assets/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1024.webp"
+            "/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1022.webp",
+            "/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1023.webp",
+            "/products/ppe_kit_-_model_-_102/ppe_kit_-_model_-_1024.webp"
         ]
     },
     {
@@ -7800,14 +7800,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/face_shield/face_shield1.webp",
+        "img": "/products/face_shield/face_shield1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/face_shield/face_shield2.webp",
-            "../src/assets/products/face_shield/face_shield3.webp",
-            "../src/assets/products/face_shield/face_shield4.webp"
+            "/products/face_shield/face_shield2.webp",
+            "/products/face_shield/face_shield3.webp",
+            "/products/face_shield/face_shield4.webp"
         ]
     },
     {
@@ -7818,14 +7818,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/face_mask_with_valve/face_mask_with_valve1.webp",
+        "img": "/products/face_mask_with_valve/face_mask_with_valve1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/face_mask_with_valve/face_mask_with_valve2.webp",
-            "../src/assets/products/face_mask_with_valve/face_mask_with_valve3.webp",
-            "../src/assets/products/face_mask_with_valve/face_mask_with_valve4.webp"
+            "/products/face_mask_with_valve/face_mask_with_valve2.webp",
+            "/products/face_mask_with_valve/face_mask_with_valve3.webp",
+            "/products/face_mask_with_valve/face_mask_with_valve4.webp"
         ]
     },
     {
@@ -7836,14 +7836,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/face_mask/face_mask1.webp",
+        "img": "/products/face_mask/face_mask1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/face_mask/face_mask2.webp",
-            "../src/assets/products/face_mask/face_mask3.webp",
-            "../src/assets/products/face_mask/face_mask4.webp"
+            "/products/face_mask/face_mask2.webp",
+            "/products/face_mask/face_mask3.webp",
+            "/products/face_mask/face_mask4.webp"
         ]
     },
     {
@@ -7854,12 +7854,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/germ_kill_spray/germ_kill_spray1.webp",
+        "img": "/products/germ_kill_spray/germ_kill_spray1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/germ_kill_spray/germ_kill_spray2.webp"
+            "/products/germ_kill_spray/germ_kill_spray2.webp"
         ]
     },
     {
@@ -7870,12 +7870,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/antibacterial_hand_wash/antibacterial_hand_wash1.webp",
+        "img": "/products/antibacterial_hand_wash/antibacterial_hand_wash1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/antibacterial_hand_wash/antibacterial_hand_wash2.webp"
+            "/products/antibacterial_hand_wash/antibacterial_hand_wash2.webp"
         ]
     },
     {
@@ -7886,17 +7886,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/antibacterial_wipes/antibacterial_wipes1.webp",
+        "img": "/products/antibacterial_wipes/antibacterial_wipes1.webp",
         "designSpecifications": [
             "Hearttex Antibacterial Wipes, Hearttex, 340130, White, 200 x 100 x 50 mm, Plastic, 250g, 50 x 25 mm, ThinkPrint label, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/antibacterial_wipes/antibacterial_wipes2.webp",
-            "../src/assets/products/antibacterial_wipes/antibacterial_wipes3.webp",
-            "../src/assets/products/antibacterial_wipes/antibacterial_wipes4.webp",
-            "../src/assets/products/antibacterial_wipes/antibacterial_wipes5.webp",
-            "../src/assets/products/antibacterial_wipes/antibacterial_wipes6.webp"
+            "/products/antibacterial_wipes/antibacterial_wipes2.webp",
+            "/products/antibacterial_wipes/antibacterial_wipes3.webp",
+            "/products/antibacterial_wipes/antibacterial_wipes4.webp",
+            "/products/antibacterial_wipes/antibacterial_wipes5.webp",
+            "/products/antibacterial_wipes/antibacterial_wipes6.webp"
         ]
     },
     {
@@ -7907,13 +7907,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask1.webp",
+        "img": "/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask1.webp",
         "designSpecifications": [
             "ACTIGUARD-LN95 Mask, Pikmee, 630790, Grey, 21cm x 8cm, Cotton Blend, 25g, 2cm x 2cm, Woven Label, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask2.webp"
+            "/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask2.webp"
         ]
     },
     {
@@ -7924,7 +7924,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask1.webp",
+        "img": "/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask1.webp",
         "designSpecifications": [
             "URBAN SHIELD-P95, Pikmee, 6307, Black, Universal Fit, 6 Layer Filtration System",
             "URBAN SHIELD-P95, Pikmee, 6307, Black, Contemporary Dual Panel Center-Stitched Design, Washable & Reusable",
@@ -7933,7 +7933,7 @@ export const products = [
             "URBAN SHIELD-P95, Pikmee, 6307, Black, 6 Layer Filtration System, Washable & Reusable"
         ],
         "thumbnailImages": [
-            "../src/assets/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask2.webp"
+            "/products/reusable_outdoor_protection_mask/reusable_outdoor_protection_mask2.webp"
         ]
     },
     {
@@ -7944,14 +7944,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize1.webp",
+        "img": "/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize1.webp",
         "designSpecifications": [
             "Advanced Car Disinfectant & Deodorize Spray, Hearttex, 3402, Clear, 250mm x 65mm, PET Plastic, 550g, 50mm x 30mm, thinkPrint Sticker, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize2.webp",
-            "../src/assets/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize3.webp"
+            "/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize2.webp",
+            "/products/advanced_car_disinfectant_&_deodorize/advanced_car_disinfectant_&_deodorize3.webp"
         ]
     },
     {
@@ -7962,7 +7962,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/metal_covid_key/metal_covid_key1.webp",
+        "img": "/products/metal_covid_key/metal_covid_key1.webp",
         "designSpecifications": [
             "Hearttex Clip, Hearttex, 8302, Silver, 60mm x 25mm x 10mm, Titanium, 25g, 10mm x 5mm, Laser Engraving, None, None, None",
             "Hearttex Hook, Hearttex, 8302, Grey, 50mm x 30mm x 8mm, Aluminum, 20g, 8mm x 4mm, Etching, None, None, None",
@@ -7971,9 +7971,9 @@ export const products = [
             "Hearttex Clasp, Hearttex, 8302, Bronze, 45mm x 22mm x 7mm, Copper, 18g, 7mm x 3.5mm, Screen Printing, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_covid_key/metal_covid_key2.webp",
-            "../src/assets/products/metal_covid_key/metal_covid_key3.webp",
-            "../src/assets/products/metal_covid_key/metal_covid_key4.webp"
+            "/products/metal_covid_key/metal_covid_key2.webp",
+            "/products/metal_covid_key/metal_covid_key3.webp",
+            "/products/metal_covid_key/metal_covid_key4.webp"
         ]
     },
     {
@@ -7984,16 +7984,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/hand_sanitizer/hand_sanitizer1.webp",
+        "img": "/products/hand_sanitizer/hand_sanitizer1.webp",
         "designSpecifications": [
             "HEARTTEX Hand Sanitizer, Hearttex, 340220, Clear, 4x4x12 cm (for 100ml), HDPE Plastic, 110g (for 100ml), 2x2 cm, Label Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hand_sanitizer/hand_sanitizer2.webp",
-            "../src/assets/products/hand_sanitizer/hand_sanitizer3.webp",
-            "../src/assets/products/hand_sanitizer/hand_sanitizer4.webp",
-            "../src/assets/products/hand_sanitizer/hand_sanitizer5.webp"
+            "/products/hand_sanitizer/hand_sanitizer2.webp",
+            "/products/hand_sanitizer/hand_sanitizer3.webp",
+            "/products/hand_sanitizer/hand_sanitizer4.webp",
+            "/products/hand_sanitizer/hand_sanitizer5.webp"
         ]
     },
     {
@@ -8004,14 +8004,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml1.webp",
+        "img": "/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml2.webp",
-            "../src/assets/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml3.webp",
-            "../src/assets/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml4.webp"
+            "/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml2.webp",
+            "/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml3.webp",
+            "/products/hand_sanitizer_-_60ml/hand_sanitizer_-_60ml4.webp"
         ]
     },
     {
@@ -8022,14 +8022,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/hand_sanitizer/hand_sanitizer1.webp",
+        "img": "/products/hand_sanitizer/hand_sanitizer1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hand_sanitizer/hand_sanitizer2.webp",
-            "../src/assets/products/hand_sanitizer/hand_sanitizer3.webp",
-            "../src/assets/products/hand_sanitizer/hand_sanitizer4.webp"
+            "/products/hand_sanitizer/hand_sanitizer2.webp",
+            "/products/hand_sanitizer/hand_sanitizer3.webp",
+            "/products/hand_sanitizer/hand_sanitizer4.webp"
         ]
     },
     {
@@ -8040,13 +8040,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "HealthCare",
-        "img": "../src/assets/products/surface_disinfectant_spray/surface_disinfectant_spray1.webp",
+        "img": "/products/surface_disinfectant_spray/surface_disinfectant_spray1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/surface_disinfectant_spray/surface_disinfectant_spray2.webp",
-            "../src/assets/products/surface_disinfectant_spray/surface_disinfectant_spray3.webp"
+            "/products/surface_disinfectant_spray/surface_disinfectant_spray2.webp",
+            "/products/surface_disinfectant_spray/surface_disinfectant_spray3.webp"
         ]
     },
     {
@@ -8057,7 +8057,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/slendr_gift_set/slendr_gift_set1.webp",
+        "img": "/products/slendr_gift_set/slendr_gift_set1.webp",
         "designSpecifications": [
             "Slendr Bottle, thinkPrint, 48201090, Matte Black, 250mm x 70mm Diameter, Stainless Steel, 300g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Laplite Laptop Stand, thinkPrint, 48201090, Space Grey, 240mm x 220mm x 15mm (Folded), Aluminum Alloy, 280g, 40mm x 20mm, Pad Printing, N/A, N/A, N/A",
@@ -8066,9 +8066,9 @@ export const products = [
             "SLENDR GIFT SET, thinkPrint, 48201090, Varies (based on individual product colors), Gift Box Dimensions: 300mm x 250mm x 80mm, Cardboard, 800g (total set weight), 100mm x 60mm (on box), Full Color Print (on box), N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/slendr_gift_set/slendr_gift_set2.webp",
-            "../src/assets/products/slendr_gift_set/slendr_gift_set3.webp",
-            "../src/assets/products/slendr_gift_set/slendr_gift_set4.webp"
+            "/products/slendr_gift_set/slendr_gift_set2.webp",
+            "/products/slendr_gift_set/slendr_gift_set3.webp",
+            "/products/slendr_gift_set/slendr_gift_set4.webp"
         ]
     },
     {
@@ -8079,17 +8079,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/lumber_hamper/lumber_hamper1.webp",
+        "img": "/products/lumber_hamper/lumber_hamper1.webp",
         "designSpecifications": [
             "LUMBER HAMPER, thinkPrint, 48201090, Natural Wood, 18\" x 18\" x 24\", Pine Wood, 8 lbs, 6\" x 6\", Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/lumber_hamper/lumber_hamper2.webp",
-            "../src/assets/products/lumber_hamper/lumber_hamper3.webp",
-            "../src/assets/products/lumber_hamper/lumber_hamper4.webp",
-            "../src/assets/products/lumber_hamper/lumber_hamper5.webp",
-            "../src/assets/products/lumber_hamper/lumber_hamper6.webp"
+            "/products/lumber_hamper/lumber_hamper2.webp",
+            "/products/lumber_hamper/lumber_hamper3.webp",
+            "/products/lumber_hamper/lumber_hamper4.webp",
+            "/products/lumber_hamper/lumber_hamper5.webp",
+            "/products/lumber_hamper/lumber_hamper6.webp"
         ]
     },
     {
@@ -8100,7 +8100,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/eco_cork_hamper/eco_cork_hamper1.webp",
+        "img": "/products/eco_cork_hamper/eco_cork_hamper1.webp",
         "designSpecifications": [
             "ECO CORK HAMPER, thinkPrint, 42029200, Natural Cork, 30cm x 40cm x 25cm, Cork, 1.5kg, 10cm x 5cm, Laser Engraving, None, N/A, N/A",
             "ECO CORK MUG, thinkPrint, 39241010, Natural Cork/White Ceramic, 9cm Height x 8cm Diameter, Cork Sleeve/Ceramic Mug, 0.3kg, 4cm x 3cm, Pad Printing, None, N/A, N/A",
@@ -8109,9 +8109,9 @@ export const products = [
             "BILBAO ECO PEN, thinkPrint, 96081010, Natural Cork/Silver Trim, 14cm Length x 1cm Diameter, Cork Barrel/Metal Clip, 0.01kg, 5cm x 0.5cm, Laser Engraving, None, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_cork_hamper/eco_cork_hamper2.webp",
-            "../src/assets/products/eco_cork_hamper/eco_cork_hamper3.webp",
-            "../src/assets/products/eco_cork_hamper/eco_cork_hamper4.webp"
+            "/products/eco_cork_hamper/eco_cork_hamper2.webp",
+            "/products/eco_cork_hamper/eco_cork_hamper3.webp",
+            "/products/eco_cork_hamper/eco_cork_hamper4.webp"
         ]
     },
     {
@@ -8122,7 +8122,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/black_book_gift_set/black_book_gift_set1.webp",
+        "img": "/products/black_book_gift_set/black_book_gift_set1.webp",
         "designSpecifications": [
             "Orion Bravo Flask, thinkPrint, 48201090, Black, 250mm x 75mm x 75mm, Stainless Steel, 350g, 50mm x 50mm, Laser Engraving, None, None, None",
             "Pisa Styliter Pen, thinkPrint, 48201090, Black, 150mm x 15mm x 15mm, ABS Plastic, 20g, 30mm x 5mm, Pad Printing, None, None, None",
@@ -8131,11 +8131,11 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/black_book_gift_set/black_book_gift_set2.webp",
-            "../src/assets/products/black_book_gift_set/black_book_gift_set3.webp",
-            "../src/assets/products/black_book_gift_set/black_book_gift_set4.webp",
-            "../src/assets/products/black_book_gift_set/black_book_gift_set5.webp",
-            "../src/assets/products/black_book_gift_set/black_book_gift_set6.webp"
+            "/products/black_book_gift_set/black_book_gift_set2.webp",
+            "/products/black_book_gift_set/black_book_gift_set3.webp",
+            "/products/black_book_gift_set/black_book_gift_set4.webp",
+            "/products/black_book_gift_set/black_book_gift_set5.webp",
+            "/products/black_book_gift_set/black_book_gift_set6.webp"
         ]
     },
     {
@@ -8146,7 +8146,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set1.webp",
+        "img": "/products/capri_rpet_gift_set/capri_rpet_gift_set1.webp",
         "designSpecifications": [
             "Eco Goblet Bottle, thinkPrint, N/A, Teal, 25cm Height x 7cm Diameter, Stainless Steel, 300g, 5cm x 3cm, Laser Engraving, N/A, N/A, N/A",
             "Capri RPET Book, thinkPrint, 48201090, Charcoal Grey, A5 (21cm x 14.8cm), Recycled PET, 200g, 8cm x 4cm, Screen Printing, N/A, N/A, N/A",
@@ -8155,11 +8155,11 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set2.webp",
-            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set3.webp",
-            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set4.webp",
-            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set5.webp",
-            "../src/assets/products/capri_rpet_gift_set/capri_rpet_gift_set6.webp"
+            "/products/capri_rpet_gift_set/capri_rpet_gift_set2.webp",
+            "/products/capri_rpet_gift_set/capri_rpet_gift_set3.webp",
+            "/products/capri_rpet_gift_set/capri_rpet_gift_set4.webp",
+            "/products/capri_rpet_gift_set/capri_rpet_gift_set5.webp",
+            "/products/capri_rpet_gift_set/capri_rpet_gift_set6.webp"
         ]
     },
     {
@@ -8170,7 +8170,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/kraft_hamper/kraft_hamper1.webp",
+        "img": "/products/kraft_hamper/kraft_hamper1.webp",
         "designSpecifications": [
             "Eco Goblet Bottle, thinkPrint, N/A, Stainless Steel, 250mm x 75mm x 75mm, Stainless Steel, 300g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "iCharge 15W Wireless Charger, thinkPrint, N/A, Black, 100mm x 100mm x 10mm, ABS Plastic, 100g, 30mm x 30mm, Pad Printing, N/A, N/A, N/A",
@@ -8179,9 +8179,9 @@ export const products = [
             "Bamboo Keychain, thinkPrint, N/A, Natural Bamboo, 50mm x 30mm x 5mm, Bamboo, 10g, 20mm x 10mm, Laser Engraving, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/kraft_hamper/kraft_hamper2.webp",
-            "../src/assets/products/kraft_hamper/kraft_hamper3.webp",
-            "../src/assets/products/kraft_hamper/kraft_hamper4.webp"
+            "/products/kraft_hamper/kraft_hamper2.webp",
+            "/products/kraft_hamper/kraft_hamper3.webp",
+            "/products/kraft_hamper/kraft_hamper4.webp"
         ]
     },
     {
@@ -8192,14 +8192,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/milky_spiral_hamper/milky_spiral_hamper1.webp",
+        "img": "/products/milky_spiral_hamper/milky_spiral_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/milky_spiral_hamper/milky_spiral_hamper2.webp",
-            "../src/assets/products/milky_spiral_hamper/milky_spiral_hamper3.webp",
-            "../src/assets/products/milky_spiral_hamper/milky_spiral_hamper4.webp"
+            "/products/milky_spiral_hamper/milky_spiral_hamper2.webp",
+            "/products/milky_spiral_hamper/milky_spiral_hamper3.webp",
+            "/products/milky_spiral_hamper/milky_spiral_hamper4.webp"
         ]
     },
     {
@@ -8210,14 +8210,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/sugar_book_hamper/sugar_book_hamper1.webp",
+        "img": "/products/sugar_book_hamper/sugar_book_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/sugar_book_hamper/sugar_book_hamper2.webp",
-            "../src/assets/products/sugar_book_hamper/sugar_book_hamper3.webp",
-            "../src/assets/products/sugar_book_hamper/sugar_book_hamper4.webp"
+            "/products/sugar_book_hamper/sugar_book_hamper2.webp",
+            "/products/sugar_book_hamper/sugar_book_hamper3.webp",
+            "/products/sugar_book_hamper/sugar_book_hamper4.webp"
         ]
     },
     {
@@ -8228,14 +8228,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/natura_mug_hamper/natura_mug_hamper1.webp",
+        "img": "/products/natura_mug_hamper/natura_mug_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/natura_mug_hamper/natura_mug_hamper2.webp",
-            "../src/assets/products/natura_mug_hamper/natura_mug_hamper3.webp",
-            "../src/assets/products/natura_mug_hamper/natura_mug_hamper4.webp"
+            "/products/natura_mug_hamper/natura_mug_hamper2.webp",
+            "/products/natura_mug_hamper/natura_mug_hamper3.webp",
+            "/products/natura_mug_hamper/natura_mug_hamper4.webp"
         ]
     },
     {
@@ -8246,15 +8246,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/corky_mug_hamper/corky_mug_hamper1.webp",
+        "img": "/products/corky_mug_hamper/corky_mug_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/corky_mug_hamper/corky_mug_hamper2.webp",
-            "../src/assets/products/corky_mug_hamper/corky_mug_hamper3.webp",
-            "../src/assets/products/corky_mug_hamper/corky_mug_hamper4.webp",
-            "../src/assets/products/corky_mug_hamper/corky_mug_hamper5.webp"
+            "/products/corky_mug_hamper/corky_mug_hamper2.webp",
+            "/products/corky_mug_hamper/corky_mug_hamper3.webp",
+            "/products/corky_mug_hamper/corky_mug_hamper4.webp",
+            "/products/corky_mug_hamper/corky_mug_hamper5.webp"
         ]
     },
     {
@@ -8265,15 +8265,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper1.webp",
+        "img": "/products/eco_rfid_hamper/eco_rfid_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper2.webp",
-            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper3.webp",
-            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper4.webp",
-            "../src/assets/products/eco_rfid_hamper/eco_rfid_hamper5.webp"
+            "/products/eco_rfid_hamper/eco_rfid_hamper2.webp",
+            "/products/eco_rfid_hamper/eco_rfid_hamper3.webp",
+            "/products/eco_rfid_hamper/eco_rfid_hamper4.webp",
+            "/products/eco_rfid_hamper/eco_rfid_hamper5.webp"
         ]
     },
     {
@@ -8284,15 +8284,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/eco_tees_hamper/eco_tees_hamper1.webp",
+        "img": "/products/eco_tees_hamper/eco_tees_hamper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_tees_hamper/eco_tees_hamper2.webp",
-            "../src/assets/products/eco_tees_hamper/eco_tees_hamper3.webp",
-            "../src/assets/products/eco_tees_hamper/eco_tees_hamper4.webp",
-            "../src/assets/products/eco_tees_hamper/eco_tees_hamper5.webp"
+            "/products/eco_tees_hamper/eco_tees_hamper2.webp",
+            "/products/eco_tees_hamper/eco_tees_hamper3.webp",
+            "/products/eco_tees_hamper/eco_tees_hamper4.webp",
+            "/products/eco_tees_hamper/eco_tees_hamper5.webp"
         ]
     },
     {
@@ -8303,7 +8303,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/eco_korki_hamper/eco_korki_hamper1.webp",
+        "img": "/products/eco_korki_hamper/eco_korki_hamper1.webp",
         "designSpecifications": [
             "Grain Eco Bottle, thinkPrint, 39241010, Natural, 250mm x 70mm, Stainless Steel, 250g, 50mm x 30mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             "Bamboo Pen, thinkPrint, 96081010, Natural, 140mm x 10mm, Bamboo, 20g, 40mm x 5mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
@@ -8312,10 +8312,10 @@ export const products = [
             "Bamboo Keychain, thinkPrint, 44209090, Natural, 80mm x 30mm, Bamboo, 15g, 20mm x 10mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_korki_hamper/eco_korki_hamper2.webp",
-            "../src/assets/products/eco_korki_hamper/eco_korki_hamper3.webp",
-            "../src/assets/products/eco_korki_hamper/eco_korki_hamper4.webp",
-            "../src/assets/products/eco_korki_hamper/eco_korki_hamper5.webp"
+            "/products/eco_korki_hamper/eco_korki_hamper2.webp",
+            "/products/eco_korki_hamper/eco_korki_hamper3.webp",
+            "/products/eco_korki_hamper/eco_korki_hamper4.webp",
+            "/products/eco_korki_hamper/eco_korki_hamper5.webp"
         ]
     },
     {
@@ -8326,7 +8326,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper1.webp",
+        "img": "/products/eco_rpet_hamper/eco_rpet_hamper1.webp",
         "designSpecifications": [
             "Ebony Flask, thinkPrint, N/A, Black, 250mm x 75mm x 75mm, Stainless Steel with Ebony Wood Veneer, 400g, 50mm x 30mm, Laser Engraving, N/A, N/A, N/A",
             "Rpet Book, thinkPrint, 48201090, Grey, A5 (210mm x 148mm), Recycled PET Fabric, 200g, 80mm x 50mm, Screen Printing, N/A, N/A, N/A",
@@ -8335,8 +8335,8 @@ export const products = [
             "Eco Rpet Hamper, thinkPrint, N/A, Customizable, 300mm x 200mm x 100mm, Recycled PET Fabric, 300g, 100mm x 60mm, Screen Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper2.webp",
-            "../src/assets/products/eco_rpet_hamper/eco_rpet_hamper3.webp"
+            "/products/eco_rpet_hamper/eco_rpet_hamper2.webp",
+            "/products/eco_rpet_hamper/eco_rpet_hamper3.webp"
         ]
     },
     {
@@ -8347,7 +8347,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/wheat_mug_hamper/wheat_mug_hamper1.webp",
+        "img": "/products/wheat_mug_hamper/wheat_mug_hamper1.webp",
         "designSpecifications": [
             "Wheat Eco Mug, thinkPrint, 48201090, Beige, 90mm x 90mm x 110mm, Wheat Fiber Composite, 180g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A",
             "Bamboo Pen, thinkPrint, 48201090, Natural Bamboo, 140mm x 12mm x 12mm, Bamboo, 20g, 40mm x 7mm, Laser Engraving, N/A, N/A, N/A",
@@ -8356,7 +8356,7 @@ export const products = [
             "Cork Card Holder, thinkPrint, 48201090, Natural Cork, 100mm x 70mm x 10mm, Cork, 30g, 40mm x 20mm, Pad Printing, N/A, N/A, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/wheat_mug_hamper/wheat_mug_hamper2.webp"
+            "/products/wheat_mug_hamper/wheat_mug_hamper2.webp"
         ]
     },
     {
@@ -8367,15 +8367,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "EcoGifts",
-        "img": "../src/assets/products/wheat_mug/wheat_mug1.webp",
+        "img": "/products/wheat_mug/wheat_mug1.webp",
         "designSpecifications": [
             "WHEAT MUG, thinkPrint, 39249090, Natural Wheat, 3.5X11.5X3 Inch, Wheat Fiber Composite, TBD, 2x2 Inch, Pad Printing/Laser Engraving, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/wheat_mug/wheat_mug2.webp",
-            "../src/assets/products/wheat_mug/wheat_mug3.webp",
-            "../src/assets/products/wheat_mug/wheat_mug4.webp"
+            "/products/wheat_mug/wheat_mug2.webp",
+            "/products/wheat_mug/wheat_mug3.webp",
+            "/products/wheat_mug/wheat_mug4.webp"
         ]
     },
     {
@@ -8386,16 +8386,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/sili_bot/sili_bot1.webp",
+        "img": "/products/sili_bot/sili_bot1.webp",
         "designSpecifications": [
             "SILI BOT, thinkPrint, 70139900, Translucent Bottle with Grey Sleeve, 6.8 x 6.8 x 24.6 cm, Borosilicate Glass & Bamboo, 387 gms, 5cm x 5cm, UV Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/sili_bot/sili_bot2.webp",
-            "../src/assets/products/sili_bot/sili_bot3.webp",
-            "../src/assets/products/sili_bot/sili_bot4.webp",
-            "../src/assets/products/sili_bot/sili_bot5.webp"
+            "/products/sili_bot/sili_bot2.webp",
+            "/products/sili_bot/sili_bot3.webp",
+            "/products/sili_bot/sili_bot4.webp",
+            "/products/sili_bot/sili_bot5.webp"
         ]
     },
     {
@@ -8406,7 +8406,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/boro_flip/boro_flip1.webp",
+        "img": "/products/boro_flip/boro_flip1.webp",
         "designSpecifications": [
             "BORO FLIP, thinkPrint, 70139900, Not Specified, 6.8 x 6.8 x 25.5 cm, Borosilicate Glass with Silicon Sleeve, 361gms",
             "BORO FLIP, thinkPrint, 70139900, Not Specified, Not Specified, Not Specified, Not Specified, 360 Degree on Sleeve, Engrave/Screen Print/UV Print/DTF Sticker",
@@ -8415,10 +8415,10 @@ export const products = [
             "BORO FLIP, thinkPrint, 70139900, Not Specified, Not Specified, Leak Proof, Not Specified, Not Applicable, Not Applicable"
         ],
         "thumbnailImages": [
-            "../src/assets/products/boro_flip/boro_flip2.webp",
-            "../src/assets/products/boro_flip/boro_flip3.webp",
-            "../src/assets/products/boro_flip/boro_flip4.webp",
-            "../src/assets/products/boro_flip/boro_flip5.webp"
+            "/products/boro_flip/boro_flip2.webp",
+            "/products/boro_flip/boro_flip3.webp",
+            "/products/boro_flip/boro_flip4.webp",
+            "/products/boro_flip/boro_flip5.webp"
         ]
     },
     {
@@ -8429,17 +8429,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/remindr/remindr1.webp",
+        "img": "/products/remindr/remindr1.webp",
         "designSpecifications": [
             "REMINDR, thinkPrint, 70139900, Clear, 8 x 8 x 29.5 cm, Borosilicate Glass, 503gms, Lid, ENGRAVE, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/remindr/remindr2.webp",
-            "../src/assets/products/remindr/remindr3.webp",
-            "../src/assets/products/remindr/remindr4.webp",
-            "../src/assets/products/remindr/remindr5.webp",
-            "../src/assets/products/remindr/remindr6.webp"
+            "/products/remindr/remindr2.webp",
+            "/products/remindr/remindr3.webp",
+            "/products/remindr/remindr4.webp",
+            "/products/remindr/remindr5.webp",
+            "/products/remindr/remindr6.webp"
         ]
     },
     {
@@ -8450,17 +8450,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/boro_cafe/boro_cafe1.webp",
+        "img": "/products/boro_cafe/boro_cafe1.webp",
         "designSpecifications": [
             "BORO CAFE, thinkPrint, 70139900, Transparent, 8.5 x 12 x 8.5 cm, Borosilicate Glass, 120gms, 5 x 5 cm, Engrave/Screen Printing/UV Printing/DTF Sticker, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/boro_cafe/boro_cafe2.webp",
-            "../src/assets/products/boro_cafe/boro_cafe3.webp",
-            "../src/assets/products/boro_cafe/boro_cafe4.webp",
-            "../src/assets/products/boro_cafe/boro_cafe5.webp",
-            "../src/assets/products/boro_cafe/boro_cafe6.webp"
+            "/products/boro_cafe/boro_cafe2.webp",
+            "/products/boro_cafe/boro_cafe3.webp",
+            "/products/boro_cafe/boro_cafe4.webp",
+            "/products/boro_cafe/boro_cafe5.webp",
+            "/products/boro_cafe/boro_cafe6.webp"
         ]
     },
     {
@@ -8471,17 +8471,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/rubbl/rubbl1.webp",
+        "img": "/products/rubbl/rubbl1.webp",
         "designSpecifications": [
             "Stainless Steel Vacuum Bottle, thinkPrint, 96170019, Black, 7x7x23.5cm, SS304, 263gms, 5x10cm, Screen Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/rubbl/rubbl2.webp",
-            "../src/assets/products/rubbl/rubbl3.webp",
-            "../src/assets/products/rubbl/rubbl4.webp",
-            "../src/assets/products/rubbl/rubbl5.webp",
-            "../src/assets/products/rubbl/rubbl6.webp"
+            "/products/rubbl/rubbl2.webp",
+            "/products/rubbl/rubbl3.webp",
+            "/products/rubbl/rubbl4.webp",
+            "/products/rubbl/rubbl5.webp",
+            "/products/rubbl/rubbl6.webp"
         ]
     },
     {
@@ -8492,16 +8492,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/cafe_bamboo/cafe_bamboo1.webp",
+        "img": "/products/cafe_bamboo/cafe_bamboo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/cafe_bamboo/cafe_bamboo2.webp",
-            "../src/assets/products/cafe_bamboo/cafe_bamboo3.webp",
-            "../src/assets/products/cafe_bamboo/cafe_bamboo4.webp",
-            "../src/assets/products/cafe_bamboo/cafe_bamboo5.webp",
-            "../src/assets/products/cafe_bamboo/cafe_bamboo6.webp"
+            "/products/cafe_bamboo/cafe_bamboo2.webp",
+            "/products/cafe_bamboo/cafe_bamboo3.webp",
+            "/products/cafe_bamboo/cafe_bamboo4.webp",
+            "/products/cafe_bamboo/cafe_bamboo5.webp",
+            "/products/cafe_bamboo/cafe_bamboo6.webp"
         ]
     },
     {
@@ -8512,16 +8512,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/bambi/bambi1.webp",
+        "img": "/products/bambi/bambi1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bambi/bambi2.webp",
-            "../src/assets/products/bambi/bambi3.webp",
-            "../src/assets/products/bambi/bambi4.webp",
-            "../src/assets/products/bambi/bambi5.webp",
-            "../src/assets/products/bambi/bambi6.webp"
+            "/products/bambi/bambi2.webp",
+            "/products/bambi/bambi3.webp",
+            "/products/bambi/bambi4.webp",
+            "/products/bambi/bambi5.webp",
+            "/products/bambi/bambi6.webp"
         ]
     },
     {
@@ -8532,15 +8532,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto5.webp"
+            "/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto2.webp",
+            "/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto3.webp",
+            "/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto4.webp",
+            "/products/hot_&_cold_sports_bottle_-_magneto/hot_&_cold_sports_bottle_-_magneto5.webp"
         ]
     },
     {
@@ -8551,7 +8551,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst1.webp",
         "designSpecifications": [
             "TWYST, thinkPrint, 73239390, Silver, 7x7x26.5cm, SS 304, 326gm",
             "TWYST, thinkPrint, 73239390, Silver, 540ml, SS 304, 326gm",
@@ -8560,11 +8560,11 @@ export const products = [
             "TWYST, thinkPrint, 73239390, Silver, 7x7x26.5cm, SS 304, Laser Engraving"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst5.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst6.webp"
+            "/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst2.webp",
+            "/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst3.webp",
+            "/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst4.webp",
+            "/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst5.webp",
+            "/products/hot_&_cold_sports_bottle_-_twyst/hot_&_cold_sports_bottle_-_twyst6.webp"
         ]
     },
     {
@@ -8575,17 +8575,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos1.webp",
         "designSpecifications": [
             "ETHOS, thinkPrint, 96170019, Stainless Steel, 7.5x7.5x26.7cm, SS 304, 349gm, 5x5cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos5.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos6.webp"
+            "/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos2.webp",
+            "/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos3.webp",
+            "/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos4.webp",
+            "/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos5.webp",
+            "/products/hot_&_cold_sports_bottle_-_ethos/hot_&_cold_sports_bottle_-_ethos6.webp"
         ]
     },
     {
@@ -8596,7 +8596,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut1.webp",
         "designSpecifications": [
             "WALNUT, thinkPrint, 96170019, Intended Color: Walnut, 7x7x24.5cm",
             "WALNUT, thinkPrint, 96170019, Casing Material: SS 304, 500ml",
@@ -8605,11 +8605,11 @@ export const products = [
             "WALNUT, thinkPrint, 96170019, No RGB Lighting Effects, No Speaker Output, No Battery"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut5.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut6.webp"
+            "/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut2.webp",
+            "/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut3.webp",
+            "/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut4.webp",
+            "/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut5.webp",
+            "/products/hot_&_cold_sports_bottle_-_walnut/hot_&_cold_sports_bottle_-_walnut6.webp"
         ]
     },
     {
@@ -8620,17 +8620,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom1.webp",
         "designSpecifications": [
             "PHANTOM, thinkPrint, 73102990, Matte Black, 7x7x27Cm, Stainless Steel, 345gm, 5x5Cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom5.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom6.webp"
+            "/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom2.webp",
+            "/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom3.webp",
+            "/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom4.webp",
+            "/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom5.webp",
+            "/products/hot_&_cold_sports_bottle_-_phantom/hot_&_cold_sports_bottle_-_phantom6.webp"
         ]
     },
     {
@@ -8641,7 +8641,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion1.webp",
         "designSpecifications": [
             "Orion, thinkPrint, 73239390, Black, 7x7x26.5 cm",
             "SS 304, 277 GSM, ",
@@ -8650,10 +8650,10 @@ export const products = [
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion5.webp"
+            "/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion2.webp",
+            "/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion3.webp",
+            "/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion4.webp",
+            "/products/hot_&_cold_sports_bottle_-_orion/hot_&_cold_sports_bottle_-_orion5.webp"
         ]
     },
     {
@@ -8664,14 +8664,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint4.webp"
+            "/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint2.webp",
+            "/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint3.webp",
+            "/products/hot_&_cold_sports_bottle_-_clint/hot_&_cold_sports_bottle_-_clint4.webp"
         ]
     },
     {
@@ -8682,15 +8682,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color1.webp",
+        "img": "/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color5.webp"
+            "/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color2.webp",
+            "/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color3.webp",
+            "/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color4.webp",
+            "/products/hot_&_cold_sports_bottle-ultra_color/hot_&_cold_sports_bottle-ultra_color5.webp"
         ]
     },
     {
@@ -8701,14 +8701,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody4.webp"
+            "/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody2.webp",
+            "/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody3.webp",
+            "/products/hot_&_cold_sports_bottle_-_ultra_woody/hot_&_cold_sports_bottle_-_ultra_woody4.webp"
         ]
     },
     {
@@ -8719,16 +8719,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud5.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud6.webp"
+            "/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud2.webp",
+            "/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud3.webp",
+            "/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud4.webp",
+            "/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud5.webp",
+            "/products/hot_&_cold_sports_bottle_-_cloud/hot_&_cold_sports_bottle_-_cloud6.webp"
         ]
     },
     {
@@ -8739,16 +8739,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml5.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml6.webp"
+            "/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml2.webp",
+            "/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml3.webp",
+            "/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml4.webp",
+            "/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml5.webp",
+            "/products/hot_&_cold_sports_bottle_-_zen_500ml/hot_&_cold_sports_bottle_-_zen_500ml6.webp"
         ]
     },
     {
@@ -8759,16 +8759,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml5.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml6.webp"
+            "/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml2.webp",
+            "/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml3.webp",
+            "/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml4.webp",
+            "/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml5.webp",
+            "/products/hot_&_cold_sports_bottle_-_zen_750ml/hot_&_cold_sports_bottle_-_zen_750ml6.webp"
         ]
     },
     {
@@ -8779,12 +8779,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam_2/2-in-1_hot_&_cold_flask_-_thanda_garam_21.webp",
+        "img": "/products/2-in-1_hot_&_cold_flask_-_thanda_garam_2/2-in-1_hot_&_cold_flask_-_thanda_garam_21.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam_2/2-in-1_hot_&_cold_flask_-_thanda_garam_22.webp"
+            "/products/2-in-1_hot_&_cold_flask_-_thanda_garam_2/2-in-1_hot_&_cold_flask_-_thanda_garam_22.webp"
         ]
     },
     {
@@ -8795,17 +8795,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam1.webp",
+        "img": "/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam1.webp",
         "designSpecifications": [
             "THANDA GARAM, thinkPrint, 961700, Matte Black, 25cm Height x 7cm Diameter, 304 Stainless Steel, 450g, 5cm x 3cm, Laser Engraving, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam2.webp",
-            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam3.webp",
-            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam4.webp",
-            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam5.webp",
-            "../src/assets/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam6.webp"
+            "/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam2.webp",
+            "/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam3.webp",
+            "/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam4.webp",
+            "/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam5.webp",
+            "/products/2-in-1_hot_&_cold_flask_-_thanda_garam/2-in-1_hot_&_cold_flask_-_thanda_garam6.webp"
         ]
     },
     {
@@ -8816,17 +8816,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper1.webp",
+        "img": "/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper1.webp",
         "designSpecifications": [
             "CAMPER, thinkPrint, 961700, Steel, 7cm diameter x 22cm height, Stainless Steel, 250gm, 5cm x 5cm, Laser Engraving, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper2.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper3.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper4.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper5.webp",
-            "../src/assets/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper6.webp"
+            "/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper2.webp",
+            "/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper3.webp",
+            "/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper4.webp",
+            "/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper5.webp",
+            "/products/hot_&_cold_sports_bottle_-_camper/hot_&_cold_sports_bottle_-_camper6.webp"
         ]
     },
     {
@@ -8837,17 +8837,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree1.webp",
+        "img": "/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree1.webp",
         "designSpecifications": [
             "DEGREE, thinkPrint, 961700, Silver, 70mm diameter x 215mm height, Stainless Steel, 270gm, 50mm x 50mm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree2.webp",
-            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree3.webp",
-            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree4.webp",
-            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree5.webp",
-            "../src/assets/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree6.webp"
+            "/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree2.webp",
+            "/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree3.webp",
+            "/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree4.webp",
+            "/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree5.webp",
+            "/products/smart_vacuum_flask_-_degree/smart_vacuum_flask_-_degree6.webp"
         ]
     },
     {
@@ -8858,17 +8858,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic1.webp",
+        "img": "/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic1.webp",
         "designSpecifications": [
             "GOTHIC, thinkPrint, 961700, Matte Black, 7cm (Diameter) x 25cm (Height), 18/8 Stainless Steel, 350g, 5cm x 8cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic2.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic3.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic4.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic5.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic6.webp"
+            "/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic2.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic3.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic4.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic5.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_gothic/stainless_steel_hot_&_cold_bottle_-_gothic6.webp"
         ]
     },
     {
@@ -8879,16 +8879,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta1.webp",
+        "img": "/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta1.webp",
         "designSpecifications": [
             "DELTA, thinkPrint, 961700, Silver, 7cm Diameter x 25cm Height, Stainless Steel 304, 254gm, 5cm x 5cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta2.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta3.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta4.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta5.webp"
+            "/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta2.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta3.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta4.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_delta/stainless_steel_hot_&_cold_bottle_-_delta5.webp"
         ]
     },
     {
@@ -8899,16 +8899,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7501.webp",
+        "img": "/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7501.webp",
         "designSpecifications": [
             "COLA-750, thinkPrint, 961700, Silver, 7x7x28.5cm, Stainless Steel, 349gm, 5x5cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7502.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7503.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7504.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7505.webp"
+            "/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7502.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7503.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7504.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_cola_750/stainless_steel_hot_&_cold_bottle_-_cola_7505.webp"
         ]
     },
     {
@@ -8919,14 +8919,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5001.webp",
+        "img": "/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5001.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5002.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5003.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5004.webp"
+            "/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5002.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5003.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_cola_500/stainless_steel_hot_&_cold_bottle_-_cola_5004.webp"
         ]
     },
     {
@@ -8937,15 +8937,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra1.webp",
+        "img": "/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra2.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra3.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra4.webp",
-            "../src/assets/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra5.webp"
+            "/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra2.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra3.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra4.webp",
+            "/products/stainless_steel_hot_&_cold_bottle_-_ultra/stainless_steel_hot_&_cold_bottle_-_ultra5.webp"
         ]
     },
     {
@@ -8956,13 +8956,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/slendr/slendr1.webp",
+        "img": "/products/slendr/slendr1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/slendr/slendr2.webp",
-            "../src/assets/products/slendr/slendr3.webp"
+            "/products/slendr/slendr2.webp",
+            "/products/slendr/slendr3.webp"
         ]
     },
     {
@@ -8973,14 +8973,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle1.webp",
+        "img": "/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle2.webp",
-            "../src/assets/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle3.webp",
-            "../src/assets/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle4.webp"
+            "/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle2.webp",
+            "/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle3.webp",
+            "/products/flora-stainless_steel_sports_bottle/flora-stainless_steel_sports_bottle4.webp"
         ]
     },
     {
@@ -8991,16 +8991,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/zeta/zeta1.webp",
+        "img": "/products/zeta/zeta1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/zeta/zeta2.webp",
-            "../src/assets/products/zeta/zeta3.webp",
-            "../src/assets/products/zeta/zeta4.webp",
-            "../src/assets/products/zeta/zeta5.webp",
-            "../src/assets/products/zeta/zeta6.webp"
+            "/products/zeta/zeta2.webp",
+            "/products/zeta/zeta3.webp",
+            "/products/zeta/zeta4.webp",
+            "/products/zeta/zeta5.webp",
+            "/products/zeta/zeta6.webp"
         ]
     },
     {
@@ -9011,17 +9011,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle1.webp",
+        "img": "/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle1.webp",
         "designSpecifications": [
             "CEDAR, thinkPrint, 73239390, Natural Wood, 7.5*7.5*26.5CM, SS 304 Grade, 331gms, 5*5CM, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle2.webp",
-            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle3.webp",
-            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle4.webp",
-            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle5.webp",
-            "../src/assets/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle6.webp"
+            "/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle2.webp",
+            "/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle3.webp",
+            "/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle4.webp",
+            "/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle5.webp",
+            "/products/cedar_stainlesss_steelvaccum_bottle/cedar_stainlesss_steelvaccum_bottle6.webp"
         ]
     },
     {
@@ -9032,17 +9032,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle1.webp",
+        "img": "/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle1.webp",
         "designSpecifications": [
             "UG NAME EBONY, thinkPrint, 73239390, Black, 7*7*23cm, SS 304 Grade, 273gms, 5*5cm, Laser Engraving, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle2.webp",
-            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle3.webp",
-            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle4.webp",
-            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle5.webp",
-            "../src/assets/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle6.webp"
+            "/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle2.webp",
+            "/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle3.webp",
+            "/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle4.webp",
+            "/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle5.webp",
+            "/products/ebony_stainless_steel_vaccum_bottle/ebony_stainless_steel_vaccum_bottle6.webp"
         ]
     },
     {
@@ -9053,7 +9053,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle1.webp",
+        "img": "/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle1.webp",
         "designSpecifications": [
             "CHILL, thinkPrint, 73239390, Silver, 7*7*22.3cm, SS 304 Grade, 260gms",
             "CHILL, thinkPrint, 73239390, Black, 7*7*22.3cm, SS 304 Grade, 260gms",
@@ -9062,11 +9062,11 @@ export const products = [
             "CHILL, thinkPrint, 73239390, White, 7*7*22.3cm, SS 304 Grade, 260gms"
         ],
         "thumbnailImages": [
-            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle2.webp",
-            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle3.webp",
-            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle4.webp",
-            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle5.webp",
-            "../src/assets/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle6.webp"
+            "/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle2.webp",
+            "/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle3.webp",
+            "/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle4.webp",
+            "/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle5.webp",
+            "/products/chill_stainless_steel_vaccum_bottle/chill_stainless_steel_vaccum_bottle6.webp"
         ]
     },
     {
@@ -9077,17 +9077,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask1.webp",
+        "img": "/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask1.webp",
         "designSpecifications": [
             "LQUID-900, thinkPrint, 96170090, Not Specified, 7.3*7.3*27 cm, Powder Coated, 393 gms, Not Specified, Not Specified, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask2.webp",
-            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask3.webp",
-            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask4.webp",
-            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask5.webp",
-            "../src/assets/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask6.webp"
+            "/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask2.webp",
+            "/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask3.webp",
+            "/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask4.webp",
+            "/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask5.webp",
+            "/products/lquid-900_stainless_steel_vaccum_insulated_flask/lquid-900_stainless_steel_vaccum_insulated_flask6.webp"
         ]
     },
     {
@@ -9098,17 +9098,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask1.webp",
+        "img": "/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask1.webp",
         "designSpecifications": [
             "LQUID-700, thinkPrint, 96170090, Intended Color: Per Brand Standards, Overall Dimensions: 7*7*24.5Cm, Casing Material: Powder Coated (Not Easy To Scratch), Weight: 342gms",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask2.webp",
-            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask3.webp",
-            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask4.webp",
-            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask5.webp",
-            "../src/assets/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask6.webp"
+            "/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask2.webp",
+            "/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask3.webp",
+            "/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask4.webp",
+            "/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask5.webp",
+            "/products/lquid-700_stainless_steel_vaccum_insulated_flask/lquid-700_stainless_steel_vaccum_insulated_flask6.webp"
         ]
     },
     {
@@ -9119,16 +9119,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask1.webp",
+        "img": "/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask2.webp",
-            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask3.webp",
-            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask4.webp",
-            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask5.webp",
-            "../src/assets/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask6.webp"
+            "/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask2.webp",
+            "/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask3.webp",
+            "/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask4.webp",
+            "/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask5.webp",
+            "/products/lquid-500_stainless_steel_vaccum_insulated_flask/lquid-500_stainless_steel_vaccum_insulated_flask6.webp"
         ]
     },
     {
@@ -9139,16 +9139,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle1.webp",
+        "img": "/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle2.webp",
-            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle3.webp",
-            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle4.webp",
-            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle5.webp",
-            "../src/assets/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle6.webp"
+            "/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle2.webp",
+            "/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle3.webp",
+            "/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle4.webp",
+            "/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle5.webp",
+            "/products/boston_stainless_steel_sports_bottle_with_silicon_handle/boston_stainless_steel_sports_bottle_with_silicon_handle6.webp"
         ]
     },
     {
@@ -9159,16 +9159,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro5.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro6.webp"
+            "/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro2.webp",
+            "/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro3.webp",
+            "/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro4.webp",
+            "/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro5.webp",
+            "/products/stainless_steel_sports_bottle_-_sigma_pro/stainless_steel_sports_bottle_-_sigma_pro6.webp"
         ]
     },
     {
@@ -9179,16 +9179,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro5.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro6.webp"
+            "/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro2.webp",
+            "/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro3.webp",
+            "/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro4.webp",
+            "/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro5.webp",
+            "/products/stainless_steel_sports_bottle_-_elektra_flip_pro/stainless_steel_sports_bottle_-_elektra_flip_pro6.webp"
         ]
     },
     {
@@ -9199,16 +9199,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro5.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro6.webp"
+            "/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro2.webp",
+            "/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro3.webp",
+            "/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro4.webp",
+            "/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro5.webp",
+            "/products/stainless_steel_sports_bottle_-_omega_pro/stainless_steel_sports_bottle_-_omega_pro6.webp"
         ]
     },
     {
@@ -9219,13 +9219,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/rose/rose1.webp",
+        "img": "/products/rose/rose1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/rose/rose2.webp",
-            "../src/assets/products/rose/rose3.webp"
+            "/products/rose/rose2.webp",
+            "/products/rose/rose3.webp"
         ]
     },
     {
@@ -9236,13 +9236,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/sleek/sleek1.webp",
+        "img": "/products/sleek/sleek1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/sleek/sleek2.webp",
-            "../src/assets/products/sleek/sleek3.webp"
+            "/products/sleek/sleek2.webp",
+            "/products/sleek/sleek3.webp"
         ]
     },
     {
@@ -9253,17 +9253,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip1.webp",
         "designSpecifications": [
             "ELECTRA FLIP, thinkPrint, 732393, Silver, 7.2x7.2x25.5cm, Stainless Steel, 158 gm, 5x5cm, Laser Engraving, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip5.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip6.webp"
+            "/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip2.webp",
+            "/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip3.webp",
+            "/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip4.webp",
+            "/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip5.webp",
+            "/products/stainless_steel_sports_bottle_-_electra_flip/stainless_steel_sports_bottle_-_electra_flip6.webp"
         ]
     },
     {
@@ -9274,17 +9274,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum1.webp",
+        "img": "/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum1.webp",
         "designSpecifications": [
             "MAGNUM 1000ml, thinkPrint, 732393, Stainless Steel, 1000ml Capacity, Stainless Steel, 181gm, 50mm x 50mm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum2.webp",
-            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum3.webp",
-            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum4.webp",
-            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum5.webp",
-            "../src/assets/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum6.webp"
+            "/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum2.webp",
+            "/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum3.webp",
+            "/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum4.webp",
+            "/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum5.webp",
+            "/products/stainless_steel_bottle_-_magnum/stainless_steel_bottle_-_magnum6.webp"
         ]
     },
     {
@@ -9295,16 +9295,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum1.webp",
         "designSpecifications": [
             "MAGNUM 750ml, thinkPrint, 732393, Stainless Steel, 7.3cm diameter x 25.5cm height, Stainless Steel 304, 170gm, 5cm x 5cm, Laser Engraving, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum5.webp"
+            "/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum2.webp",
+            "/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum3.webp",
+            "/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum4.webp",
+            "/products/stainless_steel_sports_bottle_-_magnum/stainless_steel_sports_bottle_-_magnum5.webp"
         ]
     },
     {
@@ -9315,17 +9315,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega1.webp",
         "designSpecifications": [
             "OMEGA, thinkPrint, 732393, Silver, 7.5*7.5*27.5cm, Stainless Steel, 184gm, 5*5cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega5.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega6.webp"
+            "/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega2.webp",
+            "/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega3.webp",
+            "/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega4.webp",
+            "/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega5.webp",
+            "/products/stainless_steel_sports_bottle_-_omega/stainless_steel_sports_bottle_-_omega6.webp"
         ]
     },
     {
@@ -9336,17 +9336,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica1.webp",
+        "img": "/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica1.webp",
         "designSpecifications": [
             "SILICA Bottle, thinkPrint, 732393, Stainless Steel, 750ml Capacity, Stainless Steel, 201gm, 50mm x 50mm, Laser Engraving, No RGB Lighting, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica2.webp",
-            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica3.webp",
-            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica4.webp",
-            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica5.webp",
-            "../src/assets/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica6.webp"
+            "/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica2.webp",
+            "/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica3.webp",
+            "/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica4.webp",
+            "/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica5.webp",
+            "/products/stainless_steel_bottle_with_silicon_grip_-_silica/stainless_steel_bottle_with_silicon_grip_-_silica6.webp"
         ]
     },
     {
@@ -9357,17 +9357,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo1.webp",
         "designSpecifications": [
             "GRIPO, thinkPrint, 732393, Charcoal Black, 24cm Height x 7.5cm Diameter, Stainless Steel, 191gm, 5cm x 5cm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo5.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo6.webp"
+            "/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo2.webp",
+            "/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo3.webp",
+            "/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo4.webp",
+            "/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo5.webp",
+            "/products/stainless_steel_sports_bottle_-_gripo/stainless_steel_sports_bottle_-_gripo6.webp"
         ]
     },
     {
@@ -9378,16 +9378,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma5.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma6.webp"
+            "/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma2.webp",
+            "/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma3.webp",
+            "/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma4.webp",
+            "/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma5.webp",
+            "/products/stainless_steel_sports_bottle_-_sigma/stainless_steel_sports_bottle_-_sigma6.webp"
         ]
     },
     {
@@ -9398,16 +9398,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip1.webp",
+        "img": "/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip1.webp",
         "designSpecifications": [
             "TULIP, thinkPrint, 732393, Silver, 7*7*24.5cm, Stainless Steel, 174gm, 5*5cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip2.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip3.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip4.webp",
-            "../src/assets/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip5.webp"
+            "/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip2.webp",
+            "/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip3.webp",
+            "/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip4.webp",
+            "/products/stainless_steel_sports_bottle_-_tulip/stainless_steel_sports_bottle_-_tulip5.webp"
         ]
     },
     {
@@ -9418,13 +9418,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/copper_bottle_(950ml)/copper_bottle_(950ml)1.webp",
+        "img": "/products/copper_bottle_(950ml)/copper_bottle_(950ml)1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/copper_bottle_(950ml)/copper_bottle_(950ml)2.webp",
-            "../src/assets/products/copper_bottle_(950ml)/copper_bottle_(950ml)3.webp"
+            "/products/copper_bottle_(950ml)/copper_bottle_(950ml)2.webp",
+            "/products/copper_bottle_(950ml)/copper_bottle_(950ml)3.webp"
         ]
     },
     {
@@ -9435,16 +9435,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte1.webp",
+        "img": "/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte2.webp",
-            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte3.webp",
-            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte4.webp",
-            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte5.webp",
-            "../src/assets/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte6.webp"
+            "/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte2.webp",
+            "/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte3.webp",
+            "/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte4.webp",
+            "/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte5.webp",
+            "/products/metal_sports_bottle_-_matte/metal_sports_bottle_-_matte6.webp"
         ]
     },
     {
@@ -9455,16 +9455,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight1.webp",
+        "img": "/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight2.webp",
-            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight3.webp",
-            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight4.webp",
-            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight5.webp",
-            "../src/assets/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight6.webp"
+            "/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight2.webp",
+            "/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight3.webp",
+            "/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight4.webp",
+            "/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight5.webp",
+            "/products/metal_sports_bottle_-_knight/metal_sports_bottle_-_knight6.webp"
         ]
     },
     {
@@ -9475,15 +9475,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/tritan/tritan1.webp",
+        "img": "/products/tritan/tritan1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/tritan/tritan2.webp",
-            "../src/assets/products/tritan/tritan3.webp",
-            "../src/assets/products/tritan/tritan4.webp",
-            "../src/assets/products/tritan/tritan5.webp"
+            "/products/tritan/tritan2.webp",
+            "/products/tritan/tritan3.webp",
+            "/products/tritan/tritan4.webp",
+            "/products/tritan/tritan5.webp"
         ]
     },
     {
@@ -9494,16 +9494,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper1.webp",
+        "img": "/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper2.webp",
-            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper3.webp",
-            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper4.webp",
-            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper5.webp",
-            "../src/assets/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper6.webp"
+            "/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper2.webp",
+            "/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper3.webp",
+            "/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper4.webp",
+            "/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper5.webp",
+            "/products/tritan_sports_bottle_-_flipper/tritan_sports_bottle_-_flipper6.webp"
         ]
     },
     {
@@ -9514,7 +9514,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans1.webp",
+        "img": "/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans1.webp",
         "designSpecifications": [
             "TRANS Water Bottle, thinkPrint, 392690, Transparent Grey, 24cm Height x 7.3cm Diameter, Tritan, 139gm, 5cm x 5cm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery.",
             "Dual Opening Cap, thinkPrint, 392690, Black, 24cm Height x 7.3cm Diameter, Tritan, 139gm, 5cm x 5cm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery.",
@@ -9523,11 +9523,11 @@ export const products = [
             "Lightweight Water Bottle, thinkPrint, 392690, Orange, 24cm Height x 7.3cm Diameter, Tritan, 139gm, 5cm x 5cm, Pad Printing, No RGB Lighting Effects, No Speaker Output, No Battery."
         ],
         "thumbnailImages": [
-            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans2.webp",
-            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans3.webp",
-            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans4.webp",
-            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans5.webp",
-            "../src/assets/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans6.webp"
+            "/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans2.webp",
+            "/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans3.webp",
+            "/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans4.webp",
+            "/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans5.webp",
+            "/products/tritan_sports_bottle_-_trans/tritan_sports_bottle_-_trans6.webp"
         ]
     },
     {
@@ -9538,16 +9538,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite1.webp",
+        "img": "/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite1.webp",
         "designSpecifications": [
             "ELITE Bottle, thinkPrint, 392330, Transparent, 7*7*26cm, Tritan, 98gm, 5*5cm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite2.webp",
-            "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite3.webp",
-            "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite4.webp",
-            "../src/assets/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite5.webp"
+            "/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite2.webp",
+            "/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite3.webp",
+            "/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite4.webp",
+            "/products/tritan_sports_bottle_-_elite/tritan_sports_bottle_-_elite5.webp"
         ]
     },
     {
@@ -9558,7 +9558,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/sonic/sonic1.webp",
+        "img": "/products/sonic/sonic1.webp",
         "designSpecifications": [
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Nylon Wire, UV Printing",
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Copper Wires, Engrave",
@@ -9567,9 +9567,9 @@ export const products = [
             "3-IN-1 Fast Charging Cable, thinkPrint, 85444299, Gray, 1.2 Meters, Nylon Wire, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/sonic/sonic2.webp",
-            "../src/assets/products/sonic/sonic3.webp",
-            "../src/assets/products/sonic/sonic4.webp"
+            "/products/sonic/sonic2.webp",
+            "/products/sonic/sonic3.webp",
+            "/products/sonic/sonic4.webp"
         ]
     },
     {
@@ -9580,17 +9580,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/lisbon_jr./lisbon_jr.1.webp",
+        "img": "/products/lisbon_jr./lisbon_jr.1.webp",
         "designSpecifications": [
             "Lisbon Jr, thinkPrint, 73239390, Silver, 7x10.5x9.5cm, Stainless Steel 304, 138gms, 4x4cm, ENGRAVE, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/lisbon_jr./lisbon_jr.2.webp",
-            "../src/assets/products/lisbon_jr./lisbon_jr.3.webp",
-            "../src/assets/products/lisbon_jr./lisbon_jr.4.webp",
-            "../src/assets/products/lisbon_jr./lisbon_jr.5.webp",
-            "../src/assets/products/lisbon_jr./lisbon_jr.6.webp"
+            "/products/lisbon_jr./lisbon_jr.2.webp",
+            "/products/lisbon_jr./lisbon_jr.3.webp",
+            "/products/lisbon_jr./lisbon_jr.4.webp",
+            "/products/lisbon_jr./lisbon_jr.5.webp",
+            "/products/lisbon_jr./lisbon_jr.6.webp"
         ]
     },
     {
@@ -9601,17 +9601,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/hydra/hydra1.webp",
+        "img": "/products/hydra/hydra1.webp",
         "designSpecifications": [
             "Hydra, thinkPrint, 961700, Stainless Steel, 12x9.5x27cm, Double Wall 304 SS, 495gms, 6x4cm, ENGRAVE/SCREEN PRINTING/UV PRINTING, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hydra/hydra2.webp",
-            "../src/assets/products/hydra/hydra3.webp",
-            "../src/assets/products/hydra/hydra4.webp",
-            "../src/assets/products/hydra/hydra5.webp",
-            "../src/assets/products/hydra/hydra6.webp"
+            "/products/hydra/hydra2.webp",
+            "/products/hydra/hydra3.webp",
+            "/products/hydra/hydra4.webp",
+            "/products/hydra/hydra5.webp",
+            "/products/hydra/hydra6.webp"
         ]
     },
     {
@@ -9622,16 +9622,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors1.webp",
+        "img": "/products/lisbon_jr._colors/lisbon_jr._colors1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors2.webp",
-            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors3.webp",
-            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors4.webp",
-            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors5.webp",
-            "../src/assets/products/lisbon_jr._colors/lisbon_jr._colors6.webp"
+            "/products/lisbon_jr._colors/lisbon_jr._colors2.webp",
+            "/products/lisbon_jr._colors/lisbon_jr._colors3.webp",
+            "/products/lisbon_jr._colors/lisbon_jr._colors4.webp",
+            "/products/lisbon_jr._colors/lisbon_jr._colors5.webp",
+            "/products/lisbon_jr._colors/lisbon_jr._colors6.webp"
         ]
     },
     {
@@ -9642,14 +9642,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/bistro/bistro1.webp",
+        "img": "/products/bistro/bistro1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bistro/bistro2.webp",
-            "../src/assets/products/bistro/bistro3.webp",
-            "../src/assets/products/bistro/bistro4.webp"
+            "/products/bistro/bistro2.webp",
+            "/products/bistro/bistro3.webp",
+            "/products/bistro/bistro4.webp"
         ]
     },
     {
@@ -9660,16 +9660,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/brew/brew1.webp",
+        "img": "/products/brew/brew1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/brew/brew2.webp",
-            "../src/assets/products/brew/brew3.webp",
-            "../src/assets/products/brew/brew4.webp",
-            "../src/assets/products/brew/brew5.webp",
-            "../src/assets/products/brew/brew6.webp"
+            "/products/brew/brew2.webp",
+            "/products/brew/brew3.webp",
+            "/products/brew/brew4.webp",
+            "/products/brew/brew5.webp",
+            "/products/brew/brew6.webp"
         ]
     },
     {
@@ -9680,16 +9680,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/straw/straw1.webp",
+        "img": "/products/straw/straw1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/straw/straw2.webp",
-            "../src/assets/products/straw/straw3.webp",
-            "../src/assets/products/straw/straw4.webp",
-            "../src/assets/products/straw/straw5.webp",
-            "../src/assets/products/straw/straw6.webp"
+            "/products/straw/straw2.webp",
+            "/products/straw/straw3.webp",
+            "/products/straw/straw4.webp",
+            "/products/straw/straw5.webp",
+            "/products/straw/straw6.webp"
         ]
     },
     {
@@ -9700,16 +9700,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug1.webp",
+        "img": "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug2.webp",
-            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug3.webp",
-            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug4.webp",
-            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug5.webp",
-            "../src/assets/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug6.webp"
+            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug2.webp",
+            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug3.webp",
+            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug4.webp",
+            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug5.webp",
+            "/products/grain-wheat_fibre_eco_friendly_mug/grain-wheat_fibre_eco_friendly_mug6.webp"
         ]
     },
     {
@@ -9720,16 +9720,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/eco-brew/eco-brew1.webp",
+        "img": "/products/eco-brew/eco-brew1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco-brew/eco-brew2.webp",
-            "../src/assets/products/eco-brew/eco-brew3.webp",
-            "../src/assets/products/eco-brew/eco-brew4.webp",
-            "../src/assets/products/eco-brew/eco-brew5.webp",
-            "../src/assets/products/eco-brew/eco-brew6.webp"
+            "/products/eco-brew/eco-brew2.webp",
+            "/products/eco-brew/eco-brew3.webp",
+            "/products/eco-brew/eco-brew4.webp",
+            "/products/eco-brew/eco-brew5.webp",
+            "/products/eco-brew/eco-brew6.webp"
         ]
     },
     {
@@ -9740,7 +9740,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug1.webp",
+        "img": "/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug1.webp",
         "designSpecifications": [
             "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, 107gm",
             "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, Branding Area: 4*4cm",
@@ -9749,9 +9749,9 @@ export const products = [
             "MINI MUG, thinkPrint, 73239990, Silver, 7*9.5*5.7cm, Double Wall Stainless Steel, No RGB Lighting Effects"
         ],
         "thumbnailImages": [
-            "../src/assets/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug2.webp",
-            "../src/assets/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug3.webp",
-            "../src/assets/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug4.webp"
+            "/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug2.webp",
+            "/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug3.webp",
+            "/products/mini_mug_double_wall_stainless_steel_mug/mini_mug_double_wall_stainless_steel_mug4.webp"
         ]
     },
     {
@@ -9762,7 +9762,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle1.webp",
+        "img": "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle1.webp",
         "designSpecifications": [
             "CUPPA, thinkPrint, 39249090, Silver, 8*11.5*14cm, SS/PP, 201gms",
             "CUPPA, thinkPrint, 39249090, Silver, 400ml, SS/PP, 201gms",
@@ -9771,11 +9771,11 @@ export const products = [
             "CUPPA, thinkPrint, 39249090, Silver, 400ml, SS/PP, 201gms, 4x4cm, Pad Print"
         ],
         "thumbnailImages": [
-            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle2.webp",
-            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle3.webp",
-            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle4.webp",
-            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle5.webp",
-            "../src/assets/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle6.webp"
+            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle2.webp",
+            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle3.webp",
+            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle4.webp",
+            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle5.webp",
+            "/products/cuppa_double_wall_travel_mug_with_handle/cuppa_double_wall_travel_mug_with_handle6.webp"
         ]
     },
     {
@@ -9786,17 +9786,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug1.webp",
+        "img": "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug1.webp",
         "designSpecifications": [
             "TRENDY Bottle, thinkPrint, 73239390, Silver, 6.7*6.7*15.7cm, Stainless Steel Inner, 176gms, 4*4cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug2.webp",
-            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug3.webp",
-            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug4.webp",
-            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug5.webp",
-            "../src/assets/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug6.webp"
+            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug2.webp",
+            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug3.webp",
+            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug4.webp",
+            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug5.webp",
+            "/products/trendy_stainless_steel_double_wall_mug/trendy_stainless_steel_double_wall_mug6.webp"
         ]
     },
     {
@@ -9807,18 +9807,18 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug1.webp",
+        "img": "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug1.webp",
         "designSpecifications": [
             "KONETO, thinkPrint, 73239390, Matte Black, 7.5*7.5*41Cm, SS 304 Grade, 218gms",
             "KONETO, thinkPrint, 73239390, Matte Black, 7.5*7.5*41Cm, SS 304 Grade, 218gms, 3x3cm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug2.webp",
-            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug3.webp",
-            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug4.webp",
-            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug5.webp",
-            "../src/assets/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug6.webp"
+            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug2.webp",
+            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug3.webp",
+            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug4.webp",
+            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug5.webp",
+            "/products/koneto_stainless_steel_vaccum_mug/koneto_stainless_steel_vaccum_mug6.webp"
         ]
     },
     {
@@ -9829,7 +9829,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug1.webp",
+        "img": "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug1.webp",
         "designSpecifications": [
             "KONE, thinkPrint, 96170019, Silver, 8.5 x 8.5 x 10 cm, SS304 inner/SS201 outer, 170 gms",
             "KONE, thinkPrint, 96170019, Silver, 8.5 x 8.5 x 10 cm, SS304 inner/SS201 outer, Branding Area: 5 x 5 cm",
@@ -9838,11 +9838,11 @@ export const products = [
             "KONE, thinkPrint, 96170019, Silver, Volume: 320 ml, SS304 inner/SS201 outer, No RGB Lighting Effects"
         ],
         "thumbnailImages": [
-            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug2.webp",
-            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug3.webp",
-            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug4.webp",
-            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug5.webp",
-            "../src/assets/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug6.webp"
+            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug2.webp",
+            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug3.webp",
+            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug4.webp",
+            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug5.webp",
+            "/products/kone_stainless_steel_vaccum_insulated_mug/kone_stainless_steel_vaccum_insulated_mug6.webp"
         ]
     },
     {
@@ -9853,16 +9853,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle1.webp",
+        "img": "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle2.webp",
-            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle3.webp",
-            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle4.webp",
-            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle5.webp",
-            "../src/assets/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle6.webp"
+            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle2.webp",
+            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle3.webp",
+            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle4.webp",
+            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle5.webp",
+            "/products/lisbon_stainless_steel_travel_mug_with_handle/lisbon_stainless_steel_travel_mug_with_handle6.webp"
         ]
     },
     {
@@ -9873,12 +9873,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/corky_ceramic_mug_with_cork_base/corky_ceramic_mug_with_cork_base1.webp",
+        "img": "/products/corky_ceramic_mug_with_cork_base/corky_ceramic_mug_with_cork_base1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/corky_ceramic_mug_with_cork_base/corky_ceramic_mug_with_cork_base2.webp"
+            "/products/corky_ceramic_mug_with_cork_base/corky_ceramic_mug_with_cork_base2.webp"
         ]
     },
     {
@@ -9889,16 +9889,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/bamboo_2.0/bamboo_2.01.webp",
+        "img": "/products/bamboo_2.0/bamboo_2.01.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bamboo_2.0/bamboo_2.02.webp",
-            "../src/assets/products/bamboo_2.0/bamboo_2.03.webp",
-            "../src/assets/products/bamboo_2.0/bamboo_2.04.webp",
-            "../src/assets/products/bamboo_2.0/bamboo_2.05.webp",
-            "../src/assets/products/bamboo_2.0/bamboo_2.06.webp"
+            "/products/bamboo_2.0/bamboo_2.02.webp",
+            "/products/bamboo_2.0/bamboo_2.03.webp",
+            "/products/bamboo_2.0/bamboo_2.04.webp",
+            "/products/bamboo_2.0/bamboo_2.05.webp",
+            "/products/bamboo_2.0/bamboo_2.06.webp"
         ]
     },
     {
@@ -9909,16 +9909,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy1.webp",
+        "img": "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy5.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy6.webp"
+            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy2.webp",
+            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy3.webp",
+            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy4.webp",
+            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy5.webp",
+            "/products/stainless_steel_travel_mug_-_kofy/stainless_steel_travel_mug_-_kofy6.webp"
         ]
     },
     {
@@ -9929,16 +9929,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr1.webp",
+        "img": "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr5.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr6.webp"
+            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr2.webp",
+            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr3.webp",
+            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr4.webp",
+            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr5.webp",
+            "/products/stainless_steel_travel_mug_with_silicon_grip_-_tmblr/stainless_steel_travel_mug_with_silicon_grip_-_tmblr6.webp"
         ]
     },
     {
@@ -9949,14 +9949,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug1.webp",
+        "img": "/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug2.webp",
-            "../src/assets/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug3.webp",
-            "../src/assets/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug4.webp"
+            "/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug2.webp",
+            "/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug3.webp",
+            "/products/cookie_mug-coffee_break_mug/cookie_mug-coffee_break_mug4.webp"
         ]
     },
     {
@@ -9967,16 +9967,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby1.webp",
+        "img": "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby5.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby6.webp"
+            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby2.webp",
+            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby3.webp",
+            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby4.webp",
+            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby5.webp",
+            "/products/stainless_steel_travel_mug_-_toby/stainless_steel_travel_mug_-_toby6.webp"
         ]
     },
     {
@@ -9987,17 +9987,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento1.webp",
+        "img": "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento1.webp",
         "designSpecifications": [
             "VENTO Travel Mug, thinkPrint, 73239390, Matte Black, 85mm diameter x 145mm height, 304 Stainless Steel, 206g, 50mm x 50mm, Laser Engraving, N/A, N/A, N/A.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento5.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento6.webp"
+            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento2.webp",
+            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento3.webp",
+            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento4.webp",
+            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento5.webp",
+            "/products/stainless_steel_travel_mug_with_handle_-_vento/stainless_steel_travel_mug_with_handle_-_vento6.webp"
         ]
     },
     {
@@ -10008,17 +10008,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont1.webp",
+        "img": "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont1.webp",
         "designSpecifications": [
             "Stainless Steel Travel Mug With Handle, thinkPrint, 73239390, Matte Black, 9 x 12 x 12 cm, 304 Stainless Steel, 300g, 4 x 4 cm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont5.webp",
-            "../src/assets/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont6.webp"
+            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont2.webp",
+            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont3.webp",
+            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont4.webp",
+            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont5.webp",
+            "/products/stainless_steel_travel_mug_with_handle_-_mont/stainless_steel_travel_mug_with_handle_-_mont6.webp"
         ]
     },
     {
@@ -10029,17 +10029,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/bamboo_mug/bamboo_mug1.webp",
+        "img": "/products/bamboo_mug/bamboo_mug1.webp",
         "designSpecifications": [
             "iBamboo, thinkPrint, 441990, Natural Bamboo, 120mm (H) x 80mm (D), Bamboo Fiber & Silicon, 98gm, 50mm x 30mm, Pad Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bamboo_mug/bamboo_mug2.webp",
-            "../src/assets/products/bamboo_mug/bamboo_mug3.webp",
-            "../src/assets/products/bamboo_mug/bamboo_mug4.webp",
-            "../src/assets/products/bamboo_mug/bamboo_mug5.webp",
-            "../src/assets/products/bamboo_mug/bamboo_mug6.webp"
+            "/products/bamboo_mug/bamboo_mug2.webp",
+            "/products/bamboo_mug/bamboo_mug3.webp",
+            "/products/bamboo_mug/bamboo_mug4.webp",
+            "/products/bamboo_mug/bamboo_mug5.webp",
+            "/products/bamboo_mug/bamboo_mug6.webp"
         ]
     },
     {
@@ -10050,16 +10050,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork1.webp",
+        "img": "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork1.webp",
         "designSpecifications": [
             "TORK-450 Travel Mug, thinkPrint, 732393, Matte Black, 15cm x 8cm x 8cm, 304 Stainless Steel, 300g, 5cm x 3cm, Laser Engraving, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork5.webp"
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork2.webp",
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork3.webp",
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork4.webp",
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork5.webp"
         ]
     },
     {
@@ -10070,17 +10070,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo1.webp",
+        "img": "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo1.webp",
         "designSpecifications": [
             "STEELO, thinkPrint, 732393, Silver, 120mm height x 80mm diameter, Stainless Steel, 166gms, 50mm x 30mm, Laser Engraving, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo5.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo6.webp"
+            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo2.webp",
+            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo3.webp",
+            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo4.webp",
+            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo5.webp",
+            "/products/stainless_steel_travel_mug_-_steelo/stainless_steel_travel_mug_-_steelo6.webp"
         ]
     },
     {
@@ -10091,17 +10091,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork1.webp",
+        "img": "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork1.webp",
         "designSpecifications": [
             "TORK-350, thinkPrint, 7323, Matte Black, 150mm (H) x 80mm (D), 304 Stainless Steel, 198g, 50mm x 30mm, Laser Engraving, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork5.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork6.webp"
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork2.webp",
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork3.webp",
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork4.webp",
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork5.webp",
+            "/products/stainless_steel_travel_mug_-_tork/stainless_steel_travel_mug_-_tork6.webp"
         ]
     },
     {
@@ -10112,14 +10112,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo1.webp",
+        "img": "/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo2.webp",
-            "../src/assets/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo3.webp",
-            "../src/assets/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo4.webp"
+            "/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo2.webp",
+            "/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo3.webp",
+            "/products/sports_bottle_with_mobile_holder_-_mobilo/sports_bottle_with_mobile_holder_-_mobilo4.webp"
         ]
     },
     {
@@ -10130,15 +10130,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy1.webp",
+        "img": "/products/stainless_steel_-_trendy/stainless_steel_-_trendy1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy2.webp",
-            "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy3.webp",
-            "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy4.webp",
-            "../src/assets/products/stainless_steel_-_trendy/stainless_steel_-_trendy5.webp"
+            "/products/stainless_steel_-_trendy/stainless_steel_-_trendy2.webp",
+            "/products/stainless_steel_-_trendy/stainless_steel_-_trendy3.webp",
+            "/products/stainless_steel_-_trendy/stainless_steel_-_trendy4.webp",
+            "/products/stainless_steel_-_trendy/stainless_steel_-_trendy5.webp"
         ]
     },
     {
@@ -10149,16 +10149,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can1.webp",
+        "img": "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can2.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can3.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can4.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can5.webp",
-            "../src/assets/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can6.webp"
+            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can2.webp",
+            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can3.webp",
+            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can4.webp",
+            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can5.webp",
+            "/products/stainless_steel_travel_mug_-_can/stainless_steel_travel_mug_-_can6.webp"
         ]
     },
     {
@@ -10169,16 +10169,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/cafe_bamboo/cafe_bamboo1.webp",
+        "img": "/products/cafe_bamboo/cafe_bamboo1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/cafe_bamboo/cafe_bamboo2.webp",
-            "../src/assets/products/cafe_bamboo/cafe_bamboo3.webp",
-            "../src/assets/products/cafe_bamboo/cafe_bamboo4.webp",
-            "../src/assets/products/cafe_bamboo/cafe_bamboo5.webp",
-            "../src/assets/products/cafe_bamboo/cafe_bamboo6.webp"
+            "/products/cafe_bamboo/cafe_bamboo2.webp",
+            "/products/cafe_bamboo/cafe_bamboo3.webp",
+            "/products/cafe_bamboo/cafe_bamboo4.webp",
+            "/products/cafe_bamboo/cafe_bamboo5.webp",
+            "/products/cafe_bamboo/cafe_bamboo6.webp"
         ]
     },
     {
@@ -10189,16 +10189,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/bambi/bambi1.webp",
+        "img": "/products/bambi/bambi1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bambi/bambi2.webp",
-            "../src/assets/products/bambi/bambi3.webp",
-            "../src/assets/products/bambi/bambi4.webp",
-            "../src/assets/products/bambi/bambi5.webp",
-            "../src/assets/products/bambi/bambi6.webp"
+            "/products/bambi/bambi2.webp",
+            "/products/bambi/bambi3.webp",
+            "/products/bambi/bambi4.webp",
+            "/products/bambi/bambi5.webp",
+            "/products/bambi/bambi6.webp"
         ]
     },
     {
@@ -10209,16 +10209,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/eco_cork/eco_cork1.webp",
+        "img": "/products/eco_cork/eco_cork1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_cork/eco_cork2.webp",
-            "../src/assets/products/eco_cork/eco_cork3.webp",
-            "../src/assets/products/eco_cork/eco_cork4.webp",
-            "../src/assets/products/eco_cork/eco_cork5.webp",
-            "../src/assets/products/eco_cork/eco_cork6.webp"
+            "/products/eco_cork/eco_cork2.webp",
+            "/products/eco_cork/eco_cork3.webp",
+            "/products/eco_cork/eco_cork4.webp",
+            "/products/eco_cork/eco_cork5.webp",
+            "/products/eco_cork/eco_cork6.webp"
         ]
     },
     {
@@ -10229,15 +10229,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/wheat_mug/wheat_mug1.webp",
+        "img": "/products/wheat_mug/wheat_mug1.webp",
         "designSpecifications": [
             "Wheat Mug, thinkPrint, 39249090, Natural Wheat, 90mm Diameter x 110mm Height, Wheat Fiber Composite, 150g, 50mm x 50mm, Pad Printing/Laser Engraving, Not Applicable, Not Applicable, Not Applicable",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/wheat_mug/wheat_mug2.webp",
-            "../src/assets/products/wheat_mug/wheat_mug3.webp",
-            "../src/assets/products/wheat_mug/wheat_mug4.webp"
+            "/products/wheat_mug/wheat_mug2.webp",
+            "/products/wheat_mug/wheat_mug3.webp",
+            "/products/wheat_mug/wheat_mug4.webp"
         ]
     },
     {
@@ -10248,17 +10248,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/eco_grip/eco_grip1.webp",
+        "img": "/products/eco_grip/eco_grip1.webp",
         "designSpecifications": [
             "ECO GRIP WHEAT FIBRE ECO FRIENDLY MUG, thinkPrint, 39249090, BLUE, 135mm Height x 85mm Diameter, Wheat Fibre Composite, 200g, 50mm x 50mm, Screen Printing",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_grip/eco_grip2.webp",
-            "../src/assets/products/eco_grip/eco_grip3.webp",
-            "../src/assets/products/eco_grip/eco_grip4.webp",
-            "../src/assets/products/eco_grip/eco_grip5.webp",
-            "../src/assets/products/eco_grip/eco_grip6.webp"
+            "/products/eco_grip/eco_grip2.webp",
+            "/products/eco_grip/eco_grip3.webp",
+            "/products/eco_grip/eco_grip4.webp",
+            "/products/eco_grip/eco_grip5.webp",
+            "/products/eco_grip/eco_grip6.webp"
         ]
     },
     {
@@ -10269,14 +10269,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/slendr/slendr1.webp",
+        "img": "/products/slendr/slendr1.webp",
         "designSpecifications": [
             "SLENDR Stainless Steel Sports Bottle, thinkPrint, 73239420, Stainless Steel, 6x6x24.7cm, 304 Stainless Steel, 165gms, 5x10cm, Laser Engraving/Screen Print, No RGB Lighting Effects, No Speaker Output, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/slendr/slendr2.webp",
-            "../src/assets/products/slendr/slendr3.webp"
+            "/products/slendr/slendr2.webp",
+            "/products/slendr/slendr3.webp"
         ]
     },
     {
@@ -10287,16 +10287,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug1.webp",
+        "img": "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug1.webp",
         "designSpecifications": [
             "E - CUP, thinkPrint, 39239090, Natural, 70mm diameter x 150mm height, Single Wall Stainless Steel, 250g, 50mm x 70mm, Laser Engraving/Pad Printing, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug2.webp",
-            "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug3.webp",
-            "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug4.webp",
-            "../src/assets/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug5.webp"
+            "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug2.webp",
+            "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug3.webp",
+            "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug4.webp",
+            "/products/e_-_cup_wheat_fiber_eco_friendly_mug/e_-_cup_wheat_fiber_eco_friendly_mug5.webp"
         ]
     },
     {
@@ -10307,17 +10307,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup1.webp",
+        "img": "/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup1.webp",
         "designSpecifications": [
             "Natura Bottle, thinkPrint, 39239090, Natural Beige, 70mm diameter x 180mm height, Wheat Straw Plastic, 120g, 50mm x 80mm, Pad Printing, No RGB Lighting, No Speaker, No Battery",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup2.webp",
-            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup3.webp",
-            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup4.webp",
-            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup5.webp",
-            "../src/assets/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup6.webp"
+            "/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup2.webp",
+            "/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup3.webp",
+            "/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup4.webp",
+            "/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup5.webp",
+            "/products/natura_wheat_fiber_cup/natura_wheat_fiber_cup6.webp"
         ]
     },
     {
@@ -10328,14 +10328,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set1.webp",
+        "img": "/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set1.webp",
         "designSpecifications": [
             "ECO - CUTLERY, thinkPrint, 39241090, Natural, 20cm x 6cm x 3cm, Wheat Straw, 150g, 5cm x 2cm, Pad Printing, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set2.webp",
-            "../src/assets/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set3.webp"
+            "/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set2.webp",
+            "/products/eco_-_cutlery_eco_friendly_cutlery_set/eco_-_cutlery_eco_friendly_cutlery_set3.webp"
         ]
     },
     {
@@ -10346,17 +10346,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/boro_cafe/boro_cafe1.webp",
+        "img": "/products/boro_cafe/boro_cafe1.webp",
         "designSpecifications": [
             "BORO CAFE, thinkPrint, 70139900, Transparent, 8.5 x 12 x 8.5 cm, Borosilicate Glass, 120 gms, 5 x 5 cm, Engrave/Screen Printing/UV Printing/DTF Sticker, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/boro_cafe/boro_cafe2.webp",
-            "../src/assets/products/boro_cafe/boro_cafe3.webp",
-            "../src/assets/products/boro_cafe/boro_cafe4.webp",
-            "../src/assets/products/boro_cafe/boro_cafe5.webp",
-            "../src/assets/products/boro_cafe/boro_cafe6.webp"
+            "/products/boro_cafe/boro_cafe2.webp",
+            "/products/boro_cafe/boro_cafe3.webp",
+            "/products/boro_cafe/boro_cafe4.webp",
+            "/products/boro_cafe/boro_cafe5.webp",
+            "/products/boro_cafe/boro_cafe6.webp"
         ]
     },
     {
@@ -10367,13 +10367,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/borosilicate_glass/borosilicate_glass1.webp",
+        "img": "/products/borosilicate_glass/borosilicate_glass1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/borosilicate_glass/borosilicate_glass2.webp",
-            "../src/assets/products/borosilicate_glass/borosilicate_glass3.webp"
+            "/products/borosilicate_glass/borosilicate_glass2.webp",
+            "/products/borosilicate_glass/borosilicate_glass3.webp"
         ]
     },
     {
@@ -10384,13 +10384,13 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/eco_goblet/eco_goblet1.webp",
+        "img": "/products/eco_goblet/eco_goblet1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/eco_goblet/eco_goblet2.webp",
-            "../src/assets/products/eco_goblet/eco_goblet3.webp"
+            "/products/eco_goblet/eco_goblet2.webp",
+            "/products/eco_goblet/eco_goblet3.webp"
         ]
     },
     {
@@ -10401,12 +10401,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Custom Drinkware",
-        "img": "../src/assets/products/goblet/goblet1.webp",
+        "img": "/products/goblet/goblet1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/goblet/goblet2.webp"
+            "/products/goblet/goblet2.webp"
         ]
     },
     {
@@ -10417,17 +10417,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket1.webp",
+        "img": "/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket1.webp",
         "designSpecifications": [
             "WINBARG Soft Shell Jacket, thinkPrint, 620190, Black, S-XXL, 90% Polyester/10% Viscose, 700g, 10cm x 10cm (Inside Hidden Zip Area), Embroidery, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket2.webp",
-            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket3.webp",
-            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket4.webp",
-            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket5.webp",
-            "../src/assets/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket6.webp"
+            "/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket2.webp",
+            "/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket3.webp",
+            "/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket4.webp",
+            "/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket5.webp",
+            "/products/winbarg_soft_shell_jacket/winbarg_soft_shell_jacket6.webp"
         ]
     },
     {
@@ -10438,7 +10438,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg1.webp",
+        "img": "/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg1.webp",
         "designSpecifications": [
             "WINBARG, thinkPrint, 62033200, BLACK, Available in sizes S-XXL, Bonded Fleece (90% Polyester, 10% Spandex), 0.75 lbs",
             "WINBARG, thinkPrint, 62033200, BLACK, Available in sizes S-XXL, Breathable Knit Backing, N/A, N/A",
@@ -10447,10 +10447,10 @@ export const products = [
             "WINBARG, thinkPrint, 62033200, BLACK, Available in sizes S-XXL, Bonded Fleece (90% Polyester, 10% Spandex), N/A, Heat Transfer, N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg2.webp",
-            "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg3.webp",
-            "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg4.webp",
-            "../src/assets/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg5.webp"
+            "/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg2.webp",
+            "/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg3.webp",
+            "/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg4.webp",
+            "/products/bonded_fleece_sleeveless_jacket-winbarg/bonded_fleece_sleeveless_jacket-winbarg5.webp"
         ]
     },
     {
@@ -10461,15 +10461,15 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg1.webp",
+        "img": "/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg1.webp",
         "designSpecifications": [
             "Winbarg Bonded Fleece Jacket, thinkPrint, 62033200, Black, Available in sizes S-XXL (specific dimensions chart to be provided), Bonded Fleece with Neudri Technology, Approximately 500g (size M), Left Chest & Back Yoke, Embroidery & Screen Printing, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg2.webp",
-            "../src/assets/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg3.webp",
-            "../src/assets/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg4.webp"
+            "/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg2.webp",
+            "/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg3.webp",
+            "/products/bonded_fleece_jacket_-_winbarg/bonded_fleece_jacket_-_winbarg4.webp"
         ]
     },
     {
@@ -10480,7 +10480,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/north_pole/north_pole1.webp",
+        "img": "/products/north_pole/north_pole1.webp",
         "designSpecifications": [
             "HIGH NECK - NORTH POLE, thinkPrint, 620332, Navy Blue, S-XXL, Polyester, 600g, Left Chest, Embroidery, None, None, None",
             "HIGH NECK - NORTH POLE, thinkPrint, 620332, Charcoal Grey, S-XXL, Polyester, 600g, Left Sleeve, Screen Printing, None, None, None",
@@ -10489,10 +10489,10 @@ export const products = [
             "HIGH NECK - NORTH POLE, thinkPrint, 620332, Beige, S-XXL, Polyester, 600g, Center Back, Woven Label, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/north_pole/north_pole2.webp",
-            "../src/assets/products/north_pole/north_pole3.webp",
-            "../src/assets/products/north_pole/north_pole4.webp",
-            "../src/assets/products/north_pole/north_pole5.webp"
+            "/products/north_pole/north_pole2.webp",
+            "/products/north_pole/north_pole3.webp",
+            "/products/north_pole/north_pole4.webp",
+            "/products/north_pole/north_pole5.webp"
         ]
     },
     {
@@ -10503,16 +10503,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip1.webp",
+        "img": "/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip1.webp",
         "designSpecifications": [
             "Unisex Hooded Sweatshirt, Pikmee, 611300, Customizable, Varies by Size (S-XXL), Duranit Cotton Fleece, 450-600g (Varies by Size), Chest/Back/Sleeves, Screen Printing/Embroidery, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip2.webp",
-            "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip3.webp",
-            "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip4.webp",
-            "../src/assets/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip5.webp"
+            "/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip2.webp",
+            "/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip3.webp",
+            "/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip4.webp",
+            "/products/zero_degree_hooded_sweatshirt_-_with_out_zip/zero_degree_hooded_sweatshirt_-_with_out_zip5.webp"
         ]
     },
     {
@@ -10523,14 +10523,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt1.webp",
+        "img": "/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt2.webp",
-            "../src/assets/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt3.webp",
-            "../src/assets/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt4.webp"
+            "/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt2.webp",
+            "/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt3.webp",
+            "/products/zero_degree_crew_neck_sweatshirt/zero_degree_crew_neck_sweatshirt4.webp"
         ]
     },
     {
@@ -10541,16 +10541,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic1.webp",
+        "img": "/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic1.webp",
         "designSpecifications": [
             "Pikmee Track Jacket, Pikmee, 620333, Black, XS-XXL (Size Range), 100% Micro Polyester, 300g (Size M), Chest: 4\" x 4\", Embroidery/Screen Print, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic2.webp",
-            "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic3.webp",
-            "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic4.webp",
-            "../src/assets/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic5.webp"
+            "/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic2.webp",
+            "/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic3.webp",
+            "/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic4.webp",
+            "/products/acti-fit_reflecter_jacket_-_sports_republic/acti-fit_reflecter_jacket_-_sports_republic5.webp"
         ]
     },
     {
@@ -10561,17 +10561,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris1.webp",
+        "img": "/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris1.webp",
         "designSpecifications": [
             "Polaris Hoodie, Pikmee, 611300, To be specified, Sizes XS-XXL, Duranit CVC, 500g (Average), 4\" x 4\" (Chest), thinkPrint, None, None, None",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris2.webp",
-            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris3.webp",
-            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris4.webp",
-            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris5.webp",
-            "../src/assets/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris6.webp"
+            "/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris2.webp",
+            "/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris3.webp",
+            "/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris4.webp",
+            "/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris5.webp",
+            "/products/hoodie_swaetshirt_polaris/hoodie_swaetshirt_polaris6.webp"
         ]
     },
     {
@@ -10582,7 +10582,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree1.webp",
+        "img": "/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree1.webp",
         "designSpecifications": [
             "Zero Degree Jacket, Pikmee, 611300, Navy Blue, S-XXL, Duranit Cotton, 600g, Left Chest (4\"x4\"), Embroidery, None, None, None",
             "Zero Degree Jacket, Pikmee, 611300, Charcoal Grey, S-XXL, Compacted Pre-shrunk Fabric, 600g, Back Yoke (8\"x2\"), Screen Printing, None, None, None",
@@ -10591,11 +10591,11 @@ export const products = [
             "Zero Degree Jacket, Pikmee, 611300, Burgundy, S-XXL, Duranit Cotton, 600g, Back Center (10\"x4\"), Sublimation, None, None, None"
         ],
         "thumbnailImages": [
-            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree2.webp",
-            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree3.webp",
-            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree4.webp",
-            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree5.webp",
-            "../src/assets/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree6.webp"
+            "/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree2.webp",
+            "/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree3.webp",
+            "/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree4.webp",
+            "/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree5.webp",
+            "/products/turtle_neck_sweatshirt_zero_degree/turtle_neck_sweatshirt_zero_degree6.webp"
         ]
     },
     {
@@ -10606,7 +10606,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree1.webp",
+        "img": "/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree1.webp",
         "designSpecifications": [
             "Pikmee Hoodie, Pikmee, 611300, Navy Blue, XS-XXL, Duranit Cotton, 450g, Chest, Screen Printing, None, None, None.",
             "Pikmee Hoodie, Pikmee, 611300, Charcoal Grey, XS-XXL, Compacted Pre-Shrunk Fabric, 450g, Sleeve, Embroidery, None, None, None.",
@@ -10615,11 +10615,11 @@ export const products = [
             "Pikmee Hoodie, Pikmee, 611300, Burgundy, XS-XXL, Double Needle Stitched Duranit Cotton, 450g, Pocket, Pad Printing, None, None, None."
         ],
         "thumbnailImages": [
-            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree2.webp",
-            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree3.webp",
-            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree4.webp",
-            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree5.webp",
-            "../src/assets/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree6.webp"
+            "/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree2.webp",
+            "/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree3.webp",
+            "/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree4.webp",
+            "/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree5.webp",
+            "/products/hoodie_sweatshirt_zero_degree/hoodie_sweatshirt_zero_degree6.webp"
         ]
     },
     {
@@ -10630,17 +10630,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go1.webp",
+        "img": "/products/sports_republic_acti-go/sports_republic_acti-go1.webp",
         "designSpecifications": [
             "Acti-Go Performance Wear, thinkPrint, 610990, Navy Blue, XS-XXL, 100% Micro Polyester, 130 G/M2, Chest: 40\"-52\", Screen Printing, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go2.webp",
-            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go3.webp",
-            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go4.webp",
-            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go5.webp",
-            "../src/assets/products/sports_republic_acti-go/sports_republic_acti-go6.webp"
+            "/products/sports_republic_acti-go/sports_republic_acti-go2.webp",
+            "/products/sports_republic_acti-go/sports_republic_acti-go3.webp",
+            "/products/sports_republic_acti-go/sports_republic_acti-go4.webp",
+            "/products/sports_republic_acti-go/sports_republic_acti-go5.webp",
+            "/products/sports_republic_acti-go/sports_republic_acti-go6.webp"
         ]
     },
     {
@@ -10651,12 +10651,12 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/bio_wash_collection_-_organic_cotton_t-shirts/bio_wash_collection_-_organic_cotton_t-shirts1.webp",
+        "img": "/products/bio_wash_collection_-_organic_cotton_t-shirts/bio_wash_collection_-_organic_cotton_t-shirts1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/bio_wash_collection_-_organic_cotton_t-shirts/bio_wash_collection_-_organic_cotton_t-shirts2.webp"
+            "/products/bio_wash_collection_-_organic_cotton_t-shirts/bio_wash_collection_-_organic_cotton_t-shirts2.webp"
         ]
     },
     {
@@ -10667,16 +10667,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt1.webp",
+        "img": "/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt2.webp",
-            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt3.webp",
-            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt4.webp",
-            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt5.webp",
-            "../src/assets/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt6.webp"
+            "/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt2.webp",
+            "/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt3.webp",
+            "/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt4.webp",
+            "/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt5.webp",
+            "/products/skinta_-bio_wash_crew_neck_t-shirt/skinta_-bio_wash_crew_neck_t-shirt6.webp"
         ]
     },
     {
@@ -10687,16 +10687,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic1.webp",
+        "img": "/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic2.webp",
-            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic3.webp",
-            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic4.webp",
-            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic5.webp",
-            "../src/assets/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic6.webp"
+            "/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic2.webp",
+            "/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic3.webp",
+            "/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic4.webp",
+            "/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic5.webp",
+            "/products/acti_-_runn_dryfit_t-shirt_-_sports_republic/acti_-_runn_dryfit_t-shirt_-_sports_republic6.webp"
         ]
     },
     {
@@ -10707,16 +10707,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black1.webp",
+        "img": "/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black2.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black3.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black4.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black5.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black6.webp"
+            "/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black2.webp",
+            "/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black3.webp",
+            "/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black4.webp",
+            "/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black5.webp",
+            "/products/monte_franco_formal_shirts_-_black/monte_franco_formal_shirts_-_black6.webp"
         ]
     },
     {
@@ -10727,16 +10727,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple1.webp",
+        "img": "/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple2.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple3.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple4.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple5.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple6.webp"
+            "/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple2.webp",
+            "/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple3.webp",
+            "/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple4.webp",
+            "/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple5.webp",
+            "/products/monte_franco_formal_shirts_-_purple/monte_franco_formal_shirts_-_purple6.webp"
         ]
     },
     {
@@ -10747,16 +10747,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple1.webp",
+        "img": "/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple1.webp",
         "designSpecifications": [
             "N/A"
         ],
         "thumbnailImages": [
-            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple2.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple3.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple4.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple5.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple6.webp"
+            "/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple2.webp",
+            "/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple3.webp",
+            "/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple4.webp",
+            "/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple5.webp",
+            "/products/monte_franco_formal_shirts_-_light_purple/monte_franco_formal_shirts_-_light_purple6.webp"
         ]
     },
     {
@@ -10767,16 +10767,16 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue1.webp",
+        "img": "/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirt, Pikmee, 6205, Blue, S(38)-XXL(46) sizes available, Filafil"
         ],
         "thumbnailImages": [
-            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue2.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue3.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue4.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue5.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue6.webp"
+            "/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue2.webp",
+            "/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue3.webp",
+            "/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue4.webp",
+            "/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue5.webp",
+            "/products/monte_franco_formal_shirts_-_blue/monte_franco_formal_shirts_-_blue6.webp"
         ]
     },
     {
@@ -10787,17 +10787,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach1.webp",
+        "img": "/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirts, Pikmee, 6205, Peach, S(38), M(40), L(42), XL(44), XXL(46), Filafil, Not Applicable, Not Applicable, thinkPrint Label Area, Woven Label, Not Applicable, Not Applicable, Not Applicable.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach2.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach3.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach4.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach5.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach6.webp"
+            "/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach2.webp",
+            "/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach3.webp",
+            "/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach4.webp",
+            "/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach5.webp",
+            "/products/monte_franco_formal_shirts_-_peach/monte_franco_formal_shirts_-_peach6.webp"
         ]
     },
     {
@@ -10808,14 +10808,14 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white1.webp",
+        "img": "/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirts, Pikmee, 6205, White, S(38), M(40), L(42), XL(44), XXL(46), Plan fine Quality, N/A, N/A, thinkPrint area on collar, Embroidery, N/A, N/A, N/A",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white2.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white3.webp"
+            "/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white2.webp",
+            "/products/monte_franco_formal_shirts_-_white/monte_franco_formal_shirts_-_white3.webp"
         ]
     },
     {
@@ -10826,17 +10826,17 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue1.webp",
+        "img": "/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirt, Pikmee, 6205, Light Blue, S(38) to XXL(46), Filafil, 250g, Chest Pocket, Embroidery, None, None, None.",
             ""
         ],
         "thumbnailImages": [
-            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue2.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue3.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue4.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue5.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue6.webp"
+            "/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue2.webp",
+            "/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue3.webp",
+            "/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue4.webp",
+            "/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue5.webp",
+            "/products/monte_franco_formal_shirts_-_light_blue/monte_franco_formal_shirts_-_light_blue6.webp"
         ]
     },
     {
@@ -10847,7 +10847,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Personalized Clothing",
-        "img": "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey1.webp",
+        "img": "/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey1.webp",
         "designSpecifications": [
             "Monte Franco Formal Shirt, Pikmee, 6205, Grey, Sizes: S(38), M(40), L(42), XL(44), XXL(46), Fabric: Filafil",
             "Monte Franco Formal Shirt, Pikmee, 6205, Grey, Fit: Comfort Fit",
@@ -10856,11 +10856,11 @@ export const products = [
             "Monte Franco Formal Shirt, Pikmee, 6205, Grey, No Battery"
         ],
         "thumbnailImages": [
-            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey2.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey3.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey4.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey5.webp",
-            "../src/assets/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey6.webp"
+            "/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey2.webp",
+            "/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey3.webp",
+            "/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey4.webp",
+            "/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey5.webp",
+            "/products/monte_franco_formal_shirts_-_grey/monte_franco_formal_shirts_-_grey6.webp"
         ]
     },  
 {
@@ -10878,14 +10878,14 @@ export const products = [
         "Note: Please do not print designs belonging to Government/Quasi Government bodies"
     ],
     "offer": "Min. 50% Off",
-    "img": "../src/assets/products//visiting-cards/visitingcard-1.webp",
+    "img": "/products//visiting-cards/visitingcard-1.webp",
     "price": 250,
     "ratingCount": 150,
     "bestDeal": true,
     "category": "Visiting Cards",
     "recommended": true,
     "thumbnailImages": [
-        "../src/assets/products//visiting-cards/visitingcard-2.webp","../src/assets/products//visiting-cards/visitingcard-3.webp","../src/assets/products//visiting-cards/visitingcard-4.webp"
+        "/products//visiting-cards/visitingcard-2.webp","/products//visiting-cards/visitingcard-3.webp","/products//visiting-cards/visitingcard-4.webp"
     ]
 },
 {
@@ -10896,7 +10896,7 @@ export const products = [
     "price": 399,
     "ratingCount": 150,
     "category": "Personalized Clothing",
-    "img": "../src/assets/products//tshirt-men/men-tshirt-1.webp",
+    "img": "/products//tshirt-men/men-tshirt-1.webp",
     "designSpecifications": [
         "Available in sizes S to XXL",
         "Made from breathable, quick-drying polyester fabric",
@@ -10904,7 +10904,7 @@ export const products = [
         "Ideal for sports or casual wear"
     ],
     "thumbnailImages": [
-        "../src/assets/products//tshirt-men/men-tshirt-2.webp","../src/assets/products//tshirt-men/men-tshirt-3.webp","../src/assets/products//tshirt-men/men-tshirt-4.webp","../src/assets/products//tshirt-men/men-tshirt-5.webp","../src/assets/products//tshirt-men/men-tshirt-6.webp"
+        "/products//tshirt-men/men-tshirt-2.webp","/products//tshirt-men/men-tshirt-3.webp","/products//tshirt-men/men-tshirt-4.webp","/products//tshirt-men/men-tshirt-5.webp","/products//tshirt-men/men-tshirt-6.webp"
     ]
 },
 {
@@ -10915,7 +10915,7 @@ export const products = [
     "price": 599,
     "ratingCount": 200,
     "category": "Personalized Clothing",
-    "img": "../src/assets/products//tshirt-women/women-tshirt-1.webp",
+    "img": "/products//tshirt-women/women-tshirt-1.webp",
     "designSpecifications": [
         "Made with 100% premium cotton",
         "Available in sizes S to XXL",
@@ -10923,7 +10923,7 @@ export const products = [
         "Great for personalization with vibrant prints"
     ],
     "thumbnailImages": [
-        "../src/assets/products//tshirt-women/women-tshirt-2.webp","../src/assets/products//tshirt-women/women-tshirt-3.webp","../src/assets/products//tshirt-women/women-tshirt-4.webp"
+        "/products//tshirt-women/women-tshirt-2.webp","/products//tshirt-women/women-tshirt-3.webp","/products//tshirt-women/women-tshirt-4.webp"
     ]
 },
 {
@@ -10934,14 +10934,14 @@ export const products = [
     "price": 499,
     "ratingCount": 180,
     "category": "Custom Stamps & Ink",
-    "img": "../src/assets/products//paperembosser/paperembosser-1.webp",
+    "img": "/products//paperembosser/paperembosser-1.webp",
     "designSpecifications": [
         "Size: 41 mm (4.1 cm) diameter for precise and clear embossing.",
         "Preview: Black output shown is for representation.",
         "Compliance: Government-related designs are not allowed; users are responsible for proper usage."
     ],
     "thumbnailImages": [
-        "../src/assets/products//paperembosser/paperembosser-2.webp","../src/assets/products//paperembosser/paperembosser-3.webp","../src/assets/products//paperembosser/paperembosser-4.webp"
+        "/products//paperembosser/paperembosser-2.webp","/products//paperembosser/paperembosser-3.webp","/products//paperembosser/paperembosser-4.webp"
     ]
 },
 {
@@ -10952,14 +10952,14 @@ export const products = [
     "price": 699,
     "ratingCount": 100,
     "category": "Custom Stamps & Ink",
-    "img": "../src/assets/products//stamppads/stamppads-1.webp",
+    "img": "/products//stamppads/stamppads-1.webp",
     "designSpecifications": [
         "Ink Quality: Quick-drying, fade-resistant ink for clear and precise impressions.",
         "Color Options: Available in multiple colors for versatile applications.",
         "Durability: Long-lasting ink retention with a smooth, even distribution system."
     ],
     "thumbnailImages": [
-        "../src/assets/products//stamppads/stamppads-2.webp","../src/assets/products//stamppads/stamppads-3.webp"
+        "/products//stamppads/stamppads-2.webp","/products//stamppads/stamppads-3.webp"
     ]
 },
 {
@@ -10970,7 +10970,7 @@ export const products = [
     "price": 799,
     "ratingCount": 250,
     "category": "Photo Gifts",
-    "img": "../src/assets/products//photoalbums/photoalbum-1.webp",
+    "img": "/products//photoalbums/photoalbum-1.webp",
     "designSpecifications": [
         "Available in hardcover and softcover options",
         "High-quality glossy/matte finish pages",
@@ -10978,7 +10978,7 @@ export const products = [
         "Customizable cover with text and images"
     ],
     "thumbnailImages": [
-        "../src/assets/products//photoalbums/photoalbum-2.webp"
+        "/products//photoalbums/photoalbum-2.webp"
     ]
 },
 {
@@ -10989,7 +10989,7 @@ export const products = [
     "price": 399,
     "ratingCount": 120,
     "category": "Photo Gifts",
-    "img": "../src/assets/products//mugs/mugs-1.webp",
+    "img": "/products//mugs/mugs-1.webp",
     "designSpecifications": [
         "Glossy and matte finishes available",
         "Full wrap-around print capability",
@@ -10997,7 +10997,7 @@ export const products = [
         "Custom text and image printing"
     ],
     "thumbnailImages": [
-        "../src/assets/products//mugs/mugs-2.webp","../src/assets/products//mugs/mugs-3.webp"
+        "/products//mugs/mugs-2.webp","/products//mugs/mugs-3.webp"
     ]
 },
 {
@@ -11008,7 +11008,7 @@ export const products = [
     "price": 499,
     "ratingCount": 150,
     "category": "Photo Gifts",
-    "img": "../src/assets/products//bottles/bottles-1.webp",
+    "img": "/products//bottles/bottles-1.webp",
     "designSpecifications": [
         "Available in 500ml, 750ml, and 1L sizes",
         "Soft cotton fabric for all-day comfortStainless steel, BPA-free material",
@@ -11016,7 +11016,7 @@ export const products = [
         "Custom printing and engraving available"
     ],
     "thumbnailImages": [
-        "../src/assets/products//bottles/bottles-2.webp","../src/assets/products//bottles/bottles-3.webp"
+        "/products//bottles/bottles-2.webp","/products//bottles/bottles-3.webp"
     ]
 },
 {
@@ -11027,7 +11027,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": "../src/assets/products//canvasprint/canvasprint-1.webp",
+    "img": "/products//canvasprint/canvasprint-1.webp",
     "designSpecifications": [
         "Cotton/Polyester canvas",
         "Stretched on a wooden frame",
@@ -11035,7 +11035,7 @@ export const products = [
         "Sizes: 8x8,12x12,16x20,24x36."
     ],
     "thumbnailImages": [
-        "../src/assets/products//canvasprint/canvasprint-2.webp"
+        "/products//canvasprint/canvasprint-2.webp"
     ]
 },
 {
@@ -11046,7 +11046,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": "../src/assets/products//photoframe/photoframe1.webp",
+    "img": "/products//photoframe/photoframe1.webp",
     "designSpecifications": [
         "Wood/Metal/Acrylic",
         "Multiple sizes & orientations",
@@ -11054,7 +11054,7 @@ export const products = [
         "Protective glass."
     ],
     "thumbnailImages": [
-        "../src/assets/products//photoframe/photoframe2.webp"
+        "/products//photoframe/photoframe2.webp"
     ]
 },
 {
@@ -11065,7 +11065,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": "../src/assets/products//fridgemagnet/fridgemagnet1.webp",
+    "img": "/products//fridgemagnet/fridgemagnet1.webp",
     "designSpecifications": [
         "High-quality magnetic material",
         "Glossy/Matte finish",
@@ -11073,7 +11073,7 @@ export const products = [
         "Sizes: 2x2,3x3,4x4 inches."
     ],
     "thumbnailImages": [
-        "../src/assets/products//fridgemagnet/fridgemagnet2.webp","../src/assets/products//fridgemagnet/fridgemagnet3.webp"
+        "/products//fridgemagnet/fridgemagnet2.webp","/products//fridgemagnet/fridgemagnet3.webp"
     ]
 },
 {
@@ -11084,7 +11084,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": "../src/assets/products//calenders/calenders1.webp",
+    "img": "/products//calenders/calenders1.webp",
     "designSpecifications": [
         "Wall",
         "Desk",
@@ -11094,7 +11094,7 @@ export const products = [
         "Custom start month/year."
     ],
     "thumbnailImages": [
-        "../src/assets/products//calenders/calenders2.webp"
+        "/products//calenders/calenders2.webp"
     ]
 },
 {
@@ -11105,7 +11105,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Photo Gifts",
-    "img": "../src/assets/products//playingcards/playingcards1.webp",
+    "img": "/products//playingcards/playingcards1.webp",
     "designSpecifications": [
         "54-card deck",
         "Glossy/Matte finish",
@@ -11113,7 +11113,7 @@ export const products = [
         "Premium cardstock."
     ],
     "thumbnailImages": [
-        '../src/assets/products/playingcards/playingcards2.webp'
+        '/products/playingcards/playingcards2.webp'
     ]
 },
 {
@@ -11124,7 +11124,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Labels, Stickers & Packaging",
-    "img": "../src/assets/products//packinglabels/packinglabels1.webp",
+    "img": "/products//packinglabels/packinglabels1.webp",
     "designSpecifications": [
         "Paper/Vinyl material",
         "Glossy/Matte finish",
@@ -11133,7 +11133,7 @@ export const products = [
         "Custom sizes."
     ],
     "thumbnailImages": [
-        "../src/assets/products//packinglabels/packinglabels2.webp"
+        "/products//packinglabels/packinglabels2.webp"
     ]
 },
 {
@@ -11144,7 +11144,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Labels, Stickers & Packaging",
-    "img": "../src/assets/products//qrcode/qrcodestickers1.webp",
+    "img": "/products//qrcode/qrcodestickers1.webp",
     "designSpecifications": [
         "Vinyl/Paper material",
         "Waterproof",
@@ -11152,7 +11152,7 @@ export const products = [
         "High-resolution QR printing."
     ],
     "thumbnailImages": [
-        "../src/assets/products//qrcode/qrcodestickers2.webp"
+        "/products//qrcode/qrcodestickers2.webp"
     ]
 },
 {
@@ -11163,7 +11163,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Labels, Stickers & Packaging",
-    "img": "../src/assets/products//cricketbat/cricketbat1.webp",
+    "img": "/products//cricketbat/cricketbat1.webp",
     "designSpecifications": [
         "Vinyl material",
         "Waterproof & scratch-resistant",
@@ -11171,7 +11171,7 @@ export const products = [
         "Glossy finish."
     ],
     "thumbnailImages": [
-        "../src/assets/products//cricketbat/cricketbat2.webp"
+        "/products//cricketbat/cricketbat2.webp"
     ]
 },
 {
@@ -11182,14 +11182,14 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": "../src/assets/products//letterhead/letterhead1.webp",
+    "img": "/products//letterhead/letterhead1.webp",
     "designSpecifications": [
         "High-quality paper (90-120 GSM),A4 size",
         "Single/Double-sided print",
         "Matte/Glossy finish."
     ],
     "thumbnailImages": [
-        "../src/assets/products//letterhead/letterhead2.webp","../src/assets/products//letterhead/letterhead3.webp"
+        "/products//letterhead/letterhead2.webp","/products//letterhead/letterhead3.webp"
     ]
 },
 {
@@ -11200,7 +11200,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": "../src/assets/products//mousepad/mousepad1.webp",
+    "img": "/products//mousepad/mousepad1.webp",
     "designSpecifications": [
         "Rubber base",
         "Fabric top",
@@ -11209,9 +11209,9 @@ export const products = [
         "Full-color printing."
     ],
     "thumbnailImages": [
-        "../src/assets/products//mousepad/mousepad2.webp",
-        "../src/assets/products//mousepad/mousepad3.webp",
-        "../src/assets/products//mousepad/mousepad4.webp"
+        "/products//mousepad/mousepad2.webp",
+        "/products//mousepad/mousepad3.webp",
+        "/products//mousepad/mousepad4.webp"
     ]
 },
 {
@@ -11222,7 +11222,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": "../src/assets/products//notebook/notebook1.webp",
+    "img": "/products//notebook/notebook1.webp",
     "designSpecifications": [
         "A5/B5/A4 sizes",
         "80-200 pages",
@@ -11230,7 +11230,7 @@ export const products = [
         "Spiral or Bound options."
     ],
     "thumbnailImages": [
-        "../src/assets/products//notebook/notebook2.webp"
+        "/products//notebook/notebook2.webp"
     ]
 },
 {
@@ -11241,7 +11241,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": "../src/assets/products//envelope/envelope1.webp",
+    "img": "/products//envelope/envelope1.webp",
     "designSpecifications": [
         "Paper (100-150 GSM)",
         "Standard & custom sizes",
@@ -11249,7 +11249,7 @@ export const products = [
         "Adhesive strip option."
     ],
     "thumbnailImages": [
-        "../src/assets/products//envelope/envelope2.webp"
+        "/products//envelope/envelope2.webp"
     ]
 },
 {
@@ -11260,7 +11260,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": "../src/assets/products//thankyou/thankyou1.webp",
+    "img": "/products//thankyou/thankyou1.webp",
     "designSpecifications": [
         "Premium cardstock (250-350 GSM)",
         "Folded or Flat",
@@ -11268,7 +11268,7 @@ export const products = [
         "Custom sizes & envelopes."
     ],
     "thumbnailImages": [
-        "../src/assets/products//thankyou/thankyou2.webp"
+        "/products//thankyou/thankyou2.webp"
     ]
 },
 {
@@ -11279,7 +11279,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Stationery",
-    "img": "../src/assets/products//stationery/stationery1.webp",
+    "img": "/products//stationery/stationery1.webp",
     "designSpecifications": [
         "Customizable branding",
         "High-quality materials",
@@ -11287,7 +11287,7 @@ export const products = [
         "Packaging in a premium box."
     ],
     "thumbnailImages": [
-        "../src/assets/products//stationery/stationery2.webp"
+        "/products//stationery/stationery2.webp"
     ]
 },
 {
@@ -11298,7 +11298,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": "../src/assets/products//flyers/flyers1.webp",
+    "img": "/products//flyers/flyers1.webp",
     "designSpecifications": [
         "Custom sizes",
         "Glossy/matte finish",
@@ -11306,7 +11306,7 @@ export const products = [
         "Vibrant color options."
     ],
     "thumbnailImages": [
-        "../src/assets/products//flyers/flyers2.webp"
+        "/products//flyers/flyers2.webp"
     ]
 },
 {
@@ -11317,14 +11317,14 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": "../src/assets/products//poster/poster1.webp",
+    "img": "/products//poster/poster1.webp",
     "designSpecifications": [
         "Available in A3,A2,A1 sizes",
         "High-resolution printing",
         "Tear-resistant material."
     ],
     "thumbnailImages": [
-        "../src/assets/products//poster/poster2.webp"
+        "/products//poster/poster2.webp"
     ]
 },
 {
@@ -11335,14 +11335,14 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": "../src/assets/products//banners/banner1.webp",
+    "img": "/products//banners/banner1.webp",
     "designSpecifications": [
         "Vinyl/Fabric options",
         "Grommets for easy hanging",
         "UV-resistant print."
     ],
     "thumbnailImages": [
-        "../src/assets/products//banners/banner2.webp"
+        "/products//banners/banner2.webp"
     ]
 },
 {
@@ -11353,7 +11353,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": "../src/assets/products//brouchure/brouchure1.webp",
+    "img": "/products//brouchure/brouchure1.webp",
     "designSpecifications": [
         "Premium paper",
         "Various fold styles",
@@ -11361,7 +11361,7 @@ export const products = [
         "Custom branding."
     ],
     "thumbnailImages": [
-        "../src/assets/products//brouchure/brouchure2.webp","../src/assets/products//brouchure/brouchure3.webp"
+        "/products//brouchure/brouchure2.webp","/products//brouchure/brouchure3.webp"
     ]
 },
 {
@@ -11372,7 +11372,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Signs, Posters & Marketing Materials",
-    "img": "../src/assets/products//booklet/booklets1.webp",
+    "img": "/products//booklet/booklets1.webp",
     "designSpecifications": [
         "Saddle-stitched or perfect bound",
         "Custom sizes",
@@ -11380,7 +11380,7 @@ export const products = [
         "Matte or glossy finish."
     ],
     "thumbnailImages": [
-        "../src/assets/products//booklet/booklets2.webp"
+        "/products//booklet/booklets2.webp"
     ]
 },
 {
@@ -11391,7 +11391,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Caps",
-    "img": "../src/assets/products//caps/caps1.webp",
+    "img": "/products//caps/caps1.webp",
     "designSpecifications": [
         "Adjustable strap",
         "Cotton/Polyester blend",
@@ -11399,7 +11399,7 @@ export const products = [
         "One-size-fits-most design."
     ],
     "thumbnailImages": [
-        "../src/assets/products//caps/caps2.webp","../src/assets/products//caps/caps3.webp"
+        "/products//caps/caps2.webp","/products//caps/caps3.webp"
     ]
 },
 {
@@ -11410,7 +11410,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": "../src/assets/products//duffel/duffel1.webp",
+    "img": "/products//duffel/duffel1.webp",
     "designSpecifications": [
         "Large compartments",
         "adjustable straps",
@@ -11418,7 +11418,7 @@ export const products = [
         "water-resistant material options."
     ],
     "thumbnailImages": [
-        "../src/assets/products//duffel/duffel2.webp","../src/assets/products//duffel/duffel3.webp"
+        "/products//duffel/duffel2.webp","/products//duffel/duffel3.webp"
     ]
 },
 {
@@ -11429,7 +11429,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": "../src/assets/products//tote/tote1.webp",
+    "img": "/products//tote/tote1.webp",
     "designSpecifications": [
         "Sturdy handles",
         "spacious design",
@@ -11437,7 +11437,7 @@ export const products = [
         "eco-friendly materials."
     ],
     "thumbnailImages": [
-        "../src/assets/products//tote/tote2.webp"
+        "/products//tote/tote2.webp"
     ]
 },
 {
@@ -11448,7 +11448,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": "../src/assets/products//pouch/pouch1.webp",
+    "img": "/products//pouch/pouch1.webp",
     "designSpecifications": [
         "Zipper closure",
         "portable size",
@@ -11456,7 +11456,7 @@ export const products = [
         "customizable prints."
     ],
     "thumbnailImages": [
-        "../src/assets/products//pouch/pouch2.webp"
+        "/products//pouch/pouch2.webp"
     ]
 },
 {
@@ -11467,7 +11467,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": "../src/assets/products//luggage/luggage1.webp",
+    "img": "/products//luggage/luggage1.webp",
     "designSpecifications": [
         "TSA lock",
         "expandable compartments",
@@ -11475,7 +11475,7 @@ export const products = [
         "retractable handle."
     ],
     "thumbnailImages": [
-        "../src/assets/products//luggage/luggage2.webp","../src/assets/products//luggage/luggage3.webp"
+        "/products//luggage/luggage2.webp","/products//luggage/luggage3.webp"
     ]
 },
 {
@@ -11486,7 +11486,7 @@ export const products = [
     "price": 399,
     "ratingCount": 130,
     "category": "Custom Bags",
-    "img": "../src/assets/products//backpack/backpack1.webp",
+    "img": "/products//backpack/backpack1.webp",
     "designSpecifications": [
         "Padded shoulder straps",
         "laptop compartment",
@@ -11494,7 +11494,7 @@ export const products = [
         "ergonomic back support."
     ],
     "thumbnailImages": [
-        "../src/assets/products//backpack/backpack2.webp"
+        "/products//backpack/backpack2.webp"
     ]
 },
 {
@@ -11505,7 +11505,7 @@ export const products = [
     "price": 1299,
     "ratingCount": 250,
     "category": "Personalized Clothing",
-    "img": "../src/assets/products//menshirt/menshirt1.webp",
+    "img": "/products//menshirt/menshirt1.webp",
     "designSpecifications": [
         "100% Cotton",
         "Slim Fit",
@@ -11513,7 +11513,7 @@ export const products = [
         "Wrinkle Resistant"
     ],
     "thumbnailImages": [
-        "../src/assets/products//menshirt/menshirt2.webp"
+        "/products//menshirt/menshirt2.webp"
     ]
 },
 {
@@ -11524,7 +11524,7 @@ export const products = [
     "price": 1499,
     "ratingCount": 180,
     "category": "Personalized Clothing",
-    "img": "../src/assets/products//womenshirt/womenshirt1.webp",
+    "img": "/products//womenshirt/womenshirt1.webp",
     "designSpecifications": [
         "Premium Polyester Blend",
         "Stretchable & Breathable Fabric",
@@ -11532,7 +11532,7 @@ export const products = [
         "Regular Fit"
     ],
     "thumbnailImages": [
-       "../src/assets/products//womenshirt/womenshirt2.webp"
+       "/products//womenshirt/womenshirt2.webp"
     ]
 },
 {
@@ -11543,7 +11543,7 @@ export const products = [
     "price": 1599,
     "ratingCount": 350,
     "category": "Personalized Clothing",
-    "img":"../src/assets/products//hoodie/hoodie1.webp",
+    "img":"/products//hoodie/hoodie1.webp",
     "designSpecifications": [
         "Fleece-Lined for Warmth",
         "Adjustable Hood",
@@ -11551,7 +11551,7 @@ export const products = [
         "Durable Stitching"
     ],
     "thumbnailImages": [
-        "../src/assets/products//hoodie/hoodie2.webp","../src/assets/products//hoodie/hoodie3.webp","../src/assets/products//hoodie/hoodie4.webp"
+        "/products//hoodie/hoodie2.webp","/products//hoodie/hoodie3.webp","/products//hoodie/hoodie4.webp"
     ]
 },
 {
@@ -11562,7 +11562,7 @@ export const products = [
     "price": 1899,
     "ratingCount": 270,
     "category": "Personalized Clothing",
-    "img": "../src/assets/products//sweater/sweater1.webp",
+    "img": "/products//sweater/sweater1.webp",
     "designSpecifications": [
         "Soft Wool Blend",
         "Ribbed Cuffs & Hem",
@@ -11570,7 +11570,7 @@ export const products = [
         "Easy to Layer"
     ],
     "thumbnailImages": [
-        "../src/assets/products//sweater/sweater2.webp","../src/assets/products//sweater/sweater3.webp"
+        "/products//sweater/sweater2.webp","/products//sweater/sweater3.webp"
     ]
 },
 {
@@ -11581,7 +11581,7 @@ export const products = [
     "price": 1499,
     "ratingCount": 320,
     "category": "Custom Drinkware",
-    "img": "../src/assets/products//flask/flask1.webp",
+    "img": "/products//flask/flask1.webp",
     "customDesignOptions": [
         "Engraved name or logo",
         "Full-color print design",
@@ -11589,7 +11589,7 @@ export const products = [
         "Custom packaging"
     ],
     "thumbnailImages": [
-        "../src/assets/products//flask/flask2.webp"
+        "/products//flask/flask2.webp"
     ]
 },
 {
@@ -11600,7 +11600,7 @@ export const products = [
     "price": 1799,
     "ratingCount": 280,
     "category": "Custom Drinkware",
-    "img": "../src/assets/products//stainless/stainless1.webp",
+    "img": "/products//stainless/stainless1.webp",
     "customDesignOptions": [
         "Laser-engraved logo",
         "Various color choices",
@@ -11608,7 +11608,7 @@ export const products = [
         "Eco-friendly packaging"
     ],
     "thumbnailImages": [
-        "../src/assets/products//stainless/stainless2.webp"
+        "/products//stainless/stainless2.webp"
     ]
 },
 {
@@ -11619,7 +11619,7 @@ export const products = [
     "price": 1299,
     "ratingCount": 290,
     "category": "Custom Drinkware",
-    "img": "../src/assets/products//sportsbottle/sportsbottle1.webp",
+    "img": "/products//sportsbottle/sportsbottle1.webp",
     "customDesignOptions": [
         "Printed name or logo",
         "Variety of color options",
@@ -11627,7 +11627,7 @@ export const products = [
         "BPA-free material"
     ],
     "thumbnailImages": [
-        "../src/assets/products//sportsbottle/sportsbottle2.webp"
+        "/products//sportsbottle/sportsbottle2.webp"
     ]
 },
 {
@@ -11638,7 +11638,7 @@ export const products = [
     "price": 1599,
     "ratingCount": 330,
     "category": "Custom Drinkware",
-    "img": "../src/assets/products//mugs/mugs-1.webp",
+    "img": "/products//mugs/mugs-1.webp",
     "customDesignOptions": [
         "Engraved name or quote",
         "Custom printed logo",
@@ -11646,7 +11646,7 @@ export const products = [
         "Thermal insulation options"
     ],
     "thumbnailImages": [
-        "../src/assets/products//mugs/mugs-2.webp"
+        "/products//mugs/mugs-2.webp"
     ]
 },
 {
@@ -11657,7 +11657,7 @@ export const products = [
     "price": 2499,
     "ratingCount": 280,
     "category": "Promotional Gifts",
-    "img": "../src/assets/products//desktopset/desktopset1.webp",
+    "img": "/products//desktopset/desktopset1.webp",
     "customDesignOptions": [
         "Engraved company logo",
         "Custom name printing",
@@ -11665,7 +11665,7 @@ export const products = [
         "Custom gift packaging"
     ],
     "thumbnailImages": [
-        "../src/assets/products//desktopset/desktopset2.webp","../src/assets/products//desktopset/desktopset3.webp"
+        "/products//desktopset/desktopset2.webp","/products//desktopset/desktopset3.webp"
     ]
 },
 {
@@ -11676,7 +11676,7 @@ export const products = [
     "price": 499,
     "ratingCount": 350,
     "category": "Promotional Gifts",
-    "img": "../src/assets/products//pens/pens1.webp",
+    "img": "/products//pens/pens1.webp",
     "customDesignOptions": [
         "Printed company logo",
         "Variety of ink colors",
@@ -11684,7 +11684,7 @@ export const products = [
         "Custom grip and finish"
     ],
     "thumbnailImages": [
-        "../src/assets/products//pens/pens2.webp","../src/assets/products//pens/pens3.webp","../src/assets/products//pens/pens4.webp"
+        "/products//pens/pens2.webp","/products//pens/pens3.webp","/products//pens/pens4.webp"
     ]
 },
 {
@@ -11695,7 +11695,7 @@ export const products = [
     "price": 999,
     "ratingCount": 290,
     "category": "Promotional Gifts",
-    "img": "../src/assets/products//businesscard/businesscard1.webp",
+    "img": "/products//businesscard/businesscard1.webp",
     "customDesignOptions": [
         "Laser-engraved name or logo",
         "Metal, leather, or bamboo options",
@@ -11703,7 +11703,7 @@ export const products = [
         "Customizable compartments"
     ],
     "thumbnailImages": [
-        "../src/assets/products//businesscard/businesscard2.webp"
+        "/products//businesscard/businesscard2.webp"
     ]
 },
 {
@@ -11714,7 +11714,7 @@ export const products = [
     "price": 899,
     "ratingCount": 280,
     "category": "Promotional Gifts",
-    "img": "../src/assets/products//keychain/keychain1.webp",
+    "img": "/products//keychain/keychain1.webp",
     "customDesignOptions": [
         "Laser-engraved company logo",
         "Multi-tool keychain options",
@@ -11722,7 +11722,7 @@ export const products = [
         "Compact and lightweight design"
     ],
     "thumbnailImages": [
-        "../src/assets/products//keychain/keychain2.webp"
+        "/products//keychain/keychain2.webp"
     ]
 },
 {
@@ -11733,7 +11733,7 @@ export const products = [
     "price": 1599,
     "ratingCount": 300,
     "category": "Promotional Gifts",
-    "img": "../src/assets/products//mobileaccessories/mobileacc1.webp",
+    "img": "/products//mobileaccessories/mobileacc1.webp",
     "customDesignOptions": [
         "Printed or engraved branding",
         "Wireless charging options",
@@ -11741,7 +11741,7 @@ export const products = [
         "Compatible with all devices"
     ],
     "thumbnailImages": [
-        "../src/assets/products//mobileaccessories/mobileacc2.webp"
+        "/products//mobileaccessories/mobileacc2.webp"
     ]
 },
 {
@@ -11752,7 +11752,7 @@ export const products = [
     "price": 999,
     "ratingCount": 180,
     "category": "Stationery & Calendars",
-    "img": "../src/assets/products//multiyearcalendar/multiyearcalendar1.png",
+    "img": "/products//multiyearcalendar/multiyearcalendar1.png",
     "designSpecifications": [
         "Covers up to 5 years of planning",
         "High-quality paper with a glossy/matte finish",
@@ -11770,7 +11770,7 @@ export const products = [
     "price": 299,
     "ratingCount": 120,
     "category": "Custom Stationery",
-    "img": "../src/assets/products//idcards/idcards1.webp",
+    "img": "/products//idcards/idcards1.webp",
     "designSpecifications": [
         "Material: PVC 0.8 mm thickness",
         "Finish: Semi-Gloss",
@@ -11779,7 +11779,7 @@ export const products = [
         "Decoration Technology: Digital Printing"
     ],
     "thumbnailImages": [
-        "../src/assets/products//idcards/idcards2.webp","../src/assets/products//idcards/idcards3.webp"
+        "/products//idcards/idcards2.webp","/products//idcards/idcards3.webp"
     ]
 }
 ]
