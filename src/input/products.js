@@ -9,7 +9,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "../public/assets/products/samba/samba1.webp",
+        "img": "../products/samba/samba1.webp",
         "designSpecifications": [
             "Samba, thinkPrint, 85182200, Black, 9.8x5x9.9cm, Not Specified, Not Specified, Ample Branding Space, ENGRAVE, SCREEN PRINTING, UV, DTF, PRINTING STICKER, RGB Lighting Effects, 5W, 1200mAh.",
             ""
@@ -24,7 +24,7 @@ export const products = [
         "price": 299,
         "ratingCount": 120,
         "category": "Electronics & Accessories",
-        "img": "/assets/products/samba1/samba11.webp",
+        "img": "/products/samba1/samba11.webp",
         "designSpecifications": [
             "Samba, thinkPrint, 85182200, Midnight Black, 10cm x 10cm x 5cm, ABS Plastic, 250g, 3cm x 3cm, Pad Printing, Circular Base Glow, 5W, 1200mAh",
             ""
