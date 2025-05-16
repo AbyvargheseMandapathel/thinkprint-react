@@ -15,8 +15,28 @@ import NOTEPADS from "/src/assets/categories/Notepad.webp";
 import Giftsets from "/src/assets/categories/giftset.webp";
 
 export const categories = [
-  { id: 1, name: "Visiting Cards", img: VisitingCards },
-  { id: 2, name: "Personalized Clothing", img: CustomTShirts },
+  { 
+    id: 1, 
+    name: "Visiting Cards", 
+    img: VisitingCards,
+    subcategories: [
+      { id: 101, name: "Standard Cards" },
+      { id: 102, name: "Premium Cards" },
+      { id: 103, name: "Eco-Friendly Cards" },
+      { id: 104, name: "Spot UV Cards" },
+    ]
+  },
+  { 
+    id: 2, 
+    name: "Personalized Clothing", 
+    img: CustomTShirts,
+    subcategories: [
+      { id: 201, name: "T-Shirts" },
+      { id: 202, name: "Hoodies" },
+      { id: 203, name: "Jackets" },
+      { id: 204, name: "Sportswear" },
+    ]
+  },
   { id: 3, name: "Custom Stamps & Ink", img: CustomStampsInk },
   { id: 4, name: "Photo Gifts", img: PhotoGifts },
   { id: 5, name: "Labels, Stickers & Packaging", img: LabelsStickersPackaging },

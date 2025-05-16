@@ -1,7 +1,33 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
+
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    tailwindcss(),
+    react(),
+    tailwindcss()
   ],
+  optimizeDeps: {
+    exclude: ['mysql2', 'aws-ssl-profiles', 'iconv-lite'],
+  },
+  build: {
+    commonjsOptions: {
+      include: [/node_modules/],
+    },
+  },
+  resolve: {
+    alias: {
+      // Add any path aliases if needed
+    },
+  },
+  server: {
+    proxy: {
+      // Configure API proxies if needed
+      '/api': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+      },
+    },
+  },
 })

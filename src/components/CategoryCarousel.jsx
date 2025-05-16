@@ -1,16 +1,43 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const CategoryCarousel = ({ categories }) => {
+const CategoryCarousel = () => {
+  const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlay, setIsAutoPlay] = useState(true);
   const navigate = useNavigate();
+
+  // Fetch categories from API
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch('/api/categories');
+        const data = await response.json();
+        
+        if (data.success) {
+          setCategories(data.data || []); // Use data.data as per your API response
+        } else {
+          setError(data.error || 'Failed to fetch categories');
+        }
+      } catch (err) {
+        setError('Error connecting to the server');
+        console.error('Error fetching categories:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchCategories();
+  }, []);
 
   // Ensure categories are provided; if not, use a fallback empty array
   const items = categories || [];
 
   useEffect(() => {
-    if (isAutoPlay) {
+    if (isAutoPlay && items.length > 0) {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
       }, 3000);
@@ -24,7 +51,6 @@ const CategoryCarousel = ({ categories }) => {
     navigate(`/category/${encodeURIComponent(categoryName)}`);
   };
   
-
   // Handle Next Button Click
   const handleNext = () => {
     setIsAutoPlay(false);
@@ -36,6 +62,30 @@ const CategoryCarousel = ({ categories }) => {
     setIsAutoPlay(false);
     setCurrentIndex((prevIndex) => (prevIndex - 1 + items.length) % items.length);
   };
+
+  if (loading) {
+    return (
+      <div className="container mx-auto px-4 max-w-7xl py-12 text-center">
+        <p>Loading categories...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="container mx-auto px-4 max-w-7xl py-12 text-center">
+        <p className="text-red-500">Error: {error}</p>
+      </div>
+    );
+  }
+
+  if (items.length === 0) {
+    return (
+      <div className="container mx-auto px-4 max-w-7xl py-12 text-center">
+        <p>No categories available.</p>
+      </div>
+    );
+  }
 
   return (
     <main className="container mx-auto px-4 max-w-7xl py-12">
@@ -51,7 +101,7 @@ const CategoryCarousel = ({ categories }) => {
             <div
               key={index}
               className="category-item min-w-[136px] p-2 cursor-pointer"
-              onClick={() => handleCategoryClick(item.name)} // Make the item clickable
+              onClick={() => handleCategoryClick(item.name)}
             >
               <img
                 src={item.img}

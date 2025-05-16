@@ -710,7 +710,6 @@ export const products = [
             "Sleek black color"
         ],
         "thumbnailImages": [
-            "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable2.webp",
             "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable3.webp",
             "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable4.webp",
             "/products/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable/yoyo_drops_-_retractable_3-in-1_data_&_charging_cable5.webp",

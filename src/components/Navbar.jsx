@@ -70,6 +70,7 @@ const Navbar = () => {
             { name: "About", link: "/about" },
             { name: "Contact Us", link: "/contact" },
             { name: "Categories", link: "#", isDropdown: true },
+            { name: "UrbanGear", link: "/urbangear" },
           ].map((item) => (
             <div
               key={item.name}
