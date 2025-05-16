@@ -12,14 +12,15 @@ import BenefitsSection from "./components/BenefitsSection";
 import Footer from "./components/Footer";
 import ProductListPage from "./pages/ProductListPage";
 import SearchResult from "./pages/SearchResult";
-import { heroBanner,announcementMessage } from "./input/data";
+import { heroBanner, announcementMessage } from "./input/data";
 import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import ContactUsPage from "./pages/ContactUsPage";
-import './theme.css'; 
+import "./theme.css";
 import { categories } from "./input/categories";
 import { products } from "./input/products";
 import AboutUsPage from "./pages/AboutUsPage";
+import CategoryManagement from "./pages/admin/CategoryManagement";
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
@@ -62,8 +63,10 @@ const App = () => {
           <Route path="/category/:categoryName" element={<ProductListPage products={products} />} />
 
           <Route path="/contact" element={<ContactUsPage />} /> {/* New Contact Us Route */}
+
           <Route path="/about" element={<AboutUsPage />} />
 
+          <Route path="/admin/categories" element={<CategoryManagement />} />
         </Routes>
 
         <MobileNavigation />

@@ -12,33 +12,46 @@ const dbConfig = {
 
 export default async function handler(req, res) {
   // Set CORS headers
-  const allowedOrigins = ['http://localhost:5173', 'https://thinkprint.shop', 'http://localhost:3000'];
+  const allowedOrigins = ['http://localhost:5173', 'https://thinkprint.shop','http://localhost:3000'];
   const origin = req.headers.origin;
 
   if (allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
   }
 
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') {
     return res.status(200).end(); // Handle preflight request
   }
 
-  if (req.method !== 'GET') {
+  if (req.method !== 'POST') {
     return res.status(405).json({ success: false, message: 'Method Not Allowed' });
+  }
+
+  const { name, img } = req.body;
+
+  if (!name) {
+    return res.status(400).json({ success: false, message: 'Category name is required' });
   }
 
   try {
     const connection = await mysql.createConnection(dbConfig);
-    const [rows] = await connection.execute('SELECT * FROM categories ORDER BY name');
+    const [result] = await connection.execute(
+      'INSERT INTO categories (name, img) VALUES (?, ?)',
+      [name, img || null]
+    );
     await connection.end();
 
-    res.status(200).json({ 
+    res.status(201).json({ 
       success: true, 
-      message: 'Categories retrieved successfully',
-      data: rows
+      message: 'Category added successfully',
+      data: {
+        id: result.insertId,
+        name,
+        img
+      }
     });
   } catch (error) {
     console.error('DB Error:', error);
