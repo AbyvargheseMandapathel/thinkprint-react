@@ -1,6 +1,7 @@
+// --- upload-category-image.js ---
 import multer from 'multer';
 import { v4 as uuidv4 } from 'uuid';
-import { FTPClient } from 'basic-ftp';
+import ftp from 'basic-ftp';
 
 // Multer config: store image in memory
 const upload = multer({
@@ -43,19 +44,21 @@ export default async function handler(req, res) {
       return res.status(400).json({ success: false, message: 'No image file uploaded' });
     }
 
-    const client = new FTPClient();
+    const client = new ftp.Client();
+    client.ftp.verbose = false;
+
     await client.access({
       host: '156.67.73.28',
       port: 21,
       user: 'u911622560.thinkprint.shop',
-      password: 'YFd>dU1+nWhSr~J9', // Set in Vercel Dashboard
+      password: 'YFd>dU1+nWhSr~J9',
       secure: false,
     });
 
     const filename = `${uuidv4()}${req.file.originalname.slice(req.file.originalname.lastIndexOf('.'))}`;
     const remotePath = `/public_html/uploads/categories/${filename}`;
     await client.ensureDir('/public_html/uploads/categories');
-    await client.uploadFrom(req.file.buffer, remotePath);
+    await client.uploadFrom(Buffer.from(req.file.buffer), remotePath);
     await client.close();
 
     const imageUrl = `https://thinkprint.shop/uploads/categories/${filename}`;

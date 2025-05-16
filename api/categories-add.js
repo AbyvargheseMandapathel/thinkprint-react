@@ -1,17 +1,17 @@
+// --- add-category.js ---
 import mysql from 'mysql2/promise';
 
 const dbConfig = {
-  host: import.meta.env.VITE_DB_HOST || 'srv1614.hstgr.io',
-  user: import.meta.env.VITE_DB_USER || 'u911622560_thinkprint_adm',
-  password: import.meta.env.VITE_DB_PASSWORD || '6L]kRxIpzgc/3A9q8^U=',
-  database: import.meta.env.VITE_DB_NAME || 'u911622560_thinkprint',
+  host:  'srv1614.hstgr.io',
+  user: 'u911622560_thinkprint_adm',
+  password: '6L]kRxIpzgc/3A9q8^U=',
+  database:  'u911622560_thinkprint',
   waitForConnections: true,
   connectionLimit: 10,
   ssl: { rejectUnauthorized: true }
 };
 
 export default async function handler(req, res) {
-  // Set CORS headers
   const allowedOrigins = ['http://localhost:5173', 'https://thinkprint.shop','http://localhost:3000'];
   const origin = req.headers.origin;
 
@@ -22,19 +22,11 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end(); // Handle preflight request
-  }
-
-  if (req.method !== 'POST') {
-    return res.status(405).json({ success: false, message: 'Method Not Allowed' });
-  }
+  if (req.method === 'OPTIONS') return res.status(200).end();
+  if (req.method !== 'POST') return res.status(405).json({ success: false, message: 'Method Not Allowed' });
 
   const { name, img } = req.body;
-
-  if (!name) {
-    return res.status(400).json({ success: false, message: 'Category name is required' });
-  }
+  if (!name) return res.status(400).json({ success: false, message: 'Category name is required' });
 
   try {
     const connection = await mysql.createConnection(dbConfig);
