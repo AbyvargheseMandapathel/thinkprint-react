@@ -68,7 +68,7 @@ export default async function handler(req, res) {
 
     await client.close();
 
-    const imageUrl = `https://thinkprint.shop/uploads/categories/${filename}`;
+    const imageUrl = `https://srv1614-files.hstgr.io/69e5343b80f6dc7f/files/public_html/uploads/categories/${filename}`;
     return res.status(200).json({
       success: true,
       message: 'Image uploaded successfully',
