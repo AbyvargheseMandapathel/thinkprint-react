@@ -1,13 +1,13 @@
-// --- upload-category-image.js ---
 import multer from 'multer';
 import { v4 as uuidv4 } from 'uuid';
 import ftp from 'basic-ftp';
+import { Readable } from 'stream';
 
-// Multer config: store image in memory
+// Configure Multer to store uploaded files in memory
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: { fileSize: 5 * 1024 * 1024 },
-  fileFilter: function (req, file, cb) {
+  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
+  fileFilter: (req, file, cb) => {
     const allowedTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
     if (!allowedTypes.includes(file.mimetype)) {
       return cb(new Error('Invalid file type. Only JPEG, PNG, GIF, and WEBP are allowed.'), false);
@@ -16,15 +16,17 @@ const upload = multer({
   }
 }).single('image');
 
+// Required for Vercel to allow Multer file streaming
 export const config = {
   api: {
-    bodyParser: false, // Required for multer to work with Vercel
+    bodyParser: false,
   },
 };
 
 export default async function handler(req, res) {
   const allowedOrigins = ['http://localhost:5173', 'https://thinkprint.shop', 'http://localhost:3000'];
   const origin = req.headers.origin;
+
   if (allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
   }
@@ -51,14 +53,19 @@ export default async function handler(req, res) {
       host: '156.67.73.28',
       port: 21,
       user: 'u911622560.thinkprint.shop',
-      password: 'YFd>dU1+nWhSr~J9',
+      password: 'YFd>dU1+nWhSr~J9', // Ensure this is stored securely in prod
       secure: false,
     });
 
-    const filename = `${uuidv4()}${req.file.originalname.slice(req.file.originalname.lastIndexOf('.'))}`;
+    const fileExtension = req.file.originalname.slice(req.file.originalname.lastIndexOf('.'));
+    const filename = `${uuidv4()}${fileExtension}`;
     const remotePath = `/public_html/uploads/categories/${filename}`;
+
     await client.ensureDir('/public_html/uploads/categories');
-    await client.uploadFrom(Buffer.from(req.file.buffer), remotePath);
+
+    const stream = Readable.from(req.file.buffer); // ✅ Convert buffer to stream
+    await client.uploadFrom(stream, remotePath);
+
     await client.close();
 
     const imageUrl = `https://thinkprint.shop/uploads/categories/${filename}`;
@@ -67,6 +74,7 @@ export default async function handler(req, res) {
       message: 'Image uploaded successfully',
       imageUrl,
     });
+
   } catch (error) {
     console.error('Upload error:', error);
     return res.status(500).json({ success: false, message: error.message || 'Upload failed' });
