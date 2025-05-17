@@ -4,10 +4,13 @@ import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 
 const CategoryManagement = () => {
   const [categories, setCategories] = useState([]);
+  const [subcategories, setSubcategories] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [formMode, setFormMode] = useState('add'); // 'add' or 'edit'
   const [currentCategory, setCurrentCategory] = useState({ id: null, name: '', img: '' });
+  const [currentSubcategory, setCurrentSubcategory] = useState({ id: null, name: '', category_id: '' });
+  const [activeTab, setActiveTab] = useState('categories'); // 'categories' or 'subcategories'
   const [imageFile, setImageFile] = useState(null);
   const [imagePreview, setImagePreview] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -47,8 +50,34 @@ const CategoryManagement = () => {
     }
   }, []);
 
+  // Fetch all subcategories
+  const fetchSubcategories = useCallback(async () => {
+    try {
+      setLoading(true);
+      const response = await fetch('/api/subcategories');
+      
+      if (!response.ok) {
+        throw new Error(`Server responded with status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      
+      if (data.success) {
+        setSubcategories(data.data || []);
+      } else {
+        setError(data.message || 'Failed to fetch subcategories');
+      }
+    } catch (err) {
+      setError('Error connecting to the server');
+      console.error('Error fetching subcategories:', err);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
   useEffect(() => {
     fetchCategories();
+    fetchSubcategories();
     
     // Cleanup function
     return () => {
@@ -57,16 +86,23 @@ const CategoryManagement = () => {
         URL.revokeObjectURL(imagePreview);
       }
     };
-  }, [fetchCategories]);
+  }, [fetchCategories, fetchSubcategories]);
 
   // Handle form input changes - converted to useCallback
   const handleInputChange = useCallback((e) => {
     const { name, value } = e.target;
-    setCurrentCategory(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  }, []);
+    if (activeTab === 'categories') {
+      setCurrentCategory(prev => ({
+        ...prev,
+        [name]: value
+      }));
+    } else {
+      setCurrentSubcategory(prev => ({
+        ...prev,
+        [name]: value
+      }));
+    }
+  }, [activeTab]);
 
   // Handle image file selection - converted to useCallback
   const handleImageChange = useCallback((e) => {
@@ -128,57 +164,94 @@ const CategoryManagement = () => {
       setIsSubmitting(true);
       setError(null);
       
-      let imageUrl = currentCategory.img;
-      
-      // If a new image was selected, upload it first
-      if (imageFile) {
-        imageUrl = await uploadImage(imageFile);
-      }
-      
-      const categoryData = {
-        ...currentCategory,
-        img: imageUrl
-      };
-      
-      const url = formMode === 'add' 
-        ? '/api/categories-add' 
-        : '/api/categories-update';
-      
-      const method = formMode === 'add' ? 'POST' : 'PUT';
-      
-      const response = await fetch(url, {
-        method,
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(categoryData)
-      });
-      
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({}));
-        throw new Error(errorData.message || `Operation failed with status: ${response.status}`);
-      }
-      
-      const data = await response.json();
-      
-      if (data.success) {
-        // Reset form and refresh categories
-        setCurrentCategory({ id: null, name: '', img: '' });
-        setImageFile(null);
+      if (activeTab === 'categories') {
+        let imageUrl = currentCategory.img;
         
-        // Clean up object URL if it exists
-        if (imagePreview && imagePreview.startsWith('blob:')) {
-          URL.revokeObjectURL(imagePreview);
+        // If a new image was selected, upload it first
+        if (imageFile) {
+          imageUrl = await uploadImage(imageFile);
         }
-        setImagePreview('');
         
-        if (fileInputRef.current) {
-          fileInputRef.current.value = '';
+        const categoryData = {
+          ...currentCategory,
+          img: imageUrl
+        };
+        
+        const url = formMode === 'add' 
+          ? '/api/categories-add' 
+          : '/api/categories-update';
+        
+        const method = formMode === 'add' ? 'POST' : 'PUT';
+        
+        const response = await fetch(url, {
+          method,
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(categoryData)
+        });
+        
+        if (!response.ok) {
+          const errorData = await response.json().catch(() => ({}));
+          throw new Error(errorData.message || `Operation failed with status: ${response.status}`);
         }
-        setFormMode('add');
-        fetchCategories();
+        
+        const data = await response.json();
+        
+        if (data.success) {
+          // Reset form and refresh categories
+          setCurrentCategory({ id: null, name: '', img: '' });
+          setImageFile(null);
+          
+          // Clean up object URL if it exists
+          if (imagePreview && imagePreview.startsWith('blob:')) {
+            URL.revokeObjectURL(imagePreview);
+          }
+          setImagePreview('');
+          
+          if (fileInputRef.current) {
+            fileInputRef.current.value = '';
+          }
+          setFormMode('add');
+          fetchCategories();
+        } else {
+          setError(data.message || 'Operation failed');
+        }
       } else {
-        setError(data.message || 'Operation failed');
+        // Handle subcategory submission
+        const subcategoryData = {
+          ...currentSubcategory
+        };
+        
+        const url = formMode === 'add' 
+          ? '/api/subcategories-add' 
+          : '/api/subcategories-update';
+        
+        const method = formMode === 'add' ? 'POST' : 'PUT';
+        
+        const response = await fetch(url, {
+          method,
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(subcategoryData)
+        });
+        
+        if (!response.ok) {
+          const errorData = await response.json().catch(() => ({}));
+          throw new Error(errorData.message || `Operation failed with status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (data.success) {
+          // Reset form and refresh subcategories
+          setCurrentSubcategory({ id: null, name: '', category_id: '' });
+          setFormMode('add');
+          fetchSubcategories();
+        } else {
+          setError(data.message || 'Operation failed');
+        }
       }
     } catch (err) {
       setError('Error: ' + err.message);
@@ -186,27 +259,49 @@ const CategoryManagement = () => {
     } finally {
       setIsSubmitting(false);
     }
-  }, [currentCategory, formMode, imageFile, imagePreview, uploadImage, fetchCategories]);
+  }, [
+    activeTab, 
+    currentCategory, 
+    currentSubcategory, 
+    formMode, 
+    imageFile, 
+    imagePreview, 
+    uploadImage, 
+    fetchCategories, 
+    fetchSubcategories
+  ]);
 
   // Handle edit button click - converted to useCallback
-  const handleEdit = useCallback((category) => {
-    setCurrentCategory({
-      id: category.id,
-      name: category.name,
-      img: category.img || ''
-    });
-    setImagePreview(category.img || '');
+  const handleEdit = useCallback((item) => {
+    if (activeTab === 'categories') {
+      setCurrentCategory({
+        id: item.id,
+        name: item.name,
+        img: item.img || ''
+      });
+      setImagePreview(item.img || '');
+    } else {
+      setCurrentSubcategory({
+        id: item.id,
+        name: item.name,
+        category_id: item.category_id
+      });
+    }
     setFormMode('edit');
-  }, []);
+  }, [activeTab]);
 
   // Handle delete button click - converted to useCallback
   const handleDelete = useCallback(async (id) => {
-    if (!window.confirm('Are you sure you want to delete this category?')) {
+    if (!window.confirm(`Are you sure you want to delete this ${activeTab === 'categories' ? 'category' : 'subcategory'}?`)) {
       return;
     }
     
     try {
-      const response = await fetch(`/api/categories-delete?id=${id}`, {
+      const url = activeTab === 'categories' 
+        ? `/api/categories-delete?id=${id}` 
+        : `/api/subcategories-delete?id=${id}`;
+        
+      const response = await fetch(url, {
         method: 'DELETE'
       });
       
@@ -217,32 +312,47 @@ const CategoryManagement = () => {
       const data = await response.json();
       
       if (data.success) {
-        fetchCategories();
+        if (activeTab === 'categories') {
+          fetchCategories();
+        } else {
+          fetchSubcategories();
+        }
       } else {
         setError(data.message || 'Delete operation failed');
       }
     } catch (err) {
       setError('Error connecting to the server');
-      console.error('Error deleting category:', err);
+      console.error(`Error deleting ${activeTab === 'categories' ? 'category' : 'subcategory'}:`, err);
     }
-  }, [fetchCategories]);
+  }, [activeTab, fetchCategories, fetchSubcategories]);
 
   // Cancel edit mode - converted to useCallback
   const handleCancel = useCallback(() => {
-    setCurrentCategory({ id: null, name: '', img: '' });
-    
-    // Clean up object URL if it exists
-    if (imagePreview && imagePreview.startsWith('blob:')) {
-      URL.revokeObjectURL(imagePreview);
-    }
-    
-    setImageFile(null);
-    setImagePreview('');
-    if (fileInputRef.current) {
-      fileInputRef.current.value = '';
+    if (activeTab === 'categories') {
+      setCurrentCategory({ id: null, name: '', img: '' });
+      
+      // Clean up object URL if it exists
+      if (imagePreview && imagePreview.startsWith('blob:')) {
+        URL.revokeObjectURL(imagePreview);
+      }
+      
+      setImageFile(null);
+      setImagePreview('');
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
+    } else {
+      setCurrentSubcategory({ id: null, name: '', category_id: '' });
     }
     setFormMode('add');
-  }, [imagePreview]);
+  }, [activeTab, imagePreview]);
+
+  // Switch between categories and subcategories tabs
+  const handleTabChange = useCallback((tab) => {
+    setActiveTab(tab);
+    setFormMode('add');
+    handleCancel();
+  }, [handleCancel]);
 
   // Memoize the categories table to prevent unnecessary re-renders
   const categoriesTable = useMemo(() => {
@@ -311,11 +421,64 @@ const CategoryManagement = () => {
     );
   }, [categories, handleEdit, handleDelete, fallbackImage]);
 
-  if (loading && categories.length === 0) {
+  // Memoize the subcategories table
+  const subcategoriesTable = useMemo(() => {
+    if (subcategories.length === 0) {
+      return <p>No subcategories found.</p>;
+    }
+    
+    return (
+      <div className="overflow-x-auto">
+        <table className="min-w-full bg-white">
+          <thead>
+            <tr>
+              <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                ID
+              </th>
+              <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                Name
+              </th>
+              <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                Parent Category
+              </th>
+              <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                Actions
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {subcategories.map((subcategory) => (
+              <tr key={subcategory.id}>
+                <td className="py-2 px-4 border-b border-gray-200">{subcategory.id}</td>
+                <td className="py-2 px-4 border-b border-gray-200">{subcategory.name}</td>
+                <td className="py-2 px-4 border-b border-gray-200">{subcategory.category_name}</td>
+                <td className="py-2 px-4 border-b border-gray-200">
+                  <button
+                    className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-2 rounded mr-2"
+                    onClick={() => handleEdit(subcategory)}
+                  >
+                    Edit
+                  </button>
+                  <button
+                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded"
+                    onClick={() => handleDelete(subcategory.id)}
+                  >
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }, [subcategories, handleEdit, handleDelete]);
+
+  if (loading && categories.length === 0 && subcategories.length === 0) {
     return (
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold mb-6">Category Management</h1>
-        <p>Loading categories...</p>
+        <p>Loading data...</p>
       </div>
     );
   }
@@ -330,51 +493,110 @@ const CategoryManagement = () => {
         </div>
       )}
       
-      {/* Category Form */}
+      {/* Tab Navigation */}
+      <div className="mb-6">
+        <div className="border-b border-gray-200">
+          <nav className="flex -mb-px">
+            <button
+              className={`py-2 px-4 border-b-2 font-medium text-sm ${
+                activeTab === 'categories'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+              onClick={() => handleTabChange('categories')}
+            >
+              Categories
+            </button>
+            <button
+              className={`py-2 px-4 border-b-2 font-medium text-sm ${
+                activeTab === 'subcategories'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+              onClick={() => handleTabChange('subcategories')}
+            >
+              Subcategories
+            </button>
+          </nav>
+        </div>
+      </div>
+      
+      {/* Category/Subcategory Form */}
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-6">
         <h2 className="text-xl font-semibold mb-4">
-          {formMode === 'add' ? 'Add New Category' : 'Edit Category'}
+          {formMode === 'add' 
+            ? `Add New ${activeTab === 'categories' ? 'Category' : 'Subcategory'}` 
+            : `Edit ${activeTab === 'categories' ? 'Category' : 'Subcategory'}`}
         </h2>
         
         <form onSubmit={handleSubmit}>
           {formMode === 'edit' && (
-            <input type="hidden" name="id" value={currentCategory.id} />
+            <input 
+              type="hidden" 
+              name="id" 
+              value={activeTab === 'categories' ? currentCategory.id : currentSubcategory.id} 
+            />
           )}
           
           <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-              Category Name
+              {activeTab === 'categories' ? 'Category' : 'Subcategory'} Name
             </label>
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="name"
               type="text"
               name="name"
-              value={currentCategory.name}
+              value={activeTab === 'categories' ? currentCategory.name : currentSubcategory.name}
               onChange={handleInputChange}
               required
             />
           </div>
           
-          <div className="mb-4">
-            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="image">
-              Category Image
-            </label>
-            <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              id="image"
-              type="file"
-              accept="image/*"
-              ref={fileInputRef}
-              onChange={handleImageChange}
-            />
-            <p className="text-xs text-gray-500 mt-1">
-              Upload a new image or leave empty to keep the current one.
-            </p>
-          </div>
+          {activeTab === 'subcategories' && (
+            <div className="mb-4">
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="category_id">
+                Parent Category
+              </label>
+              <select
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="category_id"
+                name="category_id"
+                value={currentSubcategory.category_id}
+                onChange={handleInputChange}
+                required
+              >
+                <option value="">Select a parent category</option>
+                {categories.map(category => (
+                  <option key={category.id} value={category.id}>
+                    {category.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+          
+          {activeTab === 'categories' && (
+            <div className="mb-4">
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="image">
+                Category Image
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                id="image"
+                type="file"
+                accept="image/*"
+                ref={fileInputRef}
+                onChange={handleImageChange}
+              />
+              <p className="text-xs text-gray-500 mt-1">
+                Upload a new image or leave empty to keep the current one.
+              </p>
+            </div>
+          )}
           
           {/* Image Preview */}
-          {imagePreview && (
+          {activeTab === 'categories' && imagePreview && (
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2">
                 Image Preview
@@ -399,7 +621,11 @@ const CategoryManagement = () => {
               type="submit"
               disabled={isSubmitting}
             >
-              {isSubmitting ? 'Processing...' : formMode === 'add' ? 'Add Category' : 'Update Category'}
+              {isSubmitting 
+                ? 'Processing...' 
+                : formMode === 'add' 
+                  ? `Add ${activeTab === 'categories' ? 'Category' : 'Subcategory'}` 
+                  : `Update ${activeTab === 'categories' ? 'Category' : 'Subcategory'}`}
             </button>
             
             {formMode === 'edit' && (
@@ -416,10 +642,12 @@ const CategoryManagement = () => {
         </form>
       </div>
       
-      {/* Categories List */}
+      {/* Categories/Subcategories List */}
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8">
-        <h2 className="text-xl font-semibold mb-4">Categories</h2>
-        {categoriesTable}
+        <h2 className="text-xl font-semibold mb-4">
+          {activeTab === 'categories' ? 'Categories' : 'Subcategories'}
+        </h2>
+        {activeTab === 'categories' ? categoriesTable : subcategoriesTable}
       </div>
     </div>
   );
