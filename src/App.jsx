@@ -86,8 +86,8 @@ const App = () => {
                 {/* Hero Banner */}
                 <HeroBannerStyle1 heroBanner={heroBanner} />
 
-                {/* Category Carousel */}
-                <CategoryCarousel categories={categories} />
+                {/* Category Carousel - Ensure categories is not undefined */}
+                <CategoryCarousel categories={categories || []} />
 
                 {/* Trending & All Products Section */}
                 <section className="container mx-auto px-4 py-12">
