@@ -14,7 +14,7 @@ const CategoryCarousel = () => {
     const fetchCategories = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/api/categories');
+        const response = await fetch('/api/categories-api');
         const data = await response.json();
         
         if (data.success) {

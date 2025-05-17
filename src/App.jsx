@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import AnnouncementBar from "./components/AnnouncementBar";
@@ -18,15 +18,55 @@ import ProductDetailPage from "./pages/ProductDetailPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import "./theme.css";
 import { categories } from "./input/categories";
-import { products } from "./input/products";
 import AboutUsPage from "./pages/AboutUsPage";
 import CategoryManagement from "./pages/admin/CategoryManagement";
 import ProductManagement from "./pages/admin/ProductManagement";
-import ProductAdd from "./pages/admin/ProductAdd";
-import ProductEdit from "./pages/admin/ProductEdit";
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
+  const [products, setProducts] = useState([]);
+  const [trendingProducts, setTrendingProducts] = useState([]);
+  const [allProducts, setAllProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        setLoading(true);
+        // Replace with your actual API endpoint
+        const response = await fetch('/api/products');
+        const data = await response.json();
+        
+        if (data.success) {
+          const fetchedProducts = data.data || [];
+          setProducts(fetchedProducts);
+          
+          // Get 4 random products for trending section
+          const shuffled = [...fetchedProducts].sort(() => 0.5 - Math.random());
+          setTrendingProducts(shuffled.slice(0, 4));
+          
+          // Get first 8 products for all products section
+          setAllProducts(fetchedProducts.slice(0, 8));
+        } else {
+          setError(data.error || 'Failed to fetch products');
+          // Fallback to empty arrays
+          setTrendingProducts([]);
+          setAllProducts([]);
+        }
+      } catch (err) {
+        setError('Error connecting to the server');
+        console.error('Error fetching products:', err);
+        // Fallback to empty arrays
+        setTrendingProducts([]);
+        setAllProducts([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProducts();
+  }, []);
 
   return (
     <Router>
@@ -47,8 +87,16 @@ const App = () => {
                 {/* <Banner banners={banners} /> */}
                 <CategoryCarousel categories={categories} />
                 <section className="container mx-auto px-4 py-12">
-                  <ProductSection2 title="Trending Products" products={products} />
-                  <ProductListing title="All Products" products={products} />
+                  {loading ? (
+                    <p className="text-center">Loading products...</p>
+                  ) : error ? (
+                    <p className="text-center text-red-500">{error}</p>
+                  ) : (
+                    <>
+                      <ProductSection2 title="Trending Products" products={trendingProducts} />
+                      <ProductListing title="All Products" products={allProducts} />
+                    </>
+                  )}
                 </section>
                 <BenefitsSection />
               </>
