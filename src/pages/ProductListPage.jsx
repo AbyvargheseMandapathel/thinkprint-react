@@ -18,6 +18,17 @@ const ProductListPage = ({ products: allProducts = [] }) => {
   const [selectedCategory, setSelectedCategory] = useState(
     categoryName ? decodeURIComponent(categoryName) : "All"
   );
+  // Add state for window width
+  const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1024);
+
+  // Update window width on resize
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }
+  }, []);
 
   // Update category state when URL changes
   useEffect(() => {
@@ -32,6 +43,8 @@ const ProductListPage = ({ products: allProducts = [] }) => {
   // Memoized Filtering Logic
   const filteredProducts = useMemo(() => {
     let filtered = allProducts || [];
+    
+    console.log("All products:", allProducts); // Debug log
 
     // Filter by category first
     if (selectedCategory !== "All") {
@@ -50,10 +63,14 @@ const ProductListPage = ({ products: allProducts = [] }) => {
     }
 
     // Finally filter by price range
-    return filtered.filter(
-      (product) => product && typeof product.price === 'number' && 
-      product.price >= priceRange[0] && product.price <= priceRange[1]
+    filtered = filtered.filter(
+      (product) => product && 
+      (typeof product.price === 'number' || typeof product.price === 'undefined') && 
+      (!product.price || (product.price >= priceRange[0] && product.price <= priceRange[1]))
     );
+    
+    console.log("Filtered products:", filtered); // Debug log
+    return filtered;
   }, [allProducts, selectedCategory, query, priceRange]);
 
   // Pagination Logic
@@ -66,13 +83,15 @@ const ProductListPage = ({ products: allProducts = [] }) => {
     return filteredProducts.slice(startIndex, endIndex);
   }, [filteredProducts, currentPage]);
 
-  // Handle Filter Changes
-  const handleFilter = (category, range) => {
-    setPriceRange(range);
+  // Handle Filter Changes - Updated to match FilterComponent's parameter structure
+  const handleFilter = (filterData) => {
+    if (filterData.priceRange) {
+      setPriceRange(filterData.priceRange);
+    }
 
-    if (category !== selectedCategory) {
-      setSelectedCategory(category);
-      navigate(category === "All" ? "/products" : `/category/${encodeURIComponent(category)}`);
+    if (filterData.category && filterData.category !== selectedCategory) {
+      setSelectedCategory(filterData.category);
+      navigate(filterData.category === "All" ? "/products" : `/category/${encodeURIComponent(filterData.category)}`);
     }
   };
 
@@ -109,15 +128,15 @@ const ProductListPage = ({ products: allProducts = [] }) => {
 
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6">
         {/* Filters Section */}
-        {(filtersVisible || window.innerWidth >= 768) && (
+        {(filtersVisible || windowWidth >= 768) && (
           <div className="hidden md:block">
-            <FilterComponent onFilter={handleFilter} initialCategory={selectedCategory} />
+            <FilterComponent onFilter={handleFilter} />
           </div>
         )}
 
-        {filtersVisible && window.innerWidth < 768 && (
+        {filtersVisible && windowWidth < 768 && (
           <div className="block md:hidden">
-            <FilterComponent onFilter={handleFilter} initialCategory={selectedCategory} />
+            <FilterComponent onFilter={handleFilter} />
           </div>
         )}
 
