@@ -21,6 +21,7 @@ import { categories } from "./input/categories";
 import AboutUsPage from "./pages/AboutUsPage";
 import CategoryManagement from "./pages/admin/CategoryManagement";
 import ProductManagement from "./pages/admin/ProductManagement";
+import ProductCard from "./components/ProductCard";
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
@@ -34,35 +35,28 @@ const App = () => {
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        // Fetch from the serverless API endpoint
         const response = await fetch('/api/products-api');
-        
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         const data = await response.json();
-        
-        if (data.success) {
-          const fetchedProducts = data.data || [];
+
+        if (data.success && Array.isArray(data.data)) {
+          const fetchedProducts = data.data;
           setProducts(fetchedProducts);
-          
-          // Get 4 random products for trending section
+
+          // Get 4 random trending products
           const shuffled = [...fetchedProducts].sort(() => 0.5 - Math.random());
           setTrendingProducts(shuffled.slice(0, 4));
-          
-          // Get first 8 products for all products section
+
+          // Get first 8 products for All Products section
           setAllProducts(fetchedProducts.slice(0, 8));
         } else {
-          setError(data.error || 'Failed to fetch products');
-          // Fallback to empty arrays
+          setError(data.message || 'Failed to fetch products');
           setTrendingProducts([]);
           setAllProducts([]);
         }
       } catch (err) {
         setError('Error connecting to the server');
         console.error('Error fetching products:', err);
-        // Fallback to empty arrays
         setTrendingProducts([]);
         setAllProducts([]);
       } finally {
@@ -80,17 +74,22 @@ const App = () => {
         {/* Announcement Bar */}
         <AnnouncementBar message={announcementMessage} />
 
+        {/* Navbar */}
         <Navbar />
-        {/* <NavMenu /> */}
 
+        {/* Routes */}
         <Routes>
           <Route
             path="/"
             element={
               <>
+                {/* Hero Banner */}
                 <HeroBannerStyle1 heroBanner={heroBanner} />
-                {/* <Banner banners={banners} /> */}
+
+                {/* Category Carousel */}
                 <CategoryCarousel categories={categories} />
+
+                {/* Trending & All Products Section */}
                 <section className="container mx-auto px-4 py-12">
                   {loading ? (
                     <p className="text-center">Loading products...</p>
@@ -103,33 +102,28 @@ const App = () => {
                     </>
                   )}
                 </section>
+
+                {/* Benefits Section */}
                 <BenefitsSection />
               </>
             }
           />
 
+          {/* Other Routes */}
           <Route path="/products" element={<ProductListPage products={products} />} />
-
-          <Route path="/urbangear" element={<ProductListPage products={products} />} />
-
+          <Route path="/urbangear" element={<ProductListPage products={products.filter(p => p.is_urbangear)} />} />
           <Route path="/product/:id" element={<ProductDetailPage />} />
-
           <Route path="/search" element={<SearchResult />} />
-
           <Route path="/category/:categoryName" element={<ProductListPage products={products} />} />
-
-          <Route path="/contact" element={<ContactUsPage />} /> {/* New Contact Us Route */}
-
+          <Route path="/contact" element={<ContactUsPage />} />
           <Route path="/about" element={<AboutUsPage />} />
-
           <Route path="/admin/categories" element={<CategoryManagement />} />
-          
-          {/* Updated Product Management Routes */}
           <Route path="/admin/products" element={<ProductManagement />} />
           <Route path="/admin/products/new" element={<ProductManagement />} />
           <Route path="/admin/products/edit/:id" element={<ProductManagement />} />
         </Routes>
 
+        {/* Mobile Nav & Footer */}
         <MobileNavigation />
         <Footer />
       </div>
