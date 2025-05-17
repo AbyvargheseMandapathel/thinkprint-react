@@ -98,21 +98,41 @@ const Navbar = () => {
                   onMouseEnter={handleDropdownMouseEnter}
                   onMouseLeave={handleDropdownMouseLeave}
                 >
-                  <div className="flex flex-wrap gap-8 justify-start">
+                  <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
                     {categories.map((category) => (
-                      <Link
-                        key={category.id}
-                        to={`/category/${encodeURIComponent(category.name)}`}
-                        className="flex flex-col items-center min-w-[120px]"
-                        onClick={() => setIsDropdownOpen(false)}
-                      >
-                        <img
-                          src={category.img}
-                          alt={category.name}
-                          className="w-20 h-20 mb-2 object-cover"
-                        />
-                        <span className="text-sm text-center">{category.name}</span>
-                      </Link>
+                      <div key={category.id} className="flex flex-col">
+                        <Link
+                          to={`/category/${encodeURIComponent(category.name)}`}
+                          className="flex flex-col items-center group"
+                          onClick={() => setIsDropdownOpen(false)}
+                        >
+                          <div className="w-20 h-20 overflow-hidden rounded-lg mb-2">
+                            <img
+                              src={category.img}
+                              alt={category.name}
+                              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                            />
+                          </div>
+                          <span className="text-sm font-medium text-center">{category.name}</span>
+                        </Link>
+                        
+                        {/* Subcategories */}
+                        {category.subcategories && category.subcategories.length > 0 && (
+                          <ul className="mt-2 space-y-1">
+                            {category.subcategories.map((subcategory) => (
+                              <li key={subcategory.id}>
+                                <Link
+                                  to={`/category/${encodeURIComponent(category.name)}/${encodeURIComponent(subcategory.name)}`}
+                                  className="text-xs text-gray-600 hover:text-blue-600 transition-colors"
+                                  onClick={() => setIsDropdownOpen(false)}
+                                >
+                                  {subcategory.name}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
                     ))}
                   </div>
                 </div>

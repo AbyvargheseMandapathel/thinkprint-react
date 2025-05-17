@@ -108,7 +108,7 @@ const ProductSection2 = ({ title, products }) => {
                                     {/* Product Details */}
                                     <div className="flex flex-col flex-grow">
                                         <h3 className="text-lg font-bold text-gray-800 mb-1">{product.title}</h3>
-                                        <p className="text-sm text-gray-500 truncate">{product.shortDescription}</p>
+                                        <p className="text-sm text-gray-500 truncate">{product.short_description}</p>
                                     </div>
                                 </div>
                             </Link>
