@@ -1,22 +1,21 @@
-import multer from 'multer';
-import { v4 as uuidv4 } from 'uuid';
-import ftp from 'basic-ftp';
-import { Readable } from 'stream';
+import { put } from '@vercel/blob';
+import formidable from 'formidable';
+import fs from 'fs';
 
-// Configure Multer to store uploaded files in memory
-const upload = multer({
-  storage: multer.memoryStorage(),
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
-  fileFilter: (req, file, cb) => {
-    const allowedTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
-    if (!allowedTypes.includes(file.mimetype)) {
-      return cb(new Error('Invalid file type. Only JPEG, PNG, GIF, and WEBP are allowed.'), false);
-    }
-    cb(null, true);
-  }
-}).single('image');
+// Get token from environment variable
+const BLOB_TOKEN = 'vercel_blob_rw_ZQWkdm0dQLlXQofJ_lnELB6BcIPdemqL0Kc2XxKuARuvSyD'
 
-// Required for Vercel to allow Multer file streaming
+
+// Allowed MIME types
+const allowedMimeTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
+
+// Allowed origins
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://thinkprint.shop',
+  'http://localhost:3000',
+];
+
 export const config = {
   api: {
     bodyParser: false,
@@ -24,13 +23,10 @@ export const config = {
 };
 
 export default async function handler(req, res) {
-  const allowedOrigins = ['http://localhost:5173', 'https://thinkprint.shop', 'http://localhost:3000'];
-  const origin = req.headers.origin;
-
+  const origin = req.headers.origin || '';
   if (allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
   }
-
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
@@ -38,43 +34,62 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ success: false, message: 'Method Not Allowed' });
 
   try {
-    await new Promise((resolve, reject) => {
-      upload(req, res, err => (err ? reject(err) : resolve()));
+    // Check if BLOB_TOKEN is configured
+    if (!BLOB_TOKEN) {
+      console.error('BLOB_TOKEN is not configured');
+      return res.status(500).json({ success: false, message: 'Server configuration error' });
+    }
+
+    // Parse form data using formidable
+    const form = new formidable.IncomingForm({
+      maxFileSize: 5 * 1024 * 1024, // 5MB limit
+      filter: (part) => {
+        return part.name === 'image' && allowedMimeTypes.includes(part.mimetype);
+      }
     });
 
-    if (!req.file) {
+    const [, files] = await new Promise((resolve, reject) => {
+      form.parse(req, (err, fields, files) => {
+        if (err) reject(err);
+        resolve([fields, files]);
+      });
+    });
+
+    // Check if image file was uploaded
+    const imageFile = files.image?.[0] || files.image;
+    if (!imageFile) {
       return res.status(400).json({ success: false, message: 'No image file uploaded' });
     }
 
-    const client = new ftp.Client();
-    client.ftp.verbose = false;
+    // Check file type
+    if (!allowedMimeTypes.includes(imageFile.mimetype)) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid file type. Only JPEG, PNG, GIF, and WEBP are allowed.',
+      });
+    }
 
-    await client.access({
-      host: '156.67.73.28',
-      port: 21,
-      user: 'u911622560.thinkprint.shop',
-      password: 'YFd>dU1+nWhSr~J9', // Ensure this is stored securely in prod
-      secure: false,
+    // Generate unique filename
+    const fileExtension = imageFile.originalFilename.slice(imageFile.originalFilename.lastIndexOf('.'));
+    const filename = `${Date.now()}-${Math.random().toString(36).substring(2, 9)}${fileExtension}`;
+
+    // Read file data
+    const fileData = fs.readFileSync(imageFile.filepath);
+
+    // Upload to Vercel Blob
+    const blob = await put(`categories/${filename}`, fileData, {
+      access: 'public',
+      contentType: imageFile.mimetype,
+      token: BLOB_TOKEN,
     });
 
-    const fileExtension = req.file.originalname.slice(req.file.originalname.lastIndexOf('.'));
-    const filename = `${uuidv4()}${fileExtension}`;
-    const remotePath = `/public_html/uploads/categories/${filename}`;
+    // Clean up temp file
+    fs.unlinkSync(imageFile.filepath);
 
-    await client.ensureDir('/public_html/uploads/categories');
-
-    const stream = Readable.from(req.file.buffer); // ✅ Convert buffer to stream
-    await client.uploadFrom(stream, remotePath);
-
-    await client.close();
-
-    const imageUrl = `https://srv1614-files.hstgr.io/69e5343b80f6dc7f/files/public_html/uploads/categories/${filename}`;
     return res.status(200).json({
       success: true,
-      message: 'Image uploaded successfully',
-      imageUrl,
+      imageUrl: blob.url,
     });
-
   } catch (error) {
     console.error('Upload error:', error);
     return res.status(500).json({ success: false, message: error.message || 'Upload failed' });
