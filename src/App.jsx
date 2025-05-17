@@ -21,6 +21,9 @@ import { categories } from "./input/categories";
 import { products } from "./input/products";
 import AboutUsPage from "./pages/AboutUsPage";
 import CategoryManagement from "./pages/admin/CategoryManagement";
+import ProductManagement from "./pages/admin/ProductManagement";
+import ProductAdd from "./pages/admin/ProductAdd";
+import ProductEdit from "./pages/admin/ProductEdit";
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
@@ -67,6 +70,11 @@ const App = () => {
           <Route path="/about" element={<AboutUsPage />} />
 
           <Route path="/admin/categories" element={<CategoryManagement />} />
+          
+          {/* Updated Product Management Routes */}
+          <Route path="/admin/products" element={<ProductManagement />} />
+          <Route path="/admin/products/new" element={<ProductManagement />} />
+          <Route path="/admin/products/edit/:id" element={<ProductManagement />} />
         </Routes>
 
         <MobileNavigation />
