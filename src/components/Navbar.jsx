@@ -160,7 +160,7 @@ const Navbar = () => {
                   ) : error ? (
                     <div className="text-center text-red-500 py-4">{error}</div>
                   ) : (
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                       {categories.map((category) => (
                         <div 
                           key={category.id} 
