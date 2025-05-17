@@ -76,9 +76,9 @@ const ProductListing = ({ products, title }) => {
 
             {/* Short Description Text */}
             <p className="text-sm text-gray-600 mb-2">
-              {product.shortDescription.length > 50 
-                ? product.shortDescription.slice(0, 50) + "..." 
-                : product.shortDescription}
+              {product.short_description.length > 50 
+                ? product.short_description.slice(0, 50) + "..." 
+                : product.short_description}
             </p>
 
             {/* Product Price */}
