@@ -173,6 +173,50 @@ export default async function handler(req, res) {
         }
       });
     }
+
+    if (req.method === 'GET') {
+  const productId = req.query.id;
+  const categoryId = req.query.category_id || req.query.category_id;
+  const subcategoryId = req.query.subcategory_id || req.query.sub; // Support both 'sub' and 'subcategory_id'
+  const isUrbangear = req.query.is_urbangear;
+
+  let query = `
+    SELECT p.*, c.name as category_name, s.name as subcategory_name 
+    FROM products p 
+    JOIN categories c ON p.category_id = c.id 
+    JOIN subcategories s ON p.subcategory_id = s.id
+  `;
+  const conditions = [];
+  const params = [];
+
+  if (productId) {
+    conditions.push('p.id = ?');
+    params.push(productId);
+  }
+  if (categoryId) {
+    conditions.push('p.category_id = ?');
+    params.push(categoryId);
+  }
+  if (subcategoryId) {
+    conditions.push('p.subcategory_id = ?');
+    params.push(subcategoryId);
+  }
+  if (isUrbangear !== undefined) {
+    conditions.push('p.is_urbangear = ?');
+    params.push(isUrbangear === 'true' ? 1 : 0);
+  }
+
+  if (conditions.length > 0) {
+    query += ' WHERE ' + conditions.join(' AND ');
+  }
+
+  try {
+    const [rows] = await connection.execute(query, params);
+    res.status(200).json({ success: true, data: rows });
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'DB Error', error });
+  }
+}
     
     // PUT request - Update product
     else if (req.method === 'PUT') {

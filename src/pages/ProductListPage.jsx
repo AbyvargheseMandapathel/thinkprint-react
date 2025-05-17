@@ -3,121 +3,97 @@ import { useParams, useLocation, useNavigate } from "react-router-dom";
 import FilterComponent from "../components/FilterComponent";
 import MobileFilterButton from "../components/MobileFilterButton";
 import ProductLayout from "../components/ProductLayout";
-import "../index.css";
 
 const ProductListPage = ({ products: allProducts = [] }) => {
   const { categoryName } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
+
   const searchParams = new URLSearchParams(location.search);
-  const query = searchParams.get("query") || "";
+  const query = searchParams.get("q") || "";
+  const subParam = searchParams.get("sub");
+  const categoryParam = decodeURIComponent(categoryName || searchParams.get("category") || "All");
 
   const [filtersVisible, setFiltersVisible] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [selectedCategory, setSelectedCategory] = useState(categoryParam);
+  const [selectedSubcategories, setSelectedSubcategories] = useState(subParam ? subParam.split(",").map(Number) : []);
   const [priceRange, setPriceRange] = useState([0, 5000]);
-  const [selectedCategory, setSelectedCategory] = useState(
-    categoryName ? decodeURIComponent(categoryName) : "All"
-  );
-  // Add state for window width
-  const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1024);
+  const [currentPage, setCurrentPage] = useState(1);
 
-  // Update window width on resize
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const handleResize = () => setWindowWidth(window.innerWidth);
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }
-  }, []);
-
-  // Update category state when URL changes
-  useEffect(() => {
-    setSelectedCategory(categoryName ? decodeURIComponent(categoryName) : "All");
-  }, [categoryName]);
-
-  // Reset pagination when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [selectedCategory, query, priceRange]);
+  }, [selectedCategory, selectedSubcategories, priceRange]);
 
-  // Memoized Filtering Logic
+  useEffect(() => {
+    setSelectedCategory(categoryParam);
+    setSelectedSubcategories(subParam ? subParam.split(",").map(Number) : []);
+  }, [location.search]);
+
   const filteredProducts = useMemo(() => {
-    let filtered = allProducts || [];
-    
-    console.log("All products:", allProducts); // Debug log
+    let result = [...allProducts];
 
-    // Filter by category first
     if (selectedCategory !== "All") {
-      filtered = filtered.filter(
-        (product) => product && product.category && 
-        product.category.toLowerCase() === selectedCategory.toLowerCase()
-      );
+      result = result.filter(p => p.category_name?.toLowerCase() === selectedCategory.toLowerCase());
     }
 
-    // Then filter by search query
+    if (selectedSubcategories.length > 0) {
+      result = result.filter(p => selectedSubcategories.includes(Number(p.subcategory_id)));
+    }
+
     if (query) {
-      filtered = filtered.filter((product) =>
-        product && product.title && 
-        product.title.toLowerCase().includes(query.toLowerCase())
+      const q = query.toLowerCase();
+      result = result.filter(p =>
+        p.title.toLowerCase().includes(q) ||
+        (p.short_description && p.short_description.toLowerCase().includes(q))
       );
     }
 
-    // Finally filter by price range
-    filtered = filtered.filter(
-      (product) => product && 
-      (typeof product.price === 'number' || typeof product.price === 'undefined') && 
-      (!product.price || (product.price >= priceRange[0] && product.price <= priceRange[1]))
-    );
-    
-    console.log("Filtered products:", filtered); // Debug log
-    return filtered;
-  }, [allProducts, selectedCategory, query, priceRange]);
+    result = result.filter(p => p.price >= priceRange[0] && p.price <= priceRange[1]);
 
-  // Pagination Logic
-  const itemsPerPage = 9;
-  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
+    return result;
+  }, [allProducts, selectedCategory, selectedSubcategories, query, priceRange]);
 
+  const totalPages = Math.ceil(filteredProducts.length / 9);
   const paginatedProducts = useMemo(() => {
-    return filteredProducts.slice(startIndex, endIndex);
+    const start = (currentPage - 1) * 9;
+    return filteredProducts.slice(start, start + 9);
   }, [filteredProducts, currentPage]);
 
-  // Handle Filter Changes - Updated to match FilterComponent's parameter structure
-  const handleFilter = (filterData) => {
-    if (filterData.priceRange) {
-      setPriceRange(filterData.priceRange);
+  const handleFilter = (filters) => {
+    const { category, subcategories } = filters;
+
+    const params = new URLSearchParams(location.search);
+    if (category === "All") {
+      params.delete("category");
+      params.delete("sub");
+    } else {
+      params.set("category", encodeURIComponent(category));
+      if (subcategories.length > 0) {
+        params.set("sub", subcategories.join(","));
+      } else {
+        params.delete("sub");
+      }
     }
 
-    if (filterData.category && filterData.category !== selectedCategory) {
-      setSelectedCategory(filterData.category);
-      navigate(filterData.category === "All" ? "/products" : `/category/${encodeURIComponent(filterData.category)}`);
-    }
+    navigate(`/products?${params.toString()}`, { replace: true });
   };
 
-  // Dynamic Title
   const title = query
     ? `Search Results for "${query}"`
     : selectedCategory === "All"
     ? "All Products"
     : `${selectedCategory} Products`;
 
-  // Breadcrumbs
-  const breadcrumbs = useMemo(
-    () => [
+  const breadcrumbs = useMemo(() => {
+    const crumbs = [
       { label: "Home", href: "/" },
-      { label: "Products", href: "/products" },
-      ...(selectedCategory !== "All"
-        ? [{ label: selectedCategory, href: `/category/${encodeURIComponent(selectedCategory)}` }]
-        : []),
-    ],
-    [selectedCategory]
-  );
-
-  // Handle Pagination
-  const handlePageChange = (newPage) => {
-    setCurrentPage(Math.max(1, Math.min(newPage, totalPages)));
-  };
+      { label: "Products", href: "/products" }
+    ];
+    if (selectedCategory !== "All") {
+      crumbs.push({ label: selectedCategory, href: `/category/${encodeURIComponent(selectedCategory)}` });
+    }
+    return crumbs;
+  }, [selectedCategory]);
 
   return (
     <div className="font-[var(--font-primary)] bg-[var(--productlistpage-background-color)]">
@@ -127,27 +103,35 @@ const ProductListPage = ({ products: allProducts = [] }) => {
       />
 
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6">
-        {/* Filters Section */}
-        {(filtersVisible || windowWidth >= 768) && (
+        {/* Filters */}
+        {(filtersVisible || window.innerWidth >= 768) && (
           <div className="hidden md:block">
-            <FilterComponent onFilter={handleFilter} />
+            <FilterComponent
+              onFilter={handleFilter}
+              initialCategory={selectedCategory}
+              initialSubcategories={selectedSubcategories}
+            />
           </div>
         )}
 
-        {filtersVisible && windowWidth < 768 && (
+        {filtersVisible && window.innerWidth < 768 && (
           <div className="block md:hidden">
-            <FilterComponent onFilter={handleFilter} />
+            <FilterComponent
+              onFilter={handleFilter}
+              initialCategory={selectedCategory}
+              initialSubcategories={selectedSubcategories}
+            />
           </div>
         )}
 
-        {/* Product Layout */}
+        {/* Layout */}
         <ProductLayout
           title={title}
           breadcrumbs={breadcrumbs}
           products={paginatedProducts}
           totalPages={totalPages}
           currentPage={currentPage}
-          onPageChange={handlePageChange}
+          onPageChange={setCurrentPage}
         />
       </div>
     </div>
