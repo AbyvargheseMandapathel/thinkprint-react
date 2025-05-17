@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
+// Remove unused navigate import
+// import { useNavigate } from 'react-router-dom';
 
 const CategoryManagement = () => {
   const [categories, setCategories] = useState([]);
@@ -11,13 +12,21 @@ const CategoryManagement = () => {
   const [imagePreview, setImagePreview] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const fileInputRef = useRef(null);
-  const navigate = useNavigate();
+  // Remove unused navigate declaration
 
-  // Fetch all categories
-  const fetchCategories = async () => {
+  // Use a local fallback image instead of placeholder.com
+  const fallbackImage = '/assets/no-image.png'; // Create this file in your public/assets folder
+
+  // Fetch all categories - converted to useCallback
+  const fetchCategories = useCallback(async () => {
     try {
       setLoading(true);
       const response = await fetch('/api/categories');
+      
+      if (!response.ok) {
+        throw new Error(`Server responded with status: ${response.status}`);
+      }
+      
       const data = await response.json();
       
       if (data.success) {
@@ -36,23 +45,31 @@ const CategoryManagement = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
 
   useEffect(() => {
     fetchCategories();
+    
+    // Cleanup function
+    return () => {
+      // Clean up any blob URLs when component unmounts
+      if (imagePreview && imagePreview.startsWith('blob:')) {
+        URL.revokeObjectURL(imagePreview);
+      }
+    };
+  }, [fetchCategories]);
+
+  // Handle form input changes - converted to useCallback
+  const handleInputChange = useCallback((e) => {
+    const { name, value } = e.target;
+    setCurrentCategory(prev => ({
+      ...prev,
+      [name]: value
+    }));
   }, []);
 
-  // Handle form input changes
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setCurrentCategory({
-      ...currentCategory,
-      [name]: value
-    });
-  };
-
-  // Handle image file selection
-  const handleImageChange = (e) => {
+  // Handle image file selection - converted to useCallback
+  const handleImageChange = useCallback((e) => {
     const file = e.target.files[0];
     if (file) {
       // Clear previous file and preview
@@ -72,10 +89,10 @@ const CategoryManagement = () => {
       // If file selection was cancelled
       setImageFile(null);
     }
-  };
+  }, [imagePreview]);
 
-  // Upload image to server
-  const uploadImage = async (file) => {
+  // Upload image to server - converted to useCallback
+  const uploadImage = useCallback(async (file) => {
     const formData = new FormData();
     formData.append('image', file);
     
@@ -86,7 +103,7 @@ const CategoryManagement = () => {
       });
       
       if (!response.ok) {
-        const errorData = await response.json();
+        const errorData = await response.json().catch(() => ({}));
         throw new Error(errorData.message || `Upload failed with status: ${response.status}`);
       }
       
@@ -101,10 +118,10 @@ const CategoryManagement = () => {
       console.error('Error uploading image:', err);
       throw err;
     }
-  };
+  }, []);
 
-  // Handle form submission
-  const handleSubmit = async (e) => {
+  // Handle form submission - converted to useCallback
+  const handleSubmit = useCallback(async (e) => {
     e.preventDefault();
     
     try {
@@ -138,7 +155,7 @@ const CategoryManagement = () => {
       });
       
       if (!response.ok) {
-        const errorData = await response.json();
+        const errorData = await response.json().catch(() => ({}));
         throw new Error(errorData.message || `Operation failed with status: ${response.status}`);
       }
       
@@ -169,10 +186,10 @@ const CategoryManagement = () => {
     } finally {
       setIsSubmitting(false);
     }
-  };
+  }, [currentCategory, formMode, imageFile, imagePreview, uploadImage, fetchCategories]);
 
-  // Handle edit button click
-  const handleEdit = (category) => {
+  // Handle edit button click - converted to useCallback
+  const handleEdit = useCallback((category) => {
     setCurrentCategory({
       id: category.id,
       name: category.name,
@@ -180,10 +197,10 @@ const CategoryManagement = () => {
     });
     setImagePreview(category.img || '');
     setFormMode('edit');
-  };
+  }, []);
 
-  // Handle delete button click
-  const handleDelete = async (id) => {
+  // Handle delete button click - converted to useCallback
+  const handleDelete = useCallback(async (id) => {
     if (!window.confirm('Are you sure you want to delete this category?')) {
       return;
     }
@@ -192,6 +209,10 @@ const CategoryManagement = () => {
       const response = await fetch(`/api/categories-delete?id=${id}`, {
         method: 'DELETE'
       });
+      
+      if (!response.ok) {
+        throw new Error(`Delete failed with status: ${response.status}`);
+      }
       
       const data = await response.json();
       
@@ -204,10 +225,10 @@ const CategoryManagement = () => {
       setError('Error connecting to the server');
       console.error('Error deleting category:', err);
     }
-  };
+  }, [fetchCategories]);
 
-  // Cancel edit mode
-  const handleCancel = () => {
+  // Cancel edit mode - converted to useCallback
+  const handleCancel = useCallback(() => {
     setCurrentCategory({ id: null, name: '', img: '' });
     
     // Clean up object URL if it exists
@@ -221,17 +242,74 @@ const CategoryManagement = () => {
       fileInputRef.current.value = '';
     }
     setFormMode('add');
-  };
-
-  // Clean up resources when component unmounts
-  useEffect(() => {
-    return () => {
-      // Clean up any blob URLs when component unmounts
-      if (imagePreview && imagePreview.startsWith('blob:')) {
-        URL.revokeObjectURL(imagePreview);
-      }
-    };
   }, [imagePreview]);
+
+  // Memoize the categories table to prevent unnecessary re-renders
+  const categoriesTable = useMemo(() => {
+    if (categories.length === 0) {
+      return <p>No categories found.</p>;
+    }
+    
+    return (
+      <div className="overflow-x-auto">
+        <table className="min-w-full bg-white">
+          <thead>
+            <tr>
+              <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                ID
+              </th>
+              <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                Name
+              </th>
+              <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                Image
+              </th>
+              <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                Actions
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {categories.map((category) => (
+              <tr key={category.id}>
+                <td className="py-2 px-4 border-b border-gray-200">{category.id}</td>
+                <td className="py-2 px-4 border-b border-gray-200">{category.name}</td>
+                <td className="py-2 px-4 border-b border-gray-200">
+                  {category.img ? (
+                    <img 
+                      src={category.img} 
+                      alt={category.name} 
+                      className="h-10 w-10 object-cover"
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = fallbackImage;
+                      }}
+                    />
+                  ) : (
+                    'No image'
+                  )}
+                </td>
+                <td className="py-2 px-4 border-b border-gray-200">
+                  <button
+                    className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-2 rounded mr-2"
+                    onClick={() => handleEdit(category)}
+                  >
+                    Edit
+                  </button>
+                  <button
+                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded"
+                    onClick={() => handleDelete(category.id)}
+                  >
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }, [categories, handleEdit, handleDelete, fallbackImage]);
 
   if (loading && categories.length === 0) {
     return (
@@ -305,6 +383,10 @@ const CategoryManagement = () => {
                 src={imagePreview} 
                 alt="Preview" 
                 className="h-32 w-auto object-contain border rounded p-1"
+                onError={(e) => {
+                  e.target.onerror = null;
+                  e.target.src = fallbackImage;
+                }}
               />
             </div>
           )}
@@ -337,68 +419,7 @@ const CategoryManagement = () => {
       {/* Categories List */}
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8">
         <h2 className="text-xl font-semibold mb-4">Categories</h2>
-        
-        {categories.length === 0 ? (
-          <p>No categories found.</p>
-        ) : (
-          <div className="overflow-x-auto">
-            <table className="min-w-full bg-white">
-              <thead>
-                <tr>
-                  <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                    ID
-                  </th>
-                  <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                    Name
-                  </th>
-                  <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                    Image
-                  </th>
-                  <th className="py-2 px-4 border-b border-gray-200 bg-gray-50 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                    Actions
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {categories.map((category) => (
-                  <tr key={category.id}>
-                    <td className="py-2 px-4 border-b border-gray-200">{category.id}</td>
-                    <td className="py-2 px-4 border-b border-gray-200">{category.name}</td>
-                    <td className="py-2 px-4 border-b border-gray-200">
-                      {category.img ? (
-                        <img 
-                          src={category.img} 
-                          alt={category.name} 
-                          className="h-10 w-10 object-cover"
-                          onError={(e) => {
-                            e.target.onerror = null;
-                            e.target.src = 'https://via.placeholder.com/100?text=No+Image';
-                          }}
-                        />
-                      ) : (
-                        'No image'
-                      )}
-                    </td>
-                    <td className="py-2 px-4 border-b border-gray-200">
-                      <button
-                        className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-1 px-2 rounded mr-2"
-                        onClick={() => handleEdit(category)}
-                      >
-                        Edit
-                      </button>
-                      <button
-                        className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded"
-                        onClick={() => handleDelete(category.id)}
-                      >
-                        Delete
-                      </button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
+        {categoriesTable}
       </div>
     </div>
   );
