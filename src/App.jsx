@@ -17,7 +17,7 @@ import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import "./theme.css";
-import { categories } from "./input/categories";
+// import { categories } from "./input/categories";
 import AboutUsPage from "./pages/AboutUsPage";
 import CategoryManagement from "./pages/admin/CategoryManagement";
 import ProductManagement from "./pages/admin/ProductManagement";
