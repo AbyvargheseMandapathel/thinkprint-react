@@ -12,7 +12,7 @@ const ProductGrid = ({ products }) => {
         >
           {/* Product Image */}
           <img
-            src={product.img}
+            src={product.image}
             alt={product.title}
             className="w-full h-64 object-cover mb-4 transition-transform duration-300 hover:scale-105"
           />
@@ -21,7 +21,7 @@ const ProductGrid = ({ products }) => {
           {/* Product Price */}
           {/* <p className="text-gray-600 mb-2">${product.price}</p> */}
           {/* Product Description */}
-          <p className="text-sm text-gray-500">{product.shortDescription}</p>
+          <p className="text-sm text-gray-500">{product.short_description}</p>
         </Link>
       ))}
     </div>
