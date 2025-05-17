@@ -7,6 +7,7 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [categories, setCategories] = useState([]);
+  const [subcategories, setSubcategories] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [activeCategory, setActiveCategory] = useState(null);
@@ -16,7 +17,7 @@ const Navbar = () => {
   const dropdownTimeout = useRef(null);
   const navigate = useNavigate();
 
-  // Fetch categories from API
+  // Fetch categories and subcategories from API
   useEffect(() => {
     const fetchCategories = async () => {
       try {
@@ -37,7 +38,23 @@ const Navbar = () => {
       }
     };
 
+    const fetchSubcategories = async () => {
+      try {
+        const response = await fetch('/api/subcategories-api');
+        const data = await response.json();
+        
+        if (data.success) {
+          setSubcategories(data.data || []);
+        } else {
+          console.error('Failed to fetch subcategories:', data.error);
+        }
+      } catch (err) {
+        console.error('Error fetching subcategories:', err);
+      }
+    };
+
     fetchCategories();
+    fetchSubcategories();
   }, []);
 
   const handleSearchSubmit = (e) => {
@@ -81,6 +98,11 @@ const Navbar = () => {
     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
       setIsDropdownOpen(false);
     }
+  };
+
+  // Get subcategories for a specific category
+  const getCategorySubcategories = (categoryId) => {
+    return subcategories.filter(sub => sub.category_id === categoryId);
   };
 
   useEffect(() => {
@@ -138,7 +160,7 @@ const Navbar = () => {
                   ) : error ? (
                     <div className="text-center text-red-500 py-4">{error}</div>
                   ) : (
-                    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                       {categories.map((category) => (
                         <div 
                           key={category.id} 
@@ -147,16 +169,27 @@ const Navbar = () => {
                         >
                           <Link
                             to={`/category/${encodeURIComponent(category.name)}`}
-                            className="text-sm font-medium hover:text-blue-600 transition-colors py-2"
+                            className="flex flex-col items-center group"
                             onClick={() => setIsDropdownOpen(false)}
                           >
-                            {category.name}
+                            <div className="w-16 h-16 overflow-hidden rounded-lg mb-2 border border-gray-200">
+                              <img
+                                src={category.img}
+                                alt={category.name}
+                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                                onError={(e) => {
+                                  e.target.onerror = null;
+                                  e.target.src = 'https://via.placeholder.com/100';
+                                }}
+                              />
+                            </div>
+                            <span className="text-sm font-medium text-center">{category.name}</span>
                           </Link>
                           
-                          {/* Subcategories - only show when category is active */}
-                          {activeCategory === category.id && category.subcategories && category.subcategories.length > 0 && (
-                            <ul className="mt-1 space-y-1 pl-2 border-l border-gray-200">
-                              {category.subcategories.map((subcategory) => (
+                          {/* Subcategories - show when category is active */}
+                          {activeCategory === category.id && (
+                            <ul className="mt-3 space-y-1 pl-2 border-l border-gray-200">
+                              {getCategorySubcategories(category.id).map((subcategory) => (
                                 <li key={subcategory.id}>
                                   <Link
                                     to={`/category/${encodeURIComponent(category.name)}/${encodeURIComponent(subcategory.name)}`}
@@ -167,6 +200,9 @@ const Navbar = () => {
                                   </Link>
                                 </li>
                               ))}
+                              {getCategorySubcategories(category.id).length === 0 && (
+                                <li className="text-xs text-gray-400 py-1">No subcategories</li>
+                              )}
                             </ul>
                           )}
                         </div>
@@ -268,7 +304,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden absolute top-16 right-4 bg-[var(--navbar-mobile-menu-bg-color)] shadow-lg rounded-lg p-4 w-48">
+          <div className="md:hidden absolute top-16 right-0 left-0 bg-[var(--navbar-mobile-menu-bg-color)] shadow-lg p-4">
             <div className="flex flex-col space-y-3">
               <Link
                 to="/"
@@ -305,6 +341,34 @@ const Navbar = () => {
               >
                 UrbanGear
               </Link>
+              
+              {/* Mobile Categories */}
+              <div className="pt-2 border-t border-gray-200">
+                <span className="text-[var(--navbar-mobile-link-color)] font-medium">Categories</span>
+                <div className="grid grid-cols-2 gap-3 mt-2">
+                  {categories.map(category => (
+                    <Link
+                      key={category.id}
+                      to={`/category/${encodeURIComponent(category.name)}`}
+                      className="flex items-center space-x-2 text-[var(--navbar-mobile-link-color)] hover:text-[var(--navbar-mobile-link-hover-color)]"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      <div className="w-8 h-8 overflow-hidden rounded-md">
+                        <img
+                          src={category.img}
+                          alt={category.name}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = 'https://via.placeholder.com/50';
+                          }}
+                        />
+                      </div>
+                      <span className="text-sm">{category.name}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         )}
