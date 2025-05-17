@@ -31,25 +31,28 @@ const ProductListPage = ({ products: allProducts = [] }) => {
 
   // Memoized Filtering Logic
   const filteredProducts = useMemo(() => {
-    let filtered = allProducts;
+    let filtered = allProducts || [];
 
     // Filter by category first
     if (selectedCategory !== "All") {
       filtered = filtered.filter(
-        (product) => product.category.toLowerCase() === selectedCategory.toLowerCase()
+        (product) => product && product.category && 
+        product.category.toLowerCase() === selectedCategory.toLowerCase()
       );
     }
 
     // Then filter by search query
     if (query) {
       filtered = filtered.filter((product) =>
+        product && product.title && 
         product.title.toLowerCase().includes(query.toLowerCase())
       );
     }
 
     // Finally filter by price range
     return filtered.filter(
-      (product) => product.price >= priceRange[0] && product.price <= priceRange[1]
+      (product) => product && typeof product.price === 'number' && 
+      product.price >= priceRange[0] && product.price <= priceRange[1]
     );
   }, [allProducts, selectedCategory, query, priceRange]);
 

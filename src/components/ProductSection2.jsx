@@ -90,7 +90,7 @@ const ProductSection2 = ({ title, products }) => {
                                     {/* Product Image */}
                                     <div className="relative mb-3 overflow-hidden rounded-lg">
                                         <img
-                                            src={product.img}
+                                            src={product.image}
                                             alt={product.title}
                                             className="w-full h-72 object-cover transition-transform duration-300 hover:scale-110"
                                             onError={(e) => {
