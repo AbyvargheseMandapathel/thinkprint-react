@@ -16,8 +16,6 @@ import { heroBanner, announcementMessage } from "./input/data";
 import { generateBreadcrumbs } from "./utils/breadcrumbUtils";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import ContactUsPage from "./pages/ContactUsPage";
-import "./theme.css";
-// import { categories } from "./input/categories";
 import AboutUsPage from "./pages/AboutUsPage";
 import CategoryManagement from "./pages/admin/CategoryManagement";
 import ProductManagement from "./pages/admin/ProductManagement";
@@ -26,46 +24,59 @@ import ProductCard from "./components/ProductCard";
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
   const [products, setProducts] = useState([]);
+  const [categories, setCategories] = useState([]);
   const [trendingProducts, setTrendingProducts] = useState([]);
   const [allProducts, setAllProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  // Fetch both products and categories on mount
   useEffect(() => {
-    const fetchProducts = async () => {
+    const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/api/products-api');
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-        const data = await response.json();
+        const [productsRes, categoriesRes] = await Promise.all([
+          fetch('/api/products-api'),
+          fetch('/api/categories-api')
+        ]);
 
-        if (data.success && Array.isArray(data.data)) {
-          const fetchedProducts = data.data;
-          setProducts(fetchedProducts);
-
-          // Get 4 random trending products
-          const shuffled = [...fetchedProducts].sort(() => 0.5 - Math.random());
-          setTrendingProducts(shuffled.slice(0, 4));
-
-          // Get first 8 products for All Products section
-          setAllProducts(fetchedProducts.slice(0, 8));
-        } else {
-          setError(data.message || 'Failed to fetch products');
-          setTrendingProducts([]);
-          setAllProducts([]);
+        if (!productsRes.ok || !categoriesRes.ok) {
+          throw new Error('Failed to fetch data');
         }
+
+        const productsData = await productsRes.json();
+        const categoriesData = await categoriesRes.json();
+
+        if (!productsData.success || !categoriesData.success) {
+          throw new Error('API returned unsuccessful response');
+        }
+
+        // Set state
+        setProducts(productsData.data || []);
+        setCategories(categoriesData.data || []);
+
       } catch (err) {
-        setError('Error connecting to the server');
-        console.error('Error fetching products:', err);
-        setTrendingProducts([]);
-        setAllProducts([]);
+        console.error('Error fetching data:', err);
+        setError('Failed to load products or categories');
       } finally {
         setLoading(false);
       }
     };
 
-    fetchProducts();
+    fetchData();
   }, []);
+
+  // Update trending and all products when products change
+  useEffect(() => {
+    if (!products.length) return;
+
+    // Get 4 random trending products
+    const shuffled = [...products].sort(() => 0.5 - Math.random());
+    setTrendingProducts(shuffled.slice(0, 4));
+
+    // Get first 8 products for All Products section
+    setAllProducts(products.slice(0, 8));
+  }, [products]);
 
   return (
     <Router>
@@ -86,8 +97,8 @@ const App = () => {
                 {/* Hero Banner */}
                 <HeroBannerStyle1 heroBanner={heroBanner} />
 
-                {/* Category Carousel - Ensure categories is not undefined */}
-                <CategoryCarousel categories={categories || []} />
+                {/* Category Carousel */}
+                <CategoryCarousel categories={categories} />
 
                 {/* Trending & All Products Section */}
                 <section className="container mx-auto px-4 py-12">
@@ -110,8 +121,8 @@ const App = () => {
           />
 
           {/* Other Routes */}
-          <Route path="/products" element={<ProductListPage products={products.filter(p => p && p.is_urbangear === 0) || []} />} />
-          <Route path="/urbangear" element={<ProductListPage products={products.filter(p => p && p.is_urbangear === 1) || []} />} />
+          <Route path="/products" element={<ProductListPage products={products.filter(p => p.is_urbangear === 0)} />} />
+          <Route path="/urbangear" element={<ProductListPage products={products.filter(p => p.is_urbangear === 1)} />} />
           <Route path="/product/:id" element={<ProductDetailPage />} />
           <Route path="/search" element={<SearchResult />} />
           <Route path="/category/:categoryName" element={<ProductListPage products={products} />} />
