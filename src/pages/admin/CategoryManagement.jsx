@@ -24,7 +24,7 @@ const CategoryManagement = () => {
   const fetchCategories = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await fetch('/api/categories');
+      const response = await fetch('/api/categories-api');
       
       if (!response.ok) {
         throw new Error(`Server responded with status: ${response.status}`);
@@ -54,7 +54,7 @@ const CategoryManagement = () => {
   const fetchSubcategories = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await fetch('/api/subcategories');
+      const response = await fetch('/api/subcategories-api');
       
       if (!response.ok) {
         throw new Error(`Server responded with status: ${response.status}`);
@@ -177,10 +177,7 @@ const CategoryManagement = () => {
           img: imageUrl
         };
         
-        const url = formMode === 'add' 
-          ? '/api/categories-add' 
-          : '/api/categories-update';
-        
+        const url = '/api/categories-api';
         const method = formMode === 'add' ? 'POST' : 'PUT';
         
         const response = await fetch(url, {
@@ -223,10 +220,7 @@ const CategoryManagement = () => {
           ...currentSubcategory
         };
         
-        const url = formMode === 'add' 
-          ? '/api/subcategories-add' 
-          : '/api/subcategories-update';
-        
+        const url = '/api/subcategories-api';
         const method = formMode === 'add' ? 'POST' : 'PUT';
         
         const response = await fetch(url, {
@@ -298,8 +292,8 @@ const CategoryManagement = () => {
     
     try {
       const url = activeTab === 'categories' 
-        ? `/api/categories-delete?id=${id}` 
-        : `/api/subcategories-delete?id=${id}`;
+        ? `/api/categories-api?id=${id}` 
+        : `/api/subcategories-api?id=${id}`;
         
       const response = await fetch(url, {
         method: 'DELETE'
