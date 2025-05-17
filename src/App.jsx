@@ -34,8 +34,13 @@ const App = () => {
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        // Replace with your actual API endpoint
-        const response = await fetch('/api/products');
+        // Fetch from the serverless API endpoint
+        const response = await fetch('/api/products-api');
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
         const data = await response.json();
         
         if (data.success) {

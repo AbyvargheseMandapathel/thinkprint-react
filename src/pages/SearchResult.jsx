@@ -1,37 +1,68 @@
-import React from "react";
-import { useLocation } from "react-router-dom";
-import ProductListPage from "./ProductListPage";
-import { generateBreadcrumbs } from "../utils/breadcrumbUtils";
-import { categories } from "../input/categories"; 
-import { products } from "../input/products";
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ProductCard from '../components/ProductCard';
 
 const SearchResult = () => {
-  // Get the search query from the URL
+  const [searchResults, setSearchResults] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const location = useLocation();
-  const queryParams = new URLSearchParams(location.search);
-  const query = queryParams.get("query") || "";
+  const searchQuery = new URLSearchParams(location.search).get('q') || '';
 
-  // Filter categories and products based on the search query
-  const filteredCategories = categories.filter((category) =>
-    category.name.toLowerCase().includes(query.toLowerCase())
-  );
+  useEffect(() => {
+    const fetchSearchResults = async () => {
+      if (!searchQuery) {
+        setSearchResults([]);
+        setLoading(false);
+        return;
+      }
 
-  const filteredProducts = products.filter(
-    (product) =>
-      product.title.toLowerCase().includes(query.toLowerCase()) ||
-      product.shortDescription.toLowerCase().includes(query.toLowerCase()) ||
-      product.longDescription.toLowerCase().includes(query.toLowerCase())
-  );
+      try {
+        setLoading(true);
+        const response = await fetch(`/api/product-search?q=${encodeURIComponent(searchQuery)}`);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (data.success) {
+          setSearchResults(data.data || []);
+        } else {
+          setError(data.error || 'Failed to fetch search results');
+          setSearchResults([]);
+        }
+      } catch (err) {
+        setError('Error connecting to the server');
+        console.error('Error fetching search results:', err);
+        setSearchResults([]);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  // Generate breadcrumbs for the search page
-  const breadcrumbs = generateBreadcrumbs("search");
+    fetchSearchResults();
+  }, [searchQuery]);
 
   return (
-    <ProductListPage
-      title={`Search Results for "${query}"`}
-      products={filteredProducts} // Pass the filtered products
-      breadcrumbs={breadcrumbs}
-    />
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-2xl font-bold mb-6">Search Results for "{searchQuery}"</h1>
+      
+      {loading ? (
+        <p className="text-center py-8">Loading search results...</p>
+      ) : error ? (
+        <p className="text-center text-red-500 py-8">{error}</p>
+      ) : searchResults.length === 0 ? (
+        <p className="text-center py-8">No products found matching your search.</p>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {searchResults.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
+      )}
+    </div>
   );
 };
 
