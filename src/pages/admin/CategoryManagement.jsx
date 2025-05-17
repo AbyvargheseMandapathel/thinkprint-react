@@ -9,6 +9,7 @@ const CategoryManagement = () => {
   const [currentCategory, setCurrentCategory] = useState({ id: null, name: '', img: '' });
   const [imageFile, setImageFile] = useState(null);
   const [imagePreview, setImagePreview] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const fileInputRef = useRef(null);
   const navigate = useNavigate();
 
@@ -54,6 +55,11 @@ const CategoryManagement = () => {
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     if (file) {
+      // Clear previous file and preview
+      if (imagePreview && imagePreview.startsWith('blob:')) {
+        URL.revokeObjectURL(imagePreview);
+      }
+      
       setImageFile(file);
       
       // Create a preview URL
@@ -62,6 +68,9 @@ const CategoryManagement = () => {
         setImagePreview(reader.result);
       };
       reader.readAsDataURL(file);
+    } else {
+      // If file selection was cancelled
+      setImageFile(null);
     }
   };
 
@@ -75,6 +84,11 @@ const CategoryManagement = () => {
         method: 'POST',
         body: formData
       });
+      
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || `Upload failed with status: ${response.status}`);
+      }
       
       const data = await response.json();
       
@@ -94,6 +108,9 @@ const CategoryManagement = () => {
     e.preventDefault();
     
     try {
+      setIsSubmitting(true);
+      setError(null);
+      
       let imageUrl = currentCategory.img;
       
       // If a new image was selected, upload it first
@@ -120,13 +137,24 @@ const CategoryManagement = () => {
         body: JSON.stringify(categoryData)
       });
       
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || `Operation failed with status: ${response.status}`);
+      }
+      
       const data = await response.json();
       
       if (data.success) {
         // Reset form and refresh categories
         setCurrentCategory({ id: null, name: '', img: '' });
         setImageFile(null);
+        
+        // Clean up object URL if it exists
+        if (imagePreview && imagePreview.startsWith('blob:')) {
+          URL.revokeObjectURL(imagePreview);
+        }
         setImagePreview('');
+        
         if (fileInputRef.current) {
           fileInputRef.current.value = '';
         }
@@ -138,6 +166,8 @@ const CategoryManagement = () => {
     } catch (err) {
       setError('Error: ' + err.message);
       console.error('Error submitting form:', err);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -179,6 +209,12 @@ const CategoryManagement = () => {
   // Cancel edit mode
   const handleCancel = () => {
     setCurrentCategory({ id: null, name: '', img: '' });
+    
+    // Clean up object URL if it exists
+    if (imagePreview && imagePreview.startsWith('blob:')) {
+      URL.revokeObjectURL(imagePreview);
+    }
+    
     setImageFile(null);
     setImagePreview('');
     if (fileInputRef.current) {
@@ -186,6 +222,16 @@ const CategoryManagement = () => {
     }
     setFormMode('add');
   };
+
+  // Clean up resources when component unmounts
+  useEffect(() => {
+    return () => {
+      // Clean up any blob URLs when component unmounts
+      if (imagePreview && imagePreview.startsWith('blob:')) {
+        URL.revokeObjectURL(imagePreview);
+      }
+    };
+  }, [imagePreview]);
 
   if (loading && categories.length === 0) {
     return (
@@ -265,10 +311,13 @@ const CategoryManagement = () => {
           
           <div className="flex items-center justify-between">
             <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ${
+                isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
+              }`}
               type="submit"
+              disabled={isSubmitting}
             >
-              {formMode === 'add' ? 'Add Category' : 'Update Category'}
+              {isSubmitting ? 'Processing...' : formMode === 'add' ? 'Add Category' : 'Update Category'}
             </button>
             
             {formMode === 'edit' && (
@@ -276,6 +325,7 @@ const CategoryManagement = () => {
                 className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="button"
                 onClick={handleCancel}
+                disabled={isSubmitting}
               >
                 Cancel
               </button>
