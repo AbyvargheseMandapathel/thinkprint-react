@@ -1,34 +1,61 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { categories } from '../input/categories';
 
 const Navbar = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("");
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const navigate = useNavigate();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [activeCategory, setActiveCategory] = useState(null);
+  
+  const searchRef = useRef(null);
   const dropdownRef = useRef(null);
   const dropdownTimeout = useRef(null);
+  const navigate = useNavigate();
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
+  // Fetch categories from API
+  useEffect(() => {
+    const fetchCategories = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch('/api/categories-api');
+        const data = await response.json();
+        
+        if (data.success) {
+          setCategories(data.data || []);
+        } else {
+          setError(data.error || 'Failed to fetch categories');
+        }
+      } catch (err) {
+        setError('Error connecting to the server');
+        console.error('Error fetching categories:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  const handleSearchChange = (e) => {
-    setSearchQuery(e.target.value);
-  };
+    fetchCategories();
+  }, []);
 
-  const handleKeyPress = (e) => {
-    if (e.key === "Enter" && searchQuery.trim()) {
-      navigate(`/search?query=${encodeURIComponent(searchQuery.trim())}`);
-      setSearchQuery("");
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
       setIsSearchOpen(false);
+      setSearchQuery("");
     }
   };
 
-  const toggleSearchBox = () => {
-    setIsSearchOpen((prevState) => !prevState);
+  const handleSearchIconClick = () => {
+    setIsSearchOpen(!isSearchOpen);
+    if (!isSearchOpen) {
+      setTimeout(() => {
+        searchRef.current?.focus();
+      }, 100);
+    }
   };
 
   const handleDropdownMouseEnter = () => {
@@ -39,10 +66,18 @@ const Navbar = () => {
   const handleDropdownMouseLeave = () => {
     dropdownTimeout.current = setTimeout(() => {
       setIsDropdownOpen(false);
-    }, 300); // Adjust the delay time as needed
+      setActiveCategory(null);
+    }, 300);
+  };
+
+  const handleCategoryHover = (categoryId) => {
+    setActiveCategory(categoryId);
   };
 
   const handleClickOutside = (event) => {
+    if (searchRef.current && !searchRef.current.contains(event.target)) {
+      setIsSearchOpen(false);
+    }
     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
       setIsDropdownOpen(false);
     }
@@ -98,43 +133,46 @@ const Navbar = () => {
                   onMouseEnter={handleDropdownMouseEnter}
                   onMouseLeave={handleDropdownMouseLeave}
                 >
-                  <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
-                    {categories.map((category) => (
-                      <div key={category.id} className="flex flex-col">
-                        <Link
-                          to={`/category/${encodeURIComponent(category.name)}`}
-                          className="flex flex-col items-center group"
-                          onClick={() => setIsDropdownOpen(false)}
+                  {loading ? (
+                    <div className="text-center py-4">Loading categories...</div>
+                  ) : error ? (
+                    <div className="text-center text-red-500 py-4">{error}</div>
+                  ) : (
+                    <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                      {categories.map((category) => (
+                        <div 
+                          key={category.id} 
+                          className="flex flex-col"
+                          onMouseEnter={() => handleCategoryHover(category.id)}
                         >
-                          <div className="w-20 h-20 overflow-hidden rounded-lg mb-2">
-                            <img
-                              src={category.img}
-                              alt={category.name}
-                              className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                            />
-                          </div>
-                          <span className="text-sm font-medium text-center">{category.name}</span>
-                        </Link>
-                        
-                        {/* Subcategories */}
-                        {category.subcategories && category.subcategories.length > 0 && (
-                          <ul className="mt-2 space-y-1">
-                            {category.subcategories.map((subcategory) => (
-                              <li key={subcategory.id}>
-                                <Link
-                                  to={`/category/${encodeURIComponent(category.name)}/${encodeURIComponent(subcategory.name)}`}
-                                  className="text-xs text-gray-600 hover:text-blue-600 transition-colors"
-                                  onClick={() => setIsDropdownOpen(false)}
-                                >
-                                  {subcategory.name}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </div>
-                    ))}
-                  </div>
+                          <Link
+                            to={`/category/${encodeURIComponent(category.name)}`}
+                            className="text-sm font-medium hover:text-blue-600 transition-colors py-2"
+                            onClick={() => setIsDropdownOpen(false)}
+                          >
+                            {category.name}
+                          </Link>
+                          
+                          {/* Subcategories - only show when category is active */}
+                          {activeCategory === category.id && category.subcategories && category.subcategories.length > 0 && (
+                            <ul className="mt-1 space-y-1 pl-2 border-l border-gray-200">
+                              {category.subcategories.map((subcategory) => (
+                                <li key={subcategory.id}>
+                                  <Link
+                                    to={`/category/${encodeURIComponent(category.name)}/${encodeURIComponent(subcategory.name)}`}
+                                    className="text-xs text-gray-600 hover:text-blue-600 transition-colors block py-1"
+                                    onClick={() => setIsDropdownOpen(false)}
+                                  >
+                                    {subcategory.name}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               )}
             </div>
@@ -143,24 +181,49 @@ const Navbar = () => {
 
         {/* Search Icon and Input */}
         <div className="flex items-center gap-4 relative">
-          {isSearchOpen ? (
-            <div className="relative hidden md:flex items-center">
+          <button
+            onClick={handleSearchIconClick}
+            className="text-[var(--navbar-icon-color)] hover:text-[var(--navbar-icon-hover-color)] transition-colors"
+            aria-label="Search"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+
+          {isSearchOpen && (
+            <form
+              onSubmit={handleSearchSubmit}
+              className="absolute right-0 top-full mt-2 bg-white shadow-lg rounded-lg overflow-hidden flex"
+              ref={searchRef}
+            >
               <input
                 type="text"
                 value={searchQuery}
-                onChange={handleSearchChange}
-                onKeyPress={handleKeyPress}
-                placeholder="Search..."
-                className="w-48 px-4 py-2 border-b-2 border-[var(--navbar-search-border-color)] focus:w-64 focus:border-[var(--navbar-search-focus-border-color)] transition-all duration-300 outline-none"
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search products..."
+                className="px-4 py-2 w-64 focus:outline-none"
+                ref={searchRef}
               />
               <button
-                onClick={toggleSearchBox}
-                aria-label="Toggle Search Box"
-                className="absolute right-0 text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)]"
+                type="submit"
+                className="bg-blue-600 text-white px-4 py-2"
+                aria-label="Submit search"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
+                  className="h-5 w-5"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -168,45 +231,36 @@ const Navbar = () => {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2"
+                    strokeWidth={2}
                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                   />
                 </svg>
               </button>
-            </div>
-          ) : (
-            <button
-              onClick={toggleSearchBox}
-              className="hidden md:block text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)]"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                />
-              </svg>
-            </button>
+            </form>
           )}
 
           {/* Mobile Menu Button */}
           <button
-            onClick={toggleMobileMenu}
-            className="md:hidden text-[var(--navbar-link-color)] hover:text-[var(--navbar-link-hover-color)]"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden text-[var(--navbar-icon-color)] hover:text-[var(--navbar-icon-hover-color)] transition-colors"
+            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16"
+                strokeWidth={2}
+                d={
+                  mobileMenuOpen
+                    ? "M6 18L18 6M6 6l12 12"
+                    : "M4 6h16M4 12h16M4 18h16"
+                }
               />
             </svg>
           </button>
@@ -215,20 +269,43 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden absolute top-16 right-4 bg-[var(--navbar-mobile-menu-bg-color)] shadow-lg rounded-lg p-4 w-48">
-            {[
-              { name: "Home", link: "/" },
-              { name: "Products", link: "/products" },
-              { name: "About", link: "/about" },
-              { name: "Contact Us", link: "/contact" },
-            ].map((item) => (
+            <div className="flex flex-col space-y-3">
               <Link
-                key={item.name}
-                to={item.link}
-                className="block text-[var(--navbar-mobile-menu-text-color)] hover:text-[var(--navbar-mobile-menu-hover-color)] mb-2"
+                to="/"
+                className="text-[var(--navbar-mobile-link-color)] hover:text-[var(--navbar-mobile-link-hover-color)] transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
               >
-                {item.name}
+                Home
               </Link>
-            ))}
+              <Link
+                to="/products"
+                className="text-[var(--navbar-mobile-link-color)] hover:text-[var(--navbar-mobile-link-hover-color)] transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Products
+              </Link>
+              <Link
+                to="/about"
+                className="text-[var(--navbar-mobile-link-color)] hover:text-[var(--navbar-mobile-link-hover-color)] transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                About
+              </Link>
+              <Link
+                to="/contact"
+                className="text-[var(--navbar-mobile-link-color)] hover:text-[var(--navbar-mobile-link-hover-color)] transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Contact Us
+              </Link>
+              <Link
+                to="/urbangear"
+                className="text-[var(--navbar-mobile-link-color)] hover:text-[var(--navbar-mobile-link-hover-color)] transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                UrbanGear
+              </Link>
+            </div>
           </div>
         )}
       </nav>
