@@ -110,8 +110,8 @@ const App = () => {
           />
 
           {/* Other Routes */}
-          <Route path="/products" element={<ProductListPage products={products.filter(p => p && p.is_urban === false) || []} />} />
-          <Route path="/urbangear" element={<ProductListPage products={products.filter(p => p && p.is_urban === true) || []} />} />
+          <Route path="/products" element={<ProductListPage products={products.filter(p => p && p.is_urbangear === false) || []} />} />
+          <Route path="/urbangear" element={<ProductListPage products={products.filter(p => p && p.is_urbangear === true) || []} />} />
           <Route path="/product/:id" element={<ProductDetailPage />} />
           <Route path="/search" element={<SearchResult />} />
           <Route path="/category/:categoryName" element={<ProductListPage products={products} />} />
