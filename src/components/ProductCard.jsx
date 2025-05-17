@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 const ProductCard = ({ product }) => {
+  // Ensure product is defined with default values
+  if (!product) {
+    return null; // Return null if product is undefined
+  }
+
   return (
     <Link 
       to={`/product/${product.id}`}
