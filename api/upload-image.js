@@ -41,12 +41,12 @@ export default async function handler(req, res) {
     }
 
     // Parse form data using formidable
-    const form = new formidable.IncomingForm({
-      maxFileSize: 5 * 1024 * 1024, // 5MB limit
-      filter: (part) => {
-        return part.name === 'image' && allowedMimeTypes.includes(part.mimetype);
-      }
-    });
+    const form = formidable({
+        maxFileSize: 5 * 1024 * 1024,
+        filter: (part) => {
+          return part.name === 'image' && allowedMimeTypes.includes(part.mimetype);
+        }
+      });
 
     const [, files] = await new Promise((resolve, reject) => {
       form.parse(req, (err, fields, files) => {
