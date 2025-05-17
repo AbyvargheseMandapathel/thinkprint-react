@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 
 const ProductImageGallery = ({ product }) => {
-    const mainImage = product.img;
+    const mainImage = product.image;
     const thumbnailImages = product.thumbnailImages || [];
     const combinedImages = [mainImage, ...thumbnailImages].slice(0, 8);
     const [selectedImage, setSelectedImage] = useState(mainImage);
 
     // Add this useEffect to reset the selected image when product changes
     useEffect(() => {
-        setSelectedImage(product.img);
-    }, [product.img]);
+        setSelectedImage(product.image);
+    }, [product.image]);
 
     const handleThumbnailClick = (image) => {
         setSelectedImage(image);

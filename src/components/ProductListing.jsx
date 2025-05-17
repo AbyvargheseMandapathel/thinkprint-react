@@ -60,7 +60,7 @@ const ProductListing = ({ products, title }) => {
             {/* Product Image */}
             <div className="relative mb-4 overflow-hidden">
               <img
-                src={product.img}
+                src={product.image}
                 alt={product.title}
                 className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105"
               />
