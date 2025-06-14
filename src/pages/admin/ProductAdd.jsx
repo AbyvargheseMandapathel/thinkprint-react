@@ -98,27 +98,12 @@ const ProductAdd = () => {
     setError('');
     
     try {
-      // Handle image upload or URL
-      let finalImageUrl = '';
-      
-      if (imageInputType === 'file' && imageFile) {
-        finalImageUrl = await uploadImage(imageFile);
-      } else if (imageInputType === 'url' && imageUrl) {
-        finalImageUrl = imageUrl;
-      }
-      
-      // Add the image URL to the form data
-      const productData = {
-        ...formData,
-        image: finalImageUrl
-      };
-      
       const response = await fetch('/api/products-api', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(productData),
+        body: JSON.stringify(formData) // formData now contains the correct image URL
       });
       
       const result = await response.json();

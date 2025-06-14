@@ -188,9 +188,10 @@ const ProductForm = ({
       return;
     }
     
-    let imageUrl = formData.image;
+    let finalImageUrl = '';
 
     if (imageInputType === 'file' && imageFile) {
+      // Handle file upload
       const formDataWithImage = new FormData();
       formDataWithImage.append('image', imageFile);
       
@@ -203,7 +204,7 @@ const ProductForm = ({
         const result = await response.json();
         
         if (result.success) {
-          imageUrl = result.imageUrl;
+          finalImageUrl = result.imageUrl;
         } else {
           setErrors(prev => ({
             ...prev,
@@ -220,13 +221,15 @@ const ProductForm = ({
         window.scrollTo(0, 0);
         return;
       }
-    } else if (imageInputType === 'url') {
-      imageUrl = imageUrl;
+    } else if (imageInputType === 'url' && imageUrl) {
+      // Use the image URL directly
+      finalImageUrl = imageUrl;
     }
     
+    // Submit the form with the image URL
     onSubmit({
       ...formData,
-      image: imageUrl
+      image: finalImageUrl // This will now contain either the uploaded image URL or the direct image URL
     });
   };
 
