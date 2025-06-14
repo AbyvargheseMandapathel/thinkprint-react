@@ -597,7 +597,7 @@ const CategoryManagement = () => {
                         ? 'bg-blue-500 text-white' 
                         : 'bg-gray-200 text-gray-700'
                     }`}
-                    onClick={toggleImageInputType}
+                    onClick={() => setImageInputType('file')}
                   >
                     Upload File
                   </button>
@@ -608,7 +608,7 @@ const CategoryManagement = () => {
                         ? 'bg-blue-500 text-white' 
                         : 'bg-gray-200 text-gray-700'
                     }`}
-                    onClick={toggleImageInputType}
+                    onClick={() => setImageInputType(imageInputType === 'file' ? 'url' : 'file')}
                   >
                     Image URL
                   </button>
