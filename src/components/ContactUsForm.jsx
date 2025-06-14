@@ -23,7 +23,7 @@ const ContactUsForm = () => {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch('/api/contact-form', {
+            const response = await fetch('https://www.thinkprint.shop/api/contact-form', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

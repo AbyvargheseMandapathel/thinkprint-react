@@ -20,6 +20,7 @@ import AboutUsPage from "./pages/AboutUsPage";
 import CategoryManagement from "./pages/admin/CategoryManagement";
 import ProductManagement from "./pages/admin/ProductManagement";
 import ProductCard from "./components/ProductCard";
+import BannerManagement from "./pages/admin/BannerManagement";
 
 const App = () => {
   const breadcrumbs = generateBreadcrumbs("category", "All Products");
@@ -36,8 +37,8 @@ const App = () => {
       try {
         setLoading(true);
         const [productsRes, categoriesRes] = await Promise.all([
-          fetch('/api/products-api'),
-          fetch('/api/categories-api')
+          fetch('https://www.thinkprint.shop/api/products-api'),
+          fetch('https://www.thinkprint.shop/api/categories-api')
         ]);
 
         if (!productsRes.ok || !categoriesRes.ok) {
@@ -131,6 +132,9 @@ const App = () => {
           <Route path="/admin/categories" element={<CategoryManagement />} />
           <Route path="/admin/products" element={<ProductManagement />} />
           <Route path="/admin/products/new" element={<ProductManagement />} />
+          <Route path="/admin/banners" element={<BannerManagement />} />
+          <Route path="/admin/banners/new" element={<BannerManagement />} />
+          <Route path="/admin/banners/edit/:id" element={<BannerManagement />} />
           <Route path="/admin/products/edit/:id" element={<ProductManagement />} />
         </Routes>
 

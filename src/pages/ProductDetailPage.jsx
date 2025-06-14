@@ -21,7 +21,7 @@ const ProductDetailPage = () => {
             try {
                 setLoading(true);
                 // Fetch the specific product by ID
-                const response = await fetch(`/api/products-api?id=${id}`);
+                const response = await fetch(`https://www.thinkprint.shop/api/products-api?id=${id}`);
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
@@ -34,7 +34,7 @@ const ProductDetailPage = () => {
                     setProduct(fetchedProduct);
                     
                     // After getting the product, fetch related products from the same category
-                    const relatedResponse = await fetch(`/api/products-api?category=${fetchedProduct.category_name}`);
+                    const relatedResponse = await fetch(`https://www.thinkprint.shop/api/products-api?category=${fetchedProduct.category_name}`);
                     
                     if (relatedResponse.ok) {
                         const relatedResult = await relatedResponse.json();

@@ -24,7 +24,7 @@ export default defineConfig({
   server: {
     proxy: {
       // Configure API proxies if needed
-      '/api': {
+      'https://www.thinkprint.shop/api': {
         target: 'http://localhost:3000',
         changeOrigin: true,
       },

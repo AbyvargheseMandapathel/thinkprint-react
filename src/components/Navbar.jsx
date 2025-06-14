@@ -22,7 +22,7 @@ const Navbar = () => {
     const fetchCategories = async () => {
       try {
         setLoading(true);
-        const response = await fetch('/api/categories-api');
+        const response = await fetch('https://www.thinkprint.shop/api/categories-api');
         const data = await response.json();
         
         if (data.success) {
@@ -40,7 +40,7 @@ const Navbar = () => {
 
     const fetchSubcategories = async () => {
       try {
-        const response = await fetch('/api/subcategories-api');
+        const response = await fetch('https://www.thinkprint.shop/api/subcategories-api');
         const data = await response.json();
         
         if (data.success) {

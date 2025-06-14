@@ -13,7 +13,7 @@ const ProductEdit = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await fetch(`/api/products-api?id=${id}`);
+        const response = await fetch(`https://www.thinkprint.shop/api/products-api?id=${id}`);
         const result = await response.json();
         
         if (result.success && result.data.length > 0) {
@@ -36,7 +36,7 @@ const ProductEdit = () => {
     setError('');
     
     try {
-      const response = await fetch('/api/products-api', {
+      const response = await fetch('https://www.thinkprint.shop/api/products-api', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
