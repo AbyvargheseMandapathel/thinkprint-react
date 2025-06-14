@@ -22,8 +22,9 @@ const ProductForm = ({
   const [imagePreview, setImagePreview] = useState(initialData.image || '');
   const [imageFile, setImageFile] = useState(null);
   const [errors, setErrors] = useState({});
+  const [imageInputType, setImageInputType] = useState('file'); // Add this state
+  const [imageUrl, setImageUrl] = useState(initialData.image || ''); // Add this state
   const fileInputRef = useRef(null);
-
   const fallbackImage = '/assets/no-image.png';
 
   // Fetch categories and subcategories on component mount
@@ -39,7 +40,7 @@ const ProductForm = ({
         console.error('Error fetching categories:', error);
       }
     };
-
+    
     const fetchSubcategories = async () => {
       try {
         const response = await fetch('/api/subcategories-api');
@@ -58,10 +59,10 @@ const ProductForm = ({
         console.error('Error fetching subcategories:', error);
       }
     };
-
+    
     fetchCategories();
     fetchSubcategories();
-
+    
     // Cleanup function for image preview
     return () => {
       if (imagePreview && imagePreview.startsWith('blob:')) {
@@ -74,12 +75,12 @@ const ProductForm = ({
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     const newValue = type === 'checkbox' ? checked : value;
-
+    
     setFormData(prev => ({
       ...prev,
       [name]: newValue
     }));
-
+    
     // Clear error for this field when user starts typing
     if (errors[name]) {
       setErrors(prev => ({
@@ -87,7 +88,7 @@ const ProductForm = ({
         [name]: ''
       }));
     }
-
+    
     // If category changes, filter subcategories
     if (name === 'category_id' && value) {
       const categoryId = parseInt(value);
@@ -109,13 +110,16 @@ const ProductForm = ({
       if (imagePreview && imagePreview.startsWith('blob:')) {
         URL.revokeObjectURL(imagePreview);
       }
+      
       setImageFile(file);
+      
       // Create a preview URL
       const reader = new FileReader();
       reader.onloadend = () => {
         setImagePreview(reader.result);
       };
       reader.readAsDataURL(file);
+      
       // Clear any image error
       if (errors.image) {
         setErrors(prev => ({
@@ -126,21 +130,51 @@ const ProductForm = ({
     }
   };
 
+  // Add toggle function for image input type
+  const toggleImageInputType = () => {
+    if (imageInputType === 'file') {
+      setImageFile(null);
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
+    } else {
+      setImageUrl('');
+    }
+    
+    if (imagePreview && imagePreview.startsWith('blob:')) {
+      URL.revokeObjectURL(imagePreview);
+    }
+    setImagePreview('');
+    setImageInputType(prev => prev === 'file' ? 'url' : 'file');
+  };
+
+  // Add handler for image URL input
+  const handleImageUrlChange = (e) => {
+    const url = e.target.value;
+    setImageUrl(url);
+    setImagePreview(url);
+  };
+
   // Validate form before submission
   const validateForm = () => {
     const newErrors = {};
+    
     if (!formData.title.trim()) {
       newErrors.title = 'Title is required';
     }
+    
     if (!formData.short_description.trim()) {
       newErrors.short_description = 'Short description is required';
     }
+    
     if (!formData.category_id) {
       newErrors.category_id = 'Category is required';
     }
+    
     if (!formData.subcategory_id) {
       newErrors.subcategory_id = 'Subcategory is required';
     }
+    
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -148,22 +182,26 @@ const ProductForm = ({
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
     if (!validateForm()) {
       window.scrollTo(0, 0);
       return;
     }
-
+    
     let imageUrl = formData.image;
 
-    if (imageFile) {
+    if (imageInputType === 'file' && imageFile) {
       const formDataWithImage = new FormData();
       formDataWithImage.append('image', imageFile);
+      
       try {
         const response = await fetch('/api/upload-image', {
           method: 'POST',
           body: formDataWithImage
         });
+        
         const result = await response.json();
+        
         if (result.success) {
           imageUrl = result.imageUrl;
         } else {
@@ -182,8 +220,10 @@ const ProductForm = ({
         window.scrollTo(0, 0);
         return;
       }
+    } else if (imageInputType === 'url') {
+      imageUrl = imageUrl;
     }
-
+    
     onSubmit({
       ...formData,
       image: imageUrl
@@ -203,7 +243,7 @@ const ProductForm = ({
           </ul>
         </div>
       )}
-
+      
       {/* Title */}
       <div className="mb-4">
         <label htmlFor="title" className="block text-gray-700 font-bold mb-2">
@@ -223,7 +263,7 @@ const ProductForm = ({
           <p className="text-red-500 text-xs italic">{errors.title}</p>
         )}
       </div>
-
+      
       {/* Short Description */}
       <div className="mb-4">
         <label htmlFor="short_description" className="block text-gray-700 font-bold mb-2">
@@ -243,7 +283,7 @@ const ProductForm = ({
           <p className="text-red-500 text-xs italic">{errors.short_description}</p>
         )}
       </div>
-
+      
       {/* Long Description */}
       <div className="mb-4">
         <label htmlFor="long_description" className="block text-gray-700 font-bold mb-2">
@@ -258,7 +298,7 @@ const ProductForm = ({
           className="shadow appearance-none border border-gray-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
-
+      
       {/* Design Specifications */}
       <div className="mb-4">
         <label htmlFor="design_specifications" className="block text-gray-700 font-bold mb-2">
@@ -277,7 +317,7 @@ const ProductForm = ({
           Enter each specification on a new line. These will be displayed as bullet points.
         </p>
       </div>
-
+      
       {/* Category */}
       <div className="mb-4">
         <label htmlFor="category_id" className="block text-gray-700 font-bold mb-2">
@@ -303,7 +343,7 @@ const ProductForm = ({
           <p className="text-red-500 text-xs italic">{errors.category_id}</p>
         )}
       </div>
-
+      
       {/* Subcategory */}
       <div className="mb-4">
         <label htmlFor="subcategory_id" className="block text-gray-700 font-bold mb-2">
@@ -332,7 +372,7 @@ const ProductForm = ({
           <p className="text-red-500 text-xs italic">{errors.subcategory_id}</p>
         )}
       </div>
-
+      
       {/* Urban Gear Checkbox */}
       <div className="mb-4">
         <label className="flex items-center">
@@ -346,42 +386,86 @@ const ProductForm = ({
           <span className="text-gray-700">Mark as Urban Gear product</span>
         </label>
       </div>
-
+      
       {/* Product Image */}
       <div className="mb-6">
         <label className="block text-gray-700 font-bold mb-2">
           Product Image
         </label>
+        
+        {/* Toggle Buttons */}
+        <div className="flex items-center mb-4">
+          <button
+            type="button"
+            className={`mr-2 px-4 py-2 rounded ${
+              imageInputType === 'file' 
+                ? 'bg-blue-500 text-white'
+                : 'bg-gray-200 text-gray-700'
+            }`}
+            onClick={toggleImageInputType}
+          >
+            Upload File
+          </button>
+          <button
+            type="button"
+            className={`px-4 py-2 rounded ${
+              imageInputType === 'url'
+                ? 'bg-blue-500 text-white'
+                : 'bg-gray-200 text-gray-700'
+            }`}
+            onClick={toggleImageInputType}
+          >
+            Image URL
+          </button>
+        </div>
+        
+        {/* Input Fields */}
         <div className="flex items-center">
           <div className="mr-4">
             <img
               src={imagePreview || fallbackImage}
               alt="Product preview"
               className="w-32 h-32 object-cover border border-gray-300 rounded"
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = fallbackImage;
+              }}
             />
           </div>
-          <div>
-            <input
-              type="file"
-              ref={fileInputRef}
-              onChange={handleImageChange}
-              accept="image/*"
-              className="hidden"
-            />
-            <button
-              type="button"
-              onClick={() => fileInputRef.current?.click()}
-              className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            >
-              {formData.image ? 'Change Image' : 'Upload Image'}
-            </button>
+          <div className="flex-1">
+            {imageInputType === 'file' ? (
+              <>
+                <input
+                  type="file"
+                  ref={fileInputRef}
+                  onChange={handleImageChange}
+                  accept="image/*"
+                  className="hidden"
+                />
+                <button
+                  type="button"
+                  onClick={() => fileInputRef.current?.click()}
+                  className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                >
+                  {formData.image ? 'Change Image' : 'Upload Image'}
+                </button>
+              </>
+            ) : (
+              <input
+                type="url"
+                value={imageUrl}
+                onChange={handleImageUrlChange}
+                placeholder="Enter image URL"
+                className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500"
+              />
+            )}
             {errors.image && (
               <p className="text-red-500 text-xs italic mt-2">{errors.image}</p>
             )}
           </div>
         </div>
       </div>
-
+      
       {/* Submit Button */}
       <div className="flex items-center justify-between">
         <button
