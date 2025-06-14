@@ -1,20 +1,22 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
-const ProductForm = ({ 
-  initialData = {
-    title: '',
-    short_description: '',
-    long_description: '',
-    design_specifications: '',
-    image: '',
-    category_id: '',
-    subcategory_id: '',
-    is_urbangear: false
-  }, 
-  onSubmit,
-  isSubmitting = false
-}) => {
+const ProductForm = (props) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const {
+    initialData = {
+      title: '',
+      short_description: '',
+      long_description: '',
+      design_specifications: '',
+      image: '',
+      category_id: '',
+      subcategory_id: '',
+      is_urbangear: false
+    }, 
+    onSubmit,
+    isSubmitting: propIsSubmitting = false
+  } = props;
   const [formData, setFormData] = useState(initialData);
   const [categories, setCategories] = useState([]);
   const [subcategories, setSubcategories] = useState([]);
