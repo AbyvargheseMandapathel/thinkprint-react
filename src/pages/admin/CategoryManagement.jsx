@@ -14,6 +14,7 @@ const CategoryManagement = () => {
   const [imageFile, setImageFile] = useState(null);
   const [imagePreview, setImagePreview] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [imageInputType, setImageInputType] = useState('file'); // 'file' or 'url'
   const fileInputRef = useRef(null);
   // Remove unused navigate declaration
 
@@ -96,13 +97,18 @@ const CategoryManagement = () => {
         ...prev,
         [name]: value
       }));
+      
+      // If changing the image URL directly, update the preview
+      if (name === 'img' && imageInputType === 'url') {
+        setImagePreview(value);
+      }
     } else {
       setCurrentSubcategory(prev => ({
         ...prev,
         [name]: value
       }));
     }
-  }, [activeTab]);
+  }, [activeTab, imageInputType]);
 
   // Handle image file selection - converted to useCallback
   const handleImageChange = useCallback((e) => {
@@ -167,9 +173,13 @@ const CategoryManagement = () => {
       if (activeTab === 'categories') {
         let imageUrl = currentCategory.img;
         
-        // If a new image was selected, upload it first
-        if (imageFile) {
+        // If using file upload and a new image was selected, upload it
+        if (imageInputType === 'file' && imageFile) {
           imageUrl = await uploadImage(imageFile);
+        }
+        // If using URL input, use the URL directly
+        else if (imageInputType === 'url') {
+          imageUrl = currentCategory.img;
         }
         
         const categoryData = {
@@ -335,6 +345,9 @@ const CategoryManagement = () => {
       if (fileInputRef.current) {
         fileInputRef.current.value = '';
       }
+      
+      // Reset to default image input type
+      setImageInputType('file');
     } else {
       setCurrentSubcategory({ id: null, name: '', category_id: '' });
     }
@@ -571,63 +584,103 @@ const CategoryManagement = () => {
           )}
           
           {activeTab === 'categories' && (
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="image">
-                Category Image
-              </label>
-              <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                id="image"
-                type="file"
-                accept="image/*"
-                ref={fileInputRef}
-                onChange={handleImageChange}
-              />
-              <p className="text-xs text-gray-500 mt-1">
-                Upload a new image or leave empty to keep the current one.
-              </p>
-            </div>
+            <>
+              <div className="mb-4">
+                <label className="block text-gray-700 text-sm font-bold mb-2">
+                  Category Image
+                </label>
+                <div className="flex items-center mb-2">
+                  <button
+                    type="button"
+                    className={`mr-2 px-3 py-1 rounded ${
+                      imageInputType === 'file' 
+                        ? 'bg-blue-500 text-white' 
+                        : 'bg-gray-200 text-gray-700'
+                    }`}
+                    onClick={toggleImageInputType}
+                  >
+                    Upload File
+                  </button>
+                  <button
+                    type="button"
+                    className={`px-3 py-1 rounded ${
+                      imageInputType === 'url' 
+                        ? 'bg-blue-500 text-white' 
+                        : 'bg-gray-200 text-gray-700'
+                    }`}
+                    onClick={toggleImageInputType}
+                  >
+                    Image URL
+                  </button>
+                </div>
+                
+                {imageInputType === 'file' ? (
+                  <div>
+                    <input
+                      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      id="image"
+                      type="file"
+                      accept="image/*"
+                      ref={fileInputRef}
+                      onChange={handleImageChange}
+                    />
+                    <p className="text-xs text-gray-500 mt-1">
+                      Upload a new image or leave empty to keep the current one.
+                    </p>
+                  </div>
+                ) : (
+                  <div>
+                    <input
+                      className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      id="img"
+                      type="url"
+                      name="img"
+                      placeholder="Enter image URL"
+                      value={currentCategory.img}
+                      onChange={handleInputChange}
+                    />
+                    <p className="text-xs text-gray-500 mt-1">
+                      Enter a direct URL to an image (e.g., https://example.com/image.jpg)
+                    </p>
+                  </div>
+                )}
+              </div>
+              
+              {/* Image Preview */}
+              {imagePreview && (
+                <div className="mb-4">
+                  <label className="block text-gray-700 text-sm font-bold mb-2">
+                    Image Preview
+                  </label>
+                  <div className="border border-gray-200 rounded p-2 w-32 h-32 flex items-center justify-center">
+                    <img 
+                      src={imagePreview} 
+                      alt="Preview" 
+                      className="max-w-full max-h-full object-contain"
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = fallbackImage;
+                      }}
+                    />
+                  </div>
+                </div>
+              )}
+            </>
           )}
           
-          {/* Image Preview */}
-          {activeTab === 'categories' && imagePreview && (
-            <div className="mb-4">
-              <label className="block text-gray-700 text-sm font-bold mb-2">
-                Image Preview
-              </label>
-              <img 
-                src={imagePreview} 
-                alt="Preview" 
-                className="h-32 w-auto object-contain border rounded p-1"
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src = fallbackImage;
-                }}
-              />
-            </div>
-          )}
-          
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mt-6">
             <button
-              className={`bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ${
-                isSubmitting ? 'opacity-50 cursor-not-allowed' : ''
-              }`}
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="submit"
               disabled={isSubmitting}
             >
-              {isSubmitting 
-                ? 'Processing...' 
-                : formMode === 'add' 
-                  ? `Add ${activeTab === 'categories' ? 'Category' : 'Subcategory'}` 
-                  : `Update ${activeTab === 'categories' ? 'Category' : 'Subcategory'}`}
+              {isSubmitting ? 'Saving...' : formMode === 'add' ? 'Add' : 'Update'}
             </button>
-            
             {formMode === 'edit' && (
               <button
                 className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="button"
                 onClick={handleCancel}
-                disabled={isSubmitting}
               >
                 Cancel
               </button>

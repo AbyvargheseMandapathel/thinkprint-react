@@ -7,7 +7,7 @@ const dbConfig = {
   database: 'u911622560_thinkprint',
   waitForConnections: true,
   connectionLimit: 10,
-  ssl: { rejectUnauthorized: true }
+  ssl: false
 };
 
 export default async function handler(req, res) {
