@@ -181,8 +181,13 @@ const ProductForm = ({
 
   // Handle form submission
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Important: Prevent default form submission
     
+    // Add a guard clause to prevent multiple submissions
+    if (isSubmitting) {
+      return;
+    }
+
     if (!validateForm()) {
       window.scrollTo(0, 0);
       return;
@@ -190,12 +195,14 @@ const ProductForm = ({
     
     let finalImageUrl = '';
 
-    if (imageInputType === 'file' && imageFile) {
-      // Handle file upload
-      const formDataWithImage = new FormData();
-      formDataWithImage.append('image', imageFile);
-      
-      try {
+    // Set local submitting state
+    setIsSubmitting(true);
+
+    try {
+      if (imageInputType === 'file' && imageFile) {
+        const formDataWithImage = new FormData();
+        formDataWithImage.append('image', imageFile);
+        
         const response = await fetch('/api/upload-image', {
           method: 'POST',
           body: formDataWithImage
@@ -206,35 +213,36 @@ const ProductForm = ({
         if (result.success) {
           finalImageUrl = result.imageUrl;
         } else {
-          setErrors(prev => ({
-            ...prev,
-            image: result.message || 'Failed to upload image'
-          }));
-          window.scrollTo(0, 0);
-          return;
+          throw new Error(result.message || 'Failed to upload image');
         }
-      } catch (error) {
-        setErrors(prev => ({
-          ...prev,
-          image: 'Error uploading image'
-        }));
-        window.scrollTo(0, 0);
-        return;
+      } else if (imageInputType === 'url' && imageUrl) {
+        finalImageUrl = imageUrl;
       }
-    } else if (imageInputType === 'url' && imageUrl) {
-      // Use the image URL directly
-      finalImageUrl = imageUrl;
+      
+      // Call the onSubmit prop only once with the final data
+      await onSubmit({
+        ...formData,
+        image: finalImageUrl
+      });
+      
+    } catch (error) {
+      setErrors(prev => ({
+        ...prev,
+        image: error.message
+      }));
+      window.scrollTo(0, 0);
+    } finally {
+      setIsSubmitting(false);
     }
-    
-    // Submit the form with the image URL
-    onSubmit({
-      ...formData,
-      image: finalImageUrl // This will now contain either the uploaded image URL or the direct image URL
-    });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form 
+      onSubmit={handleSubmit}
+      className="space-y-6"
+      // Add this to prevent double submissions
+      noValidate
+    >
       {/* Form Errors */}
       {Object.keys(errors).length > 0 && (
         <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
