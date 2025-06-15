@@ -11,7 +11,7 @@ const dbConfig = {
 };
 
 export default async function handler(req, res) {
-  const allowedOrigins = ['http://localhost:5173', 'https://thinkprint.shop', 'http://localhost:3000'];
+  const allowedOrigins = ['http://localhost:5173', 'https://thinkprint.shop', 'https://think-print-anvogue.vercel.app', 'http://localhost:3000'];
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
