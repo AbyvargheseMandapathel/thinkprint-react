@@ -2,7 +2,14 @@ import nodemailer from 'nodemailer';
 
 export default async function handler(req, res) {
   // Define allowed origins
-  const allowedOrigins = ['http://localhost:5173', 'https://thinkprint.shop','http://localhost:3000'];
+  const allowedOrigins = [
+    'http://localhost:5173',
+    'https://thinkprint.shop',
+    'https://thinkprint-react.vercel.app',
+    'https://think-print-anvogue.vercel.app',
+    'http://localhost:3000'
+     ];
+     
   const origin = req.headers.origin;
 
   // Set CORS headers if the origin is allowed

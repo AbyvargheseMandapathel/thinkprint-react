@@ -7,8 +7,10 @@ const allowedMimeTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
 const allowedOrigins = [
   'http://localhost:5173',
   'https://thinkprint.shop',
-  'http://localhost:3000',
-];
+  'https://thinkprint-react.vercel.app',
+  'https://think-print-anvogue.vercel.app',
+  'http://localhost:3000'
+   ];
 
 // FTP credentials
 const FTP_HOST = "156.67.73.28";
