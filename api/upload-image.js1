@@ -1,21 +1,20 @@
+import { put } from '@vercel/blob';
 import formidable from 'formidable';
 import fs from 'fs';
-import { FTPClient } from 'basic-ftp';
 
+// Get token from environment variable
+const BLOB_TOKEN = 'vercel_blob_rw_ZQWkdm0dQLlXQofJ_lnELB6BcIPdemqL0Kc2XxKuARuvSyD'
+
+
+// Allowed MIME types
 const allowedMimeTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
+
+// Allowed origins
 const allowedOrigins = [
   'http://localhost:5173',
   'https://thinkprint.shop',
   'http://localhost:3000',
 ];
-
-// Your FTP details
-const FTP_HOST = "156.67.73.28";
-const FTP_USER = "u911622560.thinkprint.shop";
-const FTP_PASSWORD = ":2kt^LP5Hlbwc@8D";
-const FTP_PORT = 21;
-const FTP_UPLOAD_DIR = "/public_html/cdn/media";  // Directory inside your subdomain folder
-const CDN_DOMAIN = "https://cdn.thinkprint.shop/media"; // Public access URL base
 
 export const config = {
   api: {
@@ -35,12 +34,19 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ success: false, message: 'Method Not Allowed' });
 
   try {
+    // Check if BLOB_TOKEN is configured
+    if (!BLOB_TOKEN) {
+      console.error('BLOB_TOKEN is not configured');
+      return res.status(500).json({ success: false, message: 'Server configuration error' });
+    }
+
+    // Parse form data using formidable
     const form = formidable({
-      maxFileSize: 5 * 1024 * 1024, // 5MB limit
-      filter: (part) => {
-        return part.name === 'image' && allowedMimeTypes.includes(part.mimetype);
-      },
-    });
+        maxFileSize: 5 * 1024 * 1024,
+        filter: (part) => {
+          return part.name === 'image' && allowedMimeTypes.includes(part.mimetype);
+        }
+      });
 
     const [, files] = await new Promise((resolve, reject) => {
       form.parse(req, (err, fields, files) => {
@@ -49,11 +55,13 @@ export default async function handler(req, res) {
       });
     });
 
+    // Check if image file was uploaded
     const imageFile = files.image?.[0] || files.image;
     if (!imageFile) {
       return res.status(400).json({ success: false, message: 'No image file uploaded' });
     }
 
+    // Check file type
     if (!allowedMimeTypes.includes(imageFile.mimetype)) {
       return res.status(400).json({
         success: false,
@@ -61,34 +69,29 @@ export default async function handler(req, res) {
       });
     }
 
+    // Generate unique filename
     const fileExtension = imageFile.originalFilename.slice(imageFile.originalFilename.lastIndexOf('.'));
     const filename = `${Date.now()}-${Math.random().toString(36).substring(2, 9)}${fileExtension}`;
-    const localPath = imageFile.filepath;
 
-    // Upload to FTP
-    const client = new FTPClient();
-    await client.access({
-      host: FTP_HOST,
-      user: FTP_USER,
-      password: FTP_PASSWORD,
-      port: FTP_PORT,
-      secure: false,
+    // Read file data
+    const fileData = fs.readFileSync(imageFile.filepath);
+
+    // Upload to Vercel Blob
+    const blob = await put(`categories/${filename}`, fileData, {
+      access: 'public',
+      contentType: imageFile.mimetype,
+      token: BLOB_TOKEN,
     });
 
-    await client.ensureDir(FTP_UPLOAD_DIR);
-    await client.uploadFrom(localPath, `${FTP_UPLOAD_DIR}/${filename}`);
-    await client.close();
-
-    fs.unlinkSync(localPath); // Remove temp file
-
-    const publicUrl = `${CDN_DOMAIN}/${filename}`;
+    // Clean up temp file
+    fs.unlinkSync(imageFile.filepath);
 
     return res.status(200).json({
       success: true,
-      imageUrl: publicUrl,
+      imageUrl: blob.url,
     });
   } catch (error) {
-    console.error('FTP Upload error:', error);
+    console.error('Upload error:', error);
     return res.status(500).json({ success: false, message: error.message || 'Upload failed' });
   }
 }
