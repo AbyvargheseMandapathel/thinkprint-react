@@ -22,7 +22,7 @@ const ProductManagement = () => {
     setError('');
     
     try {
-      const response = await fetch('https://www.thinkprint.shop/api/products-api');
+      const response = await fetch('/api/products-api');
       const result = await response.json();
       
       if (result.success) {
@@ -44,7 +44,7 @@ const ProductManagement = () => {
     setError('');
     
     try {
-      const response = await fetch(`https://www.thinkprint.shop/api/products-api?id=${productId}`);
+      const response = await fetch(`/api/products-api?id=${productId}`);
       const result = await response.json();
       
       if (result.success && result.data.length > 0) {
@@ -89,7 +89,7 @@ const ProductManagement = () => {
   // Handle product deletion
   const handleDeleteProduct = async (productId) => {
     try {
-      const response = await fetch(`https://www.thinkprint.shop/api/products-api?id=${productId}`, {
+      const response = await fetch(`/api/products-api?id=${productId}`, {
         method: 'DELETE',
       });
       
@@ -120,7 +120,7 @@ const ProductManagement = () => {
         ? JSON.stringify({ ...formData, id: parseInt(id) })
         : JSON.stringify(formData);
       
-      const response = await fetch('https://www.thinkprint.shop/api/products-api', {
+      const response = await fetch('/api/products-api', {
         method,
         headers: {
           'Content-Type': 'application/json',

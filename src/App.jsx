@@ -37,8 +37,8 @@ const App = () => {
       try {
         setLoading(true);
         const [productsRes, categoriesRes] = await Promise.all([
-          fetch('https://www.thinkprint.shop/api/products-api'),
-          fetch('https://www.thinkprint.shop/api/categories-api')
+          fetch('/api/products-api'),
+          fetch('/api/categories-api')
         ]);
 
         if (!productsRes.ok || !categoriesRes.ok) {

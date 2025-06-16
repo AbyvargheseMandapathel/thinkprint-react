@@ -70,7 +70,7 @@ const ProductAdd = () => {
     formData.append('image', file);
     
     try {
-      const response = await fetch('https://www.thinkprint.shop/api/upload-image', {
+      const response = await fetch('/api/upload-image', {
         method: 'POST',
         body: formData
       });
@@ -98,7 +98,7 @@ const ProductAdd = () => {
     setError('');
     
     try {
-      const response = await fetch('https://www.thinkprint.shop/api/products-api', {
+      const response = await fetch('/api/products-api', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

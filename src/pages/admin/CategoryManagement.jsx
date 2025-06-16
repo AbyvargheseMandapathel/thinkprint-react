@@ -25,7 +25,7 @@ const CategoryManagement = () => {
   const fetchCategories = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://www.thinkprint.shop/api/categories-api');
+      const response = await fetch('/api/categories-api');
       
       if (!response.ok) {
         throw new Error(`Server responded with status: ${response.status}`);
@@ -55,7 +55,7 @@ const CategoryManagement = () => {
   const fetchSubcategories = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await fetch('https://www.thinkprint.shop/api/subcategories-api');
+      const response = await fetch('/api/subcategories-api');
       
       if (!response.ok) {
         throw new Error(`Server responded with status: ${response.status}`);
@@ -139,7 +139,7 @@ const CategoryManagement = () => {
     formData.append('image', file);
     
     try {
-      const response = await fetch('https://www.thinkprint.shop/api/upload-image', {
+      const response = await fetch('/api/upload-image', {
         method: 'POST',
         body: formData
       });
@@ -187,7 +187,7 @@ const CategoryManagement = () => {
           img: imageUrl
         };
         
-        const url = 'https://www.thinkprint.shop/api/categories-api';
+        const url = '/api/categories-api';
         const method = formMode === 'add' ? 'POST' : 'PUT';
         
         const response = await fetch(url, {
@@ -230,7 +230,7 @@ const CategoryManagement = () => {
           ...currentSubcategory
         };
         
-        const url = 'https://www.thinkprint.shop/api/subcategories-api';
+        const url = '/api/subcategories-api';
         const method = formMode === 'add' ? 'POST' : 'PUT';
         
         const response = await fetch(url, {
@@ -302,8 +302,8 @@ const CategoryManagement = () => {
     
     try {
       const url = activeTab === 'categories' 
-        ? `https://www.thinkprint.shop/api/categories-api?id=${id}` 
-        : `https://www.thinkprint.shop/api/subcategories-api?id=${id}`;
+        ? `/api/categories-api?id=${id}` 
+        : `/api/subcategories-api?id=${id}`;
         
       const response = await fetch(url, {
         method: 'DELETE'

@@ -24,7 +24,7 @@ const BannerForm = ({ banner, onClose, onSuccess }) => {
     setError('');
 
     try {
-      const response = await fetch('https://www.thinkprint.shop/api/banner-api', {
+      const response = await fetch('/api/banner-api', {
         method: banner ? 'PUT' : 'POST',
         headers: {
           'Content-Type': 'application/json',

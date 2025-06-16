@@ -19,7 +19,7 @@ const SearchResult = () => {
 
       try {
         setLoading(true);
-        const response = await fetch(`https://www.thinkprint.shop/api/product-search?q=${encodeURIComponent(searchQuery)}`);
+        const response = await fetch(`/api/product-search?q=${encodeURIComponent(searchQuery)}`);
         
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

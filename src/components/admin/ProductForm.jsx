@@ -33,7 +33,7 @@ const ProductForm = (props) => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await fetch('https://www.thinkprint.shop/api/categories-api');
+        const response = await fetch('/api/categories-api');
         const result = await response.json();
         if (result.success) {
           setCategories(result.data);
@@ -45,7 +45,7 @@ const ProductForm = (props) => {
     
     const fetchSubcategories = async () => {
       try {
-        const response = await fetch('https://www.thinkprint.shop/api/subcategories-api');
+        const response = await fetch('/api/subcategories-api');
         const result = await response.json();
         if (result.success) {
           setSubcategories(result.data);
@@ -205,7 +205,7 @@ const ProductForm = (props) => {
         const formDataWithImage = new FormData();
         formDataWithImage.append('image', imageFile);
         
-        const response = await fetch('https://www.thinkprint.shop/api/upload-image', {
+        const response = await fetch('/api/upload-image', {
           method: 'POST',
           body: formDataWithImage
         });

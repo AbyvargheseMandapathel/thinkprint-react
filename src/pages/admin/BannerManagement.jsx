@@ -15,7 +15,7 @@ const BannerManagement = () => {
   // Fetch banners
   const fetchBanners = async () => {
     try {
-      const response = await fetch('https://www.thinkprint.shop/api/banner-api');
+      const response = await fetch('/api/banner-api');
       const result = await response.json();
       
       if (result.success) {
@@ -58,7 +58,7 @@ const BannerManagement = () => {
 
   const confirmDelete = async () => {
     try {
-      const response = await fetch(`https://www.thinkprint.shop/api/banner-api?id=${selectedBanner.id}`, {
+      const response = await fetch(`/api/banner-api?id=${selectedBanner.id}`, {
         method: 'DELETE'
       });
       const result = await response.json();

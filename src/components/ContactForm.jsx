@@ -40,7 +40,7 @@ const ContactForm = ({ isOpen, onClose, productName }) => {
         setError(null);
     
         try {
-            const response = await fetch('https://www.thinkprint.shop/api/product-enquiry', {
+            const response = await fetch('/api/product-enquiry', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

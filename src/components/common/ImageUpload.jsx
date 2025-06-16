@@ -24,7 +24,7 @@ const ImageUpload = ({ value, onChange }) => {
       formData.append('image', file);
 
       // First request - Upload image
-      const uploadResponse = await fetch('https://www.thinkprint.shop/api/upload-image', {
+      const uploadResponse = await fetch('/api/upload-image', {
         method: 'POST',
         body: formData,
       });

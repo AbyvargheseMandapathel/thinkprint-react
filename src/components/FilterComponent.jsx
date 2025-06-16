@@ -11,7 +11,7 @@ const FilterComponent = ({ onFilter, initialCategory = "All", initialSubcategori
 
   // Load categories
   useEffect(() => {
-    fetch('https://www.thinkprint.shop/api/categories-api')
+    fetch('/api/categories-api')
       .then(res => res.json())
       .then(data => setCategories(data.data || []))
       .catch(err => console.error(err));
@@ -27,7 +27,7 @@ const FilterComponent = ({ onFilter, initialCategory = "All", initialSubcategori
     const categoryId = categories.find(c => c.name === selectedCategory)?.id;
     if (!categoryId) return;
 
-    fetch(`https://www.thinkprint.shop/api/subcategories-api?category_id=${categoryId}`)
+    fetch(`/api/subcategories-api?category_id=${categoryId}`)
       .then(res => res.json())
       .then(data => setSubcategories(data.data || []))
       .catch(err => console.error(err));
