@@ -1,7 +1,7 @@
 import formidable from 'formidable';
 import fs from 'fs';
-import ftp from 'basic-ftp';  
-const { FTPClient } = ftp;
+import ftp from 'basic-ftp'; // CommonJS import
+const { Client } = ftp; // Correct client class
 
 const allowedMimeTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
 const allowedOrigins = [
@@ -10,13 +10,13 @@ const allowedOrigins = [
   'http://localhost:3000',
 ];
 
-// Your FTP details
+// FTP credentials
 const FTP_HOST = "156.67.73.28";
 const FTP_USER = "u911622560.thinkprint.shop";
 const FTP_PASSWORD = ":2kt^LP5Hlbwc@8D";
 const FTP_PORT = 21;
-const FTP_UPLOAD_DIR = "/public_html/cdn/media";  // Directory inside your subdomain folder
-const CDN_DOMAIN = "https://cdn.thinkprint.shop/media"; // Public access URL base
+const FTP_UPLOAD_DIR = "/public_html/cdn/media";  // Path on server
+const CDN_DOMAIN = "https://cdn.thinkprint.shop/media"; // Public CDN URL
 
 export const config = {
   api: {
@@ -33,20 +33,21 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') return res.status(200).end();
-  if (req.method !== 'POST') return res.status(405).json({ success: false, message: 'Method Not Allowed' });
+  if (req.method !== 'POST') {
+    return res.status(405).json({ success: false, message: 'Method Not Allowed' });
+  }
 
   try {
+    // Parse the form data
     const form = formidable({
-      maxFileSize: 5 * 1024 * 1024, // 5MB limit
-      filter: (part) => {
-        return part.name === 'image' && allowedMimeTypes.includes(part.mimetype);
-      },
+      maxFileSize: 5 * 1024 * 1024, // 5MB
+      filter: (part) => part.name === 'image' && allowedMimeTypes.includes(part.mimetype),
     });
 
     const [, files] = await new Promise((resolve, reject) => {
       form.parse(req, (err, fields, files) => {
         if (err) reject(err);
-        resolve([fields, files]);
+        else resolve([fields, files]);
       });
     });
 
@@ -62,12 +63,13 @@ export default async function handler(req, res) {
       });
     }
 
-    const fileExtension = imageFile.originalFilename.slice(imageFile.originalFilename.lastIndexOf('.'));
-    const filename = `${Date.now()}-${Math.random().toString(36).substring(2, 9)}${fileExtension}`;
+    // Generate unique filename
+    const ext = imageFile.originalFilename.slice(imageFile.originalFilename.lastIndexOf('.'));
+    const filename = `${Date.now()}-${Math.random().toString(36).substring(2, 9)}${ext}`;
     const localPath = imageFile.filepath;
 
-    // Upload to FTP
-    const client = new FTPClient();
+    // FTP Upload
+    const client = new Client();
     await client.access({
       host: FTP_HOST,
       user: FTP_USER,
@@ -78,9 +80,9 @@ export default async function handler(req, res) {
 
     await client.ensureDir(FTP_UPLOAD_DIR);
     await client.uploadFrom(localPath, `${FTP_UPLOAD_DIR}/${filename}`);
-    await client.close();
+    client.close(); // Close connection
 
-    fs.unlinkSync(localPath); // Remove temp file
+    fs.unlinkSync(localPath); // Clean up temp file
 
     const publicUrl = `${CDN_DOMAIN}/${filename}`;
 
@@ -88,8 +90,12 @@ export default async function handler(req, res) {
       success: true,
       imageUrl: publicUrl,
     });
+
   } catch (error) {
     console.error('FTP Upload error:', error);
-    return res.status(500).json({ success: false, message: error.message || 'Upload failed' });
+    return res.status(500).json({
+      success: false,
+      message: error.message || 'Upload failed',
+    });
   }
 }
