@@ -1,6 +1,7 @@
 import formidable from 'formidable';
 import fs from 'fs';
-import { FTPClient } from 'basic-ftp';
+import ftp from 'basic-ftp';  
+const { FTPClient } = ftp;
 
 const allowedMimeTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
 const allowedOrigins = [
