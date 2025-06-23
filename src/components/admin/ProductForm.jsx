@@ -73,6 +73,15 @@ const ProductForm = (props) => {
     };
   }, [initialData.category_id]);
 
+  // Reset form data when initialData prop changes
+  useEffect(() => {
+    setFormData(initialData);
+    setImagePreview(initialData.image || '');
+    setImageUrl(initialData.image || '');
+    setImageFile(null);
+    setErrors({});
+  }, [initialData]);
+
   // Handle input changes
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
